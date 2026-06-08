@@ -1,1 +1,0 @@
-# pachiya-meshi
