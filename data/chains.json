@@ -28,5 +28,20 @@
     "id": "maruhan",
     "name": "マルハン",
     "description_short": "全国最大級のパチンコホールチェーン"
+  },
+  {
+    "id": "vegas-vegas",
+    "name": "ベガスベガス",
+    "description_short": "首都圏を中心に展開するパチンコホールチェーン"
+  },
+  {
+    "id": "kaleido",
+    "name": "カレイド",
+    "description_short": "清潔・親切・良心的を掲げる都市型パチンコホールブランド"
+  },
+  {
+    "id": "kicona",
+    "name": "キコーナ",
+    "description_short": "関東を中心に展開するパチンコホールチェーン"
   }
 ]
