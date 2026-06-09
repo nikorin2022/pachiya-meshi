@@ -1,0 +1,12 @@
+[
+  {
+    "id": "island",
+    "name": "アイランド",
+    "description_short": "都内中心の中小規模パチンコホールチェーン"
+  },
+  {
+    "id": "espace",
+    "name": "エスパス日拓",
+    "description_short": "都市部主体の大型パチンコホールチェーン"
+  }
+]

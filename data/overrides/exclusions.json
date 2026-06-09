@@ -1,0 +1,12 @@
+[
+  {
+    "hall_id": "island-akihabara",
+    "restaurant_id": "burger-king-akihabara-showadori",
+    "reason": "自動距離計算では徒歩8分だが、昭和通り横断の信号待ちを考慮すると実測10〜12分で 10分ルールを超えるため掲載対象外（島側からのアクセス動線が遠い）"
+  },
+  {
+    "hall_id": "espace-akihabara-ekimae",
+    "restaurant_id": "aoshima-shokudo-akihabara",
+    "reason": "自動距離計算では徒歩7分だが、JR高架を跨ぐ動線で実測9〜10分の境界。エスパス側からは紹介対象に含めない（10分ぎりぎりの店は安全側で外す）"
+  }
+]

@@ -15,3 +15,6 @@ node_modules
 .next/
 .DS_Store
 .vercel
+
+# dump-halls / diff-halls の検証用スナップショット (Phase C 中の作業ファイル)
+halls-legacy.json

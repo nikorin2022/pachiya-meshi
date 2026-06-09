@@ -1,0 +1,10 @@
+[
+  {
+    "id": "akihabara",
+    "name": "秋葉原",
+    "prefecture": "東京都",
+    "description_short": "電気街と多数のパチンコホールが集まる都内有数の繁華街",
+    "lat": 35.6985,
+    "lng": 139.7731
+  }
+]

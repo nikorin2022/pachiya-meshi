@@ -1,0 +1,57 @@
+[
+  {
+    "hall_id": "island-akihabara",
+    "restaurant_id": "hakata-furyu-akihabara",
+    "ai_summary": "電気街口側にある、爆速提供＋替玉2玉無料の定番。アイランドからは少し歩くが、勝った日のご褒美にも普段使いにも。"
+  },
+  {
+    "hall_id": "island-akihabara",
+    "restaurant_id": "sutadonya-akihabara",
+    "ai_summary": "アイランド真横、ジャンクでニンニクの効いた伝説のすた丼。圧倒的スピード提供と強烈な塩分・総カロリーで、疲れた脳に活力を注入できる。"
+  },
+  {
+    "hall_id": "espace-akihabara-ekimae",
+    "restaurant_id": "hakata-furyu-akihabara",
+    "ai_summary": "エスパス駅前店から徒歩3分、中央通り南端の電気街口側にある定番。爆速提供＋替玉2玉無料で、45分休憩をフルに活かせる。"
+  },
+  {
+    "hall_id": "espace-akihabara-ekimae",
+    "restaurant_id": "curry-no-shimin-alba-akihabara",
+    "ai_summary": "エスパス駅前店から徒歩4分、秋葉原駅電気街口の裏手・サボニウス広場近く。濃厚な金沢カレーで、サクッとエネルギー補給をするのに便利。"
+  },
+  {
+    "hall_id": "espace-akihabara-ekimae",
+    "restaurant_id": "nadai-fujisoba-akihabara-denkigai",
+    "ai_summary": "エスパス駅前店から徒歩1分、ほぼ真隣（同街区）。24時間営業のため、抽選前の朝食から閉店後の夜食までいつでも使える絶対的安心感。"
+  },
+  {
+    "hall_id": "espace-akihabara-ekimae",
+    "restaurant_id": "mcdonalds-bic-camera-akiba",
+    "ai_summary": "エスパス駅前店から徒歩2分の同街区、ビックカメラAKIBA 1F。朝マックから深夜まで対応で、短時間休憩でも待ち時間なくサクッと済ませられる。"
+  },
+  {
+    "hall_id": "espace-akihabara-ekimae",
+    "restaurant_id": "burger-king-akihabara-showadori",
+    "ai_summary": "駅東側・昭和通り沿いまで徒歩5分。直火焼きワッパーで肉欲をガッツリ満たせる、勝った日の脂質チャージ枠。"
+  },
+  {
+    "hall_id": "espace-akihabara-ekimae",
+    "restaurant_id": "carls-jr-akihabara",
+    "ai_summary": "中央通り沿い、エスパスから徒歩3分。アメリカ式の分厚いパティ系バーガーで、勝ち分を投入する贅沢飯にちょうど良い。"
+  },
+  {
+    "hall_id": "espace-akihabara-ekimae",
+    "restaurant_id": "yakiniku-like-akihabara-denkigai",
+    "ai_summary": "エスパス駅前店から徒歩3分の一人焼肉専門チェーン。タッチパネル注文で待ち時間が短く、スタミナ補給をサクッと済ませたい時に重宝。"
+  },
+  {
+    "hall_id": "espace-akihabara-ekimae",
+    "restaurant_id": "yakiniku-toraji-akihabara",
+    "ai_summary": "厚切り高級カルビが看板の人気焼肉店。エスパス駅前店から徒歩3分の好アクセスで、大勝ち日のご褒美ディナーや祝勝会向け。"
+  },
+  {
+    "hall_id": "espace-akihabara-ekimae",
+    "restaurant_id": "hamazushi-akihabara-denkigai",
+    "ai_summary": "エスパス駅前店から徒歩2分。100円皿中心の大手回転寿司で、タッチパネル注文により軍資金を温存しつつ素早く食事を済ませられる。"
+  }
+]

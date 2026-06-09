@@ -1,0 +1,32 @@
+[
+  {
+    "id": "island-akihabara",
+    "name": "アイランド秋葉原店",
+    "area_id": "akihabara",
+    "chain_id": "island",
+    "prefecture": "東京都",
+    "city": "千代田区",
+    "address": "東京都千代田区外神田4-3-3",
+    "access": "JR秋葉原駅電気街口から徒歩5分（ドン・キホーテが目印） / 東京メトロ末広町駅から徒歩3分",
+    "hours": "10:00〜22:40",
+    "pachinko": 204,
+    "slot": 395,
+    "lat": 35.7023,
+    "lng": 139.7717
+  },
+  {
+    "id": "espace-akihabara-ekimae",
+    "name": "エスパス日拓秋葉原駅前店",
+    "area_id": "akihabara",
+    "chain_id": "espace",
+    "prefecture": "東京都",
+    "city": "千代田区",
+    "address": "東京都千代田区外神田1-15-6",
+    "access": "JR秋葉原駅電気街口 目の前（日拓秋葉原駅前ビル）",
+    "hours": "10:00〜23:00",
+    "pachinko": 327,
+    "slot": 522,
+    "lat": 35.6986,
+    "lng": 139.7726
+  }
+]

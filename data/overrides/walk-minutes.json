@@ -1,0 +1,20 @@
+[
+  {
+    "hall_id": "island-akihabara",
+    "restaurant_id": "niku-no-mansei-akihabara",
+    "walkMinutes": 10,
+    "reason": "住所推定では徒歩12分相当だが、外神田4-3-3 → 神田須田町2-21 は中央通り直進で実測10〜11分の境界。10分ルール内として掲載維持"
+  },
+  {
+    "hall_id": "espace-akihabara-ekimae",
+    "restaurant_id": "karigari-akihabara",
+    "walkMinutes": 6,
+    "reason": "住所推定では徒歩11分（外神田6丁目）だが、中央通り直進＋末広町交差点経由で実測6〜7分。lat/lng を Places API で実測値に置き換えるまでの暫定オーバーライド"
+  },
+  {
+    "hall_id": "espace-akihabara-ekimae",
+    "restaurant_id": "sutadonya-akihabara",
+    "walkMinutes": 5,
+    "reason": "住所推定では徒歩8分だが、外神田1-15-6 → 外神田4-4-3 は中央通り直進で実測5〜6分（±3分の大幅乖離のため調整）"
+  }
+]

@@ -1,25 +1,21 @@
-import type { PachinkoHall } from "./types"
-import { islandAkihabara } from "./island-akihabara"
-import { espaceAkihabaraEkimae } from "./espace-akihabara-ekimae"
-
 /**
- * 全ホール登録レジストリ
+ * パチンコ飯ナビ - ホールデータ アクセスファサード
  *
- * 新ホールを追加する手順:
- *   1. `lib/halls/<slug>.ts` を新規作成し、PachinkoHall 型のオブジェクトを export
- *   2. 下記 `halls` 配列に追加する（この1行追加だけで、ルート・SEO metadata・静的生成が自動で増える）
+ * Phase B 以降、ホール / 飲食店データは `data/` 配下の JSON を
+ * `scripts/generate-prefecture-data.ts` で TypeScript に変換した
+ * `lib/halls/_generated/` を**唯一の真正データソース**として扱う。
+ *
+ * データ追加・修正の流れ:
+ *   1. data/prefectures/<pref>/halls.json / restaurants.json を編集
+ *   2. 必要に応じて data/overrides/*.json を編集
+ *   3. `npm run generate:halls` で再生成
+ *      （または `npm run build` の prebuild フックで自動再生成）
+ *   4. `npm run diff:halls` で legacy ダンプとの差分を確認 (任意)
+ *
+ * 注意:
+ *   - `lib/halls/island-akihabara.ts` / `lib/halls/espace-akihabara-ekimae.ts`
+ *     は Phase A 完了まで残置するが、ここからは参照しない（ロールバック手段）。
+ *   - `lib/halls/_generated/` は手動編集禁止。
  */
-const halls: readonly PachinkoHall[] = [
-  islandAkihabara,
-  espaceAkihabaraEkimae,
-] as const
 
-/** 全ホール一覧（トップページ用） */
-export const getAllHalls = (): readonly PachinkoHall[] => halls
-
-/** URL slug からホールを取得（詳細ページ用） */
-export const getHallById = (id: string): PachinkoHall | undefined =>
-  halls.find((h) => h.id === id)
-
-/** generateStaticParams で使用する全 ID 配列 */
-export const getAllHallIds = (): string[] => halls.map((h) => h.id)
+export { getAllHalls, getHallById, getAllHallIds } from "./_generated"
