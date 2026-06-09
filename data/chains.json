@@ -43,5 +43,20 @@
     "id": "kicona",
     "name": "キコーナ",
     "description_short": "関東を中心に展開するパチンコホールチェーン"
+  },
+  {
+    "id": "rakuen",
+    "name": "楽園",
+    "description_short": "首都圏を中心に展開する大型パチンコホールチェーン"
+  },
+  {
+    "id": "yasuda",
+    "name": "YASUDA",
+    "description_short": "首都圏を中心に展開するパチンコホールチェーン"
+  },
+  {
+    "id": "prego",
+    "name": "プレゴ",
+    "description_short": "関東圏を中心に展開するパチンコホールチェーン"
   }
 ]
