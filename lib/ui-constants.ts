@@ -40,9 +40,8 @@ export const genreFilters: {
   { id: "そば/うどん", label: "そば", icon: "🍝" },
   { id: "丼もの", label: "丼もの", icon: "🍚" },
   { id: "ハンバーガー", label: "ハンバーガー", icon: "🍔" },
-  // 将来追加予定（該当店舗がデータに入ったタイミングでコメントアウト解除）
-  // { id: "回転寿司", label: "回転寿司", icon: "🍣" },
-  // { id: "焼肉", label: "焼肉", icon: "🥩" },
+  { id: "回転寿司", label: "回転寿司", icon: "🍣" },
+  { id: "焼肉", label: "焼肉", icon: "🥩" },
 ]
 
 /**
