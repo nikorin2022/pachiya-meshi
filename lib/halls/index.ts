@@ -1,5 +1,5 @@
 /**
- * パチンコ飯ナビ - ホールデータ アクセスファサード
+ * パチ屋飯 - ホールデータ アクセスファサード
  *
  * Phase B 以降、ホール / 飲食店データは `data/` 配下の JSON を
  * `scripts/generate-prefecture-data.ts` で TypeScript に変換した

@@ -1,4 +1,5 @@
 import type { Metadata } from "next"
+import Image from "next/image"
 import Link from "next/link"
 import { Utensils } from "lucide-react"
 import { getAllHalls } from "@/lib/halls"
@@ -56,6 +57,22 @@ export default function TopPage() {
       </header>
 
       <main className="max-w-7xl mx-auto px-3 sm:px-4 py-4 sm:py-6">
+        {/* ヒーロー画像（Header 直下・検索 UI より上）
+            - hero-image.png は 1920x819 の横長。next/image で width/height を渡して
+              CLS を防止しつつ、`w-full h-auto` で 100% 幅レスポンシブ表示する。
+            - LCP 改善のため priority を付与。 */}
+        <div className="mb-4 sm:mb-6">
+          <Image
+            src="/hero-image.png"
+            alt="パチ屋飯"
+            width={1920}
+            height={819}
+            priority
+            sizes="(max-width: 1280px) 100vw, 1280px"
+            className="w-full h-auto rounded-xl shadow-sm"
+          />
+        </div>
+
         {/* ヒーローセクション */}
         <section className="bg-white rounded-lg shadow-sm border border-gray-200 p-4 sm:p-6 mb-4 sm:mb-6">
           <h2 className="text-lg sm:text-2xl font-bold text-gray-900 mb-2">

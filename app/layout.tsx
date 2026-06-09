@@ -13,33 +13,30 @@ export const metadata: Metadata = {
   title: 'パチ屋飯 - パチンコユーザー・パチスロユーザーのためのごはんスポット検索',
   description: SITE_DESCRIPTION,
   icons: {
-    icon: [
-      {
-        url: '/icon-light-32x32.png',
-        media: '(prefers-color-scheme: light)',
-      },
-      {
-        url: '/icon-dark-32x32.png',
-        media: '(prefers-color-scheme: dark)',
-      },
-      {
-        url: '/icon.svg',
-        type: 'image/svg+xml',
-      },
-    ],
-    apple: '/apple-icon.png',
+    // favicon は public/favicon.png に統一（パチ屋飯ロゴ・1254x1254 正方形）
+    icon: '/favicon.png',
+    apple: '/favicon.png',
   },
   // OG のサイト共通デフォルト。子ページで title/description/type 等を上書きする。
+  // images はサイト全体で hero-image.png を SNS シェア用カードに使用する。
   openGraph: {
     type: 'website',
     locale: 'ja_JP',
     siteName: SITE_NAME,
     url: SITE_URL,
+    images: [
+      {
+        url: '/hero-image.png',
+        width: 1920,
+        height: 819,
+        alt: 'パチ屋飯',
+      },
+    ],
   },
-  // Twitter Card のサイト共通デフォルト。OGP 画像未配置のため当面は summary。
-  // OGP 画像（1200x630）を配置したら 'summary_large_image' に切り替えること。
+  // Twitter Card: hero-image.png を採用したため summary_large_image を使用。
   twitter: {
-    card: 'summary',
+    card: 'summary_large_image',
+    images: ['/hero-image.png'],
   },
   // Google Search Console のサイト所有権確認（HTML タグ方式）。
   // Next.js が <head> に <meta name="google-site-verification" content="..." /> を自動出力する。
