@@ -237,5 +237,50 @@
     "slot": 110,
     "lat": 35.7288,
     "lng": 139.7068
+  },
+  {
+    "id": "espace-shibuya-shinkan",
+    "name": "エスパス日拓渋谷駅前新館",
+    "area_id": "shibuya",
+    "chain_id": "espace",
+    "prefecture": "東京都",
+    "city": "渋谷区",
+    "address": "東京都渋谷区道玄坂2-4-2",
+    "access": "JR渋谷駅ハチ公口から徒歩1分 / 渋谷マークシティ目の前",
+    "hours": "10:00〜22:45",
+    "pachinko": 532,
+    "slot": 433,
+    "lat": 35.6590,
+    "lng": 139.6998
+  },
+  {
+    "id": "rakuen-shibuya-ekimae",
+    "name": "楽園渋谷駅前店",
+    "area_id": "shibuya",
+    "chain_id": "rakuen",
+    "prefecture": "東京都",
+    "city": "渋谷区",
+    "address": "東京都渋谷区道玄坂1-3-1",
+    "access": "JR渋谷駅西口 目の前 / 井の頭線渋谷駅中央口エスカレーター降りてすぐ",
+    "hours": "10:00〜22:45",
+    "pachinko": 495,
+    "slot": 391,
+    "lat": 35.6584,
+    "lng": 139.7001
+  },
+  {
+    "id": "rakuen-shibuya-dogenzaka",
+    "name": "楽園渋谷道玄坂店",
+    "area_id": "shibuya",
+    "chain_id": "rakuen",
+    "prefecture": "東京都",
+    "city": "渋谷区",
+    "address": "東京都渋谷区道玄坂2-6-16",
+    "access": "JR渋谷ハチ公口から徒歩4分 / 京王井の頭線西口改札出てすぐ",
+    "hours": "10:00〜22:45",
+    "pachinko": 483,
+    "slot": 392,
+    "lat": 35.6592,
+    "lng": 139.6987
   }
 ]
