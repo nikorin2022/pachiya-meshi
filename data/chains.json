@@ -23,5 +23,10 @@
     "id": "cyber-pachinko",
     "name": "サイバーパチンコ",
     "description_short": "株式会社ガイア運営の都市型パチンコホールブランド"
+  },
+  {
+    "id": "maruhan",
+    "name": "マルハン",
+    "description_short": "全国最大級のパチンコホールチェーン"
   }
 ]

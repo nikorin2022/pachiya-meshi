@@ -73,5 +73,50 @@
     "slot": 308,
     "lat": 35.6993,
     "lng": 139.7750
+  },
+  {
+    "id": "espace-shinjuku-kabukicho",
+    "name": "エスパス日拓新宿歌舞伎町店",
+    "area_id": "shinjuku",
+    "chain_id": "espace",
+    "prefecture": "東京都",
+    "city": "新宿区",
+    "address": "東京都新宿区歌舞伎町1-23-3",
+    "access": "JR新宿駅東口より徒歩4分 / 新宿歌舞伎町入口（靖国通り沿い）",
+    "hours": "10:00〜22:45",
+    "pachinko": 971,
+    "slot": 749,
+    "lat": 35.6940,
+    "lng": 139.7017
+  },
+  {
+    "id": "espace-shinjuku-seibu-ekimae",
+    "name": "エスパス日拓西武新宿駅前店",
+    "area_id": "shinjuku",
+    "chain_id": "espace",
+    "prefecture": "東京都",
+    "city": "新宿区",
+    "address": "東京都新宿区歌舞伎町1-25-4",
+    "access": "西武新宿駅 目の前 / JR新宿駅西口より徒歩5分",
+    "hours": "10:00〜22:45",
+    "pachinko": 516,
+    "slot": 411,
+    "lat": 35.6936,
+    "lng": 139.7005
+  },
+  {
+    "id": "maruhan-shinjuku-toho",
+    "name": "マルハン新宿東宝ビル店",
+    "area_id": "shinjuku",
+    "chain_id": "maruhan",
+    "prefecture": "東京都",
+    "city": "新宿区",
+    "address": "東京都新宿区歌舞伎町1-19-1 新宿東宝ビル2F",
+    "access": "西武新宿駅より徒歩3分（ゴジラヘッドが目印） / JR新宿駅より徒歩9分",
+    "hours": "10:00〜22:40",
+    "pachinko": 561,
+    "slot": 664,
+    "lat": 35.6943,
+    "lng": 139.7010
   }
 ]
