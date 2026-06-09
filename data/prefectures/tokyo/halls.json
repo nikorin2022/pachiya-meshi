@@ -28,5 +28,50 @@
     "slot": 522,
     "lat": 35.6986,
     "lng": 139.7726
+  },
+  {
+    "id": "big-apple-akihabara",
+    "name": "ビッグアップル．秋葉原店",
+    "area_id": "akihabara",
+    "chain_id": "big-apple",
+    "prefecture": "東京都",
+    "city": "千代田区",
+    "address": "東京都千代田区外神田1-16-1 トゥモロービル1F〜4F",
+    "access": "JR秋葉原駅 電気街南口より徒歩2分（万世橋警察署の隣）",
+    "hours": "10:00〜22:40",
+    "pachinko": 185,
+    "slot": 675,
+    "lat": 35.6980,
+    "lng": 139.7732
+  },
+  {
+    "id": "uno-akihabara",
+    "name": "秋葉原UNO",
+    "area_id": "akihabara",
+    "chain_id": "uno",
+    "prefecture": "東京都",
+    "city": "千代田区",
+    "address": "東京都千代田区神田佐久間町1-3",
+    "access": "JR秋葉原駅 電気街口（ガード下）より徒歩1分",
+    "hours": "10:00〜22:45",
+    "pachinko": 263,
+    "slot": 197,
+    "lat": 35.6989,
+    "lng": 139.7740
+  },
+  {
+    "id": "cyber-pachinko-akihabara-showadori",
+    "name": "サイバーパチンコ秋葉原昭和通り口店",
+    "area_id": "akihabara",
+    "chain_id": "cyber-pachinko",
+    "prefecture": "東京都",
+    "city": "千代田区",
+    "address": "東京都千代田区神田平河町4-7",
+    "access": "JR秋葉原駅 昭和通り口 / 東京メトロ日比谷線秋葉原駅1番出入口すぐ",
+    "hours": "10:00〜22:50",
+    "pachinko": 303,
+    "slot": 308,
+    "lat": 35.6993,
+    "lng": 139.7750
   }
 ]

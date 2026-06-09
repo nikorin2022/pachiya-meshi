@@ -8,5 +8,10 @@
     "hall_id": "espace-akihabara-ekimae",
     "restaurant_id": "aoshima-shokudo-akihabara",
     "reason": "自動距離計算では徒歩7分だが、JR高架を跨ぐ動線で実測9〜10分の境界。エスパス側からは紹介対象に含めない（10分ぎりぎりの店は安全側で外す）"
+  },
+  {
+    "hall_id": "cyber-pachinko-akihabara-showadori",
+    "restaurant_id": "aoshima-shokudo-akihabara",
+    "reason": "自動距離計算では徒歩10分の境界。エスパス側と同様、秋葉原駅東側ホールでは10分ぎりぎりの店は安全側で除外する方針"
   }
 ]

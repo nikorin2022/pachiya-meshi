@@ -8,5 +8,20 @@
     "id": "espace",
     "name": "エスパス日拓",
     "description_short": "都市部主体の大型パチンコホールチェーン"
+  },
+  {
+    "id": "big-apple",
+    "name": "ビッグアップル",
+    "description_short": "株式会社マルニ運営、都内中心の中規模パチンコホールチェーン"
+  },
+  {
+    "id": "uno",
+    "name": "UNO",
+    "description_short": "東和産業運営のパチンコホールブランド"
+  },
+  {
+    "id": "cyber-pachinko",
+    "name": "サイバーパチンコ",
+    "description_short": "株式会社ガイア運営の都市型パチンコホールブランド"
   }
 ]
