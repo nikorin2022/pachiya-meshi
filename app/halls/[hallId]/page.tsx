@@ -28,13 +28,13 @@ export async function generateMetadata({
 
   if (!hall) {
     return {
-      title: "ホールが見つかりません | パチンコ飯ナビ",
+      title: "ホールが見つかりません | パチ屋飯",
       description: "指定されたパチンコホールは登録されていません。",
       robots: { index: false, follow: false },
     }
   }
 
-  const title = `${hall.name} 周辺の飲食店ガイド | パチンコ飯ナビ`
+  const title = `${hall.name} 周辺の飲食店ガイド | パチ屋飯`
   const description = `${hall.prefecture}${hall.city}のパチンコホール「${hall.name}」から徒歩10分以内で行ける飲食店を、朝飯/昼飯/夜飯やジャンル別にまとめたガイド。`
 
   return {

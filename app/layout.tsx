@@ -10,7 +10,7 @@ const _geistMono = Geist_Mono({ subsets: ["latin"] });
 export const metadata: Metadata = {
   // 相対パス指定の canonical / OG画像URL を絶対URL化するための基準
   metadataBase: new URL(SITE_URL),
-  title: 'パチンコ飯ナビ - パチンコ客のためのごはんスポット検索',
+  title: 'パチ屋飯 - パチンコユーザー・パチスロユーザーのためのごはんスポット検索',
   description: SITE_DESCRIPTION,
   icons: {
     icon: [

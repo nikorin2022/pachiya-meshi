@@ -230,7 +230,7 @@ export default function HallDetailClient({ hall }: { hall: PachinkoHall }) {
               </div>
               <div>
                 <h1 className="text-sm sm:text-lg font-bold text-gray-900 leading-tight">
-                  パチンコ飯ナビ
+                  パチ屋飯
                 </h1>
                 <p className="text-[8px] sm:text-[10px] text-gray-500 leading-tight hidden sm:block">
                   パチンコ客のためのごはんスポット検索

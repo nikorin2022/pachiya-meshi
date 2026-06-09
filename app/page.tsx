@@ -2,17 +2,15 @@ import type { Metadata } from "next"
 import Link from "next/link"
 import { Utensils } from "lucide-react"
 import { getAllHalls } from "@/lib/halls"
-import { JsonLd, buildWebSiteJsonLd } from "@/lib/seo"
+import { JsonLd, SITE_DESCRIPTION, buildWebSiteJsonLd } from "@/lib/seo"
 import HallListClient from "./HallListClient"
 
 export const metadata: Metadata = {
-  title: "パチンコ飯ナビ - 全国のパチンコホール周辺ごはん検索",
-  description:
-    "全国のパチンコホール周辺、徒歩10分以内で行ける飲食店をホール単位でまとめたガイドサイト。朝飯/昼飯/夜飯、ジャンル別に近くのお店を探せます。",
+  title: "パチ屋飯 - 全国のパチンコホール・パチスロホール周辺ごはん検索",
+  description: SITE_DESCRIPTION,
   openGraph: {
-    title: "パチンコ飯ナビ - 全国のパチンコホール周辺ごはん検索",
-    description:
-      "全国のパチンコホール周辺、徒歩10分以内で行ける飲食店をホール単位でまとめたガイドサイト。",
+    title: "パチ屋飯 - 全国のパチンコホール・パチスロホール周辺ごはん検索",
+    description: SITE_DESCRIPTION,
     type: "website",
     locale: "ja_JP",
   },
@@ -47,7 +45,7 @@ export default function TopPage() {
             </div>
             <div>
               <h1 className="text-sm sm:text-lg font-bold text-gray-900 leading-tight">
-                パチンコ飯ナビ
+                パチ屋飯
               </h1>
               <p className="text-[8px] sm:text-[10px] text-gray-500 leading-tight hidden sm:block">
                 パチンコ客のためのごはんスポット検索

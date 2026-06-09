@@ -9,11 +9,11 @@ import type { PachinkoHall } from "@/lib/halls/types"
 export const SITE_URL = "https://www.gameexpect.com"
 
 /** サイト名（OG / 構造化データ等で使用） */
-export const SITE_NAME = "パチンコ飯ナビ"
+export const SITE_NAME = "パチ屋飯"
 
-/** サイト説明（fallback 用） */
+/** サイト説明（fallback 用 / meta description 統一文言） */
 export const SITE_DESCRIPTION =
-  "全国のパチンコホール周辺、徒歩10分以内で行ける飲食店をホール単位でまとめたガイドサイト。"
+  "パチンコホール・パチスロホール周辺の飲食店を探せる「パチ屋飯」。ラーメン、カレー、丼もの、とんかつ、そば・うどんなど、休憩時間でも利用しやすい店舗をまとめています。"
 
 /**
  * JSON-LD を <script type="application/ld+json"> として出力する小さなコンポーネント。
@@ -41,7 +41,8 @@ export function buildWebSiteJsonLd() {
     "@context": "https://schema.org",
     "@type": "WebSite",
     name: SITE_NAME,
-    alternateName: "パチンコ飯ナビ",
+    // 関連検索の取りこぼし防止。サイト本体の別表記を JSON-LD で Google に伝える。
+    alternateName: ["パチ飯", "パチンコ飯", "パチスロ飯"],
     url: `${SITE_URL}/`,
     description: SITE_DESCRIPTION,
     inLanguage: "ja",
