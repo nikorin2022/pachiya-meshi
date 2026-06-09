@@ -39,6 +39,7 @@ export const genreFilters: {
   { id: "とんかつ/カツ丼", label: "とんかつ", icon: "🍱" },
   { id: "そば/うどん", label: "そば", icon: "🍝" },
   { id: "丼もの", label: "丼もの", icon: "🍚" },
+  { id: "ハンバーガー", label: "ハンバーガー", icon: "🍔" },
   // 将来追加予定（該当店舗がデータに入ったタイミングでコメントアウト解除）
   // { id: "回転寿司", label: "回転寿司", icon: "🍣" },
   // { id: "焼肉", label: "焼肉", icon: "🥩" },
@@ -60,5 +61,6 @@ export const genreFallbackStyles: Record<
   "丼もの": { gradient: "from-red-400 to-orange-500", emoji: "🍚" },
   "回転寿司": { gradient: "from-sky-400 to-blue-600", emoji: "🍣" },
   "焼肉": { gradient: "from-rose-500 to-red-700", emoji: "🥩" },
+  "ハンバーガー": { gradient: "from-yellow-300 to-orange-600", emoji: "🍔" },
   "パチンコ": { gradient: "from-blue-500 to-purple-600", emoji: "🎰" },
 }

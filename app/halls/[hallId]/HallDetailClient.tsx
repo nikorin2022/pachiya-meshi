@@ -170,7 +170,9 @@ function GenreImage({ genre, className = "" }: { genre: string; className?: stri
 
 export default function HallDetailClient({ hall }: { hall: PachinkoHall }) {
   const [selectedTime, setSelectedTime] = useState<string[]>([])
-  const [selectedWalk, setSelectedWalk] = useState("5min")
+  // サイトの掲載ポリシーが「徒歩10分以内」のため、初期表示も全件見える 10min を既定とする。
+  // 5分以内に絞り込みたい場合はユーザーが明示的に "5min" を選択する。
+  const [selectedWalk, setSelectedWalk] = useState("10min")
   const [selectedGenre, setSelectedGenre] = useState<string>("all")
   const [isFavorite, setIsFavorite] = useState(false)
 

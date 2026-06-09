@@ -1,9 +1,9 @@
 import type { Metadata } from "next"
 import Link from "next/link"
-import { MapPin, Clock, ChevronRight, Utensils } from "lucide-react"
-import { Badge } from "@/components/ui/badge"
+import { Utensils } from "lucide-react"
 import { getAllHalls } from "@/lib/halls"
 import { JsonLd, buildWebSiteJsonLd } from "@/lib/seo"
+import HallListClient from "./HallListClient"
 
 export const metadata: Metadata = {
   title: "パチンコ飯ナビ - 全国のパチンコホール周辺ごはん検索",
@@ -22,6 +22,10 @@ export const metadata: Metadata = {
 /**
  * トップページ: 登録済みのパチンコホール一覧。
  * 各カードをクリックすると、そのホール周辺の飲食店ガイドへ遷移する。
+ *
+ * - Server Component として metadata / JSON-LD / データ取得を担う
+ * - 検索 UI と一覧描画はインタラクティブな state を持つため
+ *   `HallListClient` (Client Component) に分離
  *
  * NOTE: 紹介対象は各ホールから徒歩10分以内の飲食店のみ。
  *       ホール詳細ページに近隣飲食店を集約する構造を主軸としている。
@@ -70,67 +74,8 @@ export default function TopPage() {
           </div>
         </section>
 
-        {/* ホール一覧 */}
-        <section>
-          <h3 className="text-xs sm:text-sm font-bold text-gray-900 mb-3 sm:mb-4">
-            掲載中のパチンコホール（{halls.length}件）
-          </h3>
-
-          <ul className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3 sm:gap-4">
-            {halls.map((hall) => (
-              <li key={hall.id}>
-                <Link
-                  href={`/halls/${hall.id}`}
-                  className="group block bg-white rounded-lg shadow-sm border border-gray-200 p-3 sm:p-4 hover:shadow-md hover:border-red-200 transition-all"
-                >
-                  <div className="flex items-start justify-between gap-2 mb-2">
-                    <div className="flex-1 min-w-0">
-                      <Badge
-                        variant="outline"
-                        className="bg-red-50 text-red-600 border-red-200 text-[10px] sm:text-xs mb-1.5"
-                      >
-                        {hall.prefecture}・{hall.area}
-                      </Badge>
-                      <h4 className="font-bold text-gray-900 text-sm sm:text-base break-words group-hover:text-red-600 transition-colors">
-                        {hall.name}
-                      </h4>
-                    </div>
-                    <ChevronRight className="w-4 h-4 sm:w-5 sm:h-5 text-gray-400 shrink-0 mt-1 group-hover:text-red-500 transition-colors" />
-                  </div>
-
-                  <div className="space-y-1 text-[11px] sm:text-xs text-gray-600">
-                    <div className="flex items-start gap-1.5">
-                      <MapPin className="w-3 h-3 sm:w-3.5 sm:h-3.5 text-gray-400 shrink-0 mt-0.5" />
-                      <span className="break-words">{hall.address}</span>
-                    </div>
-                    <div className="flex items-center gap-1.5">
-                      <Clock className="w-3 h-3 sm:w-3.5 sm:h-3.5 text-gray-400 shrink-0" />
-                      <span>{hall.hours}</span>
-                    </div>
-                  </div>
-
-                  <div className="flex items-center gap-2 mt-3 pt-3 border-t border-gray-100">
-                    <Badge
-                      variant="outline"
-                      className="text-[10px] sm:text-xs border-gray-300"
-                    >
-                      パチンコ {hall.pachinko}台
-                    </Badge>
-                    <Badge
-                      variant="outline"
-                      className="text-[10px] sm:text-xs border-gray-300"
-                    >
-                      スロット {hall.slot}台
-                    </Badge>
-                    <span className="ml-auto text-[10px] sm:text-xs text-gray-500">
-                      飲食店 {hall.restaurants.length}件
-                    </span>
-                  </div>
-                </Link>
-              </li>
-            ))}
-          </ul>
-        </section>
+        {/* 検索 UI + ホール一覧（Client Component） */}
+        <HallListClient halls={halls} />
 
         {/* フッター注釈 */}
         <p className="text-[10px] sm:text-xs text-gray-500 mt-6 sm:mt-8 mb-4">
