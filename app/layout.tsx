@@ -41,6 +41,12 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary',
   },
+  // Google Search Console のサイト所有権確認（HTML タグ方式）。
+  // Next.js が <head> に <meta name="google-site-verification" content="..." /> を自動出力する。
+  // 注意: 認証完了後もこのタグを残しておくこと（削除すると認証が無効化される）。
+  verification: {
+    google: '-SzQndoi3e8XlT931Eshx-wU-zFbxG2lj6Wp2Jm1rTU',
+  },
 }
 
 export default function RootLayout({
