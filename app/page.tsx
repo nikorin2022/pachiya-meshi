@@ -1,7 +1,7 @@
 import type { Metadata } from "next"
 import Image from "next/image"
 import Link from "next/link"
-import { Utensils } from "lucide-react"
+import { ChevronRight, Utensils } from "lucide-react"
 import { getAllHalls } from "@/lib/halls"
 import { JsonLd, SITE_DESCRIPTION, buildWebSiteJsonLd } from "@/lib/seo"
 import { SiteFooter } from "@/components/SiteFooter"
@@ -85,17 +85,24 @@ export default function TopPage() {
           </h2>
           <p className="text-xs sm:text-sm text-gray-600 leading-relaxed">
             各ホールから徒歩10分以内で行ける飲食店を、朝飯・昼飯・夜飯やジャンル別にまとめています。
-            <br className="hidden sm:block" />
-            気になるホールを選ぶか、
-            <Link href="/areas" className="text-red-600 hover:text-red-700 font-medium">
-              エリア別
-            </Link>
-            ・
-            <Link href="/chains" className="text-red-600 hover:text-red-700 font-medium">
-              チェーン別
-            </Link>
-            から探してください。
+            気になるホールを選ぶか、下のリンクから探してください。
           </p>
+          <div className="flex flex-wrap gap-2 sm:gap-3 mt-3 sm:mt-4">
+            <Link
+              href="/areas"
+              className="inline-flex items-center gap-1 text-xs sm:text-sm text-red-600 hover:text-red-700 font-bold bg-red-50 border border-red-200 rounded-lg px-3 py-2 transition-colors"
+            >
+              エリア別に探す
+              <ChevronRight className="w-3.5 h-3.5 shrink-0" />
+            </Link>
+            <Link
+              href="/chains"
+              className="inline-flex items-center gap-1 text-xs sm:text-sm text-red-600 hover:text-red-700 font-bold bg-red-50 border border-red-200 rounded-lg px-3 py-2 transition-colors"
+            >
+              チェーン別に探す
+              <ChevronRight className="w-3.5 h-3.5 shrink-0" />
+            </Link>
+          </div>
           <div className="flex items-center gap-1.5 text-[10px] sm:text-xs text-gray-600 bg-red-50 text-red-700 rounded-lg px-2.5 py-2 mt-3 sm:mt-4 w-fit">
             <Utensils className="w-3 h-3 sm:w-4 sm:h-4 shrink-0" />
             <span>掲載対象はホールから徒歩10分以内の飲食店のみ</span>

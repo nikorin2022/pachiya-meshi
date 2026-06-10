@@ -86,6 +86,18 @@ export default function HallListClient({ halls }: Props) {
         </div>
       </section>
 
+      <div className="flex flex-wrap items-center gap-x-3 gap-y-1 mb-3 sm:mb-4 text-xs sm:text-sm">
+        <Link href="/areas" className="text-red-600 hover:text-red-700 font-bold">
+          エリア別に探す
+        </Link>
+        <span className="text-gray-300" aria-hidden="true">
+          |
+        </span>
+        <Link href="/chains" className="text-red-600 hover:text-red-700 font-bold">
+          チェーン別に探す
+        </Link>
+      </div>
+
       <FavoriteHallSection halls={halls} />
 
       {/* ホール一覧 */}

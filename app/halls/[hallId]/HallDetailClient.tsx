@@ -317,14 +317,17 @@ export default function HallDetailClient({
                   <FavoriteHallButton hallId={hall.id} iconOnly />
                 </div>
                 {chain ? (
-                  <p className="text-[10px] text-gray-500 mb-1">
-                    <Link
-                      href={getChainPagePath(chain.id)}
-                      className="text-red-600 hover:text-red-700 font-medium"
-                    >
-                      {chain.name}
+                  <div className="flex flex-wrap items-center gap-1.5 mb-1.5">
+                    <span className="text-[10px] text-gray-500">チェーン</span>
+                    <Link href={getChainPagePath(chain.id)}>
+                      <Badge
+                        variant="outline"
+                        className="text-[10px] border-gray-300 text-red-600 hover:border-red-200 hover:bg-red-50 transition-colors"
+                      >
+                        {chain.name}
+                      </Badge>
                     </Link>
-                  </p>
+                  </div>
                 ) : null}
                 <div className="text-[11px] text-gray-600 space-y-0.5">
                   <div className="flex items-center gap-1">
@@ -354,14 +357,17 @@ export default function HallDetailClient({
                     {hall.name}
                   </h2>
                   {chain ? (
-                    <p className="text-xs text-gray-500 mt-1">
-                      <Link
-                        href={getChainPagePath(chain.id)}
-                        className="text-red-600 hover:text-red-700 font-medium"
-                      >
-                        {chain.name}
+                    <div className="flex flex-wrap items-center gap-1.5 mt-1.5">
+                      <span className="text-xs text-gray-500">チェーン</span>
+                      <Link href={getChainPagePath(chain.id)}>
+                        <Badge
+                          variant="outline"
+                          className="text-xs border-gray-300 text-red-600 hover:border-red-200 hover:bg-red-50 transition-colors"
+                        >
+                          {chain.name}
+                        </Badge>
                       </Link>
-                    </p>
+                    </div>
                   ) : null}
                 </div>
                 <FavoriteHallButton hallId={hall.id} showLabel />
