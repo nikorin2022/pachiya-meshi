@@ -469,5 +469,47 @@
     "slot": 86,
     "lat": 35.6960,
     "lng": 139.8132
+  },
+  {
+    "id": "concert-hall-kitasenju",
+    "name": "コンサートホール北千住",
+    "area_id": "kitasenju",
+    "prefecture": "東京都",
+    "city": "足立区",
+    "address": "東京都足立区千住3-72",
+    "access": "JR北千住駅西口より徒歩3分 / 東京メトロ千代田線・日比谷線北千住駅西口より徒歩3分",
+    "hours": "10:00〜23:00",
+    "pachinko": 574,
+    "slot": 461,
+    "lat": 35.7508,
+    "lng": 139.8025
+  },
+  {
+    "id": "p-ark-kitasenju",
+    "name": "ピーアーク北千住",
+    "area_id": "kitasenju",
+    "prefecture": "東京都",
+    "city": "足立区",
+    "address": "東京都足立区千住3-92 千住ミルディスI番館 1F",
+    "access": "JR北千住駅西口 目の前（北千住マルイ1F） / 東武伊勢崎線北千住駅西口直結",
+    "hours": "10:00〜22:40",
+    "pachinko": 249,
+    "slot": 111,
+    "lat": 35.7511,
+    "lng": 139.8047
+  },
+  {
+    "id": "p-ark-kitasenju-sss",
+    "name": "ピーアーク北千住SSS",
+    "area_id": "kitasenju",
+    "prefecture": "東京都",
+    "city": "足立区",
+    "address": "東京都足立区千住旭町3-5 駅前会館ビル1F",
+    "access": "JR北千住駅東口 目の前 / 東武伊勢崎線北千住駅東口直結",
+    "hours": "10:00〜22:30",
+    "pachinko": 0,
+    "slot": 422,
+    "lat": 35.7494,
+    "lng": 139.8057
   }
 ]
