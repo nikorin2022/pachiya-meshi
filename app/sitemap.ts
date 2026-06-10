@@ -1,4 +1,5 @@
 import type { MetadataRoute } from "next"
+import { getAreaIdsWithHalls } from "@/lib/areas"
 import { getAllHalls } from "@/lib/halls"
 import { SITE_URL } from "@/lib/seo"
 
@@ -19,6 +20,20 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 1.0,
   }
 
+  const areasIndexPage: MetadataRoute.Sitemap[number] = {
+    url: `${SITE_URL}/areas`,
+    lastModified: now,
+    changeFrequency: "weekly",
+    priority: 0.9,
+  }
+
+  const areaPages: MetadataRoute.Sitemap = getAreaIdsWithHalls().map((areaId) => ({
+    url: `${SITE_URL}/areas/${areaId}`,
+    lastModified: now,
+    changeFrequency: "weekly",
+    priority: 0.85,
+  }))
+
   const hallPages: MetadataRoute.Sitemap = getAllHalls().map((hall) => ({
     url: `${SITE_URL}/halls/${hall.id}`,
     lastModified: now,
@@ -26,5 +41,5 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.8,
   }))
 
-  return [topPage, ...hallPages]
+  return [topPage, areasIndexPage, ...areaPages, ...hallPages]
 }

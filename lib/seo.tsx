@@ -57,8 +57,7 @@ type BreadcrumbArea = {
 /**
  * BreadcrumbList JSON-LD（ホール詳細ページ向け）。
  *
- * 構造: ホーム → エリア → ホール
- * エリア詳細ページ（/areas/[areaId]）は未実装のため、エリア階層は name のみ宣言する。
+ * 構造: ホーム → エリア → ホール（各階層に item URL を付与）
  */
 export function buildHallBreadcrumbJsonLd(
   hall: PachinkoHall,
@@ -82,6 +81,7 @@ export function buildHallBreadcrumbJsonLd(
       "@type": "ListItem",
       position: 2,
       name: areaName,
+      ...(area ? { item: `${SITE_URL}/areas/${area.id}` } : {}),
     },
     {
       "@type": "ListItem",

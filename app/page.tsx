@@ -85,7 +85,11 @@ export default function TopPage() {
           <p className="text-xs sm:text-sm text-gray-600 leading-relaxed">
             各ホールから徒歩10分以内で行ける飲食店を、朝飯・昼飯・夜飯やジャンル別にまとめています。
             <br className="hidden sm:block" />
-            気になるホールを選んでください。
+            気になるホールを選ぶか、
+            <Link href="/areas" className="text-red-600 hover:text-red-700 font-medium">
+              エリア別
+            </Link>
+            から探してください。
           </p>
           <div className="flex items-center gap-1.5 text-[10px] sm:text-xs text-gray-600 bg-red-50 text-red-700 rounded-lg px-2.5 py-2 mt-3 sm:mt-4 w-fit">
             <Utensils className="w-3 h-3 sm:w-4 sm:h-4 shrink-0" />

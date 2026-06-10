@@ -1,5 +1,5 @@
 import Link from "next/link"
-import { getAreaForHall } from "@/lib/areas"
+import { getAreaForHall, getAreaPagePath } from "@/lib/areas"
 import type { PachinkoHall } from "@/lib/halls/types"
 
 type Props = {
@@ -29,11 +29,13 @@ export function HallBreadcrumb({ hall }: Props) {
           <span className="mx-1">&gt;</span>
         </li>
         <li className="inline-flex items-center">
-          {/*
-            将来エリア詳細ページ実装時:
+          {area ? (
             <Link href={getAreaPagePath(area.id)} className="hover:text-gray-900">
-          */}
-          <span>{areaName}</span>
+              {areaName}
+            </Link>
+          ) : (
+            <span>{areaName}</span>
+          )}
         </li>
         <li className="inline-flex items-center" aria-hidden="true">
           <span className="mx-1">&gt;</span>
