@@ -33,6 +33,7 @@ import {
   generateRouteEmbedUrl,
   getGoogleMapsDirectionUrl,
 } from "@/lib/maps"
+import { selectRecommendedRestaurantsTop3 } from "@/lib/restaurant-recommendations"
 
 // ============================================================
 // 子コンポーネント（このページ専用）
@@ -152,7 +153,7 @@ function PachinkoHallMapEmbed({
   )
 }
 
-/** サイドバーの人気ジャンルTOP3表示用のジャンル画像（グラデーション + 絵文字） */
+/** サイドバーのおすすめ店舗表示用ジャンル画像（グラデーション + 絵文字） */
 function GenreImage({ genre, className = "" }: { genre: string; className?: string }) {
   const fallbackStyle =
     genreFallbackStyles[genre as keyof typeof genreFallbackStyles] ||
@@ -205,22 +206,10 @@ export default function HallDetailClient({ hall }: { hall: PachinkoHall }) {
     })
   }, [hall.restaurants, selectedGenre, selectedWalk, selectedTime])
 
-  // 人気ジャンルTOP3を計算
-  const popularGenres = useMemo(() => {
-    const genreCounts: Record<string, number> = {}
-    hall.restaurants.forEach((r) => {
-      genreCounts[r.genre] = (genreCounts[r.genre] || 0) + 1
-    })
-
-    return Object.entries(genreCounts)
-      .sort((a, b) => b[1] - a[1])
-      .slice(0, 3)
-      .map((entry, index) => ({
-        rank: index + 1,
-        name: entry[0],
-        count: entry[1],
-      }))
-  }, [hall.restaurants])
+  const recommendedRestaurants = useMemo(
+    () => selectRecommendedRestaurantsTop3(hall.restaurants),
+    [hall.restaurants],
+  )
 
   return (
     <div className="min-h-screen bg-gray-50">
@@ -517,7 +506,8 @@ export default function HallDetailClient({ hall }: { hall: PachinkoHall }) {
                 filteredRestaurants.map((restaurant) => (
                   <div
                     key={restaurant.id}
-                    className="bg-white rounded-lg shadow-sm border border-gray-200 overflow-hidden hover:shadow-md transition-shadow"
+                    id={`restaurant-${restaurant.id}`}
+                    className="bg-white rounded-lg shadow-sm border border-gray-200 overflow-hidden hover:shadow-md transition-shadow scroll-mt-24"
                   >
                     {/* 地図埋め込み部分（ホール → 飲食店 ルート表示） */}
                     <StoreMapEmbed
@@ -597,48 +587,65 @@ export default function HallDetailClient({ hall }: { hall: PachinkoHall }) {
 
           {/* サイドバー */}
           <div className="w-full lg:w-72 shrink-0 space-y-4 sm:space-y-6 order-1 lg:order-2">
-            {/* 人気ジャンルTOP3 */}
+            {/* おすすめ店舗TOP3 */}
             <div className="bg-white rounded-lg shadow-sm border border-gray-200 p-3 sm:p-4">
-              <h3 className="text-xs sm:text-sm font-bold text-gray-900 mb-3 sm:mb-4">
-                この店舗の人気ジャンルTOP3
+              <h3 className="text-xs sm:text-sm font-bold text-gray-900 mb-1">
+                このホール周辺のおすすめ店舗TOP3
               </h3>
-              <div className="flex lg:flex-col gap-3 overflow-x-auto lg:overflow-visible pb-1 lg:pb-0">
-                {popularGenres.map((genre) => (
-                  <div
-                    key={genre.rank}
-                    className="flex items-center gap-2 sm:gap-3 shrink-0"
-                  >
-                    <div className="relative">
-                      <GenreImage
-                        genre={genre.name}
-                        className="w-12 h-12 sm:w-14 sm:h-14 rounded-lg"
-                      />
-                      <div
-                        className={`absolute -top-1 -left-1 w-4 h-4 sm:w-5 sm:h-5 rounded-full flex items-center justify-center text-[10px] sm:text-xs font-bold text-white ${
-                          genre.rank === 1
-                            ? "bg-yellow-500"
-                            : genre.rank === 2
-                              ? "bg-gray-400"
-                              : "bg-amber-700"
-                        }`}
+              <p className="text-[10px] sm:text-xs text-gray-500 mb-3 sm:mb-4">
+                徒歩で行きやすい店舗を中心に表示しています。
+              </p>
+              {recommendedRestaurants.length === 0 ? (
+                <p className="text-xs text-gray-500">
+                  掲載中の飲食店がありません。
+                </p>
+              ) : (
+                <div className="flex lg:flex-col gap-3 overflow-x-auto lg:overflow-visible pb-1 lg:pb-0">
+                  {recommendedRestaurants.map(
+                    ({ rank, restaurant, estimatedWalkMinutes }) => (
+                      <a
+                        key={restaurant.id}
+                        href={`#restaurant-${restaurant.id}`}
+                        className="flex items-center gap-2 sm:gap-3 shrink-0 min-w-[200px] lg:min-w-0 hover:opacity-80 transition-opacity"
                       >
-                        {genre.rank}
-                      </div>
-                    </div>
-                    <div>
-                      <p className="font-medium text-gray-900 text-xs sm:text-sm">
-                        {genre.name}
-                      </p>
-                      <p className="text-[10px] sm:text-xs text-red-500">
-                        {genre.count}件
-                      </p>
-                    </div>
-                  </div>
-                ))}
-              </div>
-              <button className="w-full mt-3 sm:mt-4 py-1.5 sm:py-2 text-xs sm:text-sm text-gray-600 border border-gray-300 rounded-lg hover:bg-gray-50 transition-colors">
-                すべてのジャンルを見る
-              </button>
+                        <div className="relative shrink-0">
+                          <GenreImage
+                            genre={restaurant.genre}
+                            className="w-12 h-12 sm:w-14 sm:h-14 rounded-lg"
+                          />
+                          <div
+                            className={`absolute -top-1 -left-1 w-4 h-4 sm:w-5 sm:h-5 rounded-full flex items-center justify-center text-[10px] sm:text-xs font-bold text-white ${
+                              rank === 1
+                                ? "bg-yellow-500"
+                                : rank === 2
+                                  ? "bg-gray-400"
+                                  : "bg-amber-700"
+                            }`}
+                          >
+                            {rank}
+                          </div>
+                        </div>
+                        <div className="min-w-0">
+                          <p className="font-medium text-gray-900 text-xs sm:text-sm truncate">
+                            {restaurant.name}
+                          </p>
+                          <p className="text-[10px] sm:text-xs text-gray-500">
+                            {restaurant.genre}
+                          </p>
+                          <p className="text-[10px] sm:text-xs text-red-500">
+                            徒歩{estimatedWalkMinutes}分
+                          </p>
+                          {restaurant.hours ? (
+                            <p className="text-[10px] sm:text-xs text-gray-400 truncate mt-0.5">
+                              {restaurant.hours}
+                            </p>
+                          ) : null}
+                        </div>
+                      </a>
+                    ),
+                  )}
+                </div>
+              )}
             </div>
 
             {/* こんなシーンで使えます */}
