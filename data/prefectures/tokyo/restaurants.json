@@ -4888,5 +4888,1392 @@
     "lat": 35.7022,
     "lng": 139.578,
     "default_ai_summary": "吉祥寺駅北口徒歩3分の牛丼。早朝4時開店で、メッセ本館圏の最速丼候補。"
+  },
+  {
+    "id": "sukiya-akabane-minamiguchi",
+    "name": "すき家 赤羽南口店",
+    "area_id": "akabane",
+    "genre": "丼もの",
+    "time_category": [
+      "朝",
+      "昼",
+      "夜"
+    ],
+    "hours": "4:00〜翌3:00（3:00〜4:00休業）",
+    "tags": [
+      "サク飯",
+      "一人OK",
+      "朝飯OK",
+      "深夜OK"
+    ],
+    "address": "東京都北区赤羽1-1-24",
+    "lat": 35.7775,
+    "lng": 139.7215,
+    "default_ai_summary": "赤羽駅南口徒歩2分の牛丼。早朝4時開店で、東口・西口ホール圏の最速丼候補。",
+    "legacy_id": 228
+  },
+  {
+    "id": "yoshinoya-akabane-higashiguchi",
+    "name": "吉野家 赤羽東口店",
+    "area_id": "akabane",
+    "genre": "丼もの",
+    "time_category": [
+      "朝",
+      "昼",
+      "夜"
+    ],
+    "hours": "24時間営業",
+    "tags": [
+      "サク飯",
+      "一人OK",
+      "朝飯OK",
+      "深夜OK"
+    ],
+    "address": "東京都北区赤羽1-2-6 赤羽駅前丸澤ビル1F",
+    "lat": 35.7782,
+    "lng": 139.7222,
+    "default_ai_summary": "赤羽駅東口徒歩2分の牛丼。24時間営業で、K-1・マルシェ圏の定番サク飯。",
+    "legacy_id": 229
+  },
+  {
+    "id": "matsuya-akabane-higashiguchi",
+    "name": "松屋 赤羽東口店",
+    "area_id": "akabane",
+    "genre": "カレー",
+    "time_category": [
+      "朝",
+      "昼",
+      "夜"
+    ],
+    "hours": "24時間営業",
+    "tags": [
+      "サク飯",
+      "一人OK",
+      "朝飯OK",
+      "深夜OK"
+    ],
+    "address": "東京都北区赤羽1-2-6 赤羽駅前丸澤ビル1F",
+    "lat": 35.778,
+    "lng": 139.722,
+    "default_ai_summary": "赤羽駅東口徒歩2分の牛丼・カレー。24時間営業で、東口大型ホール圏の最速補給拠点。",
+    "legacy_id": 230
+  },
+  {
+    "id": "matsuya-akabane",
+    "name": "松屋 赤羽店",
+    "area_id": "akabane",
+    "genre": "カレー",
+    "time_category": [
+      "朝",
+      "昼",
+      "夜"
+    ],
+    "hours": "24時間営業",
+    "tags": [
+      "サク飯",
+      "一人OK",
+      "朝飯OK",
+      "深夜OK"
+    ],
+    "address": "東京都北区赤羽2-1-19 十一会ビル",
+    "lat": 35.7768,
+    "lng": 139.7205,
+    "default_ai_summary": "赤羽駅徒歩3分の牛丼・カレー。24時間営業で、赤羽エリア全体の手軽な丼候補。",
+    "legacy_id": 231
+  },
+  {
+    "id": "matsuya-akabane-nishiguchi",
+    "name": "松屋 赤羽西口店",
+    "area_id": "akabane",
+    "genre": "カレー",
+    "time_category": [
+      "朝",
+      "昼",
+      "夜"
+    ],
+    "hours": "24時間営業",
+    "tags": [
+      "サク飯",
+      "一人OK",
+      "朝飯OK",
+      "深夜OK"
+    ],
+    "address": "東京都北区赤羽西1-38-2",
+    "lat": 35.7765,
+    "lng": 139.7178,
+    "default_ai_summary": "赤羽駅西口徒歩3分の牛丼・カレー。24時間営業で、アジアセンター・コトブキ圏の定番サク飯。",
+    "legacy_id": 232
+  },
+  {
+    "id": "katsuya-akabane",
+    "name": "かつや 赤羽店",
+    "area_id": "akabane",
+    "genre": "とんかつ/カツ丼",
+    "time_category": [
+      "昼",
+      "夜"
+    ],
+    "hours": "10:00〜23:00（L.O. 22:30）",
+    "tags": [
+      "サク飯",
+      "一人OK"
+    ],
+    "address": "東京都北区赤羽1-13-3 丸久ビル1F",
+    "lat": 35.7776,
+    "lng": 139.7218,
+    "default_ai_summary": "赤羽駅東口徒歩2分のとんかつチェーン。揚げたて定食が手頃で、東口ホール圏の定番飯。",
+    "legacy_id": 233
+  },
+  {
+    "id": "cocoichi-akabane-lala-garden",
+    "name": "カレーハウスCoCo壱番屋 赤羽LaLaガーデン店",
+    "area_id": "akabane",
+    "genre": "カレー",
+    "time_category": [
+      "昼",
+      "夜"
+    ],
+    "hours": "11:00〜22:30（L.O.）",
+    "tags": [
+      "サク飯",
+      "一人OK"
+    ],
+    "address": "東京都北区赤羽2-16-1 高和赤羽ビル1F",
+    "lat": 35.7762,
+    "lng": 139.7198,
+    "default_ai_summary": "赤羽駅徒歩5分のカレーチェーン。カスタマイズ自在で、西口ホール圏の手軽なカレー候補。",
+    "legacy_id": 234
+  },
+  {
+    "id": "nakau-akabane-nishiguchi",
+    "name": "なか卯 赤羽西口店",
+    "area_id": "akabane",
+    "genre": "丼もの",
+    "time_category": [
+      "朝",
+      "昼",
+      "夜"
+    ],
+    "hours": "4:00〜翌3:00（3:00〜4:00休業）",
+    "tags": [
+      "サク飯",
+      "一人OK",
+      "朝飯OK",
+      "深夜OK"
+    ],
+    "address": "東京都北区赤羽1-67-8",
+    "lat": 35.7772,
+    "lng": 139.7182,
+    "default_ai_summary": "赤羽駅西口徒歩2分の牛丼・うどん。早朝4時開店で、西口ホール圏の手軽な丼候補。",
+    "legacy_id": 235
+  },
+  {
+    "id": "mcdonalds-akabane-apiure",
+    "name": "マクドナルド 赤羽アピレ店",
+    "area_id": "akabane",
+    "genre": "ハンバーガー",
+    "time_category": [
+      "朝",
+      "昼",
+      "夜"
+    ],
+    "hours": "6:00〜24:00",
+    "tags": [
+      "サク飯",
+      "一人OK",
+      "朝飯OK"
+    ],
+    "address": "東京都北区赤羽1-1-1 ビーンズ赤羽",
+    "lat": 35.7786,
+    "lng": 139.7201,
+    "default_ai_summary": "赤羽駅直結ビーンズ赤羽内のファストフード。朝マック対応で、駅前ホール圏の最速軽食。",
+    "legacy_id": 236
+  },
+  {
+    "id": "tenya-akabane-beans",
+    "name": "天丼てんや ビーンズ赤羽店",
+    "area_id": "akabane",
+    "genre": "丼もの",
+    "time_category": [
+      "昼",
+      "夜"
+    ],
+    "hours": "11:00〜22:00（L.O. 閉店30分前）",
+    "tags": [
+      "サク飯",
+      "一人OK"
+    ],
+    "address": "東京都北区赤羽1-1-1 ビーンズ赤羽",
+    "lat": 35.7788,
+    "lng": 139.7202,
+    "default_ai_summary": "赤羽駅直結の天丼チェーン。揚げたて天丼が手軽で、東口ホール圏のサク飯候補。",
+    "legacy_id": 237
+  },
+  {
+    "id": "wako-akabane-beans",
+    "name": "とんかつ和幸 ビーンズ赤羽店",
+    "area_id": "akabane",
+    "genre": "とんかつ/カツ丼",
+    "time_category": [
+      "昼",
+      "夜"
+    ],
+    "hours": "11:00〜22:00（L.O. 21:30）",
+    "tags": [
+      "サク飯",
+      "一人OK"
+    ],
+    "address": "東京都北区赤羽1-1-1 ビーンズ赤羽1F",
+    "lat": 35.7787,
+    "lng": 139.7203,
+    "default_ai_summary": "赤羽駅直結のとんかつ専門店。定食・弁当が手頃で、駅前ホール圏の定番とんかつ候補。",
+    "legacy_id": 238
+  },
+  {
+    "id": "sobaichi-akabane-ecute",
+    "name": "そばいち エキュート赤羽店",
+    "area_id": "akabane",
+    "genre": "そば/うどん",
+    "time_category": [
+      "朝",
+      "昼",
+      "夜"
+    ],
+    "hours": "7:00〜22:00",
+    "tags": [
+      "サク飯",
+      "一人OK",
+      "朝飯OK"
+    ],
+    "address": "東京都北区赤羽1-1-1 エキュート赤羽",
+    "lat": 35.7785,
+    "lng": 139.7199,
+    "default_ai_summary": "赤羽駅改札内の立ち食いそば。朝7時開店で、エキュート経由の最速そば候補。",
+    "legacy_id": 239
+  },
+  {
+    "id": "nakau-akabane-beans",
+    "name": "なか卯 ビーンズ赤羽店",
+    "area_id": "akabane",
+    "genre": "そば/うどん",
+    "time_category": [
+      "朝",
+      "昼",
+      "夜"
+    ],
+    "hours": "4:00〜翌3:00（3:00〜4:00休業）",
+    "tags": [
+      "サク飯",
+      "一人OK",
+      "朝飯OK",
+      "深夜OK"
+    ],
+    "address": "東京都北区赤羽1-1-1 ビーンズ赤羽",
+    "lat": 35.7783,
+    "lng": 139.72,
+    "default_ai_summary": "赤羽駅直結の牛丼・うどん。24時間営業で、駅構内からの最速和風サク飯候補。",
+    "legacy_id": 240
+  },
+  {
+    "id": "sukiya-hachioji-higashicho",
+    "name": "すき家 八王子東町店",
+    "area_id": "hachioji",
+    "genre": "丼もの",
+    "time_category": [
+      "朝",
+      "昼",
+      "夜"
+    ],
+    "hours": "4:00〜翌3:00（3:00〜4:00休業）",
+    "tags": [
+      "サク飯",
+      "一人OK",
+      "朝飯OK",
+      "深夜OK"
+    ],
+    "address": "東京都八王子市東町5-5",
+    "lat": 35.6572,
+    "lng": 139.3405,
+    "default_ai_summary": "京王八王子駅徒歩3分の牛丼。早朝4時開店で、京王口ホール圏の最速丼候補。",
+    "legacy_id": 241
+  },
+  {
+    "id": "yoshinoya-hachioji-minamiguchi",
+    "name": "吉野家 八王子南口店",
+    "area_id": "hachioji",
+    "genre": "丼もの",
+    "time_category": [
+      "朝",
+      "昼",
+      "夜"
+    ],
+    "hours": "4:00〜翌2:00",
+    "tags": [
+      "サク飯",
+      "一人OK",
+      "朝飯OK",
+      "深夜OK"
+    ],
+    "address": "東京都八王子市子安町1-3-11 SDビル",
+    "lat": 35.6545,
+    "lng": 139.338,
+    "default_ai_summary": "八王子駅南口徒歩3分の牛丼。早朝4時開店で、南口エリアの定番サク飯。",
+    "legacy_id": 242
+  },
+  {
+    "id": "matsuya-hachioji",
+    "name": "松屋 八王子店",
+    "area_id": "hachioji",
+    "genre": "カレー",
+    "time_category": [
+      "朝",
+      "昼",
+      "夜"
+    ],
+    "hours": "24時間営業",
+    "tags": [
+      "サク飯",
+      "一人OK",
+      "朝飯OK",
+      "深夜OK"
+    ],
+    "address": "東京都八王子市旭町7-1",
+    "lat": 35.6565,
+    "lng": 139.3398,
+    "default_ai_summary": "八王子駅北口徒歩3分の牛丼・カレー。24時間営業で、PIA・マルハン圏の最速補給拠点。",
+    "legacy_id": 243
+  },
+  {
+    "id": "matsuya-keio-hachioji",
+    "name": "松屋 京王八王子店",
+    "area_id": "hachioji",
+    "genre": "カレー",
+    "time_category": [
+      "朝",
+      "昼",
+      "夜"
+    ],
+    "hours": "24時間営業",
+    "tags": [
+      "サク飯",
+      "一人OK",
+      "朝飯OK",
+      "深夜OK"
+    ],
+    "address": "東京都八王子市東町1-1",
+    "lat": 35.657,
+    "lng": 139.3412,
+    "default_ai_summary": "京王八王子駅西口徒歩2分の牛丼・カレー。24時間営業で、ナポレオン・コスミック圏の定番サク飯。",
+    "legacy_id": 244
+  },
+  {
+    "id": "katsuya-hachioji",
+    "name": "かつや 八王子店",
+    "area_id": "hachioji",
+    "genre": "とんかつ/カツ丼",
+    "time_category": [
+      "昼",
+      "夜"
+    ],
+    "hours": "10:00〜23:00",
+    "tags": [
+      "サク飯",
+      "一人OK"
+    ],
+    "address": "東京都八王子市東町1-4 森村ビル1F",
+    "lat": 35.6575,
+    "lng": 139.3408,
+    "default_ai_summary": "京王八王子駅徒歩2分のとんかつチェーン。揚げたて定食が手頃で、京王口ホール圏の定番飯。",
+    "legacy_id": 245
+  },
+  {
+    "id": "sushiro-hachioji-ekimae",
+    "name": "スシロー 八王子駅前店",
+    "area_id": "hachioji",
+    "genre": "回転寿司",
+    "time_category": [
+      "昼",
+      "夜"
+    ],
+    "hours": "平日11:00〜23:00、土日祝10:30〜23:00（L.O. 閉店30分前）",
+    "tags": [
+      "サク飯",
+      "一人OK"
+    ],
+    "address": "東京都八王子市中町5-1 八王子中町ビルB1F",
+    "lat": 35.6558,
+    "lng": 139.3375,
+    "default_ai_summary": "八王子駅徒歩5分の回転寿司。コスパ良好で、駅前ホール圏の手軽な軽食候補。",
+    "legacy_id": 246
+  },
+  {
+    "id": "cocoichi-hachioji-minamiguchi",
+    "name": "カレーハウスCoCo壱番屋 八王子駅南口店",
+    "area_id": "hachioji",
+    "genre": "カレー",
+    "time_category": [
+      "昼",
+      "夜"
+    ],
+    "hours": "11:00〜24:00（L.O.）",
+    "tags": [
+      "サク飯",
+      "一人OK"
+    ],
+    "address": "東京都八王子市子安町1-2-5",
+    "lat": 35.6548,
+    "lng": 139.3382,
+    "default_ai_summary": "八王子駅南口徒歩1分のカレーチェーン。深夜まで営業で、南口エリアの手軽なカレー候補。",
+    "legacy_id": 247
+  },
+  {
+    "id": "nakau-hachioji",
+    "name": "なか卯 八王子店",
+    "area_id": "hachioji",
+    "genre": "丼もの",
+    "time_category": [
+      "朝",
+      "昼",
+      "夜"
+    ],
+    "hours": "4:00〜翌3:00（3:00〜4:00休業）",
+    "tags": [
+      "サク飯",
+      "一人OK",
+      "朝飯OK",
+      "深夜OK"
+    ],
+    "address": "東京都八王子市横山町3-10",
+    "lat": 35.656,
+    "lng": 139.3365,
+    "default_ai_summary": "八王子駅北口徒歩5分の牛丼・うどん。早朝4時開店で、北口ホール圏の手軽な丼候補。",
+    "legacy_id": 248
+  },
+  {
+    "id": "mcdonalds-hachioji-opa",
+    "name": "マクドナルド 八王子OPA店",
+    "area_id": "hachioji",
+    "genre": "ハンバーガー",
+    "time_category": [
+      "朝",
+      "昼",
+      "夜"
+    ],
+    "hours": "7:00〜22:00",
+    "tags": [
+      "サク飯",
+      "一人OK",
+      "朝飯OK"
+    ],
+    "address": "東京都八王子市旭町1-12 OPA八王子",
+    "lat": 35.6568,
+    "lng": 139.3402,
+    "default_ai_summary": "八王子駅北口徒歩2分のファストフード。朝マック対応で、北口大型ホール圏の最速軽食。",
+    "legacy_id": 249
+  },
+  {
+    "id": "tenya-hachioji-kitaguchi",
+    "name": "天丼てんや 八王子北口店",
+    "area_id": "hachioji",
+    "genre": "丼もの",
+    "time_category": [
+      "昼",
+      "夜"
+    ],
+    "hours": "11:00〜22:00（L.O. 閉店30分前）",
+    "tags": [
+      "サク飯",
+      "一人OK"
+    ],
+    "address": "東京都八王子市旭町1-1 セレオ八王子",
+    "lat": 35.6562,
+    "lng": 139.3395,
+    "default_ai_summary": "八王子駅北口徒歩1分の天丼チェーン。揚げたて天丼が手軽で、PIA八王子圏のサク飯候補。",
+    "legacy_id": 250
+  },
+  {
+    "id": "fujisoba-hachioji",
+    "name": "名代富士そば 八王子店",
+    "area_id": "hachioji",
+    "genre": "そば/うどん",
+    "time_category": [
+      "朝",
+      "昼",
+      "夜"
+    ],
+    "hours": "24時間営業",
+    "tags": [
+      "サク飯",
+      "一人OK",
+      "朝飯OK",
+      "深夜OK"
+    ],
+    "address": "東京都八王子市旭町2-1",
+    "lat": 35.6565,
+    "lng": 139.339,
+    "default_ai_summary": "八王子駅北口徒歩1分の立ち食いそば。24時間営業で、北口ホール圏の神コスパサク飯。",
+    "legacy_id": 251
+  },
+  {
+    "id": "mcdonalds-hachioji-sanbacho",
+    "name": "マクドナルド 八王子三崎町店",
+    "area_id": "hachioji",
+    "genre": "ハンバーガー",
+    "time_category": [
+      "朝",
+      "昼",
+      "夜"
+    ],
+    "hours": "24時間営業",
+    "tags": [
+      "サク飯",
+      "一人OK",
+      "朝飯OK",
+      "深夜OK"
+    ],
+    "address": "東京都八王子市三崎町4-8",
+    "lat": 35.655,
+    "lng": 139.3415,
+    "default_ai_summary": "八王子駅徒歩5分のファストフード。24時間営業で、京王口ホール圏の深夜軽食候補。",
+    "legacy_id": 252
+  },
+  {
+    "id": "cocoichi-hachioji-kitaguchi",
+    "name": "カレーハウスCoCo壱番屋 八王子駅北口店",
+    "area_id": "hachioji",
+    "genre": "カレー",
+    "time_category": [
+      "昼",
+      "夜"
+    ],
+    "hours": "11:00〜24:00（L.O.）",
+    "tags": [
+      "サク飯",
+      "一人OK"
+    ],
+    "address": "東京都八王子市横山町12-12 M&Jビル1F",
+    "lat": 35.6555,
+    "lng": 139.3368,
+    "default_ai_summary": "八王子駅北口徒歩8分のカレーチェーン。深夜まで営業で、北口エリアのカレー候補。",
+    "legacy_id": 253
+  },
+  {
+    "id": "yoshinoya-kasai-ekimae",
+    "name": "吉野家 葛西駅前店",
+    "area_id": "kasai",
+    "genre": "丼もの",
+    "time_category": [
+      "朝",
+      "昼",
+      "夜"
+    ],
+    "hours": "3:00〜翌2:00",
+    "tags": [
+      "サク飯",
+      "一人OK",
+      "朝飯OK",
+      "深夜OK"
+    ],
+    "address": "東京都江戸川区中葛西5-43-1 葛西メトログルメショッピングセンター",
+    "lat": 35.6635,
+    "lng": 139.8725,
+    "default_ai_summary": "葛西駅南口徒歩1分の牛丼。早朝3時開店で、パラッツォ圏の最速丼候補。",
+    "legacy_id": 254
+  },
+  {
+    "id": "nakau-kasai",
+    "name": "なか卯 葛西店",
+    "area_id": "kasai",
+    "genre": "丼もの",
+    "time_category": [
+      "昼",
+      "夜"
+    ],
+    "hours": "16:00〜翌3:00（L.O. 2:30）",
+    "tags": [
+      "サク飯",
+      "一人OK",
+      "深夜OK"
+    ],
+    "address": "東京都江戸川区中葛西5-19-17 葛西メトロセンター内",
+    "lat": 35.6638,
+    "lng": 139.872,
+    "default_ai_summary": "葛西駅直結メトロセンター内の牛丼・うどん。深夜営業で、駅前ホール圏の手軽な丼候補。",
+    "legacy_id": 255
+  },
+  {
+    "id": "cocoichi-kasai",
+    "name": "カレーハウスCoCo壱番屋 江戸川区葛西店",
+    "area_id": "kasai",
+    "genre": "カレー",
+    "time_category": [
+      "昼",
+      "夜"
+    ],
+    "hours": "11:00〜22:00（L.O.）",
+    "tags": [
+      "サク飯",
+      "一人OK"
+    ],
+    "address": "東京都江戸川区中葛西3-32-17",
+    "lat": 35.664,
+    "lng": 139.8718,
+    "default_ai_summary": "葛西駅徒歩3分のカレーチェーン。カスタマイズ自在で、ウエスタン・将軍圏の手軽なカレー候補。",
+    "legacy_id": 256
+  },
+  {
+    "id": "sushiro-kasai-ekimae",
+    "name": "スシロー 葛西駅前店",
+    "area_id": "kasai",
+    "genre": "回転寿司",
+    "time_category": [
+      "昼",
+      "夜"
+    ],
+    "hours": "平日11:00〜23:00、土日祝10:30〜23:00（L.O. 閉店30分前）",
+    "tags": [
+      "サク飯",
+      "一人OK"
+    ],
+    "address": "東京都江戸川区中葛西3-34-12 37山秀ビル2F",
+    "lat": 35.6643,
+    "lng": 139.8712,
+    "default_ai_summary": "葛西駅徒歩1分の回転寿司。コスパ良好で、駅前大型ホール圏の手軽な軽食候補。",
+    "legacy_id": 257
+  },
+  {
+    "id": "tenya-kasai-ekimae",
+    "name": "天丼てんや 葛西駅前店",
+    "area_id": "kasai",
+    "genre": "丼もの",
+    "time_category": [
+      "昼",
+      "夜"
+    ],
+    "hours": "平日10:30〜22:00、土日祝11:00〜21:00（L.O. 閉店30分前）",
+    "tags": [
+      "サク飯",
+      "一人OK"
+    ],
+    "address": "東京都江戸川区中葛西5-43-1 葛西メトログルメショッピングセンター",
+    "lat": 35.6636,
+    "lng": 139.8726,
+    "default_ai_summary": "葛西駅南口徒歩1分の天丼チェーン。揚げたて天丼が手軽で、パラッツォ圏のサク飯候補。",
+    "legacy_id": 258
+  },
+  {
+    "id": "matsuya-nishikasai",
+    "name": "松屋 西葛西店",
+    "area_id": "kasai",
+    "genre": "カレー",
+    "time_category": [
+      "朝",
+      "昼",
+      "夜"
+    ],
+    "hours": "24時間営業",
+    "tags": [
+      "サク飯",
+      "一人OK",
+      "朝飯OK",
+      "深夜OK"
+    ],
+    "address": "東京都江戸川区西葛西3-17-7",
+    "lat": 35.6655,
+    "lng": 139.8695,
+    "default_ai_summary": "西葛西駅徒歩2分の牛丼・カレー。24時間営業で、葛西〜西葛西ホール圏の定番サク飯。",
+    "legacy_id": 259
+  },
+  {
+    "id": "mcdonalds-kasai",
+    "name": "マクドナルド 葛西店",
+    "area_id": "kasai",
+    "genre": "ハンバーガー",
+    "time_category": [
+      "朝",
+      "昼",
+      "夜"
+    ],
+    "hours": "24時間営業",
+    "tags": [
+      "サク飯",
+      "一人OK",
+      "朝飯OK",
+      "深夜OK"
+    ],
+    "address": "東京都江戸川区中葛西5-42-8",
+    "lat": 35.6633,
+    "lng": 139.8722,
+    "default_ai_summary": "葛西駅南口徒歩2分のファストフード。24時間営業で、パラッツォ圏の最速軽食。",
+    "legacy_id": 260
+  },
+  {
+    "id": "dosanko-kasai",
+    "name": "どさん子 葛西店",
+    "area_id": "kasai",
+    "genre": "ラーメン",
+    "time_category": [
+      "昼",
+      "夜"
+    ],
+    "hours": "平日11:00〜0:00、日祝11:00〜22:00（L.O.）",
+    "tags": [
+      "サク飯",
+      "一人OK",
+      "深夜OK"
+    ],
+    "address": "東京都江戸川区中葛西5-43 葛西第二メトロセンター内",
+    "lat": 35.6634,
+    "lng": 139.8723,
+    "default_ai_summary": "葛西駅徒歩2分のラーメン店。深夜まで営業で、駅前商業施設圏の手軽な一杯候補。",
+    "legacy_id": 261
+  },
+  {
+    "id": "tonkaratei-kasai",
+    "name": "とんから亭 葛西店",
+    "area_id": "kasai",
+    "genre": "とんかつ/カツ丼",
+    "time_category": [
+      "昼",
+      "夜"
+    ],
+    "hours": "10:00〜23:30",
+    "tags": [
+      "サク飯",
+      "一人OK"
+    ],
+    "address": "東京都江戸川区中葛西5-43-1 葛西メトログルメショッピングセンター",
+    "lat": 35.6637,
+    "lng": 139.8724,
+    "default_ai_summary": "葛西駅南口徒歩1分のとんかつ・からあげ店。手軽な定食が食べやすく、パラッツォ圏の定番飯。",
+    "legacy_id": 262
+  },
+  {
+    "id": "yakiniku-kurogyu-kasai",
+    "name": "焼肉黒牛 葛西店",
+    "area_id": "kasai",
+    "genre": "焼肉",
+    "time_category": [
+      "昼",
+      "夜"
+    ],
+    "hours": "平日17:00〜23:00、土日11:30〜15:00・17:00〜23:00",
+    "tags": [
+      "ガッツリ",
+      "一人OK"
+    ],
+    "address": "東京都江戸川区中葛西5-19-4",
+    "lat": 35.6639,
+    "lng": 139.8719,
+    "default_ai_summary": "葛西駅徒歩3分の焼肉店。ランチ営業ありで、メトロセンター圏のスタミナ飯候補。",
+    "legacy_id": 263
+  },
+  {
+    "id": "sukiya-nishikasai",
+    "name": "すき家 西葛西駅前店",
+    "area_id": "kasai",
+    "genre": "丼もの",
+    "time_category": [
+      "朝",
+      "昼",
+      "夜"
+    ],
+    "hours": "4:00〜翌3:00（3:00〜4:00休業）",
+    "tags": [
+      "サク飯",
+      "一人OK",
+      "朝飯OK",
+      "深夜OK"
+    ],
+    "address": "東京都江戸川区西葛西6-8-11",
+    "lat": 35.666,
+    "lng": 139.8688,
+    "default_ai_summary": "西葛西駅徒歩2分の牛丼。早朝4時開店で、ウエスタン葛西圏の最速丼候補。",
+    "legacy_id": 264
+  },
+  {
+    "id": "katsuya-nishikasai",
+    "name": "かつや 東京西葛西店",
+    "area_id": "kasai",
+    "genre": "とんかつ/カツ丼",
+    "time_category": [
+      "昼",
+      "夜"
+    ],
+    "hours": "10:30〜24:00（L.O. 23:30）",
+    "tags": [
+      "サク飯",
+      "一人OK"
+    ],
+    "address": "東京都江戸川区西葛西6-14-1 西葛西メトロセンター2番街",
+    "lat": 35.6662,
+    "lng": 139.8685,
+    "default_ai_summary": "西葛西駅南口徒歩0分のとんかつチェーン。駅ナカで戻りやすく、葛西エリアの定番飯。",
+    "legacy_id": 265
+  },
+  {
+    "id": "mcdonalds-higashikasai",
+    "name": "マクドナルド 東葛西店",
+    "area_id": "kasai",
+    "genre": "ハンバーガー",
+    "time_category": [
+      "朝",
+      "昼",
+      "夜"
+    ],
+    "hours": "24時間営業",
+    "tags": [
+      "サク飯",
+      "一人OK",
+      "朝飯OK",
+      "深夜OK"
+    ],
+    "address": "東京都江戸川区東葛西5-1-12",
+    "lat": 35.6625,
+    "lng": 139.874,
+    "default_ai_summary": "葛西駅徒歩5分のファストフード。24時間営業で、将軍葛西圏の深夜軽食候補。",
+    "legacy_id": 266
+  },
+  {
+    "id": "yoshinoya-koiwa-kitaguchi",
+    "name": "吉野家 小岩北口店",
+    "area_id": "koiwa",
+    "genre": "丼もの",
+    "time_category": [
+      "朝",
+      "昼",
+      "夜"
+    ],
+    "hours": "8:00〜翌1:00",
+    "tags": [
+      "サク飯",
+      "一人OK",
+      "朝飯OK",
+      "深夜OK"
+    ],
+    "address": "東京都江戸川区西小岩3-31-10",
+    "lat": 35.7342,
+    "lng": 139.8835,
+    "default_ai_summary": "小岩駅北口徒歩2分の牛丼。深夜営業で、マルハン・クロノス圏の定番サク飯。",
+    "legacy_id": 267
+  },
+  {
+    "id": "yoshinoya-koiwa-minamiguchi",
+    "name": "吉野家 小岩駅南口店",
+    "area_id": "koiwa",
+    "genre": "丼もの",
+    "time_category": [
+      "朝",
+      "昼",
+      "夜"
+    ],
+    "hours": "24時間営業",
+    "tags": [
+      "サク飯",
+      "一人OK",
+      "朝飯OK",
+      "深夜OK"
+    ],
+    "address": "東京都江戸川区南小岩7-25-1",
+    "lat": 35.7325,
+    "lng": 139.8855,
+    "default_ai_summary": "小岩駅南口徒歩3分の牛丼。24時間営業で、南口エリアの最速丼候補。",
+    "legacy_id": 268
+  },
+  {
+    "id": "matsuya-koiwa",
+    "name": "松屋 小岩店",
+    "area_id": "koiwa",
+    "genre": "カレー",
+    "time_category": [
+      "朝",
+      "昼",
+      "夜"
+    ],
+    "hours": "24時間営業",
+    "tags": [
+      "サク飯",
+      "一人OK",
+      "朝飯OK",
+      "深夜OK"
+    ],
+    "address": "東京都江戸川区西小岩1-21-20 第23東ビル",
+    "lat": 35.7339,
+    "lng": 139.884,
+    "default_ai_summary": "小岩駅北口徒歩3分の牛丼・カレー。24時間営業で、北口大型ホール圏の最速補給拠点。",
+    "legacy_id": 269
+  },
+  {
+    "id": "katsuya-koiwa-ekimae",
+    "name": "かつや 小岩駅前店",
+    "area_id": "koiwa",
+    "genre": "とんかつ/カツ丼",
+    "time_category": [
+      "昼",
+      "夜"
+    ],
+    "hours": "10:00〜23:00",
+    "tags": [
+      "サク飯",
+      "一人OK"
+    ],
+    "address": "東京都江戸川区西小岩1-23-8",
+    "lat": 35.734,
+    "lng": 139.8843,
+    "default_ai_summary": "小岩駅北口徒歩2分のとんかつチェーン。揚げたて定食が手頃で、マルハン圏の定番飯。",
+    "legacy_id": 270
+  },
+  {
+    "id": "cocoichi-koiwa-minamiguchi",
+    "name": "カレーハウスCoCo壱番屋 JR小岩駅南口店",
+    "area_id": "koiwa",
+    "genre": "カレー",
+    "time_category": [
+      "昼",
+      "夜"
+    ],
+    "hours": "11:00〜24:00（L.O.）",
+    "tags": [
+      "サク飯",
+      "一人OK"
+    ],
+    "address": "東京都江戸川区南小岩6-30-11",
+    "lat": 35.7328,
+    "lng": 139.8852,
+    "default_ai_summary": "小岩駅南口徒歩3分のカレーチェーン。深夜まで営業で、南口エリアの手軽なカレー候補。",
+    "legacy_id": 271
+  },
+  {
+    "id": "mcdonalds-shapo-koiwa",
+    "name": "マクドナルド シャポー小岩店",
+    "area_id": "koiwa",
+    "genre": "ハンバーガー",
+    "time_category": [
+      "朝",
+      "昼",
+      "夜"
+    ],
+    "hours": "7:00〜21:40",
+    "tags": [
+      "サク飯",
+      "一人OK",
+      "朝飯OK"
+    ],
+    "address": "東京都江戸川区南小岩7-24-15 シャポー小岩",
+    "lat": 35.7326,
+    "lng": 139.8858,
+    "default_ai_summary": "小岩駅直結シャポー小岩内のファストフード。朝マック対応で、南口圏の最速軽食。",
+    "legacy_id": 272
+  },
+  {
+    "id": "sukiya-koiwa-shibamata",
+    "name": "すき家 柴又街道小岩店",
+    "area_id": "koiwa",
+    "genre": "丼もの",
+    "time_category": [
+      "朝",
+      "昼",
+      "夜"
+    ],
+    "hours": "4:00〜翌3:00（3:00〜4:00休業）",
+    "tags": [
+      "サク飯",
+      "一人OK",
+      "朝飯OK",
+      "深夜OK"
+    ],
+    "address": "東京都江戸川区東小岩6-3-5",
+    "lat": 35.731,
+    "lng": 139.888,
+    "default_ai_summary": "小岩駅徒歩8分の牛丼。早朝4時開店で、南口方面の手軽な丼候補。",
+    "legacy_id": 273
+  },
+  {
+    "id": "matsuya-keisei-koiwa",
+    "name": "松屋 京成小岩店",
+    "area_id": "koiwa",
+    "genre": "カレー",
+    "time_category": [
+      "朝",
+      "昼",
+      "夜"
+    ],
+    "hours": "24時間営業",
+    "tags": [
+      "サク飯",
+      "一人OK",
+      "朝飯OK",
+      "深夜OK"
+    ],
+    "address": "東京都江戸川区北小岩6-12-1 白坂ビル",
+    "lat": 35.7355,
+    "lng": 139.882,
+    "default_ai_summary": "京成小岩駅徒歩1分の牛丼・カレー。24時間営業で、北小岩エリアの定番サク飯。",
+    "legacy_id": 274
+  },
+  {
+    "id": "nadai-fujisoba-koiwa",
+    "name": "名代富士そば 小岩店",
+    "area_id": "koiwa",
+    "genre": "そば/うどん",
+    "time_category": [
+      "朝",
+      "昼",
+      "夜"
+    ],
+    "hours": "24時間営業",
+    "tags": [
+      "サク飯",
+      "一人OK",
+      "朝飯OK",
+      "深夜OK"
+    ],
+    "address": "東京都江戸川区西小岩1-24-1",
+    "lat": 35.7345,
+    "lng": 139.8832,
+    "default_ai_summary": "小岩駅北口徒歩3分の立ち食いそば。24時間営業で、北口ホール圏の神コスパサク飯。",
+    "legacy_id": 275
+  },
+  {
+    "id": "cocoichi-koiwa-kitaguchi",
+    "name": "カレーハウスCoCo壱番屋 小岩北口店",
+    "area_id": "koiwa",
+    "genre": "カレー",
+    "time_category": [
+      "昼",
+      "夜"
+    ],
+    "hours": "11:00〜23:00（L.O.）",
+    "tags": [
+      "サク飯",
+      "一人OK"
+    ],
+    "address": "東京都江戸川区西小岩1-20-3",
+    "lat": 35.7343,
+    "lng": 139.8836,
+    "default_ai_summary": "小岩駅北口徒歩3分のカレーチェーン。マルハン2館圏の手軽なカレー候補。",
+    "legacy_id": 276
+  },
+  {
+    "id": "mcdonalds-koiwa-kitaguchi",
+    "name": "マクドナルド 小岩北口店",
+    "area_id": "koiwa",
+    "genre": "ハンバーガー",
+    "time_category": [
+      "朝",
+      "昼",
+      "夜"
+    ],
+    "hours": "24時間営業",
+    "tags": [
+      "サク飯",
+      "一人OK",
+      "朝飯OK",
+      "深夜OK"
+    ],
+    "address": "東京都江戸川区西小岩1-25-18",
+    "lat": 35.7341,
+    "lng": 139.8839,
+    "default_ai_summary": "小岩駅北口徒歩2分のファストフード。24時間営業で、北口大型ホール圏の深夜軽食。",
+    "legacy_id": 277
+  },
+  {
+    "id": "kfc-koiwa",
+    "name": "ケンタッキーフライドチキン 小岩店",
+    "area_id": "koiwa",
+    "genre": "ハンバーガー",
+    "time_category": [
+      "昼",
+      "夜"
+    ],
+    "hours": "10:00〜22:00",
+    "tags": [
+      "サク飯",
+      "一人OK"
+    ],
+    "address": "東京都江戸川区南小岩6-31-10 FIRSTA II",
+    "lat": 35.7324,
+    "lng": 139.8856,
+    "default_ai_summary": "小岩駅南口徒歩2分のファストフード。テイクアウトも便利で、南口圏の手軽な軽食候補。",
+    "legacy_id": 278
+  },
+  {
+    "id": "sukiya-omori-nishiguchi",
+    "name": "すき家 大森駅西口店",
+    "area_id": "omori",
+    "genre": "丼もの",
+    "time_category": [
+      "朝",
+      "昼",
+      "夜"
+    ],
+    "hours": "4:00〜翌3:00（3:00〜4:00休業）",
+    "tags": [
+      "サク飯",
+      "一人OK",
+      "朝飯OK",
+      "深夜OK"
+    ],
+    "address": "東京都大田区山王2-4-4",
+    "lat": 35.5882,
+    "lng": 139.7268,
+    "default_ai_summary": "大森駅西口徒歩1分の牛丼。早朝4時開店で、PIA大森圏の最速丼候補。",
+    "legacy_id": 279
+  },
+  {
+    "id": "yoshinoya-omori",
+    "name": "吉野家 大森店",
+    "area_id": "omori",
+    "genre": "丼もの",
+    "time_category": [
+      "朝",
+      "昼",
+      "夜"
+    ],
+    "hours": "5:00〜翌2:00",
+    "tags": [
+      "サク飯",
+      "一人OK",
+      "朝飯OK",
+      "深夜OK"
+    ],
+    "address": "東京都大田区大森北1-7-6",
+    "lat": 35.5898,
+    "lng": 139.7292,
+    "default_ai_summary": "大森駅東口徒歩2分の牛丼。早朝5時開店で、金時大森東口圏の定番サク飯。",
+    "legacy_id": 280
+  },
+  {
+    "id": "matsuya-omori",
+    "name": "松屋 大森店",
+    "area_id": "omori",
+    "genre": "カレー",
+    "time_category": [
+      "朝",
+      "昼",
+      "夜"
+    ],
+    "hours": "24時間営業",
+    "tags": [
+      "サク飯",
+      "一人OK",
+      "朝飯OK",
+      "深夜OK"
+    ],
+    "address": "東京都大田区大森北1-6-1",
+    "lat": 35.5895,
+    "lng": 139.7288,
+    "default_ai_summary": "大森駅東口徒歩2分の牛丼・カレー。24時間営業で、東口大型ホール圏の最速補給拠点。",
+    "legacy_id": 281
+  },
+  {
+    "id": "sushiro-omori-ekimae",
+    "name": "スシロー 大森駅前店",
+    "area_id": "omori",
+    "genre": "回転寿司",
+    "time_category": [
+      "昼",
+      "夜"
+    ],
+    "hours": "平日11:00〜23:00、土日祝10:30〜23:00（L.O. 閉店30分前）",
+    "tags": [
+      "サク飯",
+      "一人OK"
+    ],
+    "address": "東京都大田区大森北1-8-12",
+    "lat": 35.5892,
+    "lng": 139.7298,
+    "default_ai_summary": "大森駅東口徒歩2分の回転寿司。コスパ良好で、金時大森東口圏の手軽な軽食候補。",
+    "legacy_id": 282
+  },
+  {
+    "id": "cocoichi-omori-higashiguchi",
+    "name": "カレーハウスCoCo壱番屋 JR大森駅東口店",
+    "area_id": "omori",
+    "genre": "カレー",
+    "time_category": [
+      "昼",
+      "夜"
+    ],
+    "hours": "11:00〜23:30（L.O.）",
+    "tags": [
+      "サク飯",
+      "一人OK"
+    ],
+    "address": "東京都大田区大森北1-8-15",
+    "lat": 35.589,
+    "lng": 139.7295,
+    "default_ai_summary": "大森駅東口徒歩2分のカレーチェーン。カスタマイズ自在で、東口ホール圏の手軽なカレー候補。",
+    "legacy_id": 283
+  },
+  {
+    "id": "fujisoba-omori",
+    "name": "名代富士そば 大森店",
+    "area_id": "omori",
+    "genre": "そば/うどん",
+    "time_category": [
+      "朝",
+      "昼",
+      "夜"
+    ],
+    "hours": "24時間営業",
+    "tags": [
+      "サク飯",
+      "一人OK",
+      "朝飯OK",
+      "深夜OK"
+    ],
+    "address": "東京都大田区大森北1-4-1 桂昇大森駅前ビル1F",
+    "lat": 35.5896,
+    "lng": 139.7285,
+    "default_ai_summary": "大森駅東口徒歩1分の立ち食いそば。24時間営業で、東口ホール圏の神コスパサク飯。",
+    "legacy_id": 284
+  },
+  {
+    "id": "mcdonalds-omori-kitaguchi",
+    "name": "マクドナルド 大森駅北口店",
+    "area_id": "omori",
+    "genre": "ハンバーガー",
+    "time_category": [
+      "朝",
+      "昼",
+      "夜"
+    ],
+    "hours": "6:00〜24:00",
+    "tags": [
+      "サク飯",
+      "一人OK",
+      "朝飯OK"
+    ],
+    "address": "東京都大田区山王2-1-5",
+    "lat": 35.5888,
+    "lng": 139.7275,
+    "default_ai_summary": "大森駅北口徒歩2分のファストフード。朝マック対応で、PIA大森圏の最速軽食。",
+    "legacy_id": 285
+  },
+  {
+    "id": "tenya-omori",
+    "name": "天丼てんや 大森店",
+    "area_id": "omori",
+    "genre": "丼もの",
+    "time_category": [
+      "昼",
+      "夜"
+    ],
+    "hours": "11:00〜21:00（L.O. 閉店30分前）",
+    "tags": [
+      "サク飯",
+      "一人OK"
+    ],
+    "address": "東京都大田区山王2-3-8 大森ビル",
+    "lat": 35.5875,
+    "lng": 139.7268,
+    "default_ai_summary": "大森駅西口徒歩2分の天丼チェーン。揚げたて天丼が手軽で、PIA大森圏のサク飯候補。",
+    "legacy_id": 286
+  },
+  {
+    "id": "nakau-omori-kitaichome",
+    "name": "なか卯 大森北一丁目店",
+    "area_id": "omori",
+    "genre": "丼もの",
+    "time_category": [
+      "朝",
+      "昼",
+      "夜"
+    ],
+    "hours": "4:00〜翌3:00（3:00〜4:00休業）",
+    "tags": [
+      "サク飯",
+      "一人OK",
+      "朝飯OK",
+      "深夜OK"
+    ],
+    "address": "東京都大田区大森北1-30-1 三喜屋ビル",
+    "lat": 35.589,
+    "lng": 139.7298,
+    "default_ai_summary": "大森駅東口徒歩5分の牛丼・うどん。早朝4時開店で、東口ホール圏の手軽な丼候補。",
+    "legacy_id": 287
+  },
+  {
+    "id": "mcdonalds-omori-atre",
+    "name": "マクドナルド アトレ大森店",
+    "area_id": "omori",
+    "genre": "ハンバーガー",
+    "time_category": [
+      "朝",
+      "昼",
+      "夜"
+    ],
+    "hours": "7:00〜22:00",
+    "tags": [
+      "サク飯",
+      "一人OK",
+      "朝飯OK"
+    ],
+    "address": "東京都大田区大森北1-6-16 アトレ大森",
+    "lat": 35.5894,
+    "lng": 139.729,
+    "default_ai_summary": "大森駅東口直結のファストフード。駅ナカで戻りやすく、金時大森東口圏の最速軽食。",
+    "legacy_id": 288
+  },
+  {
+    "id": "gyukaku-omori",
+    "name": "牛角 大森店",
+    "area_id": "omori",
+    "genre": "焼肉",
+    "time_category": [
+      "昼",
+      "夜"
+    ],
+    "hours": "平日16:00〜23:00、土日祝11:00〜23:00（L.O. 閉店60分前）",
+    "tags": [
+      "ガッツリ",
+      "一人OK"
+    ],
+    "address": "東京都大田区山王2-2-7 八景坂ビル2F",
+    "lat": 35.5881,
+    "lng": 139.7272,
+    "default_ai_summary": "大森駅西口徒歩1分の焼肉チェーン。土日はランチ営業ありで、PIA大森圏のスタミナ飯候補。",
+    "legacy_id": 289
+  },
+  {
+    "id": "mosburger-omori",
+    "name": "モスバーガー 大森北店",
+    "area_id": "omori",
+    "genre": "ハンバーガー",
+    "time_category": [
+      "昼",
+      "夜"
+    ],
+    "hours": "10:00〜22:00",
+    "tags": [
+      "サク飯",
+      "一人OK"
+    ],
+    "address": "東京都大田区大森北1-14-1",
+    "lat": 35.5886,
+    "lng": 139.7298,
+    "default_ai_summary": "大森駅東口徒歩3分のハンバーガー。こだわりバーガーが手軽で、東口圏の軽食候補。",
+    "legacy_id": 290
+  },
+  {
+    "id": "kfc-omori-nishiguchi",
+    "name": "ケンタッキーフライドチキン 大森西口店",
+    "area_id": "omori",
+    "genre": "ハンバーガー",
+    "time_category": [
+      "昼",
+      "夜"
+    ],
+    "hours": "10:30〜22:00（店内飯21:30まで）",
+    "tags": [
+      "サク飯",
+      "一人OK"
+    ],
+    "address": "東京都大田区山王2-2-12",
+    "lat": 35.5883,
+    "lng": 139.7266,
+    "default_ai_summary": "大森駅西口徒歩1分のファストフード。PIA大森の目の前圏で使いやすい軽食候補。",
+    "legacy_id": 291
   }
 ]
