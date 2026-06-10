@@ -19,7 +19,10 @@
     "lng": 139.7704,
     "default_ai_summary": "都内屈指の有名店。並びは激しいが、大勝ちした日の最高のご褒美麺として完璧なクオリティ。",
     "is_kitaichimeshi": true,
-    "selection_tags": ["notable_restaurant", "local_famous"],
+    "selection_tags": [
+      "notable_restaurant",
+      "local_famous"
+    ],
     "selection_note": "地域で知名度の高い人気店として選定"
   },
   {
@@ -83,7 +86,15 @@
     "address": "東京都千代田区外神田1-10-11",
     "lat": 35.6985,
     "lng": 139.7716,
-    "default_ai_summary": "電気街口側にある、爆速提供＋替玉2玉無料の定番ラーメン店。一人サク飯にも勝った日のご褒美にも使いやすい。"
+    "default_ai_summary": "電気街口側にある、爆速提供＋替玉2玉無料の定番ラーメン店。一人サク飯にも勝った日のご褒美にも使いやすい。",
+    "is_kitaichimeshi": true,
+    "selection_tags": [
+      "notable_restaurant",
+      "ramen_popular",
+      "quick_return",
+      "local_standard"
+    ],
+    "selection_note": "ラーメン好きに人気の店舗として選定"
   },
   {
     "id": "curry-wa-nomimono-akihabara",
@@ -106,7 +117,9 @@
     "lng": 139.772,
     "default_ai_summary": "トッピングが3つ選べる濃厚カレー。提供スピードが早く、ガッツリ食べてすぐホールに戻りたい時に最適。",
     "is_kitaichimeshi": true,
-    "selection_tags": ["notable_restaurant"],
+    "selection_tags": [
+      "notable_restaurant"
+    ],
     "selection_note": "秋葉原エリアで定番の人気店として選定"
   },
   {
@@ -168,7 +181,15 @@
     "address": "東京都千代田区外神田1-8-14",
     "lat": 35.6993,
     "lng": 139.7716,
-    "default_ai_summary": "行列できる人気のとんかつ店。「勝負に勝つ」ゲン担ぎや、大勝利した日の贅沢ディナーにふさわしい名店。"
+    "default_ai_summary": "行列できる人気のとんかつ店。「勝負に勝つ」ゲン担ぎや、大勝利した日の贅沢ディナーにふさわしい名店。",
+    "is_kitaichimeshi": true,
+    "selection_tags": [
+      "local_famous",
+      "notable_restaurant",
+      "queue_popular",
+      "hearty_meal"
+    ],
+    "selection_note": "地域で知名度の高い人気店として選定"
   },
   {
     "id": "tonkatsu-aoki-akihabara",
@@ -257,7 +278,10 @@
     "lng": 139.772,
     "default_ai_summary": "ジャンクでニンニクの効いた伝説のすた丼。圧倒的スピード提供と強烈な塩分・総カロリーで、疲れた脳に活力を注入できる。",
     "is_kitaichimeshi": true,
-    "selection_tags": ["local_famous", "queue_popular"],
+    "selection_tags": [
+      "local_famous",
+      "queue_popular"
+    ],
     "selection_note": "秋葉原エリアで人気の高い店として選定"
   },
   {
@@ -463,7 +487,14 @@
     "address": "東京都新宿区新宿3-35-7 さんらくビル2F",
     "lat": 35.6914,
     "lng": 139.701,
-    "default_ai_summary": "東南口徒歩30秒のあら炊き塩ラーメン専門店。ラーメン好きに人気で、あっさり系なので休憩後の復帰もしやすい。"
+    "default_ai_summary": "東南口徒歩30秒のあら炊き塩ラーメン専門店。ラーメン好きに人気で、あっさり系なので休憩後の復帰もしやすい。",
+    "is_kitaichimeshi": true,
+    "selection_tags": [
+      "notable_restaurant",
+      "ramen_popular",
+      "station_near"
+    ],
+    "selection_note": "ラーメン好きに人気の店舗として選定"
   },
   {
     "id": "manrai-shinjuku",
@@ -484,7 +515,14 @@
     "address": "東京都新宿区西新宿1-4-10 満来ビル1・2F",
     "lat": 35.6896,
     "lng": 139.6975,
-    "default_ai_summary": "西口の60年老舗。巨大チャーシューで勝ち飯・負け飯どちらにも使える定番の一杯。"
+    "default_ai_summary": "西口の60年老舗。巨大チャーシューで勝ち飯・負け飯どちらにも使える定番の一杯。",
+    "is_kitaichimeshi": true,
+    "selection_tags": [
+      "local_famous",
+      "notable_restaurant",
+      "hearty_meal"
+    ],
+    "selection_note": "地域で知名度の高い人気店として選定"
   },
   {
     "id": "monsnack-kinokuniya-shinjuku",
@@ -526,7 +564,14 @@
     "address": "東京都新宿区歌舞伎町1-23-10",
     "lat": 35.6941,
     "lng": 139.7018,
-    "default_ai_summary": "歌舞伎町の老舗とんかつ。深夜まで営業しており、カツ丼・定食でしっかり休憩できる。"
+    "default_ai_summary": "歌舞伎町の老舗とんかつ。深夜まで営業しており、カツ丼・定食でしっかり休憩できる。",
+    "is_kitaichimeshi": true,
+    "selection_tags": [
+      "local_famous",
+      "notable_restaurant",
+      "hearty_meal"
+    ],
+    "selection_note": "地元利用者の多い店舗として選定"
   },
   {
     "id": "shinshu-soba-honten-shinjuku",
@@ -611,7 +656,14 @@
     "address": "東京都新宿区新宿4-1-7 ジャーナルスタンダード新宿店3F",
     "lat": 35.6888,
     "lng": 139.7022,
-    "default_ai_summary": "話題のハンバーガー店。新南口徒歩2分、テイクアウト可でホール復帰もしやすい。"
+    "default_ai_summary": "話題のハンバーガー店。新南口徒歩2分、テイクアウト可でホール復帰もしやすい。",
+    "is_kitaichimeshi": true,
+    "selection_tags": [
+      "notable_restaurant",
+      "queue_popular",
+      "hearty_meal"
+    ],
+    "selection_note": "ガッツリ飯需要に合う店舗として選定"
   },
   {
     "id": "yakiniku-like-shinjuku-nishiguchi",
@@ -673,7 +725,15 @@
     "address": "東京都豊島区東池袋1-42-8",
     "lat": 35.7315,
     "lng": 139.7145,
-    "default_ai_summary": "東口徒歩2分・24時間の個室風カウンター。いつでもサクッと入れる池袋の定番ラーメン。"
+    "default_ai_summary": "東口徒歩2分・24時間の個室風カウンター。いつでもサクッと入れる池袋の定番ラーメン。",
+    "is_kitaichimeshi": true,
+    "selection_tags": [
+      "notable_restaurant",
+      "ramen_popular",
+      "local_standard",
+      "station_near"
+    ],
+    "selection_note": "地元利用者の多い店舗として選定"
   },
   {
     "id": "mukan-ikebukuro",
@@ -693,7 +753,14 @@
     "address": "東京都豊島区南池袋1-24-5",
     "lat": 35.7283,
     "lng": 139.7128,
-    "default_ai_summary": "楽園池袋店ビル内の牡蠣塩ラーメン専門店。850円・提供2〜3分で東口大型店からの休憩飯に最適。"
+    "default_ai_summary": "楽園池袋店ビル内の牡蠣塩ラーメン専門店。850円・提供2〜3分で東口大型店からの休憩飯に最適。",
+    "is_kitaichimeshi": true,
+    "selection_tags": [
+      "notable_restaurant",
+      "ramen_popular",
+      "quick_return"
+    ],
+    "selection_note": "駅近で食事満足度が高い店舗として選定"
   },
   {
     "id": "mutekiya-ikebukuro",
@@ -714,7 +781,14 @@
     "address": "東京都豊島区南池袋1-17-1",
     "lat": 35.7288,
     "lng": 139.7118,
-    "default_ai_summary": "1994年創業の家系風とんこつ。深夜まで営業し、池袋の〆ラーメンとして定番。"
+    "default_ai_summary": "1994年創業の家系風とんこつ。深夜まで営業し、池袋の〆ラーメンとして定番。",
+    "is_kitaichimeshi": true,
+    "selection_tags": [
+      "local_famous",
+      "ramen_popular",
+      "queue_popular"
+    ],
+    "selection_note": "地域で知名度の高い人気店として選定"
   },
   {
     "id": "gogocurry-ikebukuro-higashiguchi",
@@ -909,7 +983,14 @@
     "address": "東京都渋谷区神南1-22-7 岩本ビルB1F",
     "lat": 35.6611,
     "lng": 139.7009,
-    "default_ai_summary": "ハチ公口徒歩3分・24時間の個室風カウンター。いつでもサクッと入れる渋谷の定番ラーメン。"
+    "default_ai_summary": "ハチ公口徒歩3分・24時間の個室風カウンター。いつでもサクッと入れる渋谷の定番ラーメン。",
+    "is_kitaichimeshi": true,
+    "selection_tags": [
+      "notable_restaurant",
+      "ramen_popular",
+      "local_standard"
+    ],
+    "selection_note": "地元利用者の多い店舗として選定"
   },
   {
     "id": "kindenmaru-shibuya-dogenzaka",
@@ -931,7 +1012,14 @@
     "address": "東京都渋谷区道玄坂2-9-2 渋専連ビル1F",
     "lat": 35.6588,
     "lng": 139.6983,
-    "default_ai_summary": "西口徒歩1分の豚骨醤油ラーメン。深夜〜早朝まで営業し、道玄坂の〆麺として重宝する。"
+    "default_ai_summary": "西口徒歩1分の豚骨醤油ラーメン。深夜〜早朝まで営業し、道玄坂の〆麺として重宝する。",
+    "is_kitaichimeshi": true,
+    "selection_tags": [
+      "notable_restaurant",
+      "ramen_popular",
+      "queue_popular"
+    ],
+    "selection_note": "ラーメン好きに人気の店舗として選定"
   },
   {
     "id": "yoshinoya-shibuya-dogenzaka-dori",
@@ -999,7 +1087,15 @@
     "address": "東京都渋谷区道玄坂2-6-7 道玄坂Tビル1F",
     "lat": 35.6587,
     "lng": 139.699,
-    "default_ai_summary": "道玄坂徒歩2分の名物すた丼。ニンニク効いたガッツリ丼で、大型店からの腹ごしらえに最適。"
+    "default_ai_summary": "道玄坂徒歩2分の名物すた丼。ニンニク効いたガッツリ丼で、大型店からの腹ごしらえに最適。",
+    "is_kitaichimeshi": true,
+    "selection_tags": [
+      "local_famous",
+      "notable_restaurant",
+      "queue_popular",
+      "hearty_meal"
+    ],
+    "selection_note": "ガッツリ飯需要に合う店舗として選定"
   },
   {
     "id": "katsuya-shibuya-dogenzaka",
@@ -1127,7 +1223,15 @@
     "address": "東京都台東区上野7-1-1 アトレ上野",
     "lat": 35.7137,
     "lng": 139.7769,
-    "default_ai_summary": "アトレ上野内・24時間の個室風カウンター。山下口動線からサクッと入れる定番ラーメン。"
+    "default_ai_summary": "アトレ上野内・24時間の個室風カウンター。山下口動線からサクッと入れる定番ラーメン。",
+    "is_kitaichimeshi": true,
+    "selection_tags": [
+      "notable_restaurant",
+      "ramen_popular",
+      "local_standard",
+      "station_near"
+    ],
+    "selection_note": "地元利用者の多い店舗として選定"
   },
   {
     "id": "matsuya-ueno",
@@ -1171,7 +1275,14 @@
     "address": "東京都台東区上野6-2-7 宮入ビル1F",
     "lat": 35.7085,
     "lng": 139.7754,
-    "default_ai_summary": "御徒町北口徒歩2分の金沢カレー。キャベツ食放題・回転速く、アメ横ホール圏の定番。"
+    "default_ai_summary": "御徒町北口徒歩2分の金沢カレー。キャベツ食放題・回転速く、アメ横ホール圏の定番。",
+    "is_kitaichimeshi": true,
+    "selection_tags": [
+      "notable_restaurant",
+      "curry_popular",
+      "local_standard"
+    ],
+    "selection_note": "カレー好きに人気の店舗として選定"
   },
   {
     "id": "yoshinoya-ueno-ekimae",
@@ -1238,7 +1349,15 @@
     "address": "東京都台東区上野3-20-7 GYOTOC ONEビル1F",
     "lat": 35.7059,
     "lng": 139.7741,
-    "default_ai_summary": "御徒町徒歩2分の名物すた丼。ニンニク効いたガッツリ丼で腹ごしらえに最適。"
+    "default_ai_summary": "御徒町徒歩2分の名物すた丼。ニンニク効いたガッツリ丼で腹ごしらえに最適。",
+    "is_kitaichimeshi": true,
+    "selection_tags": [
+      "local_famous",
+      "notable_restaurant",
+      "hearty_meal",
+      "queue_popular"
+    ],
+    "selection_note": "ガッツリ飯需要に合う店舗として選定"
   },
   {
     "id": "katsuya-okachimachi-minamiguchi",
@@ -3010,7 +3129,14 @@
     "address": "東京都豊島区東池袋1-40-10 川又ビル 1F",
     "lat": 35.7315,
     "lng": 139.7148,
-    "default_ai_summary": "池袋駅東口徒歩4分の醤油ラーメン。鶏出汁の定番一杯で、東口大型ホール圏の人気店。"
+    "default_ai_summary": "池袋駅東口徒歩4分の醤油ラーメン。鶏出汁の定番一杯で、東口大型ホール圏の人気店。",
+    "is_kitaichimeshi": true,
+    "selection_tags": [
+      "notable_restaurant",
+      "ramen_popular",
+      "local_standard"
+    ],
+    "selection_note": "ラーメン好きに人気の店舗として選定"
   },
   {
     "id": "nadai-fujisoba-ikebukuro-higashiguchi",
@@ -3054,7 +3180,14 @@
     "address": "東京都渋谷区宇田川町31-9 ハナテイビル 1F",
     "lat": 35.6605,
     "lng": 139.6985,
-    "default_ai_summary": "渋谷駅徒歩5分の醤油ラーメン。2024年オープンのチェーン店で、道玄坂ホール圏の定番一杯。"
+    "default_ai_summary": "渋谷駅徒歩5分の醤油ラーメン。2024年オープンのチェーン店で、道玄坂ホール圏の定番一杯。",
+    "is_kitaichimeshi": true,
+    "selection_tags": [
+      "notable_restaurant",
+      "ramen_popular",
+      "local_standard"
+    ],
+    "selection_note": "ラーメン好きに人気の店舗として選定"
   },
   {
     "id": "cocoichi-shibuya-namikibashi",
@@ -3203,7 +3336,14 @@
     "address": "東京都台東区上野4-5-2 ツルヤビル",
     "lat": 35.7088,
     "lng": 139.7745,
-    "default_ai_summary": "上野御徒町駅徒歩2分の醤油ラーメン。2025年オープンのチェーン店で、アメ横ホール圏の定番一杯。"
+    "default_ai_summary": "上野御徒町駅徒歩2分の醤油ラーメン。2025年オープンのチェーン店で、アメ横ホール圏の定番一杯。",
+    "is_kitaichimeshi": true,
+    "selection_tags": [
+      "notable_restaurant",
+      "ramen_popular",
+      "station_near"
+    ],
+    "selection_note": "ラーメン好きに人気の店舗として選定"
   },
   {
     "id": "komoro-soba-ueno-okachimachi",

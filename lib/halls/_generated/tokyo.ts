@@ -181,7 +181,8 @@ export const tokyoHalls: readonly PachinkoHall[] = [
           "ガッツリ",
           "一人OK"
         ],
-        "address": "東京都千代田区外神田1-8-14"
+        "address": "東京都千代田区外神田1-8-14",
+        "is_kitaichimeshi": true
       },
       {
         "id": 13,
@@ -252,7 +253,8 @@ export const tokyoHalls: readonly PachinkoHall[] = [
           "一人OK",
           "深夜OK"
         ],
-        "address": "東京都千代田区外神田1-10-11"
+        "address": "東京都千代田区外神田1-10-11",
+        "is_kitaichimeshi": true
       },
       {
         "id": 21,
@@ -360,7 +362,8 @@ export const tokyoHalls: readonly PachinkoHall[] = [
           "ガッツリ",
           "一人OK"
         ],
-        "address": "東京都台東区上野3-20-7 GYOTOC ONEビル1F"
+        "address": "東京都台東区上野3-20-7 GYOTOC ONEビル1F",
+        "is_kitaichimeshi": true
       },
       {
         "id": 19,
@@ -541,7 +544,8 @@ export const tokyoHalls: readonly PachinkoHall[] = [
           "一人OK",
           "深夜OK"
         ],
-        "address": "東京都千代田区外神田1-10-11"
+        "address": "東京都千代田区外神田1-10-11",
+        "is_kitaichimeshi": true
       },
       {
         "id": 8,
@@ -558,7 +562,8 @@ export const tokyoHalls: readonly PachinkoHall[] = [
           "ガッツリ",
           "一人OK"
         ],
-        "address": "東京都千代田区外神田1-8-14"
+        "address": "東京都千代田区外神田1-8-14",
+        "is_kitaichimeshi": true
       },
       {
         "id": 13,
@@ -917,7 +922,8 @@ export const tokyoHalls: readonly PachinkoHall[] = [
           "一人OK",
           "深夜OK"
         ],
-        "address": "東京都千代田区外神田1-10-11"
+        "address": "東京都千代田区外神田1-10-11",
+        "is_kitaichimeshi": true
       },
       {
         "id": 21,
@@ -1021,7 +1027,8 @@ export const tokyoHalls: readonly PachinkoHall[] = [
           "ガッツリ",
           "一人OK"
         ],
-        "address": "東京都千代田区外神田1-8-14"
+        "address": "東京都千代田区外神田1-8-14",
+        "is_kitaichimeshi": true
       },
       {
         "id": 14,
@@ -1342,7 +1349,8 @@ export const tokyoHalls: readonly PachinkoHall[] = [
           "一人OK",
           "深夜OK"
         ],
-        "address": "東京都千代田区外神田1-10-11"
+        "address": "東京都千代田区外神田1-10-11",
+        "is_kitaichimeshi": true
       },
       {
         "id": 11,
@@ -1378,7 +1386,8 @@ export const tokyoHalls: readonly PachinkoHall[] = [
           "ガッツリ",
           "一人OK"
         ],
-        "address": "東京都千代田区外神田1-8-14"
+        "address": "東京都千代田区外神田1-8-14",
+        "is_kitaichimeshi": true
       },
       {
         "id": 6,
@@ -1698,7 +1707,8 @@ export const tokyoHalls: readonly PachinkoHall[] = [
           "ガッツリ",
           "一人OK"
         ],
-        "address": "東京都千代田区外神田1-8-14"
+        "address": "東京都千代田区外神田1-8-14",
+        "is_kitaichimeshi": true
       },
       {
         "id": 13,
@@ -1734,7 +1744,8 @@ export const tokyoHalls: readonly PachinkoHall[] = [
           "一人OK",
           "深夜OK"
         ],
-        "address": "東京都千代田区外神田1-10-11"
+        "address": "東京都千代田区外神田1-10-11",
+        "is_kitaichimeshi": true
       },
       {
         "id": 11,
@@ -1930,7 +1941,8 @@ export const tokyoHalls: readonly PachinkoHall[] = [
           "一人OK",
           "深夜OK"
         ],
-        "address": "東京都新宿区歌舞伎町1-23-10"
+        "address": "東京都新宿区歌舞伎町1-23-10",
+        "is_kitaichimeshi": true
       },
       {
         "id": 134,
@@ -1985,7 +1997,8 @@ export const tokyoHalls: readonly PachinkoHall[] = [
           "サク飯",
           "一人OK"
         ],
-        "address": "東京都新宿区新宿3-35-7 さんらくビル2F"
+        "address": "東京都新宿区新宿3-35-7 さんらくビル2F",
+        "is_kitaichimeshi": true
       },
       {
         "id": 28,
@@ -2134,7 +2147,8 @@ export const tokyoHalls: readonly PachinkoHall[] = [
           "ガッツリ",
           "一人OK"
         ],
-        "address": "東京都新宿区新宿4-1-7 ジャーナルスタンダード新宿店3F"
+        "address": "東京都新宿区新宿4-1-7 ジャーナルスタンダード新宿店3F",
+        "is_kitaichimeshi": true
       },
       {
         "id": 27,
@@ -2207,7 +2221,8 @@ export const tokyoHalls: readonly PachinkoHall[] = [
           "一人OK",
           "深夜OK"
         ],
-        "address": "東京都新宿区歌舞伎町1-23-10"
+        "address": "東京都新宿区歌舞伎町1-23-10",
+        "is_kitaichimeshi": true
       },
       {
         "id": 132,
@@ -2242,7 +2257,8 @@ export const tokyoHalls: readonly PachinkoHall[] = [
           "サク飯",
           "一人OK"
         ],
-        "address": "東京都新宿区新宿3-35-7 さんらくビル2F"
+        "address": "東京都新宿区新宿3-35-7 さんらくビル2F",
+        "is_kitaichimeshi": true
       },
       {
         "id": 136,
@@ -2411,7 +2427,8 @@ export const tokyoHalls: readonly PachinkoHall[] = [
           "一人OK",
           "深夜OK"
         ],
-        "address": "東京都新宿区西新宿1-4-10 満来ビル1・2F"
+        "address": "東京都新宿区西新宿1-4-10 満来ビル1・2F",
+        "is_kitaichimeshi": true
       },
       {
         "id": 24,
@@ -2446,7 +2463,8 @@ export const tokyoHalls: readonly PachinkoHall[] = [
           "ガッツリ",
           "一人OK"
         ],
-        "address": "東京都新宿区新宿4-1-7 ジャーナルスタンダード新宿店3F"
+        "address": "東京都新宿区新宿4-1-7 ジャーナルスタンダード新宿店3F",
+        "is_kitaichimeshi": true
       }
     ]
   },
@@ -2499,7 +2517,8 @@ export const tokyoHalls: readonly PachinkoHall[] = [
           "一人OK",
           "深夜OK"
         ],
-        "address": "東京都新宿区歌舞伎町1-23-10"
+        "address": "東京都新宿区歌舞伎町1-23-10",
+        "is_kitaichimeshi": true
       },
       {
         "id": 132,
@@ -2534,7 +2553,8 @@ export const tokyoHalls: readonly PachinkoHall[] = [
           "サク飯",
           "一人OK"
         ],
-        "address": "東京都新宿区新宿3-35-7 さんらくビル2F"
+        "address": "東京都新宿区新宿3-35-7 さんらくビル2F",
+        "is_kitaichimeshi": true
       },
       {
         "id": 28,
@@ -2704,7 +2724,8 @@ export const tokyoHalls: readonly PachinkoHall[] = [
           "一人OK",
           "深夜OK"
         ],
-        "address": "東京都新宿区西新宿1-4-10 満来ビル1・2F"
+        "address": "東京都新宿区西新宿1-4-10 満来ビル1・2F",
+        "is_kitaichimeshi": true
       }
     ]
   },
@@ -2776,7 +2797,8 @@ export const tokyoHalls: readonly PachinkoHall[] = [
           "ガッツリ",
           "一人OK"
         ],
-        "address": "東京都新宿区新宿4-1-7 ジャーナルスタンダード新宿店3F"
+        "address": "東京都新宿区新宿4-1-7 ジャーナルスタンダード新宿店3F",
+        "is_kitaichimeshi": true
       },
       {
         "id": 22,
@@ -2793,7 +2815,8 @@ export const tokyoHalls: readonly PachinkoHall[] = [
           "サク飯",
           "一人OK"
         ],
-        "address": "東京都新宿区新宿3-35-7 さんらくビル2F"
+        "address": "東京都新宿区新宿3-35-7 さんらくビル2F",
+        "is_kitaichimeshi": true
       },
       {
         "id": 26,
@@ -2940,7 +2963,8 @@ export const tokyoHalls: readonly PachinkoHall[] = [
           "一人OK",
           "深夜OK"
         ],
-        "address": "東京都新宿区西新宿1-4-10 満来ビル1・2F"
+        "address": "東京都新宿区西新宿1-4-10 満来ビル1・2F",
+        "is_kitaichimeshi": true
       },
       {
         "id": 25,
@@ -2958,7 +2982,8 @@ export const tokyoHalls: readonly PachinkoHall[] = [
           "一人OK",
           "深夜OK"
         ],
-        "address": "東京都新宿区歌舞伎町1-23-10"
+        "address": "東京都新宿区歌舞伎町1-23-10",
+        "is_kitaichimeshi": true
       },
       {
         "id": 134,
@@ -3011,7 +3036,8 @@ export const tokyoHalls: readonly PachinkoHall[] = [
           "一人OK",
           "深夜OK"
         ],
-        "address": "東京都新宿区西新宿1-4-10 満来ビル1・2F"
+        "address": "東京都新宿区西新宿1-4-10 満来ビル1・2F",
+        "is_kitaichimeshi": true
       },
       {
         "id": 133,
@@ -3103,7 +3129,8 @@ export const tokyoHalls: readonly PachinkoHall[] = [
           "サク飯",
           "一人OK"
         ],
-        "address": "東京都新宿区新宿3-35-7 さんらくビル2F"
+        "address": "東京都新宿区新宿3-35-7 さんらくビル2F",
+        "is_kitaichimeshi": true
       },
       {
         "id": 28,
@@ -3194,7 +3221,8 @@ export const tokyoHalls: readonly PachinkoHall[] = [
           "ガッツリ",
           "一人OK"
         ],
-        "address": "東京都新宿区新宿4-1-7 ジャーナルスタンダード新宿店3F"
+        "address": "東京都新宿区新宿4-1-7 ジャーナルスタンダード新宿店3F",
+        "is_kitaichimeshi": true
       },
       {
         "id": 135,
@@ -3284,7 +3312,8 @@ export const tokyoHalls: readonly PachinkoHall[] = [
           "サク飯",
           "一人OK"
         ],
-        "address": "東京都新宿区新宿3-35-7 さんらくビル2F"
+        "address": "東京都新宿区新宿3-35-7 さんらくビル2F",
+        "is_kitaichimeshi": true
       },
       {
         "id": 134,
@@ -3398,7 +3427,8 @@ export const tokyoHalls: readonly PachinkoHall[] = [
           "一人OK",
           "深夜OK"
         ],
-        "address": "東京都新宿区歌舞伎町1-23-10"
+        "address": "東京都新宿区歌舞伎町1-23-10",
+        "is_kitaichimeshi": true
       },
       {
         "id": 132,
@@ -3454,7 +3484,8 @@ export const tokyoHalls: readonly PachinkoHall[] = [
           "一人OK",
           "深夜OK"
         ],
-        "address": "東京都新宿区西新宿1-4-10 満来ビル1・2F"
+        "address": "東京都新宿区西新宿1-4-10 満来ビル1・2F",
+        "is_kitaichimeshi": true
       },
       {
         "id": 31,
@@ -3508,7 +3539,8 @@ export const tokyoHalls: readonly PachinkoHall[] = [
           "ガッツリ",
           "一人OK"
         ],
-        "address": "東京都新宿区新宿4-1-7 ジャーナルスタンダード新宿店3F"
+        "address": "東京都新宿区新宿4-1-7 ジャーナルスタンダード新宿店3F",
+        "is_kitaichimeshi": true
       }
     ]
   },
@@ -3634,7 +3666,8 @@ export const tokyoHalls: readonly PachinkoHall[] = [
           "ガッツリ",
           "一人OK"
         ],
-        "address": "東京都新宿区新宿4-1-7 ジャーナルスタンダード新宿店3F"
+        "address": "東京都新宿区新宿4-1-7 ジャーナルスタンダード新宿店3F",
+        "is_kitaichimeshi": true
       },
       {
         "id": 22,
@@ -3651,7 +3684,8 @@ export const tokyoHalls: readonly PachinkoHall[] = [
           "サク飯",
           "一人OK"
         ],
-        "address": "東京都新宿区新宿3-35-7 さんらくビル2F"
+        "address": "東京都新宿区新宿3-35-7 さんらくビル2F",
+        "is_kitaichimeshi": true
       },
       {
         "id": 26,
@@ -3687,7 +3721,8 @@ export const tokyoHalls: readonly PachinkoHall[] = [
           "一人OK",
           "深夜OK"
         ],
-        "address": "東京都新宿区歌舞伎町1-23-10"
+        "address": "東京都新宿区歌舞伎町1-23-10",
+        "is_kitaichimeshi": true
       },
       {
         "id": 133,
@@ -3782,7 +3817,8 @@ export const tokyoHalls: readonly PachinkoHall[] = [
           "一人OK",
           "深夜OK"
         ],
-        "address": "東京都新宿区西新宿1-4-10 満来ビル1・2F"
+        "address": "東京都新宿区西新宿1-4-10 満来ビル1・2F",
+        "is_kitaichimeshi": true
       }
     ]
   },
@@ -3832,7 +3868,8 @@ export const tokyoHalls: readonly PachinkoHall[] = [
           "サク飯",
           "一人OK"
         ],
-        "address": "東京都豊島区南池袋1-24-5"
+        "address": "東京都豊島区南池袋1-24-5",
+        "is_kitaichimeshi": true
       },
       {
         "id": 34,
@@ -3850,7 +3887,8 @@ export const tokyoHalls: readonly PachinkoHall[] = [
           "一人OK",
           "深夜OK"
         ],
-        "address": "東京都豊島区南池袋1-17-1"
+        "address": "東京都豊島区南池袋1-17-1",
+        "is_kitaichimeshi": true
       },
       {
         "id": 139,
@@ -3982,7 +4020,8 @@ export const tokyoHalls: readonly PachinkoHall[] = [
           "ガッツリ",
           "一人OK"
         ],
-        "address": "東京都豊島区東池袋1-40-10 川又ビル 1F"
+        "address": "東京都豊島区東池袋1-40-10 川又ビル 1F",
+        "is_kitaichimeshi": true
       },
       {
         "id": 32,
@@ -4000,7 +4039,8 @@ export const tokyoHalls: readonly PachinkoHall[] = [
           "一人OK",
           "深夜OK"
         ],
-        "address": "東京都豊島区東池袋1-42-8"
+        "address": "東京都豊島区東池袋1-42-8",
+        "is_kitaichimeshi": true
       },
       {
         "id": 141,
@@ -4108,7 +4148,8 @@ export const tokyoHalls: readonly PachinkoHall[] = [
           "ガッツリ",
           "一人OK"
         ],
-        "address": "東京都豊島区東池袋1-40-10 川又ビル 1F"
+        "address": "東京都豊島区東池袋1-40-10 川又ビル 1F",
+        "is_kitaichimeshi": true
       },
       {
         "id": 38,
@@ -4144,7 +4185,8 @@ export const tokyoHalls: readonly PachinkoHall[] = [
           "一人OK",
           "深夜OK"
         ],
-        "address": "東京都豊島区東池袋1-42-8"
+        "address": "東京都豊島区東池袋1-42-8",
+        "is_kitaichimeshi": true
       },
       {
         "id": 141,
@@ -4259,7 +4301,8 @@ export const tokyoHalls: readonly PachinkoHall[] = [
           "サク飯",
           "一人OK"
         ],
-        "address": "東京都豊島区南池袋1-24-5"
+        "address": "東京都豊島区南池袋1-24-5",
+        "is_kitaichimeshi": true
       },
       {
         "id": 34,
@@ -4277,7 +4320,8 @@ export const tokyoHalls: readonly PachinkoHall[] = [
           "一人OK",
           "深夜OK"
         ],
-        "address": "東京都豊島区南池袋1-17-1"
+        "address": "東京都豊島区南池袋1-17-1",
+        "is_kitaichimeshi": true
       },
       {
         "id": 40,
@@ -4404,7 +4448,8 @@ export const tokyoHalls: readonly PachinkoHall[] = [
           "一人OK",
           "深夜OK"
         ],
-        "address": "東京都豊島区南池袋1-17-1"
+        "address": "東京都豊島区南池袋1-17-1",
+        "is_kitaichimeshi": true
       },
       {
         "id": 35,
@@ -4439,7 +4484,8 @@ export const tokyoHalls: readonly PachinkoHall[] = [
           "サク飯",
           "一人OK"
         ],
-        "address": "東京都豊島区南池袋1-24-5"
+        "address": "東京都豊島区南池袋1-24-5",
+        "is_kitaichimeshi": true
       },
       {
         "id": 40,
@@ -4534,7 +4580,8 @@ export const tokyoHalls: readonly PachinkoHall[] = [
           "一人OK",
           "深夜OK"
         ],
-        "address": "東京都豊島区東池袋1-42-8"
+        "address": "東京都豊島区東池袋1-42-8",
+        "is_kitaichimeshi": true
       },
       {
         "id": 137,
@@ -4627,7 +4674,8 @@ export const tokyoHalls: readonly PachinkoHall[] = [
           "ガッツリ",
           "一人OK"
         ],
-        "address": "東京都豊島区東池袋1-40-10 川又ビル 1F"
+        "address": "東京都豊島区東池袋1-40-10 川又ビル 1F",
+        "is_kitaichimeshi": true
       },
       {
         "id": 41,
@@ -4768,7 +4816,8 @@ export const tokyoHalls: readonly PachinkoHall[] = [
           "一人OK",
           "深夜OK"
         ],
-        "address": "東京都豊島区南池袋1-17-1"
+        "address": "東京都豊島区南池袋1-17-1",
+        "is_kitaichimeshi": true
       },
       {
         "id": 33,
@@ -4785,7 +4834,8 @@ export const tokyoHalls: readonly PachinkoHall[] = [
           "サク飯",
           "一人OK"
         ],
-        "address": "東京都豊島区南池袋1-24-5"
+        "address": "東京都豊島区南池袋1-24-5",
+        "is_kitaichimeshi": true
       },
       {
         "id": 35,
@@ -4874,7 +4924,8 @@ export const tokyoHalls: readonly PachinkoHall[] = [
           "一人OK",
           "深夜OK"
         ],
-        "address": "東京都渋谷区道玄坂2-6-7 道玄坂Tビル1F"
+        "address": "東京都渋谷区道玄坂2-6-7 道玄坂Tビル1F",
+        "is_kitaichimeshi": true
       },
       {
         "id": 48,
@@ -4910,7 +4961,8 @@ export const tokyoHalls: readonly PachinkoHall[] = [
           "一人OK",
           "深夜OK"
         ],
-        "address": "東京都渋谷区道玄坂2-9-2 渋専連ビル1F"
+        "address": "東京都渋谷区道玄坂2-9-2 渋専連ビル1F",
+        "is_kitaichimeshi": true
       },
       {
         "id": 146,
@@ -4962,7 +5014,8 @@ export const tokyoHalls: readonly PachinkoHall[] = [
           "ガッツリ",
           "一人OK"
         ],
-        "address": "東京都渋谷区宇田川町31-9 ハナテイビル 1F"
+        "address": "東京都渋谷区宇田川町31-9 ハナテイビル 1F",
+        "is_kitaichimeshi": true
       },
       {
         "id": 144,
@@ -5018,7 +5071,8 @@ export const tokyoHalls: readonly PachinkoHall[] = [
           "一人OK",
           "深夜OK"
         ],
-        "address": "東京都渋谷区神南1-22-7 岩本ビルB1F"
+        "address": "東京都渋谷区神南1-22-7 岩本ビルB1F",
+        "is_kitaichimeshi": true
       },
       {
         "id": 145,
@@ -5151,7 +5205,8 @@ export const tokyoHalls: readonly PachinkoHall[] = [
           "一人OK",
           "深夜OK"
         ],
-        "address": "東京都渋谷区道玄坂2-6-7 道玄坂Tビル1F"
+        "address": "東京都渋谷区道玄坂2-6-7 道玄坂Tビル1F",
+        "is_kitaichimeshi": true
       },
       {
         "id": 143,
@@ -5204,7 +5259,8 @@ export const tokyoHalls: readonly PachinkoHall[] = [
           "一人OK",
           "深夜OK"
         ],
-        "address": "東京都渋谷区道玄坂2-9-2 渋専連ビル1F"
+        "address": "東京都渋谷区道玄坂2-9-2 渋専連ビル1F",
+        "is_kitaichimeshi": true
       },
       {
         "id": 50,
@@ -5295,7 +5351,8 @@ export const tokyoHalls: readonly PachinkoHall[] = [
           "ガッツリ",
           "一人OK"
         ],
-        "address": "東京都渋谷区宇田川町31-9 ハナテイビル 1F"
+        "address": "東京都渋谷区宇田川町31-9 ハナテイビル 1F",
+        "is_kitaichimeshi": true
       },
       {
         "id": 144,
@@ -5391,7 +5448,8 @@ export const tokyoHalls: readonly PachinkoHall[] = [
           "一人OK",
           "深夜OK"
         ],
-        "address": "東京都渋谷区神南1-22-7 岩本ビルB1F"
+        "address": "東京都渋谷区神南1-22-7 岩本ビルB1F",
+        "is_kitaichimeshi": true
       },
       {
         "id": 45,
@@ -5462,7 +5520,8 @@ export const tokyoHalls: readonly PachinkoHall[] = [
           "一人OK",
           "深夜OK"
         ],
-        "address": "東京都渋谷区道玄坂2-9-2 渋専連ビル1F"
+        "address": "東京都渋谷区道玄坂2-9-2 渋専連ビル1F",
+        "is_kitaichimeshi": true
       },
       {
         "id": 50,
@@ -5515,7 +5574,8 @@ export const tokyoHalls: readonly PachinkoHall[] = [
           "一人OK",
           "深夜OK"
         ],
-        "address": "東京都渋谷区道玄坂2-6-7 道玄坂Tビル1F"
+        "address": "東京都渋谷区道玄坂2-6-7 道玄坂Tビル1F",
+        "is_kitaichimeshi": true
       },
       {
         "id": 142,
@@ -5533,7 +5593,8 @@ export const tokyoHalls: readonly PachinkoHall[] = [
           "ガッツリ",
           "一人OK"
         ],
-        "address": "東京都渋谷区宇田川町31-9 ハナテイビル 1F"
+        "address": "東京都渋谷区宇田川町31-9 ハナテイビル 1F",
+        "is_kitaichimeshi": true
       },
       {
         "id": 144,
@@ -5626,7 +5687,8 @@ export const tokyoHalls: readonly PachinkoHall[] = [
           "一人OK",
           "深夜OK"
         ],
-        "address": "東京都渋谷区神南1-22-7 岩本ビルB1F"
+        "address": "東京都渋谷区神南1-22-7 岩本ビルB1F",
+        "is_kitaichimeshi": true
       },
       {
         "id": 145,
@@ -5776,7 +5838,8 @@ export const tokyoHalls: readonly PachinkoHall[] = [
           "ガッツリ",
           "一人OK"
         ],
-        "address": "東京都台東区上野4-5-2 ツルヤビル"
+        "address": "東京都台東区上野4-5-2 ツルヤビル",
+        "is_kitaichimeshi": true
       },
       {
         "id": 148,
@@ -5811,7 +5874,8 @@ export const tokyoHalls: readonly PachinkoHall[] = [
           "ガッツリ",
           "一人OK"
         ],
-        "address": "東京都台東区上野6-2-7 宮入ビル1F"
+        "address": "東京都台東区上野6-2-7 宮入ビル1F",
+        "is_kitaichimeshi": true
       },
       {
         "id": 57,
@@ -5906,7 +5970,8 @@ export const tokyoHalls: readonly PachinkoHall[] = [
           "一人OK",
           "深夜OK"
         ],
-        "address": "東京都台東区上野7-1-1 アトレ上野"
+        "address": "東京都台東区上野7-1-1 アトレ上野",
+        "is_kitaichimeshi": true
       },
       {
         "id": 150,
@@ -5997,7 +6062,8 @@ export const tokyoHalls: readonly PachinkoHall[] = [
           "ガッツリ",
           "一人OK"
         ],
-        "address": "東京都台東区上野3-20-7 GYOTOC ONEビル1F"
+        "address": "東京都台東区上野3-20-7 GYOTOC ONEビル1F",
+        "is_kitaichimeshi": true
       }
     ]
   },
@@ -6030,7 +6096,8 @@ export const tokyoHalls: readonly PachinkoHall[] = [
           "ガッツリ",
           "一人OK"
         ],
-        "address": "東京都台東区上野4-5-2 ツルヤビル"
+        "address": "東京都台東区上野4-5-2 ツルヤビル",
+        "is_kitaichimeshi": true
       },
       {
         "id": 60,
@@ -6103,7 +6170,8 @@ export const tokyoHalls: readonly PachinkoHall[] = [
           "ガッツリ",
           "一人OK"
         ],
-        "address": "東京都台東区上野6-2-7 宮入ビル1F"
+        "address": "東京都台東区上野6-2-7 宮入ビル1F",
+        "is_kitaichimeshi": true
       },
       {
         "id": 57,
@@ -6231,7 +6299,8 @@ export const tokyoHalls: readonly PachinkoHall[] = [
           "ガッツリ",
           "一人OK"
         ],
-        "address": "東京都台東区上野3-20-7 GYOTOC ONEビル1F"
+        "address": "東京都台東区上野3-20-7 GYOTOC ONEビル1F",
+        "is_kitaichimeshi": true
       },
       {
         "id": 52,
@@ -6289,7 +6358,8 @@ export const tokyoHalls: readonly PachinkoHall[] = [
           "一人OK",
           "深夜OK"
         ],
-        "address": "東京都台東区上野7-1-1 アトレ上野"
+        "address": "東京都台東区上野7-1-1 アトレ上野",
+        "is_kitaichimeshi": true
       }
     ]
   },
@@ -6322,7 +6392,8 @@ export const tokyoHalls: readonly PachinkoHall[] = [
           "ガッツリ",
           "一人OK"
         ],
-        "address": "東京都台東区上野4-5-2 ツルヤビル"
+        "address": "東京都台東区上野4-5-2 ツルヤビル",
+        "is_kitaichimeshi": true
       },
       {
         "id": 54,
@@ -6360,7 +6431,8 @@ export const tokyoHalls: readonly PachinkoHall[] = [
           "ガッツリ",
           "一人OK"
         ],
-        "address": "東京都台東区上野6-2-7 宮入ビル1F"
+        "address": "東京都台東区上野6-2-7 宮入ビル1F",
+        "is_kitaichimeshi": true
       },
       {
         "id": 151,
@@ -6563,7 +6635,8 @@ export const tokyoHalls: readonly PachinkoHall[] = [
           "一人OK",
           "深夜OK"
         ],
-        "address": "東京都台東区上野7-1-1 アトレ上野"
+        "address": "東京都台東区上野7-1-1 アトレ上野",
+        "is_kitaichimeshi": true
       },
       {
         "id": 58,
@@ -6581,7 +6654,8 @@ export const tokyoHalls: readonly PachinkoHall[] = [
           "ガッツリ",
           "一人OK"
         ],
-        "address": "東京都台東区上野3-20-7 GYOTOC ONEビル1F"
+        "address": "東京都台東区上野3-20-7 GYOTOC ONEビル1F",
+        "is_kitaichimeshi": true
       }
     ]
   },
@@ -6689,7 +6763,8 @@ export const tokyoHalls: readonly PachinkoHall[] = [
           "ガッツリ",
           "一人OK"
         ],
-        "address": "東京都台東区上野6-2-7 宮入ビル1F"
+        "address": "東京都台東区上野6-2-7 宮入ビル1F",
+        "is_kitaichimeshi": true
       },
       {
         "id": 149,
@@ -6707,7 +6782,8 @@ export const tokyoHalls: readonly PachinkoHall[] = [
           "ガッツリ",
           "一人OK"
         ],
-        "address": "東京都台東区上野4-5-2 ツルヤビル"
+        "address": "東京都台東区上野4-5-2 ツルヤビル",
+        "is_kitaichimeshi": true
       },
       {
         "id": 56,
@@ -6762,7 +6838,8 @@ export const tokyoHalls: readonly PachinkoHall[] = [
           "一人OK",
           "深夜OK"
         ],
-        "address": "東京都台東区上野7-1-1 アトレ上野"
+        "address": "東京都台東区上野7-1-1 アトレ上野",
+        "is_kitaichimeshi": true
       },
       {
         "id": 57,
@@ -6873,7 +6950,8 @@ export const tokyoHalls: readonly PachinkoHall[] = [
           "ガッツリ",
           "一人OK"
         ],
-        "address": "東京都台東区上野3-20-7 GYOTOC ONEビル1F"
+        "address": "東京都台東区上野3-20-7 GYOTOC ONEビル1F",
+        "is_kitaichimeshi": true
       }
     ]
   },
