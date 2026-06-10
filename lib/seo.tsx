@@ -97,3 +97,58 @@ export function buildHallBreadcrumbJsonLd(
     itemListElement,
   }
 }
+
+type BreadcrumbChain = {
+  id: string
+  name: string
+}
+
+/** BreadcrumbList JSON-LD（チェーン一覧ページ向け） */
+export function buildChainsIndexBreadcrumbJsonLd() {
+  return {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      {
+        "@type": "ListItem",
+        position: 1,
+        name: "ホーム",
+        item: `${SITE_URL}/`,
+      },
+      {
+        "@type": "ListItem",
+        position: 2,
+        name: "チェーン一覧",
+        item: `${SITE_URL}/chains`,
+      },
+    ],
+  }
+}
+
+/** BreadcrumbList JSON-LD（チェーン詳細ページ向け） */
+export function buildChainBreadcrumbJsonLd(chain: BreadcrumbChain) {
+  return {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      {
+        "@type": "ListItem",
+        position: 1,
+        name: "ホーム",
+        item: `${SITE_URL}/`,
+      },
+      {
+        "@type": "ListItem",
+        position: 2,
+        name: "チェーン一覧",
+        item: `${SITE_URL}/chains`,
+      },
+      {
+        "@type": "ListItem",
+        position: 3,
+        name: chain.name,
+        item: `${SITE_URL}/chains/${chain.id}`,
+      },
+    ],
+  }
+}

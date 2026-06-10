@@ -47,6 +47,8 @@ export const ChainSchema = z.object({
   name: z.string().min(1),
   official_url: z.string().url().optional(),
   description_short: z.string().optional(),
+  /** チェーン解説（150〜300文字目安） */
+  description: z.string().min(100),
 })
 
 export const HallSchema = z.object({

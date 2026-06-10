@@ -34,6 +34,7 @@ import {
   getGoogleMapsDirectionUrl,
 } from "@/lib/maps"
 import { selectRecommendedRestaurantsTop3 } from "@/lib/restaurant-recommendations"
+import { getChainForHall, getChainPagePath } from "@/lib/chains"
 
 // ============================================================
 // 子コンポーネント（このページ専用）
@@ -186,6 +187,7 @@ export default function HallDetailClient({
   const [selectedGenre, setSelectedGenre] = useState<string>("all")
   const { loaded, isFavorite, toggleFavorite } = useFavoriteHalls()
   const hallIsFavorite = loaded && isFavorite(hall.id)
+  const chain = getChainForHall(hall)
 
   const toggleTime = (id: string) => {
     setSelectedTime((prev) =>
@@ -314,6 +316,16 @@ export default function HallDetailClient({
                   </h2>
                   <FavoriteHallButton hallId={hall.id} iconOnly />
                 </div>
+                {chain ? (
+                  <p className="text-[10px] text-gray-500 mb-1">
+                    <Link
+                      href={getChainPagePath(chain.id)}
+                      className="text-red-600 hover:text-red-700 font-medium"
+                    >
+                      {chain.name}
+                    </Link>
+                  </p>
+                ) : null}
                 <div className="text-[11px] text-gray-600 space-y-0.5">
                   <div className="flex items-center gap-1">
                     <MapPin className="w-3 h-3 text-gray-400 shrink-0" />
@@ -337,9 +349,21 @@ export default function HallDetailClient({
             {/* 店舗詳細（デスクトップ） */}
             <div className="hidden sm:block flex-1">
               <div className="flex items-start justify-between mb-2">
-                <h2 className="text-xl lg:text-2xl font-bold text-gray-900">
-                  {hall.name}
-                </h2>
+                <div>
+                  <h2 className="text-xl lg:text-2xl font-bold text-gray-900">
+                    {hall.name}
+                  </h2>
+                  {chain ? (
+                    <p className="text-xs text-gray-500 mt-1">
+                      <Link
+                        href={getChainPagePath(chain.id)}
+                        className="text-red-600 hover:text-red-700 font-medium"
+                      >
+                        {chain.name}
+                      </Link>
+                    </p>
+                  ) : null}
+                </div>
                 <FavoriteHallButton hallId={hall.id} showLabel />
               </div>
 

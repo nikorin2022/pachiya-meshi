@@ -90,6 +90,10 @@ export default function TopPage() {
             <Link href="/areas" className="text-red-600 hover:text-red-700 font-medium">
               エリア別
             </Link>
+            ・
+            <Link href="/chains" className="text-red-600 hover:text-red-700 font-medium">
+              チェーン別
+            </Link>
             から探してください。
           </p>
           <div className="flex items-center gap-1.5 text-[10px] sm:text-xs text-gray-600 bg-red-50 text-red-700 rounded-lg px-2.5 py-2 mt-3 sm:mt-4 w-fit">
