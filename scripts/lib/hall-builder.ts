@@ -27,6 +27,7 @@ export type LegacyRestaurant = {
   ai_summary: string
   tags: string[]
   address: string
+  is_kitaichimeshi?: boolean
 }
 
 export type LegacyHall = {
@@ -82,7 +83,8 @@ export class HallBuilder {
 
       const legacyId = m.restaurant.legacy_id ?? index + 1
 
-      return {
+      // selection_tags / selection_note は data/ 専用。ランタイム Restaurant へは渡さない。
+      const restaurant: LegacyRestaurant = {
         id: legacyId,
         name: m.restaurant.name,
         genre: m.restaurant.genre,
@@ -93,6 +95,10 @@ export class HallBuilder {
         tags: [...m.restaurant.tags],
         address: m.restaurant.address,
       }
+      if (m.restaurant.is_kitaichimeshi === true) {
+        restaurant.is_kitaichimeshi = true
+      }
+      return restaurant
     })
 
     return {

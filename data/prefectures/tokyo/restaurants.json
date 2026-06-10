@@ -17,7 +17,10 @@
     "address": "東京都千代田区外神田3-7-2",
     "lat": 35.7016,
     "lng": 139.7704,
-    "default_ai_summary": "都内屈指の有名店。並びは激しいが、大勝ちした日の最高のご褒美麺として完璧なクオリティ。"
+    "default_ai_summary": "都内屈指の有名店。並びは激しいが、大勝ちした日の最高のご褒美麺として完璧なクオリティ。",
+    "is_kitaichimeshi": true,
+    "selection_tags": ["notable_restaurant", "local_famous"],
+    "selection_note": "地域で知名度の高い人気店として選定"
   },
   {
     "id": "aoshima-shokudo-akihabara",
@@ -101,7 +104,10 @@
     "address": "東京都千代田区外神田3-10-5",
     "lat": 35.7016,
     "lng": 139.772,
-    "default_ai_summary": "トッピングが3つ選べる濃厚カレー。提供スピードが早く、ガッツリ食べてすぐホールに戻りたい時に最適。"
+    "default_ai_summary": "トッピングが3つ選べる濃厚カレー。提供スピードが早く、ガッツリ食べてすぐホールに戻りたい時に最適。",
+    "is_kitaichimeshi": true,
+    "selection_tags": ["notable_restaurant"],
+    "selection_note": "秋葉原エリアで定番の人気店として選定"
   },
   {
     "id": "curry-no-shimin-alba-akihabara",
@@ -162,7 +168,7 @@
     "address": "東京都千代田区外神田1-8-14",
     "lat": 35.6993,
     "lng": 139.7716,
-    "default_ai_summary": "行列必至のミシュラン掲載店。「勝負に勝つ」ゲン担ぎや、大勝利した日の贅沢ディナーにふさわしい名店。"
+    "default_ai_summary": "行列できる人気のとんかつ店。「勝負に勝つ」ゲン担ぎや、大勝利した日の贅沢ディナーにふさわしい名店。"
   },
   {
     "id": "tonkatsu-aoki-akihabara",
@@ -249,7 +255,10 @@
     "address": "東京都千代田区外神田4-4-3",
     "lat": 35.7026,
     "lng": 139.772,
-    "default_ai_summary": "ジャンクでニンニクの効いた伝説のすた丼。圧倒的スピード提供と強烈な塩分・総カロリーで、疲れた脳に活力を注入できる。"
+    "default_ai_summary": "ジャンクでニンニクの効いた伝説のすた丼。圧倒的スピード提供と強烈な塩分・総カロリーで、疲れた脳に活力を注入できる。",
+    "is_kitaichimeshi": true,
+    "selection_tags": ["local_famous", "queue_popular"],
+    "selection_note": "秋葉原エリアで人気の高い店として選定"
   },
   {
     "id": "roast-beef-ohno-akihabara",
@@ -454,7 +463,7 @@
     "address": "東京都新宿区新宿3-35-7 さんらくビル2F",
     "lat": 35.6914,
     "lng": 139.701,
-    "default_ai_summary": "東南口徒歩30秒のあら炊き塩ラーメン百名店。あっさり系で休憩後の復帰もしやすい。"
+    "default_ai_summary": "東南口徒歩30秒のあら炊き塩ラーメン専門店。ラーメン好きに人気で、あっさり系なので休憩後の復帰もしやすい。"
   },
   {
     "id": "manrai-shinjuku",
@@ -602,7 +611,7 @@
     "address": "東京都新宿区新宿4-1-7 ジャーナルスタンダード新宿店3F",
     "lat": 35.6888,
     "lng": 139.7022,
-    "default_ai_summary": "ハンバーガー百名店。新南口徒歩2分、テイクアウト可でホール復帰もしやすい。"
+    "default_ai_summary": "話題のハンバーガー店。新南口徒歩2分、テイクアウト可でホール復帰もしやすい。"
   },
   {
     "id": "yakiniku-like-shinjuku-nishiguchi",

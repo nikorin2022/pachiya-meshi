@@ -3,6 +3,11 @@ import { MapPin, Clock, ChevronRight } from "lucide-react"
 import { Badge } from "@/components/ui/badge"
 import type { PachinkoHall } from "@/lib/halls/types"
 import { getChainNameForHallId } from "@/lib/hall-search"
+import { KitaichimeshiHallBadge } from "@/components/KitaichimeshiBadge"
+import {
+  countKitaichimeshiForHall,
+  getHallKitaichimeshiLabel,
+} from "@/lib/kitaichimeshi"
 
 type Props = {
   halls: readonly PachinkoHall[]
@@ -17,6 +22,9 @@ export function HallCardList({ halls }: Props) {
     <ul className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3 sm:gap-4">
       {halls.map((hall) => {
         const chainName = getChainNameForHallId(hall.id)
+        const kitaichimeshiLabel = getHallKitaichimeshiLabel(
+          countKitaichimeshiForHall(hall),
+        )
         return (
           <li key={hall.id}>
             <Link
@@ -57,13 +65,19 @@ export function HallCardList({ halls }: Props) {
                 </div>
               </div>
 
-              <div className="flex items-center gap-2 mt-3 pt-3 border-t border-gray-100">
+              <div className="flex flex-wrap items-center gap-2 mt-3 pt-3 border-t border-gray-100">
                 <Badge variant="outline" className="text-[10px] sm:text-xs border-gray-300">
                   パチンコ {hall.pachinko}台
                 </Badge>
                 <Badge variant="outline" className="text-[10px] sm:text-xs border-gray-300">
                   スロット {hall.slot}台
                 </Badge>
+                {kitaichimeshiLabel ? (
+                  <KitaichimeshiHallBadge
+                    label={kitaichimeshiLabel}
+                    className="text-[10px] sm:text-xs"
+                  />
+                ) : null}
                 <span className="ml-auto text-[10px] sm:text-xs text-gray-500">
                   飲食店 {hall.restaurants.length}件
                 </span>

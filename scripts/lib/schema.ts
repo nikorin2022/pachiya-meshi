@@ -84,6 +84,12 @@ export const RestaurantSchema = z.object({
   lat: LatSchema,
   lng: LngSchema,
   default_ai_summary: z.string().min(1),
+  /** 期待値飯として表示するか（未指定は false）。生成データ・フロントへはこのフラグのみ渡す */
+  is_kitaichimeshi: z.boolean().optional(),
+  /** data/ 専用・内部管理用タグ。hall-builder で除外し生成データ・フロントへ渡さない */
+  selection_tags: z.array(z.string()).optional(),
+  /** data/ 専用・内部管理用メモ。hall-builder で除外し生成データ・フロントへ渡さない */
+  selection_note: z.string().optional(),
 })
 
 export const WalkMinutesOverrideSchema = z.object({

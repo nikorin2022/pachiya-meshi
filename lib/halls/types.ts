@@ -41,6 +41,8 @@ export type Restaurant = {
   tags: string[]
   /** 表示用テキスト専用。マップ URL 生成には使わない */
   address: string
+  /** 期待値飯として表示するか（未指定は false 扱い） */
+  is_kitaichimeshi?: boolean
 }
 
 /**

@@ -35,6 +35,16 @@ import {
 } from "@/lib/maps"
 import { selectRecommendedRestaurantsTop3 } from "@/lib/restaurant-recommendations"
 import { getChainForHall, getChainPagePath } from "@/lib/chains"
+import {
+  KitaichimeshiHallBadge,
+  KitaichimeshiRestaurantBadge,
+} from "@/components/KitaichimeshiBadge"
+import {
+  countKitaichimeshiForHall,
+  getHallKitaichimeshiLabel,
+  isKitaichimeshi,
+  KITAICHIMESHI_DESCRIPTION,
+} from "@/lib/kitaichimeshi"
 
 // ============================================================
 // 子コンポーネント（このページ専用）
@@ -188,6 +198,10 @@ export default function HallDetailClient({
   const { loaded, isFavorite, toggleFavorite } = useFavoriteHalls()
   const hallIsFavorite = loaded && isFavorite(hall.id)
   const chain = getChainForHall(hall)
+  const kitaichimeshiLabel = useMemo(
+    () => getHallKitaichimeshiLabel(countKitaichimeshiForHall(hall)),
+    [hall],
+  )
 
   const toggleTime = (id: string) => {
     setSelectedTime((prev) =>
@@ -329,6 +343,14 @@ export default function HallDetailClient({
                     </Link>
                   </div>
                 ) : null}
+                {kitaichimeshiLabel ? (
+                  <div className="mb-1.5">
+                    <KitaichimeshiHallBadge
+                      label={kitaichimeshiLabel}
+                      className="text-[10px]"
+                    />
+                  </div>
+                ) : null}
                 <div className="text-[11px] text-gray-600 space-y-0.5">
                   <div className="flex items-center gap-1">
                     <MapPin className="w-3 h-3 text-gray-400 shrink-0" />
@@ -388,13 +410,16 @@ export default function HallDetailClient({
                 </div>
               </div>
 
-              <div className="flex items-center gap-4 mb-3">
+              <div className="flex flex-wrap items-center gap-2 mb-3">
                 <Badge
                   variant="outline"
                   className="bg-red-50 text-red-600 border-red-200 text-xs"
                 >
                   パチンコ {hall.pachinko}台 / スロット {hall.slot}台
                 </Badge>
+                {kitaichimeshiLabel ? (
+                  <KitaichimeshiHallBadge label={kitaichimeshiLabel} />
+                ) : null}
               </div>
 
               <div className="flex items-center gap-2 text-xs sm:text-sm text-gray-600 bg-gray-50 rounded-lg px-3 py-2">
@@ -418,12 +443,20 @@ export default function HallDetailClient({
 
           {/* モバイル: 追加情報 */}
           <div className="sm:hidden mt-3 pt-3 border-t border-gray-100">
-            <Badge
-              variant="outline"
-              className="bg-red-50 text-red-600 border-red-200 text-[10px]"
-            >
-              パチンコ {hall.pachinko}台 / スロット {hall.slot}台
-            </Badge>
+            <div className="flex flex-wrap items-center gap-1.5">
+              <Badge
+                variant="outline"
+                className="bg-red-50 text-red-600 border-red-200 text-[10px]"
+              >
+                パチンコ {hall.pachinko}台 / スロット {hall.slot}台
+              </Badge>
+              {kitaichimeshiLabel ? (
+                <KitaichimeshiHallBadge
+                  label={kitaichimeshiLabel}
+                  className="text-[10px]"
+                />
+              ) : null}
+            </div>
             <div className="flex items-center gap-1.5 text-[10px] text-gray-600 bg-gray-50 rounded-lg px-2 py-1.5 mt-2">
               <span className="text-red-500">📍</span>
               <span>徒歩5〜10分圏内の飲食店を掲載</span>
@@ -524,9 +557,16 @@ export default function HallDetailClient({
         <div className="flex flex-col lg:flex-row gap-4 lg:gap-6">
           {/* メインコンテンツ */}
           <div className="flex-1 order-2 lg:order-1">
-            <h3 className="text-xs sm:text-sm font-bold text-gray-900 mb-3 sm:mb-4">
-              検索結果（{filteredRestaurants.length}件）
-            </h3>
+            <div className="mb-3 sm:mb-4">
+              <h3 className="text-xs sm:text-sm font-bold text-gray-900">
+                検索結果（{filteredRestaurants.length}件）
+              </h3>
+              {kitaichimeshiLabel ? (
+                <p className="text-[10px] sm:text-xs text-gray-500 mt-1">
+                  {KITAICHIMESHI_DESCRIPTION}
+                </p>
+              ) : null}
+            </div>
 
             <div className="space-y-3 sm:space-y-4">
               {filteredRestaurants.length === 0 ? (
@@ -570,6 +610,9 @@ export default function HallDetailClient({
                             >
                               {restaurant.genre}
                             </Badge>
+                            {isKitaichimeshi(restaurant) ? (
+                              <KitaichimeshiRestaurantBadge />
+                            ) : null}
                           </div>
                           <h4 className="font-bold text-gray-900 text-sm sm:text-base mb-1 break-words">
                             {restaurant.name}

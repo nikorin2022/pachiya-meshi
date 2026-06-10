@@ -8,6 +8,11 @@ import { Input } from "@/components/ui/input"
 import { FavoriteHallSection } from "@/components/FavoriteHallSection"
 import { FavoriteHallButton } from "@/components/FavoriteHallButton"
 import type { PachinkoHall } from "@/lib/halls/types"
+import { KitaichimeshiHallBadge } from "@/components/KitaichimeshiBadge"
+import {
+  countKitaichimeshiForHall,
+  getHallKitaichimeshiLabel,
+} from "@/lib/kitaichimeshi"
 
 type Props = {
   halls: readonly PachinkoHall[]
@@ -127,7 +132,11 @@ export default function HallListClient({ halls }: Props) {
           </div>
         ) : (
           <ul className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3 sm:gap-4">
-            {filteredHalls.map((hall) => (
+            {filteredHalls.map((hall) => {
+              const kitaichimeshiLabel = getHallKitaichimeshiLabel(
+                countKitaichimeshiForHall(hall),
+              )
+              return (
               <li key={hall.id}>
                 <Link
                   href={`/halls/${hall.id}`}
@@ -162,7 +171,7 @@ export default function HallListClient({ halls }: Props) {
                     </div>
                   </div>
 
-                  <div className="flex items-center gap-2 mt-3 pt-3 border-t border-gray-100">
+                  <div className="flex flex-wrap items-center gap-2 mt-3 pt-3 border-t border-gray-100">
                     <Badge
                       variant="outline"
                       className="text-[10px] sm:text-xs border-gray-300"
@@ -175,13 +184,19 @@ export default function HallListClient({ halls }: Props) {
                     >
                       スロット {hall.slot}台
                     </Badge>
+                    {kitaichimeshiLabel ? (
+                      <KitaichimeshiHallBadge
+                        label={kitaichimeshiLabel}
+                        className="text-[10px] sm:text-xs"
+                      />
+                    ) : null}
                     <span className="ml-auto text-[10px] sm:text-xs text-gray-500">
                       飲食店 {hall.restaurants.length}件
                     </span>
                   </div>
                 </Link>
               </li>
-            ))}
+            )})}
           </ul>
         )}
       </section>

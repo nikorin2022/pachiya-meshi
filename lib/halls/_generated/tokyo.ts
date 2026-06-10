@@ -37,7 +37,8 @@ export const tokyoHalls: readonly PachinkoHall[] = [
           "一人OK",
           "深夜OK"
         ],
-        "address": "東京都千代田区外神田4-4-3"
+        "address": "東京都千代田区外神田4-4-3",
+        "is_kitaichimeshi": true
       },
       {
         "id": 5,
@@ -55,7 +56,8 @@ export const tokyoHalls: readonly PachinkoHall[] = [
           "ガッツリ",
           "一人OK"
         ],
-        "address": "東京都千代田区外神田3-10-5"
+        "address": "東京都千代田区外神田3-10-5",
+        "is_kitaichimeshi": true
       },
       {
         "id": 15,
@@ -90,7 +92,8 @@ export const tokyoHalls: readonly PachinkoHall[] = [
           "ガッツリ",
           "一人OK"
         ],
-        "address": "東京都千代田区外神田3-7-2"
+        "address": "東京都千代田区外神田3-7-2",
+        "is_kitaichimeshi": true
       },
       {
         "id": 9,
@@ -173,7 +176,7 @@ export const tokyoHalls: readonly PachinkoHall[] = [
           "夜"
         ],
         "hours": "11:30〜14:00、17:00〜20:00",
-        "ai_summary": "行列必至のミシュラン掲載店。「勝負に勝つ」ゲン担ぎや、大勝利した日の贅沢ディナーにふさわしい名店。",
+        "ai_summary": "行列できる人気のとんかつ店。「勝負に勝つ」ゲン担ぎや、大勝利した日の贅沢ディナーにふさわしい名店。",
         "tags": [
           "ガッツリ",
           "一人OK"
@@ -550,7 +553,7 @@ export const tokyoHalls: readonly PachinkoHall[] = [
           "夜"
         ],
         "hours": "11:30〜14:00、17:00〜20:00",
-        "ai_summary": "行列必至のミシュラン掲載店。「勝負に勝つ」ゲン担ぎや、大勝利した日の贅沢ディナーにふさわしい名店。",
+        "ai_summary": "行列できる人気のとんかつ店。「勝負に勝つ」ゲン担ぎや、大勝利した日の贅沢ディナーにふさわしい名店。",
         "tags": [
           "ガッツリ",
           "一人OK"
@@ -696,7 +699,8 @@ export const tokyoHalls: readonly PachinkoHall[] = [
           "一人OK",
           "深夜OK"
         ],
-        "address": "東京都千代田区外神田4-4-3"
+        "address": "東京都千代田区外神田4-4-3",
+        "is_kitaichimeshi": true
       },
       {
         "id": 5,
@@ -714,7 +718,8 @@ export const tokyoHalls: readonly PachinkoHall[] = [
           "ガッツリ",
           "一人OK"
         ],
-        "address": "東京都千代田区外神田3-10-5"
+        "address": "東京都千代田区外神田3-10-5",
+        "is_kitaichimeshi": true
       },
       {
         "id": 7,
@@ -765,7 +770,8 @@ export const tokyoHalls: readonly PachinkoHall[] = [
           "ガッツリ",
           "一人OK"
         ],
-        "address": "東京都千代田区外神田3-7-2"
+        "address": "東京都千代田区外神田3-7-2",
+        "is_kitaichimeshi": true
       },
       {
         "id": 15,
@@ -1010,7 +1016,7 @@ export const tokyoHalls: readonly PachinkoHall[] = [
           "夜"
         ],
         "hours": "11:30〜14:00、17:00〜20:00",
-        "ai_summary": "行列必至のミシュラン掲載店。「勝負に勝つ」ゲン担ぎや、大勝利した日の贅沢ディナーにふさわしい名店。",
+        "ai_summary": "行列できる人気のとんかつ店。「勝負に勝つ」ゲン担ぎや、大勝利した日の贅沢ディナーにふさわしい名店。",
         "tags": [
           "ガッツリ",
           "一人OK"
@@ -1084,7 +1090,8 @@ export const tokyoHalls: readonly PachinkoHall[] = [
           "ガッツリ",
           "一人OK"
         ],
-        "address": "東京都千代田区外神田3-10-5"
+        "address": "東京都千代田区外神田3-10-5",
+        "is_kitaichimeshi": true
       },
       {
         "id": 9,
@@ -1118,7 +1125,8 @@ export const tokyoHalls: readonly PachinkoHall[] = [
           "ガッツリ",
           "一人OK"
         ],
-        "address": "東京都千代田区外神田3-7-2"
+        "address": "東京都千代田区外神田3-7-2",
+        "is_kitaichimeshi": true
       },
       {
         "id": 15,
@@ -1155,7 +1163,8 @@ export const tokyoHalls: readonly PachinkoHall[] = [
           "一人OK",
           "深夜OK"
         ],
-        "address": "東京都千代田区外神田4-4-3"
+        "address": "東京都千代田区外神田4-4-3",
+        "is_kitaichimeshi": true
       }
     ]
   },
@@ -1364,7 +1373,7 @@ export const tokyoHalls: readonly PachinkoHall[] = [
           "夜"
         ],
         "hours": "11:30〜14:00、17:00〜20:00",
-        "ai_summary": "行列必至のミシュラン掲載店。「勝負に勝つ」ゲン担ぎや、大勝利した日の贅沢ディナーにふさわしい名店。",
+        "ai_summary": "行列できる人気のとんかつ店。「勝負に勝つ」ゲン担ぎや、大勝利した日の贅沢ディナーにふさわしい名店。",
         "tags": [
           "ガッツリ",
           "一人OK"
@@ -1405,7 +1414,8 @@ export const tokyoHalls: readonly PachinkoHall[] = [
           "ガッツリ",
           "一人OK"
         ],
-        "address": "東京都千代田区外神田3-10-5"
+        "address": "東京都千代田区外神田3-10-5",
+        "is_kitaichimeshi": true
       },
       {
         "id": 3,
@@ -1490,7 +1500,8 @@ export const tokyoHalls: readonly PachinkoHall[] = [
           "ガッツリ",
           "一人OK"
         ],
-        "address": "東京都千代田区外神田3-7-2"
+        "address": "東京都千代田区外神田3-7-2",
+        "is_kitaichimeshi": true
       },
       {
         "id": 15,
@@ -1527,7 +1538,8 @@ export const tokyoHalls: readonly PachinkoHall[] = [
           "一人OK",
           "深夜OK"
         ],
-        "address": "東京都千代田区外神田4-4-3"
+        "address": "東京都千代田区外神田4-4-3",
+        "is_kitaichimeshi": true
       }
     ]
   },
@@ -1681,7 +1693,7 @@ export const tokyoHalls: readonly PachinkoHall[] = [
           "夜"
         ],
         "hours": "11:30〜14:00、17:00〜20:00",
-        "ai_summary": "行列必至のミシュラン掲載店。「勝負に勝つ」ゲン担ぎや、大勝利した日の贅沢ディナーにふさわしい名店。",
+        "ai_summary": "行列できる人気のとんかつ店。「勝負に勝つ」ゲン担ぎや、大勝利した日の贅沢ディナーにふさわしい名店。",
         "tags": [
           "ガッツリ",
           "一人OK"
@@ -1777,7 +1789,8 @@ export const tokyoHalls: readonly PachinkoHall[] = [
           "ガッツリ",
           "一人OK"
         ],
-        "address": "東京都千代田区外神田3-10-5"
+        "address": "東京都千代田区外神田3-10-5",
+        "is_kitaichimeshi": true
       },
       {
         "id": 3,
@@ -1812,7 +1825,8 @@ export const tokyoHalls: readonly PachinkoHall[] = [
           "ガッツリ",
           "一人OK"
         ],
-        "address": "東京都千代田区外神田3-7-2"
+        "address": "東京都千代田区外神田3-7-2",
+        "is_kitaichimeshi": true
       },
       {
         "id": 14,
@@ -1865,7 +1879,8 @@ export const tokyoHalls: readonly PachinkoHall[] = [
           "一人OK",
           "深夜OK"
         ],
-        "address": "東京都千代田区外神田4-4-3"
+        "address": "東京都千代田区外神田4-4-3",
+        "is_kitaichimeshi": true
       },
       {
         "id": 9,
@@ -1965,7 +1980,7 @@ export const tokyoHalls: readonly PachinkoHall[] = [
           "夜"
         ],
         "hours": "11:00〜15:00、16:30〜23:30",
-        "ai_summary": "東南口徒歩30秒のあら炊き塩ラーメン百名店。あっさり系で休憩後の復帰もしやすい。",
+        "ai_summary": "東南口徒歩30秒のあら炊き塩ラーメン専門店。ラーメン好きに人気で、あっさり系なので休憩後の復帰もしやすい。",
         "tags": [
           "サク飯",
           "一人OK"
@@ -2114,7 +2129,7 @@ export const tokyoHalls: readonly PachinkoHall[] = [
           "夜"
         ],
         "hours": "11:00〜23:00",
-        "ai_summary": "ハンバーガー百名店。新南口徒歩2分、テイクアウト可でホール復帰もしやすい。",
+        "ai_summary": "話題のハンバーガー店。新南口徒歩2分、テイクアウト可でホール復帰もしやすい。",
         "tags": [
           "ガッツリ",
           "一人OK"
@@ -2222,7 +2237,7 @@ export const tokyoHalls: readonly PachinkoHall[] = [
           "夜"
         ],
         "hours": "11:00〜15:00、16:30〜23:30",
-        "ai_summary": "東南口徒歩30秒のあら炊き塩ラーメン百名店。あっさり系で休憩後の復帰もしやすい。",
+        "ai_summary": "東南口徒歩30秒のあら炊き塩ラーメン専門店。ラーメン好きに人気で、あっさり系なので休憩後の復帰もしやすい。",
         "tags": [
           "サク飯",
           "一人OK"
@@ -2426,7 +2441,7 @@ export const tokyoHalls: readonly PachinkoHall[] = [
           "夜"
         ],
         "hours": "11:00〜23:00",
-        "ai_summary": "ハンバーガー百名店。新南口徒歩2分、テイクアウト可でホール復帰もしやすい。",
+        "ai_summary": "話題のハンバーガー店。新南口徒歩2分、テイクアウト可でホール復帰もしやすい。",
         "tags": [
           "ガッツリ",
           "一人OK"
@@ -2514,7 +2529,7 @@ export const tokyoHalls: readonly PachinkoHall[] = [
           "夜"
         ],
         "hours": "11:00〜15:00、16:30〜23:30",
-        "ai_summary": "東南口徒歩30秒のあら炊き塩ラーメン百名店。あっさり系で休憩後の復帰もしやすい。",
+        "ai_summary": "東南口徒歩30秒のあら炊き塩ラーメン専門店。ラーメン好きに人気で、あっさり系なので休憩後の復帰もしやすい。",
         "tags": [
           "サク飯",
           "一人OK"
@@ -2756,7 +2771,7 @@ export const tokyoHalls: readonly PachinkoHall[] = [
           "夜"
         ],
         "hours": "11:00〜23:00",
-        "ai_summary": "ハンバーガー百名店。新南口徒歩2分、テイクアウト可でホール復帰もしやすい。",
+        "ai_summary": "話題のハンバーガー店。新南口徒歩2分、テイクアウト可でホール復帰もしやすい。",
         "tags": [
           "ガッツリ",
           "一人OK"
@@ -2773,7 +2788,7 @@ export const tokyoHalls: readonly PachinkoHall[] = [
           "夜"
         ],
         "hours": "11:00〜15:00、16:30〜23:30",
-        "ai_summary": "東南口徒歩30秒のあら炊き塩ラーメン百名店。あっさり系で休憩後の復帰もしやすい。",
+        "ai_summary": "東南口徒歩30秒のあら炊き塩ラーメン専門店。ラーメン好きに人気で、あっさり系なので休憩後の復帰もしやすい。",
         "tags": [
           "サク飯",
           "一人OK"
@@ -3083,7 +3098,7 @@ export const tokyoHalls: readonly PachinkoHall[] = [
           "夜"
         ],
         "hours": "11:00〜15:00、16:30〜23:30",
-        "ai_summary": "東南口徒歩30秒のあら炊き塩ラーメン百名店。あっさり系で休憩後の復帰もしやすい。",
+        "ai_summary": "東南口徒歩30秒のあら炊き塩ラーメン専門店。ラーメン好きに人気で、あっさり系なので休憩後の復帰もしやすい。",
         "tags": [
           "サク飯",
           "一人OK"
@@ -3174,7 +3189,7 @@ export const tokyoHalls: readonly PachinkoHall[] = [
           "夜"
         ],
         "hours": "11:00〜23:00",
-        "ai_summary": "ハンバーガー百名店。新南口徒歩2分、テイクアウト可でホール復帰もしやすい。",
+        "ai_summary": "話題のハンバーガー店。新南口徒歩2分、テイクアウト可でホール復帰もしやすい。",
         "tags": [
           "ガッツリ",
           "一人OK"
@@ -3264,7 +3279,7 @@ export const tokyoHalls: readonly PachinkoHall[] = [
           "夜"
         ],
         "hours": "11:00〜15:00、16:30〜23:30",
-        "ai_summary": "東南口徒歩30秒のあら炊き塩ラーメン百名店。あっさり系で休憩後の復帰もしやすい。",
+        "ai_summary": "東南口徒歩30秒のあら炊き塩ラーメン専門店。ラーメン好きに人気で、あっさり系なので休憩後の復帰もしやすい。",
         "tags": [
           "サク飯",
           "一人OK"
@@ -3488,7 +3503,7 @@ export const tokyoHalls: readonly PachinkoHall[] = [
           "夜"
         ],
         "hours": "11:00〜23:00",
-        "ai_summary": "ハンバーガー百名店。新南口徒歩2分、テイクアウト可でホール復帰もしやすい。",
+        "ai_summary": "話題のハンバーガー店。新南口徒歩2分、テイクアウト可でホール復帰もしやすい。",
         "tags": [
           "ガッツリ",
           "一人OK"
@@ -3614,7 +3629,7 @@ export const tokyoHalls: readonly PachinkoHall[] = [
           "夜"
         ],
         "hours": "11:00〜23:00",
-        "ai_summary": "ハンバーガー百名店。新南口徒歩2分、テイクアウト可でホール復帰もしやすい。",
+        "ai_summary": "話題のハンバーガー店。新南口徒歩2分、テイクアウト可でホール復帰もしやすい。",
         "tags": [
           "ガッツリ",
           "一人OK"
@@ -3631,7 +3646,7 @@ export const tokyoHalls: readonly PachinkoHall[] = [
           "夜"
         ],
         "hours": "11:00〜15:00、16:30〜23:30",
-        "ai_summary": "東南口徒歩30秒のあら炊き塩ラーメン百名店。あっさり系で休憩後の復帰もしやすい。",
+        "ai_summary": "東南口徒歩30秒のあら炊き塩ラーメン専門店。ラーメン好きに人気で、あっさり系なので休憩後の復帰もしやすい。",
         "tags": [
           "サク飯",
           "一人OK"
