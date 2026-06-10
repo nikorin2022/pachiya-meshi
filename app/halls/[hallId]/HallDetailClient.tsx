@@ -1,6 +1,6 @@
 "use client"
 
-import { useState, useMemo } from "react"
+import { useState, useMemo, type ReactNode } from "react"
 import Image from "next/image"
 import Link from "next/link"
 import {
@@ -172,7 +172,13 @@ function GenreImage({ genre, className = "" }: { genre: string; className?: stri
 // メイン：ホール詳細ページ
 // ============================================================
 
-export default function HallDetailClient({ hall }: { hall: PachinkoHall }) {
+export default function HallDetailClient({
+  hall,
+  children,
+}: {
+  hall: PachinkoHall
+  children?: ReactNode
+}) {
   const [selectedTime, setSelectedTime] = useState<string[]>([])
   // サイトの掲載ポリシーが「徒歩10分以内」のため、初期表示も全件見える 10min を既定とする。
   // 5分以内に絞り込みたい場合はユーザーが明示的に "5min" を選択する。
@@ -289,18 +295,7 @@ export default function HallDetailClient({ hall }: { hall: PachinkoHall }) {
       </header>
 
       <main className="max-w-7xl mx-auto px-3 sm:px-4 py-3 sm:py-4">
-        {/* パンくずリスト */}
-        <nav className="text-[10px] sm:text-xs text-gray-500 mb-3 sm:mb-4 overflow-x-auto whitespace-nowrap">
-          <Link href="/" className="hover:text-gray-900">
-            ホーム
-          </Link>
-          <span className="mx-1">&gt;</span>
-          <span>{hall.prefecture}</span>
-          <span className="mx-1">&gt;</span>
-          <span>{hall.city}</span>
-          <span className="mx-1">&gt;</span>
-          <span className="text-gray-900">{hall.name}</span>
-        </nav>
+        {children}
 
         {/* 店舗情報カード */}
         <div className="bg-white rounded-lg shadow-sm border border-gray-200 p-3 sm:p-4 mb-4 sm:mb-6">

@@ -1,6 +1,8 @@
 import type { Metadata } from "next"
 import { notFound } from "next/navigation"
+import { HallBreadcrumb } from "@/components/HallBreadcrumb"
 import { getAllHallIds, getHallById } from "@/lib/halls"
+import { getAreaForHall } from "@/lib/areas"
 import { JsonLd, buildHallBreadcrumbJsonLd } from "@/lib/seo"
 import HallDetailClient from "./HallDetailClient"
 
@@ -69,11 +71,15 @@ export default async function HallPage({
     notFound()
   }
 
+  const area = getAreaForHall(hall)
+
   return (
     <>
-      {/* SEO: BreadcrumbList 構造化データ（ホーム → ホール詳細） */}
-      <JsonLd data={buildHallBreadcrumbJsonLd(hall)} />
-      <HallDetailClient hall={hall} />
+      {/* SEO: BreadcrumbList 構造化データ（ホーム → エリア → ホール） */}
+      <JsonLd data={buildHallBreadcrumbJsonLd(hall, area)} />
+      <HallDetailClient hall={hall}>
+        <HallBreadcrumb hall={hall} />
+      </HallDetailClient>
     </>
   )
 }

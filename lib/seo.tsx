@@ -49,34 +49,51 @@ export function buildWebSiteJsonLd() {
   }
 }
 
+type BreadcrumbArea = {
+  id: string
+  name: string
+}
+
 /**
  * BreadcrumbList JSON-LD（ホール詳細ページ向け）。
  *
- * 現状サイトの内部リンク構造では、都道府県・市区にまだ専用ページが無いため、
- * パンくずの構造化データは以下の2階層のみを宣言する:
- *   1. ホーム (/)
- *   2. {ホール名} 周辺の飲食店 (/halls/{id})
- *
- * 将来 /halls?prefecture=東京都 等の中間ページが入ったら、その時点で
- * 中間 ListItem を追加する。
+ * 構造: ホーム → エリア → ホール
+ * エリア詳細ページ（/areas/[areaId]）は未実装のため、エリア階層は name のみ宣言する。
  */
-export function buildHallBreadcrumbJsonLd(hall: PachinkoHall) {
+export function buildHallBreadcrumbJsonLd(
+  hall: PachinkoHall,
+  area: BreadcrumbArea | null,
+) {
+  const areaName = area?.name ?? hall.area
+
+  const itemListElement: Array<{
+    "@type": "ListItem"
+    position: number
+    name: string
+    item?: string
+  }> = [
+    {
+      "@type": "ListItem",
+      position: 1,
+      name: "ホーム",
+      item: `${SITE_URL}/`,
+    },
+    {
+      "@type": "ListItem",
+      position: 2,
+      name: areaName,
+    },
+    {
+      "@type": "ListItem",
+      position: 3,
+      name: hall.name,
+      item: `${SITE_URL}/halls/${hall.id}`,
+    },
+  ]
+
   return {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
-    itemListElement: [
-      {
-        "@type": "ListItem",
-        position: 1,
-        name: "ホーム",
-        item: `${SITE_URL}/`,
-      },
-      {
-        "@type": "ListItem",
-        position: 2,
-        name: `${hall.name} 周辺の飲食店`,
-        item: `${SITE_URL}/halls/${hall.id}`,
-      },
-    ],
+    itemListElement,
   }
 }
