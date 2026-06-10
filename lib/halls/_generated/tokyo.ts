@@ -1893,6 +1893,44 @@ export const tokyoHalls: readonly PachinkoHall[] = [
         "address": "東京都新宿区歌舞伎町1-23-10"
       },
       {
+        "id": 134,
+        "name": "吉野家 新宿靖国通り店",
+        "genre": "丼もの",
+        "walkMinutes": 1,
+        "time_category": [
+          "朝",
+          "昼",
+          "夜"
+        ],
+        "hours": "24時間営業",
+        "ai_summary": "歌舞伎町徒歩2分の牛丼。24時間営業で、エスパス・マルハン圏の最速丼候補。",
+        "tags": [
+          "サク飯",
+          "一人OK",
+          "朝飯OK",
+          "深夜OK"
+        ],
+        "address": "東京都新宿区歌舞伎町1-6-3"
+      },
+      {
+        "id": 132,
+        "name": "一蘭 新宿中央東口店",
+        "genre": "ラーメン",
+        "walkMinutes": 5,
+        "time_category": [
+          "昼",
+          "夜"
+        ],
+        "hours": "24時間営業",
+        "ai_summary": "新宿三丁目駅徒歩3分のとんこつラーメン。24時間営業で、東南口・歌舞伎町圏の個室風カウンター定番。",
+        "tags": [
+          "サク飯",
+          "一人OK",
+          "深夜OK"
+        ],
+        "address": "東京都新宿区新宿3-34-11 ピースビル B1F"
+      },
+      {
         "id": 22,
         "name": "麺屋海神 新宿店",
         "genre": "ラーメン",
@@ -1928,6 +1966,26 @@ export const tokyoHalls: readonly PachinkoHall[] = [
         "address": "東京都新宿区新宿3-35-2"
       },
       {
+        "id": 136,
+        "name": "名代 富士そば 新宿店",
+        "genre": "そば/うどん",
+        "walkMinutes": 6,
+        "time_category": [
+          "朝",
+          "昼",
+          "夜"
+        ],
+        "hours": "24時間営業（3:00〜3:45休業）",
+        "ai_summary": "新宿三丁目駅徒歩2分・24時間の立ち食いそば。券売機で最速提供、駅前ホール圏の定番サク飯。",
+        "tags": [
+          "サク飯",
+          "一人OK",
+          "朝飯OK",
+          "深夜OK"
+        ],
+        "address": "東京都新宿区新宿3-14-25 パークシティ3"
+      },
+      {
         "id": 26,
         "name": "信州そば本陣 ルミネエスト新宿店",
         "genre": "そば/うどん",
@@ -1946,6 +2004,26 @@ export const tokyoHalls: readonly PachinkoHall[] = [
         "address": "東京都新宿区新宿3-38-1 ルミネエスト新宿B1F"
       },
       {
+        "id": 135,
+        "name": "すき家 新宿南店",
+        "genre": "丼もの",
+        "walkMinutes": 7,
+        "time_category": [
+          "朝",
+          "昼",
+          "夜"
+        ],
+        "hours": "4:00〜翌3:00（3:00〜4:00休業）",
+        "ai_summary": "新宿駅東南口徒歩1分の牛丼。早朝4時開店で、ベガスベガス・東南口圏の手軽な丼候補。",
+        "tags": [
+          "サク飯",
+          "一人OK",
+          "朝飯OK",
+          "深夜OK"
+        ],
+        "address": "東京都新宿区新宿3-32-2"
+      },
+      {
         "id": 24,
         "name": "モンスナック 新宿紀伊國屋ビル店",
         "genre": "カレー",
@@ -1962,6 +2040,26 @@ export const tokyoHalls: readonly PachinkoHall[] = [
           "一人OK"
         ],
         "address": "東京都新宿区新宿3-17-7 紀伊國屋ビルB1F"
+      },
+      {
+        "id": 133,
+        "name": "カレーハウスCoCo壱番屋 新宿駅西口店",
+        "genre": "カレー",
+        "walkMinutes": 9,
+        "time_category": [
+          "朝",
+          "昼",
+          "夜"
+        ],
+        "hours": "6:00〜4:30（L.O.）",
+        "ai_summary": "新宿西口徒歩1分のカレーチェーン。早朝6時開店で、西口・カレイド圏の最速カレー候補。",
+        "tags": [
+          "サク飯",
+          "一人OK",
+          "朝飯OK",
+          "深夜OK"
+        ],
+        "address": "東京都新宿区西新宿1-2-12"
       },
       {
         "id": 30,
@@ -2033,6 +2131,26 @@ export const tokyoHalls: readonly PachinkoHall[] = [
     "slot": 411,
     "restaurants": [
       {
+        "id": 134,
+        "name": "吉野家 新宿靖国通り店",
+        "genre": "丼もの",
+        "walkMinutes": 2,
+        "time_category": [
+          "朝",
+          "昼",
+          "夜"
+        ],
+        "hours": "24時間営業",
+        "ai_summary": "歌舞伎町徒歩2分の牛丼。24時間営業で、エスパス・マルハン圏の最速丼候補。",
+        "tags": [
+          "サク飯",
+          "一人OK",
+          "朝飯OK",
+          "深夜OK"
+        ],
+        "address": "東京都新宿区歌舞伎町1-6-3"
+      },
+      {
         "id": 25,
         "name": "とんかつ にいむら 本店",
         "genre": "とんかつ/カツ丼",
@@ -2051,6 +2169,24 @@ export const tokyoHalls: readonly PachinkoHall[] = [
         "address": "東京都新宿区歌舞伎町1-23-10"
       },
       {
+        "id": 132,
+        "name": "一蘭 新宿中央東口店",
+        "genre": "ラーメン",
+        "walkMinutes": 5,
+        "time_category": [
+          "昼",
+          "夜"
+        ],
+        "hours": "24時間営業",
+        "ai_summary": "新宿三丁目駅徒歩3分のとんこつラーメン。24時間営業で、東南口・歌舞伎町圏の個室風カウンター定番。",
+        "tags": [
+          "サク飯",
+          "一人OK",
+          "深夜OK"
+        ],
+        "address": "東京都新宿区新宿3-34-11 ピースビル B1F"
+      },
+      {
         "id": 22,
         "name": "麺屋海神 新宿店",
         "genre": "ラーメン",
@@ -2066,6 +2202,26 @@ export const tokyoHalls: readonly PachinkoHall[] = [
           "一人OK"
         ],
         "address": "東京都新宿区新宿3-35-7 さんらくビル2F"
+      },
+      {
+        "id": 136,
+        "name": "名代 富士そば 新宿店",
+        "genre": "そば/うどん",
+        "walkMinutes": 5,
+        "time_category": [
+          "朝",
+          "昼",
+          "夜"
+        ],
+        "hours": "24時間営業（3:00〜3:45休業）",
+        "ai_summary": "新宿三丁目駅徒歩2分・24時間の立ち食いそば。券売機で最速提供、駅前ホール圏の定番サク飯。",
+        "tags": [
+          "サク飯",
+          "一人OK",
+          "朝飯OK",
+          "深夜OK"
+        ],
+        "address": "東京都新宿区新宿3-14-25 パークシティ3"
       },
       {
         "id": 28,
@@ -2104,6 +2260,26 @@ export const tokyoHalls: readonly PachinkoHall[] = [
         "address": "東京都新宿区新宿3-38-1 ルミネエスト新宿B1F"
       },
       {
+        "id": 135,
+        "name": "すき家 新宿南店",
+        "genre": "丼もの",
+        "walkMinutes": 7,
+        "time_category": [
+          "朝",
+          "昼",
+          "夜"
+        ],
+        "hours": "4:00〜翌3:00（3:00〜4:00休業）",
+        "ai_summary": "新宿駅東南口徒歩1分の牛丼。早朝4時開店で、ベガスベガス・東南口圏の手軽な丼候補。",
+        "tags": [
+          "サク飯",
+          "一人OK",
+          "朝飯OK",
+          "深夜OK"
+        ],
+        "address": "東京都新宿区新宿3-32-2"
+      },
+      {
         "id": 30,
         "name": "焼肉ライク 新宿西口店",
         "genre": "焼肉",
@@ -2120,6 +2296,26 @@ export const tokyoHalls: readonly PachinkoHall[] = [
           "一人OK"
         ],
         "address": "東京都新宿区西新宿7-11-17 ブレステン西新宿1F"
+      },
+      {
+        "id": 133,
+        "name": "カレーハウスCoCo壱番屋 新宿駅西口店",
+        "genre": "カレー",
+        "walkMinutes": 8,
+        "time_category": [
+          "朝",
+          "昼",
+          "夜"
+        ],
+        "hours": "6:00〜4:30（L.O.）",
+        "ai_summary": "新宿西口徒歩1分のカレーチェーン。早朝6時開店で、西口・カレイド圏の最速カレー候補。",
+        "tags": [
+          "サク飯",
+          "一人OK",
+          "朝飯OK",
+          "深夜OK"
+        ],
+        "address": "東京都新宿区西新宿1-2-12"
       },
       {
         "id": 27,
@@ -2226,6 +2422,26 @@ export const tokyoHalls: readonly PachinkoHall[] = [
     "slot": 664,
     "restaurants": [
       {
+        "id": 134,
+        "name": "吉野家 新宿靖国通り店",
+        "genre": "丼もの",
+        "walkMinutes": 1,
+        "time_category": [
+          "朝",
+          "昼",
+          "夜"
+        ],
+        "hours": "24時間営業",
+        "ai_summary": "歌舞伎町徒歩2分の牛丼。24時間営業で、エスパス・マルハン圏の最速丼候補。",
+        "tags": [
+          "サク飯",
+          "一人OK",
+          "朝飯OK",
+          "深夜OK"
+        ],
+        "address": "東京都新宿区歌舞伎町1-6-3"
+      },
+      {
         "id": 25,
         "name": "とんかつ にいむら 本店",
         "genre": "とんかつ/カツ丼",
@@ -2242,6 +2458,24 @@ export const tokyoHalls: readonly PachinkoHall[] = [
           "深夜OK"
         ],
         "address": "東京都新宿区歌舞伎町1-23-10"
+      },
+      {
+        "id": 132,
+        "name": "一蘭 新宿中央東口店",
+        "genre": "ラーメン",
+        "walkMinutes": 6,
+        "time_category": [
+          "昼",
+          "夜"
+        ],
+        "hours": "24時間営業",
+        "ai_summary": "新宿三丁目駅徒歩3分のとんこつラーメン。24時間営業で、東南口・歌舞伎町圏の個室風カウンター定番。",
+        "tags": [
+          "サク飯",
+          "一人OK",
+          "深夜OK"
+        ],
+        "address": "東京都新宿区新宿3-34-11 ピースビル B1F"
       },
       {
         "id": 22,
@@ -2279,6 +2513,26 @@ export const tokyoHalls: readonly PachinkoHall[] = [
         "address": "東京都新宿区新宿3-35-2"
       },
       {
+        "id": 136,
+        "name": "名代 富士そば 新宿店",
+        "genre": "そば/うどん",
+        "walkMinutes": 7,
+        "time_category": [
+          "朝",
+          "昼",
+          "夜"
+        ],
+        "hours": "24時間営業（3:00〜3:45休業）",
+        "ai_summary": "新宿三丁目駅徒歩2分・24時間の立ち食いそば。券売機で最速提供、駅前ホール圏の定番サク飯。",
+        "tags": [
+          "サク飯",
+          "一人OK",
+          "朝飯OK",
+          "深夜OK"
+        ],
+        "address": "東京都新宿区新宿3-14-25 パークシティ3"
+      },
+      {
         "id": 26,
         "name": "信州そば本陣 ルミネエスト新宿店",
         "genre": "そば/うどん",
@@ -2297,6 +2551,26 @@ export const tokyoHalls: readonly PachinkoHall[] = [
         "address": "東京都新宿区新宿3-38-1 ルミネエスト新宿B1F"
       },
       {
+        "id": 135,
+        "name": "すき家 新宿南店",
+        "genre": "丼もの",
+        "walkMinutes": 8,
+        "time_category": [
+          "朝",
+          "昼",
+          "夜"
+        ],
+        "hours": "4:00〜翌3:00（3:00〜4:00休業）",
+        "ai_summary": "新宿駅東南口徒歩1分の牛丼。早朝4時開店で、ベガスベガス・東南口圏の手軽な丼候補。",
+        "tags": [
+          "サク飯",
+          "一人OK",
+          "朝飯OK",
+          "深夜OK"
+        ],
+        "address": "東京都新宿区新宿3-32-2"
+      },
+      {
         "id": 30,
         "name": "焼肉ライク 新宿西口店",
         "genre": "焼肉",
@@ -2313,6 +2587,26 @@ export const tokyoHalls: readonly PachinkoHall[] = [
           "一人OK"
         ],
         "address": "東京都新宿区西新宿7-11-17 ブレステン西新宿1F"
+      },
+      {
+        "id": 133,
+        "name": "カレーハウスCoCo壱番屋 新宿駅西口店",
+        "genre": "カレー",
+        "walkMinutes": 9,
+        "time_category": [
+          "朝",
+          "昼",
+          "夜"
+        ],
+        "hours": "6:00〜4:30（L.O.）",
+        "ai_summary": "新宿西口徒歩1分のカレーチェーン。早朝6時開店で、西口・カレイド圏の最速カレー候補。",
+        "tags": [
+          "サク飯",
+          "一人OK",
+          "朝飯OK",
+          "深夜OK"
+        ],
+        "address": "東京都新宿区西新宿1-2-12"
       },
       {
         "id": 24,
@@ -2385,6 +2679,46 @@ export const tokyoHalls: readonly PachinkoHall[] = [
     "slot": 517,
     "restaurants": [
       {
+        "id": 136,
+        "name": "名代 富士そば 新宿店",
+        "genre": "そば/うどん",
+        "walkMinutes": 2,
+        "time_category": [
+          "朝",
+          "昼",
+          "夜"
+        ],
+        "hours": "24時間営業（3:00〜3:45休業）",
+        "ai_summary": "新宿三丁目駅徒歩2分・24時間の立ち食いそば。券売機で最速提供、駅前ホール圏の定番サク飯。",
+        "tags": [
+          "サク飯",
+          "一人OK",
+          "朝飯OK",
+          "深夜OK"
+        ],
+        "address": "東京都新宿区新宿3-14-25 パークシティ3"
+      },
+      {
+        "id": 135,
+        "name": "すき家 新宿南店",
+        "genre": "丼もの",
+        "walkMinutes": 2,
+        "time_category": [
+          "朝",
+          "昼",
+          "夜"
+        ],
+        "hours": "4:00〜翌3:00（3:00〜4:00休業）",
+        "ai_summary": "新宿駅東南口徒歩1分の牛丼。早朝4時開店で、ベガスベガス・東南口圏の手軽な丼候補。",
+        "tags": [
+          "サク飯",
+          "一人OK",
+          "朝飯OK",
+          "深夜OK"
+        ],
+        "address": "東京都新宿区新宿3-32-2"
+      },
+      {
         "id": 29,
         "name": "J.S. BURGERS CAFE 新宿店",
         "genre": "ハンバーガー",
@@ -2453,6 +2787,44 @@ export const tokyoHalls: readonly PachinkoHall[] = [
           "一人OK"
         ],
         "address": "東京都新宿区新宿3-35-2"
+      },
+      {
+        "id": 132,
+        "name": "一蘭 新宿中央東口店",
+        "genre": "ラーメン",
+        "walkMinutes": 4,
+        "time_category": [
+          "昼",
+          "夜"
+        ],
+        "hours": "24時間営業",
+        "ai_summary": "新宿三丁目駅徒歩3分のとんこつラーメン。24時間営業で、東南口・歌舞伎町圏の個室風カウンター定番。",
+        "tags": [
+          "サク飯",
+          "一人OK",
+          "深夜OK"
+        ],
+        "address": "東京都新宿区新宿3-34-11 ピースビル B1F"
+      },
+      {
+        "id": 133,
+        "name": "カレーハウスCoCo壱番屋 新宿駅西口店",
+        "genre": "カレー",
+        "walkMinutes": 5,
+        "time_category": [
+          "朝",
+          "昼",
+          "夜"
+        ],
+        "hours": "6:00〜4:30（L.O.）",
+        "ai_summary": "新宿西口徒歩1分のカレーチェーン。早朝6時開店で、西口・カレイド圏の最速カレー候補。",
+        "tags": [
+          "サク飯",
+          "一人OK",
+          "朝飯OK",
+          "深夜OK"
+        ],
+        "address": "東京都新宿区西新宿1-2-12"
       },
       {
         "id": 27,
@@ -2544,6 +2916,26 @@ export const tokyoHalls: readonly PachinkoHall[] = [
           "深夜OK"
         ],
         "address": "東京都新宿区歌舞伎町1-23-10"
+      },
+      {
+        "id": 134,
+        "name": "吉野家 新宿靖国通り店",
+        "genre": "丼もの",
+        "walkMinutes": 8,
+        "time_category": [
+          "朝",
+          "昼",
+          "夜"
+        ],
+        "hours": "24時間営業",
+        "ai_summary": "歌舞伎町徒歩2分の牛丼。24時間営業で、エスパス・マルハン圏の最速丼候補。",
+        "tags": [
+          "サク飯",
+          "一人OK",
+          "朝飯OK",
+          "深夜OK"
+        ],
+        "address": "東京都新宿区歌舞伎町1-6-3"
       }
     ]
   },
@@ -2576,6 +2968,26 @@ export const tokyoHalls: readonly PachinkoHall[] = [
           "深夜OK"
         ],
         "address": "東京都新宿区西新宿1-4-10 満来ビル1・2F"
+      },
+      {
+        "id": 133,
+        "name": "カレーハウスCoCo壱番屋 新宿駅西口店",
+        "genre": "カレー",
+        "walkMinutes": 4,
+        "time_category": [
+          "朝",
+          "昼",
+          "夜"
+        ],
+        "hours": "6:00〜4:30（L.O.）",
+        "ai_summary": "新宿西口徒歩1分のカレーチェーン。早朝6時開店で、西口・カレイド圏の最速カレー候補。",
+        "tags": [
+          "サク飯",
+          "一人OK",
+          "朝飯OK",
+          "深夜OK"
+        ],
+        "address": "東京都新宿区西新宿1-2-12"
       },
       {
         "id": 31,
@@ -2686,6 +3098,44 @@ export const tokyoHalls: readonly PachinkoHall[] = [
         "address": "東京都新宿区西新宿7-11-17 ブレステン西新宿1F"
       },
       {
+        "id": 136,
+        "name": "名代 富士そば 新宿店",
+        "genre": "そば/うどん",
+        "walkMinutes": 8,
+        "time_category": [
+          "朝",
+          "昼",
+          "夜"
+        ],
+        "hours": "24時間営業（3:00〜3:45休業）",
+        "ai_summary": "新宿三丁目駅徒歩2分・24時間の立ち食いそば。券売機で最速提供、駅前ホール圏の定番サク飯。",
+        "tags": [
+          "サク飯",
+          "一人OK",
+          "朝飯OK",
+          "深夜OK"
+        ],
+        "address": "東京都新宿区新宿3-14-25 パークシティ3"
+      },
+      {
+        "id": 132,
+        "name": "一蘭 新宿中央東口店",
+        "genre": "ラーメン",
+        "walkMinutes": 9,
+        "time_category": [
+          "昼",
+          "夜"
+        ],
+        "hours": "24時間営業",
+        "ai_summary": "新宿三丁目駅徒歩3分のとんこつラーメン。24時間営業で、東南口・歌舞伎町圏の個室風カウンター定番。",
+        "tags": [
+          "サク飯",
+          "一人OK",
+          "深夜OK"
+        ],
+        "address": "東京都新宿区新宿3-34-11 ピースビル B1F"
+      },
+      {
         "id": 29,
         "name": "J.S. BURGERS CAFE 新宿店",
         "genre": "ハンバーガー",
@@ -2701,6 +3151,46 @@ export const tokyoHalls: readonly PachinkoHall[] = [
           "一人OK"
         ],
         "address": "東京都新宿区新宿4-1-7 ジャーナルスタンダード新宿店3F"
+      },
+      {
+        "id": 135,
+        "name": "すき家 新宿南店",
+        "genre": "丼もの",
+        "walkMinutes": 9,
+        "time_category": [
+          "朝",
+          "昼",
+          "夜"
+        ],
+        "hours": "4:00〜翌3:00（3:00〜4:00休業）",
+        "ai_summary": "新宿駅東南口徒歩1分の牛丼。早朝4時開店で、ベガスベガス・東南口圏の手軽な丼候補。",
+        "tags": [
+          "サク飯",
+          "一人OK",
+          "朝飯OK",
+          "深夜OK"
+        ],
+        "address": "東京都新宿区新宿3-32-2"
+      },
+      {
+        "id": 134,
+        "name": "吉野家 新宿靖国通り店",
+        "genre": "丼もの",
+        "walkMinutes": 10,
+        "time_category": [
+          "朝",
+          "昼",
+          "夜"
+        ],
+        "hours": "24時間営業",
+        "ai_summary": "歌舞伎町徒歩2分の牛丼。24時間営業で、エスパス・マルハン圏の最速丼候補。",
+        "tags": [
+          "サク飯",
+          "一人OK",
+          "朝飯OK",
+          "深夜OK"
+        ],
+        "address": "東京都新宿区歌舞伎町1-6-3"
       }
     ]
   },
@@ -2752,6 +3242,66 @@ export const tokyoHalls: readonly PachinkoHall[] = [
         "address": "東京都新宿区新宿3-35-7 さんらくビル2F"
       },
       {
+        "id": 134,
+        "name": "吉野家 新宿靖国通り店",
+        "genre": "丼もの",
+        "walkMinutes": 5,
+        "time_category": [
+          "朝",
+          "昼",
+          "夜"
+        ],
+        "hours": "24時間営業",
+        "ai_summary": "歌舞伎町徒歩2分の牛丼。24時間営業で、エスパス・マルハン圏の最速丼候補。",
+        "tags": [
+          "サク飯",
+          "一人OK",
+          "朝飯OK",
+          "深夜OK"
+        ],
+        "address": "東京都新宿区歌舞伎町1-6-3"
+      },
+      {
+        "id": 133,
+        "name": "カレーハウスCoCo壱番屋 新宿駅西口店",
+        "genre": "カレー",
+        "walkMinutes": 6,
+        "time_category": [
+          "朝",
+          "昼",
+          "夜"
+        ],
+        "hours": "6:00〜4:30（L.O.）",
+        "ai_summary": "新宿西口徒歩1分のカレーチェーン。早朝6時開店で、西口・カレイド圏の最速カレー候補。",
+        "tags": [
+          "サク飯",
+          "一人OK",
+          "朝飯OK",
+          "深夜OK"
+        ],
+        "address": "東京都新宿区西新宿1-2-12"
+      },
+      {
+        "id": 136,
+        "name": "名代 富士そば 新宿店",
+        "genre": "そば/うどん",
+        "walkMinutes": 6,
+        "time_category": [
+          "朝",
+          "昼",
+          "夜"
+        ],
+        "hours": "24時間営業（3:00〜3:45休業）",
+        "ai_summary": "新宿三丁目駅徒歩2分・24時間の立ち食いそば。券売機で最速提供、駅前ホール圏の定番サク飯。",
+        "tags": [
+          "サク飯",
+          "一人OK",
+          "朝飯OK",
+          "深夜OK"
+        ],
+        "address": "東京都新宿区新宿3-14-25 パークシティ3"
+      },
+      {
         "id": 26,
         "name": "信州そば本陣 ルミネエスト新宿店",
         "genre": "そば/うどん",
@@ -2804,6 +3354,24 @@ export const tokyoHalls: readonly PachinkoHall[] = [
           "深夜OK"
         ],
         "address": "東京都新宿区歌舞伎町1-23-10"
+      },
+      {
+        "id": 132,
+        "name": "一蘭 新宿中央東口店",
+        "genre": "ラーメン",
+        "walkMinutes": 7,
+        "time_category": [
+          "昼",
+          "夜"
+        ],
+        "hours": "24時間営業",
+        "ai_summary": "新宿三丁目駅徒歩3分のとんこつラーメン。24時間営業で、東南口・歌舞伎町圏の個室風カウンター定番。",
+        "tags": [
+          "サク飯",
+          "一人OK",
+          "深夜OK"
+        ],
+        "address": "東京都新宿区新宿3-34-11 ピースビル B1F"
       },
       {
         "id": 27,
@@ -2861,6 +3429,26 @@ export const tokyoHalls: readonly PachinkoHall[] = [
         "address": "東京都新宿区西新宿1-15-3"
       },
       {
+        "id": 135,
+        "name": "すき家 新宿南店",
+        "genre": "丼もの",
+        "walkMinutes": 8,
+        "time_category": [
+          "朝",
+          "昼",
+          "夜"
+        ],
+        "hours": "4:00〜翌3:00（3:00〜4:00休業）",
+        "ai_summary": "新宿駅東南口徒歩1分の牛丼。早朝4時開店で、ベガスベガス・東南口圏の手軽な丼候補。",
+        "tags": [
+          "サク飯",
+          "一人OK",
+          "朝飯OK",
+          "深夜OK"
+        ],
+        "address": "東京都新宿区新宿3-32-2"
+      },
+      {
         "id": 29,
         "name": "J.S. BURGERS CAFE 新宿店",
         "genre": "ハンバーガー",
@@ -2908,6 +3496,64 @@ export const tokyoHalls: readonly PachinkoHall[] = [
           "一人OK"
         ],
         "address": "東京都新宿区新宿3-17-7 紀伊國屋ビルB1F"
+      },
+      {
+        "id": 135,
+        "name": "すき家 新宿南店",
+        "genre": "丼もの",
+        "walkMinutes": 2,
+        "time_category": [
+          "朝",
+          "昼",
+          "夜"
+        ],
+        "hours": "4:00〜翌3:00（3:00〜4:00休業）",
+        "ai_summary": "新宿駅東南口徒歩1分の牛丼。早朝4時開店で、ベガスベガス・東南口圏の手軽な丼候補。",
+        "tags": [
+          "サク飯",
+          "一人OK",
+          "朝飯OK",
+          "深夜OK"
+        ],
+        "address": "東京都新宿区新宿3-32-2"
+      },
+      {
+        "id": 132,
+        "name": "一蘭 新宿中央東口店",
+        "genre": "ラーメン",
+        "walkMinutes": 3,
+        "time_category": [
+          "昼",
+          "夜"
+        ],
+        "hours": "24時間営業",
+        "ai_summary": "新宿三丁目駅徒歩3分のとんこつラーメン。24時間営業で、東南口・歌舞伎町圏の個室風カウンター定番。",
+        "tags": [
+          "サク飯",
+          "一人OK",
+          "深夜OK"
+        ],
+        "address": "東京都新宿区新宿3-34-11 ピースビル B1F"
+      },
+      {
+        "id": 136,
+        "name": "名代 富士そば 新宿店",
+        "genre": "そば/うどん",
+        "walkMinutes": 4,
+        "time_category": [
+          "朝",
+          "昼",
+          "夜"
+        ],
+        "hours": "24時間営業（3:00〜3:45休業）",
+        "ai_summary": "新宿三丁目駅徒歩2分・24時間の立ち食いそば。券売機で最速提供、駅前ホール圏の定番サク飯。",
+        "tags": [
+          "サク飯",
+          "一人OK",
+          "朝飯OK",
+          "深夜OK"
+        ],
+        "address": "東京都新宿区新宿3-14-25 パークシティ3"
       },
       {
         "id": 28,
@@ -2998,6 +3644,26 @@ export const tokyoHalls: readonly PachinkoHall[] = [
         "address": "東京都新宿区歌舞伎町1-23-10"
       },
       {
+        "id": 133,
+        "name": "カレーハウスCoCo壱番屋 新宿駅西口店",
+        "genre": "カレー",
+        "walkMinutes": 8,
+        "time_category": [
+          "朝",
+          "昼",
+          "夜"
+        ],
+        "hours": "6:00〜4:30（L.O.）",
+        "ai_summary": "新宿西口徒歩1分のカレーチェーン。早朝6時開店で、西口・カレイド圏の最速カレー候補。",
+        "tags": [
+          "サク飯",
+          "一人OK",
+          "朝飯OK",
+          "深夜OK"
+        ],
+        "address": "東京都新宿区西新宿1-2-12"
+      },
+      {
         "id": 27,
         "name": "かのや 新宿西口店",
         "genre": "そば/うどん",
@@ -3016,6 +3682,26 @@ export const tokyoHalls: readonly PachinkoHall[] = [
           "深夜OK"
         ],
         "address": "東京都新宿区西新宿1-16-11"
+      },
+      {
+        "id": 134,
+        "name": "吉野家 新宿靖国通り店",
+        "genre": "丼もの",
+        "walkMinutes": 8,
+        "time_category": [
+          "朝",
+          "昼",
+          "夜"
+        ],
+        "hours": "24時間営業",
+        "ai_summary": "歌舞伎町徒歩2分の牛丼。24時間営業で、エスパス・マルハン圏の最速丼候補。",
+        "tags": [
+          "サク飯",
+          "一人OK",
+          "朝飯OK",
+          "深夜OK"
+        ],
+        "address": "東京都新宿区歌舞伎町1-6-3"
       },
       {
         "id": 31,
@@ -3120,6 +3806,26 @@ export const tokyoHalls: readonly PachinkoHall[] = [
         "address": "東京都豊島区南池袋1-17-1"
       },
       {
+        "id": 139,
+        "name": "マクドナルド 池袋東口店",
+        "genre": "ハンバーガー",
+        "walkMinutes": 3,
+        "time_category": [
+          "朝",
+          "昼",
+          "夜"
+        ],
+        "hours": "24時間営業（月曜2:00〜5:00はメンテナンス休業）",
+        "ai_summary": "池袋駅東口徒歩30秒のファストフード。24時間営業で、楽園・マルハン圏の最速軽食。",
+        "tags": [
+          "サク飯",
+          "一人OK",
+          "朝飯OK",
+          "深夜OK"
+        ],
+        "address": "東京都豊島区南池袋1-27-8"
+      },
+      {
         "id": 40,
         "name": "大江戸そば 池袋店",
         "genre": "そば/うどん",
@@ -3214,6 +3920,24 @@ export const tokyoHalls: readonly PachinkoHall[] = [
         "address": "東京都豊島区西池袋1-13-7"
       },
       {
+        "id": 140,
+        "name": "らぁ麺 はやし田 池袋店",
+        "genre": "ラーメン",
+        "walkMinutes": 7,
+        "time_category": [
+          "昼",
+          "夜"
+        ],
+        "hours": "11:00〜23:00",
+        "ai_summary": "池袋駅東口徒歩4分の醤油ラーメン。鶏出汁の定番一杯で、東口大型ホール圏の人気店。",
+        "tags": [
+          "サク飯",
+          "ガッツリ",
+          "一人OK"
+        ],
+        "address": "東京都豊島区東池袋1-40-10 川又ビル 1F"
+      },
+      {
         "id": 32,
         "name": "一蘭 池袋駅前店",
         "genre": "ラーメン",
@@ -3232,6 +3956,26 @@ export const tokyoHalls: readonly PachinkoHall[] = [
         "address": "東京都豊島区東池袋1-42-8"
       },
       {
+        "id": 141,
+        "name": "名代 富士そば 池袋東口店",
+        "genre": "そば/うどん",
+        "walkMinutes": 7,
+        "time_category": [
+          "朝",
+          "昼",
+          "夜"
+        ],
+        "hours": "4:00〜翌3:00",
+        "ai_summary": "池袋駅東口徒歩2分・早朝4時から営業の立ち食いそば。券売機で最速提供、東口ホール圏の定番サク飯。",
+        "tags": [
+          "サク飯",
+          "一人OK",
+          "朝飯OK",
+          "深夜OK"
+        ],
+        "address": "東京都豊島区東池袋1-2-7 第3ナカムラビル"
+      },
+      {
         "id": 38,
         "name": "焼肉ライク 池袋東口店",
         "genre": "焼肉",
@@ -3248,6 +3992,43 @@ export const tokyoHalls: readonly PachinkoHall[] = [
           "一人OK"
         ],
         "address": "東京都豊島区東池袋1-40-3 池袋籏ビル1F"
+      },
+      {
+        "id": 138,
+        "name": "カレーハウスCoCo壱番屋 豊島区西池袋店",
+        "genre": "カレー",
+        "walkMinutes": 8,
+        "time_category": [
+          "昼",
+          "夜"
+        ],
+        "hours": "11:00〜24:00",
+        "ai_summary": "池袋駅西口徒歩3分のカレーチェーン。深夜まで営業で、西口ホール圏の手軽なカレー候補。",
+        "tags": [
+          "サク飯",
+          "一人OK",
+          "深夜OK"
+        ],
+        "address": "東京都豊島区西池袋5-8-7 深野ビル 1F"
+      },
+      {
+        "id": 137,
+        "name": "かつや 池袋西口店",
+        "genre": "とんかつ/カツ丼",
+        "walkMinutes": 8,
+        "time_category": [
+          "朝",
+          "昼",
+          "夜"
+        ],
+        "hours": "7:00〜23:00（L.O. 22:30）",
+        "ai_summary": "池袋駅西口徒歩1分のとんかつチェーン。早朝7時開店で、やすだ西池袋圏の定番飯。",
+        "tags": [
+          "サク飯",
+          "一人OK",
+          "朝飯OK"
+        ],
+        "address": "東京都豊島区西池袋1-19-1 39ビル 1F"
       }
     ]
   },
@@ -3263,6 +4044,24 @@ export const tokyoHalls: readonly PachinkoHall[] = [
     "pachinko": 478,
     "slot": 255,
     "restaurants": [
+      {
+        "id": 140,
+        "name": "らぁ麺 はやし田 池袋店",
+        "genre": "ラーメン",
+        "walkMinutes": 1,
+        "time_category": [
+          "昼",
+          "夜"
+        ],
+        "hours": "11:00〜23:00",
+        "ai_summary": "池袋駅東口徒歩4分の醤油ラーメン。鶏出汁の定番一杯で、東口大型ホール圏の人気店。",
+        "tags": [
+          "サク飯",
+          "ガッツリ",
+          "一人OK"
+        ],
+        "address": "東京都豊島区東池袋1-40-10 川又ビル 1F"
+      },
       {
         "id": 38,
         "name": "焼肉ライク 池袋東口店",
@@ -3298,6 +4097,26 @@ export const tokyoHalls: readonly PachinkoHall[] = [
           "深夜OK"
         ],
         "address": "東京都豊島区東池袋1-42-8"
+      },
+      {
+        "id": 141,
+        "name": "名代 富士そば 池袋東口店",
+        "genre": "そば/うどん",
+        "walkMinutes": 3,
+        "time_category": [
+          "朝",
+          "昼",
+          "夜"
+        ],
+        "hours": "4:00〜翌3:00",
+        "ai_summary": "池袋駅東口徒歩2分・早朝4時から営業の立ち食いそば。券売機で最速提供、東口ホール圏の定番サク飯。",
+        "tags": [
+          "サク飯",
+          "一人OK",
+          "朝飯OK",
+          "深夜OK"
+        ],
+        "address": "東京都豊島区東池袋1-2-7 第3ナカムラビル"
       },
       {
         "id": 36,
@@ -3338,6 +4157,26 @@ export const tokyoHalls: readonly PachinkoHall[] = [
           "深夜OK"
         ],
         "address": "東京都豊島区東池袋1-7-8"
+      },
+      {
+        "id": 139,
+        "name": "マクドナルド 池袋東口店",
+        "genre": "ハンバーガー",
+        "walkMinutes": 5,
+        "time_category": [
+          "朝",
+          "昼",
+          "夜"
+        ],
+        "hours": "24時間営業（月曜2:00〜5:00はメンテナンス休業）",
+        "ai_summary": "池袋駅東口徒歩30秒のファストフード。24時間営業で、楽園・マルハン圏の最速軽食。",
+        "tags": [
+          "サク飯",
+          "一人OK",
+          "朝飯OK",
+          "深夜OK"
+        ],
+        "address": "東京都豊島区南池袋1-27-8"
       },
       {
         "id": 35,
@@ -3412,6 +4251,25 @@ export const tokyoHalls: readonly PachinkoHall[] = [
         "address": "東京都豊島区南池袋1丁目 JR池袋駅構内"
       },
       {
+        "id": 137,
+        "name": "かつや 池袋西口店",
+        "genre": "とんかつ/カツ丼",
+        "walkMinutes": 9,
+        "time_category": [
+          "朝",
+          "昼",
+          "夜"
+        ],
+        "hours": "7:00〜23:00（L.O. 22:30）",
+        "ai_summary": "池袋駅西口徒歩1分のとんかつチェーン。早朝7時開店で、やすだ西池袋圏の定番飯。",
+        "tags": [
+          "サク飯",
+          "一人OK",
+          "朝飯OK"
+        ],
+        "address": "東京都豊島区西池袋1-19-1 39ビル 1F"
+      },
+      {
         "id": 39,
         "name": "くら寿司 池袋駅西口店",
         "genre": "回転寿司",
@@ -3428,6 +4286,24 @@ export const tokyoHalls: readonly PachinkoHall[] = [
           "深夜OK"
         ],
         "address": "東京都豊島区西池袋1-10-10 東武アネックスビルB1F"
+      },
+      {
+        "id": 138,
+        "name": "カレーハウスCoCo壱番屋 豊島区西池袋店",
+        "genre": "カレー",
+        "walkMinutes": 10,
+        "time_category": [
+          "昼",
+          "夜"
+        ],
+        "hours": "11:00〜24:00",
+        "ai_summary": "池袋駅西口徒歩3分のカレーチェーン。深夜まで営業で、西口ホール圏の手軽なカレー候補。",
+        "tags": [
+          "サク飯",
+          "一人OK",
+          "深夜OK"
+        ],
+        "address": "東京都豊島区西池袋5-8-7 深野ビル 1F"
       }
     ]
   },
@@ -3443,6 +4319,26 @@ export const tokyoHalls: readonly PachinkoHall[] = [
     "pachinko": 329,
     "slot": 85,
     "restaurants": [
+      {
+        "id": 139,
+        "name": "マクドナルド 池袋東口店",
+        "genre": "ハンバーガー",
+        "walkMinutes": 2,
+        "time_category": [
+          "朝",
+          "昼",
+          "夜"
+        ],
+        "hours": "24時間営業（月曜2:00〜5:00はメンテナンス休業）",
+        "ai_summary": "池袋駅東口徒歩30秒のファストフード。24時間営業で、楽園・マルハン圏の最速軽食。",
+        "tags": [
+          "サク飯",
+          "一人OK",
+          "朝飯OK",
+          "深夜OK"
+        ],
+        "address": "東京都豊島区南池袋1-27-8"
+      },
       {
         "id": 34,
         "name": "麺創房 無敵家",
@@ -3592,6 +4488,45 @@ export const tokyoHalls: readonly PachinkoHall[] = [
         "address": "東京都豊島区東池袋1-42-8"
       },
       {
+        "id": 137,
+        "name": "かつや 池袋西口店",
+        "genre": "とんかつ/カツ丼",
+        "walkMinutes": 5,
+        "time_category": [
+          "朝",
+          "昼",
+          "夜"
+        ],
+        "hours": "7:00〜23:00（L.O. 22:30）",
+        "ai_summary": "池袋駅西口徒歩1分のとんかつチェーン。早朝7時開店で、やすだ西池袋圏の定番飯。",
+        "tags": [
+          "サク飯",
+          "一人OK",
+          "朝飯OK"
+        ],
+        "address": "東京都豊島区西池袋1-19-1 39ビル 1F"
+      },
+      {
+        "id": 141,
+        "name": "名代 富士そば 池袋東口店",
+        "genre": "そば/うどん",
+        "walkMinutes": 5,
+        "time_category": [
+          "朝",
+          "昼",
+          "夜"
+        ],
+        "hours": "4:00〜翌3:00",
+        "ai_summary": "池袋駅東口徒歩2分・早朝4時から営業の立ち食いそば。券売機で最速提供、東口ホール圏の定番サク飯。",
+        "tags": [
+          "サク飯",
+          "一人OK",
+          "朝飯OK",
+          "深夜OK"
+        ],
+        "address": "東京都豊島区東池袋1-2-7 第3ナカムラビル"
+      },
+      {
         "id": 38,
         "name": "焼肉ライク 池袋東口店",
         "genre": "焼肉",
@@ -3608,6 +4543,42 @@ export const tokyoHalls: readonly PachinkoHall[] = [
           "一人OK"
         ],
         "address": "東京都豊島区東池袋1-40-3 池袋籏ビル1F"
+      },
+      {
+        "id": 138,
+        "name": "カレーハウスCoCo壱番屋 豊島区西池袋店",
+        "genre": "カレー",
+        "walkMinutes": 6,
+        "time_category": [
+          "昼",
+          "夜"
+        ],
+        "hours": "11:00〜24:00",
+        "ai_summary": "池袋駅西口徒歩3分のカレーチェーン。深夜まで営業で、西口ホール圏の手軽なカレー候補。",
+        "tags": [
+          "サク飯",
+          "一人OK",
+          "深夜OK"
+        ],
+        "address": "東京都豊島区西池袋5-8-7 深野ビル 1F"
+      },
+      {
+        "id": 140,
+        "name": "らぁ麺 はやし田 池袋店",
+        "genre": "ラーメン",
+        "walkMinutes": 6,
+        "time_category": [
+          "昼",
+          "夜"
+        ],
+        "hours": "11:00〜23:00",
+        "ai_summary": "池袋駅東口徒歩4分の醤油ラーメン。鶏出汁の定番一杯で、東口大型ホール圏の人気店。",
+        "tags": [
+          "サク飯",
+          "ガッツリ",
+          "一人OK"
+        ],
+        "address": "東京都豊島区東池袋1-40-10 川又ビル 1F"
       },
       {
         "id": 41,
@@ -3658,6 +4629,24 @@ export const tokyoHalls: readonly PachinkoHall[] = [
         "address": "東京都豊島区西池袋1-13-7"
       },
       {
+        "id": 138,
+        "name": "カレーハウスCoCo壱番屋 豊島区西池袋店",
+        "genre": "カレー",
+        "walkMinutes": 5,
+        "time_category": [
+          "昼",
+          "夜"
+        ],
+        "hours": "11:00〜24:00",
+        "ai_summary": "池袋駅西口徒歩3分のカレーチェーン。深夜まで営業で、西口ホール圏の手軽なカレー候補。",
+        "tags": [
+          "サク飯",
+          "一人OK",
+          "深夜OK"
+        ],
+        "address": "東京都豊島区西池袋5-8-7 深野ビル 1F"
+      },
+      {
         "id": 39,
         "name": "くら寿司 池袋駅西口店",
         "genre": "回転寿司",
@@ -3674,6 +4663,25 @@ export const tokyoHalls: readonly PachinkoHall[] = [
           "深夜OK"
         ],
         "address": "東京都豊島区西池袋1-10-10 東武アネックスビルB1F"
+      },
+      {
+        "id": 137,
+        "name": "かつや 池袋西口店",
+        "genre": "とんかつ/カツ丼",
+        "walkMinutes": 6,
+        "time_category": [
+          "朝",
+          "昼",
+          "夜"
+        ],
+        "hours": "7:00〜23:00（L.O. 22:30）",
+        "ai_summary": "池袋駅西口徒歩1分のとんかつチェーン。早朝7時開店で、やすだ西池袋圏の定番飯。",
+        "tags": [
+          "サク飯",
+          "一人OK",
+          "朝飯OK"
+        ],
+        "address": "東京都豊島区西池袋1-19-1 39ビル 1F"
       },
       {
         "id": 40,
@@ -3746,6 +4754,26 @@ export const tokyoHalls: readonly PachinkoHall[] = [
           "一人OK"
         ],
         "address": "東京都豊島区南池袋1-23-2 ティワイズビルB1F"
+      },
+      {
+        "id": 139,
+        "name": "マクドナルド 池袋東口店",
+        "genre": "ハンバーガー",
+        "walkMinutes": 10,
+        "time_category": [
+          "朝",
+          "昼",
+          "夜"
+        ],
+        "hours": "24時間営業（月曜2:00〜5:00はメンテナンス休業）",
+        "ai_summary": "池袋駅東口徒歩30秒のファストフード。24時間営業で、楽園・マルハン圏の最速軽食。",
+        "tags": [
+          "サク飯",
+          "一人OK",
+          "朝飯OK",
+          "深夜OK"
+        ],
+        "address": "東京都豊島区南池袋1-27-8"
       }
     ]
   },
@@ -3834,6 +4862,78 @@ export const tokyoHalls: readonly PachinkoHall[] = [
         "address": "東京都渋谷区道玄坂2-9-2 渋専連ビル1F"
       },
       {
+        "id": 146,
+        "name": "スシロー 渋谷駅前店",
+        "genre": "回転寿司",
+        "walkMinutes": 3,
+        "time_category": [
+          "昼",
+          "夜"
+        ],
+        "hours": "平日11:00〜23:00、土日祝10:30〜23:00（L.O. 閉店30分前）",
+        "ai_summary": "渋谷駅徒歩1分の回転寿司。くら寿司と併用しやすく、駅前ホール圏からの手軽な軽食。",
+        "tags": [
+          "サク飯",
+          "一人OK"
+        ],
+        "address": "東京都渋谷区宇田川町23-5 ハイマンテンビル 6F"
+      },
+      {
+        "id": 143,
+        "name": "カレーハウスCoCo壱番屋 渋谷並木橋店",
+        "genre": "カレー",
+        "walkMinutes": 4,
+        "time_category": [
+          "昼",
+          "夜"
+        ],
+        "hours": "11:00〜23:00",
+        "ai_summary": "渋谷駅新南口徒歩3分のカレーチェーン。カスタマイズ自在で、駅前ホール圏の手軽なカレー候補。",
+        "tags": [
+          "サク飯",
+          "一人OK"
+        ],
+        "address": "東京都渋谷区渋谷3-15-5 パールビル 1F"
+      },
+      {
+        "id": 142,
+        "name": "らぁ麺 はやし田 渋谷宇田川町店",
+        "genre": "ラーメン",
+        "walkMinutes": 4,
+        "time_category": [
+          "昼",
+          "夜"
+        ],
+        "hours": "11:00〜23:00",
+        "ai_summary": "渋谷駅徒歩5分の醤油ラーメン。2024年オープンのチェーン店で、道玄坂ホール圏の定番一杯。",
+        "tags": [
+          "サク飯",
+          "ガッツリ",
+          "一人OK"
+        ],
+        "address": "東京都渋谷区宇田川町31-9 ハナテイビル 1F"
+      },
+      {
+        "id": 144,
+        "name": "マクドナルド 渋谷センター街店",
+        "genre": "ハンバーガー",
+        "walkMinutes": 4,
+        "time_category": [
+          "朝",
+          "昼",
+          "夜"
+        ],
+        "hours": "7:00〜1:00",
+        "ai_summary": "渋谷駅徒歩2分のファストフード。早朝7時開店で、ハチ公口・道玄坂圏の最速軽食。",
+        "tags": [
+          "サク飯",
+          "一人OK",
+          "朝飯OK",
+          "深夜OK"
+        ],
+        "address": "東京都渋谷区宇田川町28-15"
+      },
+      {
         "id": 49,
         "name": "焼肉ライク 渋谷道玄坂店",
         "genre": "焼肉",
@@ -3868,6 +4968,25 @@ export const tokyoHalls: readonly PachinkoHall[] = [
           "深夜OK"
         ],
         "address": "東京都渋谷区神南1-22-7 岩本ビルB1F"
+      },
+      {
+        "id": 145,
+        "name": "小諸そば 渋谷新南口店",
+        "genre": "そば/うどん",
+        "walkMinutes": 5,
+        "time_category": [
+          "朝",
+          "昼",
+          "夜"
+        ],
+        "hours": "平日7:00〜21:00、土7:00〜16:00、日祝8:00〜15:00",
+        "ai_summary": "渋谷駅新南口徒歩2分の立ち食いそば。早朝7時開店で、エスパス新館圏の神コスパサク飯。",
+        "tags": [
+          "サク飯",
+          "一人OK",
+          "朝飯OK"
+        ],
+        "address": "東京都渋谷区渋谷3-17-4 山口ビル旧館 1F"
       },
       {
         "id": 51,
@@ -3983,6 +5102,23 @@ export const tokyoHalls: readonly PachinkoHall[] = [
         "address": "東京都渋谷区道玄坂2-6-7 道玄坂Tビル1F"
       },
       {
+        "id": 143,
+        "name": "カレーハウスCoCo壱番屋 渋谷並木橋店",
+        "genre": "カレー",
+        "walkMinutes": 3,
+        "time_category": [
+          "昼",
+          "夜"
+        ],
+        "hours": "11:00〜23:00",
+        "ai_summary": "渋谷駅新南口徒歩3分のカレーチェーン。カスタマイズ自在で、駅前ホール圏の手軽なカレー候補。",
+        "tags": [
+          "サク飯",
+          "一人OK"
+        ],
+        "address": "東京都渋谷区渋谷3-15-5 パールビル 1F"
+      },
+      {
         "id": 48,
         "name": "かつや 渋谷道玄坂店",
         "genre": "とんかつ/カツ丼",
@@ -4036,6 +5172,25 @@ export const tokyoHalls: readonly PachinkoHall[] = [
         "address": "東京都渋谷区宇田川町23-3 渋谷第一勧銀共同ビル7F"
       },
       {
+        "id": 145,
+        "name": "小諸そば 渋谷新南口店",
+        "genre": "そば/うどん",
+        "walkMinutes": 4,
+        "time_category": [
+          "朝",
+          "昼",
+          "夜"
+        ],
+        "hours": "平日7:00〜21:00、土7:00〜16:00、日祝8:00〜15:00",
+        "ai_summary": "渋谷駅新南口徒歩2分の立ち食いそば。早朝7時開店で、エスパス新館圏の神コスパサク飯。",
+        "tags": [
+          "サク飯",
+          "一人OK",
+          "朝飯OK"
+        ],
+        "address": "東京都渋谷区渋谷3-17-4 山口ビル旧館 1F"
+      },
+      {
         "id": 51,
         "name": "松屋・マイカリー食堂 渋谷桜丘店",
         "genre": "カレー",
@@ -4054,6 +5209,61 @@ export const tokyoHalls: readonly PachinkoHall[] = [
           "深夜OK"
         ],
         "address": "東京都渋谷区桜丘町1-4 渋谷サクラステージ SHIBUYAサイド 1F"
+      },
+      {
+        "id": 146,
+        "name": "スシロー 渋谷駅前店",
+        "genre": "回転寿司",
+        "walkMinutes": 4,
+        "time_category": [
+          "昼",
+          "夜"
+        ],
+        "hours": "平日11:00〜23:00、土日祝10:30〜23:00（L.O. 閉店30分前）",
+        "ai_summary": "渋谷駅徒歩1分の回転寿司。くら寿司と併用しやすく、駅前ホール圏からの手軽な軽食。",
+        "tags": [
+          "サク飯",
+          "一人OK"
+        ],
+        "address": "東京都渋谷区宇田川町23-5 ハイマンテンビル 6F"
+      },
+      {
+        "id": 142,
+        "name": "らぁ麺 はやし田 渋谷宇田川町店",
+        "genre": "ラーメン",
+        "walkMinutes": 5,
+        "time_category": [
+          "昼",
+          "夜"
+        ],
+        "hours": "11:00〜23:00",
+        "ai_summary": "渋谷駅徒歩5分の醤油ラーメン。2024年オープンのチェーン店で、道玄坂ホール圏の定番一杯。",
+        "tags": [
+          "サク飯",
+          "ガッツリ",
+          "一人OK"
+        ],
+        "address": "東京都渋谷区宇田川町31-9 ハナテイビル 1F"
+      },
+      {
+        "id": 144,
+        "name": "マクドナルド 渋谷センター街店",
+        "genre": "ハンバーガー",
+        "walkMinutes": 5,
+        "time_category": [
+          "朝",
+          "昼",
+          "夜"
+        ],
+        "hours": "7:00〜1:00",
+        "ai_summary": "渋谷駅徒歩2分のファストフード。早朝7時開店で、ハチ公口・道玄坂圏の最速軽食。",
+        "tags": [
+          "サク飯",
+          "一人OK",
+          "朝飯OK",
+          "深夜OK"
+        ],
+        "address": "東京都渋谷区宇田川町28-15"
       },
       {
         "id": 42,
@@ -4219,6 +5429,23 @@ export const tokyoHalls: readonly PachinkoHall[] = [
         "address": "東京都渋谷区宇田川町23-3 渋谷第一勧銀共同ビル7F"
       },
       {
+        "id": 146,
+        "name": "スシロー 渋谷駅前店",
+        "genre": "回転寿司",
+        "walkMinutes": 2,
+        "time_category": [
+          "昼",
+          "夜"
+        ],
+        "hours": "平日11:00〜23:00、土日祝10:30〜23:00（L.O. 閉店30分前）",
+        "ai_summary": "渋谷駅徒歩1分の回転寿司。くら寿司と併用しやすく、駅前ホール圏からの手軽な軽食。",
+        "tags": [
+          "サク飯",
+          "一人OK"
+        ],
+        "address": "東京都渋谷区宇田川町23-5 ハイマンテンビル 6F"
+      },
+      {
         "id": 47,
         "name": "伝説のすた丼屋 渋谷店",
         "genre": "丼もの",
@@ -4236,6 +5463,44 @@ export const tokyoHalls: readonly PachinkoHall[] = [
           "深夜OK"
         ],
         "address": "東京都渋谷区道玄坂2-6-7 道玄坂Tビル1F"
+      },
+      {
+        "id": 142,
+        "name": "らぁ麺 はやし田 渋谷宇田川町店",
+        "genre": "ラーメン",
+        "walkMinutes": 3,
+        "time_category": [
+          "昼",
+          "夜"
+        ],
+        "hours": "11:00〜23:00",
+        "ai_summary": "渋谷駅徒歩5分の醤油ラーメン。2024年オープンのチェーン店で、道玄坂ホール圏の定番一杯。",
+        "tags": [
+          "サク飯",
+          "ガッツリ",
+          "一人OK"
+        ],
+        "address": "東京都渋谷区宇田川町31-9 ハナテイビル 1F"
+      },
+      {
+        "id": 144,
+        "name": "マクドナルド 渋谷センター街店",
+        "genre": "ハンバーガー",
+        "walkMinutes": 3,
+        "time_category": [
+          "朝",
+          "昼",
+          "夜"
+        ],
+        "hours": "7:00〜1:00",
+        "ai_summary": "渋谷駅徒歩2分のファストフード。早朝7時開店で、ハチ公口・道玄坂圏の最速軽食。",
+        "tags": [
+          "サク飯",
+          "一人OK",
+          "朝飯OK",
+          "深夜OK"
+        ],
+        "address": "東京都渋谷区宇田川町28-15"
       },
       {
         "id": 49,
@@ -4276,6 +5541,23 @@ export const tokyoHalls: readonly PachinkoHall[] = [
         "address": "東京都渋谷区道玄坂2-25-12"
       },
       {
+        "id": 143,
+        "name": "カレーハウスCoCo壱番屋 渋谷並木橋店",
+        "genre": "カレー",
+        "walkMinutes": 5,
+        "time_category": [
+          "昼",
+          "夜"
+        ],
+        "hours": "11:00〜23:00",
+        "ai_summary": "渋谷駅新南口徒歩3分のカレーチェーン。カスタマイズ自在で、駅前ホール圏の手軽なカレー候補。",
+        "tags": [
+          "サク飯",
+          "一人OK"
+        ],
+        "address": "東京都渋谷区渋谷3-15-5 パールビル 1F"
+      },
+      {
         "id": 43,
         "name": "一蘭 渋谷店",
         "genre": "ラーメン",
@@ -4292,6 +5574,25 @@ export const tokyoHalls: readonly PachinkoHall[] = [
           "深夜OK"
         ],
         "address": "東京都渋谷区神南1-22-7 岩本ビルB1F"
+      },
+      {
+        "id": 145,
+        "name": "小諸そば 渋谷新南口店",
+        "genre": "そば/うどん",
+        "walkMinutes": 6,
+        "time_category": [
+          "朝",
+          "昼",
+          "夜"
+        ],
+        "hours": "平日7:00〜21:00、土7:00〜16:00、日祝8:00〜15:00",
+        "ai_summary": "渋谷駅新南口徒歩2分の立ち食いそば。早朝7時開店で、エスパス新館圏の神コスパサク飯。",
+        "tags": [
+          "サク飯",
+          "一人OK",
+          "朝飯OK"
+        ],
+        "address": "東京都渋谷区渋谷3-17-4 山口ビル旧館 1F"
       },
       {
         "id": 42,
