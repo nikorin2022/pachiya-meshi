@@ -378,6 +378,25 @@ export const tokyoHalls: readonly PachinkoHall[] = [
         "address": "東京都千代田区外神田1-15-2"
       },
       {
+        "id": 150,
+        "name": "小諸そば 御徒町店",
+        "genre": "そば/うどん",
+        "walkMinutes": 10,
+        "time_category": [
+          "朝",
+          "昼",
+          "夜"
+        ],
+        "hours": "平日7:00〜22:00、土日祝9:00〜18:00",
+        "ai_summary": "御徒町南口徒歩1分の立ち食いそば。早朝7時開店で、楽園アメ横店からの神コスパサク飯。",
+        "tags": [
+          "サク飯",
+          "一人OK",
+          "朝飯OK"
+        ],
+        "address": "東京都台東区上野5-22-8"
+      },
+      {
         "id": 14,
         "name": "肉の万世 秋葉原本店",
         "genre": "丼もの",
@@ -5707,6 +5726,41 @@ export const tokyoHalls: readonly PachinkoHall[] = [
         "address": "東京都台東区上野4-8-3 MD上野ビル1F・2F"
       },
       {
+        "id": 149,
+        "name": "らぁ麺 はやし田 上野御徒町店",
+        "genre": "ラーメン",
+        "walkMinutes": 4,
+        "time_category": [
+          "昼",
+          "夜"
+        ],
+        "hours": "10:00〜23:00",
+        "ai_summary": "上野御徒町駅徒歩2分の醤油ラーメン。2025年オープンのチェーン店で、アメ横ホール圏の定番一杯。",
+        "tags": [
+          "サク飯",
+          "ガッツリ",
+          "一人OK"
+        ],
+        "address": "東京都台東区上野4-5-2 ツルヤビル"
+      },
+      {
+        "id": 148,
+        "name": "カレーハウスCoCo壱番屋 御徒町昭和通り店",
+        "genre": "カレー",
+        "walkMinutes": 5,
+        "time_category": [
+          "昼",
+          "夜"
+        ],
+        "hours": "11:00〜22:00（L.O.）",
+        "ai_summary": "仲御徒町駅徒歩2分のカレーチェーン。カスタマイズ自在で、御徒町ホール圏の手軽なカレー候補。",
+        "tags": [
+          "サク飯",
+          "一人OK"
+        ],
+        "address": "東京都台東区上野5-15-17 東和ビル1F"
+      },
+      {
         "id": 55,
         "name": "ゴーゴーカレー 上野御徒町店",
         "genre": "カレー",
@@ -5745,6 +5799,23 @@ export const tokyoHalls: readonly PachinkoHall[] = [
         "address": "東京都台東区上野4-4 B&Vビル2F・3F"
       },
       {
+        "id": 151,
+        "name": "スシロー 上野店",
+        "genre": "回転寿司",
+        "walkMinutes": 5,
+        "time_category": [
+          "昼",
+          "夜"
+        ],
+        "hours": "平日11:00〜23:00、土日祝10:30〜23:00（L.O. 閉店30分前）",
+        "ai_summary": "御徒町駅徒歩3分の回転寿司。くら寿司と併用しやすく、上野・御徒町ホール圏からの軽食に最適。",
+        "tags": [
+          "サク飯",
+          "一人OK"
+        ],
+        "address": "東京都台東区上野6-9-9 上野オリエンタルビルB1"
+      },
+      {
         "id": 52,
         "name": "名代 富士そば 上野店",
         "genre": "そば/うどん",
@@ -5765,6 +5836,26 @@ export const tokyoHalls: readonly PachinkoHall[] = [
         "address": "東京都台東区上野7-2-1 上野駅前昭栄ビル"
       },
       {
+        "id": 147,
+        "name": "すき家 御徒町駅南口店",
+        "genre": "丼もの",
+        "walkMinutes": 6,
+        "time_category": [
+          "朝",
+          "昼",
+          "夜"
+        ],
+        "hours": "4:00〜翌3:00（3:00〜4:00休業）",
+        "ai_summary": "御徒町南口徒歩1分の牛丼。早朝4時開店で、楽園アメ横店・エスパス圏の手軽な丼候補。",
+        "tags": [
+          "サク飯",
+          "一人OK",
+          "朝飯OK",
+          "深夜OK"
+        ],
+        "address": "東京都台東区上野5-27-2"
+      },
+      {
         "id": 53,
         "name": "一蘭 アトレ上野山下口店",
         "genre": "ラーメン",
@@ -5781,6 +5872,25 @@ export const tokyoHalls: readonly PachinkoHall[] = [
           "深夜OK"
         ],
         "address": "東京都台東区上野7-1-1 アトレ上野"
+      },
+      {
+        "id": 150,
+        "name": "小諸そば 御徒町店",
+        "genre": "そば/うどん",
+        "walkMinutes": 7,
+        "time_category": [
+          "朝",
+          "昼",
+          "夜"
+        ],
+        "hours": "平日7:00〜22:00、土日祝9:00〜18:00",
+        "ai_summary": "御徒町南口徒歩1分の立ち食いそば。早朝7時開店で、楽園アメ横店からの神コスパサク飯。",
+        "tags": [
+          "サク飯",
+          "一人OK",
+          "朝飯OK"
+        ],
+        "address": "東京都台東区上野5-22-8"
       },
       {
         "id": 56,
@@ -5869,6 +5979,24 @@ export const tokyoHalls: readonly PachinkoHall[] = [
     "slot": 434,
     "restaurants": [
       {
+        "id": 149,
+        "name": "らぁ麺 はやし田 上野御徒町店",
+        "genre": "ラーメン",
+        "walkMinutes": 1,
+        "time_category": [
+          "昼",
+          "夜"
+        ],
+        "hours": "10:00〜23:00",
+        "ai_summary": "上野御徒町駅徒歩2分の醤油ラーメン。2025年オープンのチェーン店で、アメ横ホール圏の定番一杯。",
+        "tags": [
+          "サク飯",
+          "ガッツリ",
+          "一人OK"
+        ],
+        "address": "東京都台東区上野4-5-2 ツルヤビル"
+      },
+      {
         "id": 60,
         "name": "焼肉ライク 上野店",
         "genre": "焼肉",
@@ -5907,6 +6035,23 @@ export const tokyoHalls: readonly PachinkoHall[] = [
         "address": "東京都台東区上野4-9-5 石井ビル1・2F"
       },
       {
+        "id": 148,
+        "name": "カレーハウスCoCo壱番屋 御徒町昭和通り店",
+        "genre": "カレー",
+        "walkMinutes": 3,
+        "time_category": [
+          "昼",
+          "夜"
+        ],
+        "hours": "11:00〜22:00（L.O.）",
+        "ai_summary": "仲御徒町駅徒歩2分のカレーチェーン。カスタマイズ自在で、御徒町ホール圏の手軽なカレー候補。",
+        "tags": [
+          "サク飯",
+          "一人OK"
+        ],
+        "address": "東京都台東区上野5-15-17 東和ビル1F"
+      },
+      {
         "id": 55,
         "name": "ゴーゴーカレー 上野御徒町店",
         "genre": "カレー",
@@ -5943,6 +6088,62 @@ export const tokyoHalls: readonly PachinkoHall[] = [
           "深夜OK"
         ],
         "address": "東京都台東区上野4-4 B&Vビル2F・3F"
+      },
+      {
+        "id": 147,
+        "name": "すき家 御徒町駅南口店",
+        "genre": "丼もの",
+        "walkMinutes": 4,
+        "time_category": [
+          "朝",
+          "昼",
+          "夜"
+        ],
+        "hours": "4:00〜翌3:00（3:00〜4:00休業）",
+        "ai_summary": "御徒町南口徒歩1分の牛丼。早朝4時開店で、楽園アメ横店・エスパス圏の手軽な丼候補。",
+        "tags": [
+          "サク飯",
+          "一人OK",
+          "朝飯OK",
+          "深夜OK"
+        ],
+        "address": "東京都台東区上野5-27-2"
+      },
+      {
+        "id": 151,
+        "name": "スシロー 上野店",
+        "genre": "回転寿司",
+        "walkMinutes": 4,
+        "time_category": [
+          "昼",
+          "夜"
+        ],
+        "hours": "平日11:00〜23:00、土日祝10:30〜23:00（L.O. 閉店30分前）",
+        "ai_summary": "御徒町駅徒歩3分の回転寿司。くら寿司と併用しやすく、上野・御徒町ホール圏からの軽食に最適。",
+        "tags": [
+          "サク飯",
+          "一人OK"
+        ],
+        "address": "東京都台東区上野6-9-9 上野オリエンタルビルB1"
+      },
+      {
+        "id": 150,
+        "name": "小諸そば 御徒町店",
+        "genre": "そば/うどん",
+        "walkMinutes": 5,
+        "time_category": [
+          "朝",
+          "昼",
+          "夜"
+        ],
+        "hours": "平日7:00〜22:00、土日祝9:00〜18:00",
+        "ai_summary": "御徒町南口徒歩1分の立ち食いそば。早朝7時開店で、楽園アメ横店からの神コスパサク飯。",
+        "tags": [
+          "サク飯",
+          "一人OK",
+          "朝飯OK"
+        ],
+        "address": "東京都台東区上野5-22-8"
       },
       {
         "id": 59,
@@ -6069,6 +6270,24 @@ export const tokyoHalls: readonly PachinkoHall[] = [
     "slot": 478,
     "restaurants": [
       {
+        "id": 149,
+        "name": "らぁ麺 はやし田 上野御徒町店",
+        "genre": "ラーメン",
+        "walkMinutes": 2,
+        "time_category": [
+          "昼",
+          "夜"
+        ],
+        "hours": "10:00〜23:00",
+        "ai_summary": "上野御徒町駅徒歩2分の醤油ラーメン。2025年オープンのチェーン店で、アメ横ホール圏の定番一杯。",
+        "tags": [
+          "サク飯",
+          "ガッツリ",
+          "一人OK"
+        ],
+        "address": "東京都台東区上野4-5-2 ツルヤビル"
+      },
+      {
         "id": 54,
         "name": "松屋 上野店",
         "genre": "カレー",
@@ -6107,6 +6326,23 @@ export const tokyoHalls: readonly PachinkoHall[] = [
         "address": "東京都台東区上野6-2-7 宮入ビル1F"
       },
       {
+        "id": 151,
+        "name": "スシロー 上野店",
+        "genre": "回転寿司",
+        "walkMinutes": 3,
+        "time_category": [
+          "昼",
+          "夜"
+        ],
+        "hours": "平日11:00〜23:00、土日祝10:30〜23:00（L.O. 閉店30分前）",
+        "ai_summary": "御徒町駅徒歩3分の回転寿司。くら寿司と併用しやすく、上野・御徒町ホール圏からの軽食に最適。",
+        "tags": [
+          "サク飯",
+          "一人OK"
+        ],
+        "address": "東京都台東区上野6-9-9 上野オリエンタルビルB1"
+      },
+      {
         "id": 60,
         "name": "焼肉ライク 上野店",
         "genre": "焼肉",
@@ -6123,6 +6359,23 @@ export const tokyoHalls: readonly PachinkoHall[] = [
           "一人OK"
         ],
         "address": "東京都台東区上野4-8-3 MD上野ビル1F・2F"
+      },
+      {
+        "id": 148,
+        "name": "カレーハウスCoCo壱番屋 御徒町昭和通り店",
+        "genre": "カレー",
+        "walkMinutes": 4,
+        "time_category": [
+          "昼",
+          "夜"
+        ],
+        "hours": "11:00〜22:00（L.O.）",
+        "ai_summary": "仲御徒町駅徒歩2分のカレーチェーン。カスタマイズ自在で、御徒町ホール圏の手軽なカレー候補。",
+        "tags": [
+          "サク飯",
+          "一人OK"
+        ],
+        "address": "東京都台東区上野5-15-17 東和ビル1F"
       },
       {
         "id": 57,
@@ -6143,6 +6396,45 @@ export const tokyoHalls: readonly PachinkoHall[] = [
           "深夜OK"
         ],
         "address": "東京都台東区上野4-4 B&Vビル2F・3F"
+      },
+      {
+        "id": 147,
+        "name": "すき家 御徒町駅南口店",
+        "genre": "丼もの",
+        "walkMinutes": 4,
+        "time_category": [
+          "朝",
+          "昼",
+          "夜"
+        ],
+        "hours": "4:00〜翌3:00（3:00〜4:00休業）",
+        "ai_summary": "御徒町南口徒歩1分の牛丼。早朝4時開店で、楽園アメ横店・エスパス圏の手軽な丼候補。",
+        "tags": [
+          "サク飯",
+          "一人OK",
+          "朝飯OK",
+          "深夜OK"
+        ],
+        "address": "東京都台東区上野5-27-2"
+      },
+      {
+        "id": 150,
+        "name": "小諸そば 御徒町店",
+        "genre": "そば/うどん",
+        "walkMinutes": 5,
+        "time_category": [
+          "朝",
+          "昼",
+          "夜"
+        ],
+        "hours": "平日7:00〜22:00、土日祝9:00〜18:00",
+        "ai_summary": "御徒町南口徒歩1分の立ち食いそば。早朝7時開店で、楽園アメ横店からの神コスパサク飯。",
+        "tags": [
+          "サク飯",
+          "一人OK",
+          "朝飯OK"
+        ],
+        "address": "東京都台東区上野5-22-8"
       },
       {
         "id": 61,
@@ -6309,6 +6601,23 @@ export const tokyoHalls: readonly PachinkoHall[] = [
         "address": "東京都台東区上野7-2-1 上野駅前昭栄ビル"
       },
       {
+        "id": 151,
+        "name": "スシロー 上野店",
+        "genre": "回転寿司",
+        "walkMinutes": 4,
+        "time_category": [
+          "昼",
+          "夜"
+        ],
+        "hours": "平日11:00〜23:00、土日祝10:30〜23:00（L.O. 閉店30分前）",
+        "ai_summary": "御徒町駅徒歩3分の回転寿司。くら寿司と併用しやすく、上野・御徒町ホール圏からの軽食に最適。",
+        "tags": [
+          "サク飯",
+          "一人OK"
+        ],
+        "address": "東京都台東区上野6-9-9 上野オリエンタルビルB1"
+      },
+      {
         "id": 60,
         "name": "焼肉ライク 上野店",
         "genre": "焼肉",
@@ -6345,6 +6654,24 @@ export const tokyoHalls: readonly PachinkoHall[] = [
         "address": "東京都台東区上野6-2-7 宮入ビル1F"
       },
       {
+        "id": 149,
+        "name": "らぁ麺 はやし田 上野御徒町店",
+        "genre": "ラーメン",
+        "walkMinutes": 5,
+        "time_category": [
+          "昼",
+          "夜"
+        ],
+        "hours": "10:00〜23:00",
+        "ai_summary": "上野御徒町駅徒歩2分の醤油ラーメン。2025年オープンのチェーン店で、アメ横ホール圏の定番一杯。",
+        "tags": [
+          "サク飯",
+          "ガッツリ",
+          "一人OK"
+        ],
+        "address": "東京都台東区上野4-5-2 ツルヤビル"
+      },
+      {
         "id": 56,
         "name": "吉野家 上野駅前店",
         "genre": "丼もの",
@@ -6363,6 +6690,23 @@ export const tokyoHalls: readonly PachinkoHall[] = [
           "深夜OK"
         ],
         "address": "東京都台東区上野7-3-2 ピナクルプロパティーズ上野駅前ビル1F"
+      },
+      {
+        "id": 148,
+        "name": "カレーハウスCoCo壱番屋 御徒町昭和通り店",
+        "genre": "カレー",
+        "walkMinutes": 6,
+        "time_category": [
+          "昼",
+          "夜"
+        ],
+        "hours": "11:00〜22:00（L.O.）",
+        "ai_summary": "仲御徒町駅徒歩2分のカレーチェーン。カスタマイズ自在で、御徒町ホール圏の手軽なカレー候補。",
+        "tags": [
+          "サク飯",
+          "一人OK"
+        ],
+        "address": "東京都台東区上野5-15-17 東和ビル1F"
       },
       {
         "id": 53,
@@ -6401,6 +6745,45 @@ export const tokyoHalls: readonly PachinkoHall[] = [
           "深夜OK"
         ],
         "address": "東京都台東区上野4-4 B&Vビル2F・3F"
+      },
+      {
+        "id": 147,
+        "name": "すき家 御徒町駅南口店",
+        "genre": "丼もの",
+        "walkMinutes": 7,
+        "time_category": [
+          "朝",
+          "昼",
+          "夜"
+        ],
+        "hours": "4:00〜翌3:00（3:00〜4:00休業）",
+        "ai_summary": "御徒町南口徒歩1分の牛丼。早朝4時開店で、楽園アメ横店・エスパス圏の手軽な丼候補。",
+        "tags": [
+          "サク飯",
+          "一人OK",
+          "朝飯OK",
+          "深夜OK"
+        ],
+        "address": "東京都台東区上野5-27-2"
+      },
+      {
+        "id": 150,
+        "name": "小諸そば 御徒町店",
+        "genre": "そば/うどん",
+        "walkMinutes": 8,
+        "time_category": [
+          "朝",
+          "昼",
+          "夜"
+        ],
+        "hours": "平日7:00〜22:00、土日祝9:00〜18:00",
+        "ai_summary": "御徒町南口徒歩1分の立ち食いそば。早朝7時開店で、楽園アメ横店からの神コスパサク飯。",
+        "tags": [
+          "サク飯",
+          "一人OK",
+          "朝飯OK"
+        ],
+        "address": "東京都台東区上野5-22-8"
       },
       {
         "id": 61,
@@ -6503,6 +6886,43 @@ export const tokyoHalls: readonly PachinkoHall[] = [
         "address": "東京都港区新橋2-16-1 ニュー新橋ビル"
       },
       {
+        "id": 153,
+        "name": "小諸そば 新橋店",
+        "genre": "そば/うどん",
+        "walkMinutes": 1,
+        "time_category": [
+          "朝",
+          "昼",
+          "夜"
+        ],
+        "hours": "平日7:00〜22:00、土日祝7:00〜21:00（奇数月第2日曜定休）",
+        "ai_summary": "新橋駅烏森口徒歩1分の立ち食いそば。早朝7時開店で、駅前大型ホール圏の神コスパサク飯。",
+        "tags": [
+          "サク飯",
+          "一人OK",
+          "朝飯OK"
+        ],
+        "address": "東京都港区新橋2-16-1 ニュー新橋ビル1F"
+      },
+      {
+        "id": 156,
+        "name": "らぁ麺 はやし田 新橋店",
+        "genre": "ラーメン",
+        "walkMinutes": 2,
+        "time_category": [
+          "昼",
+          "夜"
+        ],
+        "hours": "10:00〜23:00（奇数月第2日曜定休）",
+        "ai_summary": "新橋駅烏森口徒歩2分の醤油ラーメン。ニュー新橋ビル内で、BIGディッパー圏の定番一杯。",
+        "tags": [
+          "サク飯",
+          "ガッツリ",
+          "一人OK"
+        ],
+        "address": "東京都港区新橋2-16-1 ニュー新橋ビル1階112号室"
+      },
+      {
         "id": 65,
         "name": "もうやんカレー新橋店",
         "genre": "カレー",
@@ -6652,6 +7072,63 @@ export const tokyoHalls: readonly PachinkoHall[] = [
           "深夜OK"
         ],
         "address": "東京都港区新橋2-5-6 2F"
+      },
+      {
+        "id": 152,
+        "name": "すき家 新橋三丁目店",
+        "genre": "丼もの",
+        "walkMinutes": 4,
+        "time_category": [
+          "朝",
+          "昼",
+          "夜"
+        ],
+        "hours": "4:00〜翌3:00（3:00〜4:00休業）",
+        "ai_summary": "新橋駅烏森口徒歩3分の牛丼。早朝4時開店で、BIGディッパー・UNO圏の手軽な丼候補。",
+        "tags": [
+          "サク飯",
+          "一人OK",
+          "朝飯OK",
+          "深夜OK"
+        ],
+        "address": "東京都港区新橋3-10-9"
+      },
+      {
+        "id": 154,
+        "name": "松のや 新橋店",
+        "genre": "とんかつ/カツ丼",
+        "walkMinutes": 6,
+        "time_category": [
+          "朝",
+          "昼",
+          "夜"
+        ],
+        "hours": "月8:00〜翌1:00、火〜木24時間営業、土日祝8:00〜23:00",
+        "ai_summary": "内幸町駅徒歩2分のとんかつチェーン。深夜営業ありで、新橋UNO・日比谷口圏の手軽な定番飯。",
+        "tags": [
+          "サク飯",
+          "一人OK",
+          "朝飯OK",
+          "深夜OK"
+        ],
+        "address": "東京都港区新橋2-2-5 丸山ビル1F"
+      },
+      {
+        "id": 155,
+        "name": "カレーハウスCoCo壱番屋 港区御成門駅前店",
+        "genre": "カレー",
+        "walkMinutes": 10,
+        "time_category": [
+          "昼",
+          "夜"
+        ],
+        "hours": "11:00〜23:30（L.O.）",
+        "ai_summary": "御成門駅徒歩2分・新橋駅徒歩5分のカレーチェーン。カスタマイズ自在で、新橋ホール圏の手軽なカレー候補。",
+        "tags": [
+          "サク飯",
+          "一人OK"
+        ],
+        "address": "東京都港区西新橋3-24-5 御成門ビル1F・2F"
       }
     ]
   },
@@ -6708,6 +7185,26 @@ export const tokyoHalls: readonly PachinkoHall[] = [
         "address": "東京都港区新橋2-6-7 花菱ビル"
       },
       {
+        "id": 152,
+        "name": "すき家 新橋三丁目店",
+        "genre": "丼もの",
+        "walkMinutes": 2,
+        "time_category": [
+          "朝",
+          "昼",
+          "夜"
+        ],
+        "hours": "4:00〜翌3:00（3:00〜4:00休業）",
+        "ai_summary": "新橋駅烏森口徒歩3分の牛丼。早朝4時開店で、BIGディッパー・UNO圏の手軽な丼候補。",
+        "tags": [
+          "サク飯",
+          "一人OK",
+          "朝飯OK",
+          "深夜OK"
+        ],
+        "address": "東京都港区新橋3-10-9"
+      },
+      {
         "id": 70,
         "name": "焼肉ライク 新橋本店",
         "genre": "焼肉",
@@ -6746,6 +7243,24 @@ export const tokyoHalls: readonly PachinkoHall[] = [
         "address": "東京都港区新橋2-17-6"
       },
       {
+        "id": 156,
+        "name": "らぁ麺 はやし田 新橋店",
+        "genre": "ラーメン",
+        "walkMinutes": 3,
+        "time_category": [
+          "昼",
+          "夜"
+        ],
+        "hours": "10:00〜23:00（奇数月第2日曜定休）",
+        "ai_summary": "新橋駅烏森口徒歩2分の醤油ラーメン。ニュー新橋ビル内で、BIGディッパー圏の定番一杯。",
+        "tags": [
+          "サク飯",
+          "ガッツリ",
+          "一人OK"
+        ],
+        "address": "東京都港区新橋2-16-1 ニュー新橋ビル1階112号室"
+      },
+      {
         "id": 71,
         "name": "一番回転寿司 新橋店",
         "genre": "回転寿司",
@@ -6778,6 +7293,45 @@ export const tokyoHalls: readonly PachinkoHall[] = [
           "一人OK"
         ],
         "address": "東京都港区新橋2-16-1 ニュー新橋ビル"
+      },
+      {
+        "id": 153,
+        "name": "小諸そば 新橋店",
+        "genre": "そば/うどん",
+        "walkMinutes": 3,
+        "time_category": [
+          "朝",
+          "昼",
+          "夜"
+        ],
+        "hours": "平日7:00〜22:00、土日祝7:00〜21:00（奇数月第2日曜定休）",
+        "ai_summary": "新橋駅烏森口徒歩1分の立ち食いそば。早朝7時開店で、駅前大型ホール圏の神コスパサク飯。",
+        "tags": [
+          "サク飯",
+          "一人OK",
+          "朝飯OK"
+        ],
+        "address": "東京都港区新橋2-16-1 ニュー新橋ビル1F"
+      },
+      {
+        "id": 154,
+        "name": "松のや 新橋店",
+        "genre": "とんかつ/カツ丼",
+        "walkMinutes": 3,
+        "time_category": [
+          "朝",
+          "昼",
+          "夜"
+        ],
+        "hours": "月8:00〜翌1:00、火〜木24時間営業、土日祝8:00〜23:00",
+        "ai_summary": "内幸町駅徒歩2分のとんかつチェーン。深夜営業ありで、新橋UNO・日比谷口圏の手軽な定番飯。",
+        "tags": [
+          "サク飯",
+          "一人OK",
+          "朝飯OK",
+          "深夜OK"
+        ],
+        "address": "東京都港区新橋2-2-5 丸山ビル1F"
       },
       {
         "id": 65,
@@ -6851,6 +7405,23 @@ export const tokyoHalls: readonly PachinkoHall[] = [
           "朝飯OK"
         ],
         "address": "東京都港区新橋2-18-5"
+      },
+      {
+        "id": 155,
+        "name": "カレーハウスCoCo壱番屋 港区御成門駅前店",
+        "genre": "カレー",
+        "walkMinutes": 8,
+        "time_category": [
+          "昼",
+          "夜"
+        ],
+        "hours": "11:00〜23:30（L.O.）",
+        "ai_summary": "御成門駅徒歩2分・新橋駅徒歩5分のカレーチェーン。カスタマイズ自在で、新橋ホール圏の手軽なカレー候補。",
+        "tags": [
+          "サク飯",
+          "一人OK"
+        ],
+        "address": "東京都港区西新橋3-24-5 御成門ビル1F・2F"
       }
     ]
   },
@@ -6866,6 +7437,24 @@ export const tokyoHalls: readonly PachinkoHall[] = [
     "pachinko": 306,
     "slot": 299,
     "restaurants": [
+      {
+        "id": 156,
+        "name": "らぁ麺 はやし田 新橋店",
+        "genre": "ラーメン",
+        "walkMinutes": 3,
+        "time_category": [
+          "昼",
+          "夜"
+        ],
+        "hours": "10:00〜23:00（奇数月第2日曜定休）",
+        "ai_summary": "新橋駅烏森口徒歩2分の醤油ラーメン。ニュー新橋ビル内で、BIGディッパー圏の定番一杯。",
+        "tags": [
+          "サク飯",
+          "ガッツリ",
+          "一人OK"
+        ],
+        "address": "東京都港区新橋2-16-1 ニュー新橋ビル1階112号室"
+      },
       {
         "id": 71,
         "name": "一番回転寿司 新橋店",
@@ -6899,6 +7488,25 @@ export const tokyoHalls: readonly PachinkoHall[] = [
           "一人OK"
         ],
         "address": "東京都港区新橋2-16-1 ニュー新橋ビル"
+      },
+      {
+        "id": 153,
+        "name": "小諸そば 新橋店",
+        "genre": "そば/うどん",
+        "walkMinutes": 3,
+        "time_category": [
+          "朝",
+          "昼",
+          "夜"
+        ],
+        "hours": "平日7:00〜22:00、土日祝7:00〜21:00（奇数月第2日曜定休）",
+        "ai_summary": "新橋駅烏森口徒歩1分の立ち食いそば。早朝7時開店で、駅前大型ホール圏の神コスパサク飯。",
+        "tags": [
+          "サク飯",
+          "一人OK",
+          "朝飯OK"
+        ],
+        "address": "東京都港区新橋2-16-1 ニュー新橋ビル1F"
       },
       {
         "id": 63,
@@ -7050,6 +7658,46 @@ export const tokyoHalls: readonly PachinkoHall[] = [
           "朝飯OK"
         ],
         "address": "東京都港区新橋2-15-8 新橋W・Bビル 1F"
+      },
+      {
+        "id": 152,
+        "name": "すき家 新橋三丁目店",
+        "genre": "丼もの",
+        "walkMinutes": 7,
+        "time_category": [
+          "朝",
+          "昼",
+          "夜"
+        ],
+        "hours": "4:00〜翌3:00（3:00〜4:00休業）",
+        "ai_summary": "新橋駅烏森口徒歩3分の牛丼。早朝4時開店で、BIGディッパー・UNO圏の手軽な丼候補。",
+        "tags": [
+          "サク飯",
+          "一人OK",
+          "朝飯OK",
+          "深夜OK"
+        ],
+        "address": "東京都港区新橋3-10-9"
+      },
+      {
+        "id": 154,
+        "name": "松のや 新橋店",
+        "genre": "とんかつ/カツ丼",
+        "walkMinutes": 8,
+        "time_category": [
+          "朝",
+          "昼",
+          "夜"
+        ],
+        "hours": "月8:00〜翌1:00、火〜木24時間営業、土日祝8:00〜23:00",
+        "ai_summary": "内幸町駅徒歩2分のとんかつチェーン。深夜営業ありで、新橋UNO・日比谷口圏の手軽な定番飯。",
+        "tags": [
+          "サク飯",
+          "一人OK",
+          "朝飯OK",
+          "深夜OK"
+        ],
+        "address": "東京都港区新橋2-2-5 丸山ビル1F"
       }
     ]
   },
@@ -7082,6 +7730,23 @@ export const tokyoHalls: readonly PachinkoHall[] = [
           "一人OK"
         ],
         "address": "東京都千代田区有楽町2-10-1 東京交通会館 B1F"
+      },
+      {
+        "id": 160,
+        "name": "スシロー 有楽町店",
+        "genre": "回転寿司",
+        "walkMinutes": 2,
+        "time_category": [
+          "昼",
+          "夜"
+        ],
+        "hours": "平日10:30〜22:30、土日祝10:00〜22:30（L.O. 閉店15分前）",
+        "ai_summary": "有楽町駅徒歩1分の回転寿司。駅直結動線で、有楽町UNO・DUO圏からの最速軽食。",
+        "tags": [
+          "サク飯",
+          "一人OK"
+        ],
+        "address": "東京都千代田区有楽町1-11-1 ビックカメラ有楽町店内6F"
       },
       {
         "id": 78,
@@ -7178,6 +7843,23 @@ export const tokyoHalls: readonly PachinkoHall[] = [
         "address": "東京都中央区銀座3-2-13 江戸常ビル B1F"
       },
       {
+        "id": 159,
+        "name": "スシロー aune有楽町店",
+        "genre": "回転寿司",
+        "walkMinutes": 4,
+        "time_category": [
+          "昼",
+          "夜"
+        ],
+        "hours": "平日11:00〜23:00、土日祝10:30〜23:00（L.O. 閉店30分前）",
+        "ai_summary": "有楽町駅・日比谷駅徒歩1分の回転寿司。くら寿司旗艦店と併用しやすく、DUO圏からの軽食に最適。",
+        "tags": [
+          "サク飯",
+          "一人OK"
+        ],
+        "address": "東京都千代田区有楽町2-3-5 aune有楽町2F"
+      },
+      {
         "id": 72,
         "name": "銀座 創龍",
         "genre": "ラーメン",
@@ -7195,6 +7877,23 @@ export const tokyoHalls: readonly PachinkoHall[] = [
           "深夜OK"
         ],
         "address": "東京都中央区銀座6-4-18 マキシ・ド・ピアビル1F"
+      },
+      {
+        "id": 158,
+        "name": "はなまるうどん 銀座ファイブ店",
+        "genre": "そば/うどん",
+        "walkMinutes": 7,
+        "time_category": [
+          "昼",
+          "夜"
+        ],
+        "hours": "10:00〜21:30（L.O. 21:00）",
+        "ai_summary": "有楽町駅徒歩5分の讃岐うどん。セルフ方式で最速提供、銀座口ホール圏の手軽な麺候補。",
+        "tags": [
+          "サク飯",
+          "一人OK"
+        ],
+        "address": "東京都中央区銀座5-1 銀座ファイブ B1F"
       },
       {
         "id": 81,
@@ -7246,6 +7945,23 @@ export const tokyoHalls: readonly PachinkoHall[] = [
         "address": "東京都千代田区有楽町2-10-1 東京交通会館 B1F"
       },
       {
+        "id": 160,
+        "name": "スシロー 有楽町店",
+        "genre": "回転寿司",
+        "walkMinutes": 2,
+        "time_category": [
+          "昼",
+          "夜"
+        ],
+        "hours": "平日10:30〜22:30、土日祝10:00〜22:30（L.O. 閉店15分前）",
+        "ai_summary": "有楽町駅徒歩1分の回転寿司。駅直結動線で、有楽町UNO・DUO圏からの最速軽食。",
+        "tags": [
+          "サク飯",
+          "一人OK"
+        ],
+        "address": "東京都千代田区有楽町1-11-1 ビックカメラ有楽町店内6F"
+      },
+      {
         "id": 73,
         "name": "らーめん一郎",
         "genre": "ラーメン",
@@ -7341,6 +8057,23 @@ export const tokyoHalls: readonly PachinkoHall[] = [
         "address": "東京都千代田区有楽町1-10-1 有楽町ビルヂング B1F"
       },
       {
+        "id": 159,
+        "name": "スシロー aune有楽町店",
+        "genre": "回転寿司",
+        "walkMinutes": 4,
+        "time_category": [
+          "昼",
+          "夜"
+        ],
+        "hours": "平日11:00〜23:00、土日祝10:30〜23:00（L.O. 閉店30分前）",
+        "ai_summary": "有楽町駅・日比谷駅徒歩1分の回転寿司。くら寿司旗艦店と併用しやすく、DUO圏からの軽食に最適。",
+        "tags": [
+          "サク飯",
+          "一人OK"
+        ],
+        "address": "東京都千代田区有楽町2-3-5 aune有楽町2F"
+      },
+      {
         "id": 80,
         "name": "醍醐 有楽町店",
         "genre": "焼肉",
@@ -7374,6 +8107,23 @@ export const tokyoHalls: readonly PachinkoHall[] = [
           "一人OK"
         ],
         "address": "東京都中央区銀座3-2-1 マロニエゲート銀座2 7F"
+      },
+      {
+        "id": 158,
+        "name": "はなまるうどん 銀座ファイブ店",
+        "genre": "そば/うどん",
+        "walkMinutes": 7,
+        "time_category": [
+          "昼",
+          "夜"
+        ],
+        "hours": "10:00〜21:30（L.O. 21:00）",
+        "ai_summary": "有楽町駅徒歩5分の讃岐うどん。セルフ方式で最速提供、銀座口ホール圏の手軽な麺候補。",
+        "tags": [
+          "サク飯",
+          "一人OK"
+        ],
+        "address": "東京都中央区銀座5-1 銀座ファイブ B1F"
       },
       {
         "id": 75,
