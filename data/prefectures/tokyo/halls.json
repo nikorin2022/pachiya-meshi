@@ -341,5 +341,48 @@
     "slot": 377,
     "lat": 35.7110,
     "lng": 139.7754
+  },
+  {
+    "id": "big-dipper-shinbashi-1",
+    "name": "BIGディッパー新橋1号店",
+    "area_id": "shinbashi",
+    "prefecture": "東京都",
+    "city": "港区",
+    "address": "東京都港区新橋3-12-3",
+    "access": "JR新橋駅烏森口より徒歩1分 / 東京メトロ銀座線新橋駅より徒歩3分",
+    "hours": "10:00〜22:50",
+    "pachinko": 371,
+    "slot": 565,
+    "lat": 35.6654,
+    "lng": 139.7572
+  },
+  {
+    "id": "big-dipper-shinbashi-2",
+    "name": "BIGディッパー新橋2号店",
+    "area_id": "shinbashi",
+    "prefecture": "東京都",
+    "city": "港区",
+    "address": "東京都港区新橋2-8-12 ミクニ新橋第2ビル",
+    "access": "JR新橋駅より徒歩2分 / 都営浅草線新橋駅より徒歩3分",
+    "hours": "10:00〜22:50",
+    "pachinko": 126,
+    "slot": 244,
+    "lat": 35.6669,
+    "lng": 139.7563
+  },
+  {
+    "id": "uno-shinbashi",
+    "name": "新橋UNO",
+    "area_id": "shinbashi",
+    "chain_id": "uno",
+    "prefecture": "東京都",
+    "city": "港区",
+    "address": "東京都港区新橋3-20-1 TOWAJ'sビル",
+    "access": "JR新橋駅烏森口より徒歩1分 / 東京メトロ銀座線新橋駅B出口より徒歩2分",
+    "hours": "10:00〜22:55",
+    "pachinko": 306,
+    "slot": 299,
+    "lat": 35.6647,
+    "lng": 139.7588
   }
 ]
