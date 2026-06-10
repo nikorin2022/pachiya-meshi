@@ -16,8 +16,8 @@ import {
   ExternalLink,
   Store,
 } from "lucide-react"
-import { Input } from "@/components/ui/input"
 import { Button } from "@/components/ui/button"
+import { HallSearchForm } from "@/components/HallSearchForm"
 import { Badge } from "@/components/ui/badge"
 import type { PachinkoHall } from "@/lib/halls/types"
 import {
@@ -245,15 +245,7 @@ export default function HallDetailClient({ hall }: { hall: PachinkoHall }) {
 
             {/* デスクトップ: 検索バー */}
             <div className="flex-1 max-w-md hidden md:block">
-              <div className="flex">
-                <Input
-                  placeholder="パチンコ店名を入力"
-                  className="rounded-r-none border-r-0 focus-visible:ring-0 focus-visible:ring-offset-0"
-                />
-                <Button className="rounded-l-none bg-blue-600 hover:bg-blue-700 text-white px-6">
-                  検索
-                </Button>
-              </div>
+              <HallSearchForm buttonClassName="px-6" />
             </div>
 
             {/* デスクトップ: ナビゲーション */}
@@ -280,17 +272,11 @@ export default function HallDetailClient({ hall }: { hall: PachinkoHall }) {
           </div>
 
           {/* モバイル: 検索バー */}
-          <div className="mt-2 md:hidden">
-            <div className="flex">
-              <Input
-                placeholder="パチンコ店名を入力"
-                className="rounded-r-none border-r-0 focus-visible:ring-0 focus-visible:ring-offset-0 text-sm h-9"
-              />
-              <Button className="rounded-l-none bg-blue-600 hover:bg-blue-700 text-white px-4 h-9 text-sm">
-                検索
-              </Button>
-            </div>
-          </div>
+          <HallSearchForm
+            className="mt-2 md:hidden"
+            inputClassName="text-sm h-9"
+            buttonClassName="px-4 h-9 text-sm"
+          />
         </div>
       </header>
 
