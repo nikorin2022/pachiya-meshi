@@ -27,6 +27,18 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.9,
   }
 
+  const staticPages: MetadataRoute.Sitemap = [
+    "/about",
+    "/contact",
+    "/privacy",
+    "/terms",
+  ].map((path) => ({
+    url: `${SITE_URL}${path}`,
+    lastModified: now,
+    changeFrequency: "monthly" as const,
+    priority: 0.5,
+  }))
+
   const areaPages: MetadataRoute.Sitemap = getAreaIdsWithHalls().map((areaId) => ({
     url: `${SITE_URL}/areas/${areaId}`,
     lastModified: now,
@@ -41,5 +53,5 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.8,
   }))
 
-  return [topPage, areasIndexPage, ...areaPages, ...hallPages]
+  return [topPage, areasIndexPage, ...staticPages, ...areaPages, ...hallPages]
 }

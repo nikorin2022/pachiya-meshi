@@ -3,6 +3,7 @@ import Image from "next/image"
 import Link from "next/link"
 import { ChevronRight } from "lucide-react"
 import { Badge } from "@/components/ui/badge"
+import { SiteFooter } from "@/components/SiteFooter"
 import { getAreasWithHalls, getAreaPagePath } from "@/lib/areas"
 
 export const metadata: Metadata = {
@@ -101,6 +102,8 @@ export default function AreasPage() {
             ))}
           </ul>
         </section>
+
+        <SiteFooter />
       </main>
     </div>
   )
