@@ -86,15 +86,7 @@
     "address": "東京都千代田区外神田1-10-11",
     "lat": 35.6985,
     "lng": 139.7716,
-    "default_ai_summary": "電気街口側にある、爆速提供＋替玉2玉無料の定番ラーメン店。一人サク飯にも勝った日のご褒美にも使いやすい。",
-    "is_kitaichimeshi": true,
-    "selection_tags": [
-      "notable_restaurant",
-      "ramen_popular",
-      "quick_return",
-      "local_standard"
-    ],
-    "selection_note": "ラーメン好きに人気の店舗として選定"
+    "default_ai_summary": "電気街口側にある、爆速提供＋替玉2玉無料の定番ラーメン店。一人サク飯にも勝った日のご褒美にも使いやすい。"
   },
   {
     "id": "curry-wa-nomimono-akihabara",
@@ -276,13 +268,7 @@
     "address": "東京都千代田区外神田4-4-3",
     "lat": 35.7026,
     "lng": 139.772,
-    "default_ai_summary": "ジャンクでニンニクの効いた伝説のすた丼。圧倒的スピード提供と強烈な塩分・総カロリーで、疲れた脳に活力を注入できる。",
-    "is_kitaichimeshi": true,
-    "selection_tags": [
-      "local_famous",
-      "queue_popular"
-    ],
-    "selection_note": "秋葉原エリアで人気の高い店として選定"
+    "default_ai_summary": "ジャンクでニンニクの効いた伝説のすた丼。圧倒的スピード提供と強烈な塩分・総カロリーで、疲れた脳に活力を注入できる。"
   },
   {
     "id": "roast-beef-ohno-akihabara",
@@ -663,14 +649,7 @@
     "address": "東京都新宿区新宿4-1-7 ジャーナルスタンダード新宿店3F",
     "lat": 35.6888,
     "lng": 139.7022,
-    "default_ai_summary": "話題のハンバーガー店。新南口徒歩2分、テイクアウト可でホール復帰もしやすい。",
-    "is_kitaichimeshi": true,
-    "selection_tags": [
-      "notable_restaurant",
-      "queue_popular",
-      "hearty_meal"
-    ],
-    "selection_note": "ガッツリ飯需要に合う店舗として選定"
+    "default_ai_summary": "話題のハンバーガー店。新南口徒歩2分、テイクアウト可でホール復帰もしやすい。"
   },
   {
     "id": "yakiniku-like-shinjuku-nishiguchi",
@@ -711,13 +690,7 @@
     "address": "東京都新宿区西新宿1-15-3",
     "lat": 35.689,
     "lng": 139.6982,
-    "default_ai_summary": "西口の老舗回転寿司。ランチ丼600〜750円でコスパ良く、気軽にネタを楽しめる。",
-    "is_kitaichimeshi": true,
-    "selection_tags": [
-      "local_famous",
-      "notable_restaurant"
-    ],
-    "selection_note": "地域で知名度の高い人気店として選定"
+    "default_ai_summary": "西口の老舗回転寿司。ランチ丼600〜750円でコスパ良く、気軽にネタを楽しめる。"
   },
   {
     "id": "ichiran-ikebukuro-ekimae",
@@ -738,15 +711,7 @@
     "address": "東京都豊島区東池袋1-42-8",
     "lat": 35.7315,
     "lng": 139.7145,
-    "default_ai_summary": "東口徒歩2分・24時間の個室風カウンター。いつでもサクッと入れる池袋の定番ラーメン。",
-    "is_kitaichimeshi": true,
-    "selection_tags": [
-      "notable_restaurant",
-      "ramen_popular",
-      "local_standard",
-      "station_near"
-    ],
-    "selection_note": "地元利用者の多い店舗として選定"
+    "default_ai_summary": "東口徒歩2分・24時間の個室風カウンター。いつでもサクッと入れる池袋の定番ラーメン。"
   },
   {
     "id": "mukan-ikebukuro",
@@ -822,14 +787,7 @@
     "address": "東京都豊島区南池袋1-23-2 ティワイズビルB1F",
     "lat": 35.7286,
     "lng": 139.7132,
-    "default_ai_summary": "東口地下の金沢カレー。キャベツ食べ放題・回転速く、手頃にガッツリ補給できる。",
-    "is_kitaichimeshi": true,
-    "selection_tags": [
-      "notable_restaurant",
-      "curry_popular",
-      "hearty_meal"
-    ],
-    "selection_note": "ガッツリ飯需要に合う店舗として選定"
+    "default_ai_summary": "東口地下の金沢カレー。キャベツ食べ放題・回転速く、手頃にガッツリ補給できる。"
   },
   {
     "id": "sukiya-higashi-ikebukuro",
@@ -896,14 +854,7 @@
     "address": "東京都豊島区東池袋1-40-3 池袋籏ビル1F",
     "lat": 35.7312,
     "lng": 139.7148,
-    "default_ai_summary": "東口徒歩1分の一人焼肉専門。無煙ロースターで気軽にスタミナチャージできる。",
-    "is_kitaichimeshi": true,
-    "selection_tags": [
-      "notable_restaurant",
-      "hearty_meal",
-      "station_near"
-    ],
-    "selection_note": "パチンコ帰りに利用しやすい店舗として選定"
+    "default_ai_summary": "東口徒歩1分の一人焼肉専門。無煙ロースターで気軽にスタミナチャージできる。"
   },
   {
     "id": "kurasushi-ikebukuro-nishiguchi",
@@ -1010,14 +961,7 @@
     "address": "東京都渋谷区神南1-22-7 岩本ビルB1F",
     "lat": 35.6611,
     "lng": 139.7009,
-    "default_ai_summary": "ハチ公口徒歩3分・24時間の個室風カウンター。いつでもサクッと入れる渋谷の定番ラーメン。",
-    "is_kitaichimeshi": true,
-    "selection_tags": [
-      "notable_restaurant",
-      "ramen_popular",
-      "local_standard"
-    ],
-    "selection_note": "地元利用者の多い店舗として選定"
+    "default_ai_summary": "ハチ公口徒歩3分・24時間の個室風カウンター。いつでもサクッと入れる渋谷の定番ラーメン。"
   },
   {
     "id": "kindenmaru-shibuya-dogenzaka",
@@ -1114,15 +1058,7 @@
     "address": "東京都渋谷区道玄坂2-6-7 道玄坂Tビル1F",
     "lat": 35.6587,
     "lng": 139.699,
-    "default_ai_summary": "道玄坂徒歩2分の名物すた丼。ニンニク効いたガッツリ丼で、大型店からの腹ごしらえに最適。",
-    "is_kitaichimeshi": true,
-    "selection_tags": [
-      "local_famous",
-      "notable_restaurant",
-      "queue_popular",
-      "hearty_meal"
-    ],
-    "selection_note": "ガッツリ飯需要に合う店舗として選定"
+    "default_ai_summary": "道玄坂徒歩2分の名物すた丼。ニンニク効いたガッツリ丼で、大型店からの腹ごしらえに最適。"
   },
   {
     "id": "katsuya-shibuya-dogenzaka",
@@ -1163,13 +1099,7 @@
     "address": "東京都渋谷区道玄坂2-16-3 高葉屋ビル1F",
     "lat": 35.6588,
     "lng": 139.6971,
-    "default_ai_summary": "道玄坂徒歩6分の一人焼肉専門。無煙ロースターで気軽にスタミナチャージできる。",
-    "is_kitaichimeshi": true,
-    "selection_tags": [
-      "notable_restaurant",
-      "hearty_meal"
-    ],
-    "selection_note": "ガッツリ飯需要に合う店舗として選定"
+    "default_ai_summary": "道玄坂徒歩6分の一人焼肉専門。無煙ロースターで気軽にスタミナチャージできる。"
   },
   {
     "id": "kurasushi-shibuya-ekimae",
@@ -1189,14 +1119,7 @@
     "address": "東京都渋谷区宇田川町23-3 渋谷第一勧銀共同ビル7F",
     "lat": 35.6597,
     "lng": 139.6996,
-    "default_ai_summary": "ハチ公口徒歩1分の回転寿司チェーン。コスパ良好で、道玄坂ホール圏からの軽食に使いやすい。",
-    "is_kitaichimeshi": true,
-    "selection_tags": [
-      "local_standard",
-      "notable_restaurant",
-      "station_near"
-    ],
-    "selection_note": "地元利用者の多い店舗として選定"
+    "default_ai_summary": "ハチ公口徒歩1分の回転寿司チェーン。コスパ良好で、道玄坂ホール圏からの軽食に使いやすい。"
   },
   {
     "id": "matsuya-mycurry-shibuya-sakuragaoka",
@@ -1263,15 +1186,7 @@
     "address": "東京都台東区上野7-1-1 アトレ上野",
     "lat": 35.7137,
     "lng": 139.7769,
-    "default_ai_summary": "アトレ上野内・24時間の個室風カウンター。山下口動線からサクッと入れる定番ラーメン。",
-    "is_kitaichimeshi": true,
-    "selection_tags": [
-      "notable_restaurant",
-      "ramen_popular",
-      "local_standard",
-      "station_near"
-    ],
-    "selection_note": "地元利用者の多い店舗として選定"
+    "default_ai_summary": "アトレ上野内・24時間の個室風カウンター。山下口動線からサクッと入れる定番ラーメン。"
   },
   {
     "id": "matsuya-ueno",
@@ -1315,14 +1230,7 @@
     "address": "東京都台東区上野6-2-7 宮入ビル1F",
     "lat": 35.7085,
     "lng": 139.7754,
-    "default_ai_summary": "御徒町北口徒歩2分の金沢カレー。キャベツ食放題・回転速く、アメ横ホール圏の定番。",
-    "is_kitaichimeshi": true,
-    "selection_tags": [
-      "notable_restaurant",
-      "curry_popular",
-      "local_standard"
-    ],
-    "selection_note": "カレー好きに人気の店舗として選定"
+    "default_ai_summary": "御徒町北口徒歩2分の金沢カレー。キャベツ食放題・回転速く、アメ横ホール圏の定番。"
   },
   {
     "id": "yoshinoya-ueno-ekimae",
@@ -1389,15 +1297,7 @@
     "address": "東京都台東区上野3-20-7 GYOTOC ONEビル1F",
     "lat": 35.7059,
     "lng": 139.7741,
-    "default_ai_summary": "御徒町徒歩2分の名物すた丼。ニンニク効いたガッツリ丼で腹ごしらえに最適。",
-    "is_kitaichimeshi": true,
-    "selection_tags": [
-      "local_famous",
-      "notable_restaurant",
-      "hearty_meal",
-      "queue_popular"
-    ],
-    "selection_note": "ガッツリ飯需要に合う店舗として選定"
+    "default_ai_summary": "御徒町徒歩2分の名物すた丼。ニンニク効いたガッツリ丼で腹ごしらえに最適。"
   },
   {
     "id": "katsuya-okachimachi-minamiguchi",
@@ -1528,15 +1428,7 @@
     "address": "東京都港区新橋2-17-6",
     "lat": 35.6668,
     "lng": 139.7582,
-    "default_ai_summary": "新橋駅銀座口すぐの金沢カレー。キャベツ食放題・提供が速く、駅前ホール圏の定番。",
-    "is_kitaichimeshi": true,
-    "selection_tags": [
-      "notable_restaurant",
-      "curry_popular",
-      "quick_return",
-      "station_near"
-    ],
-    "selection_note": "パチンコ帰りに利用しやすい店舗として選定"
+    "default_ai_summary": "新橋駅銀座口すぐの金沢カレー。キャベツ食放題・提供が速く、駅前ホール圏の定番。"
   },
   {
     "id": "moyan-curry-shinbashi",
@@ -1668,14 +1560,7 @@
     "address": "東京都港区新橋2-15-8 新橋W・Bビル 1F",
     "lat": 35.6663,
     "lng": 139.7567,
-    "default_ai_summary": "烏森口徒歩1分の一人焼肉専門。無煙ロースターで気軽にスタミナチャージできる。",
-    "is_kitaichimeshi": true,
-    "selection_tags": [
-      "notable_restaurant",
-      "hearty_meal",
-      "quick_return"
-    ],
-    "selection_note": "ガッツリ飯需要に合う店舗として選定"
+    "default_ai_summary": "烏森口徒歩1分の一人焼肉専門。無煙ロースターで気軽にスタミナチャージできる。"
   },
   {
     "id": "ichiban-kaiten-sushi-shinbashi",
@@ -1937,14 +1822,7 @@
     "address": "東京都中央区銀座3-2-1 マロニエゲート銀座2 7F",
     "lat": 35.673,
     "lng": 139.7665,
-    "default_ai_summary": "有楽町駅徒歩4分の回転寿司旗艦店。コスパ良好で、銀座口ホール圏からの軽食に使いやすい。",
-    "is_kitaichimeshi": true,
-    "selection_tags": [
-      "notable_restaurant",
-      "local_standard",
-      "station_near"
-    ],
-    "selection_note": "地元利用者の多い店舗として選定"
+    "default_ai_summary": "有楽町駅徒歩4分の回転寿司旗艦店。コスパ良好で、銀座口ホール圏からの軽食に使いやすい。"
   },
   {
     "id": "manchiken-kinshicho",
@@ -2066,14 +1944,7 @@
     "address": "東京都墨田区江東橋3-9-15 第3魚寅ビル",
     "lat": 35.6961,
     "lng": 139.813,
-    "default_ai_summary": "錦糸町駅南口徒歩2分のとんかつチェーン。早朝5時開店で、ヒノマル・みとや南口圏の手軽な定番飯。",
-    "is_kitaichimeshi": true,
-    "selection_tags": [
-      "local_standard",
-      "notable_restaurant",
-      "quick_return"
-    ],
-    "selection_note": "パチンコ帰りに利用しやすい店舗として選定"
+    "default_ai_summary": "錦糸町駅南口徒歩2分のとんかつチェーン。早朝5時開店で、ヒノマル・みとや南口圏の手軽な定番飯。"
   },
   {
     "id": "yoshinoya-kinshicho-kitaguchi",
@@ -2488,14 +2359,7 @@
     "address": "東京都足立区千住2-26 やよいビル 1F",
     "lat": 35.7504,
     "lng": 139.8042,
-    "default_ai_summary": "北千住駅徒歩5分の一人焼肉専門。無煙ロースターで気軽にスタミナチャージできる。",
-    "is_kitaichimeshi": true,
-    "selection_tags": [
-      "notable_restaurant",
-      "hearty_meal",
-      "quick_return"
-    ],
-    "selection_note": "ガッツリ飯需要に合う店舗として選定"
+    "default_ai_summary": "北千住駅徒歩5分の一人焼肉専門。無煙ロースターで気軽にスタミナチャージできる。"
   },
   {
     "id": "misaki-ekia-kitasenju",
@@ -2517,15 +2381,7 @@
     "address": "東京都足立区千住旭町42-1 東武北千住駅改札内2F",
     "lat": 35.7495,
     "lng": 139.8051,
-    "default_ai_summary": "北千住駅東口・改札内2階の回転寿司。早朝7時から営業で、東口ホール圏からの軽食に使いやすい。",
-    "is_kitaichimeshi": true,
-    "selection_tags": [
-      "local_standard",
-      "notable_restaurant",
-      "station_near",
-      "quick_return"
-    ],
-    "selection_note": "パチンコ帰りに利用しやすい店舗として選定"
+    "default_ai_summary": "北千住駅東口・改札内2階の回転寿司。早朝7時から営業で、東口ホール圏からの軽食に使いやすい。"
   },
   {
     "id": "kuraku-equia-kitasenju",
@@ -2654,14 +2510,7 @@
     "address": "東京都町田市原町田4-4-14",
     "lat": 35.5419,
     "lng": 139.448,
-    "default_ai_summary": "町田駅徒歩4分のとんかつチェーン。揚げたて定食が手頃で、南口・ターミナルロード圏の定番飯。",
-    "is_kitaichimeshi": true,
-    "selection_tags": [
-      "local_standard",
-      "notable_restaurant",
-      "hearty_meal"
-    ],
-    "selection_note": "地元利用者の多い店舗として選定"
+    "default_ai_summary": "町田駅徒歩4分のとんかつチェーン。揚げたて定食が手頃で、南口・ターミナルロード圏の定番飯。"
   },
   {
     "id": "yoshinoya-odakyu-machida-minamiguchi",
@@ -2774,14 +2623,7 @@
     "address": "東京都町田市原町田4-11-14 コロンブスビル B1F",
     "lat": 35.5415,
     "lng": 139.446,
-    "default_ai_summary": "町田駅徒歩3分の食べ放題焼肉。2026年オープンの駅前店で、楽園・ともえ圏のスタミナ補給に向く。",
-    "is_kitaichimeshi": true,
-    "selection_tags": [
-      "notable_restaurant",
-      "hearty_meal",
-      "local_standard"
-    ],
-    "selection_note": "ガッツリ飯需要に合う店舗として選定"
+    "default_ai_summary": "町田駅徒歩3分の食べ放題焼肉。2026年オープンの駅前店で、楽園・ともえ圏のスタミナ補給に向く。"
   },
   {
     "id": "kurasushi-machida-jorna",
@@ -2801,14 +2643,7 @@
     "address": "東京都町田市原町田6-6-14 町田ジョルナ B2F",
     "lat": 35.5416,
     "lng": 139.4473,
-    "default_ai_summary": "町田駅徒歩2分の回転寿司。ジョルナ地下2階で、PIA・楽園圏からの軽食に使いやすい。",
-    "is_kitaichimeshi": true,
-    "selection_tags": [
-      "local_standard",
-      "notable_restaurant",
-      "station_near"
-    ],
-    "selection_note": "パチンコ帰りに利用しやすい店舗として選定"
+    "default_ai_summary": "町田駅徒歩2分の回転寿司。ジョルナ地下2階で、PIA・楽園圏からの軽食に使いやすい。"
   },
   {
     "id": "shioramen-shinka-machida-ekimae",
@@ -2950,15 +2785,7 @@
     "address": "東京都立川市錦町2-2-2 下田ビル 1F",
     "lat": 35.6975,
     "lng": 139.415,
-    "default_ai_summary": "立川駅南口徒歩2分のカレーチェーン。深夜まで営業で、ジアス・プレゴ圏の定番サク飯。",
-    "is_kitaichimeshi": true,
-    "selection_tags": [
-      "local_standard",
-      "curry_popular",
-      "quick_return",
-      "station_near"
-    ],
-    "selection_note": "パチンコ帰りに利用しやすい店舗として選定"
+    "default_ai_summary": "立川駅南口徒歩2分のカレーチェーン。深夜まで営業で、ジアス・プレゴ圏の定番サク飯。"
   },
   {
     "id": "matsunoya-tachikawa-shibasakicho",
@@ -3110,14 +2937,7 @@
     "address": "東京都立川市柴崎町3-7-24",
     "lat": 35.6971,
     "lng": 139.4146,
-    "default_ai_summary": "立川駅南口徒歩1分の一人焼肉専門。無煙ロースターで気軽にスタミナチャージできる。",
-    "is_kitaichimeshi": true,
-    "selection_tags": [
-      "notable_restaurant",
-      "hearty_meal",
-      "station_near"
-    ],
-    "selection_note": "ガッツリ飯需要に合う店舗として選定"
+    "default_ai_summary": "立川駅南口徒歩1分の一人焼肉専門。無煙ロースターで気軽にスタミナチャージできる。"
   },
   {
     "id": "sushiro-tachikawa-minamiguchi",
@@ -3137,13 +2957,7 @@
     "address": "東京都立川市柴崎町3-4-10 小川ビル 2F",
     "lat": 35.6974,
     "lng": 139.4148,
-    "default_ai_summary": "立川駅南口徒歩4分の回転寿司。コスパ良好で、南口大型ホール圏からの手軽な軽食。",
-    "is_kitaichimeshi": true,
-    "selection_tags": [
-      "local_standard",
-      "notable_restaurant"
-    ],
-    "selection_note": "地元利用者の多い店舗として選定"
+    "default_ai_summary": "立川駅南口徒歩4分の回転寿司。コスパ良好で、南口大型ホール圏からの手軽な軽食。"
   },
   {
     "id": "ichiran-shinjuku-central-east",
@@ -3343,14 +3157,7 @@
     "address": "東京都豊島区東池袋1-40-10 川又ビル 1F",
     "lat": 35.7315,
     "lng": 139.7148,
-    "default_ai_summary": "池袋駅東口徒歩4分の醤油ラーメン。鶏出汁の定番一杯で、東口大型ホール圏の人気店。",
-    "is_kitaichimeshi": true,
-    "selection_tags": [
-      "notable_restaurant",
-      "ramen_popular",
-      "local_standard"
-    ],
-    "selection_note": "ラーメン好きに人気の店舗として選定"
+    "default_ai_summary": "池袋駅東口徒歩4分の醤油ラーメン。鶏出汁の定番一杯で、東口大型ホール圏の人気店。"
   },
   {
     "id": "nadai-fujisoba-ikebukuro-higashiguchi",
@@ -3394,14 +3201,7 @@
     "address": "東京都渋谷区宇田川町31-9 ハナテイビル 1F",
     "lat": 35.6605,
     "lng": 139.6985,
-    "default_ai_summary": "渋谷駅徒歩5分の醤油ラーメン。2024年オープンのチェーン店で、道玄坂ホール圏の定番一杯。",
-    "is_kitaichimeshi": true,
-    "selection_tags": [
-      "notable_restaurant",
-      "ramen_popular",
-      "local_standard"
-    ],
-    "selection_note": "ラーメン好きに人気の店舗として選定"
+    "default_ai_summary": "渋谷駅徒歩5分の醤油ラーメン。2024年オープンのチェーン店で、道玄坂ホール圏の定番一杯。"
   },
   {
     "id": "cocoichi-shibuya-namikibashi",
@@ -3550,14 +3350,7 @@
     "address": "東京都台東区上野4-5-2 ツルヤビル",
     "lat": 35.7088,
     "lng": 139.7745,
-    "default_ai_summary": "上野御徒町駅徒歩2分の醤油ラーメン。2025年オープンのチェーン店で、アメ横ホール圏の定番一杯。",
-    "is_kitaichimeshi": true,
-    "selection_tags": [
-      "notable_restaurant",
-      "ramen_popular",
-      "station_near"
-    ],
-    "selection_note": "ラーメン好きに人気の店舗として選定"
+    "default_ai_summary": "上野御徒町駅徒歩2分の醤油ラーメン。2025年オープンのチェーン店で、アメ横ホール圏の定番一杯。"
   },
   {
     "id": "komoro-soba-ueno-okachimachi",
@@ -3948,14 +3741,7 @@
     "address": "東京都大田区西蒲田7-3-3",
     "lat": 35.5628,
     "lng": 139.7155,
-    "default_ai_summary": "蒲田駅西口徒歩2分の讃岐うどん。セルフ形式で最速提供、楽園蒲田圏の定番サク飯。",
-    "is_kitaichimeshi": true,
-    "selection_tags": [
-      "local_standard",
-      "notable_restaurant",
-      "station_near"
-    ],
-    "selection_note": "地元利用者の多い店舗として選定"
+    "default_ai_summary": "蒲田駅西口徒歩2分の讃岐うどん。セルフ形式で最速提供、楽園蒲田圏の定番サク飯。"
   },
   {
     "id": "nadai-fujisoba-kamata",
@@ -4062,14 +3848,7 @@
     "address": "東京都大田区蒲田5-20-5",
     "lat": 35.5618,
     "lng": 139.7192,
-    "default_ai_summary": "蒲田駅東口徒歩3分の一人焼肉専門。無煙ロースターで気軽にスタミナチャージできる。",
-    "is_kitaichimeshi": true,
-    "selection_tags": [
-      "notable_restaurant",
-      "hearty_meal",
-      "quick_return"
-    ],
-    "selection_note": "ガッツリ飯需要に合う店舗として選定"
+    "default_ai_summary": "蒲田駅東口徒歩3分の一人焼肉専門。無煙ロースターで気軽にスタミナチャージできる。"
   },
   {
     "id": "ippudo-kamata",
@@ -4090,14 +3869,7 @@
     "address": "東京都大田区西蒲田7-4-1",
     "lat": 35.5622,
     "lng": 139.7158,
-    "default_ai_summary": "蒲田駅西口徒歩3分のとんこつラーメン。博多系の定番一杯で、西口ホール圏の人気店。",
-    "is_kitaichimeshi": true,
-    "selection_tags": [
-      "notable_restaurant",
-      "ramen_popular",
-      "local_famous"
-    ],
-    "selection_note": "ラーメン好きに人気の店舗として選定"
+    "default_ai_summary": "蒲田駅西口徒歩3分のとんこつラーメン。博多系の定番一杯で、西口ホール圏の人気店。"
   },
   {
     "id": "tenya-kamata",
@@ -4117,14 +3889,7 @@
     "address": "東京都大田区蒲田5-18-3",
     "lat": 35.5616,
     "lng": 139.7188,
-    "default_ai_summary": "蒲田駅東口徒歩3分の天丼チェーン。揚げたて天丼が手軽で、東口ホール圏のサク飯候補。",
-    "is_kitaichimeshi": true,
-    "selection_tags": [
-      "local_standard",
-      "notable_restaurant",
-      "quick_return"
-    ],
-    "selection_note": "パチンコ帰りに利用しやすい店舗として選定"
+    "default_ai_summary": "蒲田駅東口徒歩3分の天丼チェーン。揚げたて天丼が手軽で、東口ホール圏のサク飯候補。"
   },
   {
     "id": "nakau-kamata",
@@ -4190,14 +3955,7 @@
     "address": "東京都品川区西五反田1-3-8 五反田PLACEビルB1",
     "lat": 35.6252,
     "lng": 139.7228,
-    "default_ai_summary": "五反田駅徒歩3分の回転寿司。駅近地下で、五反田ホール圏からの手軽な軽食。",
-    "is_kitaichimeshi": true,
-    "selection_tags": [
-      "local_standard",
-      "notable_restaurant",
-      "station_near"
-    ],
-    "selection_note": "食事満足度が高い店舗として選定"
+    "default_ai_summary": "五反田駅徒歩3分の回転寿司。駅近地下で、五反田ホール圏からの手軽な軽食。"
   },
   {
     "id": "matsuya-gotanda",
@@ -4220,15 +3978,7 @@
     "address": "東京都品川区西五反田1-30-5",
     "lat": 35.6258,
     "lng": 139.7232,
-    "default_ai_summary": "五反田駅徒歩2分の牛丼・カレー。24時間営業で、駅前ホール圏の最速補給拠点。",
-    "is_kitaichimeshi": true,
-    "selection_tags": [
-      "local_standard",
-      "curry_popular",
-      "quick_return",
-      "station_near"
-    ],
-    "selection_note": "パチンコ帰りに利用しやすい店舗として選定"
+    "default_ai_summary": "五反田駅徒歩2分の牛丼・カレー。24時間営業で、駅前ホール圏の最速補給拠点。"
   },
   {
     "id": "cocoichi-gotanda",
@@ -4358,13 +4108,7 @@
     "address": "東京都品川区西五反田2-5-2",
     "lat": 35.6265,
     "lng": 139.7238,
-    "default_ai_summary": "五反田駅徒歩3分の一人焼肉専門。無煙ロースターで気軽にスタミナチャージできる。",
-    "is_kitaichimeshi": true,
-    "selection_tags": [
-      "notable_restaurant",
-      "hearty_meal"
-    ],
-    "selection_note": "ガッツリ飯需要に合う店舗として選定"
+    "default_ai_summary": "五反田駅徒歩3分の一人焼肉専門。無煙ロースターで気軽にスタミナチャージできる。"
   },
   {
     "id": "ichiran-gotanda",
@@ -4386,14 +4130,7 @@
     "address": "東京都品川区西五反田1-13-7",
     "lat": 35.6248,
     "lng": 139.7218,
-    "default_ai_summary": "五反田駅徒歩3分のとんこつラーメン。個室ブースで集中して食べられる定番一杯。",
-    "is_kitaichimeshi": true,
-    "selection_tags": [
-      "notable_restaurant",
-      "ramen_popular",
-      "local_standard"
-    ],
-    "selection_note": "地元利用者の多い店舗として選定"
+    "default_ai_summary": "五反田駅徒歩3分のとんこつラーメン。個室ブースで集中して食べられる定番一杯。"
   },
   {
     "id": "tenya-gotanda",
@@ -4501,15 +4238,7 @@
     "address": "東京都新宿区高田馬場1-35-3 BIGBOX高田馬場 B1",
     "lat": 35.7132,
     "lng": 139.7028,
-    "default_ai_summary": "高田馬場駅徒歩1分の回転寿司。駅直結動線で、高田馬場ホール圏からの最速軽食。",
-    "is_kitaichimeshi": true,
-    "selection_tags": [
-      "local_standard",
-      "notable_restaurant",
-      "station_near",
-      "quick_return"
-    ],
-    "selection_note": "地元利用者の多い店舗として選定"
+    "default_ai_summary": "高田馬場駅徒歩1分の回転寿司。駅直結動線で、高田馬場ホール圏からの最速軽食。"
   },
   {
     "id": "matsuya-takadanobaba",
@@ -4532,15 +4261,7 @@
     "address": "東京都新宿区高田馬場1-32-2",
     "lat": 35.713,
     "lng": 139.7035,
-    "default_ai_summary": "高田馬場駅徒歩2分の牛丼・カレー。24時間営業で、早稲田口ホール圏の最速補給拠点。",
-    "is_kitaichimeshi": true,
-    "selection_tags": [
-      "local_standard",
-      "curry_popular",
-      "quick_return",
-      "station_near"
-    ],
-    "selection_note": "パチンコ帰りに利用しやすい店舗として選定"
+    "default_ai_summary": "高田馬場駅徒歩2分の牛丼・カレー。24時間営業で、早稲田口ホール圏の最速補給拠点。"
   },
   {
     "id": "cocoichi-takadanobaba",
@@ -4669,13 +4390,7 @@
     "address": "東京都新宿区高田馬場2-5-2",
     "lat": 35.7118,
     "lng": 139.705,
-    "default_ai_summary": "高田馬場駅徒歩3分の一人焼肉専門。無煙ロースターで気軽にスタミナチャージできる。",
-    "is_kitaichimeshi": true,
-    "selection_tags": [
-      "notable_restaurant",
-      "hearty_meal"
-    ],
-    "selection_note": "ガッツリ飯需要に合う店舗として選定"
+    "default_ai_summary": "高田馬場駅徒歩3分の一人焼肉専門。無煙ロースターで気軽にスタミナチャージできる。"
   },
   {
     "id": "menya-takadanobaba",
@@ -4696,14 +4411,7 @@
     "address": "東京都新宿区高田馬場2-8-1",
     "lat": 35.7115,
     "lng": 139.7045,
-    "default_ai_summary": "高田馬場駅徒歩3分の家系ラーメン。濃厚スープで、学生街の人気ラーメン店。",
-    "is_kitaichimeshi": true,
-    "selection_tags": [
-      "local_famous",
-      "notable_restaurant",
-      "ramen_popular"
-    ],
-    "selection_note": "ラーメン好きに人気の店舗として選定"
+    "default_ai_summary": "高田馬場駅徒歩3分の家系ラーメン。濃厚スープで、学生街の人気ラーメン店。"
   },
   {
     "id": "tenya-takadanobaba",
@@ -4859,14 +4567,7 @@
     "address": "東京都中野区中野5-59-2",
     "lat": 35.7068,
     "lng": 139.6658,
-    "default_ai_summary": "中野駅北口徒歩2分の牛丼・カレー。24時間営業で、中野北口ホール圏の最速補給拠点。",
-    "is_kitaichimeshi": true,
-    "selection_tags": [
-      "local_standard",
-      "curry_popular",
-      "quick_return"
-    ],
-    "selection_note": "パチンコ帰りに利用しやすい店舗として選定"
+    "default_ai_summary": "中野駅北口徒歩2分の牛丼・カレー。24時間営業で、中野北口ホール圏の最速補給拠点。"
   },
   {
     "id": "cocoichi-nakano",
@@ -4972,13 +4673,7 @@
     "address": "東京都中野区中央4-1-1",
     "lat": 35.7085,
     "lng": 139.6685,
-    "default_ai_summary": "中野坂上駅徒歩5分の回転寿司。中野北口ホール圏から徒歩圏内の手軽な軽食。",
-    "is_kitaichimeshi": true,
-    "selection_tags": [
-      "local_standard",
-      "notable_restaurant"
-    ],
-    "selection_note": "地元利用者の多い店舗として選定"
+    "default_ai_summary": "中野坂上駅徒歩5分の回転寿司。中野北口ホール圏から徒歩圏内の手軽な軽食。"
   },
   {
     "id": "yakiniku-like-nakano",
@@ -4999,13 +4694,7 @@
     "address": "東京都中野区中野5-55-2",
     "lat": 35.7064,
     "lng": 139.6652,
-    "default_ai_summary": "中野駅北口徒歩3分の一人焼肉専門。無煙ロースターで気軽にスタミナチャージできる。",
-    "is_kitaichimeshi": true,
-    "selection_tags": [
-      "notable_restaurant",
-      "hearty_meal"
-    ],
-    "selection_note": "ガッツリ飯需要に合う店舗として選定"
+    "default_ai_summary": "中野駅北口徒歩3分の一人焼肉専門。無煙ロースターで気軽にスタミナチャージできる。"
   },
   {
     "id": "menya-nakano",
@@ -5026,14 +4715,7 @@
     "address": "東京都中野区中野5-52-1",
     "lat": 35.7062,
     "lng": 139.6648,
-    "default_ai_summary": "中野駅北口徒歩3分の家系ラーメン。中野のラーメン激戦区を代表する定番一杯。",
-    "is_kitaichimeshi": true,
-    "selection_tags": [
-      "local_famous",
-      "notable_restaurant",
-      "ramen_popular"
-    ],
-    "selection_note": "地域で知名度の高い人気店として選定"
+    "default_ai_summary": "中野駅北口徒歩3分の家系ラーメン。中野のラーメン激戦区を代表する定番一杯。"
   },
   {
     "id": "tenya-nakano",
@@ -5167,14 +4849,7 @@
     "address": "東京都武蔵野市吉祥寺本町1-20-3",
     "lat": 35.703,
     "lng": 139.579,
-    "default_ai_summary": "吉祥寺駅北口徒歩2分の牛丼・カレー。24時間営業で、メッセ本館圏の最速補給拠点。",
-    "is_kitaichimeshi": true,
-    "selection_tags": [
-      "local_standard",
-      "curry_popular",
-      "quick_return"
-    ],
-    "selection_note": "パチンコ帰りに利用しやすい店舗として選定"
+    "default_ai_summary": "吉祥寺駅北口徒歩2分の牛丼・カレー。24時間営業で、メッセ本館圏の最速補給拠点。"
   },
   {
     "id": "cocoichi-kichijoji",
@@ -5260,13 +4935,7 @@
     "address": "東京都武蔵野市吉祥寺本町2-8-1",
     "lat": 35.7038,
     "lng": 139.5805,
-    "default_ai_summary": "吉祥寺駅北口徒歩3分の回転寿司。コスパ良好で、メッセ本館圏からの手軽な軽食。",
-    "is_kitaichimeshi": true,
-    "selection_tags": [
-      "local_standard",
-      "notable_restaurant"
-    ],
-    "selection_note": "食事満足度が高い店舗として選定"
+    "default_ai_summary": "吉祥寺駅北口徒歩3分の回転寿司。コスパ良好で、メッセ本館圏からの手軽な軽食。"
   },
   {
     "id": "yakiniku-like-kichijoji",
@@ -5287,14 +4956,7 @@
     "address": "東京都武蔵野市吉祥寺本町1-25-3",
     "lat": 35.7036,
     "lng": 139.5802,
-    "default_ai_summary": "吉祥寺駅北口徒歩2分の一人焼肉専門。無煙ロースターで気軽にスタミナチャージできる。",
-    "is_kitaichimeshi": true,
-    "selection_tags": [
-      "notable_restaurant",
-      "hearty_meal",
-      "station_near"
-    ],
-    "selection_note": "ガッツリ飯需要に合う店舗として選定"
+    "default_ai_summary": "吉祥寺駅北口徒歩2分の一人焼肉専門。無煙ロースターで気軽にスタミナチャージできる。"
   },
   {
     "id": "ramen-musashi-kichijoji",
@@ -5315,14 +4977,7 @@
     "address": "東京都武蔵野市吉祥寺本町1-12-1",
     "lat": 35.7024,
     "lng": 139.5785,
-    "default_ai_summary": "吉祥寺駅北口徒歩3分の家系ラーメン。濃厚スープで、吉祥寺の人気ラーメン店。",
-    "is_kitaichimeshi": true,
-    "selection_tags": [
-      "local_famous",
-      "notable_restaurant",
-      "ramen_popular"
-    ],
-    "selection_note": "ラーメン好きに人気の店舗として選定"
+    "default_ai_summary": "吉祥寺駅北口徒歩3分の家系ラーメン。濃厚スープで、吉祥寺の人気ラーメン店。"
   },
   {
     "id": "tenya-kichijoji",
@@ -5523,14 +5178,7 @@
     "lat": 35.7776,
     "lng": 139.7218,
     "default_ai_summary": "赤羽駅東口徒歩2分のとんかつチェーン。揚げたて定食が手頃で、東口ホール圏の定番飯。",
-    "legacy_id": 233,
-    "is_kitaichimeshi": true,
-    "selection_tags": [
-      "local_standard",
-      "notable_restaurant",
-      "quick_return"
-    ],
-    "selection_note": "パチンコ帰りに利用しやすい店舗として選定"
+    "legacy_id": 233
   },
   {
     "id": "cocoichi-akabane-lala-garden",
@@ -5550,13 +5198,7 @@
     "lat": 35.7762,
     "lng": 139.7198,
     "default_ai_summary": "赤羽駅徒歩5分のカレーチェーン。カスタマイズ自在で、西口ホール圏の手軽なカレー候補。",
-    "legacy_id": 234,
-    "is_kitaichimeshi": true,
-    "selection_tags": [
-      "notable_restaurant",
-      "curry_popular"
-    ],
-    "selection_note": "地元利用者の多い店舗として選定"
+    "legacy_id": 234
   },
   {
     "id": "nakau-akabane-nishiguchi",
@@ -5621,14 +5263,7 @@
     "lat": 35.7788,
     "lng": 139.7202,
     "default_ai_summary": "赤羽駅直結の天丼チェーン。揚げたて天丼が手軽で、東口ホール圏のサク飯候補。",
-    "legacy_id": 237,
-    "is_kitaichimeshi": true,
-    "selection_tags": [
-      "local_standard",
-      "notable_restaurant",
-      "station_near"
-    ],
-    "selection_note": "食事満足度が高い店舗として選定"
+    "legacy_id": 237
   },
   {
     "id": "wako-akabane-beans",
@@ -5648,15 +5283,7 @@
     "lat": 35.7787,
     "lng": 139.7203,
     "default_ai_summary": "赤羽駅直結のとんかつ専門店。定食・弁当が手頃で、駅前ホール圏の定番とんかつ候補。",
-    "legacy_id": 238,
-    "is_kitaichimeshi": true,
-    "selection_tags": [
-      "local_famous",
-      "notable_restaurant",
-      "hearty_meal",
-      "station_near"
-    ],
-    "selection_note": "地域で知名度の高い人気店として選定"
+    "legacy_id": 238
   },
   {
     "id": "sobaichi-akabane-ecute",
@@ -5770,14 +5397,7 @@
     "lat": 35.6565,
     "lng": 139.3398,
     "default_ai_summary": "八王子駅北口徒歩3分の牛丼・カレー。24時間営業で、PIA・マルハン圏の最速補給拠点。",
-    "legacy_id": 243,
-    "is_kitaichimeshi": true,
-    "selection_tags": [
-      "local_standard",
-      "curry_popular",
-      "quick_return"
-    ],
-    "selection_note": "パチンコ帰りに利用しやすい店舗として選定"
+    "legacy_id": 243
   },
   {
     "id": "matsuya-keio-hachioji",
@@ -5820,14 +5440,7 @@
     "lat": 35.6575,
     "lng": 139.3408,
     "default_ai_summary": "京王八王子駅徒歩2分のとんかつチェーン。揚げたて定食が手頃で、京王口ホール圏の定番飯。",
-    "legacy_id": 245,
-    "is_kitaichimeshi": true,
-    "selection_tags": [
-      "local_standard",
-      "notable_restaurant",
-      "quick_return"
-    ],
-    "selection_note": "地元利用者の多い店舗として選定"
+    "legacy_id": 245
   },
   {
     "id": "sushiro-hachioji-ekimae",
@@ -5847,13 +5460,7 @@
     "lat": 35.6558,
     "lng": 139.3375,
     "default_ai_summary": "八王子駅徒歩5分の回転寿司。コスパ良好で、駅前ホール圏の手軽な軽食候補。",
-    "legacy_id": 246,
-    "is_kitaichimeshi": true,
-    "selection_tags": [
-      "local_standard",
-      "notable_restaurant"
-    ],
-    "selection_note": "パチンコ帰りに利用しやすい店舗として選定"
+    "legacy_id": 246
   },
   {
     "id": "cocoichi-hachioji-minamiguchi",
@@ -5938,14 +5545,7 @@
     "lat": 35.6562,
     "lng": 139.3395,
     "default_ai_summary": "八王子駅北口徒歩1分の天丼チェーン。揚げたて天丼が手軽で、PIA八王子圏のサク飯候補。",
-    "legacy_id": 250,
-    "is_kitaichimeshi": true,
-    "selection_tags": [
-      "local_standard",
-      "notable_restaurant",
-      "station_near"
-    ],
-    "selection_note": "食事満足度が高い店舗として選定"
+    "legacy_id": 250
   },
   {
     "id": "fujisoba-hachioji",
@@ -6095,14 +5695,7 @@
     "lat": 35.6643,
     "lng": 139.8712,
     "default_ai_summary": "葛西駅徒歩1分の回転寿司。コスパ良好で、駅前大型ホール圏の手軽な軽食候補。",
-    "legacy_id": 257,
-    "is_kitaichimeshi": true,
-    "selection_tags": [
-      "local_standard",
-      "notable_restaurant",
-      "station_near"
-    ],
-    "selection_note": "パチンコ帰りに利用しやすい店舗として選定"
+    "legacy_id": 257
   },
   {
     "id": "tenya-kasai-ekimae",
@@ -6384,14 +5977,7 @@
     "lat": 35.7339,
     "lng": 139.884,
     "default_ai_summary": "小岩駅北口徒歩3分の牛丼・カレー。24時間営業で、北口大型ホール圏の最速補給拠点。",
-    "legacy_id": 269,
-    "is_kitaichimeshi": true,
-    "selection_tags": [
-      "local_standard",
-      "curry_popular",
-      "quick_return"
-    ],
-    "selection_note": "パチンコ帰りに利用しやすい店舗として選定"
+    "legacy_id": 269
   },
   {
     "id": "katsuya-koiwa-ekimae",
@@ -6411,14 +5997,7 @@
     "lat": 35.734,
     "lng": 139.8843,
     "default_ai_summary": "小岩駅北口徒歩2分のとんかつチェーン。揚げたて定食が手頃で、マルハン圏の定番飯。",
-    "legacy_id": 270,
-    "is_kitaichimeshi": true,
-    "selection_tags": [
-      "local_standard",
-      "notable_restaurant",
-      "station_near"
-    ],
-    "selection_note": "地元利用者の多い店舗として選定"
+    "legacy_id": 270
   },
   {
     "id": "cocoichi-koiwa-minamiguchi",
@@ -6529,14 +6108,7 @@
     "lat": 35.7345,
     "lng": 139.8832,
     "default_ai_summary": "小岩駅北口徒歩3分の立ち食いそば。24時間営業で、北口ホール圏の神コスパサク飯。",
-    "legacy_id": 275,
-    "is_kitaichimeshi": true,
-    "selection_tags": [
-      "local_standard",
-      "notable_restaurant",
-      "quick_return"
-    ],
-    "selection_note": "パチンコ帰りに利用しやすい店舗として選定"
+    "legacy_id": 275
   },
   {
     "id": "cocoichi-koiwa-kitaguchi",
@@ -6556,13 +6128,7 @@
     "lat": 35.7343,
     "lng": 139.8836,
     "default_ai_summary": "小岩駅北口徒歩3分のカレーチェーン。マルハン2館圏の手軽なカレー候補。",
-    "legacy_id": 276,
-    "is_kitaichimeshi": true,
-    "selection_tags": [
-      "notable_restaurant",
-      "curry_popular"
-    ],
-    "selection_note": "食事満足度が高い店舗として選定"
+    "legacy_id": 276
   },
   {
     "id": "mcdonalds-koiwa-kitaguchi",
@@ -6674,14 +6240,7 @@
     "lat": 35.5895,
     "lng": 139.7288,
     "default_ai_summary": "大森駅東口徒歩2分の牛丼・カレー。24時間営業で、東口大型ホール圏の最速補給拠点。",
-    "legacy_id": 281,
-    "is_kitaichimeshi": true,
-    "selection_tags": [
-      "local_standard",
-      "curry_popular",
-      "quick_return"
-    ],
-    "selection_note": "食事満足度が高い店舗として選定"
+    "legacy_id": 281
   },
   {
     "id": "sushiro-omori-ekimae",
@@ -6701,14 +6260,7 @@
     "lat": 35.5892,
     "lng": 139.7298,
     "default_ai_summary": "大森駅東口徒歩2分の回転寿司。コスパ良好で、金時大森東口圏の手軽な軽食候補。",
-    "legacy_id": 282,
-    "is_kitaichimeshi": true,
-    "selection_tags": [
-      "local_standard",
-      "notable_restaurant",
-      "station_near"
-    ],
-    "selection_note": "地元利用者の多い店舗として選定"
+    "legacy_id": 282
   },
   {
     "id": "cocoichi-omori-higashiguchi",
@@ -6793,14 +6345,7 @@
     "lat": 35.5875,
     "lng": 139.7268,
     "default_ai_summary": "大森駅西口徒歩2分の天丼チェーン。揚げたて天丼が手軽で、PIA大森圏のサク飯候補。",
-    "legacy_id": 286,
-    "is_kitaichimeshi": true,
-    "selection_tags": [
-      "local_standard",
-      "notable_restaurant",
-      "quick_return"
-    ],
-    "selection_note": "パチンコ帰りに利用しやすい店舗として選定"
+    "legacy_id": 286
   },
   {
     "id": "nakau-omori-kitaichome",
@@ -6865,14 +6410,7 @@
     "lat": 35.5881,
     "lng": 139.7272,
     "default_ai_summary": "大森駅西口徒歩1分の焼肉チェーン。土日はランチ営業ありで、PIA大森圏のスタミナ飯候補。",
-    "legacy_id": 289,
-    "is_kitaichimeshi": true,
-    "selection_tags": [
-      "notable_restaurant",
-      "hearty_meal",
-      "station_near"
-    ],
-    "selection_note": "ガッツリ飯需要に合う店舗として選定"
+    "legacy_id": 289
   },
   {
     "id": "mosburger-omori",
