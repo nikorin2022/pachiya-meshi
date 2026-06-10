@@ -42,6 +42,8 @@ import {
 import {
   countKitaichimeshiForHall,
   getHallKitaichimeshiLabel,
+  getRecommendedRestaurantItemClassName,
+  getRestaurantCardClassName,
   isKitaichimeshi,
   KITAICHIMESHI_DESCRIPTION,
 } from "@/lib/kitaichimeshi"
@@ -579,11 +581,13 @@ export default function HallDetailClient({
                   </p>
                 </div>
               ) : (
-                filteredRestaurants.map((restaurant) => (
+                filteredRestaurants.map((restaurant) => {
+                  const kitaichimeshi = isKitaichimeshi(restaurant)
+                  return (
                   <div
                     key={restaurant.id}
                     id={`restaurant-${restaurant.id}`}
-                    className="bg-white rounded-lg shadow-sm border border-gray-200 overflow-hidden hover:shadow-md transition-shadow scroll-mt-24"
+                    className={getRestaurantCardClassName(kitaichimeshi)}
                   >
                     {/* 地図埋め込み部分（ホール → 飲食店 ルート表示） */}
                     <StoreMapEmbed
@@ -610,7 +614,7 @@ export default function HallDetailClient({
                             >
                               {restaurant.genre}
                             </Badge>
-                            {isKitaichimeshi(restaurant) ? (
+                            {kitaichimeshi ? (
                               <KitaichimeshiRestaurantBadge />
                             ) : null}
                           </div>
@@ -659,7 +663,7 @@ export default function HallDetailClient({
                       </a>
                     </div>
                   </div>
-                ))
+                )})
               )}
             </div>
           </div>
@@ -681,11 +685,15 @@ export default function HallDetailClient({
               ) : (
                 <div className="flex lg:flex-col gap-3 overflow-x-auto lg:overflow-visible pb-1 lg:pb-0">
                   {recommendedRestaurants.map(
-                    ({ rank, restaurant, estimatedWalkMinutes }) => (
+                    ({ rank, restaurant, estimatedWalkMinutes }) => {
+                      const kitaichimeshi = isKitaichimeshi(restaurant)
+                      return (
                       <a
                         key={restaurant.id}
                         href={`#restaurant-${restaurant.id}`}
-                        className="flex items-center gap-2 sm:gap-3 shrink-0 min-w-[200px] lg:min-w-0 hover:opacity-80 transition-opacity"
+                        className={getRecommendedRestaurantItemClassName(
+                          kitaichimeshi,
+                        )}
                       >
                         <div className="relative shrink-0">
                           <GenreImage
@@ -721,7 +729,7 @@ export default function HallDetailClient({
                           ) : null}
                         </div>
                       </a>
-                    ),
+                    )},
                   )}
                 </div>
               )}
