@@ -8,6 +8,7 @@ type AreaRecord = {
   name: string
   prefecture: string
   description_short: string
+  area_description: string
 }
 
 type HallMetaRecord = {
@@ -21,6 +22,7 @@ export type Area = {
   name: string
   prefecture: string
   description_short: string
+  area_description: string
 }
 
 export type AreaWithHallCount = Area & {
@@ -40,6 +42,7 @@ function toArea(record: AreaRecord): Area {
     name: record.name,
     prefecture: record.prefecture,
     description_short: record.description_short,
+    area_description: record.area_description,
   }
 }
 

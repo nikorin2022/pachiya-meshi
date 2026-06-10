@@ -40,6 +40,7 @@ export type LegacyHall = {
   hours: string
   pachinko: number
   slot: number
+  pachiya_comment: string
   restaurants: LegacyRestaurant[]
 }
 
@@ -105,6 +106,7 @@ export class HallBuilder {
       hours: hall.hours,
       pachinko: hall.pachinko,
       slot: hall.slot,
+      pachiya_comment: hall.pachiya_comment,
       restaurants,
     }
   }

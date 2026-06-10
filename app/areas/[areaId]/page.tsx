@@ -113,6 +113,15 @@ export default async function AreaDetailPage({
           </p>
         </section>
 
+        <section className="bg-white rounded-lg shadow-sm border border-gray-200 p-4 sm:p-6 mb-4 sm:mb-6">
+          <h3 className="text-xs sm:text-sm font-bold text-gray-900 mb-2 sm:mb-3">
+            パチ屋飯エリアガイド
+          </h3>
+          <p className="text-xs sm:text-sm text-gray-600 leading-relaxed whitespace-pre-wrap">
+            {area.area_description}
+          </p>
+        </section>
+
         <section>
           <h3 className="text-xs sm:text-sm font-bold text-gray-900 mb-3 sm:mb-4">
             {area.name}のパチンコホール一覧

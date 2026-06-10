@@ -18,6 +18,7 @@ export const tokyoHalls: readonly PachinkoHall[] = [
     "hours": "10:00〜22:40",
     "pachinko": 204,
     "slot": 395,
+    "pachiya_comment": "電気街口から徒歩5分の立地で、末広町方面の飲食店にもアクセスしやすいホールです。周辺はラーメンやカレー、立ち食いそばなど回転の速い店が多く、短い休憩でも食事を組み立てやすいエリアに位置しています。 周辺の飲食店は徒歩圏内にまとまっており、休憩時間に合わせて選びやすい立地です。",
     "restaurants": [
       {
         "id": 12,
@@ -425,6 +426,7 @@ export const tokyoHalls: readonly PachinkoHall[] = [
     "hours": "10:00〜23:00",
     "pachinko": 327,
     "slot": 522,
+    "pachiya_comment": "秋葉原駅電気街口の目の前にあり、駅前のガード下飲食やチェーン店へ最短で行ける立地です。戻りやすさを重視する場合に、周辺の牛丼・ラーメン・カレー店を候補にしやすいホールです。 周辺の飲食店は徒歩圏内にまとまっており、休憩時間に合わせて選びやすい立地です。",
     "restaurants": [
       {
         "id": 18,
@@ -796,6 +798,7 @@ export const tokyoHalls: readonly PachinkoHall[] = [
     "hours": "10:00〜22:40",
     "pachinko": 185,
     "slot": 675,
+    "pachiya_comment": "電気街南口から徒歩2分と駅近で、万世橋方面の飲食店へも歩きやすい立地です。周辺はラーメン、カレー、丼ものなど一人向けの店が揃い、休憩時間に合わせて選びやすいエリアです。 周辺の飲食店は徒歩圏内にまとまっており、休憩時間に合わせて選びやすい立地です。",
     "restaurants": [
       {
         "id": 16,
@@ -1167,6 +1170,7 @@ export const tokyoHalls: readonly PachinkoHall[] = [
     "hours": "10:00〜22:45",
     "pachinko": 263,
     "slot": 197,
+    "pachiya_comment": "電気街口ガード下から徒歩1分の駅前立地で、秋葉原らしいガード下飲食へすぐ足を延ばせます。短時間の食事休憩に向くラーメンや丼もの、立ち食いそばが周辺に多いホールです。 周辺の飲食店は徒歩圏内にまとまっており、休憩時間に合わせて選びやすい立地です。",
     "restaurants": [
       {
         "id": 17,
@@ -1538,6 +1542,7 @@ export const tokyoHalls: readonly PachinkoHall[] = [
     "hours": "10:00〜22:50",
     "pachinko": 303,
     "slot": 308,
+    "pachiya_comment": "昭和通り口すぐの立地で、駅前チェーン店やラーメン店へのアクセスが良いホールです。秋葉原駅周辺の回転の速い飲食店を、徒歩圏内でまとめて比較しやすい位置にあります。 周辺の飲食店は徒歩圏内にまとまっており、休憩時間に合わせて選びやすい立地です。",
     "restaurants": [
       {
         "id": 17,
@@ -1892,6 +1897,7 @@ export const tokyoHalls: readonly PachinkoHall[] = [
     "hours": "10:00〜22:45",
     "pachinko": 971,
     "slot": 749,
+    "pachiya_comment": "歌舞伎町入口から徒歩4分で、新宿東口方面の飲食店にも歩いて行ける立地です。周辺は牛丼、カレー、ラーメンなど深夜営業の店も多く、長時間の休憩にも組み合わせやすいエリアです。 周辺の飲食店は徒歩圏内にまとまっており、休憩時間に合わせて選びやすい立地です。",
     "restaurants": [
       {
         "id": 25,
@@ -2148,6 +2154,7 @@ export const tokyoHalls: readonly PachinkoHall[] = [
     "hours": "10:00〜22:45",
     "pachinko": 516,
     "slot": 411,
+    "pachiya_comment": "西武新宿駅前にあり、新宿西口エリアの飲食店へアクセスしやすい立地です。カレーや丼もの、ラーメンなど、回転の速いチェーン店を周辺で探しやすいホールです。 周辺の飲食店は徒歩圏内にまとまっており、休憩時間に合わせて選びやすい立地です。",
     "restaurants": [
       {
         "id": 134,
@@ -2439,6 +2446,7 @@ export const tokyoHalls: readonly PachinkoHall[] = [
     "hours": "10:00〜22:40",
     "pachinko": 561,
     "slot": 664,
+    "pachiya_comment": "西武新宿駅から徒歩3分、ゴジラヘッドが目印の東宝ビル内ホールです。西口・歌舞伎町方面の飲食店へ歩ける距離にあり、牛丼やラーメン、カレー店を候補にしやすい立地です。 周辺の飲食店は徒歩圏内にまとまっており、休憩時間に合わせて選びやすい立地です。",
     "restaurants": [
       {
         "id": 134,
@@ -2696,6 +2704,7 @@ export const tokyoHalls: readonly PachinkoHall[] = [
     "hours": "10:00〜23:00",
     "pachinko": 329,
     "slot": 517,
+    "pachiya_comment": "新宿駅東南口から徒歩1分の駅直結に近い立地で、東南口周辺の飲食店へ最短で行けます。短い休憩向けの牛丼、ファストフード、ラーメン店を周辺で選びやすいホールです。 周辺の飲食店は徒歩圏内にまとまっており、休憩時間に合わせて選びやすい立地です。",
     "restaurants": [
       {
         "id": 136,
@@ -2969,6 +2978,7 @@ export const tokyoHalls: readonly PachinkoHall[] = [
     "hours": "10:00〜22:40",
     "pachinko": 410,
     "slot": 422,
+    "pachiya_comment": "新宿南口から甲州街道沿いに徒歩3分の立地で、南口・都庁方面の飲食店へアクセスできます。周辺はカレーや丼もの、ラーメンなど、一人でも入りやすい店が揃いやすいエリアです。 周辺の飲食店は徒歩圏内にまとまっており、休憩時間に合わせて選びやすい立地です。",
     "restaurants": [
       {
         "id": 23,
@@ -3224,6 +3234,7 @@ export const tokyoHalls: readonly PachinkoHall[] = [
     "hours": "10:00〜22:45",
     "pachinko": 226,
     "slot": 240,
+    "pachiya_comment": "新宿西口から徒歩3分、大江戸線新宿西口駅直結の上にあるホールです。西口エリアの牛丼、カレー、立ち食いそばなど、回転の速い店を徒歩圏内で探しやすい立地です。 周辺の飲食店は徒歩圏内にまとまっており、休憩時間に合わせて選びやすい立地です。",
     "restaurants": [
       {
         "id": 30,
@@ -3497,6 +3508,7 @@ export const tokyoHalls: readonly PachinkoHall[] = [
     "hours": "10:00〜22:45",
     "pachinko": 240,
     "slot": 224,
+    "pachiya_comment": "新宿三丁目駅B2出口すぐの立地で、丸ノ内線・副都心線方面の飲食店にも歩きやすいホールです。周辺はラーメン、カレー、丼ものなど、短時間の食事向け店が多いエリアにあります。 周辺の飲食店は徒歩圏内にまとまっており、休憩時間に合わせて選びやすい立地です。",
     "restaurants": [
       {
         "id": 24,
@@ -3770,6 +3782,7 @@ export const tokyoHalls: readonly PachinkoHall[] = [
     "hours": "10:00〜22:40",
     "pachinko": 922,
     "slot": 607,
+    "pachiya_comment": "池袋駅東口から徒歩4分で、東口繁華街の飲食店へアクセスしやすい立地です。周辺は牛丼、ラーメン、カレー、回転寿司など、休憩時間に合わせて選びやすい店が揃っています。 周辺の飲食店は徒歩圏内にまとまっており、休憩時間に合わせて選びやすい立地です。",
     "restaurants": [
       {
         "id": 35,
@@ -4062,6 +4075,7 @@ export const tokyoHalls: readonly PachinkoHall[] = [
     "hours": "10:00〜23:00",
     "pachinko": 478,
     "slot": 255,
+    "pachiya_comment": "池袋東口明治通り沿い、ビックカメラ方面の信号を渡った先にあり、東口の飲食店動線の中心に近いホールです。ラーメンやカレー、丼ものなど回転の速い店を周辺で探しやすい立地です。 周辺の飲食店は徒歩圏内にまとまっており、休憩時間に合わせて選びやすい立地です。",
     "restaurants": [
       {
         "id": 140,
@@ -4337,6 +4351,7 @@ export const tokyoHalls: readonly PachinkoHall[] = [
     "hours": "10:00〜22:40",
     "pachinko": 329,
     "slot": 85,
+    "pachiya_comment": "池袋東口から徒歩約2分、西武池袋向かいの駅近立地です。東口の牛丼、ラーメン、立ち食いそばなど、短い休憩向けの飲食店へすぐ行けるホールです。 東口の繁華街に近く、休憩後の戻り動線も組み立てやすい立地です。",
     "restaurants": [
       {
         "id": 139,
@@ -4629,6 +4644,7 @@ export const tokyoHalls: readonly PachinkoHall[] = [
     "hours": "10:00〜23:00",
     "pachinko": 241,
     "slot": 110,
+    "pachiya_comment": "池袋西口ロマンス通り沿いにあり、西口エリアの飲食店へアクセスしやすい立地です。周辺はカレーや丼もの、ラーメンなど、一人向けの店が揃いやすいホールです。 周辺の飲食店は徒歩圏内にまとまっており、休憩時間に合わせて選びやすい立地です。",
     "restaurants": [
       {
         "id": 41,
@@ -4807,6 +4823,7 @@ export const tokyoHalls: readonly PachinkoHall[] = [
     "hours": "10:00〜22:45",
     "pachinko": 532,
     "slot": 433,
+    "pachiya_comment": "渋谷駅ハチ公口から徒歩1分、マークシティ目の前の駅前立地です。センター街や道玄坂方面のラーメン、カレー、ハンバーガー店へ最短で行けるホールです。 ハチ公口の飲食激戦区を徒歩圏内で活用しやすい、渋谷の代表的な駅前ホールです。",
     "restaurants": [
       {
         "id": 50,
@@ -5100,6 +5117,7 @@ export const tokyoHalls: readonly PachinkoHall[] = [
     "hours": "10:00〜22:45",
     "pachinko": 495,
     "slot": 391,
+    "pachiya_comment": "渋谷駅西口の目の前にあり、井の頭線中央口からもすぐの駅直結に近い立地です。西口周辺の牛丼、ラーメン、回転寿司など、休憩向けの店を探しやすいホールです。 西口の牛丼や回転寿司など、短時間向けの店が徒歩圏内に揃いやすい立地です。",
     "restaurants": [
       {
         "id": 47,
@@ -5393,6 +5411,7 @@ export const tokyoHalls: readonly PachinkoHall[] = [
     "hours": "10:00〜22:45",
     "pachinko": 483,
     "slot": 392,
+    "pachiya_comment": "ハチ公口から徒歩4分、道玄坂入口近くの立地です。道玄坂・宇田川町方面の飲食店が密集しており、ラーメンやカレー、丼ものを周辺で選びやすいホールです。 道玄坂の飲食店密集エリアへ歩いて行け、休憩の長さに合わせて店を選びやすいホールです。",
     "restaurants": [
       {
         "id": 48,
@@ -5686,6 +5705,7 @@ export const tokyoHalls: readonly PachinkoHall[] = [
     "hours": "10:00〜22:45",
     "pachinko": 402,
     "slot": 522,
+    "pachiya_comment": "上野駅不忍口すぐの立地で、駅前の牛丼や立ち食いそば、ラーメン店へ最短で行けます。上野・御徒町圏の回転の速い飲食店を、徒歩圏内で比較しやすいホールです。 アメ横・御徒町方面の店舗にも歩いて行け、エリア内の飲食選択肢を広げやすい立地です。",
     "restaurants": [
       {
         "id": 54,
@@ -5977,6 +5997,7 @@ export const tokyoHalls: readonly PachinkoHall[] = [
     "hours": "10:00〜22:45",
     "pachinko": 515,
     "slot": 434,
+    "pachiya_comment": "上野駅から徒歩3分、御徒町方面にも歩ける立地です。周辺はカレー、丼もの、ラーメン、回転寿司など、アメ横・御徒町の飲食店へアクセスしやすいエリアにあります。 周辺の飲食店は徒歩圏内にまとまっており、休憩時間に合わせて選びやすい立地です。",
     "restaurants": [
       {
         "id": 149,
@@ -6268,6 +6289,7 @@ export const tokyoHalls: readonly PachinkoHall[] = [
     "hours": "10:00〜22:40",
     "pachinko": 409,
     "slot": 478,
+    "pachiya_comment": "上野広小路口・御徒町北口から徒歩2分で、アメ横の飲食店動線に近いホールです。周辺は牛丼、カレー、焼肉、回転寿司など、休憩時間に合わせて選びやすい店が多い立地です。 周辺の飲食店は徒歩圏内にまとまっており、休憩時間に合わせて選びやすい立地です。",
     "restaurants": [
       {
         "id": 149,
@@ -6559,6 +6581,7 @@ export const tokyoHalls: readonly PachinkoHall[] = [
     "hours": "10:00〜22:45",
     "pachinko": 312,
     "slot": 377,
+    "pachiya_comment": "上野駅広小路口から徒歩1分以内、日比谷線上野駅出口からも近い駅前立地です。駅周辺の牛丼、ラーメン、立ち食いそばなど、短時間の食事向け店へすぐ行けるホールです。 周辺の飲食店は徒歩圏内にまとまっており、休憩時間に合わせて選びやすい立地です。",
     "restaurants": [
       {
         "id": 54,
@@ -6850,6 +6873,7 @@ export const tokyoHalls: readonly PachinkoHall[] = [
     "hours": "10:00〜22:50",
     "pachinko": 371,
     "slot": 565,
+    "pachiya_comment": "新橋駅烏森口から徒歩1分の駅前立地で、烏森口周辺の立ち食いそばやラーメン、牛丼店へ最短で行けます。短い休憩向けの飲食店を周辺で探しやすいホールです。 烏森口の飲食店が密集しており、短時間の休憩にも長めの食事にも組み合わせやすい立地です。",
     "restaurants": [
       {
         "id": 71,
@@ -7143,6 +7167,7 @@ export const tokyoHalls: readonly PachinkoHall[] = [
     "hours": "10:00〜22:50",
     "pachinko": 126,
     "slot": 244,
+    "pachiya_comment": "新橋駅から徒歩2分で、日比谷口・銀座口方面の飲食店にも歩きやすい立地です。周辺はカレー、丼もの、とんかつなど、サラリーマン向けの回転の速い店が多いエリアです。 周辺の飲食店は徒歩圏内にまとまっており、休憩時間に合わせて選びやすい立地です。",
     "restaurants": [
       {
         "id": 69,
@@ -7436,6 +7461,7 @@ export const tokyoHalls: readonly PachinkoHall[] = [
     "hours": "10:00〜22:55",
     "pachinko": 306,
     "slot": 299,
+    "pachiya_comment": "新橋駅烏森口から徒歩1分、銀座線B出口からも近い駅前ホールです。駅周辺のラーメン、立ち食いそば、カレー店へすぐ足を延ばせ、戻りやすい動線を組みやすい立地です。 周辺の飲食店は徒歩圏内にまとまっており、休憩時間に合わせて選びやすい立地です。",
     "restaurants": [
       {
         "id": 156,
@@ -7712,6 +7738,7 @@ export const tokyoHalls: readonly PachinkoHall[] = [
     "hours": "10:00〜22:55",
     "pachinko": 281,
     "slot": 287,
+    "pachiya_comment": "有楽町駅銀座口前、マリオン目の前の駅前立地です。ガード下の飲食店や駅ビル内のチェーン店へ最短で行け、銀座方面のラーメン・カレー・寿司店にも歩きやすいホールです。 周辺の飲食店は徒歩圏内にまとまっており、休憩時間に合わせて選びやすい立地です。",
     "restaurants": [
       {
         "id": 76,
@@ -7925,6 +7952,7 @@ export const tokyoHalls: readonly PachinkoHall[] = [
     "hours": "10:00〜22:55",
     "pachinko": 365,
     "slot": 209,
+    "pachiya_comment": "有楽町駅目の前、イトシア内の駅直結に近い立地です。有楽町駅周辺の牛丼、立ち食いそば、とんかつなど、短時間の食事休憩に向く店を徒歩圏内で探しやすいホールです。 イトシア・マルイ隣接の駅前で、有楽町ガード下の飲食店へもすぐアクセスできる立地です。",
     "restaurants": [
       {
         "id": 76,
@@ -8155,6 +8183,7 @@ export const tokyoHalls: readonly PachinkoHall[] = [
     "hours": "10:00〜22:45",
     "pachinko": 639,
     "slot": 361,
+    "pachiya_comment": "錦糸町駅南口から徒歩3分で、南口エリアの飲食店へアクセスしやすい立地です。周辺はラーメン、カレー、牛丼、焼肉など、錦糸町らしい食事の選択肢が揃うホールです。 周辺の飲食店は徒歩圏内にまとまっており、休憩時間に合わせて選びやすい立地です。",
     "restaurants": [
       {
         "id": 85,
@@ -8394,6 +8423,7 @@ export const tokyoHalls: readonly PachinkoHall[] = [
     "hours": "10:00〜22:50",
     "pachinko": 381,
     "slot": 289,
+    "pachiya_comment": "錦糸町駅北口の目の前にあり、北口繁華街の飲食店へ最短で行ける立地です。周辺はラーメン、丼もの、回転寿司など、短い休憩向けの店が多いエリアに位置しています。 周辺の飲食店は徒歩圏内にまとまっており、休憩時間に合わせて選びやすい立地です。",
     "restaurants": [
       {
         "id": 92,
@@ -8633,6 +8663,7 @@ export const tokyoHalls: readonly PachinkoHall[] = [
     "hours": "10:00〜22:50",
     "pachinko": 168,
     "slot": 150,
+    "pachiya_comment": "錦糸町駅南口から徒歩1分、ウインズ錦糸町横の駅近立地です。南口のラーメン店や牛丼、カレー店へすぐ行け、食事休憩の往復がしやすいホールです。 南口のラーメン店や牛丼店が近く、食事とホールの往復がしやすい立地です。",
     "restaurants": [
       {
         "id": 85,
@@ -8872,6 +8903,7 @@ export const tokyoHalls: readonly PachinkoHall[] = [
     "hours": "10:00〜22:40",
     "pachinko": 328,
     "slot": 86,
+    "pachiya_comment": "錦糸町駅南口から徒歩2分で、南口・半蔵門線出口方面の飲食店へアクセスしやすい立地です。周辺はラーメン、カレー、焼肉など、錦糸町の食事激戦区を活用しやすいホールです。 周辺の飲食店は徒歩圏内にまとまっており、休憩時間に合わせて選びやすい立地です。",
     "restaurants": [
       {
         "id": 85,
@@ -9111,6 +9143,7 @@ export const tokyoHalls: readonly PachinkoHall[] = [
     "hours": "10:00〜23:00",
     "pachinko": 574,
     "slot": 461,
+    "pachiya_comment": "北千住駅西口から徒歩3分で、西口エリアの飲食店へ歩きやすい立地です。周辺は牛丼、ラーメン、カレー、立ち食いそばなど、回転の速い店が揃いやすいホールです。 周辺の飲食店は徒歩圏内にまとまっており、休憩時間に合わせて選びやすい立地です。",
     "restaurants": [
       {
         "id": 101,
@@ -9369,6 +9402,7 @@ export const tokyoHalls: readonly PachinkoHall[] = [
     "hours": "10:00〜22:40",
     "pachinko": 249,
     "slot": 111,
+    "pachiya_comment": "北千住駅西口の目の前、マルイ1Fの駅直結に近い立地です。西口周辺の丼もの、ラーメン、カレー店へ最短で行け、短時間の食事休憩に向くホールです。 マルイ直結の動線を活かし、天候を気にせず食事に行きやすいホールです。",
     "restaurants": [
       {
         "id": 95,
@@ -9627,6 +9661,7 @@ export const tokyoHalls: readonly PachinkoHall[] = [
     "hours": "10:00〜22:30",
     "pachinko": 0,
     "slot": 422,
+    "pachiya_comment": "北千住駅東口の目の前、東武伊勢崎線西口直結の立地です。東口エリアの飲食店へすぐアクセスでき、牛丼やラーメン、とんかつなどを周辺で探しやすいホールです。 周辺の飲食店は徒歩圏内にまとまっており、休憩時間に合わせて選びやすい立地です。",
     "restaurants": [
       {
         "id": 106,
@@ -9885,6 +9920,7 @@ export const tokyoHalls: readonly PachinkoHall[] = [
     "hours": "10:00〜22:40",
     "pachinko": 427,
     "slot": 339,
+    "pachiya_comment": "町田駅北口から徒歩30秒の駅前立地で、JR・小田急双方の飲食動線にアクセスしやすいホールです。周辺は牛丼、カレー、ラーメン、回転寿司など、郊外駅前らしい店が揃います。 周辺の飲食店は徒歩圏内にまとまっており、休憩時間に合わせて選びやすい立地です。",
     "restaurants": [
       {
         "id": 108,
@@ -10141,6 +10177,7 @@ export const tokyoHalls: readonly PachinkoHall[] = [
     "hours": "10:00〜22:40",
     "pachinko": 700,
     "slot": 662,
+    "pachiya_comment": "町田駅北口から徒歩5分、小田急東口方面にも歩ける立地です。駅前商店街の牛丼、カレー、ラーメン、とんかつ店など、休憩時間に合わせて選びやすいエリアにあります。 周辺の飲食店は徒歩圏内にまとまっており、休憩時間に合わせて選びやすい立地です。",
     "restaurants": [
       {
         "id": 107,
@@ -10397,6 +10434,7 @@ export const tokyoHalls: readonly PachinkoHall[] = [
     "hours": "10:00〜22:45",
     "pachinko": 298,
     "slot": 311,
+    "pachiya_comment": "町田駅南口から徒歩3分、ターミナルロード商店街方面の立地です。南口エリアのラーメン、カレー、丼ものなど、町田の駅前飲食店を周辺で探しやすいホールです。 周辺の飲食店は徒歩圏内にまとまっており、休憩時間に合わせて選びやすい立地です。",
     "restaurants": [
       {
         "id": 118,
@@ -10653,6 +10691,7 @@ export const tokyoHalls: readonly PachinkoHall[] = [
     "hours": "10:00〜22:40",
     "pachinko": 767,
     "slot": 785,
+    "pachiya_comment": "立川駅南口デッキ直結、徒歩1分以内の立地です。南口周辺の牛丼、カレー、ラーメン、回転寿司など、駅前の回転の速い飲食店へすぐ行けるホールです。 周辺の飲食店は徒歩圏内にまとまっており、休憩時間に合わせて選びやすい立地です。",
     "restaurants": [
       {
         "id": 129,
@@ -10889,6 +10928,7 @@ export const tokyoHalls: readonly PachinkoHall[] = [
     "hours": "10:00〜22:45",
     "pachinko": 588,
     "slot": 766,
+    "pachiya_comment": "立川駅南口から徒歩1分、モノレール立川南駅からも近い駅前立地です。南口エリアの丼もの、ラーメン、とんかつ店を、短い休憩で使いやすいホールです。 周辺の飲食店は徒歩圏内にまとまっており、休憩時間に合わせて選びやすい立地です。",
     "restaurants": [
       {
         "id": 123,
@@ -11125,6 +11165,7 @@ export const tokyoHalls: readonly PachinkoHall[] = [
     "hours": "10:00〜22:40",
     "pachinko": 684,
     "slot": 647,
+    "pachiya_comment": "立川駅南口から徒歩1分の駅近立地で、南口繁華街の飲食店へ最短でアクセスできます。周辺は牛丼、カレー、ラーメンなど、一人向けの店が揃いやすいエリアです。 周辺の飲食店は徒歩圏内にまとまっており、休憩時間に合わせて選びやすい立地です。",
     "restaurants": [
       {
         "id": 129,
@@ -11361,6 +11402,7 @@ export const tokyoHalls: readonly PachinkoHall[] = [
     "hours": "10:00〜22:45",
     "pachinko": 523,
     "slot": 485,
+    "pachiya_comment": "立川駅北口デッキ直結、モノレール立川北駅直結の立地です。北口周辺の牛丼、ラーメン、カレー、立ち食いそばなど、駅前の飲食店を徒歩圏内で探しやすいホールです。 周辺の飲食店は徒歩圏内にまとまっており、休憩時間に合わせて選びやすい立地です。",
     "restaurants": [
       {
         "id": 125,

@@ -36,6 +36,8 @@ export const AreaSchema = z.object({
   name: z.string().min(1),
   prefecture: z.string().min(1),
   description_short: z.string().optional(),
+  /** パチ屋飯独自のエリア解説（300〜500文字目安） */
+  area_description: z.string().min(200),
   lat: LatSchema.optional(),
   lng: LngSchema.optional(),
 })
@@ -61,6 +63,8 @@ export const HallSchema = z.object({
   slot: z.number().int().nonnegative(),
   lat: LatSchema,
   lng: LngSchema,
+  /** パチ屋飯独自のホールコメント（100〜250文字目安） */
+  pachiya_comment: z.string().min(80),
 })
 
 export const RestaurantSchema = z.object({

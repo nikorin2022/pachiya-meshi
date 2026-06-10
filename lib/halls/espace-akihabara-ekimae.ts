@@ -31,6 +31,8 @@ export const espaceAkihabaraEkimae: PachinkoHall = {
   hours: "10:00〜23:00",
   pachinko: 327,
   slot: 522,
+  pachiya_comment:
+    "秋葉原駅電気街口の目の前にあり、駅前のガード下飲食やチェーン店へ最短で行ける立地です。戻りやすさを重視する場合に、周辺の牛丼・ラーメン・カレー店を候補にしやすいホールです。 周辺の飲食店は徒歩圏内にまとまっており、休憩時間に合わせて選びやすい立地です。",
   restaurants: [
     {
       id: 1,
