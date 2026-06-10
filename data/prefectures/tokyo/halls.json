@@ -384,5 +384,34 @@
     "slot": 299,
     "lat": 35.6647,
     "lng": 139.7588
+  },
+  {
+    "id": "duo-yurakucho",
+    "name": "有楽町DUO",
+    "area_id": "yurakucho",
+    "prefecture": "東京都",
+    "city": "千代田区",
+    "address": "東京都千代田区有楽町2-8-1",
+    "access": "JR有楽町駅銀座口前（有楽町マリオン目の前） / 東京メトロ有楽町線有楽町駅より徒歩1分",
+    "hours": "10:00〜22:55",
+    "pachinko": 281,
+    "slot": 287,
+    "lat": 35.6748,
+    "lng": 139.7625
+  },
+  {
+    "id": "uno-yurakucho",
+    "name": "有楽町UNO",
+    "area_id": "yurakucho",
+    "chain_id": "uno",
+    "prefecture": "東京都",
+    "city": "千代田区",
+    "address": "東京都千代田区有楽町2-7-1 有楽町駅前ビルディング B1F・1F",
+    "access": "JR有楽町駅目の前（イトシア内・マルイ隣） / 東京メトロ有楽町線有楽町駅D8出口直結",
+    "hours": "10:00〜22:55",
+    "pachinko": 365,
+    "slot": 209,
+    "lat": 35.6745,
+    "lng": 139.7632
   }
 ]
