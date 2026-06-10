@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import { Geist, Geist_Mono } from 'next/font/google'
 import { Analytics } from '@vercel/analytics/next'
+import { FavoriteHallsProvider } from '@/components/FavoriteHallsProvider'
 import { SITE_URL, SITE_NAME, SITE_DESCRIPTION } from '@/lib/seo'
 import './globals.css'
 
@@ -54,7 +55,7 @@ export default function RootLayout({
   return (
     <html lang="ja" className="bg-gray-50">
       <body className="font-sans antialiased">
-        {children}
+        <FavoriteHallsProvider>{children}</FavoriteHallsProvider>
         {process.env.NODE_ENV === 'production' && <Analytics />}
       </body>
     </html>

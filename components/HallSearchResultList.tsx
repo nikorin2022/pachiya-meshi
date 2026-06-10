@@ -1,7 +1,10 @@
+"use client"
+
 import Link from "next/link"
 import { MapPin, Clock, ChevronRight } from "lucide-react"
 import { Badge } from "@/components/ui/badge"
 import type { HallSearchResult } from "@/lib/hall-search"
+import { FavoriteHallButton } from "@/components/FavoriteHallButton"
 
 type Props = {
   results: readonly HallSearchResult[]
@@ -39,7 +42,10 @@ export function HallSearchResultList({ results }: Props) {
                   {hall.name}
                 </h4>
               </div>
-              <ChevronRight className="w-4 h-4 sm:w-5 sm:h-5 text-gray-400 shrink-0 mt-1 group-hover:text-red-500 transition-colors" />
+              <div className="flex items-center gap-0.5 shrink-0 mt-0.5">
+                <FavoriteHallButton hallId={hall.id} variant="card" />
+                <ChevronRight className="w-4 h-4 sm:w-5 sm:h-5 text-gray-400 group-hover:text-red-500 transition-colors" />
+              </div>
             </div>
 
             <div className="space-y-1 text-[11px] sm:text-xs text-gray-600">

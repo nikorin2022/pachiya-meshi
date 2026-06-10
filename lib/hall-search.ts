@@ -37,6 +37,13 @@ const hallMetaById = new Map(
   (hallsMeta as HallMeta[]).map((h) => [h.id, h] as const),
 )
 
+/** ホールのチェーン名を取得する。独立店舗は null。 */
+export function getChainNameForHallId(hallId: string): string | null {
+  const meta = hallMetaById.get(hallId)
+  if (!meta?.chain_id) return null
+  return chainNameById.get(meta.chain_id) ?? null
+}
+
 /**
  * 検索キーワードを比較用に正規化する。
  * - trim

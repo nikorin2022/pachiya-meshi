@@ -17,6 +17,8 @@ import {
   Store,
 } from "lucide-react"
 import { Button } from "@/components/ui/button"
+import { FavoriteHallButton } from "@/components/FavoriteHallButton"
+import { useFavoriteHalls } from "@/components/FavoriteHallsProvider"
 import { HallSearchForm } from "@/components/HallSearchForm"
 import { Badge } from "@/components/ui/badge"
 import type { PachinkoHall } from "@/lib/halls/types"
@@ -175,7 +177,8 @@ export default function HallDetailClient({ hall }: { hall: PachinkoHall }) {
   // 5分以内に絞り込みたい場合はユーザーが明示的に "5min" を選択する。
   const [selectedWalk, setSelectedWalk] = useState("10min")
   const [selectedGenre, setSelectedGenre] = useState<string>("all")
-  const [isFavorite, setIsFavorite] = useState(false)
+  const { loaded, isFavorite, toggleFavorite } = useFavoriteHalls()
+  const hallIsFavorite = loaded && isFavorite(hall.id)
 
   const toggleTime = (id: string) => {
     setSelectedTime((prev) =>
@@ -254,8 +257,16 @@ export default function HallDetailClient({ hall }: { hall: PachinkoHall }) {
                 <MapPin className="w-4 h-4" />
                 <span>都道府県から探す</span>
               </button>
-              <button className="flex items-center gap-1 hover:text-gray-900">
-                <Heart className="w-4 h-4" />
+              <button
+                type="button"
+                onClick={() => toggleFavorite(hall.id)}
+                aria-label={hallIsFavorite ? "お気に入りから削除" : "お気に入りに追加"}
+                aria-pressed={hallIsFavorite}
+                className={`flex items-center gap-1 hover:text-gray-900 ${
+                  hallIsFavorite ? "text-red-500" : ""
+                }`}
+              >
+                <Heart className={`w-4 h-4 ${hallIsFavorite ? "fill-current" : ""}`} />
                 <span>お気に入り</span>
               </button>
             </div>
@@ -265,8 +276,16 @@ export default function HallDetailClient({ hall }: { hall: PachinkoHall }) {
               <button className="p-2 text-gray-600 hover:text-gray-900">
                 <Search className="w-5 h-5" />
               </button>
-              <button className="p-2 text-gray-600 hover:text-gray-900">
-                <Heart className="w-5 h-5" />
+              <button
+                type="button"
+                onClick={() => toggleFavorite(hall.id)}
+                aria-label={hallIsFavorite ? "お気に入りから削除" : "お気に入りに追加"}
+                aria-pressed={hallIsFavorite}
+                className={`p-2 hover:text-gray-900 ${
+                  hallIsFavorite ? "text-red-500" : "text-gray-600"
+                }`}
+              >
+                <Heart className={`w-5 h-5 ${hallIsFavorite ? "fill-current" : ""}`} />
               </button>
             </div>
           </div>
@@ -309,18 +328,7 @@ export default function HallDetailClient({ hall }: { hall: PachinkoHall }) {
                   <h2 className="text-base font-bold text-gray-900 truncate">
                     {hall.name}
                   </h2>
-                  <Button
-                    variant={isFavorite ? "default" : "outline"}
-                    size="sm"
-                    className={`shrink-0 h-7 px-2 text-xs gap-1 ${
-                      isFavorite
-                        ? "bg-red-500 hover:bg-red-600 text-white border-red-500"
-                        : "text-red-500 border-red-500 hover:bg-red-50"
-                    }`}
-                    onClick={() => setIsFavorite(!isFavorite)}
-                  >
-                    <Heart className={`w-3 h-3 ${isFavorite ? "fill-current" : ""}`} />
-                  </Button>
+                  <FavoriteHallButton hallId={hall.id} iconOnly />
                 </div>
                 <div className="text-[11px] text-gray-600 space-y-0.5">
                   <div className="flex items-center gap-1">
@@ -348,19 +356,7 @@ export default function HallDetailClient({ hall }: { hall: PachinkoHall }) {
                 <h2 className="text-xl lg:text-2xl font-bold text-gray-900">
                   {hall.name}
                 </h2>
-                <Button
-                  variant={isFavorite ? "default" : "outline"}
-                  size="sm"
-                  className={`gap-1 ${
-                    isFavorite
-                      ? "bg-red-500 hover:bg-red-600 text-white border-red-500"
-                      : "text-red-500 border-red-500 hover:bg-red-50"
-                  }`}
-                  onClick={() => setIsFavorite(!isFavorite)}
-                >
-                  <Heart className={`w-4 h-4 ${isFavorite ? "fill-current" : ""}`} />
-                  お気に入り
-                </Button>
+                <FavoriteHallButton hallId={hall.id} showLabel />
               </div>
 
               <div className="space-y-1 text-sm text-gray-600 mb-3">
