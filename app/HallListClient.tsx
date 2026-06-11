@@ -62,7 +62,7 @@ export default function HallListClient({ halls }: Props) {
     <>
       {/* 検索欄: スマホで親指タップしやすいよう h-12 / text-base（iOS の自動ズーム回避）
           位置はヒーロー直下・ホール一覧見出しの上に固定 */}
-      <section className="mb-4 sm:mb-6">
+      <section id="halls" className="mb-4 sm:mb-6 scroll-mt-20">
         <label htmlFor="hall-search" className="sr-only">
           ホールを検索
         </label>
