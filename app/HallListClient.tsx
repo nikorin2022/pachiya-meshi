@@ -18,34 +18,22 @@ type Props = {
   halls: readonly PachinkoHall[]
 }
 
-/**
- * 検索キーワードを比較用に正規化する。
- * - 前後空白除去
- * - 全角スペースを半角に
- * - 大文字を小文字に（ローマ字混じり店名の検索を許容）
- *
- * NOTE: ひらがな⇄カタカナ変換まではしない。将来検索精度を上げたくなったら
- *       ここに kana 正規化を追加するのが安全。
- */
 function normalize(text: string): string {
   return text.replace(/\u3000/g, " ").trim().toLowerCase()
 }
 
 /**
- * トップページのホール一覧 + 検索 UI（Client Component）。
+ * トップページのホール検索 UI（Client Component）。
  *
- * - Server Component の `app/page.tsx` から `halls` を受け取り、検索 state はここで完結。
- *   metadata / JSON-LD / SSG など Server 側の責務は `page.tsx` に残している。
- * - 検索対象は name / area / address / prefecture / city の部分一致（AND ではなく
- *   入力1文字列 vs 上記フィールド連結文字列の includes 判定）。
- * - 0件時は専用メッセージを表示する。
+ * 初期状態では一覧を出さず、キーワード入力後に検索結果のみ表示する。
+ * 目的は全件一覧ではなく、目的のホールを探す導線にすること。
  */
 export default function HallListClient({ halls }: Props) {
   const [query, setQuery] = useState("")
 
   const filteredHalls = useMemo(() => {
     const q = normalize(query)
-    if (!q) return halls
+    if (!q) return []
 
     return halls.filter((hall) => {
       const haystack = normalize(
@@ -60,9 +48,10 @@ export default function HallListClient({ halls }: Props) {
 
   return (
     <>
-      {/* 検索欄: スマホで親指タップしやすいよう h-12 / text-base（iOS の自動ズーム回避）
-          位置はヒーロー直下・ホール一覧見出しの上に固定 */}
       <section id="halls" className="mb-4 sm:mb-6 scroll-mt-20">
+        <h2 className="text-xs sm:text-sm font-bold text-gray-900 mb-3 sm:mb-4">
+          ホール検索
+        </h2>
         <label htmlFor="hall-search" className="sr-only">
           ホールを検索
         </label>
@@ -89,117 +78,110 @@ export default function HallListClient({ halls }: Props) {
             </button>
           )}
         </div>
+        {!hasQuery ? (
+          <p className="text-[11px] sm:text-xs text-gray-600 mt-3">
+            掲載中のホールは{halls.length}件です。ホール名・エリア・住所で検索してください。
+          </p>
+        ) : null}
       </section>
-
-      <div className="flex flex-wrap items-center gap-x-3 gap-y-1 mb-3 sm:mb-4 text-xs sm:text-sm">
-        <Link href="/areas" className="text-red-600 hover:text-red-700 font-bold">
-          エリア別に探す
-        </Link>
-        <span className="text-gray-300" aria-hidden="true">
-          |
-        </span>
-        <Link href="/chains" className="text-red-600 hover:text-red-700 font-bold">
-          チェーン別に探す
-        </Link>
-      </div>
 
       <FavoriteHallSection halls={halls} />
 
-      {/* ホール一覧 */}
-      <section>
-        <h3 className="text-xs sm:text-sm font-bold text-gray-900 mb-3 sm:mb-4">
-          {hasQuery
-            ? `検索結果（${resultCount}件 / 全${halls.length}件）`
-            : `掲載中のパチンコホール（${halls.length}件）`}
-        </h3>
+      {hasQuery ? (
+        <section>
+          <h3 className="text-xs sm:text-sm font-bold text-gray-900 mb-3 sm:mb-4">
+            検索結果（{resultCount}件 / 全{halls.length}件）
+          </h3>
 
-        {resultCount === 0 ? (
-          <div className="bg-white rounded-lg border border-gray-200 p-6 sm:p-8 text-center">
-            <p className="text-sm sm:text-base font-bold text-gray-900 mb-1">
-              該当するホールが見つかりません
-            </p>
-            <p className="text-xs sm:text-sm text-gray-600">
-              キーワードを変えるか、検索条件をクリアしてください。
-            </p>
-            <button
-              type="button"
-              onClick={() => setQuery("")}
-              className="mt-4 inline-flex items-center gap-1.5 text-xs sm:text-sm text-red-600 hover:text-red-700 font-bold"
-            >
-              <X className="w-3.5 h-3.5" />
-              検索条件をクリア
-            </button>
-          </div>
-        ) : (
-          <ul className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3 sm:gap-4">
-            {filteredHalls.map((hall) => {
-              const kitaichimeshiLabel = getHallKitaichimeshiLabel(
-                countKitaichimeshiForHall(hall),
-              )
-              return (
-              <li key={hall.id}>
-                <Link
-                  href={`/halls/${hall.id}`}
-                  className="group block bg-white rounded-lg shadow-sm border border-gray-200 p-3 sm:p-4 hover:shadow-md hover:border-red-200 transition-all"
-                >
-                  <div className="flex items-start justify-between gap-2 mb-2">
-                    <div className="flex-1 min-w-0">
-                      <Badge
-                        variant="outline"
-                        className="bg-red-50 text-red-600 border-red-200 text-[10px] sm:text-xs mb-1.5"
-                      >
-                        {hall.prefecture}・{hall.area}
-                      </Badge>
-                      <h4 className="font-bold text-gray-900 text-sm sm:text-base break-words group-hover:text-red-600 transition-colors">
-                        {hall.name}
-                      </h4>
-                    </div>
-                    <div className="flex items-center gap-0.5 shrink-0 mt-0.5">
-                      <FavoriteHallButton hallId={hall.id} variant="card" />
-                      <ChevronRight className="w-4 h-4 sm:w-5 sm:h-5 text-gray-400 group-hover:text-red-500 transition-colors" />
-                    </div>
-                  </div>
-
-                  <div className="space-y-1 text-[11px] sm:text-xs text-gray-600">
-                    <div className="flex items-start gap-1.5">
-                      <MapPin className="w-3 h-3 sm:w-3.5 sm:h-3.5 text-gray-400 shrink-0 mt-0.5" />
-                      <span className="break-words">{hall.address}</span>
-                    </div>
-                    <div className="flex items-center gap-1.5">
-                      <Clock className="w-3 h-3 sm:w-3.5 sm:h-3.5 text-gray-400 shrink-0" />
-                      <span>{hall.hours}</span>
-                    </div>
-                  </div>
-
-                  <div className="flex flex-wrap items-center gap-2 mt-3 pt-3 border-t border-gray-100">
-                    <Badge
-                      variant="outline"
-                      className="text-[10px] sm:text-xs border-gray-300"
+          {resultCount === 0 ? (
+            <div className="bg-white rounded-lg border border-gray-200 p-6 sm:p-8 text-center">
+              <p className="text-sm sm:text-base font-bold text-gray-900 mb-1">
+                該当するホールが見つかりません
+              </p>
+              <p className="text-xs sm:text-sm text-gray-600">
+                キーワードを変えるか、検索条件をクリアしてください。
+              </p>
+              <button
+                type="button"
+                onClick={() => setQuery("")}
+                className="mt-4 inline-flex items-center gap-1.5 text-xs sm:text-sm text-red-600 hover:text-red-700 font-bold"
+              >
+                <X className="w-3.5 h-3.5" />
+                検索条件をクリア
+              </button>
+            </div>
+          ) : (
+            <ul className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3 sm:gap-4">
+              {filteredHalls.map((hall) => {
+                const kitaichimeshiLabel = getHallKitaichimeshiLabel(
+                  countKitaichimeshiForHall(hall),
+                )
+                return (
+                  <li key={hall.id}>
+                    <Link
+                      href={`/halls/${hall.id}`}
+                      className="group block bg-white rounded-lg shadow-sm border border-gray-200 p-3 sm:p-4 hover:shadow-md hover:border-red-200 transition-all"
                     >
-                      パチンコ {hall.pachinko}台
-                    </Badge>
-                    <Badge
-                      variant="outline"
-                      className="text-[10px] sm:text-xs border-gray-300"
-                    >
-                      スロット {hall.slot}台
-                    </Badge>
-                    {kitaichimeshiLabel ? (
-                      <KitaichimeshiHallBadge
-                        label={kitaichimeshiLabel}
-                        className="text-[10px] sm:text-xs"
-                      />
-                    ) : null}
-                    <span className="ml-auto text-[10px] sm:text-xs text-gray-500">
-                      飲食店 {hall.restaurants.length}件
-                    </span>
-                  </div>
-                </Link>
-              </li>
-            )})}
-          </ul>
-        )}
-      </section>
+                      <div className="flex items-start justify-between gap-2 mb-2">
+                        <div className="flex-1 min-w-0">
+                          <Badge
+                            variant="outline"
+                            className="bg-red-50 text-red-600 border-red-200 text-[10px] sm:text-xs mb-1.5"
+                          >
+                            {hall.prefecture}・{hall.area}
+                          </Badge>
+                          <h4 className="font-bold text-gray-900 text-sm sm:text-base break-words group-hover:text-red-600 transition-colors">
+                            {hall.name}
+                          </h4>
+                        </div>
+                        <div className="flex items-center gap-0.5 shrink-0 mt-0.5">
+                          <FavoriteHallButton hallId={hall.id} variant="card" />
+                          <ChevronRight className="w-4 h-4 sm:w-5 sm:h-5 text-gray-400 group-hover:text-red-500 transition-colors" />
+                        </div>
+                      </div>
+
+                      <div className="space-y-1 text-[11px] sm:text-xs text-gray-600">
+                        <div className="flex items-start gap-1.5">
+                          <MapPin className="w-3 h-3 sm:w-3.5 sm:h-3.5 text-gray-400 shrink-0 mt-0.5" />
+                          <span className="break-words">{hall.address}</span>
+                        </div>
+                        <div className="flex items-center gap-1.5">
+                          <Clock className="w-3 h-3 sm:w-3.5 sm:h-3.5 text-gray-400 shrink-0" />
+                          <span>{hall.hours}</span>
+                        </div>
+                      </div>
+
+                      <div className="flex flex-wrap items-center gap-2 mt-3 pt-3 border-t border-gray-100">
+                        <Badge
+                          variant="outline"
+                          className="text-[10px] sm:text-xs border-gray-300"
+                        >
+                          パチンコ {hall.pachinko}台
+                        </Badge>
+                        <Badge
+                          variant="outline"
+                          className="text-[10px] sm:text-xs border-gray-300"
+                        >
+                          スロット {hall.slot}台
+                        </Badge>
+                        {kitaichimeshiLabel ? (
+                          <KitaichimeshiHallBadge
+                            label={kitaichimeshiLabel}
+                            className="text-[10px] sm:text-xs"
+                          />
+                        ) : null}
+                        <span className="ml-auto text-[10px] sm:text-xs text-gray-500">
+                          飲食店 {hall.restaurants.length}件
+                        </span>
+                      </div>
+                    </Link>
+                  </li>
+                )
+              })}
+            </ul>
+          )}
+        </section>
+      ) : null}
     </>
   )
 }

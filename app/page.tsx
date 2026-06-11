@@ -7,7 +7,6 @@ import { HallCardList } from "@/components/HallCardList"
 import { getAllHalls } from "@/lib/halls"
 import type { PachinkoHall } from "@/lib/halls/types"
 import { getAreasWithHalls, getAreaPagePath } from "@/lib/areas"
-import { getChainsWithHalls, getChainPagePath } from "@/lib/chains"
 import { countKitaichimeshiForHall } from "@/lib/kitaichimeshi"
 import { JsonLd, buildWebSiteJsonLd } from "@/lib/seo"
 import { SiteFooter } from "@/components/SiteFooter"
@@ -27,7 +26,7 @@ const POPULAR_AREA_IDS = [
   "yurakucho",
 ] as const
 
-const KITAICHIMESHI_HALL_LIMIT = 9
+const KITAICHIMESHI_HALL_LIMIT = 6
 
 const linkButtonClassName =
   "inline-flex items-center gap-1 text-xs sm:text-sm text-red-600 hover:text-red-700 font-bold bg-red-50 border border-red-200 rounded-lg px-3 py-2 transition-colors"
@@ -58,7 +57,7 @@ function getHallsWithKitaichimeshi(
 }
 
 /**
- * トップページ: ヒーロー・編集コンテンツ導線・エリア/チェーン/ホール一覧。
+ * トップページ: ヒーロー・編集コンテンツ導線・各一覧ページへの誘導。
  * 各ホールカードから周辺飲食店ガイドへ遷移する。
  *
  * - Server Component として metadata / JSON-LD / データ取得を担う
@@ -67,7 +66,6 @@ function getHallsWithKitaichimeshi(
 export default function TopPage() {
   const halls = getAllHalls()
   const areas = getAreasWithHalls()
-  const chains = getChainsWithHalls()
   const popularAreas = POPULAR_AREA_IDS.map((id) =>
     areas.find((area) => area.id === id),
   ).filter((area): area is NonNullable<typeof area> => area != null)
@@ -210,96 +208,18 @@ export default function TopPage() {
           </section>
         ) : null}
 
-        {/* ⑤ エリア一覧 */}
         <section className="mb-4 sm:mb-6">
-          <div className="flex flex-wrap items-end justify-between gap-2 mb-3 sm:mb-4">
-            <h2 className="text-xs sm:text-sm font-bold text-gray-900">
-              エリア一覧（{areas.length}件）
-            </h2>
-            <Link
-              href="/areas"
-              className="text-[10px] sm:text-xs text-red-600 hover:text-red-700 font-bold"
-            >
-              エリア一覧ページへ
-            </Link>
-          </div>
-          <ul className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3 sm:gap-4">
-            {areas.map((area) => (
-              <li key={area.id}>
-                <Link
-                  href={getAreaPagePath(area.id)}
-                  className="group block bg-white rounded-lg shadow-sm border border-gray-200 p-3 sm:p-4 hover:shadow-md hover:border-red-200 transition-all"
-                >
-                  <div className="flex items-start justify-between gap-2 mb-2">
-                    <div className="flex-1 min-w-0">
-                      <Badge
-                        variant="outline"
-                        className="bg-red-50 text-red-600 border-red-200 text-[10px] sm:text-xs mb-1.5"
-                      >
-                        {area.prefecture}
-                      </Badge>
-                      <h3 className="font-bold text-gray-900 text-sm sm:text-base group-hover:text-red-600 transition-colors">
-                        {area.name}
-                      </h3>
-                    </div>
-                    <ChevronRight className="w-4 h-4 sm:w-5 sm:h-5 text-gray-400 shrink-0 mt-1 group-hover:text-red-500 transition-colors" />
-                  </div>
-                  <p className="text-[11px] sm:text-xs text-gray-600 mb-3 line-clamp-2">
-                    {area.description_short}
-                  </p>
-                  <p className="text-[10px] sm:text-xs text-red-500 font-medium">
-                    掲載ホール {area.hallCount}件
-                  </p>
-                </Link>
-              </li>
-            ))}
-          </ul>
+          <Link href="/areas" className={linkButtonClassName}>
+            エリア一覧を見る
+            <ChevronRight className="w-3.5 h-3.5 shrink-0" />
+          </Link>
         </section>
 
-        {/* ⑥ チェーン一覧 */}
         <section className="mb-4 sm:mb-6">
-          <div className="flex flex-wrap items-end justify-between gap-2 mb-3 sm:mb-4">
-            <h2 className="text-xs sm:text-sm font-bold text-gray-900">
-              チェーン一覧（{chains.length}件）
-            </h2>
-            <Link
-              href="/chains"
-              className="text-[10px] sm:text-xs text-red-600 hover:text-red-700 font-bold"
-            >
-              チェーン一覧ページへ
-            </Link>
-          </div>
-          <ul className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3 sm:gap-4">
-            {chains.map((chain) => (
-              <li key={chain.id}>
-                <Link
-                  href={getChainPagePath(chain.id)}
-                  className="group block bg-white rounded-lg shadow-sm border border-gray-200 p-3 sm:p-4 hover:shadow-md hover:border-red-200 transition-all"
-                >
-                  <div className="flex items-start justify-between gap-2 mb-2">
-                    <div className="flex-1 min-w-0">
-                      <Badge
-                        variant="outline"
-                        className="bg-red-50 text-red-600 border-red-200 text-[10px] sm:text-xs mb-1.5"
-                      >
-                        チェーン
-                      </Badge>
-                      <h3 className="font-bold text-gray-900 text-sm sm:text-base group-hover:text-red-600 transition-colors">
-                        {chain.name}
-                      </h3>
-                    </div>
-                    <ChevronRight className="w-4 h-4 sm:w-5 sm:h-5 text-gray-400 shrink-0 mt-1 group-hover:text-red-500 transition-colors" />
-                  </div>
-                  <p className="text-[11px] sm:text-xs text-gray-600 mb-3 line-clamp-2">
-                    {chain.description_short}
-                  </p>
-                  <p className="text-[10px] sm:text-xs text-red-500 font-medium">
-                    掲載ホール {chain.hallCount}件
-                  </p>
-                </Link>
-              </li>
-            ))}
-          </ul>
+          <Link href="/chains" className={linkButtonClassName}>
+            チェーン一覧を見る
+            <ChevronRight className="w-3.5 h-3.5 shrink-0" />
+          </Link>
         </section>
 
         <HallListClient halls={halls} />
