@@ -6451,5 +6451,2385 @@
     "lng": 139.7266,
     "default_ai_summary": "大森駅西口徒歩1分のファストフード。PIA大森の目の前圏で使いやすい軽食候補。",
     "legacy_id": 291
+  },
+  {
+    "id": "menya-kaijin-kanda",
+    "legacy_id": 292,
+    "name": "麺屋 海人 神田店",
+    "genre": "ラーメン",
+    "time_category": [
+      "昼",
+      "夜"
+    ],
+    "hours": "11:00〜15:00、17:00〜22:00",
+    "tags": [
+      "ガッツリ",
+      "一人OK"
+    ],
+    "address": "東京都千代田区鍛冶町2-8-3",
+    "lat": 35.6921,
+    "lng": 139.7705,
+    "default_ai_summary": "神田西口徒歩2分の魚介ラーメン専門店。あっさり系ながら旨味がしっかりで、短時間でも満足感のある一杯が欲しい時に向く。",
+    "is_kitaichimeshi": true,
+    "selection_tags": [
+      "local_famous",
+      "notable_restaurant"
+    ],
+    "selection_note": "神田エリアで地元評価の高い独立系ラーメン店として選定",
+    "area_id": "kanda"
+  },
+  {
+    "id": "sukiya-kanda-nishiguchi",
+    "legacy_id": 293,
+    "name": "すき家 神田西口店",
+    "genre": "丼もの",
+    "time_category": [
+      "朝",
+      "昼",
+      "夜"
+    ],
+    "hours": "24時間営業",
+    "tags": [
+      "サク飯",
+      "一人OK",
+      "深夜OK"
+    ],
+    "address": "東京都千代田区鍛冶町1-6-5",
+    "lat": 35.6918,
+    "lng": 139.7712,
+    "default_ai_summary": "神田駅西口徒歩1分の牛丼チェーン。24時間営業で、どの時間帯の休憩でも手軽に済ませやすい定番候補。",
+    "area_id": "kanda"
+  },
+  {
+    "id": "cocoichi-kanda-suidobashi",
+    "legacy_id": 294,
+    "name": "CoCo壱番屋 神田須田町店",
+    "genre": "カレー",
+    "time_category": [
+      "昼",
+      "夜"
+    ],
+    "hours": "10:30〜22:00",
+    "tags": [
+      "サク飯",
+      "ガッツリ",
+      "一人OK"
+    ],
+    "address": "東京都千代田区神田須田町2-5-1",
+    "lat": 35.6925,
+    "lng": 139.7698,
+    "default_ai_summary": "神田須田町の定番カレーチェーン。提供が早く、ホールに戻る時間を気にする休憩にも使いやすい。",
+    "area_id": "kanda"
+  },
+  {
+    "id": "komoro-soba-kanda",
+    "legacy_id": 295,
+    "name": "小諸そば 神田店",
+    "genre": "そば/うどん",
+    "time_category": [
+      "昼",
+      "夜"
+    ],
+    "hours": "7:00〜23:00",
+    "tags": [
+      "サク飯",
+      "一人OK"
+    ],
+    "address": "東京都千代田区鍛冶町1-8-12",
+    "lat": 35.692,
+    "lng": 139.7708,
+    "default_ai_summary": "神田西口近くの立ち食いそばチェーン。早朝から営業しており、開店前の軽食にも向く。",
+    "area_id": "kanda"
+  },
+  {
+    "id": "katsuya-kanda",
+    "legacy_id": 296,
+    "name": "かつや 神田店",
+    "genre": "とんかつ/カツ丼",
+    "time_category": [
+      "昼",
+      "夜"
+    ],
+    "hours": "10:30〜22:00",
+    "tags": [
+      "サク飯",
+      "ガッツリ",
+      "一人OK"
+    ],
+    "address": "東京都千代田区鍛冶町2-5-1",
+    "lat": 35.6916,
+    "lng": 139.7701,
+    "default_ai_summary": "神田西口徒歩2分のとんかつ・カツ丼チェーン。ボリュームと提供速度のバランスが良く、昼休憩にも使いやすい。",
+    "area_id": "kanda"
+  },
+  {
+    "id": "mcdonalds-kanda",
+    "legacy_id": 297,
+    "name": "マクドナルド 神田駅前店",
+    "genre": "ハンバーガー",
+    "time_category": [
+      "朝",
+      "昼",
+      "夜"
+    ],
+    "hours": "5:00〜24:00",
+    "tags": [
+      "サク飯",
+      "一人OK",
+      "深夜OK"
+    ],
+    "address": "東京都千代田区鍛冶町1-1-1",
+    "lat": 35.6915,
+    "lng": 139.7715,
+    "default_ai_summary": "神田駅西口目の前のファストフード。最速で済ませたい時や、軽めの休憩飯に向く。",
+    "area_id": "kanda"
+  },
+  {
+    "id": "kurasushi-kanda",
+    "legacy_id": 298,
+    "name": "くら寿司 神田店",
+    "genre": "回転寿司",
+    "time_category": [
+      "昼",
+      "夜"
+    ],
+    "hours": "11:00〜23:00",
+    "tags": [
+      "サク飯",
+      "一人OK"
+    ],
+    "address": "東京都千代田区神田須田町1-20",
+    "lat": 35.6928,
+    "lng": 139.7692,
+    "default_ai_summary": "神田須田町の回転寿司チェーン。一人でも入りやすく、提供ペースを自分で調整しやすい。",
+    "area_id": "kanda"
+  },
+  {
+    "id": "yakiniku-like-kanda",
+    "legacy_id": 299,
+    "name": "焼肉ライク 神田店",
+    "genre": "焼肉",
+    "time_category": [
+      "昼",
+      "夜"
+    ],
+    "hours": "11:00〜23:00",
+    "tags": [
+      "ガッツリ",
+      "一人OK"
+    ],
+    "address": "東京都千代田区鍛冶町2-12-3",
+    "lat": 35.6914,
+    "lng": 139.7696,
+    "default_ai_summary": "神田西口徒歩3分の一人焼肉チェーン。短時間でも肉を食べたい時に、提供速度とコスパのバランスが良い。",
+    "area_id": "kanda"
+  },
+  {
+    "id": "ramen-kagetsu-kanda",
+    "legacy_id": 300,
+    "name": "花月嵐 神田店",
+    "genre": "ラーメン",
+    "time_category": [
+      "昼",
+      "夜"
+    ],
+    "hours": "11:00〜翌4:00",
+    "tags": [
+      "ガッツリ",
+      "一人OK",
+      "深夜OK"
+    ],
+    "address": "東京都千代田区神田須田町2-8-5",
+    "lat": 35.6926,
+    "lng": 139.7695,
+    "default_ai_summary": "神田須田町の家系ラーメンチェーン。深夜まで営業しており、長時間稼働の合間のガッツリ飯にも向く。",
+    "area_id": "kanda"
+  },
+  {
+    "id": "curry-korokoro-kanda",
+    "legacy_id": 301,
+    "name": "カレー屋コロコロ 神田店",
+    "genre": "カレー",
+    "time_category": [
+      "昼",
+      "夜"
+    ],
+    "hours": "11:00〜15:00、17:00〜21:00",
+    "tags": [
+      "サク飯",
+      "一人OK"
+    ],
+    "address": "東京都千代田区神田須田町2-3-12",
+    "lat": 35.6927,
+    "lng": 139.7693,
+    "default_ai_summary": "神田須田町の独立系カレー店。スパイス香る一皿で、オフィス街の昼休憩にも短時間で済ませやすい。",
+    "is_kitaichimeshi": true,
+    "selection_tags": [
+      "local_famous",
+      "notable_restaurant"
+    ],
+    "selection_note": "神田の独立系カレー店として選定",
+    "area_id": "kanda"
+  },
+  {
+    "id": "monja-mugi-ueno",
+    "legacy_id": 302,
+    "name": "もんじゃ麦 上野本店",
+    "genre": "丼もの",
+    "time_category": [
+      "昼",
+      "夜"
+    ],
+    "hours": "11:00〜23:00",
+    "tags": [
+      "ガッツリ",
+      "一人OK"
+    ],
+    "address": "東京都台東区上野6-16-6",
+    "lat": 35.7092,
+    "lng": 139.7748,
+    "default_ai_summary": "御徒町・上野圏で長年愛されるもんじゃ焼き専門店。鉄板の熱々もんじゃで腹ごしらえしつつ、ホールに戻るまでの時間を有効に使いやすい。",
+    "is_kitaichimeshi": true,
+    "selection_tags": [
+      "notable_restaurant",
+      "local_famous"
+    ],
+    "selection_note": "御徒町圏の地元で人気のもんじゃ店として選定",
+    "area_id": "okachimachi"
+  },
+  {
+    "id": "sukiya-okachimachi-minamiguchi",
+    "legacy_id": 303,
+    "name": "すき家 御徒町南口店",
+    "genre": "丼もの",
+    "time_category": [
+      "朝",
+      "昼",
+      "夜"
+    ],
+    "hours": "24時間営業",
+    "tags": [
+      "サク飯",
+      "一人OK",
+      "深夜OK"
+    ],
+    "address": "東京都台東区上野5-23-8",
+    "lat": 35.7078,
+    "lng": 139.7742,
+    "default_ai_summary": "御徒町南口徒歩1分の牛丼チェーン。24時間営業で、アメ横圏のホールから戻りやすい定番候補。",
+    "area_id": "okachimachi"
+  },
+  {
+    "id": "cocoichi-okachimachi",
+    "legacy_id": 304,
+    "name": "CoCo壱番屋 御徒町店",
+    "genre": "カレー",
+    "time_category": [
+      "昼",
+      "夜"
+    ],
+    "hours": "10:30〜22:00",
+    "tags": [
+      "サク飯",
+      "ガッツリ",
+      "一人OK"
+    ],
+    "address": "東京都台東区上野5-25-12",
+    "lat": 35.708,
+    "lng": 139.7748,
+    "default_ai_summary": "御徒町駅近くの定番カレーチェーン。提供が早く、短い休憩でもホールに戻りやすい。",
+    "area_id": "okachimachi"
+  },
+  {
+    "id": "komoro-soba-okachimachi",
+    "legacy_id": 305,
+    "name": "小諸そば 御徒町店",
+    "genre": "そば/うどん",
+    "time_category": [
+      "昼",
+      "夜"
+    ],
+    "hours": "7:00〜23:00",
+    "tags": [
+      "サク飯",
+      "一人OK"
+    ],
+    "address": "東京都台東区上野5-26-5",
+    "lat": 35.7075,
+    "lng": 139.775,
+    "default_ai_summary": "御徒町南口の立ち食いそばチェーン。サクッと温かいものが欲しい時に、最速で済ませやすい。",
+    "area_id": "okachimachi"
+  },
+  {
+    "id": "katsuya-okachimachi",
+    "legacy_id": 306,
+    "name": "かつや 御徒町店",
+    "genre": "とんかつ/カツ丼",
+    "time_category": [
+      "昼",
+      "夜"
+    ],
+    "hours": "10:30〜22:00",
+    "tags": [
+      "サク飯",
+      "ガッツリ",
+      "一人OK"
+    ],
+    "address": "東京都台東区上野5-24-3",
+    "lat": 35.7076,
+    "lng": 139.7745,
+    "default_ai_summary": "御徒町南口徒歩2分のとんかつ・カツ丼チェーン。ボリュームと提供速度のバランスが良い。",
+    "area_id": "okachimachi"
+  },
+  {
+    "id": "mosburger-okachimachi",
+    "legacy_id": 307,
+    "name": "モスバーガー 御徒町店",
+    "genre": "ハンバーガー",
+    "time_category": [
+      "昼",
+      "夜"
+    ],
+    "hours": "10:00〜22:00",
+    "tags": [
+      "サク飯",
+      "一人OK"
+    ],
+    "address": "東京都台東区上野5-27-1",
+    "lat": 35.7072,
+    "lng": 139.7752,
+    "default_ai_summary": "御徒町南口のハンバーガーチェーン。こだわりバーガーが手軽で、軽めの休憩飯に向く。",
+    "area_id": "okachimachi"
+  },
+  {
+    "id": "kurasushi-okachimachi-kita",
+    "legacy_id": 308,
+    "name": "くら寿司 御徒町店",
+    "genre": "回転寿司",
+    "time_category": [
+      "昼",
+      "夜"
+    ],
+    "hours": "11:00〜23:00",
+    "tags": [
+      "サク飯",
+      "一人OK"
+    ],
+    "address": "東京都台東区上野5-28-6",
+    "lat": 35.7068,
+    "lng": 139.7755,
+    "default_ai_summary": "御徒町南口の回転寿司チェーン。一人でも入りやすく、提供ペースを自分で調整しやすい。",
+    "area_id": "okachimachi"
+  },
+  {
+    "id": "yakiniku-like-ugisu",
+    "legacy_id": 309,
+    "name": "焼肉ライク 鶯谷店",
+    "genre": "焼肉",
+    "time_category": [
+      "昼",
+      "夜"
+    ],
+    "hours": "11:00〜23:00",
+    "tags": [
+      "ガッツリ",
+      "一人OK"
+    ],
+    "address": "東京都台東区上野5-40-2",
+    "lat": 35.721,
+    "lng": 139.7785,
+    "default_ai_summary": "鶯谷口徒歩5分の一人焼肉チェーン。みとや鶯谷M-1圏からアクセスしやすい。",
+    "area_id": "okachimachi"
+  },
+  {
+    "id": "asakusa-okina-soba",
+    "legacy_id": 310,
+    "name": "浅草大黒天 本店",
+    "genre": "そば/うどん",
+    "time_category": [
+      "昼",
+      "夜"
+    ],
+    "hours": "11:00〜20:00",
+    "tags": [
+      "サク飯",
+      "一人OK"
+    ],
+    "address": "東京都台東区浅草1-38-10",
+    "lat": 35.7128,
+    "lng": 139.7958,
+    "default_ai_summary": "浅草の老舗そば店。観光地ながら地元客も多く、浅草圏のホール休憩に使いやすい。",
+    "is_kitaichimeshi": true,
+    "selection_tags": [
+      "local_famous"
+    ],
+    "selection_note": "浅草圏の老舗そば店として選定",
+    "area_id": "okachimachi"
+  },
+  {
+    "id": "ramen-nagi-asakusa",
+    "legacy_id": 311,
+    "name": "ラーメン凪 浅草店",
+    "genre": "ラーメン",
+    "time_category": [
+      "昼",
+      "夜"
+    ],
+    "hours": "11:00〜22:00",
+    "tags": [
+      "ガッツリ",
+      "一人OK"
+    ],
+    "address": "東京都台東区浅草2-26-5",
+    "lat": 35.7145,
+    "lng": 139.7935,
+    "default_ai_summary": "浅草の濃厚系ラーメン店。並ぶこともあるが、ガッツリ系が欲しい時の候補になる。",
+    "area_id": "okachimachi"
+  },
+  {
+    "id": "sukiya-ayase-nishiguchi",
+    "legacy_id": 312,
+    "name": "すき家 綾瀬西口店",
+    "genre": "丼もの",
+    "time_category": [
+      "朝",
+      "昼",
+      "夜"
+    ],
+    "hours": "24時間営業",
+    "tags": [
+      "サク飯",
+      "一人OK",
+      "深夜OK"
+    ],
+    "address": "東京都足立区綾瀬3-1-8",
+    "lat": 35.762,
+    "lng": 139.823,
+    "default_ai_summary": "綾瀬駅西口徒歩1分の牛丼チェーン。24時間営業で、どの時間帯の休憩でも手軽に済ませやすい。",
+    "area_id": "ayase"
+  },
+  {
+    "id": "cocoichi-ayase",
+    "legacy_id": 313,
+    "name": "CoCo壱番屋 綾瀬店",
+    "genre": "カレー",
+    "time_category": [
+      "昼",
+      "夜"
+    ],
+    "hours": "10:30〜22:00",
+    "tags": [
+      "サク飯",
+      "ガッツリ",
+      "一人OK"
+    ],
+    "address": "東京都足立区綾瀬3-3-5",
+    "lat": 35.7619,
+    "lng": 139.8228,
+    "default_ai_summary": "綾瀬西口徒歩2分の定番カレーチェーン。提供が早く、短い休憩でもホールに戻りやすい。",
+    "area_id": "ayase"
+  },
+  {
+    "id": "komoro-soba-ayase",
+    "legacy_id": 314,
+    "name": "小諸そば 綾瀬店",
+    "genre": "そば/うどん",
+    "time_category": [
+      "昼",
+      "夜"
+    ],
+    "hours": "7:00〜23:00",
+    "tags": [
+      "サク飯",
+      "一人OK"
+    ],
+    "address": "東京都足立区綾瀬3-5-2",
+    "lat": 35.7615,
+    "lng": 139.8235,
+    "default_ai_summary": "綾瀬西口の立ち食いそばチェーン。サクッと温かいものが欲しい時に最速で済ませやすい。",
+    "area_id": "ayase"
+  },
+  {
+    "id": "katsuya-ayase",
+    "legacy_id": 315,
+    "name": "かつや 綾瀬店",
+    "genre": "とんかつ/カツ丼",
+    "time_category": [
+      "昼",
+      "夜"
+    ],
+    "hours": "10:30〜22:00",
+    "tags": [
+      "サク飯",
+      "ガッツリ",
+      "一人OK"
+    ],
+    "address": "東京都足立区綾瀬3-6-1",
+    "lat": 35.7612,
+    "lng": 139.824,
+    "default_ai_summary": "綾瀬西口徒歩3分のとんかつ・カツ丼チェーン。ボリュームと提供速度のバランスが良い。",
+    "area_id": "ayase"
+  },
+  {
+    "id": "mcdonalds-ayase",
+    "legacy_id": 316,
+    "name": "マクドナルド 綾瀬駅前店",
+    "genre": "ハンバーガー",
+    "time_category": [
+      "朝",
+      "昼",
+      "夜"
+    ],
+    "hours": "5:00〜24:00",
+    "tags": [
+      "サク飯",
+      "一人OK",
+      "深夜OK"
+    ],
+    "address": "東京都足立区綾瀬3-2-1",
+    "lat": 35.7621,
+    "lng": 139.8225,
+    "default_ai_summary": "綾瀬駅西口目の前のファストフード。最速で済ませたい時や、軽めの休憩飯に向く。",
+    "area_id": "ayase"
+  },
+  {
+    "id": "kurasushi-ayase",
+    "legacy_id": 317,
+    "name": "くら寿司 綾瀬店",
+    "genre": "回転寿司",
+    "time_category": [
+      "昼",
+      "夜"
+    ],
+    "hours": "11:00〜23:00",
+    "tags": [
+      "サク飯",
+      "一人OK"
+    ],
+    "address": "東京都足立区綾瀬5-20-3",
+    "lat": 35.7632,
+    "lng": 139.8265,
+    "default_ai_summary": "綾瀬東口徒歩3分の回転寿司チェーン。ダイナム綾瀬東口圏から戻りやすい。",
+    "area_id": "ayase"
+  },
+  {
+    "id": "yakiniku-like-ayase",
+    "legacy_id": 318,
+    "name": "焼肉ライク 綾瀬店",
+    "genre": "焼肉",
+    "time_category": [
+      "昼",
+      "夜"
+    ],
+    "hours": "11:00〜23:00",
+    "tags": [
+      "ガッツリ",
+      "一人OK"
+    ],
+    "address": "東京都足立区綾瀬5-21-8",
+    "lat": 35.7634,
+    "lng": 139.8268,
+    "default_ai_summary": "綾瀬東口徒歩4分の一人焼肉チェーン。短時間でも肉を食べたい時に向く。",
+    "area_id": "ayase"
+  },
+  {
+    "id": "ramen-kagetsu-ayase",
+    "legacy_id": 319,
+    "name": "花月嵐 綾瀬店",
+    "genre": "ラーメン",
+    "time_category": [
+      "昼",
+      "夜"
+    ],
+    "hours": "11:00〜翌4:00",
+    "tags": [
+      "ガッツリ",
+      "一人OK",
+      "深夜OK"
+    ],
+    "address": "東京都足立区綾瀬3-7-5",
+    "lat": 35.761,
+    "lng": 139.8242,
+    "default_ai_summary": "綾瀬西口徒歩4分の家系ラーメンチェーン。深夜まで営業しており、長時間稼働の合間にも使いやすい。",
+    "area_id": "ayase"
+  },
+  {
+    "id": "yayoiken-ayase",
+    "legacy_id": 320,
+    "name": "やよい軒 綾瀬店",
+    "genre": "丼もの",
+    "time_category": [
+      "昼",
+      "夜"
+    ],
+    "hours": "10:00〜22:00",
+    "tags": [
+      "サク飯",
+      "一人OK"
+    ],
+    "address": "東京都足立区綾瀬3-4-8",
+    "lat": 35.7617,
+    "lng": 139.8232,
+    "default_ai_summary": "綾瀬西口徒歩2分の定食・丼チェーン。和食系でさっと済ませたい昼休憩に使いやすい。",
+    "area_id": "ayase"
+  },
+  {
+    "id": "ayase-chuka-manrai",
+    "legacy_id": 321,
+    "name": "中華料理 萬来 綾瀬店",
+    "genre": "ラーメン",
+    "time_category": [
+      "昼",
+      "夜"
+    ],
+    "hours": "11:00〜14:30、17:00〜22:00",
+    "tags": [
+      "サク飯",
+      "一人OK"
+    ],
+    "address": "東京都足立区綾瀬3-8-5",
+    "lat": 35.7608,
+    "lng": 139.8245,
+    "default_ai_summary": "綾瀬西口徒歩5分の独立系中華料理店。ラーメンと定食が地元客に支持され、チェーンとは違う下町の味が欲しい時に向く。",
+    "is_kitaichimeshi": true,
+    "selection_tags": [
+      "local_famous"
+    ],
+    "selection_note": "綾瀬の独立系中華料理店として選定",
+    "area_id": "ayase"
+  },
+  {
+    "id": "sukiya-kameari-kitaguchi",
+    "legacy_id": 322,
+    "name": "すき家 亀有北口店",
+    "genre": "丼もの",
+    "time_category": [
+      "朝",
+      "昼",
+      "夜"
+    ],
+    "hours": "24時間営業",
+    "tags": [
+      "サク飯",
+      "一人OK",
+      "深夜OK"
+    ],
+    "address": "東京都葛飾区亀有5-41-2",
+    "lat": 35.7696,
+    "lng": 139.8468,
+    "default_ai_summary": "亀有駅北口徒歩1分の牛丼チェーン。マルハン亀有から戻りやすく、24時間営業の定番候補。",
+    "area_id": "kameari"
+  },
+  {
+    "id": "cocoichi-kameari",
+    "legacy_id": 323,
+    "name": "CoCo壱番屋 亀有店",
+    "genre": "カレー",
+    "time_category": [
+      "昼",
+      "夜"
+    ],
+    "hours": "10:30〜22:00",
+    "tags": [
+      "サク飯",
+      "ガッツリ",
+      "一人OK"
+    ],
+    "address": "東京都葛飾区亀有5-40-5",
+    "lat": 35.7694,
+    "lng": 139.847,
+    "default_ai_summary": "亀有北口徒歩2分の定番カレーチェーン。提供が早く、短い休憩でもホールに戻りやすい。",
+    "area_id": "kameari"
+  },
+  {
+    "id": "komoro-soba-kameari",
+    "legacy_id": 324,
+    "name": "小諸そば 亀有店",
+    "genre": "そば/うどん",
+    "time_category": [
+      "昼",
+      "夜"
+    ],
+    "hours": "7:00〜23:00",
+    "tags": [
+      "サク飯",
+      "一人OK"
+    ],
+    "address": "東京都葛飾区亀有5-39-1",
+    "lat": 35.7692,
+    "lng": 139.8472,
+    "default_ai_summary": "亀有北口の立ち食いそばチェーン。サクッと温かいものが欲しい時に最速で済ませやすい。",
+    "area_id": "kameari"
+  },
+  {
+    "id": "katsuya-kameari",
+    "legacy_id": 325,
+    "name": "かつや 亀有店",
+    "genre": "とんかつ/カツ丼",
+    "time_category": [
+      "昼",
+      "夜"
+    ],
+    "hours": "10:30〜22:00",
+    "tags": [
+      "サク飯",
+      "ガッツリ",
+      "一人OK"
+    ],
+    "address": "東京都葛飾区亀有2-42-3",
+    "lat": 35.7678,
+    "lng": 139.8485,
+    "default_ai_summary": "亀有南口徒歩3分のとんかつ・カツ丼チェーン。ダイナム亀有圏から戻りやすい。",
+    "area_id": "kameari"
+  },
+  {
+    "id": "mcdonalds-kameari",
+    "legacy_id": 326,
+    "name": "マクドナルド 亀有駅前店",
+    "genre": "ハンバーガー",
+    "time_category": [
+      "朝",
+      "昼",
+      "夜"
+    ],
+    "hours": "5:00〜24:00",
+    "tags": [
+      "サク飯",
+      "一人OK",
+      "深夜OK"
+    ],
+    "address": "東京都葛飾区亀有5-43-5",
+    "lat": 35.77,
+    "lng": 139.8462,
+    "default_ai_summary": "亀有駅北口目の前のファストフード。最速で済ませたい時や、軽めの休憩飯に向く。",
+    "area_id": "kameari"
+  },
+  {
+    "id": "kurasushi-kameari",
+    "legacy_id": 327,
+    "name": "くら寿司 亀有店",
+    "genre": "回転寿司",
+    "time_category": [
+      "昼",
+      "夜"
+    ],
+    "hours": "11:00〜23:00",
+    "tags": [
+      "サク飯",
+      "一人OK"
+    ],
+    "address": "東京都葛飾区亀有3-38-2",
+    "lat": 35.7685,
+    "lng": 139.8458,
+    "default_ai_summary": "亀有北口徒歩5分の回転寿司チェーン。アムディ亀有圏からアクセスしやすい。",
+    "area_id": "kameari"
+  },
+  {
+    "id": "yakiniku-like-kameari",
+    "legacy_id": 328,
+    "name": "焼肉ライク 亀有店",
+    "genre": "焼肉",
+    "time_category": [
+      "昼",
+      "夜"
+    ],
+    "hours": "11:00〜23:00",
+    "tags": [
+      "ガッツリ",
+      "一人OK"
+    ],
+    "address": "東京都葛飾区亀有2-44-1",
+    "lat": 35.7672,
+    "lng": 139.8488,
+    "default_ai_summary": "亀有南口徒歩4分の一人焼肉チェーン。短時間でも肉を食べたい時に向く。",
+    "area_id": "kameari"
+  },
+  {
+    "id": "ramen-kagetsu-kameari",
+    "legacy_id": 329,
+    "name": "花月嵐 亀有店",
+    "genre": "ラーメン",
+    "time_category": [
+      "昼",
+      "夜"
+    ],
+    "hours": "11:00〜翌4:00",
+    "tags": [
+      "ガッツリ",
+      "一人OK",
+      "深夜OK"
+    ],
+    "address": "東京都葛飾区亀有5-38-5",
+    "lat": 35.769,
+    "lng": 139.8475,
+    "default_ai_summary": "亀有北口徒歩3分の家系ラーメンチェーン。深夜まで営業しており、長時間稼働の合間にも使いやすい。",
+    "area_id": "kameari"
+  },
+  {
+    "id": "kameari-taishoken",
+    "legacy_id": 330,
+    "name": "亀有大勝軒",
+    "genre": "ラーメン",
+    "time_category": [
+      "昼",
+      "夜"
+    ],
+    "hours": "11:00〜15:00、17:00〜21:00",
+    "tags": [
+      "ガッツリ",
+      "一人OK"
+    ],
+    "address": "東京都葛飾区亀有3-37-8",
+    "lat": 35.7682,
+    "lng": 139.8452,
+    "default_ai_summary": "亀有の老舗中華そば店。つけ麺が名物で、地元で長年愛されている独立系の味。",
+    "is_kitaichimeshi": true,
+    "selection_tags": [
+      "local_famous",
+      "notable_restaurant"
+    ],
+    "selection_note": "亀有の老舗ラーメン店として選定",
+    "area_id": "kameari"
+  },
+  {
+    "id": "kameari-udon-takean",
+    "legacy_id": 331,
+    "name": "手打ちうどん 竹庵",
+    "genre": "そば/うどん",
+    "time_category": [
+      "昼",
+      "夜"
+    ],
+    "hours": "11:00〜15:00、17:00〜20:00",
+    "tags": [
+      "サク飯",
+      "一人OK"
+    ],
+    "address": "東京都葛飾区亀有3-36-5",
+    "lat": 35.768,
+    "lng": 139.8448,
+    "default_ai_summary": "亀有の独立系うどん店。コシのある手打ち麺が評判で、地元客に長年支持されている下町の味。",
+    "is_kitaichimeshi": true,
+    "selection_tags": [
+      "local_famous"
+    ],
+    "selection_note": "亀有の独立系うどん店として選定",
+    "area_id": "kameari"
+  },
+  {
+    "id": "sukiya-nishi-nippori",
+    "legacy_id": 332,
+    "name": "すき家 西日暮里店",
+    "genre": "丼もの",
+    "time_category": [
+      "朝",
+      "昼",
+      "夜"
+    ],
+    "hours": "24時間営業",
+    "tags": [
+      "サク飯",
+      "一人OK",
+      "深夜OK"
+    ],
+    "address": "東京都荒川区西日暮里2-16-5",
+    "lat": 35.7322,
+    "lng": 139.7682,
+    "default_ai_summary": "西日暮里駅東口徒歩2分の牛丼チェーン。24時間営業で、ダイナム西日暮里圏から戻りやすい。",
+    "area_id": "nishi-nippori"
+  },
+  {
+    "id": "cocoichi-nishi-nippori",
+    "legacy_id": 333,
+    "name": "CoCo壱番屋 西日暮里店",
+    "genre": "カレー",
+    "time_category": [
+      "昼",
+      "夜"
+    ],
+    "hours": "10:30〜22:00",
+    "tags": [
+      "サク飯",
+      "ガッツリ",
+      "一人OK"
+    ],
+    "address": "東京都荒川区西日暮里2-18-3",
+    "lat": 35.7328,
+    "lng": 139.7688,
+    "default_ai_summary": "西日暮里東口徒歩3分の定番カレーチェーン。提供が早く、短い休憩でもホールに戻りやすい。",
+    "area_id": "nishi-nippori"
+  },
+  {
+    "id": "komoro-soba-nishi-nippori",
+    "legacy_id": 334,
+    "name": "小諸そば 西日暮里店",
+    "genre": "そば/うどん",
+    "time_category": [
+      "昼",
+      "夜"
+    ],
+    "hours": "7:00〜23:00",
+    "tags": [
+      "サク飯",
+      "一人OK"
+    ],
+    "address": "東京都荒川区西日暮里2-15-1",
+    "lat": 35.7318,
+    "lng": 139.7678,
+    "default_ai_summary": "西日暮里東口の立ち食いそばチェーン。サクッと温かいものが欲しい時に最速で済ませやすい。",
+    "area_id": "nishi-nippori"
+  },
+  {
+    "id": "katsuya-nishi-nippori",
+    "legacy_id": 335,
+    "name": "かつや 西日暮里店",
+    "genre": "とんかつ/カツ丼",
+    "time_category": [
+      "昼",
+      "夜"
+    ],
+    "hours": "10:30〜22:00",
+    "tags": [
+      "サク飯",
+      "ガッツリ",
+      "一人OK"
+    ],
+    "address": "東京都荒川区西日暮里2-19-5",
+    "lat": 35.733,
+    "lng": 139.769,
+    "default_ai_summary": "西日暮里東口徒歩4分のとんかつ・カツ丼チェーン。ボリュームと提供速度のバランスが良い。",
+    "area_id": "nishi-nippori"
+  },
+  {
+    "id": "mcdonalds-nishi-nippori",
+    "legacy_id": 336,
+    "name": "マクドナルド 西日暮里駅前店",
+    "genre": "ハンバーガー",
+    "time_category": [
+      "朝",
+      "昼",
+      "夜"
+    ],
+    "hours": "5:00〜24:00",
+    "tags": [
+      "サク飯",
+      "一人OK",
+      "深夜OK"
+    ],
+    "address": "東京都荒川区西日暮里2-14-2",
+    "lat": 35.7315,
+    "lng": 139.7675,
+    "default_ai_summary": "西日暮里駅東口目の前のファストフード。最速で済ませたい時や、軽めの休憩飯に向く。",
+    "area_id": "nishi-nippori"
+  },
+  {
+    "id": "kurasushi-nippori",
+    "legacy_id": 337,
+    "name": "くら寿司 日暮里店",
+    "genre": "回転寿司",
+    "time_category": [
+      "昼",
+      "夜"
+    ],
+    "hours": "11:00〜23:00",
+    "tags": [
+      "サク飯",
+      "一人OK"
+    ],
+    "address": "東京都荒川区西日暮里5-8-5",
+    "lat": 35.7288,
+    "lng": 139.7698,
+    "default_ai_summary": "日暮里駅西口徒歩4分の回転寿司チェーン。BBステーション日暮里圏からアクセスしやすい。",
+    "area_id": "nishi-nippori"
+  },
+  {
+    "id": "yakiniku-like-nippori",
+    "legacy_id": 338,
+    "name": "焼肉ライク 日暮里店",
+    "genre": "焼肉",
+    "time_category": [
+      "昼",
+      "夜"
+    ],
+    "hours": "11:00〜23:00",
+    "tags": [
+      "ガッツリ",
+      "一人OK"
+    ],
+    "address": "東京都荒川区西日暮里5-10-2",
+    "lat": 35.7282,
+    "lng": 139.77,
+    "default_ai_summary": "日暮里西口徒歩5分の一人焼肉チェーン。短時間でも肉を食べたい時に向く。",
+    "area_id": "nishi-nippori"
+  },
+  {
+    "id": "ramen-kagetsu-nippori",
+    "legacy_id": 339,
+    "name": "花月嵐 日暮里店",
+    "genre": "ラーメン",
+    "time_category": [
+      "昼",
+      "夜"
+    ],
+    "hours": "11:00〜翌4:00",
+    "tags": [
+      "ガッツリ",
+      "一人OK",
+      "深夜OK"
+    ],
+    "address": "東京都荒川区西日暮里2-20-1",
+    "lat": 35.7332,
+    "lng": 139.7692,
+    "default_ai_summary": "西日暮里東口徒歩5分の家系ラーメンチェーン。深夜まで営業しており、長時間稼働の合間にも使いやすい。",
+    "area_id": "nishi-nippori"
+  },
+  {
+    "id": "yayoiken-nippori",
+    "legacy_id": 340,
+    "name": "やよい軒 日暮里店",
+    "genre": "丼もの",
+    "time_category": [
+      "昼",
+      "夜"
+    ],
+    "hours": "10:00〜22:00",
+    "tags": [
+      "サク飯",
+      "一人OK"
+    ],
+    "address": "東京都荒川区西日暮里2-17-5",
+    "lat": 35.7325,
+    "lng": 139.7685,
+    "default_ai_summary": "西日暮里東口徒歩3分の定食・丼チェーン。和食系でさっと済ませたい昼休憩に使いやすい。",
+    "area_id": "nishi-nippori"
+  },
+  {
+    "id": "nippori-tomato-ramen",
+    "legacy_id": 341,
+    "name": "日暮里 トマトラーメン",
+    "genre": "ラーメン",
+    "time_category": [
+      "昼",
+      "夜"
+    ],
+    "hours": "11:00〜15:00、17:00〜21:00",
+    "tags": [
+      "ガッツリ",
+      "一人OK"
+    ],
+    "address": "東京都荒川区西日暮里3-12-8",
+    "lat": 35.7295,
+    "lng": 139.771,
+    "default_ai_summary": "日暮里の独立系ラーメン店。トマトベースの独自スープが特徴で、下町エリアの地元客に支持されている。",
+    "is_kitaichimeshi": true,
+    "selection_tags": [
+      "local_famous",
+      "notable_restaurant"
+    ],
+    "selection_note": "日暮里圏の独立系ラーメン店として選定",
+    "area_id": "nishi-nippori"
+  },
+  {
+    "id": "sukiya-chofu-kitaguchi",
+    "legacy_id": 342,
+    "name": "すき家 調布北口店",
+    "genre": "丼もの",
+    "time_category": [
+      "朝",
+      "昼",
+      "夜"
+    ],
+    "hours": "24時間営業",
+    "tags": [
+      "サク飯",
+      "一人OK",
+      "深夜OK"
+    ],
+    "address": "東京都調布市布田4-2-5",
+    "lat": 35.6522,
+    "lng": 139.544,
+    "default_ai_summary": "調布駅北口徒歩2分の牛丼チェーン。メガガイア調布圏から戻りやすく、24時間営業の定番候補。",
+    "area_id": "chofu"
+  },
+  {
+    "id": "cocoichi-chofu",
+    "legacy_id": 343,
+    "name": "CoCo壱番屋 調布店",
+    "genre": "カレー",
+    "time_category": [
+      "昼",
+      "夜"
+    ],
+    "hours": "10:30〜22:00",
+    "tags": [
+      "サク飯",
+      "ガッツリ",
+      "一人OK"
+    ],
+    "address": "東京都調布市布田4-4-1",
+    "lat": 35.6528,
+    "lng": 139.5445,
+    "default_ai_summary": "調布北口徒歩3分の定番カレーチェーン。提供が早く、短い休憩でもホールに戻りやすい。",
+    "area_id": "chofu"
+  },
+  {
+    "id": "komoro-soba-chofu",
+    "legacy_id": 344,
+    "name": "小諸そば 調布店",
+    "genre": "そば/うどん",
+    "time_category": [
+      "昼",
+      "夜"
+    ],
+    "hours": "7:00〜23:00",
+    "tags": [
+      "サク飯",
+      "一人OK"
+    ],
+    "address": "東京都調布市布田2-46-3",
+    "lat": 35.65,
+    "lng": 139.546,
+    "default_ai_summary": "調布南口徒歩3分の立ち食いそばチェーン。コンサートホール調布圏からアクセスしやすい。",
+    "area_id": "chofu"
+  },
+  {
+    "id": "katsuya-chofu",
+    "legacy_id": 345,
+    "name": "かつや 調布店",
+    "genre": "とんかつ/カツ丼",
+    "time_category": [
+      "昼",
+      "夜"
+    ],
+    "hours": "10:30〜22:00",
+    "tags": [
+      "サク飯",
+      "ガッツリ",
+      "一人OK"
+    ],
+    "address": "東京都調布市布田2-48-2",
+    "lat": 35.6495,
+    "lng": 139.5468,
+    "default_ai_summary": "調布南口徒歩4分のとんかつ・カツ丼チェーン。ボリュームと提供速度のバランスが良い。",
+    "area_id": "chofu"
+  },
+  {
+    "id": "mcdonalds-chofu",
+    "legacy_id": 346,
+    "name": "マクドナルド 調布駅前店",
+    "genre": "ハンバーガー",
+    "time_category": [
+      "朝",
+      "昼",
+      "夜"
+    ],
+    "hours": "5:00〜24:00",
+    "tags": [
+      "サク飯",
+      "一人OK",
+      "深夜OK"
+    ],
+    "address": "東京都調布市布田4-1-1",
+    "lat": 35.6518,
+    "lng": 139.5435,
+    "default_ai_summary": "調布駅北口目の前のファストフード。最速で済ませたい時や、軽めの休憩飯に向く。",
+    "area_id": "chofu"
+  },
+  {
+    "id": "kurasushi-chofu",
+    "legacy_id": 347,
+    "name": "くら寿司 調布店",
+    "genre": "回転寿司",
+    "time_category": [
+      "昼",
+      "夜"
+    ],
+    "hours": "11:00〜23:00",
+    "tags": [
+      "サク飯",
+      "一人OK"
+    ],
+    "address": "東京都調布市国領町3-16-5",
+    "lat": 35.6488,
+    "lng": 139.5585,
+    "default_ai_summary": "国領駅北口徒歩2分の回転寿司チェーン。MGM国領圏から戻りやすい。",
+    "area_id": "chofu"
+  },
+  {
+    "id": "yakiniku-like-chofu",
+    "legacy_id": 348,
+    "name": "焼肉ライク 調布店",
+    "genre": "焼肉",
+    "time_category": [
+      "昼",
+      "夜"
+    ],
+    "hours": "11:00〜23:00",
+    "tags": [
+      "ガッツリ",
+      "一人OK"
+    ],
+    "address": "東京都調布市国領町3-20-2",
+    "lat": 35.648,
+    "lng": 139.5592,
+    "default_ai_summary": "国領駅南口徒歩2分の一人焼肉チェーン。ジャンジャンマールゴット国領圏からアクセスしやすい。",
+    "area_id": "chofu"
+  },
+  {
+    "id": "ramen-kagetsu-chofu",
+    "legacy_id": 349,
+    "name": "花月嵐 調布店",
+    "genre": "ラーメン",
+    "time_category": [
+      "昼",
+      "夜"
+    ],
+    "hours": "11:00〜翌4:00",
+    "tags": [
+      "ガッツリ",
+      "一人OK",
+      "深夜OK"
+    ],
+    "address": "東京都調布市布田4-5-3",
+    "lat": 35.653,
+    "lng": 139.545,
+    "default_ai_summary": "調布北口徒歩4分の家系ラーメンチェーン。深夜まで営業しており、長時間稼働の合間にも使いやすい。",
+    "area_id": "chofu"
+  },
+  {
+    "id": "chofu-menya-ichiban",
+    "legacy_id": 350,
+    "name": "麺屋 一番 調布店",
+    "genre": "ラーメン",
+    "time_category": [
+      "昼",
+      "夜"
+    ],
+    "hours": "11:00〜15:00、17:00〜22:00",
+    "tags": [
+      "ガッツリ",
+      "一人OK"
+    ],
+    "address": "東京都調布市布田3-15-8",
+    "lat": 35.651,
+    "lng": 139.5455,
+    "default_ai_summary": "調布の独立系ラーメン店。地元で長年支持されている味で、チェーンとは違う一杯が欲しい時に向く。",
+    "is_kitaichimeshi": true,
+    "selection_tags": [
+      "local_famous",
+      "notable_restaurant"
+    ],
+    "selection_note": "調布の独立系ラーメン店として選定",
+    "area_id": "chofu"
+  },
+  {
+    "id": "chofu-soba-sarashina",
+    "legacy_id": 351,
+    "name": "更科 調布店",
+    "genre": "そば/うどん",
+    "time_category": [
+      "昼",
+      "夜"
+    ],
+    "hours": "11:00〜15:00、17:00〜21:00",
+    "tags": [
+      "サク飯",
+      "一人OK"
+    ],
+    "address": "東京都調布市布田3-14-2",
+    "lat": 35.6508,
+    "lng": 139.5462,
+    "default_ai_summary": "調布の独立系そば店。地元で長年愛される味で、調布エリアのチェーンそばとは違う一杯が欲しい時に向く。",
+    "is_kitaichimeshi": true,
+    "selection_tags": [
+      "local_famous"
+    ],
+    "selection_note": "調布の独立系そば店として選定",
+    "area_id": "chofu"
+  },
+  {
+    "id": "sukiya-fuchu-minamiguchi",
+    "legacy_id": 352,
+    "name": "すき家 府中南口店",
+    "genre": "丼もの",
+    "time_category": [
+      "朝",
+      "昼",
+      "夜"
+    ],
+    "hours": "24時間営業",
+    "tags": [
+      "サク飯",
+      "一人OK",
+      "深夜OK"
+    ],
+    "address": "東京都府中市本町1-6-5",
+    "lat": 35.6719,
+    "lng": 139.4788,
+    "default_ai_summary": "府中駅南口徒歩2分の牛丼チェーン。スパークル・キコーナ圏から戻りやすく、24時間営業の定番候補。",
+    "area_id": "fuchu"
+  },
+  {
+    "id": "cocoichi-fuchu",
+    "legacy_id": 353,
+    "name": "CoCo壱番屋 府中店",
+    "genre": "カレー",
+    "time_category": [
+      "昼",
+      "夜"
+    ],
+    "hours": "10:30〜22:00",
+    "tags": [
+      "サク飯",
+      "ガッツリ",
+      "一人OK"
+    ],
+    "address": "東京都府中市本町1-8-2",
+    "lat": 35.6716,
+    "lng": 139.4795,
+    "default_ai_summary": "府中南口徒歩2分の定番カレーチェーン。提供が早く、短い休憩でもホールに戻りやすい。",
+    "area_id": "fuchu"
+  },
+  {
+    "id": "komoro-soba-fuchu",
+    "legacy_id": 354,
+    "name": "小諸そば 府中店",
+    "genre": "そば/うどん",
+    "time_category": [
+      "昼",
+      "夜"
+    ],
+    "hours": "7:00〜23:00",
+    "tags": [
+      "サク飯",
+      "一人OK"
+    ],
+    "address": "東京都府中市本町1-5-3",
+    "lat": 35.6722,
+    "lng": 139.4785,
+    "default_ai_summary": "府中南口の立ち食いそばチェーン。サクッと温かいものが欲しい時に最速で済ませやすい。",
+    "area_id": "fuchu"
+  },
+  {
+    "id": "katsuya-fuchu",
+    "legacy_id": 355,
+    "name": "かつや 府中店",
+    "genre": "とんかつ/カツ丼",
+    "time_category": [
+      "昼",
+      "夜"
+    ],
+    "hours": "10:30〜22:00",
+    "tags": [
+      "サク飯",
+      "ガッツリ",
+      "一人OK"
+    ],
+    "address": "東京都府中市本町1-10-1",
+    "lat": 35.6714,
+    "lng": 139.48,
+    "default_ai_summary": "府中南口徒歩3分のとんかつ・カツ丼チェーン。ボリュームと提供速度のバランスが良い。",
+    "area_id": "fuchu"
+  },
+  {
+    "id": "mcdonalds-fuchu",
+    "legacy_id": 356,
+    "name": "マクドナルド 府中駅前店",
+    "genre": "ハンバーガー",
+    "time_category": [
+      "朝",
+      "昼",
+      "夜"
+    ],
+    "hours": "5:00〜24:00",
+    "tags": [
+      "サク飯",
+      "一人OK",
+      "深夜OK"
+    ],
+    "address": "東京都府中市本町1-4-1",
+    "lat": 35.6725,
+    "lng": 139.478,
+    "default_ai_summary": "府中駅南口目の前のファストフード。最速で済ませたい時や、軽めの休憩飯に向く。",
+    "area_id": "fuchu"
+  },
+  {
+    "id": "kurasushi-fuchu",
+    "legacy_id": 357,
+    "name": "くら寿司 府中店",
+    "genre": "回転寿司",
+    "time_category": [
+      "昼",
+      "夜"
+    ],
+    "hours": "11:00〜23:00",
+    "tags": [
+      "サク飯",
+      "一人OK"
+    ],
+    "address": "東京都府中市宮西町4-9-2",
+    "lat": 35.6732,
+    "lng": 139.4768,
+    "default_ai_summary": "府中北口徒歩4分の回転寿司チェーン。スパークル府中圏からアクセスしやすい。",
+    "area_id": "fuchu"
+  },
+  {
+    "id": "yakiniku-like-fuchu",
+    "legacy_id": 358,
+    "name": "焼肉ライク 府中店",
+    "genre": "焼肉",
+    "time_category": [
+      "昼",
+      "夜"
+    ],
+    "hours": "11:00〜23:00",
+    "tags": [
+      "ガッツリ",
+      "一人OK"
+    ],
+    "address": "東京都府中市本町1-11-5",
+    "lat": 35.6712,
+    "lng": 139.4802,
+    "default_ai_summary": "府中南口徒歩4分の一人焼肉チェーン。短時間でも肉を食べたい時に向く。",
+    "area_id": "fuchu"
+  },
+  {
+    "id": "ramen-kagetsu-fuchu",
+    "legacy_id": 359,
+    "name": "花月嵐 府中店",
+    "genre": "ラーメン",
+    "time_category": [
+      "昼",
+      "夜"
+    ],
+    "hours": "11:00〜翌4:00",
+    "tags": [
+      "ガッツリ",
+      "一人OK",
+      "深夜OK"
+    ],
+    "address": "東京都府中市本町1-12-3",
+    "lat": 35.671,
+    "lng": 139.4805,
+    "default_ai_summary": "府中南口徒歩4分の家系ラーメンチェーン。深夜まで営業しており、長時間稼働の合間にも使いやすい。",
+    "area_id": "fuchu"
+  },
+  {
+    "id": "yayoiken-fuchu",
+    "legacy_id": 360,
+    "name": "やよい軒 府中店",
+    "genre": "丼もの",
+    "time_category": [
+      "昼",
+      "夜"
+    ],
+    "hours": "10:00〜22:00",
+    "tags": [
+      "サク飯",
+      "一人OK"
+    ],
+    "address": "東京都府中市本町1-7-8",
+    "lat": 35.6717,
+    "lng": 139.479,
+    "default_ai_summary": "府中南口徒歩2分の定食・丼チェーン。和食系でさっと済ませたい昼休憩に使いやすい。",
+    "area_id": "fuchu"
+  },
+  {
+    "id": "fuchu-ramen-suzuran",
+    "legacy_id": 361,
+    "name": "ラーメンすずらん 府中店",
+    "genre": "ラーメン",
+    "time_category": [
+      "昼",
+      "夜"
+    ],
+    "hours": "11:00〜15:00、17:00〜21:00",
+    "tags": [
+      "ガッツリ",
+      "一人OK"
+    ],
+    "address": "東京都府中市本町2-5-8",
+    "lat": 35.6705,
+    "lng": 139.481,
+    "default_ai_summary": "府中の独立系ラーメン店。地元客に支持される味で、府中エリアのチェーンとは違う一杯が欲しい時に向く。",
+    "is_kitaichimeshi": true,
+    "selection_tags": [
+      "local_famous",
+      "notable_restaurant"
+    ],
+    "selection_note": "府中の独立系ラーメン店として選定",
+    "area_id": "fuchu"
+  },
+  {
+    "id": "sukiya-mitaka-minamiguchi",
+    "legacy_id": 362,
+    "name": "すき家 三鷹南口店",
+    "genre": "丼もの",
+    "time_category": [
+      "朝",
+      "昼",
+      "夜"
+    ],
+    "hours": "24時間営業",
+    "tags": [
+      "サク飯",
+      "一人OK",
+      "深夜OK"
+    ],
+    "address": "東京都三鷹市下連雀3-30-2",
+    "lat": 35.7028,
+    "lng": 139.5605,
+    "default_ai_summary": "三鷹駅南口徒歩1分の牛丼チェーン。メッセ三鷹圏から戻りやすく、24時間営業の定番候補。",
+    "area_id": "mitaka"
+  },
+  {
+    "id": "cocoichi-mitaka",
+    "legacy_id": 363,
+    "name": "CoCo壱番屋 三鷹店",
+    "genre": "カレー",
+    "time_category": [
+      "昼",
+      "夜"
+    ],
+    "hours": "10:30〜22:00",
+    "tags": [
+      "サク飯",
+      "ガッツリ",
+      "一人OK"
+    ],
+    "address": "東京都三鷹市下連雀3-29-5",
+    "lat": 35.703,
+    "lng": 139.56,
+    "default_ai_summary": "三鷹南口徒歩2分の定番カレーチェーン。提供が早く、短い休憩でもホールに戻りやすい。",
+    "area_id": "mitaka"
+  },
+  {
+    "id": "komoro-soba-mitaka",
+    "legacy_id": 364,
+    "name": "小諸そば 三鷹店",
+    "genre": "そば/うどん",
+    "time_category": [
+      "昼",
+      "夜"
+    ],
+    "hours": "7:00〜23:00",
+    "tags": [
+      "サク飯",
+      "一人OK"
+    ],
+    "address": "東京都三鷹市下連雀3-28-1",
+    "lat": 35.7032,
+    "lng": 139.5598,
+    "default_ai_summary": "三鷹南口の立ち食いそばチェーン。サクッと温かいものが欲しい時に最速で済ませやすい。",
+    "area_id": "mitaka"
+  },
+  {
+    "id": "katsuya-mitaka",
+    "legacy_id": 365,
+    "name": "かつや 三鷹店",
+    "genre": "とんかつ/カツ丼",
+    "time_category": [
+      "昼",
+      "夜"
+    ],
+    "hours": "10:30〜22:00",
+    "tags": [
+      "サク飯",
+      "ガッツリ",
+      "一人OK"
+    ],
+    "address": "東京都三鷹市下連雀3-27-3",
+    "lat": 35.7035,
+    "lng": 139.5595,
+    "default_ai_summary": "三鷹北口徒歩3分のとんかつ・カツ丼チェーン。コスミック三鷹圏からアクセスしやすい。",
+    "area_id": "mitaka"
+  },
+  {
+    "id": "mcdonalds-mitaka",
+    "legacy_id": 366,
+    "name": "マクドナルド 三鷹駅前店",
+    "genre": "ハンバーガー",
+    "time_category": [
+      "朝",
+      "昼",
+      "夜"
+    ],
+    "hours": "5:00〜24:00",
+    "tags": [
+      "サク飯",
+      "一人OK",
+      "深夜OK"
+    ],
+    "address": "東京都三鷹市下連雀3-31-1",
+    "lat": 35.7026,
+    "lng": 139.5608,
+    "default_ai_summary": "三鷹駅南口目の前のファストフード。最速で済ませたい時や、軽めの休憩飯に向く。",
+    "area_id": "mitaka"
+  },
+  {
+    "id": "kurasushi-mitaka",
+    "legacy_id": 367,
+    "name": "くら寿司 三鷹店",
+    "genre": "回転寿司",
+    "time_category": [
+      "昼",
+      "夜"
+    ],
+    "hours": "11:00〜23:00",
+    "tags": [
+      "サク飯",
+      "一人OK"
+    ],
+    "address": "東京都三鷹市下連雀3-25-5",
+    "lat": 35.7038,
+    "lng": 139.5592,
+    "default_ai_summary": "三鷹北口徒歩4分の回転寿司チェーン。一人でも入りやすく、提供ペースを自分で調整しやすい。",
+    "area_id": "mitaka"
+  },
+  {
+    "id": "yakiniku-like-mitaka",
+    "legacy_id": 368,
+    "name": "焼肉ライク 三鷹店",
+    "genre": "焼肉",
+    "time_category": [
+      "昼",
+      "夜"
+    ],
+    "hours": "11:00〜23:00",
+    "tags": [
+      "ガッツリ",
+      "一人OK"
+    ],
+    "address": "東京都三鷹市下連雀3-24-2",
+    "lat": 35.704,
+    "lng": 139.559,
+    "default_ai_summary": "三鷹北口徒歩5分の一人焼肉チェーン。短時間でも肉を食べたい時に向く。",
+    "area_id": "mitaka"
+  },
+  {
+    "id": "ramen-kagetsu-mitaka",
+    "legacy_id": 369,
+    "name": "花月嵐 三鷹店",
+    "genre": "ラーメン",
+    "time_category": [
+      "昼",
+      "夜"
+    ],
+    "hours": "11:00〜翌4:00",
+    "tags": [
+      "ガッツリ",
+      "一人OK",
+      "深夜OK"
+    ],
+    "address": "東京都三鷹市下連雀3-26-8",
+    "lat": 35.7036,
+    "lng": 139.5593,
+    "default_ai_summary": "三鷹北口徒歩4分の家系ラーメンチェーン。深夜まで営業しており、長時間稼働の合間にも使いやすい。",
+    "area_id": "mitaka"
+  },
+  {
+    "id": "mitaka-ramen-banzai",
+    "legacy_id": 370,
+    "name": "ラーメン万歳 三鷹店",
+    "genre": "ラーメン",
+    "time_category": [
+      "昼",
+      "夜"
+    ],
+    "hours": "11:00〜15:00、17:00〜22:00",
+    "tags": [
+      "ガッツリ",
+      "一人OK"
+    ],
+    "address": "東京都三鷹市下連雀2-18-5",
+    "lat": 35.7045,
+    "lng": 139.5585,
+    "default_ai_summary": "三鷹の独立系ラーメン店。地元で長年愛されている味で、チェーンとは違う一杯が欲しい時に向く。",
+    "is_kitaichimeshi": true,
+    "selection_tags": [
+      "local_famous",
+      "notable_restaurant"
+    ],
+    "selection_note": "三鷹の独立系ラーメン店として選定",
+    "area_id": "mitaka"
+  },
+  {
+    "id": "mitaka-shokudo-hinode",
+    "legacy_id": 371,
+    "name": "食堂 ひので 三鷹店",
+    "genre": "丼もの",
+    "time_category": [
+      "昼",
+      "夜"
+    ],
+    "hours": "11:00〜14:00、17:00〜21:00",
+    "tags": [
+      "サク飯",
+      "一人OK"
+    ],
+    "address": "東京都三鷹市下連雀2-16-8",
+    "lat": 35.7042,
+    "lng": 139.5588,
+    "default_ai_summary": "三鷹の独立系食堂。日替わり定食が地元客に支持され、コスパと提供速度のバランスが良い。",
+    "is_kitaichimeshi": true,
+    "selection_tags": [
+      "local_famous"
+    ],
+    "selection_note": "三鷹の独立系食堂として選定",
+    "area_id": "mitaka"
+  },
+  {
+    "id": "sukiya-kokubunji-kitaguchi",
+    "legacy_id": 372,
+    "name": "すき家 国分寺北口店",
+    "genre": "丼もの",
+    "time_category": [
+      "朝",
+      "昼",
+      "夜"
+    ],
+    "hours": "24時間営業",
+    "tags": [
+      "サク飯",
+      "一人OK",
+      "深夜OK"
+    ],
+    "address": "東京都国分寺市本町3-5-2",
+    "lat": 35.6996,
+    "lng": 139.4798,
+    "default_ai_summary": "国分寺駅北口徒歩2分の牛丼チェーン。国分寺モナコ圏から戻りやすく、24時間営業の定番候補。",
+    "area_id": "kokubunji"
+  },
+  {
+    "id": "cocoichi-kokubunji",
+    "legacy_id": 373,
+    "name": "CoCo壱番屋 国分寺店",
+    "genre": "カレー",
+    "time_category": [
+      "昼",
+      "夜"
+    ],
+    "hours": "10:30〜22:00",
+    "tags": [
+      "サク飯",
+      "ガッツリ",
+      "一人OK"
+    ],
+    "address": "東京都国分寺市本町3-4-5",
+    "lat": 35.6999,
+    "lng": 139.4792,
+    "default_ai_summary": "国分寺北口徒歩2分の定番カレーチェーン。提供が早く、短い休憩でもホールに戻りやすい。",
+    "area_id": "kokubunji"
+  },
+  {
+    "id": "komoro-soba-kokubunji",
+    "legacy_id": 374,
+    "name": "小諸そば 国分寺店",
+    "genre": "そば/うどん",
+    "time_category": [
+      "昼",
+      "夜"
+    ],
+    "hours": "7:00〜23:00",
+    "tags": [
+      "サク飯",
+      "一人OK"
+    ],
+    "address": "東京都国分寺市本町3-3-1",
+    "lat": 35.7002,
+    "lng": 139.4788,
+    "default_ai_summary": "国分寺北口の立ち食いそばチェーン。サクッと温かいものが欲しい時に最速で済ませやすい。",
+    "area_id": "kokubunji"
+  },
+  {
+    "id": "katsuya-kokubunji",
+    "legacy_id": 375,
+    "name": "かつや 国分寺店",
+    "genre": "とんかつ/カツ丼",
+    "time_category": [
+      "昼",
+      "夜"
+    ],
+    "hours": "10:30〜22:00",
+    "tags": [
+      "サク飯",
+      "ガッツリ",
+      "一人OK"
+    ],
+    "address": "東京都国分寺市本町2-9-5",
+    "lat": 35.6989,
+    "lng": 139.481,
+    "default_ai_summary": "国分寺南口徒歩3分のとんかつ・カツ丼チェーン。ベガスベガス恋ヶ窪圏からアクセスしやすい。",
+    "area_id": "kokubunji"
+  },
+  {
+    "id": "mcdonalds-kokubunji",
+    "legacy_id": 376,
+    "name": "マクドナルド 国分寺駅前店",
+    "genre": "ハンバーガー",
+    "time_category": [
+      "朝",
+      "昼",
+      "夜"
+    ],
+    "hours": "5:00〜24:00",
+    "tags": [
+      "サク飯",
+      "一人OK",
+      "深夜OK"
+    ],
+    "address": "東京都国分寺市本町3-2-1",
+    "lat": 35.7005,
+    "lng": 139.4785,
+    "default_ai_summary": "国分寺駅北口目の前のファストフード。最速で済ませたい時や、軽めの休憩飯に向く。",
+    "area_id": "kokubunji"
+  },
+  {
+    "id": "kurasushi-kokubunji",
+    "legacy_id": 377,
+    "name": "くら寿司 国分寺店",
+    "genre": "回転寿司",
+    "time_category": [
+      "昼",
+      "夜"
+    ],
+    "hours": "11:00〜23:00",
+    "tags": [
+      "サク飯",
+      "一人OK"
+    ],
+    "address": "東京都国分寺市本町2-7-2",
+    "lat": 35.699,
+    "lng": 139.4805,
+    "default_ai_summary": "国分寺南口徒歩4分の回転寿司チェーン。コンサートホール国分寺圏からアクセスしやすい。",
+    "area_id": "kokubunji"
+  },
+  {
+    "id": "yakiniku-like-kokubunji",
+    "legacy_id": 378,
+    "name": "焼肉ライク 国分寺店",
+    "genre": "焼肉",
+    "time_category": [
+      "昼",
+      "夜"
+    ],
+    "hours": "11:00〜23:00",
+    "tags": [
+      "ガッツリ",
+      "一人OK"
+    ],
+    "address": "東京都国分寺市本町2-11-3",
+    "lat": 35.6986,
+    "lng": 139.4815,
+    "default_ai_summary": "国分寺南口徒歩4分の一人焼肉チェーン。短時間でも肉を食べたい時に向く。",
+    "area_id": "kokubunji"
+  },
+  {
+    "id": "ramen-kagetsu-kokubunji",
+    "legacy_id": 379,
+    "name": "花月嵐 国分寺店",
+    "genre": "ラーメン",
+    "time_category": [
+      "昼",
+      "夜"
+    ],
+    "hours": "11:00〜翌4:00",
+    "tags": [
+      "ガッツリ",
+      "一人OK",
+      "深夜OK"
+    ],
+    "address": "東京都国分寺市本町3-7-5",
+    "lat": 35.6993,
+    "lng": 139.48,
+    "default_ai_summary": "国分寺北口徒歩4分の家系ラーメンチェーン。深夜まで営業しており、長時間稼働の合間にも使いやすい。",
+    "area_id": "kokubunji"
+  },
+  {
+    "id": "yayoiken-kokubunji",
+    "legacy_id": 380,
+    "name": "やよい軒 国分寺店",
+    "genre": "丼もの",
+    "time_category": [
+      "昼",
+      "夜"
+    ],
+    "hours": "10:00〜22:00",
+    "tags": [
+      "サク飯",
+      "一人OK"
+    ],
+    "address": "東京都国分寺市本町3-6-8",
+    "lat": 35.6995,
+    "lng": 139.4795,
+    "default_ai_summary": "国分寺北口徒歩3分の定食・丼チェーン。和食系でさっと済ませたい昼休憩に使いやすい。",
+    "area_id": "kokubunji"
+  },
+  {
+    "id": "kokubunji-ramen-musashi",
+    "legacy_id": 381,
+    "name": "ラーメン武蔵 国分寺店",
+    "genre": "ラーメン",
+    "time_category": [
+      "昼",
+      "夜"
+    ],
+    "hours": "11:00〜15:00、17:00〜21:00",
+    "tags": [
+      "ガッツリ",
+      "一人OK"
+    ],
+    "address": "東京都国分寺市本町2-6-8",
+    "lat": 35.6992,
+    "lng": 139.4808,
+    "default_ai_summary": "国分寺の独立系ラーメン店。地元客に支持される味で、国分寺エリアのチェーンとは違う一杯が欲しい時に向く。",
+    "is_kitaichimeshi": true,
+    "selection_tags": [
+      "local_famous",
+      "notable_restaurant"
+    ],
+    "selection_note": "国分寺の独立系ラーメン店として選定",
+    "area_id": "kokubunji"
+  },
+  {
+    "id": "sukiya-shin-nakano",
+    "legacy_id": 382,
+    "name": "すき家 新中野店",
+    "genre": "丼もの",
+    "time_category": [
+      "朝",
+      "昼",
+      "夜"
+    ],
+    "hours": "24時間営業",
+    "tags": [
+      "サク飯",
+      "一人OK",
+      "深夜OK"
+    ],
+    "address": "東京都中野区中央5-24-2",
+    "lat": 35.7108,
+    "lng": 139.6698,
+    "default_ai_summary": "新中野駅北口徒歩1分の牛丼チェーン。オークラ新中野圏から戻りやすく、24時間営業の定番候補。",
+    "area_id": "nakano-sakaue"
+  },
+  {
+    "id": "cocoichi-shin-nakano",
+    "legacy_id": 383,
+    "name": "CoCo壱番屋 新中野店",
+    "genre": "カレー",
+    "time_category": [
+      "昼",
+      "夜"
+    ],
+    "hours": "10:30〜22:00",
+    "tags": [
+      "サク飯",
+      "ガッツリ",
+      "一人OK"
+    ],
+    "address": "東京都中野区中央5-26-5",
+    "lat": 35.7102,
+    "lng": 139.6692,
+    "default_ai_summary": "新中野北口徒歩2分の定番カレーチェーン。提供が早く、短い休憩でもホールに戻りやすい。",
+    "area_id": "nakano-sakaue"
+  },
+  {
+    "id": "komoro-soba-shin-nakano",
+    "legacy_id": 384,
+    "name": "小諸そば 新中野店",
+    "genre": "そば/うどん",
+    "time_category": [
+      "昼",
+      "夜"
+    ],
+    "hours": "7:00〜23:00",
+    "tags": [
+      "サク飯",
+      "一人OK"
+    ],
+    "address": "東京都中野区中央5-23-1",
+    "lat": 35.711,
+    "lng": 139.6702,
+    "default_ai_summary": "新中野北口の立ち食いそばチェーン。サクッと温かいものが欲しい時に最速で済ませやすい。",
+    "area_id": "nakano-sakaue"
+  },
+  {
+    "id": "katsuya-shin-nakano",
+    "legacy_id": 385,
+    "name": "かつや 新中野店",
+    "genre": "とんかつ/カツ丼",
+    "time_category": [
+      "昼",
+      "夜"
+    ],
+    "hours": "10:30〜22:00",
+    "tags": [
+      "サク飯",
+      "ガッツリ",
+      "一人OK"
+    ],
+    "address": "東京都中野区中央5-28-3",
+    "lat": 35.7095,
+    "lng": 139.6685,
+    "default_ai_summary": "新中野南口徒歩3分のとんかつ・カツ丼チェーン。パーラースーパーセブン圏からアクセスしやすい。",
+    "area_id": "nakano-sakaue"
+  },
+  {
+    "id": "mcdonalds-shin-nakano",
+    "legacy_id": 386,
+    "name": "マクドナルド 新中野駅前店",
+    "genre": "ハンバーガー",
+    "time_category": [
+      "朝",
+      "昼",
+      "夜"
+    ],
+    "hours": "5:00〜24:00",
+    "tags": [
+      "サク飯",
+      "一人OK",
+      "深夜OK"
+    ],
+    "address": "東京都中野区中央5-25-1",
+    "lat": 35.7106,
+    "lng": 139.6695,
+    "default_ai_summary": "新中野駅北口目の前のファストフード。最速で済ませたい時や、軽めの休憩飯に向く。",
+    "area_id": "nakano-sakaue"
+  },
+  {
+    "id": "kurasushi-shin-nakano",
+    "legacy_id": 387,
+    "name": "くら寿司 新中野店",
+    "genre": "回転寿司",
+    "time_category": [
+      "昼",
+      "夜"
+    ],
+    "hours": "11:00〜23:00",
+    "tags": [
+      "サク飯",
+      "一人OK"
+    ],
+    "address": "東京都中野区中央5-29-5",
+    "lat": 35.7092,
+    "lng": 139.6682,
+    "default_ai_summary": "新中野南口徒歩4分の回転寿司チェーン。一人でも入りやすく、提供ペースを自分で調整しやすい。",
+    "area_id": "nakano-sakaue"
+  },
+  {
+    "id": "yakiniku-like-nogata",
+    "legacy_id": 388,
+    "name": "焼肉ライク 野方店",
+    "genre": "焼肉",
+    "time_category": [
+      "昼",
+      "夜"
+    ],
+    "hours": "11:00〜23:00",
+    "tags": [
+      "ガッツリ",
+      "一人OK"
+    ],
+    "address": "東京都中野区丸山2-18-5",
+    "lat": 35.7142,
+    "lng": 139.687,
+    "default_ai_summary": "野方商店街徒歩3分の一人焼肉チェーン。コンサートホール野方圏からアクセスしやすい。",
+    "area_id": "nakano-sakaue"
+  },
+  {
+    "id": "ramen-kagetsu-shin-nakano",
+    "legacy_id": 389,
+    "name": "花月嵐 新中野店",
+    "genre": "ラーメン",
+    "time_category": [
+      "昼",
+      "夜"
+    ],
+    "hours": "11:00〜翌4:00",
+    "tags": [
+      "ガッツリ",
+      "一人OK",
+      "深夜OK"
+    ],
+    "address": "東京都中野区中央5-30-2",
+    "lat": 35.709,
+    "lng": 139.668,
+    "default_ai_summary": "新中野南口徒歩5分の家系ラーメンチェーン。深夜まで営業しており、長時間稼働の合間にも使いやすい。",
+    "area_id": "nakano-sakaue"
+  },
+  {
+    "id": "yayoiken-shin-nakano",
+    "legacy_id": 390,
+    "name": "やよい軒 新中野店",
+    "genre": "丼もの",
+    "time_category": [
+      "昼",
+      "夜"
+    ],
+    "hours": "10:00〜22:00",
+    "tags": [
+      "サク飯",
+      "一人OK"
+    ],
+    "address": "東京都中野区中央5-27-2",
+    "lat": 35.71,
+    "lng": 139.669,
+    "default_ai_summary": "新中野南口徒歩3分の定食・丼チェーン。和食系でさっと済ませたい昼休憩に使いやすい。",
+    "area_id": "nakano-sakaue"
+  },
+  {
+    "id": "nogata-ramen-takahashi",
+    "legacy_id": 391,
+    "name": "ラーメン高橋 野方店",
+    "genre": "ラーメン",
+    "time_category": [
+      "昼",
+      "夜"
+    ],
+    "hours": "11:00〜15:00、17:00〜21:00",
+    "tags": [
+      "ガッツリ",
+      "一人OK"
+    ],
+    "address": "東京都中野区丸山2-19-8",
+    "lat": 35.7148,
+    "lng": 139.6878,
+    "default_ai_summary": "野方の独立系ラーメン店。商店街沿いの地元店で、中野坂上圏のチェーンとは違う一杯が欲しい時に向く。",
+    "is_kitaichimeshi": true,
+    "selection_tags": [
+      "local_famous",
+      "notable_restaurant"
+    ],
+    "selection_note": "野方圏の独立系ラーメン店として選定",
+    "area_id": "nakano-sakaue"
+  },
+  {
+    "id": "kidouya-suidobashi",
+    "legacy_id": 392,
+    "name": "輝道家 水道橋駅前店",
+    "area_id": "kanda",
+    "genre": "ラーメン",
+    "time_category": [
+      "昼",
+      "夜"
+    ],
+    "hours": "11:00〜21:00",
+    "tags": [
+      "ガッツリ",
+      "一人OK"
+    ],
+    "address": "東京都千代田区神田三崎町2-20-10 勝又ビル1F",
+    "lat": 35.7022,
+    "lng": 139.7538,
+    "default_ai_summary": "水道橋駅東口徒歩1分の家系ラーメン。濃厚スープとライス無料で、みとや水道橋店からの戻りが短い休憩にも向く。"
+  },
+  {
+    "id": "poppoya-suidobashi",
+    "legacy_id": 393,
+    "name": "らーめん ぽっぽっ屋 水道橋店",
+    "area_id": "kanda",
+    "genre": "ラーメン",
+    "time_category": [
+      "昼",
+      "夜"
+    ],
+    "hours": "11:00〜22:30（土日祝は17:30まで）",
+    "tags": [
+      "ガッツリ",
+      "一人OK"
+    ],
+    "address": "東京都千代田区神田三崎町2-21-11 ゑびすビル1F",
+    "lat": 35.7024,
+    "lng": 139.7535,
+    "default_ai_summary": "水道橋駅東口徒歩2分の二郎系ラーメン。ガード下を抜けた立地で、ホールから最短ルートで行ける一杯系の店。"
+  },
+  {
+    "id": "tenkaippin-suidobashi",
+    "legacy_id": 394,
+    "name": "天下一品 水道橋西口店",
+    "area_id": "kanda",
+    "genre": "ラーメン",
+    "time_category": [
+      "昼",
+      "夜"
+    ],
+    "hours": "11:00〜翌3:00（土日祝は24:00まで）",
+    "tags": [
+      "ガッツリ",
+      "一人OK",
+      "深夜OK"
+    ],
+    "address": "東京都千代田区神田三崎町3-7-13 田中ビル1F",
+    "lat": 35.7026,
+    "lng": 139.7518,
+    "default_ai_summary": "水道橋西口徒歩2分のこってりラーメン。深夜帯も営業しており、長時間稼働の合間のガッツリ飯候補。"
+  },
+  {
+    "id": "matsuya-suidobashi",
+    "legacy_id": 395,
+    "name": "松屋 水道橋店",
+    "area_id": "kanda",
+    "genre": "カレー",
+    "time_category": [
+      "朝",
+      "昼",
+      "夜"
+    ],
+    "hours": "24時間営業",
+    "tags": [
+      "サク飯",
+      "一人OK",
+      "深夜OK"
+    ],
+    "address": "東京都千代田区神田三崎町2-15-5",
+    "lat": 35.702,
+    "lng": 139.7528,
+    "default_ai_summary": "水道橋駅東口徒歩1分の牛丼・カレー。24時間営業で、みとや水道橋圏の最速補給拠点。"
+  },
+  {
+    "id": "fujisoba-suidobashi",
+    "legacy_id": 396,
+    "name": "名代富士そば 水道橋店",
+    "area_id": "kanda",
+    "genre": "そば/うどん",
+    "time_category": [
+      "朝",
+      "昼",
+      "夜"
+    ],
+    "hours": "24時間営業",
+    "tags": [
+      "サク飯",
+      "一人OK",
+      "深夜OK"
+    ],
+    "address": "東京都千代田区神田三崎町2-18-3",
+    "lat": 35.7021,
+    "lng": 139.7532,
+    "default_ai_summary": "水道橋駅徒歩2分の立ち食いそば。24時間営業で、短い休憩でも手早く腹ごしらえできる。"
+  },
+  {
+    "id": "gogocurry-suidobashi",
+    "legacy_id": 397,
+    "name": "ゴーゴーカレー 水道橋西口店",
+    "area_id": "kanda",
+    "genre": "カレー",
+    "time_category": [
+      "昼",
+      "夜"
+    ],
+    "hours": "11:00〜23:00",
+    "tags": [
+      "サク飯",
+      "ガッツリ",
+      "一人OK"
+    ],
+    "address": "東京都千代田区神田三崎町3-5-2",
+    "lat": 35.7025,
+    "lng": 139.7515,
+    "default_ai_summary": "水道橋西口徒歩2分の金沢カレー。キャベツ食べ放題で、提供が速くホール復帰までの時間を短くしやすい。"
+  },
+  {
+    "id": "yukikage-sannow",
+    "legacy_id": 398,
+    "name": "濃厚鶏麺 ゆきかげ 三ノ輪店",
+    "area_id": "okachimachi",
+    "genre": "ラーメン",
+    "time_category": [
+      "昼",
+      "夜"
+    ],
+    "hours": "11:30〜15:00、17:00〜23:30（日曜は22:30まで）",
+    "tags": [
+      "ガッツリ",
+      "一人OK"
+    ],
+    "address": "東京都台東区三ノ輪2-14-6",
+    "lat": 35.7302,
+    "lng": 139.7918,
+    "default_ai_summary": "三ノ輪駅徒歩1分の鶏白湯ラーメン。濃厚スープで満足感があり、三ノ輪UNOからの戻りが短い一杯系の店。"
+  },
+  {
+    "id": "shinajima-sannow",
+    "legacy_id": 399,
+    "name": "喜多方ラーメン 新じま",
+    "area_id": "okachimachi",
+    "genre": "ラーメン",
+    "time_category": [
+      "昼",
+      "夜"
+    ],
+    "hours": "11:00〜15:00、17:00〜21:00",
+    "tags": [
+      "サク飯",
+      "一人OK"
+    ],
+    "address": "東京都台東区三ノ輪1-8-5",
+    "lat": 35.7295,
+    "lng": 139.7908,
+    "default_ai_summary": "三ノ輪駅徒歩2分の喜多方系ラーメン。あっさり系で食後の動きやすさがあり、短い休憩向き。"
+  },
+  {
+    "id": "komoro-soba-sannow",
+    "legacy_id": 400,
+    "name": "小諸そば 三ノ輪店",
+    "area_id": "okachimachi",
+    "genre": "そば/うどん",
+    "time_category": [
+      "昼",
+      "夜"
+    ],
+    "hours": "7:00〜23:00",
+    "tags": [
+      "サク飯",
+      "一人OK"
+    ],
+    "address": "東京都台東区三ノ輪1-12-8",
+    "lat": 35.7298,
+    "lng": 139.7912,
+    "default_ai_summary": "三ノ輪駅徒歩1分の立ち食いそば。早朝から営業しており、三ノ輪UNO圏の神コスパサク飯。"
+  },
+  {
+    "id": "sukiya-sannow",
+    "legacy_id": 401,
+    "name": "すき家 三ノ輪店",
+    "area_id": "okachimachi",
+    "genre": "丼もの",
+    "time_category": [
+      "朝",
+      "昼",
+      "夜"
+    ],
+    "hours": "24時間営業",
+    "tags": [
+      "サク飯",
+      "一人OK",
+      "深夜OK"
+    ],
+    "address": "東京都台東区三ノ輪1-15-3",
+    "lat": 35.7305,
+    "lng": 139.792,
+    "default_ai_summary": "三ノ輪駅徒歩2分の牛丼。24時間営業で、三ノ輪UNOからの最速丼候補。"
+  },
+  {
+    "id": "cocoichi-sannow",
+    "legacy_id": 402,
+    "name": "カレーハウスCoCo壱番屋 三ノ輪店",
+    "area_id": "okachimachi",
+    "genre": "カレー",
+    "time_category": [
+      "昼",
+      "夜"
+    ],
+    "hours": "11:00〜23:00",
+    "tags": [
+      "サク飯",
+      "一人OK"
+    ],
+    "address": "東京都台東区三ノ輪2-10-4",
+    "lat": 35.7296,
+    "lng": 139.7916,
+    "default_ai_summary": "三ノ輪駅徒歩1分のカレーチェーン。カスタマイズ自在で、三ノ輪UNO圏の手軽なカレー候補。"
   }
 ]
