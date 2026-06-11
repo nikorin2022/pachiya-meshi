@@ -135,23 +135,9 @@ export default function TopPage() {
           </div>
         </section>
 
-        {/* ② パチ屋飯とは */}
-        <section className="bg-white rounded-lg shadow-sm border border-gray-200 p-4 sm:p-6 mb-4 sm:mb-6">
-          <h2 className="text-base sm:text-lg font-bold text-gray-900 mb-2">
-            パチ屋飯とは
-          </h2>
-          <p className="text-xs sm:text-sm text-gray-600 leading-relaxed">
-            私たちは「美味しい食事も人生単位で見ると期待値が高い」と考えています。
-            パチンコやパチスロの稼働だけでなく、その街ならではの食事も楽しんでほしい。
-            パチ屋飯は、ホール周辺の飲食店との出会いを応援する編集メディアです。
-          </p>
-          <Link href="/about" className={`${linkButtonClassName} mt-3 sm:mt-4`}>
-            詳しく見る
-            <ChevronRight className="w-3.5 h-3.5 shrink-0" />
-          </Link>
-        </section>
+        <HallListClient halls={halls} />
 
-        {/* ③ 人気エリア */}
+        {/* 人気エリア */}
         <section className="mb-4 sm:mb-6">
           <div className="flex flex-wrap items-end justify-between gap-2 mb-3 sm:mb-4">
             <h2 className="text-xs sm:text-sm font-bold text-gray-900">人気エリア</h2>
@@ -222,9 +208,23 @@ export default function TopPage() {
           </Link>
         </section>
 
-        <HallListClient halls={halls} />
+        {/* パチ屋飯とは */}
+        <section className="bg-white rounded-lg shadow-sm border border-gray-200 p-4 sm:p-6 mb-4 sm:mb-6">
+          <h2 className="text-base sm:text-lg font-bold text-gray-900 mb-2">
+            パチ屋飯とは
+          </h2>
+          <p className="text-xs sm:text-sm text-gray-600 leading-relaxed">
+            私たちは「美味しい食事も人生単位で見ると期待値が高い」と考えています。
+            パチンコやパチスロの稼働だけでなく、その街ならではの食事も楽しんでほしい。
+            パチ屋飯は、ホール周辺の飲食店との出会いを応援する編集メディアです。
+          </p>
+          <Link href="/about" className={`${linkButtonClassName} mt-3 sm:mt-4`}>
+            詳しく見る
+            <ChevronRight className="w-3.5 h-3.5 shrink-0" />
+          </Link>
+        </section>
 
-        {/* ⑦ Aboutページ導線 */}
+        {/* Aboutページ導線 */}
         <section className="bg-white rounded-lg shadow-sm border border-gray-200 p-4 sm:p-6 mt-4 sm:mt-6">
           <h2 className="text-base sm:text-lg font-bold text-gray-900 mb-2">
             パチ屋飯について
