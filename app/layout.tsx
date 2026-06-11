@@ -1,5 +1,6 @@
 import type { Metadata } from 'next'
 import { Geist, Geist_Mono } from 'next/font/google'
+import { GoogleAnalytics } from '@next/third-parties/google'
 import { Analytics } from '@vercel/analytics/next'
 import { FavoriteHallsProvider } from '@/components/FavoriteHallsProvider'
 import { SITE_URL, SITE_NAME, SITE_DESCRIPTION } from '@/lib/seo'
@@ -7,6 +8,8 @@ import './globals.css'
 
 const _geist = Geist({ subsets: ["latin"] });
 const _geistMono = Geist_Mono({ subsets: ["latin"] });
+
+const GA_ID = process.env.NEXT_PUBLIC_GA_ID
 
 export const metadata: Metadata = {
   // 相対パス指定の canonical / OG画像URL を絶対URL化するための基準
@@ -58,6 +61,9 @@ export default function RootLayout({
         <FavoriteHallsProvider>{children}</FavoriteHallsProvider>
         {process.env.NODE_ENV === 'production' && <Analytics />}
       </body>
+      {process.env.NODE_ENV === 'production' && GA_ID && (
+        <GoogleAnalytics gaId={GA_ID} />
+      )}
     </html>
   )
 }
