@@ -44,7 +44,8 @@ export default function PrivacyPage() {
           アクセス解析について
         </h3>
         <p>
-          当サイトでは、今後 Google Analytics 等のアクセス解析ツールを利用する場合があります。これらのツールはCookie等を用いてアクセス情報を収集する場合があり、匿名化された統計情報として分析に利用されます。
+          当サイトでは、Google Analytics（アクセス解析ツール）を利用しています。Google
+          Analytics はCookie等を用いてアクセス情報を収集し、匿名化された統計情報としてサイトの改善に利用します。
         </p>
       </div>
 
@@ -52,8 +53,32 @@ export default function PrivacyPage() {
         <h3 className="font-bold text-gray-900 text-sm sm:text-base mb-2">
           広告配信について
         </h3>
+        <p className="mb-2">
+          当サイトでは、Google AdSense 等の第三者配信の広告サービスを利用する場合があります。広告配信事業者は、利用者の興味や関心に応じた広告を表示するため、Cookie等を使用してアクセス情報を収集することがあります。
+        </p>
+        <p className="mb-2">
+          これらのCookieにより、当サイトや他サイトへの過去のアクセス情報に基づき、パーソナライズ広告（利用者の興味に応じた広告）が配信される場合があります。パーソナライズ広告の無効化や、Cookieの利用設定は、ブラウザの設定から変更できます。
+        </p>
         <p>
-          当サイトでは、今後 Google AdSense 等の広告サービスを利用する場合があります。広告配信事業者は、利用者の興味に応じた広告を表示するため、Cookie等を使用することがあります。詳細は各広告サービスのプライバシーポリシーをご確認ください。
+          Googleによる広告の配信に関する詳細は、
+          <a
+            href="https://policies.google.com/technologies/ads"
+            className="text-red-600 hover:text-red-700 font-medium"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Googleの広告に関するポリシー
+          </a>
+          をご確認ください。パーソナライズ広告の設定変更は
+          <a
+            href="https://adssettings.google.com"
+            className="text-red-600 hover:text-red-700 font-medium"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Google広告設定ページ
+          </a>
+          から行えます。
         </p>
       </div>
 

@@ -20,6 +20,7 @@ import { Button } from "@/components/ui/button"
 import { FavoriteHallButton } from "@/components/FavoriteHallButton"
 import { useFavoriteHalls } from "@/components/FavoriteHallsProvider"
 import { HallSearchForm } from "@/components/HallSearchForm"
+import { SiteFooter } from "@/components/SiteFooter"
 import { Badge } from "@/components/ui/badge"
 import type { PachinkoHall } from "@/lib/halls/types"
 import {
@@ -785,10 +786,11 @@ export default function HallDetailClient({
           </div>
         </div>
 
-        {/* フッター注釈 */}
-        <p className="text-[10px] sm:text-xs text-gray-500 mt-6 sm:mt-8 mb-4">
+        <p className="text-[10px] sm:text-xs text-gray-500 mt-6 sm:mt-8">
           ※営業時間やメニュー内容は変更されている場合があります。ご来店前に各店舗へご確認ください。
         </p>
+
+        <SiteFooter />
       </main>
     </div>
   )

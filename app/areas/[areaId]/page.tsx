@@ -3,6 +3,7 @@ import Image from "next/image"
 import Link from "next/link"
 import { notFound } from "next/navigation"
 import { HallCardList } from "@/components/HallCardList"
+import { SiteFooter } from "@/components/SiteFooter"
 import {
   getAreaDetail,
   getAreaIdsWithHalls,
@@ -128,6 +129,8 @@ export default async function AreaDetailPage({
           </h3>
           <HallCardList halls={halls} />
         </section>
+
+        <SiteFooter />
       </main>
     </div>
   )

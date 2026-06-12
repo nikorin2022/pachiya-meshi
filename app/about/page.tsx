@@ -113,6 +113,11 @@ export default function AboutPage() {
       </div>
 
       <div>
+        <h3 className="font-bold text-gray-900 text-sm sm:text-base mb-2">運営者</h3>
+        <p>パチ屋飯運営事務局</p>
+      </div>
+
+      <div>
         <h3 className="font-bold text-gray-900 text-sm sm:text-base mb-2">サイト名</h3>
         <p>パチ屋飯（{SITE_URL.replace("https://", "")}）</p>
       </div>

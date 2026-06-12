@@ -3,6 +3,7 @@ import Image from "next/image"
 import Link from "next/link"
 import { notFound } from "next/navigation"
 import { HallCardList } from "@/components/HallCardList"
+import { SiteFooter } from "@/components/SiteFooter"
 import { ChainBreadcrumb } from "@/components/ChainBreadcrumb"
 import {
   getChainDetail,
@@ -123,6 +124,8 @@ export default async function ChainDetailPage({
           </h3>
           <HallCardList halls={halls} />
         </section>
+
+        <SiteFooter />
       </main>
     </div>
   )

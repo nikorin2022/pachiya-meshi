@@ -3,6 +3,7 @@ import Image from "next/image"
 import Link from "next/link"
 import { HallSearchForm } from "@/components/HallSearchForm"
 import { HallSearchResultList } from "@/components/HallSearchResultList"
+import { SiteFooter } from "@/components/SiteFooter"
 import { searchHalls } from "@/lib/hall-search"
 
 type SearchParams = { q?: string | string[] }
@@ -123,6 +124,8 @@ export default async function SearchPage({
             </p>
           </section>
         )}
+
+        <SiteFooter />
       </main>
     </div>
   )
