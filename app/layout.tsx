@@ -1,4 +1,5 @@
 import type { Metadata } from 'next'
+import Script from 'next/script'
 import { Geist, Geist_Mono } from 'next/font/google'
 import { GoogleAnalytics } from '@next/third-parties/google'
 import { Analytics } from '@vercel/analytics/next'
@@ -10,6 +11,8 @@ const _geist = Geist({ subsets: ["latin"] });
 const _geistMono = Geist_Mono({ subsets: ["latin"] });
 
 const GA_ID = process.env.NEXT_PUBLIC_GA_ID
+/** AdSense サイト所有権確認用（広告表示は未実装） */
+const ADSENSE_CLIENT_ID = 'ca-pub-5751363901744371'
 
 export const metadata: Metadata = {
   // 相対パス指定の canonical / OG画像URL を絶対URL化するための基準
@@ -63,6 +66,14 @@ export default function RootLayout({
       </body>
       {process.env.NODE_ENV === 'production' && GA_ID && (
         <GoogleAnalytics gaId={GA_ID} />
+      )}
+      {process.env.NODE_ENV === 'production' && (
+        <Script
+          async
+          src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${ADSENSE_CLIENT_ID}`}
+          crossOrigin="anonymous"
+          strategy="afterInteractive"
+        />
       )}
     </html>
   )
