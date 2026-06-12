@@ -1,5 +1,4 @@
 import type { Metadata } from 'next'
-import Script from 'next/script'
 import { Geist, Geist_Mono } from 'next/font/google'
 import { GoogleAnalytics } from '@next/third-parties/google'
 import { Analytics } from '@vercel/analytics/next'
@@ -60,20 +59,21 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="ja" className="bg-gray-50">
+      <head>
+        {process.env.NODE_ENV === 'production' && (
+          <script
+            async
+            src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${ADSENSE_CLIENT_ID}`}
+            crossOrigin="anonymous"
+          />
+        )}
+      </head>
       <body className="font-sans antialiased">
         <FavoriteHallsProvider>{children}</FavoriteHallsProvider>
         {process.env.NODE_ENV === 'production' && <Analytics />}
       </body>
       {process.env.NODE_ENV === 'production' && GA_ID && (
         <GoogleAnalytics gaId={GA_ID} />
-      )}
-      {process.env.NODE_ENV === 'production' && (
-        <Script
-          async
-          src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${ADSENSE_CLIENT_ID}`}
-          crossOrigin="anonymous"
-          strategy="afterInteractive"
-        />
       )}
     </html>
   )
