@@ -152,3 +152,33 @@ export function buildChainBreadcrumbJsonLd(chain: BreadcrumbChain) {
     ],
   }
 }
+
+/** Article JSON-LD（読み物・ガイドページ向け） */
+export function buildArticleJsonLd(params: {
+  headline: string
+  description: string
+  path: string
+}) {
+  return {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    headline: params.headline,
+    description: params.description,
+    url: `${SITE_URL}${params.path}`,
+    inLanguage: "ja",
+    author: {
+      "@type": "Organization",
+      name: "パチ屋飯運営事務局",
+    },
+    publisher: {
+      "@type": "Organization",
+      name: SITE_NAME,
+      url: SITE_URL,
+    },
+    isPartOf: {
+      "@type": "WebSite",
+      name: SITE_NAME,
+      url: `${SITE_URL}/`,
+    },
+  }
+}

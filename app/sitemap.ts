@@ -1,6 +1,7 @@
 import type { MetadataRoute } from "next"
 import { getAreaIdsWithHalls } from "@/lib/areas"
 import { getChainIdsWithHalls } from "@/lib/chains"
+import { GUIDE_PAGE_PATHS } from "@/lib/guides"
 import { getAllHalls } from "@/lib/halls"
 import { SITE_URL } from "@/lib/seo"
 
@@ -40,6 +41,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "/contact",
     "/privacy",
     "/terms",
+    ...GUIDE_PAGE_PATHS,
   ].map((path) => ({
     url: `${SITE_URL}${path}`,
     lastModified: now,
