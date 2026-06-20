@@ -37,7 +37,9 @@ export const miyagiHalls: readonly PachinkoHall[] = [
         "tags": [
           "一人OK"
         ],
-        "address": "宮城県仙台市青葉区中央1-6-8"
+        "address": "宮城県仙台市青葉区中央1-6-8",
+        "lat": 38.2598,
+        "lng": 140.8812
       },
       {
         "id": 619,
@@ -53,7 +55,9 @@ export const miyagiHalls: readonly PachinkoHall[] = [
         "tags": [
           "一人OK"
         ],
-        "address": "宮城県仙台市青葉区中央1-7-1"
+        "address": "宮城県仙台市青葉区中央1-7-1",
+        "lat": 38.259722,
+        "lng": 140.881111
       },
       {
         "id": 621,
@@ -69,7 +73,9 @@ export const miyagiHalls: readonly PachinkoHall[] = [
         "tags": [
           "一人OK"
         ],
-        "address": "宮城県仙台市青葉区中央2-6-36 中央レントビル1F"
+        "address": "宮城県仙台市青葉区中央2-6-36 中央レントビル1F",
+        "lat": 38.260417,
+        "lng": 140.882222
       },
       {
         "id": 622,
@@ -85,7 +91,9 @@ export const miyagiHalls: readonly PachinkoHall[] = [
         "tags": [
           "一人OK"
         ],
-        "address": "宮城県仙台市青葉区一番町2-7-5"
+        "address": "宮城県仙台市青葉区一番町2-7-5",
+        "lat": 38.262222,
+        "lng": 140.879444
       },
       {
         "id": 620,
@@ -101,7 +109,9 @@ export const miyagiHalls: readonly PachinkoHall[] = [
         "tags": [
           "一人OK"
         ],
-        "address": "宮城県仙台市宮城野区榴岡2-1-25 BiVi仙台駅東口 1階"
+        "address": "宮城県仙台市宮城野区榴岡2-1-25 BiVi仙台駅東口 1階",
+        "lat": 38.260556,
+        "lng": 140.885556
       },
       {
         "id": 562,
@@ -117,7 +127,9 @@ export const miyagiHalls: readonly PachinkoHall[] = [
         "tags": [
           "一人OK"
         ],
-        "address": "宮城県仙台市宮城野区榴岡1-6-8"
+        "address": "宮城県仙台市宮城野区榴岡1-6-8",
+        "lat": 38.2612,
+        "lng": 140.886
       }
     ]
   },
@@ -151,7 +163,9 @@ export const miyagiHalls: readonly PachinkoHall[] = [
         "tags": [
           "一人OK"
         ],
-        "address": "宮城県仙台市宮城野区榴岡2-1-25 BiVi仙台駅東口 1階"
+        "address": "宮城県仙台市宮城野区榴岡2-1-25 BiVi仙台駅東口 1階",
+        "lat": 38.260556,
+        "lng": 140.885556
       },
       {
         "id": 562,
@@ -167,7 +181,9 @@ export const miyagiHalls: readonly PachinkoHall[] = [
         "tags": [
           "一人OK"
         ],
-        "address": "宮城県仙台市宮城野区榴岡1-6-8"
+        "address": "宮城県仙台市宮城野区榴岡1-6-8",
+        "lat": 38.2612,
+        "lng": 140.886
       },
       {
         "id": 621,
@@ -183,7 +199,9 @@ export const miyagiHalls: readonly PachinkoHall[] = [
         "tags": [
           "一人OK"
         ],
-        "address": "宮城県仙台市青葉区中央2-6-36 中央レントビル1F"
+        "address": "宮城県仙台市青葉区中央2-6-36 中央レントビル1F",
+        "lat": 38.260417,
+        "lng": 140.882222
       },
       {
         "id": 577,
@@ -199,7 +217,9 @@ export const miyagiHalls: readonly PachinkoHall[] = [
         "tags": [
           "一人OK"
         ],
-        "address": "宮城県仙台市青葉区中央1-6-8"
+        "address": "宮城県仙台市青葉区中央1-6-8",
+        "lat": 38.2598,
+        "lng": 140.8812
       },
       {
         "id": 619,
@@ -215,7 +235,9 @@ export const miyagiHalls: readonly PachinkoHall[] = [
         "tags": [
           "一人OK"
         ],
-        "address": "宮城県仙台市青葉区中央1-7-1"
+        "address": "宮城県仙台市青葉区中央1-7-1",
+        "lat": 38.259722,
+        "lng": 140.881111
       },
       {
         "id": 622,
@@ -231,7 +253,9 @@ export const miyagiHalls: readonly PachinkoHall[] = [
         "tags": [
           "一人OK"
         ],
-        "address": "宮城県仙台市青葉区一番町2-7-5"
+        "address": "宮城県仙台市青葉区一番町2-7-5",
+        "lat": 38.262222,
+        "lng": 140.879444
       }
     ]
   },
@@ -265,7 +289,9 @@ export const miyagiHalls: readonly PachinkoHall[] = [
         "tags": [
           "一人OK"
         ],
-        "address": "宮城県仙台市青葉区中央1-6-8"
+        "address": "宮城県仙台市青葉区中央1-6-8",
+        "lat": 38.2598,
+        "lng": 140.8812
       },
       {
         "id": 619,
@@ -281,7 +307,9 @@ export const miyagiHalls: readonly PachinkoHall[] = [
         "tags": [
           "一人OK"
         ],
-        "address": "宮城県仙台市青葉区中央1-7-1"
+        "address": "宮城県仙台市青葉区中央1-7-1",
+        "lat": 38.259722,
+        "lng": 140.881111
       },
       {
         "id": 621,
@@ -297,7 +325,9 @@ export const miyagiHalls: readonly PachinkoHall[] = [
         "tags": [
           "一人OK"
         ],
-        "address": "宮城県仙台市青葉区中央2-6-36 中央レントビル1F"
+        "address": "宮城県仙台市青葉区中央2-6-36 中央レントビル1F",
+        "lat": 38.260417,
+        "lng": 140.882222
       },
       {
         "id": 622,
@@ -313,7 +343,9 @@ export const miyagiHalls: readonly PachinkoHall[] = [
         "tags": [
           "一人OK"
         ],
-        "address": "宮城県仙台市青葉区一番町2-7-5"
+        "address": "宮城県仙台市青葉区一番町2-7-5",
+        "lat": 38.262222,
+        "lng": 140.879444
       },
       {
         "id": 620,
@@ -329,7 +361,9 @@ export const miyagiHalls: readonly PachinkoHall[] = [
         "tags": [
           "一人OK"
         ],
-        "address": "宮城県仙台市宮城野区榴岡2-1-25 BiVi仙台駅東口 1階"
+        "address": "宮城県仙台市宮城野区榴岡2-1-25 BiVi仙台駅東口 1階",
+        "lat": 38.260556,
+        "lng": 140.885556
       },
       {
         "id": 562,
@@ -345,7 +379,9 @@ export const miyagiHalls: readonly PachinkoHall[] = [
         "tags": [
           "一人OK"
         ],
-        "address": "宮城県仙台市宮城野区榴岡1-6-8"
+        "address": "宮城県仙台市宮城野区榴岡1-6-8",
+        "lat": 38.2612,
+        "lng": 140.886
       }
     ]
   },
@@ -379,7 +415,9 @@ export const miyagiHalls: readonly PachinkoHall[] = [
         "tags": [
           "一人OK"
         ],
-        "address": "宮城県仙台市青葉区中央1-6-8"
+        "address": "宮城県仙台市青葉区中央1-6-8",
+        "lat": 38.2598,
+        "lng": 140.8812
       },
       {
         "id": 619,
@@ -395,7 +433,9 @@ export const miyagiHalls: readonly PachinkoHall[] = [
         "tags": [
           "一人OK"
         ],
-        "address": "宮城県仙台市青葉区中央1-7-1"
+        "address": "宮城県仙台市青葉区中央1-7-1",
+        "lat": 38.259722,
+        "lng": 140.881111
       },
       {
         "id": 621,
@@ -411,7 +451,9 @@ export const miyagiHalls: readonly PachinkoHall[] = [
         "tags": [
           "一人OK"
         ],
-        "address": "宮城県仙台市青葉区中央2-6-36 中央レントビル1F"
+        "address": "宮城県仙台市青葉区中央2-6-36 中央レントビル1F",
+        "lat": 38.260417,
+        "lng": 140.882222
       },
       {
         "id": 622,
@@ -427,7 +469,9 @@ export const miyagiHalls: readonly PachinkoHall[] = [
         "tags": [
           "一人OK"
         ],
-        "address": "宮城県仙台市青葉区一番町2-7-5"
+        "address": "宮城県仙台市青葉区一番町2-7-5",
+        "lat": 38.262222,
+        "lng": 140.879444
       },
       {
         "id": 620,
@@ -443,7 +487,9 @@ export const miyagiHalls: readonly PachinkoHall[] = [
         "tags": [
           "一人OK"
         ],
-        "address": "宮城県仙台市宮城野区榴岡2-1-25 BiVi仙台駅東口 1階"
+        "address": "宮城県仙台市宮城野区榴岡2-1-25 BiVi仙台駅東口 1階",
+        "lat": 38.260556,
+        "lng": 140.885556
       },
       {
         "id": 562,
@@ -459,7 +505,9 @@ export const miyagiHalls: readonly PachinkoHall[] = [
         "tags": [
           "一人OK"
         ],
-        "address": "宮城県仙台市宮城野区榴岡1-6-8"
+        "address": "宮城県仙台市宮城野区榴岡1-6-8",
+        "lat": 38.2612,
+        "lng": 140.886
       }
     ]
   }

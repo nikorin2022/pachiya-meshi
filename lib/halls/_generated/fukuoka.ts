@@ -37,7 +37,9 @@ export const fukuokaHalls: readonly PachinkoHall[] = [
         "tags": [
           "一人OK"
         ],
-        "address": "福岡県福岡市博多区博多駅中央街1-1"
+        "address": "福岡県福岡市博多区博多駅中央街1-1",
+        "lat": 33.5898,
+        "lng": 130.4208
       },
       {
         "id": 467,
@@ -54,6 +56,8 @@ export const fukuokaHalls: readonly PachinkoHall[] = [
           "一人OK"
         ],
         "address": "福岡県福岡市博多区博多駅中央街1-1 博多デイトス",
+        "lat": 33.5895,
+        "lng": 130.421,
         "is_kitaichimeshi": true
       },
       {
@@ -70,7 +74,9 @@ export const fukuokaHalls: readonly PachinkoHall[] = [
         "tags": [
           "一人OK"
         ],
-        "address": "福岡県福岡市博多区博多駅中央街1-1"
+        "address": "福岡県福岡市博多区博多駅中央街1-1",
+        "lat": 33.5898,
+        "lng": 130.4212
       },
       {
         "id": 466,
@@ -87,6 +93,8 @@ export const fukuokaHalls: readonly PachinkoHall[] = [
           "一人OK"
         ],
         "address": "福岡県福岡市博多区博多駅中央街1-1",
+        "lat": 33.5905,
+        "lng": 130.4185,
         "is_kitaichimeshi": true
       },
       {
@@ -103,7 +111,9 @@ export const fukuokaHalls: readonly PachinkoHall[] = [
         "tags": [
           "一人OK"
         ],
-        "address": "福岡県福岡市博多区住吉2-5-18"
+        "address": "福岡県福岡市博多区住吉2-5-18",
+        "lat": 33.5878,
+        "lng": 130.4165
       },
       {
         "id": 482,
@@ -119,7 +129,9 @@ export const fukuokaHalls: readonly PachinkoHall[] = [
         "tags": [
           "一人OK"
         ],
-        "address": "福岡県福岡市博多区住吉2-6-22"
+        "address": "福岡県福岡市博多区住吉2-6-22",
+        "lat": 33.5875,
+        "lng": 130.4158
       }
     ]
   },
@@ -153,7 +165,9 @@ export const fukuokaHalls: readonly PachinkoHall[] = [
         "tags": [
           "一人OK"
         ],
-        "address": "福岡県福岡市博多区住吉2-6-22"
+        "address": "福岡県福岡市博多区住吉2-6-22",
+        "lat": 33.5875,
+        "lng": 130.4158
       },
       {
         "id": 472,
@@ -169,7 +183,9 @@ export const fukuokaHalls: readonly PachinkoHall[] = [
         "tags": [
           "一人OK"
         ],
-        "address": "福岡県福岡市博多区住吉2-5-18"
+        "address": "福岡県福岡市博多区住吉2-5-18",
+        "lat": 33.5878,
+        "lng": 130.4165
       },
       {
         "id": 631,
@@ -185,7 +201,9 @@ export const fukuokaHalls: readonly PachinkoHall[] = [
         "tags": [
           "一人OK"
         ],
-        "address": "福岡県福岡市博多区住吉1-2-22 キャナルシティ博多ノースビルB1F"
+        "address": "福岡県福岡市博多区住吉1-2-22 キャナルシティ博多ノースビルB1F",
+        "lat": 33.589167,
+        "lng": 130.411389
       },
       {
         "id": 466,
@@ -202,6 +220,8 @@ export const fukuokaHalls: readonly PachinkoHall[] = [
           "一人OK"
         ],
         "address": "福岡県福岡市博多区博多駅中央街1-1",
+        "lat": 33.5905,
+        "lng": 130.4185,
         "is_kitaichimeshi": true
       },
       {
@@ -218,7 +238,9 @@ export const fukuokaHalls: readonly PachinkoHall[] = [
         "tags": [
           "一人OK"
         ],
-        "address": "福岡県福岡市博多区博多駅中央街1-1"
+        "address": "福岡県福岡市博多区博多駅中央街1-1",
+        "lat": 33.5898,
+        "lng": 130.4208
       },
       {
         "id": 630,
@@ -234,7 +256,9 @@ export const fukuokaHalls: readonly PachinkoHall[] = [
         "tags": [
           "一人OK"
         ],
-        "address": "福岡県福岡市博多区祇園町4-64 ニューウイングビル祇園 1F"
+        "address": "福岡県福岡市博多区祇園町4-64 ニューウイングビル祇園 1F",
+        "lat": 33.589444,
+        "lng": 130.410278
       },
       {
         "id": 467,
@@ -251,6 +275,8 @@ export const fukuokaHalls: readonly PachinkoHall[] = [
           "一人OK"
         ],
         "address": "福岡県福岡市博多区博多駅中央街1-1 博多デイトス",
+        "lat": 33.5895,
+        "lng": 130.421,
         "is_kitaichimeshi": true
       },
       {
@@ -267,7 +293,9 @@ export const fukuokaHalls: readonly PachinkoHall[] = [
         "tags": [
           "一人OK"
         ],
-        "address": "福岡県福岡市博多区博多駅中央街1-1"
+        "address": "福岡県福岡市博多区博多駅中央街1-1",
+        "lat": 33.5898,
+        "lng": 130.4212
       }
     ]
   },
@@ -301,7 +329,9 @@ export const fukuokaHalls: readonly PachinkoHall[] = [
         "tags": [
           "一人OK"
         ],
-        "address": "福岡県福岡市博多区祇園町4-64 ニューウイングビル祇園 1F"
+        "address": "福岡県福岡市博多区祇園町4-64 ニューウイングビル祇園 1F",
+        "lat": 33.589444,
+        "lng": 130.410278
       },
       {
         "id": 631,
@@ -317,7 +347,9 @@ export const fukuokaHalls: readonly PachinkoHall[] = [
         "tags": [
           "一人OK"
         ],
-        "address": "福岡県福岡市博多区住吉1-2-22 キャナルシティ博多ノースビルB1F"
+        "address": "福岡県福岡市博多区住吉1-2-22 キャナルシティ博多ノースビルB1F",
+        "lat": 33.589167,
+        "lng": 130.411389
       },
       {
         "id": 482,
@@ -333,7 +365,9 @@ export const fukuokaHalls: readonly PachinkoHall[] = [
         "tags": [
           "一人OK"
         ],
-        "address": "福岡県福岡市博多区住吉2-6-22"
+        "address": "福岡県福岡市博多区住吉2-6-22",
+        "lat": 33.5875,
+        "lng": 130.4158
       },
       {
         "id": 472,
@@ -349,7 +383,9 @@ export const fukuokaHalls: readonly PachinkoHall[] = [
         "tags": [
           "一人OK"
         ],
-        "address": "福岡県福岡市博多区住吉2-5-18"
+        "address": "福岡県福岡市博多区住吉2-5-18",
+        "lat": 33.5878,
+        "lng": 130.4165
       }
     ]
   },
@@ -384,6 +420,8 @@ export const fukuokaHalls: readonly PachinkoHall[] = [
           "一人OK"
         ],
         "address": "福岡県福岡市中央区天神2-8-12",
+        "lat": 33.5898,
+        "lng": 130.3985,
         "is_kitaichimeshi": true
       },
       {
@@ -400,7 +438,9 @@ export const fukuokaHalls: readonly PachinkoHall[] = [
         "tags": [
           "一人OK"
         ],
-        "address": "福岡県福岡市中央区天神3-3-1 木下ビル"
+        "address": "福岡県福岡市中央区天神3-3-1 木下ビル",
+        "lat": 33.590333,
+        "lng": 130.398722
       },
       {
         "id": 629,
@@ -416,7 +456,9 @@ export const fukuokaHalls: readonly PachinkoHall[] = [
         "tags": [
           "一人OK"
         ],
-        "address": "福岡県福岡市中央区今泉1-20-22 中嶋ビル1階"
+        "address": "福岡県福岡市中央区今泉1-20-22 中嶋ビル1階",
+        "lat": 33.586944,
+        "lng": 130.401667
       },
       {
         "id": 628,
@@ -432,7 +474,9 @@ export const fukuokaHalls: readonly PachinkoHall[] = [
         "tags": [
           "一人OK"
         ],
-        "address": "福岡県福岡市中央区渡辺通5-2-27"
+        "address": "福岡県福岡市中央区渡辺通5-2-27",
+        "lat": 33.586389,
+        "lng": 130.401389
       }
     ]
   },
@@ -467,6 +511,8 @@ export const fukuokaHalls: readonly PachinkoHall[] = [
           "一人OK"
         ],
         "address": "福岡県福岡市中央区天神2-8-12",
+        "lat": 33.5898,
+        "lng": 130.3985,
         "is_kitaichimeshi": true
       },
       {
@@ -483,7 +529,9 @@ export const fukuokaHalls: readonly PachinkoHall[] = [
         "tags": [
           "一人OK"
         ],
-        "address": "福岡県福岡市中央区天神3-3-1 木下ビル"
+        "address": "福岡県福岡市中央区天神3-3-1 木下ビル",
+        "lat": 33.590333,
+        "lng": 130.398722
       },
       {
         "id": 629,
@@ -499,7 +547,9 @@ export const fukuokaHalls: readonly PachinkoHall[] = [
         "tags": [
           "一人OK"
         ],
-        "address": "福岡県福岡市中央区今泉1-20-22 中嶋ビル1階"
+        "address": "福岡県福岡市中央区今泉1-20-22 中嶋ビル1階",
+        "lat": 33.586944,
+        "lng": 130.401667
       },
       {
         "id": 628,
@@ -515,7 +565,9 @@ export const fukuokaHalls: readonly PachinkoHall[] = [
         "tags": [
           "一人OK"
         ],
-        "address": "福岡県福岡市中央区渡辺通5-2-27"
+        "address": "福岡県福岡市中央区渡辺通5-2-27",
+        "lat": 33.586389,
+        "lng": 130.401389
       }
     ]
   },
@@ -549,7 +601,9 @@ export const fukuokaHalls: readonly PachinkoHall[] = [
         "tags": [
           "一人OK"
         ],
-        "address": "福岡県福岡市中央区渡辺通5-2-27"
+        "address": "福岡県福岡市中央区渡辺通5-2-27",
+        "lat": 33.586389,
+        "lng": 130.401389
       },
       {
         "id": 629,
@@ -565,7 +619,9 @@ export const fukuokaHalls: readonly PachinkoHall[] = [
         "tags": [
           "一人OK"
         ],
-        "address": "福岡県福岡市中央区今泉1-20-22 中嶋ビル1階"
+        "address": "福岡県福岡市中央区今泉1-20-22 中嶋ビル1階",
+        "lat": 33.586944,
+        "lng": 130.401667
       },
       {
         "id": 491,
@@ -582,6 +638,8 @@ export const fukuokaHalls: readonly PachinkoHall[] = [
           "一人OK"
         ],
         "address": "福岡県福岡市中央区天神2-8-12",
+        "lat": 33.5898,
+        "lng": 130.3985,
         "is_kitaichimeshi": true
       },
       {
@@ -598,7 +656,9 @@ export const fukuokaHalls: readonly PachinkoHall[] = [
         "tags": [
           "一人OK"
         ],
-        "address": "福岡県福岡市中央区天神3-3-1 木下ビル"
+        "address": "福岡県福岡市中央区天神3-3-1 木下ビル",
+        "lat": 33.590333,
+        "lng": 130.398722
       }
     ]
   }

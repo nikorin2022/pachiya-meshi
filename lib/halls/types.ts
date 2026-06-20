@@ -41,6 +41,10 @@ export type Restaurant = {
   tags: string[]
   /** 表示用テキスト専用。マップ URL 生成には使わない */
   address: string
+  /** 経路検索の終点座標（マップ URL 生成用） */
+  lat: number
+  /** 経路検索の終点座標（マップ URL 生成用） */
+  lng: number
   /** 期待値飯として表示するか（未指定は false 扱い） */
   is_kitaichimeshi?: boolean
 }

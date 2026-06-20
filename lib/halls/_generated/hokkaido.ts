@@ -37,7 +37,9 @@ export const hokkaidoHalls: readonly PachinkoHall[] = [
         "tags": [
           "一人OK"
         ],
-        "address": "北海道札幌市中央区北4条西2-4-8"
+        "address": "北海道札幌市中央区北4条西2-4-8",
+        "lat": 43.0655,
+        "lng": 141.3505
       },
       {
         "id": 597,
@@ -53,7 +55,9 @@ export const hokkaidoHalls: readonly PachinkoHall[] = [
         "tags": [
           "一人OK"
         ],
-        "address": "北海道札幌市中央区北4条西2-6-1"
+        "address": "北海道札幌市中央区北4条西2-6-1",
+        "lat": 43.0665,
+        "lng": 141.3515
       },
       {
         "id": 624,
@@ -69,7 +73,9 @@ export const hokkaidoHalls: readonly PachinkoHall[] = [
         "tags": [
           "一人OK"
         ],
-        "address": "北海道札幌市中央区北1条西3-3 敷島北一条ビル"
+        "address": "北海道札幌市中央区北1条西3-3 敷島北一条ビル",
+        "lat": 43.062375,
+        "lng": 141.351999
       },
       {
         "id": 623,
@@ -85,7 +91,9 @@ export const hokkaidoHalls: readonly PachinkoHall[] = [
         "tags": [
           "一人OK"
         ],
-        "address": "北海道札幌市中央区北1条西3-2-5 藤栄ビルヂング1F"
+        "address": "北海道札幌市中央区北1条西3-2-5 藤栄ビルヂング1F",
+        "lat": 43.062056,
+        "lng": 141.347222
       }
     ]
   },
@@ -119,7 +127,9 @@ export const hokkaidoHalls: readonly PachinkoHall[] = [
         "tags": [
           "一人OK"
         ],
-        "address": "北海道札幌市中央区北4条西2-6-1"
+        "address": "北海道札幌市中央区北4条西2-6-1",
+        "lat": 43.0665,
+        "lng": 141.3515
       },
       {
         "id": 598,
@@ -135,7 +145,9 @@ export const hokkaidoHalls: readonly PachinkoHall[] = [
         "tags": [
           "一人OK"
         ],
-        "address": "北海道札幌市中央区北4条西2-4-8"
+        "address": "北海道札幌市中央区北4条西2-4-8",
+        "lat": 43.0655,
+        "lng": 141.3505
       },
       {
         "id": 624,
@@ -151,7 +163,9 @@ export const hokkaidoHalls: readonly PachinkoHall[] = [
         "tags": [
           "一人OK"
         ],
-        "address": "北海道札幌市中央区北1条西3-3 敷島北一条ビル"
+        "address": "北海道札幌市中央区北1条西3-3 敷島北一条ビル",
+        "lat": 43.062375,
+        "lng": 141.351999
       },
       {
         "id": 623,
@@ -167,7 +181,9 @@ export const hokkaidoHalls: readonly PachinkoHall[] = [
         "tags": [
           "一人OK"
         ],
-        "address": "北海道札幌市中央区北1条西3-2-5 藤栄ビルヂング1F"
+        "address": "北海道札幌市中央区北1条西3-2-5 藤栄ビルヂング1F",
+        "lat": 43.062056,
+        "lng": 141.347222
       }
     ]
   },
@@ -201,7 +217,9 @@ export const hokkaidoHalls: readonly PachinkoHall[] = [
         "tags": [
           "一人OK"
         ],
-        "address": "北海道札幌市中央区南2条西3-8-10"
+        "address": "北海道札幌市中央区南2条西3-8-10",
+        "lat": 43.0588,
+        "lng": 141.3525
       },
       {
         "id": 626,
@@ -216,7 +234,9 @@ export const hokkaidoHalls: readonly PachinkoHall[] = [
         "tags": [
           "一人OK"
         ],
-        "address": "北海道札幌市中央区南3条東1 新二条市場内"
+        "address": "北海道札幌市中央区南3条東1 新二条市場内",
+        "lat": 43.057278,
+        "lng": 141.354167
       },
       {
         "id": 625,
@@ -232,7 +252,9 @@ export const hokkaidoHalls: readonly PachinkoHall[] = [
         "tags": [
           "一人OK"
         ],
-        "address": "北海道札幌市中央区南3条西6-8"
+        "address": "北海道札幌市中央区南3条西6-8",
+        "lat": 43.056528,
+        "lng": 141.349599
       },
       {
         "id": 624,
@@ -248,7 +270,9 @@ export const hokkaidoHalls: readonly PachinkoHall[] = [
         "tags": [
           "一人OK"
         ],
-        "address": "北海道札幌市中央区北1条西3-3 敷島北一条ビル"
+        "address": "北海道札幌市中央区北1条西3-3 敷島北一条ビル",
+        "lat": 43.062375,
+        "lng": 141.351999
       },
       {
         "id": 623,
@@ -264,7 +288,9 @@ export const hokkaidoHalls: readonly PachinkoHall[] = [
         "tags": [
           "一人OK"
         ],
-        "address": "北海道札幌市中央区北1条西3-2-5 藤栄ビルヂング1F"
+        "address": "北海道札幌市中央区北1条西3-2-5 藤栄ビルヂング1F",
+        "lat": 43.062056,
+        "lng": 141.347222
       }
     ]
   }

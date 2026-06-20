@@ -37,7 +37,9 @@ export const aichiHalls: readonly PachinkoHall[] = [
         "tags": [
           "一人OK"
         ],
-        "address": "愛知県名古屋市中区大須3-34-10"
+        "address": "愛知県名古屋市中区大須3-34-10",
+        "lat": 35.1678,
+        "lng": 136.9082
       },
       {
         "id": 514,
@@ -53,7 +55,9 @@ export const aichiHalls: readonly PachinkoHall[] = [
         "tags": [
           "一人OK"
         ],
-        "address": "愛知県名古屋市中区大須3-6-18"
+        "address": "愛知県名古屋市中区大須3-6-18",
+        "lat": 35.1682,
+        "lng": 136.9085
       },
       {
         "id": 516,
@@ -69,7 +73,9 @@ export const aichiHalls: readonly PachinkoHall[] = [
         "tags": [
           "一人OK"
         ],
-        "address": "愛知県名古屋市中区栄3-12-19"
+        "address": "愛知県名古屋市中区栄3-12-19",
+        "lat": 35.1685,
+        "lng": 136.9078
       },
       {
         "id": 615,
@@ -85,7 +91,9 @@ export const aichiHalls: readonly PachinkoHall[] = [
         "tags": [
           "一人OK"
         ],
-        "address": "愛知県名古屋市中区錦3-6-15"
+        "address": "愛知県名古屋市中区錦3-6-15",
+        "lat": 35.171667,
+        "lng": 136.908056
       },
       {
         "id": 614,
@@ -101,7 +109,9 @@ export const aichiHalls: readonly PachinkoHall[] = [
         "tags": [
           "一人OK"
         ],
-        "address": "愛知県名古屋市中区新栄町2-13 栄トリッドスクエア 1F"
+        "address": "愛知県名古屋市中区新栄町2-13 栄トリッドスクエア 1F",
+        "lat": 35.170972,
+        "lng": 136.911389
       }
     ]
   },
@@ -135,7 +145,9 @@ export const aichiHalls: readonly PachinkoHall[] = [
         "tags": [
           "一人OK"
         ],
-        "address": "愛知県名古屋市中区栄3-12-19"
+        "address": "愛知県名古屋市中区栄3-12-19",
+        "lat": 35.1685,
+        "lng": 136.9078
       },
       {
         "id": 515,
@@ -151,7 +163,9 @@ export const aichiHalls: readonly PachinkoHall[] = [
         "tags": [
           "一人OK"
         ],
-        "address": "愛知県名古屋市中区大須3-34-10"
+        "address": "愛知県名古屋市中区大須3-34-10",
+        "lat": 35.1678,
+        "lng": 136.9082
       },
       {
         "id": 514,
@@ -167,7 +181,9 @@ export const aichiHalls: readonly PachinkoHall[] = [
         "tags": [
           "一人OK"
         ],
-        "address": "愛知県名古屋市中区大須3-6-18"
+        "address": "愛知県名古屋市中区大須3-6-18",
+        "lat": 35.1682,
+        "lng": 136.9085
       },
       {
         "id": 615,
@@ -183,7 +199,9 @@ export const aichiHalls: readonly PachinkoHall[] = [
         "tags": [
           "一人OK"
         ],
-        "address": "愛知県名古屋市中区錦3-6-15"
+        "address": "愛知県名古屋市中区錦3-6-15",
+        "lat": 35.171667,
+        "lng": 136.908056
       },
       {
         "id": 614,
@@ -199,7 +217,9 @@ export const aichiHalls: readonly PachinkoHall[] = [
         "tags": [
           "一人OK"
         ],
-        "address": "愛知県名古屋市中区新栄町2-13 栄トリッドスクエア 1F"
+        "address": "愛知県名古屋市中区新栄町2-13 栄トリッドスクエア 1F",
+        "lat": 35.170972,
+        "lng": 136.911389
       }
     ]
   },
@@ -233,7 +253,9 @@ export const aichiHalls: readonly PachinkoHall[] = [
         "tags": [
           "一人OK"
         ],
-        "address": "愛知県名古屋市中区新栄町2-13 栄トリッドスクエア 1F"
+        "address": "愛知県名古屋市中区新栄町2-13 栄トリッドスクエア 1F",
+        "lat": 35.170972,
+        "lng": 136.911389
       },
       {
         "id": 613,
@@ -249,7 +271,9 @@ export const aichiHalls: readonly PachinkoHall[] = [
         "tags": [
           "一人OK"
         ],
-        "address": "愛知県名古屋市中区新栄1-1-2 名北東新町ビル"
+        "address": "愛知県名古屋市中区新栄1-1-2 名北東新町ビル",
+        "lat": 35.1691068,
+        "lng": 136.9149562
       },
       {
         "id": 615,
@@ -265,7 +289,9 @@ export const aichiHalls: readonly PachinkoHall[] = [
         "tags": [
           "一人OK"
         ],
-        "address": "愛知県名古屋市中区錦3-6-15"
+        "address": "愛知県名古屋市中区錦3-6-15",
+        "lat": 35.171667,
+        "lng": 136.908056
       }
     ]
   },
@@ -299,7 +325,9 @@ export const aichiHalls: readonly PachinkoHall[] = [
         "tags": [
           "一人OK"
         ],
-        "address": "愛知県名古屋市中村区名駅4-7-25先 名古屋地下街サンロード"
+        "address": "愛知県名古屋市中村区名駅4-7-25先 名古屋地下街サンロード",
+        "lat": 35.170611,
+        "lng": 136.884056
       },
       {
         "id": 544,
@@ -315,7 +343,9 @@ export const aichiHalls: readonly PachinkoHall[] = [
         "tags": [
           "一人OK"
         ],
-        "address": "愛知県名古屋市中村区名駅4-8-15"
+        "address": "愛知県名古屋市中村区名駅4-8-15",
+        "lat": 35.1708,
+        "lng": 136.8838
       },
       {
         "id": 617,
@@ -331,7 +361,9 @@ export const aichiHalls: readonly PachinkoHall[] = [
         "tags": [
           "一人OK"
         ],
-        "address": "愛知県名古屋市中村区椿町6-9 エスカ地下街"
+        "address": "愛知県名古屋市中村区椿町6-9 エスカ地下街",
+        "lat": 35.170556,
+        "lng": 136.882222
       },
       {
         "id": 616,
@@ -347,7 +379,9 @@ export const aichiHalls: readonly PachinkoHall[] = [
         "tags": [
           "一人OK"
         ],
-        "address": "愛知県名古屋市中村区名駅1-1-4 JR名古屋駅 1Fコンコース"
+        "address": "愛知県名古屋市中村区名駅1-1-4 JR名古屋駅 1Fコンコース",
+        "lat": 35.170583,
+        "lng": 136.881611
       }
     ]
   }

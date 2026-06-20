@@ -1,0 +1,784 @@
+{
+  "summary": {
+    "totalHalls": 134,
+    "totalRestaurants": 462,
+    "hallDuplicateCoordGroups": 1,
+    "hallRoundedLowPrecision": 1,
+    "restaurantDuplicateCoordGroups": 3,
+    "restaurantDuplicateNames": 2,
+    "restaurantRoundedLowPrecision": 19,
+    "matchedPairsStraightOver1km": 0,
+    "hallsAffectedStraightOver1km": 0,
+    "destinationNameOnlyPairs": 1460,
+    "allHallsEmbedNameRouteCoords": 134,
+    "shikairiUmedaCase": [
+      {
+        "restaurant": "無鉄砲 梅田店",
+        "address": "大阪府大阪市北区曽根崎2-10-9",
+        "straightM": 43,
+        "dataWalkMin": 1,
+        "routeUrl": "https://maps.google.com/maps?saddr=34.7008%2C135.4992&daddr=%E7%84%A1%E9%89%84%E7%A0%B2%20%E6%A2%85%E7%94%B0%E5%BA%97&dirflg=w&output=embed",
+        "hallCoords": {
+          "lat": 34.7008,
+          "lng": 135.4992
+        },
+        "restaurantCoords": {
+          "lat": 34.7005,
+          "lng": 135.4995
+        }
+      },
+      {
+        "restaurant": "らーめん わいず 梅田店",
+        "address": "大阪府大阪市北区曽根崎2-12-6",
+        "straightM": 37,
+        "dataWalkMin": 1,
+        "routeUrl": "https://maps.google.com/maps?saddr=34.7008%2C135.4992&daddr=%E3%82%89%E3%83%BC%E3%82%81%E3%82%93%20%E3%82%8F%E3%81%84%E3%81%9A%20%E6%A2%85%E7%94%B0%E5%BA%97&dirflg=w&output=embed",
+        "hallCoords": {
+          "lat": 34.7008,
+          "lng": 135.4992
+        },
+        "restaurantCoords": {
+          "lat": 34.7008,
+          "lng": 135.4988
+        }
+      },
+      {
+        "restaurant": "スタウト 梅田本店",
+        "address": "大阪府大阪市北区曽根崎2-9-1",
+        "straightM": 71,
+        "dataWalkMin": 2,
+        "routeUrl": "https://maps.google.com/maps?saddr=34.7008%2C135.4992&daddr=%E3%82%B9%E3%82%BF%E3%82%A6%E3%83%88%20%E6%A2%85%E7%94%B0%E6%9C%AC%E5%BA%97&dirflg=w&output=embed",
+        "hallCoords": {
+          "lat": 34.7008,
+          "lng": 135.4992
+        },
+        "restaurantCoords": {
+          "lat": 34.7004,
+          "lng": 135.4998
+        }
+      },
+      {
+        "restaurant": "粉や うめきた",
+        "address": "大阪府大阪市北区大深町3-1 うめきた阪急ビル",
+        "straightM": 524,
+        "dataWalkMin": 9,
+        "routeUrl": "https://maps.google.com/maps?saddr=34.7008%2C135.4992&daddr=%E7%B2%89%E3%82%84%20%E3%81%86%E3%82%81%E3%81%8D%E3%81%9F&dirflg=w&output=embed",
+        "hallCoords": {
+          "lat": 34.7008,
+          "lng": 135.4992
+        },
+        "restaurantCoords": {
+          "lat": 34.7035,
+          "lng": 135.4945
+        }
+      },
+      {
+        "restaurant": "ずんどう屋 梅田店",
+        "address": "大阪府大阪市北区梅田2-5-15",
+        "straightM": 86,
+        "dataWalkMin": 2,
+        "routeUrl": "https://maps.google.com/maps?saddr=34.7008%2C135.4992&daddr=%E3%81%9A%E3%82%93%E3%81%A9%E3%81%86%E5%B1%8B%20%E6%A2%85%E7%94%B0%E5%BA%97&dirflg=w&output=embed",
+        "hallCoords": {
+          "lat": 34.7008,
+          "lng": 135.4992
+        },
+        "restaurantCoords": {
+          "lat": 34.7015,
+          "lng": 135.4988
+        }
+      }
+    ]
+  },
+  "hallIssues": {
+    "missingCoords": [],
+    "duplicateCoords": [
+      {
+        "coords": "38.2595,140.8810",
+        "hallIds": [
+          "ams-garden-sendai-ekimae",
+          "vegas-vegas-nakakecho"
+        ]
+      }
+    ],
+    "roundedCoords": [
+      {
+        "id": "vegas-vegas-shinjuku-minamiguchi",
+        "name": "ベガスベガス新宿東南口店",
+        "lat": 35.69,
+        "lng": 139.702,
+        "address": "東京都新宿区新宿3-36-16"
+      }
+    ],
+    "focusPref": {
+      "osaka": [
+        {
+          "id": "maruhan-nanba-honten",
+          "name": "マルハンなんば本館",
+          "lat": 34.6673,
+          "lng": 135.5065,
+          "address": "大阪府大阪市中央区千日前2丁目11-5"
+        },
+        {
+          "id": "maruhan-nanba-shinkan",
+          "name": "マルハンなんば新館",
+          "lat": 34.6655,
+          "lng": 135.5042,
+          "address": "大阪府大阪市中央区難波3-1-34"
+        },
+        {
+          "id": "rakuen-nanba",
+          "name": "楽園なんば店",
+          "lat": 34.6662,
+          "lng": 135.5058,
+          "address": "大阪府大阪市中央区難波千日前12番35号 SWINGヨシモト"
+        },
+        {
+          "id": "123-nanba",
+          "name": "123難波店",
+          "lat": 34.6658,
+          "lng": 135.5065,
+          "address": "大阪府大阪市中央区難波1-8-16"
+        },
+        {
+          "id": "maruhan-umeda",
+          "name": "マルハン梅田店",
+          "lat": 34.703271,
+          "lng": 135.501011,
+          "address": "大阪府大阪市北区小松原町4-16 梅田ナナイロ 地下1階・地下2階"
+        },
+        {
+          "id": "123n-osaka-honten",
+          "name": "123＋N大阪本店",
+          "lat": 34.7052,
+          "lng": 135.4948,
+          "address": "大阪府大阪市北区兎我野町16-11"
+        },
+        {
+          "id": "shikairi-umeda",
+          "name": "四海樓梅田店",
+          "lat": 34.7008,
+          "lng": 135.4992,
+          "address": "大阪府大阪市北区曽根崎2-14-17 CIビル"
+        },
+        {
+          "id": "dai-toyo-honten",
+          "name": "大東洋本店",
+          "lat": 34.703,
+          "lng": 135.5008,
+          "address": "大阪府大阪市北区小松原町4-7"
+        },
+        {
+          "id": "shikairi-hep-five",
+          "name": "四海樓 HEP FIVE店",
+          "lat": 34.7028,
+          "lng": 135.4985,
+          "address": "大阪府大阪市北区角田町5-15 HEP FIVE B2F"
+        },
+        {
+          "id": "slot123-umeda",
+          "name": "スロット123梅田店",
+          "lat": 34.701,
+          "lng": 135.4965,
+          "address": "大阪府大阪市北区梅田1-2-2-100 大阪駅前第2ビル1F"
+        },
+        {
+          "id": "arrow-namba-hips",
+          "name": "ARROW namBa HIPS",
+          "lat": 34.6676456,
+          "lng": 135.500737,
+          "address": "大阪府大阪市中央区難波1-8-16"
+        },
+        {
+          "id": "shikairi-air-nanba",
+          "name": "四海樓air店",
+          "lat": 34.6678,
+          "lng": 135.507,
+          "address": "大阪府大阪市中央区千日前2-11-9"
+        },
+        {
+          "id": "club-d-nanba",
+          "name": "CLUB-D",
+          "lat": 34.6675,
+          "lng": 135.5065,
+          "address": "大阪府大阪市中央区千日前2-9-17 千日前中央ビル アムザ1000 B1F"
+        }
+      ],
+      "aichi": [
+        {
+          "id": "king-thousand-sakae-wakamiya",
+          "name": "キング観光サウザンド栄若宮大通店",
+          "lat": 35.166972,
+          "lng": 136.907833,
+          "address": "愛知県名古屋市中区栄5丁目26番12号"
+        },
+        {
+          "id": "king-thousand-sakae-sumiyoshi",
+          "name": "キング観光サウザンド栄住吉店",
+          "lat": 35.169722,
+          "lng": 136.905278,
+          "address": "愛知県名古屋市中区栄3丁目2番17号"
+        },
+        {
+          "id": "king-thousand-sakae-higashishinmachi",
+          "name": "キング観光サウザンド栄東新町店",
+          "lat": 35.1725,
+          "lng": 136.912778,
+          "address": "愛知県名古屋市中区新栄1丁目1番31号"
+        },
+        {
+          "id": "king-thousand-nagoya-ekimae-yanagibashi",
+          "name": "キング観光サウザンド名古屋駅柳橋店",
+          "lat": 35.170278,
+          "lng": 136.883611,
+          "address": "愛知県名古屋市中村区名駅4丁目11番4号"
+        }
+      ],
+      "miyagi": [
+        {
+          "id": "p-station-slot-sendai",
+          "name": "P-STATION＆IIスロット館",
+          "lat": 38.26015,
+          "lng": 140.88075,
+          "address": "宮城県仙台市青葉区中央1丁目10-10 B1F"
+        },
+        {
+          "id": "maruhan-sendai-ekihigashi",
+          "name": "マルハン仙台駅東店",
+          "lat": 38.26086,
+          "lng": 140.88542,
+          "address": "宮城県仙台市宮城野区榴岡2-1-25 BiVi仙台駅東口 B1F"
+        },
+        {
+          "id": "ams-garden-sendai-ekimae",
+          "name": "アムズガーデン仙台駅前店",
+          "lat": 38.25948,
+          "lng": 140.88105,
+          "address": "宮城県仙台市青葉区中央1-7-10"
+        },
+        {
+          "id": "vegas-vegas-nakakecho",
+          "name": "ベガスベガス名掛丁店",
+          "lat": 38.25955,
+          "lng": 140.88095,
+          "address": "宮城県仙台市青葉区中央1-7-8"
+        }
+      ],
+      "hokkaido": [
+        {
+          "id": "himawari-sapporo-ekimae-tower",
+          "name": "札幌駅前ひまわりタワー店",
+          "lat": 43.065833,
+          "lng": 141.350278,
+          "address": "北海道札幌市中央区北4条西2丁目1-3"
+        },
+        {
+          "id": "vegas-vegas-sapporo",
+          "name": "ベガスベガス札幌店",
+          "lat": 43.066111,
+          "lng": 141.352222,
+          "address": "北海道札幌市中央区北4条西1丁目4-1"
+        },
+        {
+          "id": "vegas-vegas-tanukikoji",
+          "name": "ベガスベガス狸小路店",
+          "lat": 43.058333,
+          "lng": 141.351944,
+          "address": "北海道札幌市中央区南2条西4丁目1-3 札幌ナナイロ"
+        }
+      ]
+    }
+  },
+  "restaurantIssues": {
+    "missingCoords": [],
+    "duplicateCoords": [
+      {
+        "coords": "35.6588,139.6983",
+        "restaurantIds": [
+          "kindenmaru-shibuya-dogenzaka",
+          "katsuya-shibuya-dogenzaka"
+        ]
+      },
+      {
+        "coords": "35.6658,139.7576",
+        "restaurantIds": [
+          "katsuya-shinbashi",
+          "komoro-soba-shinbashi"
+        ]
+      },
+      {
+        "coords": "35.6965,139.4180",
+        "restaurantIds": [
+          "matsuya-tachikawa-shibasakicho",
+          "matsunoya-tachikawa-shibasakicho"
+        ]
+      }
+    ],
+    "roundedCoords": [
+      {
+        "id": "kamukura-nanba",
+        "name": "神座 なんば道頓堀店",
+        "lat": 34.666,
+        "lng": 135.507,
+        "address": "大阪府大阪市中央区難波1-8-17"
+      },
+      {
+        "id": "soupcurry-kamui-nanba",
+        "name": "スープカレーカムイ なんば店",
+        "lat": 34.669,
+        "lng": 135.502,
+        "address": "大阪府大阪市中央区道頓堀1-5-7"
+      },
+      {
+        "id": "matuya-nanba",
+        "name": "松屋 難波駅前店",
+        "lat": 34.664,
+        "lng": 135.501,
+        "address": "大阪府大阪市中央区難波5-1-17"
+      },
+      {
+        "id": "shake-shack-nanba",
+        "name": "Shake Shack なんばパークス",
+        "lat": 34.663,
+        "lng": 135.501,
+        "address": "大阪府大阪市中央区難波5-1-60 なんばパークス"
+      },
+      {
+        "id": "matsuya-mycurry-shibuya-sakuragaoka",
+        "name": "松屋・マイカリー食堂 渋谷桜丘店",
+        "lat": 35.657,
+        "lng": 139.702,
+        "address": "東京都渋谷区桜丘町1-4 渋谷サクラステージ SHIBUYAサイド 1F"
+      },
+      {
+        "id": "matsuya-machida",
+        "name": "松屋 町田店",
+        "lat": 35.542,
+        "lng": 139.448,
+        "address": "東京都町田市原町田4-4-15"
+      },
+      {
+        "id": "cocoichi-ueno-okachimachi-showadori",
+        "name": "カレーハウスCoCo壱番屋 御徒町昭和通り店",
+        "lat": 35.708,
+        "lng": 139.775,
+        "address": "東京都台東区上野5-15-17 東和ビル1F"
+      },
+      {
+        "id": "mcdonalds-gotanda",
+        "name": "マクドナルド 五反田店",
+        "lat": 35.625,
+        "lng": 139.722,
+        "address": "東京都品川区西五反田1-20-3"
+      },
+      {
+        "id": "matsuya-kichijoji",
+        "name": "松屋 吉祥寺店",
+        "lat": 35.703,
+        "lng": 139.579,
+        "address": "東京都武蔵野市吉祥寺本町1-20-3"
+      },
+      {
+        "id": "matsuya-akabane-higashiguchi",
+        "name": "松屋 赤羽東口店",
+        "lat": 35.778,
+        "lng": 139.722,
+        "address": "東京都北区赤羽1-2-6 赤羽駅前丸澤ビル1F"
+      },
+      {
+        "id": "sukiya-koiwa-shibamata",
+        "name": "すき家 柴又街道小岩店",
+        "lat": 35.731,
+        "lng": 139.888,
+        "address": "東京都江戸川区東小岩6-3-5"
+      },
+      {
+        "id": "sukiya-ayase-nishiguchi",
+        "name": "すき家 綾瀬西口店",
+        "lat": 35.762,
+        "lng": 139.823,
+        "address": "東京都足立区綾瀬3-1-8"
+      },
+      {
+        "id": "katsuya-nishi-nippori",
+        "name": "かつや 西日暮里店",
+        "lat": 35.733,
+        "lng": 139.769,
+        "address": "東京都荒川区西日暮里2-19-5"
+      },
+      {
+        "id": "komoro-soba-chofu",
+        "name": "小諸そば 調布店",
+        "lat": 35.65,
+        "lng": 139.546,
+        "address": "東京都調布市布田2-46-3"
+      },
+      {
+        "id": "ramen-kagetsu-chofu",
+        "name": "花月嵐 調布店",
+        "lat": 35.653,
+        "lng": 139.545,
+        "address": "東京都調布市布田4-5-3"
+      },
+      {
+        "id": "cocoichi-mitaka",
+        "name": "CoCo壱番屋 三鷹店",
+        "lat": 35.703,
+        "lng": 139.56,
+        "address": "東京都三鷹市下連雀3-29-5"
+      },
+      {
+        "id": "yakiniku-like-mitaka",
+        "name": "焼肉ライク 三鷹店",
+        "lat": 35.704,
+        "lng": 139.559,
+        "address": "東京都三鷹市下連雀3-24-2"
+      },
+      {
+        "id": "ramen-kagetsu-shin-nakano",
+        "name": "花月嵐 新中野店",
+        "lat": 35.709,
+        "lng": 139.668,
+        "address": "東京都中野区中央5-30-2"
+      },
+      {
+        "id": "yayoiken-shin-nakano",
+        "name": "やよい軒 新中野店",
+        "lat": 35.71,
+        "lng": 139.669,
+        "address": "東京都中野区中央5-27-2"
+      }
+    ],
+    "duplicateNames": [
+      {
+        "name": "くら寿司 御徒町店",
+        "ids": [
+          "kurasushi-okachimachi",
+          "kurasushi-okachimachi-kita"
+        ]
+      },
+      {
+        "name": "小諸そば 御徒町店",
+        "ids": [
+          "komoro-soba-ueno-okachimachi",
+          "komoro-soba-okachimachi"
+        ]
+      }
+    ],
+    "nameOnlyDestinationRisk": [
+      {
+        "id": "darumaken-sapporo",
+        "name": "だるま軒",
+        "reason": "short_name"
+      },
+      {
+        "id": "konamon-umeda",
+        "name": "粉や うめきた",
+        "reason": "short_name"
+      },
+      {
+        "id": "marugo",
+        "name": "丸五",
+        "reason": "short_name"
+      },
+      {
+        "id": "manrai-shinjuku",
+        "name": "らぁめん 満来",
+        "reason": "short_name"
+      },
+      {
+        "id": "mukan-ikebukuro",
+        "name": "むかん 池袋",
+        "reason": "short_name"
+      },
+      {
+        "id": "mutekiya-ikebukuro",
+        "name": "麺創房 無敵家",
+        "reason": "short_name"
+      },
+      {
+        "id": "yasaburo-ikebukuro",
+        "name": "弥三郎",
+        "reason": "short_name"
+      },
+      {
+        "id": "ginza-soryu",
+        "name": "銀座 創龍",
+        "reason": "short_name"
+      },
+      {
+        "id": "ramen-ichiro-ginza",
+        "name": "らーめん一郎",
+        "reason": "short_name"
+      },
+      {
+        "id": "akebono-yurakucho",
+        "name": "あけぼの",
+        "reason": "short_name"
+      },
+      {
+        "id": "kameari-taishoken",
+        "name": "亀有大勝軒",
+        "reason": "short_name"
+      }
+    ]
+  },
+  "matcherIssues": {
+    "straightOver1km": [],
+    "walkOver10ButUnder800m": [],
+    "shikairiUmedaRoutes": [
+      {
+        "restaurant": "無鉄砲 梅田店",
+        "address": "大阪府大阪市北区曽根崎2-10-9",
+        "straightM": 43,
+        "dataWalkMin": 1,
+        "routeUrl": "https://maps.google.com/maps?saddr=34.7008%2C135.4992&daddr=%E7%84%A1%E9%89%84%E7%A0%B2%20%E6%A2%85%E7%94%B0%E5%BA%97&dirflg=w&output=embed",
+        "hallCoords": {
+          "lat": 34.7008,
+          "lng": 135.4992
+        },
+        "restaurantCoords": {
+          "lat": 34.7005,
+          "lng": 135.4995
+        }
+      },
+      {
+        "restaurant": "らーめん わいず 梅田店",
+        "address": "大阪府大阪市北区曽根崎2-12-6",
+        "straightM": 37,
+        "dataWalkMin": 1,
+        "routeUrl": "https://maps.google.com/maps?saddr=34.7008%2C135.4992&daddr=%E3%82%89%E3%83%BC%E3%82%81%E3%82%93%20%E3%82%8F%E3%81%84%E3%81%9A%20%E6%A2%85%E7%94%B0%E5%BA%97&dirflg=w&output=embed",
+        "hallCoords": {
+          "lat": 34.7008,
+          "lng": 135.4992
+        },
+        "restaurantCoords": {
+          "lat": 34.7008,
+          "lng": 135.4988
+        }
+      },
+      {
+        "restaurant": "スタウト 梅田本店",
+        "address": "大阪府大阪市北区曽根崎2-9-1",
+        "straightM": 71,
+        "dataWalkMin": 2,
+        "routeUrl": "https://maps.google.com/maps?saddr=34.7008%2C135.4992&daddr=%E3%82%B9%E3%82%BF%E3%82%A6%E3%83%88%20%E6%A2%85%E7%94%B0%E6%9C%AC%E5%BA%97&dirflg=w&output=embed",
+        "hallCoords": {
+          "lat": 34.7008,
+          "lng": 135.4992
+        },
+        "restaurantCoords": {
+          "lat": 34.7004,
+          "lng": 135.4998
+        }
+      },
+      {
+        "restaurant": "粉や うめきた",
+        "address": "大阪府大阪市北区大深町3-1 うめきた阪急ビル",
+        "straightM": 524,
+        "dataWalkMin": 9,
+        "routeUrl": "https://maps.google.com/maps?saddr=34.7008%2C135.4992&daddr=%E7%B2%89%E3%82%84%20%E3%81%86%E3%82%81%E3%81%8D%E3%81%9F&dirflg=w&output=embed",
+        "hallCoords": {
+          "lat": 34.7008,
+          "lng": 135.4992
+        },
+        "restaurantCoords": {
+          "lat": 34.7035,
+          "lng": 135.4945
+        }
+      },
+      {
+        "restaurant": "ずんどう屋 梅田店",
+        "address": "大阪府大阪市北区梅田2-5-15",
+        "straightM": 86,
+        "dataWalkMin": 2,
+        "routeUrl": "https://maps.google.com/maps?saddr=34.7008%2C135.4992&daddr=%E3%81%9A%E3%82%93%E3%81%A9%E3%81%86%E5%B1%8B%20%E6%A2%85%E7%94%B0%E5%BA%97&dirflg=w&output=embed",
+        "hallCoords": {
+          "lat": 34.7008,
+          "lng": 135.4992
+        },
+        "restaurantCoords": {
+          "lat": 34.7015,
+          "lng": 135.4988
+        }
+      }
+    ]
+  },
+  "focusPrefHallCoords": {
+    "osaka": [
+      {
+        "id": "maruhan-nanba-honten",
+        "name": "マルハンなんば本館",
+        "lat": 34.6673,
+        "lng": 135.5065,
+        "address": "大阪府大阪市中央区千日前2丁目11-5"
+      },
+      {
+        "id": "maruhan-nanba-shinkan",
+        "name": "マルハンなんば新館",
+        "lat": 34.6655,
+        "lng": 135.5042,
+        "address": "大阪府大阪市中央区難波3-1-34"
+      },
+      {
+        "id": "rakuen-nanba",
+        "name": "楽園なんば店",
+        "lat": 34.6662,
+        "lng": 135.5058,
+        "address": "大阪府大阪市中央区難波千日前12番35号 SWINGヨシモト"
+      },
+      {
+        "id": "123-nanba",
+        "name": "123難波店",
+        "lat": 34.6658,
+        "lng": 135.5065,
+        "address": "大阪府大阪市中央区難波1-8-16"
+      },
+      {
+        "id": "maruhan-umeda",
+        "name": "マルハン梅田店",
+        "lat": 34.703271,
+        "lng": 135.501011,
+        "address": "大阪府大阪市北区小松原町4-16 梅田ナナイロ 地下1階・地下2階"
+      },
+      {
+        "id": "123n-osaka-honten",
+        "name": "123＋N大阪本店",
+        "lat": 34.7052,
+        "lng": 135.4948,
+        "address": "大阪府大阪市北区兎我野町16-11"
+      },
+      {
+        "id": "shikairi-umeda",
+        "name": "四海樓梅田店",
+        "lat": 34.7008,
+        "lng": 135.4992,
+        "address": "大阪府大阪市北区曽根崎2-14-17 CIビル"
+      },
+      {
+        "id": "dai-toyo-honten",
+        "name": "大東洋本店",
+        "lat": 34.703,
+        "lng": 135.5008,
+        "address": "大阪府大阪市北区小松原町4-7"
+      },
+      {
+        "id": "shikairi-hep-five",
+        "name": "四海樓 HEP FIVE店",
+        "lat": 34.7028,
+        "lng": 135.4985,
+        "address": "大阪府大阪市北区角田町5-15 HEP FIVE B2F"
+      },
+      {
+        "id": "slot123-umeda",
+        "name": "スロット123梅田店",
+        "lat": 34.701,
+        "lng": 135.4965,
+        "address": "大阪府大阪市北区梅田1-2-2-100 大阪駅前第2ビル1F"
+      },
+      {
+        "id": "arrow-namba-hips",
+        "name": "ARROW namBa HIPS",
+        "lat": 34.6676456,
+        "lng": 135.500737,
+        "address": "大阪府大阪市中央区難波1-8-16"
+      },
+      {
+        "id": "shikairi-air-nanba",
+        "name": "四海樓air店",
+        "lat": 34.6678,
+        "lng": 135.507,
+        "address": "大阪府大阪市中央区千日前2-11-9"
+      },
+      {
+        "id": "club-d-nanba",
+        "name": "CLUB-D",
+        "lat": 34.6675,
+        "lng": 135.5065,
+        "address": "大阪府大阪市中央区千日前2-9-17 千日前中央ビル アムザ1000 B1F"
+      }
+    ],
+    "aichi": [
+      {
+        "id": "king-thousand-sakae-wakamiya",
+        "name": "キング観光サウザンド栄若宮大通店",
+        "lat": 35.166972,
+        "lng": 136.907833,
+        "address": "愛知県名古屋市中区栄5丁目26番12号"
+      },
+      {
+        "id": "king-thousand-sakae-sumiyoshi",
+        "name": "キング観光サウザンド栄住吉店",
+        "lat": 35.169722,
+        "lng": 136.905278,
+        "address": "愛知県名古屋市中区栄3丁目2番17号"
+      },
+      {
+        "id": "king-thousand-sakae-higashishinmachi",
+        "name": "キング観光サウザンド栄東新町店",
+        "lat": 35.1725,
+        "lng": 136.912778,
+        "address": "愛知県名古屋市中区新栄1丁目1番31号"
+      },
+      {
+        "id": "king-thousand-nagoya-ekimae-yanagibashi",
+        "name": "キング観光サウザンド名古屋駅柳橋店",
+        "lat": 35.170278,
+        "lng": 136.883611,
+        "address": "愛知県名古屋市中村区名駅4丁目11番4号"
+      }
+    ],
+    "miyagi": [
+      {
+        "id": "p-station-slot-sendai",
+        "name": "P-STATION＆IIスロット館",
+        "lat": 38.26015,
+        "lng": 140.88075,
+        "address": "宮城県仙台市青葉区中央1丁目10-10 B1F"
+      },
+      {
+        "id": "maruhan-sendai-ekihigashi",
+        "name": "マルハン仙台駅東店",
+        "lat": 38.26086,
+        "lng": 140.88542,
+        "address": "宮城県仙台市宮城野区榴岡2-1-25 BiVi仙台駅東口 B1F"
+      },
+      {
+        "id": "ams-garden-sendai-ekimae",
+        "name": "アムズガーデン仙台駅前店",
+        "lat": 38.25948,
+        "lng": 140.88105,
+        "address": "宮城県仙台市青葉区中央1-7-10"
+      },
+      {
+        "id": "vegas-vegas-nakakecho",
+        "name": "ベガスベガス名掛丁店",
+        "lat": 38.25955,
+        "lng": 140.88095,
+        "address": "宮城県仙台市青葉区中央1-7-8"
+      }
+    ],
+    "hokkaido": [
+      {
+        "id": "himawari-sapporo-ekimae-tower",
+        "name": "札幌駅前ひまわりタワー店",
+        "lat": 43.065833,
+        "lng": 141.350278,
+        "address": "北海道札幌市中央区北4条西2丁目1-3"
+      },
+      {
+        "id": "vegas-vegas-sapporo",
+        "name": "ベガスベガス札幌店",
+        "lat": 43.066111,
+        "lng": 141.352222,
+        "address": "北海道札幌市中央区北4条西1丁目4-1"
+      },
+      {
+        "id": "vegas-vegas-tanukikoji",
+        "name": "ベガスベガス狸小路店",
+        "lat": 43.058333,
+        "lng": 141.351944,
+        "address": "北海道札幌市中央区南2条西4丁目1-3 札幌ナナイロ"
+      }
+    ]
+  }
+}

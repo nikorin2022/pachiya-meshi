@@ -36,6 +36,7 @@ import {
 } from "@/lib/maps"
 import { selectRecommendedRestaurantsTop3 } from "@/lib/restaurant-recommendations"
 import { getChainForHall, getChainPagePath } from "@/lib/chains"
+import { formatWalkEstimateLabel } from "@/lib/walk-display"
 import {
   KitaichimeshiHallBadge,
   KitaichimeshiRestaurantBadge,
@@ -63,6 +64,7 @@ function StoreMapEmbed({
   genre,
   originName,
   originLatLng,
+  destinationLatLng,
   mapUrl,
   className = "",
   showWalkTime,
@@ -74,7 +76,9 @@ function StoreMapEmbed({
   originName: string
   /** ルート起点の座標（マップ URL では名称より優先） */
   originLatLng?: { lat: number; lng: number }
-  /** 明示的に上書きしたい場合のみ指定。未指定なら origin→name のルートURLを自動生成 */
+  /** ルート終点の座標（マップ URL では名称より優先） */
+  destinationLatLng?: { lat: number; lng: number }
+  /** 明示的に上書きしたい場合のみ指定。未指定なら origin→destination のルートURLを自動生成 */
   mapUrl?: string
   className?: string
   showWalkTime?: boolean
@@ -84,7 +88,10 @@ function StoreMapEmbed({
 
   const embedUrl =
     mapUrl ||
-    generateRouteEmbedUrl(originName, name, { originLatLng })
+    generateRouteEmbedUrl(originName, name, {
+      originLatLng,
+      destinationLatLng,
+    })
   const fallbackStyle =
     genreFallbackStyles[genre as keyof typeof genreFallbackStyles] ||
     genreFallbackStyles["ラーメン"]
@@ -114,7 +121,7 @@ function StoreMapEmbed({
 
       {showWalkTime && walkMinutes !== undefined && (
         <div className="absolute top-1 left-1 sm:top-2 sm:left-2 bg-red-500 text-white text-[10px] sm:text-xs px-1.5 sm:px-2 py-0.5 sm:py-1 rounded z-10 shadow">
-          徒歩{walkMinutes}分
+          {formatWalkEstimateLabel(walkMinutes)}
         </div>
       )}
     </div>
@@ -127,18 +134,22 @@ function StoreMapEmbed({
  */
 function PachinkoHallMapEmbed({
   name,
+  latLng,
   mapUrl,
   className = "",
 }: {
   name: string
-  /** 明示的に上書きしたい場合のみ指定。未指定なら name から自動生成 */
+  /** ホール座標（マップ URL では名称より優先） */
+  latLng?: { lat: number; lng: number }
+  /** 明示的に上書きしたい場合のみ指定。未指定なら座標または名称から自動生成 */
   mapUrl?: string
   className?: string
 }) {
   const [hasError, setHasError] = useState(false)
   const fallbackStyle = genreFallbackStyles["パチンコ"]
 
-  const embedUrl = mapUrl || generateMapEmbedUrl(name)
+  const embedUrl =
+    mapUrl || generateMapEmbedUrl(name, undefined, { latLng })
   const canShowIframe = Boolean(embedUrl) && !hasError
 
   return (
@@ -322,6 +333,7 @@ export default function HallDetailClient({
             <div className="flex gap-3 sm:hidden">
               <PachinkoHallMapEmbed
                 name={hall.name}
+                latLng={{ lat: hall.lat, lng: hall.lng }}
                 className="w-24 h-20 rounded-lg shrink-0"
               />
               <div className="flex-1 min-w-0">
@@ -368,6 +380,7 @@ export default function HallDetailClient({
             {/* 店舗地図（デスクトップ） */}
             <PachinkoHallMapEmbed
               name={hall.name}
+              latLng={{ lat: hall.lat, lng: hall.lng }}
               className="hidden sm:block w-48 h-32 rounded-lg shrink-0"
             />
 
@@ -432,6 +445,7 @@ export default function HallDetailClient({
             <div className="hidden lg:block relative shrink-0">
               <PachinkoHallMapEmbed
                 name={hall.name}
+                latLng={{ lat: hall.lat, lng: hall.lng }}
                 className="w-64 h-40 bg-gray-100 rounded-lg"
               />
               <div className="absolute bottom-2 right-2 bg-white rounded px-2 py-1 text-xs shadow pointer-events-none">
@@ -603,6 +617,10 @@ export default function HallDetailClient({
                       genre={restaurant.genre}
                       originName={hall.name}
                       originLatLng={{ lat: hall.lat, lng: hall.lng }}
+                      destinationLatLng={{
+                        lat: restaurant.lat,
+                        lng: restaurant.lng,
+                      }}
                       className="w-full h-32 sm:h-40"
                       showWalkTime
                       walkMinutes={restaurant.walkMinutes}
@@ -658,6 +676,10 @@ export default function HallDetailClient({
                       <a
                         href={getGoogleMapsDirectionUrl(hall.name, restaurant.name, {
                           originLatLng: { lat: hall.lat, lng: hall.lng },
+                          destinationLatLng: {
+                            lat: restaurant.lat,
+                            lng: restaurant.lng,
+                          },
                         })}
                         target="_blank"
                         rel="noopener noreferrer"
@@ -726,7 +748,7 @@ export default function HallDetailClient({
                             {restaurant.genre}
                           </p>
                           <p className="text-[10px] sm:text-xs text-red-500">
-                            徒歩{estimatedWalkMinutes}分
+                            {formatWalkEstimateLabel(estimatedWalkMinutes)}
                           </p>
                           {restaurant.hours ? (
                             <p className="text-[10px] sm:text-xs text-gray-400 truncate mt-0.5">

@@ -27,6 +27,8 @@ export type LegacyRestaurant = {
   ai_summary: string
   tags: string[]
   address: string
+  lat: number
+  lng: number
   is_kitaichimeshi?: boolean
 }
 
@@ -98,6 +100,8 @@ export class HallBuilder {
         ai_summary,
         tags: [...m.restaurant.tags],
         address: m.restaurant.address,
+        lat: m.restaurant.lat,
+        lng: m.restaurant.lng,
       }
       if (m.restaurant.is_kitaichimeshi === true) {
         restaurant.is_kitaichimeshi = true

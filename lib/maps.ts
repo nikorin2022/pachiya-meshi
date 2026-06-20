@@ -1,12 +1,9 @@
 // Google マップ URL 生成ヘルパ
 //
 // 設計方針:
-// - 検索クエリは原則「店舗名・ホール名のみ」（エリア名は付与しない）
-// - 経路検索の起点はホール座標を優先（ホール名に地名が含まれると
-//   飲食店側のテキスト解決にエリア名が付くことがあるため）
-// - 経路検索の終点（飲食店）は名称のみ
+// - 経路検索の起点・終点は座標を優先（名称解決の誤吸着を避ける）
+// - 座標がない場合のみ店舗名・ホール名、または map_query にフォールバック
 // - 住所 (address) はマップ検索には使わない（UI 表示専用）
-// - 明示的な map_query / google_maps_query があれば buildMapQuery で優先可能
 
 export type MapLatLng = {
   lat: number
@@ -37,23 +34,39 @@ export const buildMapEndpoint = (
   return buildMapQuery(name, options?.mapQuery)
 }
 
+type MapEmbedOptions = {
+  mapQuery?: string
+  latLng?: MapLatLng
+}
+
 type RouteMapOptions = {
   originMapQuery?: string
   originLatLng?: MapLatLng
   destinationMapQuery?: string
+  destinationLatLng?: MapLatLng
 }
 
 /**
- * Google マップ 単一地点埋め込み URL（名称で検索）
- * パチンコホールカード等で使用。
+ * Google マップ 単一地点埋め込み URL
+ * パチンコホールカード等で使用。座標があれば座標優先。
  */
-export const generateMapEmbedUrl = (name: string, mapQuery?: string): string =>
-  `https://maps.google.com/maps?q=${buildMapQuery(name, mapQuery)}&output=embed&z=17`
+export const generateMapEmbedUrl = (
+  name: string,
+  mapQuery?: string,
+  options?: MapEmbedOptions,
+): string => {
+  const q = buildMapEndpoint(name, {
+    mapQuery: mapQuery ?? options?.mapQuery,
+    latLng: options?.latLng,
+    preferLatLng: Boolean(options?.latLng),
+  })
+  return `https://maps.google.com/maps?q=${q}&output=embed&z=17`
+}
 
 /**
  * Google マップ ルート埋め込み URL（origin → destination / 徒歩）
  * ホール詳細ページ内の飲食店カードで使用。
- * 起点は座標優先、終点は飲食店名称のみ。
+ * 起点・終点とも座標優先。
  */
 export const generateRouteEmbedUrl = (
   originName: string,
@@ -65,14 +78,18 @@ export const generateRouteEmbedUrl = (
     latLng: options?.originLatLng,
     preferLatLng: Boolean(options?.originLatLng),
   })
-  const destination = buildMapQuery(destinationName, options?.destinationMapQuery)
+  const destination = buildMapEndpoint(destinationName, {
+    mapQuery: options?.destinationMapQuery,
+    latLng: options?.destinationLatLng,
+    preferLatLng: Boolean(options?.destinationLatLng),
+  })
   return `https://maps.google.com/maps?saddr=${origin}&daddr=${destination}&dirflg=w&output=embed`
 }
 
 /**
  * Google マップ ルート案内（外部リンク）URL
  * 「道順を調べる」ボタン用。新規タブで Google マップ本体を開く。
- * 起点は座標優先、終点は飲食店名称のみ。
+ * 起点・終点とも座標優先。
  */
 export const getGoogleMapsDirectionUrl = (
   originName: string,
@@ -84,6 +101,10 @@ export const getGoogleMapsDirectionUrl = (
     latLng: options?.originLatLng,
     preferLatLng: Boolean(options?.originLatLng),
   })
-  const destination = buildMapQuery(destinationName, options?.destinationMapQuery)
+  const destination = buildMapEndpoint(destinationName, {
+    mapQuery: options?.destinationMapQuery,
+    latLng: options?.destinationLatLng,
+    preferLatLng: Boolean(options?.destinationLatLng),
+  })
   return `https://www.google.com/maps/dir/?api=1&origin=${origin}&destination=${destination}&travelmode=walking`
 }

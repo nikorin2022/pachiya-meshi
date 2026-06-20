@@ -39,7 +39,9 @@ export const osakaHalls: readonly PachinkoHall[] = [
           "一人OK",
           "深夜OK"
         ],
-        "address": "大阪府大阪市中央区千日前2-2-7"
+        "address": "大阪府大阪市中央区千日前2-2-7",
+        "lat": 34.6674,
+        "lng": 135.5068
       },
       {
         "id": 405,
@@ -57,6 +59,8 @@ export const osakaHalls: readonly PachinkoHall[] = [
           "一人OK"
         ],
         "address": "大阪府大阪市中央区千日前1-1-7",
+        "lat": 34.6675,
+        "lng": 135.5068,
         "is_kitaichimeshi": true
       },
       {
@@ -74,7 +78,9 @@ export const osakaHalls: readonly PachinkoHall[] = [
           "サク飯",
           "一人OK"
         ],
-        "address": "大阪府大阪市中央区千日前2-7-20"
+        "address": "大阪府大阪市中央区千日前2-7-20",
+        "lat": 34.667,
+        "lng": 135.5065
       },
       {
         "id": 403,
@@ -94,6 +100,8 @@ export const osakaHalls: readonly PachinkoHall[] = [
           "深夜OK"
         ],
         "address": "大阪府大阪市中央区千日前1-9-20",
+        "lat": 34.668,
+        "lng": 135.5072,
         "is_kitaichimeshi": true
       },
       {
@@ -110,7 +118,9 @@ export const osakaHalls: readonly PachinkoHall[] = [
         "tags": [
           "一人OK"
         ],
-        "address": "大阪府大阪市中央区千日前2-8-12"
+        "address": "大阪府大阪市中央区千日前2-8-12",
+        "lat": 34.6678,
+        "lng": 135.507
       },
       {
         "id": 406,
@@ -128,7 +138,9 @@ export const osakaHalls: readonly PachinkoHall[] = [
           "ガッツリ",
           "一人OK"
         ],
-        "address": "大阪府大阪市中央区難波1-8-17"
+        "address": "大阪府大阪市中央区難波1-8-17",
+        "lat": 34.666,
+        "lng": 135.507
       },
       {
         "id": 423,
@@ -145,7 +157,9 @@ export const osakaHalls: readonly PachinkoHall[] = [
           "ガッツリ",
           "一人OK"
         ],
-        "address": "大阪府大阪市中央区難波2-2-15"
+        "address": "大阪府大阪市中央区難波2-2-15",
+        "lat": 34.666,
+        "lng": 135.5048
       },
       {
         "id": 417,
@@ -164,7 +178,9 @@ export const osakaHalls: readonly PachinkoHall[] = [
           "一人OK",
           "深夜OK"
         ],
-        "address": "大阪府大阪市中央区難波2-1-5"
+        "address": "大阪府大阪市中央区難波2-1-5",
+        "lat": 34.6658,
+        "lng": 135.505
       },
       {
         "id": 415,
@@ -183,7 +199,9 @@ export const osakaHalls: readonly PachinkoHall[] = [
           "一人OK",
           "深夜OK"
         ],
-        "address": "大阪府大阪市中央区難波1-17-17"
+        "address": "大阪府大阪市中央区難波1-17-17",
+        "lat": 34.6655,
+        "lng": 135.5062
       },
       {
         "id": 458,
@@ -200,6 +218,8 @@ export const osakaHalls: readonly PachinkoHall[] = [
           "一人OK"
         ],
         "address": "大阪府大阪市中央区道頓堀1-7-24",
+        "lat": 34.6682,
+        "lng": 135.503,
         "is_kitaichimeshi": true
       },
       {
@@ -218,6 +238,8 @@ export const osakaHalls: readonly PachinkoHall[] = [
           "一人OK"
         ],
         "address": "大阪府大阪市中央区道頓堀1-6-15",
+        "lat": 34.6685,
+        "lng": 135.5028,
         "is_kitaichimeshi": true
       },
       {
@@ -235,7 +257,9 @@ export const osakaHalls: readonly PachinkoHall[] = [
           "サク飯",
           "一人OK"
         ],
-        "address": "大阪府大阪市中央区難波3-5-15"
+        "address": "大阪府大阪市中央区難波3-5-15",
+        "lat": 34.6652,
+        "lng": 135.504
       },
       {
         "id": 416,
@@ -252,7 +276,9 @@ export const osakaHalls: readonly PachinkoHall[] = [
           "サク飯",
           "一人OK"
         ],
-        "address": "大阪府大阪市中央区難波3-4-15"
+        "address": "大阪府大阪市中央区難波3-4-15",
+        "lat": 34.665,
+        "lng": 135.5045
       },
       {
         "id": 404,
@@ -270,7 +296,9 @@ export const osakaHalls: readonly PachinkoHall[] = [
           "一人OK",
           "深夜OK"
         ],
-        "address": "大阪府大阪市中央区宗右衛門町7-13"
+        "address": "大阪府大阪市中央区宗右衛門町7-13",
+        "lat": 34.6685,
+        "lng": 135.5025
       },
       {
         "id": 420,
@@ -289,7 +317,9 @@ export const osakaHalls: readonly PachinkoHall[] = [
           "一人OK",
           "深夜OK"
         ],
-        "address": "大阪府大阪市中央区難波4-1-2"
+        "address": "大阪府大阪市中央区難波4-1-2",
+        "lat": 34.6648,
+        "lng": 135.5038
       },
       {
         "id": 408,
@@ -306,7 +336,9 @@ export const osakaHalls: readonly PachinkoHall[] = [
           "ガッツリ",
           "一人OK"
         ],
-        "address": "大阪府大阪市中央区道頓堀1-5-7"
+        "address": "大阪府大阪市中央区道頓堀1-5-7",
+        "lat": 34.669,
+        "lng": 135.502
       }
     ]
   },
@@ -341,7 +373,9 @@ export const osakaHalls: readonly PachinkoHall[] = [
           "サク飯",
           "一人OK"
         ],
-        "address": "大阪府大阪市中央区難波3-5-15"
+        "address": "大阪府大阪市中央区難波3-5-15",
+        "lat": 34.6652,
+        "lng": 135.504
       },
       {
         "id": 423,
@@ -358,7 +392,9 @@ export const osakaHalls: readonly PachinkoHall[] = [
           "ガッツリ",
           "一人OK"
         ],
-        "address": "大阪府大阪市中央区難波2-2-15"
+        "address": "大阪府大阪市中央区難波2-2-15",
+        "lat": 34.666,
+        "lng": 135.5048
       },
       {
         "id": 420,
@@ -377,7 +413,9 @@ export const osakaHalls: readonly PachinkoHall[] = [
           "一人OK",
           "深夜OK"
         ],
-        "address": "大阪府大阪市中央区難波4-1-2"
+        "address": "大阪府大阪市中央区難波4-1-2",
+        "lat": 34.6648,
+        "lng": 135.5038
       },
       {
         "id": 417,
@@ -396,7 +434,9 @@ export const osakaHalls: readonly PachinkoHall[] = [
           "一人OK",
           "深夜OK"
         ],
-        "address": "大阪府大阪市中央区難波2-1-5"
+        "address": "大阪府大阪市中央区難波2-1-5",
+        "lat": 34.6658,
+        "lng": 135.505
       },
       {
         "id": 416,
@@ -413,7 +453,9 @@ export const osakaHalls: readonly PachinkoHall[] = [
           "サク飯",
           "一人OK"
         ],
-        "address": "大阪府大阪市中央区難波3-4-15"
+        "address": "大阪府大阪市中央区難波3-4-15",
+        "lat": 34.665,
+        "lng": 135.5045
       },
       {
         "id": 415,
@@ -432,7 +474,9 @@ export const osakaHalls: readonly PachinkoHall[] = [
           "一人OK",
           "深夜OK"
         ],
-        "address": "大阪府大阪市中央区難波1-17-17"
+        "address": "大阪府大阪市中央区難波1-17-17",
+        "lat": 34.6655,
+        "lng": 135.5062
       },
       {
         "id": 406,
@@ -450,7 +494,9 @@ export const osakaHalls: readonly PachinkoHall[] = [
           "ガッツリ",
           "一人OK"
         ],
-        "address": "大阪府大阪市中央区難波1-8-17"
+        "address": "大阪府大阪市中央区難波1-8-17",
+        "lat": 34.666,
+        "lng": 135.507
       },
       {
         "id": 419,
@@ -467,7 +513,9 @@ export const osakaHalls: readonly PachinkoHall[] = [
           "サク飯",
           "一人OK"
         ],
-        "address": "大阪府大阪市中央区千日前2-7-20"
+        "address": "大阪府大阪市中央区千日前2-7-20",
+        "lat": 34.667,
+        "lng": 135.5065
       },
       {
         "id": 458,
@@ -484,6 +532,8 @@ export const osakaHalls: readonly PachinkoHall[] = [
           "一人OK"
         ],
         "address": "大阪府大阪市中央区道頓堀1-7-24",
+        "lat": 34.6682,
+        "lng": 135.503,
         "is_kitaichimeshi": true
       },
       {
@@ -502,6 +552,8 @@ export const osakaHalls: readonly PachinkoHall[] = [
           "一人OK"
         ],
         "address": "大阪府大阪市中央区道頓堀1-6-15",
+        "lat": 34.6685,
+        "lng": 135.5028,
         "is_kitaichimeshi": true
       },
       {
@@ -520,7 +572,9 @@ export const osakaHalls: readonly PachinkoHall[] = [
           "一人OK",
           "深夜OK"
         ],
-        "address": "大阪府大阪市中央区千日前2-2-7"
+        "address": "大阪府大阪市中央区千日前2-2-7",
+        "lat": 34.6674,
+        "lng": 135.5068
       },
       {
         "id": 404,
@@ -538,7 +592,9 @@ export const osakaHalls: readonly PachinkoHall[] = [
           "一人OK",
           "深夜OK"
         ],
-        "address": "大阪府大阪市中央区宗右衛門町7-13"
+        "address": "大阪府大阪市中央区宗右衛門町7-13",
+        "lat": 34.6685,
+        "lng": 135.5025
       },
       {
         "id": 414,
@@ -557,7 +613,9 @@ export const osakaHalls: readonly PachinkoHall[] = [
           "一人OK",
           "深夜OK"
         ],
-        "address": "大阪府大阪市中央区難波5-1-17"
+        "address": "大阪府大阪市中央区難波5-1-17",
+        "lat": 34.664,
+        "lng": 135.501
       },
       {
         "id": 405,
@@ -575,6 +633,8 @@ export const osakaHalls: readonly PachinkoHall[] = [
           "一人OK"
         ],
         "address": "大阪府大阪市中央区千日前1-1-7",
+        "lat": 34.6675,
+        "lng": 135.5068,
         "is_kitaichimeshi": true
       },
       {
@@ -592,7 +652,9 @@ export const osakaHalls: readonly PachinkoHall[] = [
           "サク飯",
           "一人OK"
         ],
-        "address": "大阪府大阪市中央区難波5-1-15"
+        "address": "大阪府大阪市中央区難波5-1-15",
+        "lat": 34.6638,
+        "lng": 135.5012
       },
       {
         "id": 407,
@@ -610,7 +672,9 @@ export const osakaHalls: readonly PachinkoHall[] = [
           "一人OK",
           "深夜OK"
         ],
-        "address": "大阪府大阪市中央区難波5-1-60"
+        "address": "大阪府大阪市中央区難波5-1-60",
+        "lat": 34.6635,
+        "lng": 135.5015
       },
       {
         "id": 464,
@@ -626,7 +690,9 @@ export const osakaHalls: readonly PachinkoHall[] = [
         "tags": [
           "一人OK"
         ],
-        "address": "大阪府大阪市中央区千日前2-8-12"
+        "address": "大阪府大阪市中央区千日前2-8-12",
+        "lat": 34.6678,
+        "lng": 135.507
       },
       {
         "id": 403,
@@ -646,6 +712,8 @@ export const osakaHalls: readonly PachinkoHall[] = [
           "深夜OK"
         ],
         "address": "大阪府大阪市中央区千日前1-9-20",
+        "lat": 34.668,
+        "lng": 135.5072,
         "is_kitaichimeshi": true
       },
       {
@@ -663,7 +731,9 @@ export const osakaHalls: readonly PachinkoHall[] = [
           "ガッツリ",
           "一人OK"
         ],
-        "address": "大阪府大阪市中央区難波5-1-60 なんばパークス"
+        "address": "大阪府大阪市中央区難波5-1-60 なんばパークス",
+        "lat": 34.663,
+        "lng": 135.501
       },
       {
         "id": 408,
@@ -680,7 +750,9 @@ export const osakaHalls: readonly PachinkoHall[] = [
           "ガッツリ",
           "一人OK"
         ],
-        "address": "大阪府大阪市中央区道頓堀1-5-7"
+        "address": "大阪府大阪市中央区道頓堀1-5-7",
+        "lat": 34.669,
+        "lng": 135.502
       }
     ]
   },
@@ -715,7 +787,9 @@ export const osakaHalls: readonly PachinkoHall[] = [
           "ガッツリ",
           "一人OK"
         ],
-        "address": "大阪府大阪市中央区難波2-2-15"
+        "address": "大阪府大阪市中央区難波2-2-15",
+        "lat": 34.666,
+        "lng": 135.5048
       },
       {
         "id": 406,
@@ -733,7 +807,9 @@ export const osakaHalls: readonly PachinkoHall[] = [
           "ガッツリ",
           "一人OK"
         ],
-        "address": "大阪府大阪市中央区難波1-8-17"
+        "address": "大阪府大阪市中央区難波1-8-17",
+        "lat": 34.666,
+        "lng": 135.507
       },
       {
         "id": 417,
@@ -752,7 +828,9 @@ export const osakaHalls: readonly PachinkoHall[] = [
           "一人OK",
           "深夜OK"
         ],
-        "address": "大阪府大阪市中央区難波2-1-5"
+        "address": "大阪府大阪市中央区難波2-1-5",
+        "lat": 34.6658,
+        "lng": 135.505
       },
       {
         "id": 419,
@@ -769,7 +847,9 @@ export const osakaHalls: readonly PachinkoHall[] = [
           "サク飯",
           "一人OK"
         ],
-        "address": "大阪府大阪市中央区千日前2-7-20"
+        "address": "大阪府大阪市中央区千日前2-7-20",
+        "lat": 34.667,
+        "lng": 135.5065
       },
       {
         "id": 415,
@@ -788,7 +868,9 @@ export const osakaHalls: readonly PachinkoHall[] = [
           "一人OK",
           "深夜OK"
         ],
-        "address": "大阪府大阪市中央区難波1-17-17"
+        "address": "大阪府大阪市中央区難波1-17-17",
+        "lat": 34.6655,
+        "lng": 135.5062
       },
       {
         "id": 422,
@@ -806,7 +888,9 @@ export const osakaHalls: readonly PachinkoHall[] = [
           "一人OK",
           "深夜OK"
         ],
-        "address": "大阪府大阪市中央区千日前2-2-7"
+        "address": "大阪府大阪市中央区千日前2-2-7",
+        "lat": 34.6674,
+        "lng": 135.5068
       },
       {
         "id": 405,
@@ -824,6 +908,8 @@ export const osakaHalls: readonly PachinkoHall[] = [
           "一人OK"
         ],
         "address": "大阪府大阪市中央区千日前1-1-7",
+        "lat": 34.6675,
+        "lng": 135.5068,
         "is_kitaichimeshi": true
       },
       {
@@ -841,7 +927,9 @@ export const osakaHalls: readonly PachinkoHall[] = [
           "サク飯",
           "一人OK"
         ],
-        "address": "大阪府大阪市中央区難波3-4-15"
+        "address": "大阪府大阪市中央区難波3-4-15",
+        "lat": 34.665,
+        "lng": 135.5045
       },
       {
         "id": 418,
@@ -858,7 +946,9 @@ export const osakaHalls: readonly PachinkoHall[] = [
           "サク飯",
           "一人OK"
         ],
-        "address": "大阪府大阪市中央区難波3-5-15"
+        "address": "大阪府大阪市中央区難波3-5-15",
+        "lat": 34.6652,
+        "lng": 135.504
       },
       {
         "id": 403,
@@ -878,6 +968,8 @@ export const osakaHalls: readonly PachinkoHall[] = [
           "深夜OK"
         ],
         "address": "大阪府大阪市中央区千日前1-9-20",
+        "lat": 34.668,
+        "lng": 135.5072,
         "is_kitaichimeshi": true
       },
       {
@@ -897,7 +989,9 @@ export const osakaHalls: readonly PachinkoHall[] = [
           "一人OK",
           "深夜OK"
         ],
-        "address": "大阪府大阪市中央区難波4-1-2"
+        "address": "大阪府大阪市中央区難波4-1-2",
+        "lat": 34.6648,
+        "lng": 135.5038
       },
       {
         "id": 464,
@@ -913,7 +1007,9 @@ export const osakaHalls: readonly PachinkoHall[] = [
         "tags": [
           "一人OK"
         ],
-        "address": "大阪府大阪市中央区千日前2-8-12"
+        "address": "大阪府大阪市中央区千日前2-8-12",
+        "lat": 34.6678,
+        "lng": 135.507
       },
       {
         "id": 458,
@@ -930,6 +1026,8 @@ export const osakaHalls: readonly PachinkoHall[] = [
           "一人OK"
         ],
         "address": "大阪府大阪市中央区道頓堀1-7-24",
+        "lat": 34.6682,
+        "lng": 135.503,
         "is_kitaichimeshi": true
       },
       {
@@ -948,6 +1046,8 @@ export const osakaHalls: readonly PachinkoHall[] = [
           "一人OK"
         ],
         "address": "大阪府大阪市中央区道頓堀1-6-15",
+        "lat": 34.6685,
+        "lng": 135.5028,
         "is_kitaichimeshi": true
       },
       {
@@ -966,7 +1066,9 @@ export const osakaHalls: readonly PachinkoHall[] = [
           "一人OK",
           "深夜OK"
         ],
-        "address": "大阪府大阪市中央区宗右衛門町7-13"
+        "address": "大阪府大阪市中央区宗右衛門町7-13",
+        "lat": 34.6685,
+        "lng": 135.5025
       },
       {
         "id": 408,
@@ -983,7 +1085,9 @@ export const osakaHalls: readonly PachinkoHall[] = [
           "ガッツリ",
           "一人OK"
         ],
-        "address": "大阪府大阪市中央区道頓堀1-5-7"
+        "address": "大阪府大阪市中央区道頓堀1-5-7",
+        "lat": 34.669,
+        "lng": 135.502
       },
       {
         "id": 414,
@@ -1002,7 +1106,9 @@ export const osakaHalls: readonly PachinkoHall[] = [
           "一人OK",
           "深夜OK"
         ],
-        "address": "大阪府大阪市中央区難波5-1-17"
+        "address": "大阪府大阪市中央区難波5-1-17",
+        "lat": 34.664,
+        "lng": 135.501
       },
       {
         "id": 426,
@@ -1019,7 +1125,9 @@ export const osakaHalls: readonly PachinkoHall[] = [
           "サク飯",
           "一人OK"
         ],
-        "address": "大阪府大阪市中央区難波5-1-15"
+        "address": "大阪府大阪市中央区難波5-1-15",
+        "lat": 34.6638,
+        "lng": 135.5012
       },
       {
         "id": 407,
@@ -1037,7 +1145,9 @@ export const osakaHalls: readonly PachinkoHall[] = [
           "一人OK",
           "深夜OK"
         ],
-        "address": "大阪府大阪市中央区難波5-1-60"
+        "address": "大阪府大阪市中央区難波5-1-60",
+        "lat": 34.6635,
+        "lng": 135.5015
       },
       {
         "id": 427,
@@ -1054,7 +1164,9 @@ export const osakaHalls: readonly PachinkoHall[] = [
           "ガッツリ",
           "一人OK"
         ],
-        "address": "大阪府大阪市中央区難波5-1-60 なんばパークス"
+        "address": "大阪府大阪市中央区難波5-1-60 なんばパークス",
+        "lat": 34.663,
+        "lng": 135.501
       }
     ]
   },
@@ -1090,7 +1202,9 @@ export const osakaHalls: readonly PachinkoHall[] = [
           "ガッツリ",
           "一人OK"
         ],
-        "address": "大阪府大阪市中央区難波1-8-17"
+        "address": "大阪府大阪市中央区難波1-8-17",
+        "lat": 34.666,
+        "lng": 135.507
       },
       {
         "id": 415,
@@ -1109,7 +1223,9 @@ export const osakaHalls: readonly PachinkoHall[] = [
           "一人OK",
           "深夜OK"
         ],
-        "address": "大阪府大阪市中央区難波1-17-17"
+        "address": "大阪府大阪市中央区難波1-17-17",
+        "lat": 34.6655,
+        "lng": 135.5062
       },
       {
         "id": 423,
@@ -1126,7 +1242,9 @@ export const osakaHalls: readonly PachinkoHall[] = [
           "ガッツリ",
           "一人OK"
         ],
-        "address": "大阪府大阪市中央区難波2-2-15"
+        "address": "大阪府大阪市中央区難波2-2-15",
+        "lat": 34.666,
+        "lng": 135.5048
       },
       {
         "id": 422,
@@ -1144,7 +1262,9 @@ export const osakaHalls: readonly PachinkoHall[] = [
           "一人OK",
           "深夜OK"
         ],
-        "address": "大阪府大阪市中央区千日前2-2-7"
+        "address": "大阪府大阪市中央区千日前2-2-7",
+        "lat": 34.6674,
+        "lng": 135.5068
       },
       {
         "id": 417,
@@ -1163,7 +1283,9 @@ export const osakaHalls: readonly PachinkoHall[] = [
           "一人OK",
           "深夜OK"
         ],
-        "address": "大阪府大阪市中央区難波2-1-5"
+        "address": "大阪府大阪市中央区難波2-1-5",
+        "lat": 34.6658,
+        "lng": 135.505
       },
       {
         "id": 419,
@@ -1180,7 +1302,9 @@ export const osakaHalls: readonly PachinkoHall[] = [
           "サク飯",
           "一人OK"
         ],
-        "address": "大阪府大阪市中央区千日前2-7-20"
+        "address": "大阪府大阪市中央区千日前2-7-20",
+        "lat": 34.667,
+        "lng": 135.5065
       },
       {
         "id": 418,
@@ -1197,7 +1321,9 @@ export const osakaHalls: readonly PachinkoHall[] = [
           "サク飯",
           "一人OK"
         ],
-        "address": "大阪府大阪市中央区難波3-5-15"
+        "address": "大阪府大阪市中央区難波3-5-15",
+        "lat": 34.6652,
+        "lng": 135.504
       },
       {
         "id": 405,
@@ -1215,6 +1341,8 @@ export const osakaHalls: readonly PachinkoHall[] = [
           "一人OK"
         ],
         "address": "大阪府大阪市中央区千日前1-1-7",
+        "lat": 34.6675,
+        "lng": 135.5068,
         "is_kitaichimeshi": true
       },
       {
@@ -1231,7 +1359,9 @@ export const osakaHalls: readonly PachinkoHall[] = [
         "tags": [
           "一人OK"
         ],
-        "address": "大阪府大阪市中央区千日前2-8-12"
+        "address": "大阪府大阪市中央区千日前2-8-12",
+        "lat": 34.6678,
+        "lng": 135.507
       },
       {
         "id": 416,
@@ -1248,7 +1378,9 @@ export const osakaHalls: readonly PachinkoHall[] = [
           "サク飯",
           "一人OK"
         ],
-        "address": "大阪府大阪市中央区難波3-4-15"
+        "address": "大阪府大阪市中央区難波3-4-15",
+        "lat": 34.665,
+        "lng": 135.5045
       },
       {
         "id": 403,
@@ -1268,6 +1400,8 @@ export const osakaHalls: readonly PachinkoHall[] = [
           "深夜OK"
         ],
         "address": "大阪府大阪市中央区千日前1-9-20",
+        "lat": 34.668,
+        "lng": 135.5072,
         "is_kitaichimeshi": true
       },
       {
@@ -1287,7 +1421,9 @@ export const osakaHalls: readonly PachinkoHall[] = [
           "一人OK",
           "深夜OK"
         ],
-        "address": "大阪府大阪市中央区難波4-1-2"
+        "address": "大阪府大阪市中央区難波4-1-2",
+        "lat": 34.6648,
+        "lng": 135.5038
       },
       {
         "id": 458,
@@ -1304,6 +1440,8 @@ export const osakaHalls: readonly PachinkoHall[] = [
           "一人OK"
         ],
         "address": "大阪府大阪市中央区道頓堀1-7-24",
+        "lat": 34.6682,
+        "lng": 135.503,
         "is_kitaichimeshi": true
       },
       {
@@ -1322,6 +1460,8 @@ export const osakaHalls: readonly PachinkoHall[] = [
           "一人OK"
         ],
         "address": "大阪府大阪市中央区道頓堀1-6-15",
+        "lat": 34.6685,
+        "lng": 135.5028,
         "is_kitaichimeshi": true
       },
       {
@@ -1340,7 +1480,9 @@ export const osakaHalls: readonly PachinkoHall[] = [
           "一人OK",
           "深夜OK"
         ],
-        "address": "大阪府大阪市中央区宗右衛門町7-13"
+        "address": "大阪府大阪市中央区宗右衛門町7-13",
+        "lat": 34.6685,
+        "lng": 135.5025
       },
       {
         "id": 414,
@@ -1359,7 +1501,9 @@ export const osakaHalls: readonly PachinkoHall[] = [
           "一人OK",
           "深夜OK"
         ],
-        "address": "大阪府大阪市中央区難波5-1-17"
+        "address": "大阪府大阪市中央区難波5-1-17",
+        "lat": 34.664,
+        "lng": 135.501
       },
       {
         "id": 426,
@@ -1376,7 +1520,9 @@ export const osakaHalls: readonly PachinkoHall[] = [
           "サク飯",
           "一人OK"
         ],
-        "address": "大阪府大阪市中央区難波5-1-15"
+        "address": "大阪府大阪市中央区難波5-1-15",
+        "lat": 34.6638,
+        "lng": 135.5012
       },
       {
         "id": 407,
@@ -1394,7 +1540,9 @@ export const osakaHalls: readonly PachinkoHall[] = [
           "一人OK",
           "深夜OK"
         ],
-        "address": "大阪府大阪市中央区難波5-1-60"
+        "address": "大阪府大阪市中央区難波5-1-60",
+        "lat": 34.6635,
+        "lng": 135.5015
       },
       {
         "id": 408,
@@ -1411,7 +1559,9 @@ export const osakaHalls: readonly PachinkoHall[] = [
           "ガッツリ",
           "一人OK"
         ],
-        "address": "大阪府大阪市中央区道頓堀1-5-7"
+        "address": "大阪府大阪市中央区道頓堀1-5-7",
+        "lat": 34.669,
+        "lng": 135.502
       },
       {
         "id": 427,
@@ -1428,7 +1578,9 @@ export const osakaHalls: readonly PachinkoHall[] = [
           "ガッツリ",
           "一人OK"
         ],
-        "address": "大阪府大阪市中央区難波5-1-60 なんばパークス"
+        "address": "大阪府大阪市中央区難波5-1-60 なんばパークス",
+        "lat": 34.663,
+        "lng": 135.501
       }
     ]
   },
@@ -1462,7 +1614,9 @@ export const osakaHalls: readonly PachinkoHall[] = [
         "tags": [
           "一人OK"
         ],
-        "address": "大阪府大阪市北区梅田2-5-15"
+        "address": "大阪府大阪市北区梅田2-5-15",
+        "lat": 34.7015,
+        "lng": 135.4988
       },
       {
         "id": 431,
@@ -1479,6 +1633,8 @@ export const osakaHalls: readonly PachinkoHall[] = [
           "一人OK"
         ],
         "address": "大阪府大阪市北区曽根崎2-10-9",
+        "lat": 34.7005,
+        "lng": 135.4995,
         "is_kitaichimeshi": true
       },
       {
@@ -1495,7 +1651,9 @@ export const osakaHalls: readonly PachinkoHall[] = [
         "tags": [
           "一人OK"
         ],
-        "address": "大阪府大阪市北区曽根崎2-12-6"
+        "address": "大阪府大阪市北区曽根崎2-12-6",
+        "lat": 34.7008,
+        "lng": 135.4988
       },
       {
         "id": 450,
@@ -1512,6 +1670,8 @@ export const osakaHalls: readonly PachinkoHall[] = [
           "一人OK"
         ],
         "address": "大阪府大阪市北区曽根崎2-9-1",
+        "lat": 34.7004,
+        "lng": 135.4998,
         "is_kitaichimeshi": true
       },
       {
@@ -1529,6 +1689,8 @@ export const osakaHalls: readonly PachinkoHall[] = [
           "一人OK"
         ],
         "address": "大阪府大阪市北区大深町3-1 うめきた阪急ビル",
+        "lat": 34.7035,
+        "lng": 135.4945,
         "is_kitaichimeshi": true
       }
     ]
@@ -1540,8 +1702,8 @@ export const osakaHalls: readonly PachinkoHall[] = [
     "prefecture": "大阪府",
     "city": "大阪市北区",
     "address": "大阪府大阪市北区兎我野町16-11",
-    "lat": 34.7052,
-    "lng": 135.4948,
+    "lat": 34.705361,
+    "lng": 135.495194,
     "access": "東梅田駅・泉の広場M14出口から徒歩2分 / 新御堂筋沿い",
     "hours": "10:00〜23:00",
     "pachinko": 800,
@@ -1564,6 +1726,8 @@ export const osakaHalls: readonly PachinkoHall[] = [
           "一人OK"
         ],
         "address": "大阪府大阪市北区大深町3-1 うめきた阪急ビル",
+        "lat": 34.7035,
+        "lng": 135.4945,
         "is_kitaichimeshi": true
       },
       {
@@ -1580,7 +1744,9 @@ export const osakaHalls: readonly PachinkoHall[] = [
         "tags": [
           "一人OK"
         ],
-        "address": "大阪府大阪市北区梅田2-5-15"
+        "address": "大阪府大阪市北区梅田2-5-15",
+        "lat": 34.7015,
+        "lng": 135.4988
       },
       {
         "id": 432,
@@ -1596,7 +1762,9 @@ export const osakaHalls: readonly PachinkoHall[] = [
         "tags": [
           "一人OK"
         ],
-        "address": "大阪府大阪市北区曽根崎2-12-6"
+        "address": "大阪府大阪市北区曽根崎2-12-6",
+        "lat": 34.7008,
+        "lng": 135.4988
       }
     ]
   },
@@ -1607,8 +1775,8 @@ export const osakaHalls: readonly PachinkoHall[] = [
     "prefecture": "大阪府",
     "city": "大阪市北区",
     "address": "大阪府大阪市北区曽根崎2-14-17 CIビル",
-    "lat": 34.7008,
-    "lng": 135.4992,
+    "lat": 34.701202,
+    "lng": 135.500553,
     "access": "地下鉄梅田駅・曽根崎お初天神商店街から徒歩5分",
     "hours": "10:00〜22:50",
     "pachinko": 148,
@@ -1617,55 +1785,6 @@ export const osakaHalls: readonly PachinkoHall[] = [
     "meal_guide": "パチンコ・パチスロユーザー向けに見ると、四海樓梅田店は曽根崎お初天神商店街沿い、地下鉄梅田駅から徒歩圏の立地です。お初天神周辺の地場食堂と駅前チェーンを徒歩圏で使い分けやすく、昼休憩はサクッと飯、閉店後は商店街沿いの焼肉やラーメンで締めまで組み立てやすい動線です。朝一前はお初天神入口付近の軽食店で済ませ、四海樓 HEP FIVE店とは地下街直結と商店街沿いで動線が分かれます。関西遠征ユーザーにとって、梅田エリア内の四海樓店舗を日替わりで回りながら食事先を変えやすいホールです。パチンコ・パチスロ双方の台数バランスがあり、休憩の長さに合わせて周辺店を選びやすい立地です。",
     "restaurants": [
       {
-        "id": 431,
-        "name": "無鉄砲 梅田店",
-        "genre": "ラーメン",
-        "walkMinutes": 1,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "11:00〜22:00",
-        "ai_summary": "お初天神近くの無鉄砲。あっさり系ラーメンでリセット飯にも向く。",
-        "tags": [
-          "一人OK"
-        ],
-        "address": "大阪府大阪市北区曽根崎2-10-9",
-        "is_kitaichimeshi": true
-      },
-      {
-        "id": 432,
-        "name": "らーめん わいず 梅田店",
-        "genre": "ラーメン",
-        "walkMinutes": 1,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "11:00〜22:00",
-        "ai_summary": "家系ラーメンでガッツリ食べたい日のご褒美麺。",
-        "tags": [
-          "一人OK"
-        ],
-        "address": "大阪府大阪市北区曽根崎2-12-6"
-      },
-      {
-        "id": 452,
-        "name": "ずんどう屋 梅田店",
-        "genre": "ラーメン",
-        "walkMinutes": 2,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "11:00〜22:00",
-        "ai_summary": "梅田のずんどう屋。濃厚系ラーメンでガッツリ飯。",
-        "tags": [
-          "一人OK"
-        ],
-        "address": "大阪府大阪市北区梅田2-5-15"
-      },
-      {
         "id": 450,
         "name": "スタウト 梅田本店",
         "genre": "とんかつ/カツ丼",
@@ -1680,48 +1799,15 @@ export const osakaHalls: readonly PachinkoHall[] = [
           "一人OK"
         ],
         "address": "大阪府大阪市北区曽根崎2-9-1",
+        "lat": 34.7004,
+        "lng": 135.4998,
         "is_kitaichimeshi": true
       },
-      {
-        "id": 451,
-        "name": "粉や うめきた",
-        "genre": "ラーメン",
-        "walkMinutes": 9,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "11:00〜22:00",
-        "ai_summary": "うめきた阪急の粉や。梅田遠征の締めうどんとして人気。",
-        "tags": [
-          "一人OK"
-        ],
-        "address": "大阪府大阪市北区大深町3-1 うめきた阪急ビル",
-        "is_kitaichimeshi": true
-      }
-    ]
-  },
-  {
-    "id": "dai-toyo-honten",
-    "name": "大東洋本店",
-    "area": "梅田",
-    "prefecture": "大阪府",
-    "city": "大阪市北区",
-    "address": "大阪府大阪市北区小松原町4-7",
-    "lat": 34.703,
-    "lng": 135.5008,
-    "access": "各線梅田駅から徒歩5分 / 阪急東通商店街入口すぐ",
-    "hours": "10:00〜22:45",
-    "pachinko": 0,
-    "slot": 318,
-    "pachiya_comment": "阪急東通商店街入口すぐの46枚スロット専門店です。梅田のパチスロ遠征で名前が挙がりやすく、周辺の回転の速い飲食店へアクセスしやすい立地にあります。大東洋本店は梅田エリアのスロット遠征で定番の名前として知られています。",
-    "meal_guide": "パチンコ・パチスロユーザー向けに見ると、大東洋本店は阪急東通商店街入口すぐ、各線梅田駅から徒歩5分の立地です。46枚スロット専門店として、短い休憩で東通沿いの牛丼・カレー・ハンバーガーチェーンに行き、すぐ戻る使い方がしやすい動線です。朝一前は近隣の立ち食いそばや牛丼で軽食、昼休憩は提供が速い丼もので手早く、閉店後は阪急口方面の焼肉やラーメンで締めまで組み立てやすいです。関西遠征ユーザーにとって、梅田のスロット遠征で定番の名前として知られ、スロット123梅田店とは大阪駅前と阪急口で動線が分かれるため食事先を変えやすいホールです。パチスロユーザーが短時間の食事休憩と稼働を往復しやすい立地です。",
-    "restaurants": [
       {
         "id": 431,
         "name": "無鉄砲 梅田店",
         "genre": "ラーメン",
-        "walkMinutes": 5,
+        "walkMinutes": 3,
         "time_category": [
           "昼",
           "夜"
@@ -1732,13 +1818,15 @@ export const osakaHalls: readonly PachinkoHall[] = [
           "一人OK"
         ],
         "address": "大阪府大阪市北区曽根崎2-10-9",
+        "lat": 34.7005,
+        "lng": 135.4995,
         "is_kitaichimeshi": true
       },
       {
         "id": 432,
         "name": "らーめん わいず 梅田店",
         "genre": "ラーメン",
-        "walkMinutes": 5,
+        "walkMinutes": 3,
         "time_category": [
           "昼",
           "夜"
@@ -1748,76 +1836,10 @@ export const osakaHalls: readonly PachinkoHall[] = [
         "tags": [
           "一人OK"
         ],
-        "address": "大阪府大阪市北区曽根崎2-12-6"
+        "address": "大阪府大阪市北区曽根崎2-12-6",
+        "lat": 34.7008,
+        "lng": 135.4988
       },
-      {
-        "id": 452,
-        "name": "ずんどう屋 梅田店",
-        "genre": "ラーメン",
-        "walkMinutes": 5,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "11:00〜22:00",
-        "ai_summary": "梅田のずんどう屋。濃厚系ラーメンでガッツリ飯。",
-        "tags": [
-          "一人OK"
-        ],
-        "address": "大阪府大阪市北区梅田2-5-15"
-      },
-      {
-        "id": 450,
-        "name": "スタウト 梅田本店",
-        "genre": "とんかつ/カツ丼",
-        "walkMinutes": 5,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "11:00〜22:00",
-        "ai_summary": "お初天神の老舗洋食店。梅田らしい定番のご褒美飯。",
-        "tags": [
-          "一人OK"
-        ],
-        "address": "大阪府大阪市北区曽根崎2-9-1",
-        "is_kitaichimeshi": true
-      },
-      {
-        "id": 451,
-        "name": "粉や うめきた",
-        "genre": "ラーメン",
-        "walkMinutes": 10,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "11:00〜22:00",
-        "ai_summary": "うめきた阪急の粉や。梅田遠征の締めうどんとして人気。",
-        "tags": [
-          "一人OK"
-        ],
-        "address": "大阪府大阪市北区大深町3-1 うめきた阪急ビル",
-        "is_kitaichimeshi": true
-      }
-    ]
-  },
-  {
-    "id": "shikairi-hep-five",
-    "name": "四海樓 HEP FIVE店",
-    "area": "梅田",
-    "prefecture": "大阪府",
-    "city": "大阪市北区",
-    "address": "大阪府大阪市北区角田町5-15 HEP FIVE B2F",
-    "lat": 34.7028,
-    "lng": 135.4985,
-    "access": "梅田地下街からHEP FIVE直結 / 各線梅田駅から徒歩圏",
-    "hours": "10:00〜22:50",
-    "pachinko": 258,
-    "slot": 186,
-    "pachiya_comment": "HEP FIVE地下フロアに位置し、梅田地下街から直結でアクセスできる四海樓の店舗です。観光・買い物動線と組み合わせやすく、周辺飲食店も豊富な立地です。梅田の繁華街と商業施設の中心で、食事休憩の選択肢が多いホールです。",
-    "meal_guide": "パチンコ・パチスロユーザー向けに見ると、四海樓 HEP FIVE店は梅田地下街から直結するHEP FIVE B2Fの立地です。観光・買い物動線と組み合わせやすく、HEP FIVE内や地下街のチェーン店へ天候を気にせず向かえるため、昼休憩のサクッと飯に向いています。朝一前は地下街の軽食店で済ませ、閉店後は梅田地下街沿いの回転寿司やラーメンで締めまで組み立てやすいです。関西遠征ユーザーにとって、四海樓梅田店とはお初天神とHEP FIVEで動線が分かれるため、同じ遠征でも日替わりで食事先を変えやすいホールです。パチンコ寄りの台構成で、長めの休憩を取りながら商業施設内の店を使い分けやすい立地です。",
-    "restaurants": [
       {
         "id": 452,
         "name": "ずんどう屋 梅田店",
@@ -1832,11 +1854,50 @@ export const osakaHalls: readonly PachinkoHall[] = [
         "tags": [
           "一人OK"
         ],
-        "address": "大阪府大阪市北区梅田2-5-15"
+        "address": "大阪府大阪市北区梅田2-5-15",
+        "lat": 34.7015,
+        "lng": 135.4988
       },
       {
-        "id": 432,
-        "name": "らーめん わいず 梅田店",
+        "id": 451,
+        "name": "粉や うめきた",
+        "genre": "ラーメン",
+        "walkMinutes": 10,
+        "time_category": [
+          "昼",
+          "夜"
+        ],
+        "hours": "11:00〜22:00",
+        "ai_summary": "うめきた阪急の粉や。梅田遠征の締めうどんとして人気。",
+        "tags": [
+          "一人OK"
+        ],
+        "address": "大阪府大阪市北区大深町3-1 うめきた阪急ビル",
+        "lat": 34.7035,
+        "lng": 135.4945,
+        "is_kitaichimeshi": true
+      }
+    ]
+  },
+  {
+    "id": "dai-toyo-honten",
+    "name": "大東洋本店",
+    "area": "梅田",
+    "prefecture": "大阪府",
+    "city": "大阪市北区",
+    "address": "大阪府大阪市北区小松原町4-7",
+    "lat": 34.702583,
+    "lng": 135.500556,
+    "access": "各線梅田駅から徒歩5分 / 阪急東通商店街入口すぐ",
+    "hours": "10:00〜22:45",
+    "pachinko": 0,
+    "slot": 318,
+    "pachiya_comment": "阪急東通商店街入口すぐの46枚スロット専門店です。梅田のパチスロ遠征で名前が挙がりやすく、周辺の回転の速い飲食店へアクセスしやすい立地にあります。大東洋本店は梅田エリアのスロット遠征で定番の名前として知られています。",
+    "meal_guide": "パチンコ・パチスロユーザー向けに見ると、大東洋本店は阪急東通商店街入口すぐ、各線梅田駅から徒歩5分の立地です。46枚スロット専門店として、短い休憩で東通沿いの牛丼・カレー・ハンバーガーチェーンに行き、すぐ戻る使い方がしやすい動線です。朝一前は近隣の立ち食いそばや牛丼で軽食、昼休憩は提供が速い丼もので手早く、閉店後は阪急口方面の焼肉やラーメンで締めまで組み立てやすいです。関西遠征ユーザーにとって、梅田のスロット遠征で定番の名前として知られ、スロット123梅田店とは大阪駅前と阪急口で動線が分かれるため食事先を変えやすいホールです。パチスロユーザーが短時間の食事休憩と稼働を往復しやすい立地です。",
+    "restaurants": [
+      {
+        "id": 452,
+        "name": "ずんどう屋 梅田店",
         "genre": "ラーメン",
         "walkMinutes": 4,
         "time_category": [
@@ -1844,11 +1905,13 @@ export const osakaHalls: readonly PachinkoHall[] = [
           "夜"
         ],
         "hours": "11:00〜22:00",
-        "ai_summary": "家系ラーメンでガッツリ食べたい日のご褒美麺。",
+        "ai_summary": "梅田のずんどう屋。濃厚系ラーメンでガッツリ飯。",
         "tags": [
           "一人OK"
         ],
-        "address": "大阪府大阪市北区曽根崎2-12-6"
+        "address": "大阪府大阪市北区梅田2-5-15",
+        "lat": 34.7015,
+        "lng": 135.4988
       },
       {
         "id": 431,
@@ -1865,7 +1928,27 @@ export const osakaHalls: readonly PachinkoHall[] = [
           "一人OK"
         ],
         "address": "大阪府大阪市北区曽根崎2-10-9",
+        "lat": 34.7005,
+        "lng": 135.4995,
         "is_kitaichimeshi": true
+      },
+      {
+        "id": 432,
+        "name": "らーめん わいず 梅田店",
+        "genre": "ラーメン",
+        "walkMinutes": 5,
+        "time_category": [
+          "昼",
+          "夜"
+        ],
+        "hours": "11:00〜22:00",
+        "ai_summary": "家系ラーメンでガッツリ食べたい日のご褒美麺。",
+        "tags": [
+          "一人OK"
+        ],
+        "address": "大阪府大阪市北区曽根崎2-12-6",
+        "lat": 34.7008,
+        "lng": 135.4988
       },
       {
         "id": 450,
@@ -1882,7 +1965,64 @@ export const osakaHalls: readonly PachinkoHall[] = [
           "一人OK"
         ],
         "address": "大阪府大阪市北区曽根崎2-9-1",
+        "lat": 34.7004,
+        "lng": 135.4998,
         "is_kitaichimeshi": true
+      },
+      {
+        "id": 451,
+        "name": "粉や うめきた",
+        "genre": "ラーメン",
+        "walkMinutes": 10,
+        "time_category": [
+          "昼",
+          "夜"
+        ],
+        "hours": "11:00〜22:00",
+        "ai_summary": "うめきた阪急の粉や。梅田遠征の締めうどんとして人気。",
+        "tags": [
+          "一人OK"
+        ],
+        "address": "大阪府大阪市北区大深町3-1 うめきた阪急ビル",
+        "lat": 34.7035,
+        "lng": 135.4945,
+        "is_kitaichimeshi": true
+      }
+    ]
+  },
+  {
+    "id": "shikairi-hep-five",
+    "name": "四海樓 HEP FIVE店",
+    "area": "梅田",
+    "prefecture": "大阪府",
+    "city": "大阪市北区",
+    "address": "大阪府大阪市北区角田町5-15 HEP FIVE B2F",
+    "lat": 34.704194,
+    "lng": 135.498833,
+    "access": "梅田地下街からHEP FIVE直結 / 各線梅田駅から徒歩圏",
+    "hours": "10:00〜22:50",
+    "pachinko": 258,
+    "slot": 186,
+    "pachiya_comment": "HEP FIVE地下フロアに位置し、梅田地下街から直結でアクセスできる四海樓の店舗です。観光・買い物動線と組み合わせやすく、周辺飲食店も豊富な立地です。梅田の繁華街と商業施設の中心で、食事休憩の選択肢が多いホールです。",
+    "meal_guide": "パチンコ・パチスロユーザー向けに見ると、四海樓 HEP FIVE店は梅田地下街から直結するHEP FIVE B2Fの立地です。観光・買い物動線と組み合わせやすく、HEP FIVE内や地下街のチェーン店へ天候を気にせず向かえるため、昼休憩のサクッと飯に向いています。朝一前は地下街の軽食店で済ませ、閉店後は梅田地下街沿いの回転寿司やラーメンで締めまで組み立てやすいです。関西遠征ユーザーにとって、四海樓梅田店とはお初天神とHEP FIVEで動線が分かれるため、同じ遠征でも日替わりで食事先を変えやすいホールです。パチンコ寄りの台構成で、長めの休憩を取りながら商業施設内の店を使い分けやすい立地です。",
+    "restaurants": [
+      {
+        "id": 452,
+        "name": "ずんどう屋 梅田店",
+        "genre": "ラーメン",
+        "walkMinutes": 5,
+        "time_category": [
+          "昼",
+          "夜"
+        ],
+        "hours": "11:00〜22:00",
+        "ai_summary": "梅田のずんどう屋。濃厚系ラーメンでガッツリ飯。",
+        "tags": [
+          "一人OK"
+        ],
+        "address": "大阪府大阪市北区梅田2-5-15",
+        "lat": 34.7015,
+        "lng": 135.4988
       },
       {
         "id": 451,
@@ -1899,6 +2039,64 @@ export const osakaHalls: readonly PachinkoHall[] = [
           "一人OK"
         ],
         "address": "大阪府大阪市北区大深町3-1 うめきた阪急ビル",
+        "lat": 34.7035,
+        "lng": 135.4945,
+        "is_kitaichimeshi": true
+      },
+      {
+        "id": 431,
+        "name": "無鉄砲 梅田店",
+        "genre": "ラーメン",
+        "walkMinutes": 7,
+        "time_category": [
+          "昼",
+          "夜"
+        ],
+        "hours": "11:00〜22:00",
+        "ai_summary": "お初天神近くの無鉄砲。あっさり系ラーメンでリセット飯にも向く。",
+        "tags": [
+          "一人OK"
+        ],
+        "address": "大阪府大阪市北区曽根崎2-10-9",
+        "lat": 34.7005,
+        "lng": 135.4995,
+        "is_kitaichimeshi": true
+      },
+      {
+        "id": 432,
+        "name": "らーめん わいず 梅田店",
+        "genre": "ラーメン",
+        "walkMinutes": 7,
+        "time_category": [
+          "昼",
+          "夜"
+        ],
+        "hours": "11:00〜22:00",
+        "ai_summary": "家系ラーメンでガッツリ食べたい日のご褒美麺。",
+        "tags": [
+          "一人OK"
+        ],
+        "address": "大阪府大阪市北区曽根崎2-12-6",
+        "lat": 34.7008,
+        "lng": 135.4988
+      },
+      {
+        "id": 450,
+        "name": "スタウト 梅田本店",
+        "genre": "とんかつ/カツ丼",
+        "walkMinutes": 8,
+        "time_category": [
+          "昼",
+          "夜"
+        ],
+        "hours": "11:00〜22:00",
+        "ai_summary": "お初天神の老舗洋食店。梅田らしい定番のご褒美飯。",
+        "tags": [
+          "一人OK"
+        ],
+        "address": "大阪府大阪市北区曽根崎2-9-1",
+        "lat": 34.7004,
+        "lng": 135.4998,
         "is_kitaichimeshi": true
       }
     ]
@@ -1910,8 +2108,8 @@ export const osakaHalls: readonly PachinkoHall[] = [
     "prefecture": "大阪府",
     "city": "大阪市北区",
     "address": "大阪府大阪市北区梅田1-2-2-100 大阪駅前第2ビル1F",
-    "lat": 34.701,
-    "lng": 135.4965,
+    "lat": 34.700944,
+    "lng": 135.496167,
     "access": "JR大阪駅・梅田駅から徒歩2分 / 大阪駅前第2ビル1階",
     "hours": "10:00〜22:45",
     "pachinko": 0,
@@ -1933,13 +2131,15 @@ export const osakaHalls: readonly PachinkoHall[] = [
         "tags": [
           "一人OK"
         ],
-        "address": "大阪府大阪市北区曽根崎2-12-6"
+        "address": "大阪府大阪市北区曽根崎2-12-6",
+        "lat": 34.7008,
+        "lng": 135.4988
       },
       {
         "id": 452,
         "name": "ずんどう屋 梅田店",
         "genre": "ラーメン",
-        "walkMinutes": 4,
+        "walkMinutes": 5,
         "time_category": [
           "昼",
           "夜"
@@ -1949,24 +2149,9 @@ export const osakaHalls: readonly PachinkoHall[] = [
         "tags": [
           "一人OK"
         ],
-        "address": "大阪府大阪市北区梅田2-5-15"
-      },
-      {
-        "id": 431,
-        "name": "無鉄砲 梅田店",
-        "genre": "ラーメン",
-        "walkMinutes": 5,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "11:00〜22:00",
-        "ai_summary": "お初天神近くの無鉄砲。あっさり系ラーメンでリセット飯にも向く。",
-        "tags": [
-          "一人OK"
-        ],
-        "address": "大阪府大阪市北区曽根崎2-10-9",
-        "is_kitaichimeshi": true
+        "address": "大阪府大阪市北区梅田2-5-15",
+        "lat": 34.7015,
+        "lng": 135.4988
       },
       {
         "id": 451,
@@ -1983,6 +2168,27 @@ export const osakaHalls: readonly PachinkoHall[] = [
           "一人OK"
         ],
         "address": "大阪府大阪市北区大深町3-1 うめきた阪急ビル",
+        "lat": 34.7035,
+        "lng": 135.4945,
+        "is_kitaichimeshi": true
+      },
+      {
+        "id": 431,
+        "name": "無鉄砲 梅田店",
+        "genre": "ラーメン",
+        "walkMinutes": 6,
+        "time_category": [
+          "昼",
+          "夜"
+        ],
+        "hours": "11:00〜22:00",
+        "ai_summary": "お初天神近くの無鉄砲。あっさり系ラーメンでリセット飯にも向く。",
+        "tags": [
+          "一人OK"
+        ],
+        "address": "大阪府大阪市北区曽根崎2-10-9",
+        "lat": 34.7005,
+        "lng": 135.4995,
         "is_kitaichimeshi": true
       },
       {
@@ -2000,6 +2206,8 @@ export const osakaHalls: readonly PachinkoHall[] = [
           "一人OK"
         ],
         "address": "大阪府大阪市北区曽根崎2-9-1",
+        "lat": 34.7004,
+        "lng": 135.4998,
         "is_kitaichimeshi": true
       }
     ]
@@ -2035,6 +2243,8 @@ export const osakaHalls: readonly PachinkoHall[] = [
           "一人OK"
         ],
         "address": "大阪府大阪市中央区道頓堀1-7-24",
+        "lat": 34.6682,
+        "lng": 135.503,
         "is_kitaichimeshi": true
       },
       {
@@ -2053,6 +2263,8 @@ export const osakaHalls: readonly PachinkoHall[] = [
           "一人OK"
         ],
         "address": "大阪府大阪市中央区道頓堀1-6-15",
+        "lat": 34.6685,
+        "lng": 135.5028,
         "is_kitaichimeshi": true
       },
       {
@@ -2071,7 +2283,9 @@ export const osakaHalls: readonly PachinkoHall[] = [
           "一人OK",
           "深夜OK"
         ],
-        "address": "大阪府大阪市中央区宗右衛門町7-13"
+        "address": "大阪府大阪市中央区宗右衛門町7-13",
+        "lat": 34.6685,
+        "lng": 135.5025
       },
       {
         "id": 408,
@@ -2088,7 +2302,9 @@ export const osakaHalls: readonly PachinkoHall[] = [
           "ガッツリ",
           "一人OK"
         ],
-        "address": "大阪府大阪市中央区道頓堀1-5-7"
+        "address": "大阪府大阪市中央区道頓堀1-5-7",
+        "lat": 34.669,
+        "lng": 135.502
       },
       {
         "id": 423,
@@ -2105,7 +2321,9 @@ export const osakaHalls: readonly PachinkoHall[] = [
           "ガッツリ",
           "一人OK"
         ],
-        "address": "大阪府大阪市中央区難波2-2-15"
+        "address": "大阪府大阪市中央区難波2-2-15",
+        "lat": 34.666,
+        "lng": 135.5048
       },
       {
         "id": 418,
@@ -2122,7 +2340,9 @@ export const osakaHalls: readonly PachinkoHall[] = [
           "サク飯",
           "一人OK"
         ],
-        "address": "大阪府大阪市中央区難波3-5-15"
+        "address": "大阪府大阪市中央区難波3-5-15",
+        "lat": 34.6652,
+        "lng": 135.504
       },
       {
         "id": 414,
@@ -2141,7 +2361,9 @@ export const osakaHalls: readonly PachinkoHall[] = [
           "一人OK",
           "深夜OK"
         ],
-        "address": "大阪府大阪市中央区難波5-1-17"
+        "address": "大阪府大阪市中央区難波5-1-17",
+        "lat": 34.664,
+        "lng": 135.501
       },
       {
         "id": 426,
@@ -2158,7 +2380,9 @@ export const osakaHalls: readonly PachinkoHall[] = [
           "サク飯",
           "一人OK"
         ],
-        "address": "大阪府大阪市中央区難波5-1-15"
+        "address": "大阪府大阪市中央区難波5-1-15",
+        "lat": 34.6638,
+        "lng": 135.5012
       },
       {
         "id": 420,
@@ -2177,7 +2401,9 @@ export const osakaHalls: readonly PachinkoHall[] = [
           "一人OK",
           "深夜OK"
         ],
-        "address": "大阪府大阪市中央区難波4-1-2"
+        "address": "大阪府大阪市中央区難波4-1-2",
+        "lat": 34.6648,
+        "lng": 135.5038
       },
       {
         "id": 407,
@@ -2195,7 +2421,9 @@ export const osakaHalls: readonly PachinkoHall[] = [
           "一人OK",
           "深夜OK"
         ],
-        "address": "大阪府大阪市中央区難波5-1-60"
+        "address": "大阪府大阪市中央区難波5-1-60",
+        "lat": 34.6635,
+        "lng": 135.5015
       },
       {
         "id": 417,
@@ -2214,7 +2442,9 @@ export const osakaHalls: readonly PachinkoHall[] = [
           "一人OK",
           "深夜OK"
         ],
-        "address": "大阪府大阪市中央区難波2-1-5"
+        "address": "大阪府大阪市中央区難波2-1-5",
+        "lat": 34.6658,
+        "lng": 135.505
       },
       {
         "id": 416,
@@ -2231,7 +2461,9 @@ export const osakaHalls: readonly PachinkoHall[] = [
           "サク飯",
           "一人OK"
         ],
-        "address": "大阪府大阪市中央区難波3-4-15"
+        "address": "大阪府大阪市中央区難波3-4-15",
+        "lat": 34.665,
+        "lng": 135.5045
       },
       {
         "id": 427,
@@ -2248,7 +2480,9 @@ export const osakaHalls: readonly PachinkoHall[] = [
           "ガッツリ",
           "一人OK"
         ],
-        "address": "大阪府大阪市中央区難波5-1-60 なんばパークス"
+        "address": "大阪府大阪市中央区難波5-1-60 なんばパークス",
+        "lat": 34.663,
+        "lng": 135.501
       },
       {
         "id": 419,
@@ -2265,7 +2499,9 @@ export const osakaHalls: readonly PachinkoHall[] = [
           "サク飯",
           "一人OK"
         ],
-        "address": "大阪府大阪市中央区千日前2-7-20"
+        "address": "大阪府大阪市中央区千日前2-7-20",
+        "lat": 34.667,
+        "lng": 135.5065
       },
       {
         "id": 415,
@@ -2284,7 +2520,9 @@ export const osakaHalls: readonly PachinkoHall[] = [
           "一人OK",
           "深夜OK"
         ],
-        "address": "大阪府大阪市中央区難波1-17-17"
+        "address": "大阪府大阪市中央区難波1-17-17",
+        "lat": 34.6655,
+        "lng": 135.5062
       },
       {
         "id": 422,
@@ -2302,7 +2540,9 @@ export const osakaHalls: readonly PachinkoHall[] = [
           "一人OK",
           "深夜OK"
         ],
-        "address": "大阪府大阪市中央区千日前2-2-7"
+        "address": "大阪府大阪市中央区千日前2-2-7",
+        "lat": 34.6674,
+        "lng": 135.5068
       },
       {
         "id": 406,
@@ -2320,7 +2560,9 @@ export const osakaHalls: readonly PachinkoHall[] = [
           "ガッツリ",
           "一人OK"
         ],
-        "address": "大阪府大阪市中央区難波1-8-17"
+        "address": "大阪府大阪市中央区難波1-8-17",
+        "lat": 34.666,
+        "lng": 135.507
       },
       {
         "id": 403,
@@ -2340,6 +2582,8 @@ export const osakaHalls: readonly PachinkoHall[] = [
           "深夜OK"
         ],
         "address": "大阪府大阪市中央区千日前1-9-20",
+        "lat": 34.668,
+        "lng": 135.5072,
         "is_kitaichimeshi": true
       },
       {
@@ -2358,6 +2602,8 @@ export const osakaHalls: readonly PachinkoHall[] = [
           "一人OK"
         ],
         "address": "大阪府大阪市中央区千日前1-1-7",
+        "lat": 34.6675,
+        "lng": 135.5068,
         "is_kitaichimeshi": true
       },
       {
@@ -2374,7 +2620,9 @@ export const osakaHalls: readonly PachinkoHall[] = [
         "tags": [
           "一人OK"
         ],
-        "address": "大阪府大阪市中央区千日前2-8-12"
+        "address": "大阪府大阪市中央区千日前2-8-12",
+        "lat": 34.6678,
+        "lng": 135.507
       }
     ]
   },
@@ -2410,7 +2658,9 @@ export const osakaHalls: readonly PachinkoHall[] = [
           "一人OK",
           "深夜OK"
         ],
-        "address": "大阪府大阪市中央区千日前2-2-7"
+        "address": "大阪府大阪市中央区千日前2-2-7",
+        "lat": 34.6674,
+        "lng": 135.5068
       },
       {
         "id": 403,
@@ -2430,6 +2680,8 @@ export const osakaHalls: readonly PachinkoHall[] = [
           "深夜OK"
         ],
         "address": "大阪府大阪市中央区千日前1-9-20",
+        "lat": 34.668,
+        "lng": 135.5072,
         "is_kitaichimeshi": true
       },
       {
@@ -2448,6 +2700,8 @@ export const osakaHalls: readonly PachinkoHall[] = [
           "一人OK"
         ],
         "address": "大阪府大阪市中央区千日前1-1-7",
+        "lat": 34.6675,
+        "lng": 135.5068,
         "is_kitaichimeshi": true
       },
       {
@@ -2464,7 +2718,9 @@ export const osakaHalls: readonly PachinkoHall[] = [
         "tags": [
           "一人OK"
         ],
-        "address": "大阪府大阪市中央区千日前2-8-12"
+        "address": "大阪府大阪市中央区千日前2-8-12",
+        "lat": 34.6678,
+        "lng": 135.507
       },
       {
         "id": 419,
@@ -2481,7 +2737,9 @@ export const osakaHalls: readonly PachinkoHall[] = [
           "サク飯",
           "一人OK"
         ],
-        "address": "大阪府大阪市中央区千日前2-7-20"
+        "address": "大阪府大阪市中央区千日前2-7-20",
+        "lat": 34.667,
+        "lng": 135.5065
       },
       {
         "id": 406,
@@ -2499,7 +2757,9 @@ export const osakaHalls: readonly PachinkoHall[] = [
           "ガッツリ",
           "一人OK"
         ],
-        "address": "大阪府大阪市中央区難波1-8-17"
+        "address": "大阪府大阪市中央区難波1-8-17",
+        "lat": 34.666,
+        "lng": 135.507
       },
       {
         "id": 423,
@@ -2516,7 +2776,9 @@ export const osakaHalls: readonly PachinkoHall[] = [
           "ガッツリ",
           "一人OK"
         ],
-        "address": "大阪府大阪市中央区難波2-2-15"
+        "address": "大阪府大阪市中央区難波2-2-15",
+        "lat": 34.666,
+        "lng": 135.5048
       },
       {
         "id": 417,
@@ -2535,7 +2797,9 @@ export const osakaHalls: readonly PachinkoHall[] = [
           "一人OK",
           "深夜OK"
         ],
-        "address": "大阪府大阪市中央区難波2-1-5"
+        "address": "大阪府大阪市中央区難波2-1-5",
+        "lat": 34.6658,
+        "lng": 135.505
       },
       {
         "id": 415,
@@ -2554,7 +2818,9 @@ export const osakaHalls: readonly PachinkoHall[] = [
           "一人OK",
           "深夜OK"
         ],
-        "address": "大阪府大阪市中央区難波1-17-17"
+        "address": "大阪府大阪市中央区難波1-17-17",
+        "lat": 34.6655,
+        "lng": 135.5062
       },
       {
         "id": 458,
@@ -2571,6 +2837,8 @@ export const osakaHalls: readonly PachinkoHall[] = [
           "一人OK"
         ],
         "address": "大阪府大阪市中央区道頓堀1-7-24",
+        "lat": 34.6682,
+        "lng": 135.503,
         "is_kitaichimeshi": true
       },
       {
@@ -2589,6 +2857,8 @@ export const osakaHalls: readonly PachinkoHall[] = [
           "一人OK"
         ],
         "address": "大阪府大阪市中央区道頓堀1-6-15",
+        "lat": 34.6685,
+        "lng": 135.5028,
         "is_kitaichimeshi": true
       },
       {
@@ -2607,7 +2877,9 @@ export const osakaHalls: readonly PachinkoHall[] = [
           "一人OK",
           "深夜OK"
         ],
-        "address": "大阪府大阪市中央区宗右衛門町7-13"
+        "address": "大阪府大阪市中央区宗右衛門町7-13",
+        "lat": 34.6685,
+        "lng": 135.5025
       },
       {
         "id": 418,
@@ -2624,7 +2896,9 @@ export const osakaHalls: readonly PachinkoHall[] = [
           "サク飯",
           "一人OK"
         ],
-        "address": "大阪府大阪市中央区難波3-5-15"
+        "address": "大阪府大阪市中央区難波3-5-15",
+        "lat": 34.6652,
+        "lng": 135.504
       },
       {
         "id": 416,
@@ -2641,7 +2915,9 @@ export const osakaHalls: readonly PachinkoHall[] = [
           "サク飯",
           "一人OK"
         ],
-        "address": "大阪府大阪市中央区難波3-4-15"
+        "address": "大阪府大阪市中央区難波3-4-15",
+        "lat": 34.665,
+        "lng": 135.5045
       },
       {
         "id": 420,
@@ -2660,7 +2936,9 @@ export const osakaHalls: readonly PachinkoHall[] = [
           "一人OK",
           "深夜OK"
         ],
-        "address": "大阪府大阪市中央区難波4-1-2"
+        "address": "大阪府大阪市中央区難波4-1-2",
+        "lat": 34.6648,
+        "lng": 135.5038
       },
       {
         "id": 408,
@@ -2677,7 +2955,9 @@ export const osakaHalls: readonly PachinkoHall[] = [
           "ガッツリ",
           "一人OK"
         ],
-        "address": "大阪府大阪市中央区道頓堀1-5-7"
+        "address": "大阪府大阪市中央区道頓堀1-5-7",
+        "lat": 34.669,
+        "lng": 135.502
       }
     ]
   },
@@ -2713,7 +2993,9 @@ export const osakaHalls: readonly PachinkoHall[] = [
           "一人OK",
           "深夜OK"
         ],
-        "address": "大阪府大阪市中央区千日前2-2-7"
+        "address": "大阪府大阪市中央区千日前2-2-7",
+        "lat": 34.6674,
+        "lng": 135.5068
       },
       {
         "id": 405,
@@ -2731,6 +3013,8 @@ export const osakaHalls: readonly PachinkoHall[] = [
           "一人OK"
         ],
         "address": "大阪府大阪市中央区千日前1-1-7",
+        "lat": 34.6675,
+        "lng": 135.5068,
         "is_kitaichimeshi": true
       },
       {
@@ -2747,7 +3031,9 @@ export const osakaHalls: readonly PachinkoHall[] = [
         "tags": [
           "一人OK"
         ],
-        "address": "大阪府大阪市中央区千日前2-8-12"
+        "address": "大阪府大阪市中央区千日前2-8-12",
+        "lat": 34.6678,
+        "lng": 135.507
       },
       {
         "id": 419,
@@ -2764,7 +3050,9 @@ export const osakaHalls: readonly PachinkoHall[] = [
           "サク飯",
           "一人OK"
         ],
-        "address": "大阪府大阪市中央区千日前2-7-20"
+        "address": "大阪府大阪市中央区千日前2-7-20",
+        "lat": 34.667,
+        "lng": 135.5065
       },
       {
         "id": 403,
@@ -2784,6 +3072,8 @@ export const osakaHalls: readonly PachinkoHall[] = [
           "深夜OK"
         ],
         "address": "大阪府大阪市中央区千日前1-9-20",
+        "lat": 34.668,
+        "lng": 135.5072,
         "is_kitaichimeshi": true
       },
       {
@@ -2802,7 +3092,9 @@ export const osakaHalls: readonly PachinkoHall[] = [
           "ガッツリ",
           "一人OK"
         ],
-        "address": "大阪府大阪市中央区難波1-8-17"
+        "address": "大阪府大阪市中央区難波1-8-17",
+        "lat": 34.666,
+        "lng": 135.507
       },
       {
         "id": 423,
@@ -2819,7 +3111,9 @@ export const osakaHalls: readonly PachinkoHall[] = [
           "ガッツリ",
           "一人OK"
         ],
-        "address": "大阪府大阪市中央区難波2-2-15"
+        "address": "大阪府大阪市中央区難波2-2-15",
+        "lat": 34.666,
+        "lng": 135.5048
       },
       {
         "id": 417,
@@ -2838,7 +3132,9 @@ export const osakaHalls: readonly PachinkoHall[] = [
           "一人OK",
           "深夜OK"
         ],
-        "address": "大阪府大阪市中央区難波2-1-5"
+        "address": "大阪府大阪市中央区難波2-1-5",
+        "lat": 34.6658,
+        "lng": 135.505
       },
       {
         "id": 415,
@@ -2857,7 +3153,9 @@ export const osakaHalls: readonly PachinkoHall[] = [
           "一人OK",
           "深夜OK"
         ],
-        "address": "大阪府大阪市中央区難波1-17-17"
+        "address": "大阪府大阪市中央区難波1-17-17",
+        "lat": 34.6655,
+        "lng": 135.5062
       },
       {
         "id": 458,
@@ -2874,6 +3172,8 @@ export const osakaHalls: readonly PachinkoHall[] = [
           "一人OK"
         ],
         "address": "大阪府大阪市中央区道頓堀1-7-24",
+        "lat": 34.6682,
+        "lng": 135.503,
         "is_kitaichimeshi": true
       },
       {
@@ -2892,6 +3192,8 @@ export const osakaHalls: readonly PachinkoHall[] = [
           "一人OK"
         ],
         "address": "大阪府大阪市中央区道頓堀1-6-15",
+        "lat": 34.6685,
+        "lng": 135.5028,
         "is_kitaichimeshi": true
       },
       {
@@ -2909,7 +3211,9 @@ export const osakaHalls: readonly PachinkoHall[] = [
           "サク飯",
           "一人OK"
         ],
-        "address": "大阪府大阪市中央区難波3-5-15"
+        "address": "大阪府大阪市中央区難波3-5-15",
+        "lat": 34.6652,
+        "lng": 135.504
       },
       {
         "id": 416,
@@ -2926,7 +3230,9 @@ export const osakaHalls: readonly PachinkoHall[] = [
           "サク飯",
           "一人OK"
         ],
-        "address": "大阪府大阪市中央区難波3-4-15"
+        "address": "大阪府大阪市中央区難波3-4-15",
+        "lat": 34.665,
+        "lng": 135.5045
       },
       {
         "id": 404,
@@ -2944,7 +3250,9 @@ export const osakaHalls: readonly PachinkoHall[] = [
           "一人OK",
           "深夜OK"
         ],
-        "address": "大阪府大阪市中央区宗右衛門町7-13"
+        "address": "大阪府大阪市中央区宗右衛門町7-13",
+        "lat": 34.6685,
+        "lng": 135.5025
       },
       {
         "id": 420,
@@ -2963,7 +3271,9 @@ export const osakaHalls: readonly PachinkoHall[] = [
           "一人OK",
           "深夜OK"
         ],
-        "address": "大阪府大阪市中央区難波4-1-2"
+        "address": "大阪府大阪市中央区難波4-1-2",
+        "lat": 34.6648,
+        "lng": 135.5038
       },
       {
         "id": 408,
@@ -2980,7 +3290,9 @@ export const osakaHalls: readonly PachinkoHall[] = [
           "ガッツリ",
           "一人OK"
         ],
-        "address": "大阪府大阪市中央区道頓堀1-5-7"
+        "address": "大阪府大阪市中央区道頓堀1-5-7",
+        "lat": 34.669,
+        "lng": 135.502
       }
     ]
   }
