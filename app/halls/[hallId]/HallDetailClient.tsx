@@ -62,7 +62,6 @@ function StoreMapEmbed({
   name,
   genre,
   originName,
-  area,
   mapUrl,
   className = "",
   showWalkTime,
@@ -72,8 +71,6 @@ function StoreMapEmbed({
   genre: string
   /** ルート起点となるパチンコホール名（ホール詳細ページでは固定） */
   originName: string
-  /** マップ検索クエリの地域語（例: "秋葉原"） */
-  area: string
   /** 明示的に上書きしたい場合のみ指定。未指定なら originName→name のルートURLを自動生成 */
   mapUrl?: string
   className?: string
@@ -82,7 +79,7 @@ function StoreMapEmbed({
 }) {
   const [hasError, setHasError] = useState(false)
 
-  const embedUrl = mapUrl || generateRouteEmbedUrl(originName, name, area)
+  const embedUrl = mapUrl || generateRouteEmbedUrl(originName, name)
   const fallbackStyle =
     genreFallbackStyles[genre as keyof typeof genreFallbackStyles] ||
     genreFallbackStyles["ラーメン"]
@@ -121,25 +118,22 @@ function StoreMapEmbed({
 
 /**
  * パチンコホール地図埋め込み。
- * 単一地点を「ホール名 + エリア名」で検索表示する。
+ * 単一地点をホール名で検索表示する。
  */
 function PachinkoHallMapEmbed({
   name,
-  area,
   mapUrl,
   className = "",
 }: {
   name: string
-  /** マップ検索クエリの地域語 */
-  area: string
-  /** 明示的に上書きしたい場合のみ指定。未指定なら name + area から自動生成 */
+  /** 明示的に上書きしたい場合のみ指定。未指定なら name から自動生成 */
   mapUrl?: string
   className?: string
 }) {
   const [hasError, setHasError] = useState(false)
   const fallbackStyle = genreFallbackStyles["パチンコ"]
 
-  const embedUrl = mapUrl || generateMapEmbedUrl(name, area)
+  const embedUrl = mapUrl || generateMapEmbedUrl(name)
   const canShowIframe = Boolean(embedUrl) && !hasError
 
   return (
@@ -323,7 +317,6 @@ export default function HallDetailClient({
             <div className="flex gap-3 sm:hidden">
               <PachinkoHallMapEmbed
                 name={hall.name}
-                area={hall.area}
                 className="w-24 h-20 rounded-lg shrink-0"
               />
               <div className="flex-1 min-w-0">
@@ -370,7 +363,6 @@ export default function HallDetailClient({
             {/* 店舗地図（デスクトップ） */}
             <PachinkoHallMapEmbed
               name={hall.name}
-              area={hall.area}
               className="hidden sm:block w-48 h-32 rounded-lg shrink-0"
             />
 
@@ -435,7 +427,6 @@ export default function HallDetailClient({
             <div className="hidden lg:block relative shrink-0">
               <PachinkoHallMapEmbed
                 name={hall.name}
-                area={hall.area}
                 className="w-64 h-40 bg-gray-100 rounded-lg"
               />
               <div className="absolute bottom-2 right-2 bg-white rounded px-2 py-1 text-xs shadow pointer-events-none">
@@ -606,7 +597,6 @@ export default function HallDetailClient({
                       name={restaurant.name}
                       genre={restaurant.genre}
                       originName={hall.name}
-                      area={hall.area}
                       className="w-full h-32 sm:h-40"
                       showWalkTime
                       walkMinutes={restaurant.walkMinutes}
@@ -660,11 +650,7 @@ export default function HallDetailClient({
 
                       {/* Googleマップルート案内ボタン（ホール → 飲食店 / 徒歩） */}
                       <a
-                        href={getGoogleMapsDirectionUrl(
-                          hall.name,
-                          restaurant.name,
-                          hall.area,
-                        )}
+                        href={getGoogleMapsDirectionUrl(hall.name, restaurant.name)}
                         target="_blank"
                         rel="noopener noreferrer"
                         className="inline-flex items-center justify-center gap-1.5 px-3 py-2 min-h-[44px] bg-blue-600 hover:bg-blue-700 text-white text-xs sm:text-sm font-medium rounded-lg transition-colors w-full break-words"

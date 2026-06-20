@@ -1,20 +1,23 @@
 // Google マップ URL 生成ヘルパ
 //
 // 設計方針:
-// - 住所 (address) は使わず、「店舗名 + エリア名」で検索クエリを組み立てる
-// - エリア名はホールが保持し（PachinkoHall.area）、ホール周辺の飲食店も同じエリア名を共有する
-// - これにより、秋葉原以外のエリアでも同じロジックで動作する（全国展開対応）
+// - 検索クエリは原則「店舗名・ホール名のみ」（エリア名は付与しない）
+// - 密集地では「名称 + エリア名」だと別施設がヒットしやすいため
+// - 住所 (address) はマップ検索には使わない（UI 表示専用）
+// - 明示的な map_query / google_maps_query があれば buildMapQuery で優先可能
 
-/** 「店舗名 + エリア名」を Google マップ検索クエリ用に組み立てる共通ヘルパ */
-export const buildMapQuery = (name: string, area: string): string =>
-  encodeURIComponent(`${name} ${area}`)
+/** 名称を Google マップ検索クエリ用にエンコードする。mapQuery 指定時はそちらを優先 */
+export const buildMapQuery = (name: string, mapQuery?: string): string => {
+  const query = mapQuery?.trim() ? mapQuery : name
+  return encodeURIComponent(query)
+}
 
 /**
- * Google マップ 単一地点埋め込み URL（"店舗名 + エリア名" で検索）
+ * Google マップ 単一地点埋め込み URL（名称で検索）
  * パチンコホールカード等で使用。
  */
-export const generateMapEmbedUrl = (name: string, area: string): string =>
-  `https://maps.google.com/maps?q=${buildMapQuery(name, area)}&output=embed&z=17`
+export const generateMapEmbedUrl = (name: string, mapQuery?: string): string =>
+  `https://maps.google.com/maps?q=${buildMapQuery(name, mapQuery)}&output=embed&z=17`
 
 /**
  * Google マップ ルート埋め込み URL（origin → destination / 徒歩）
@@ -23,10 +26,11 @@ export const generateMapEmbedUrl = (name: string, area: string): string =>
 export const generateRouteEmbedUrl = (
   originName: string,
   destinationName: string,
-  area: string,
+  originMapQuery?: string,
+  destinationMapQuery?: string,
 ): string => {
-  const origin = buildMapQuery(originName, area)
-  const destination = buildMapQuery(destinationName, area)
+  const origin = buildMapQuery(originName, originMapQuery)
+  const destination = buildMapQuery(destinationName, destinationMapQuery)
   return `https://maps.google.com/maps?saddr=${origin}&daddr=${destination}&dirflg=w&output=embed`
 }
 
@@ -37,9 +41,10 @@ export const generateRouteEmbedUrl = (
 export const getGoogleMapsDirectionUrl = (
   originName: string,
   destinationName: string,
-  area: string,
+  originMapQuery?: string,
+  destinationMapQuery?: string,
 ): string => {
-  const origin = buildMapQuery(originName, area)
-  const destination = buildMapQuery(destinationName, area)
+  const origin = buildMapQuery(originName, originMapQuery)
+  const destination = buildMapQuery(destinationName, destinationMapQuery)
   return `https://www.google.com/maps/dir/?api=1&origin=${origin}&destination=${destination}&travelmode=walking`
 }
