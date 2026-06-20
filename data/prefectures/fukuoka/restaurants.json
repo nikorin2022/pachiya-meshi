@@ -184,5 +184,138 @@
     "lat": 33.589167,
     "lng": 130.411389,
     "default_ai_summary": "キャナルシティの一蘭。とんこつラーメンの定番。"
+  },
+  {
+    "id": "yoshinoya-hakata-bus-terminal",
+    "legacy_id": 632,
+    "name": "吉野家 博多バスターミナル店",
+    "area_id": "hakata",
+    "genre": "丼もの",
+    "time_category": [
+      "昼",
+      "夜"
+    ],
+    "hours": "7:00〜23:00",
+    "tags": [
+      "一人OK"
+    ],
+    "address": "福岡県福岡市博多区博多駅中央街2-1 博多バスターミナル1F",
+    "lat": 33.591452,
+    "lng": 130.4197532,
+    "default_ai_summary": "博多バスターミナルの吉野家。筑紫口・バス利用前後の牛丼に便利。"
+  },
+  {
+    "id": "yoshinoya-hakata-deitos-annex",
+    "legacy_id": 633,
+    "name": "吉野家 博多デイトスアネックス店",
+    "area_id": "hakata",
+    "genre": "丼もの",
+    "time_category": [
+      "昼",
+      "夜"
+    ],
+    "hours": "7:00〜24:00",
+    "tags": [
+      "一人OK"
+    ],
+    "address": "福岡県福岡市博多区博多駅中央街1-1 JR九州筑紫口ビル1F",
+    "lat": 33.590779,
+    "lng": 130.421583,
+    "default_ai_summary": "筑紫口デイトスアネックスの吉野家。プラザ博多から徒歩圏の牛丼定番。"
+  },
+  {
+    "id": "yoshinoya-hakata-gion",
+    "legacy_id": 634,
+    "name": "吉野家 博多祇園店",
+    "area_id": "hakata",
+    "genre": "丼もの",
+    "time_category": [
+      "昼",
+      "夜"
+    ],
+    "hours": "24時間営業",
+    "tags": [
+      "一人OK"
+    ],
+    "address": "福岡県福岡市博多区祇園町6-45",
+    "lat": 33.5922092,
+    "lng": 130.411388,
+    "default_ai_summary": "祇園の吉野家。ジオン博多駅前店・123博多店方面の牛丼に便利。"
+  },
+  {
+    "id": "matsuya-hakata-ekimae-dori",
+    "legacy_id": 635,
+    "name": "松屋 博多駅前通り店",
+    "area_id": "hakata",
+    "genre": "丼もの",
+    "time_category": [
+      "昼",
+      "夜"
+    ],
+    "hours": "24時間営業",
+    "tags": [
+      "一人OK"
+    ],
+    "address": "福岡県福岡市博多区博多駅前3-30-29 タイセイ第2ビル",
+    "lat": 33.589785,
+    "lng": 130.413769,
+    "default_ai_summary": "博多駅前通りの松屋。住吉・祇園エリアから戻りやすい牛めし。"
+  },
+  {
+    "id": "sukiya-hakata-ekimae-nichome",
+    "legacy_id": 636,
+    "name": "すき家 博多駅前二丁目店",
+    "area_id": "hakata",
+    "genre": "丼もの",
+    "time_category": [
+      "昼",
+      "夜"
+    ],
+    "hours": "4:00〜翌3:00",
+    "tags": [
+      "一人OK"
+    ],
+    "address": "福岡県福岡市博多区博多駅前2-10-12",
+    "lat": 33.592028,
+    "lng": 130.414682,
+    "default_ai_summary": "祇園大通沿いのすき家。ジオン博多駅前店から近い牛丼チェーン。"
+  },
+  {
+    "id": "yoshinoya-tenjin-3chome",
+    "legacy_id": 637,
+    "name": "吉野家 福岡天神３丁目店",
+    "area_id": "tenjin",
+    "genre": "丼もの",
+    "time_category": [
+      "昼",
+      "夜"
+    ],
+    "hours": "24時間営業",
+    "tags": [
+      "一人OK"
+    ],
+    "address": "福岡県福岡市中央区天神3-4-10",
+    "lat": 33.59156,
+    "lng": 130.395763,
+    "default_ai_summary": "天神3丁目の吉野家。GOGOアリーナ天神・プラザ天神から徒歩圏の牛丼。"
+  },
+  {
+    "id": "yoshinoya-tenjin-southern-dori",
+    "legacy_id": 638,
+    "name": "吉野家 天神サザン通り店",
+    "area_id": "tenjin",
+    "genre": "丼もの",
+    "time_category": [
+      "昼",
+      "夜"
+    ],
+    "hours": "24時間営業",
+    "tags": [
+      "一人OK"
+    ],
+    "address": "福岡県福岡市中央区天神2-6-32 天神パルスビル",
+    "lat": 33.589616,
+    "lng": 130.396945,
+    "default_ai_summary": "天神サザン通りの吉野家。天神駅前ホールから最短の牛丼チェーン。"
   }
 ]

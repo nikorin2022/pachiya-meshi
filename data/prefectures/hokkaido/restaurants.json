@@ -92,5 +92,43 @@
     "lat": 43.057278,
     "lng": 141.354167,
     "default_ai_summary": "札幌最古のラーメン店。シンプルな醤油ラーメンの名店。"
+  },
+  {
+    "id": "yoshinoya-sapporo-apia",
+    "legacy_id": 627,
+    "name": "吉野家 札幌駅APIA店",
+    "area_id": "sapporo-ekimae",
+    "genre": "丼もの",
+    "time_category": [
+      "昼",
+      "夜"
+    ],
+    "hours": "7:00〜23:00",
+    "tags": [
+      "一人OK"
+    ],
+    "address": "北海道札幌市中央区北5条西4丁目 札幌駅南口広場地下街W-35",
+    "lat": 43.067201,
+    "lng": 141.3497919,
+    "default_ai_summary": "APIA地下街の吉野家。ひまわりタワー・ベガスベガス札幌から徒歩圏の牛丼。"
+  },
+  {
+    "id": "nakau-sapporo-apia",
+    "legacy_id": 628,
+    "name": "なか卯 札幌駅アピア店",
+    "area_id": "sapporo-ekimae",
+    "genre": "丼もの",
+    "time_category": [
+      "昼",
+      "夜"
+    ],
+    "hours": "7:00〜23:00",
+    "tags": [
+      "一人OK"
+    ],
+    "address": "北海道札幌市中央区北5条西4丁目 札幌駅南口広場地下街W-21",
+    "lat": 43.0670675,
+    "lng": 141.3496303,
+    "default_ai_summary": "APIA直結のなか卯。親子丼やうどんを駅ビル内で手軽に。"
   }
 ]

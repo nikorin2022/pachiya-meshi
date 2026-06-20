@@ -188,5 +188,62 @@
     "lat": 35.170611,
     "lng": 136.884056,
     "default_ai_summary": "名駅サンロードのCoCo壱。トッピング自在のカレー定番。"
+  },
+  {
+    "id": "sukiya-sakae-sanchome",
+    "legacy_id": 619,
+    "name": "すき家 栄三丁目店",
+    "area_id": "sakae",
+    "genre": "丼もの",
+    "time_category": [
+      "昼",
+      "夜"
+    ],
+    "hours": "4:00〜翌3:00",
+    "tags": [
+      "一人OK"
+    ],
+    "address": "愛知県名古屋市中区栄3-8-32 山田ビル",
+    "lat": 35.167322,
+    "lng": 136.904858,
+    "default_ai_summary": "栄駅8出口付近のすき家。キング観光サウザンド栄各店から徒歩圏の牛丼。"
+  },
+  {
+    "id": "sukiya-meieki-nishi",
+    "legacy_id": 620,
+    "name": "すき家 名駅西店",
+    "area_id": "nagoya-ekimae",
+    "genre": "丼もの",
+    "time_category": [
+      "昼",
+      "夜"
+    ],
+    "hours": "4:00〜翌3:00",
+    "tags": [
+      "一人OK"
+    ],
+    "address": "愛知県名古屋市中村区椿町14-12 セントラルWEST名駅ビル",
+    "lat": 35.168573,
+    "lng": 136.880376,
+    "default_ai_summary": "名駅西口のすき家。柳橋店から西口方面の牛丼に便利。"
+  },
+  {
+    "id": "coco-ichibanya-chuo-shinsakae",
+    "legacy_id": 621,
+    "name": "カレーハウスCoCo壱番屋 中区新栄店",
+    "area_id": "sakae",
+    "genre": "カレー",
+    "time_category": [
+      "昼",
+      "夜"
+    ],
+    "hours": "10:00〜2:00",
+    "tags": [
+      "一人OK"
+    ],
+    "address": "愛知県名古屋市中区新栄三丁目2番7号 1階",
+    "lat": 35.169484,
+    "lng": 136.916056,
+    "default_ai_summary": "新栄エリアのCoCo壱。東新町店から徒歩圏でカレーを手軽に。"
   }
 ]
