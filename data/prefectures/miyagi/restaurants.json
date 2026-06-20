@@ -19,277 +19,6 @@
     "default_ai_summary": "仙台名物牛タンの定番。遠征のご褒美飯として東北遠征ユーザーにも知られる。"
   },
   {
-    "id": "matsuya-sendai-higashi",
-    "legacy_id": 563,
-    "name": "松屋 仙台駅東店",
-    "area_id": "sendai",
-    "genre": "丼もの",
-    "time_category": [
-      "朝",
-      "昼",
-      "夜"
-    ],
-    "hours": "11:00〜22:00",
-    "tags": [
-      "一人OK"
-    ],
-    "address": "宮城県仙台市宮城野区榴岡2-1-1",
-    "lat": 38.261,
-    "lng": 140.8858,
-    "default_ai_summary": "BiVi近くの牛丼。朝一前からサクッと飯。"
-  },
-  {
-    "id": "yoshinoya-sendai-higashi",
-    "legacy_id": 564,
-    "name": "吉野家 仙台駅東店",
-    "area_id": "sendai",
-    "genre": "丼もの",
-    "time_category": [
-      "朝",
-      "昼",
-      "夜"
-    ],
-    "hours": "11:00〜22:00",
-    "tags": [
-      "一人OK"
-    ],
-    "address": "宮城県仙台市宮城野区榴岡2-2-5",
-    "lat": 38.2609,
-    "lng": 140.8862,
-    "default_ai_summary": "24時間営業の牛丼。提供が速く短い休憩向き。"
-  },
-  {
-    "id": "sukiya-sendai-higashi",
-    "legacy_id": 565,
-    "name": "すき家 仙台駅東店",
-    "area_id": "sendai",
-    "genre": "丼もの",
-    "time_category": [
-      "朝",
-      "昼",
-      "夜"
-    ],
-    "hours": "11:00〜22:00",
-    "tags": [
-      "一人OK"
-    ],
-    "address": "宮城県仙台市宮城野区榴岡1-5-12",
-    "lat": 38.2611,
-    "lng": 140.8855,
-    "default_ai_summary": "駅東口のすき家。朝一前の軽食にも。"
-  },
-  {
-    "id": "ichiran-sendai-higashi",
-    "legacy_id": 566,
-    "name": "一蘭 仙台駅東店",
-    "area_id": "sendai",
-    "genre": "ラーメン",
-    "time_category": [
-      "昼",
-      "夜"
-    ],
-    "hours": "11:00〜22:00",
-    "tags": [
-      "一人OK"
-    ],
-    "address": "宮城県仙台市宮城野区榴岡1-4-8",
-    "lat": 38.2613,
-    "lng": 140.885,
-    "default_ai_summary": "駅東口の一蘭。個室ブースで味に集中できる。"
-  },
-  {
-    "id": "coco-sendai-higashi",
-    "legacy_id": 567,
-    "name": "カレーハウスCoCo壱番屋 仙台駅東店",
-    "area_id": "sendai",
-    "genre": "カレー",
-    "time_category": [
-      "昼",
-      "夜"
-    ],
-    "hours": "11:00〜22:00",
-    "tags": [
-      "一人OK"
-    ],
-    "address": "宮城県仙台市宮城野区榴岡2-3-10",
-    "lat": 38.2608,
-    "lng": 140.8865,
-    "default_ai_summary": "駅東口のCoCo壱。サクッとカレーで戻れる。"
-  },
-  {
-    "id": "katsuya-sendai-higashi",
-    "legacy_id": 568,
-    "name": "かつや 仙台駅東店",
-    "area_id": "sendai",
-    "genre": "とんかつ/カツ丼",
-    "time_category": [
-      "昼",
-      "夜"
-    ],
-    "hours": "11:00〜22:00",
-    "tags": [
-      "一人OK"
-    ],
-    "address": "宮城県仙台市宮城野区榴岡1-3-15",
-    "lat": 38.261,
-    "lng": 140.8848,
-    "default_ai_summary": "駅東口のかつや。カツ丼で手早くエネルギー補給。"
-  },
-  {
-    "id": "kineya-sendai-higashi",
-    "legacy_id": 569,
-    "name": "杵屋 仙台駅東店",
-    "area_id": "sendai",
-    "genre": "そば/うどん",
-    "time_category": [
-      "昼",
-      "夜"
-    ],
-    "hours": "11:00〜22:00",
-    "tags": [
-      "一人OK"
-    ],
-    "address": "宮城県仙台市宮城野区榴岡2-4-5",
-    "lat": 38.2607,
-    "lng": 140.8852,
-    "default_ai_summary": "駅東口の杵屋。あっさりうどんで軽い休憩向き。"
-  },
-  {
-    "id": "fujisoba-sendai-higashi",
-    "legacy_id": 570,
-    "name": "なだい富士そば 仙台駅東店",
-    "area_id": "sendai",
-    "genre": "そば/うどん",
-    "time_category": [
-      "朝",
-      "昼",
-      "夜"
-    ],
-    "hours": "11:00〜22:00",
-    "tags": [
-      "一人OK"
-    ],
-    "address": "宮城県仙台市宮城野区榴岡1-2-20",
-    "lat": 38.2612,
-    "lng": 140.8845,
-    "default_ai_summary": "24時間立ち食いそば。朝一前・閉店後にも。"
-  },
-  {
-    "id": "kura-sushi-sendai-higashi",
-    "legacy_id": 571,
-    "name": "くら寿司 仙台駅東店",
-    "area_id": "sendai",
-    "genre": "回転寿司",
-    "time_category": [
-      "昼",
-      "夜"
-    ],
-    "hours": "11:00〜22:00",
-    "tags": [
-      "一人OK"
-    ],
-    "address": "宮城県仙台市宮城野区榴岡2-5-8",
-    "lat": 38.2614,
-    "lng": 140.8868,
-    "default_ai_summary": "駅東口のくら寿司。サクッと寿司で戻れる。"
-  },
-  {
-    "id": "mcd-sendai-higashi",
-    "legacy_id": 572,
-    "name": "マクドナルド 仙台駅東店",
-    "area_id": "sendai",
-    "genre": "ハンバーガー",
-    "time_category": [
-      "朝",
-      "昼",
-      "夜"
-    ],
-    "hours": "11:00〜22:00",
-    "tags": [
-      "一人OK"
-    ],
-    "address": "宮城県仙台市宮城野区榴岡2-1-20",
-    "lat": 38.2606,
-    "lng": 140.886,
-    "default_ai_summary": "駅東口のマクドナルド。朝一前にも使える。"
-  },
-  {
-    "id": "mosburger-sendai-higashi",
-    "legacy_id": 573,
-    "name": "モスバーガー 仙台駅東店",
-    "area_id": "sendai",
-    "genre": "ハンバーガー",
-    "time_category": [
-      "昼",
-      "夜"
-    ],
-    "hours": "11:00〜22:00",
-    "tags": [
-      "一人OK"
-    ],
-    "address": "宮城県仙台市宮城野区榴岡1-1-10",
-    "lat": 38.2611,
-    "lng": 140.8842,
-    "default_ai_summary": "駅東口のモスバーガー。軽めの昼休憩向き。"
-  },
-  {
-    "id": "tendon-tenya-sendai-higashi",
-    "legacy_id": 574,
-    "name": "天丼てんや 仙台駅東店",
-    "area_id": "sendai",
-    "genre": "丼もの",
-    "time_category": [
-      "昼",
-      "夜"
-    ],
-    "hours": "11:00〜22:00",
-    "tags": [
-      "一人OK"
-    ],
-    "address": "宮城県仙台市宮城野区榴岡1-3-5",
-    "lat": 38.2609,
-    "lng": 140.884,
-    "default_ai_summary": "駅東口のてんや。サクッと天丼で戻れる。"
-  },
-  {
-    "id": "sushiro-sendai-higashi",
-    "legacy_id": 575,
-    "name": "スシロー 仙台駅東店",
-    "area_id": "sendai",
-    "genre": "回転寿司",
-    "time_category": [
-      "昼",
-      "夜"
-    ],
-    "hours": "11:00〜22:00",
-    "tags": [
-      "一人OK"
-    ],
-    "address": "宮城県仙台市宮城野区榴岡2-6-12",
-    "lat": 38.2615,
-    "lng": 140.8855,
-    "default_ai_summary": "駅東口のスシロー。回転の速い寿司で休憩向き。"
-  },
-  {
-    "id": "ramen-naruto-sendai-higashi",
-    "legacy_id": 576,
-    "name": "なると屋 仙台駅東店",
-    "area_id": "sendai",
-    "genre": "ラーメン",
-    "time_category": [
-      "昼",
-      "夜"
-    ],
-    "hours": "11:00〜22:00",
-    "tags": [
-      "一人OK"
-    ],
-    "address": "宮城県仙台市宮城野区榴岡2-2-18",
-    "lat": 38.2605,
-    "lng": 140.8848,
-    "default_ai_summary": "仙台名物あっさり系ラーメン。地場飯として遠征の締めにも。"
-  },
-  {
     "id": "gyutan-rikyu-sendai",
     "legacy_id": 577,
     "name": "利久 牛タン通り店",
@@ -309,369 +38,79 @@
     "default_ai_summary": "牛タン通りの利久。仙台名物で遠征のご褒美飯として定番。"
   },
   {
-    "id": "narutohanten-sendai",
-    "legacy_id": 578,
-    "name": "なると屋 仙台本店",
-    "area_id": "sendai",
-    "genre": "ラーメン",
-    "time_category": [
-      "昼",
-      "夜"
-    ],
-    "hours": "11:00〜22:00",
-    "tags": [
-      "一人OK"
-    ],
-    "address": "宮城県仙台市青葉区中央1-5-15",
-    "lat": 38.2592,
-    "lng": 140.8815,
-    "default_ai_summary": "仙台名物あっさり系ラーメンの本店。地場名店として遠征ユーザーにも。"
-  },
-  {
-    "id": "matsuya-sendai-nakakecho",
-    "legacy_id": 579,
-    "name": "松屋 名掛丁店",
+    "id": "yoshinoya-sendai-nishiguchi",
+    "legacy_id": 619,
+    "name": "吉野家 仙台駅西口店",
     "area_id": "sendai",
     "genre": "丼もの",
     "time_category": [
-      "朝",
       "昼",
       "夜"
     ],
-    "hours": "11:00〜22:00",
+    "hours": "6:00〜翌3:00",
     "tags": [
       "一人OK"
     ],
-    "address": "宮城県仙台市青葉区中央1-7-5",
-    "lat": 38.2596,
-    "lng": 140.8808,
-    "default_ai_summary": "名掛丁の牛丼。朝一前からサクッと飯。"
+    "address": "宮城県仙台市青葉区中央1-7-1",
+    "lat": 38.259722,
+    "lng": 140.881111,
+    "default_ai_summary": "仙台駅西口の吉野家。牛丼を素早く食べられる。"
   },
   {
-    "id": "yoshinoya-sendai-nakakecho",
-    "legacy_id": 580,
-    "name": "吉野家 名掛丁店",
+    "id": "matsuya-sendai-higashi",
+    "legacy_id": 620,
+    "name": "松屋 仙台東口店",
     "area_id": "sendai",
     "genre": "丼もの",
     "time_category": [
-      "朝",
       "昼",
       "夜"
     ],
-    "hours": "11:00〜22:00",
+    "hours": "24時間営業",
     "tags": [
       "一人OK"
     ],
-    "address": "宮城県仙台市青葉区中央1-6-12",
-    "lat": 38.2594,
-    "lng": 140.881,
-    "default_ai_summary": "名掛丁の吉野家。提供爆速で短い休憩向き。"
+    "address": "宮城県仙台市宮城野区榴岡2-1-25 BiVi仙台駅東口 1階",
+    "lat": 38.260556,
+    "lng": 140.885556,
+    "default_ai_summary": "BiVi仙台東口の松屋。牛めしを手軽に。"
   },
   {
-    "id": "sukiya-sendai-nakakecho",
-    "legacy_id": 581,
-    "name": "すき家 名掛丁店",
+    "id": "sutadonya-sendai-nakakecho",
+    "legacy_id": 621,
+    "name": "伝説のすた丼屋 仙台名掛丁店",
     "area_id": "sendai",
     "genre": "丼もの",
     "time_category": [
-      "朝",
       "昼",
       "夜"
     ],
-    "hours": "11:00〜22:00",
+    "hours": "11:00〜23:00",
     "tags": [
       "一人OK"
     ],
-    "address": "宮城県仙台市青葉区中央1-8-3",
-    "lat": 38.2597,
-    "lng": 140.8805,
-    "default_ai_summary": "名掛丁のすき家。朝一前の軽食にも。"
+    "address": "宮城県仙台市青葉区中央2-6-36 中央レントビル1F",
+    "lat": 38.260417,
+    "lng": 140.882222,
+    "default_ai_summary": "名掛丁のすた丼。ガッツリ丼で腹を満たす定番。"
   },
   {
-    "id": "coco-sendai-nakakecho",
-    "legacy_id": 582,
-    "name": "カレーハウスCoCo壱番屋 名掛丁店",
+    "id": "coco-ichibanya-sendai-sunmall",
+    "legacy_id": 622,
+    "name": "カレーハウスCoCo壱番屋 仙台サンモール一番町店",
     "area_id": "sendai",
     "genre": "カレー",
     "time_category": [
       "昼",
       "夜"
     ],
-    "hours": "11:00〜22:00",
+    "hours": "10:45〜22:00",
     "tags": [
       "一人OK"
     ],
-    "address": "宮城県仙台市青葉区中央1-5-20",
-    "lat": 38.2593,
-    "lng": 140.8808,
-    "default_ai_summary": "名掛丁のCoCo壱。サクッとカレーで戻れる。"
-  },
-  {
-    "id": "katsuya-sendai-nakakecho",
-    "legacy_id": 583,
-    "name": "かつや 名掛丁店",
-    "area_id": "sendai",
-    "genre": "とんかつ/カツ丼",
-    "time_category": [
-      "昼",
-      "夜"
-    ],
-    "hours": "11:00〜22:00",
-    "tags": [
-      "一人OK"
-    ],
-    "address": "宮城県仙台市青葉区中央1-7-2",
-    "lat": 38.2595,
-    "lng": 140.8818,
-    "default_ai_summary": "名掛丁のかつや。カツ丼で手早くエネルギー補給。"
-  },
-  {
-    "id": "tonkatsu-wako-sendai",
-    "legacy_id": 584,
-    "name": "とんかつ和幸 仙台駅前店",
-    "area_id": "sendai",
-    "genre": "とんかつ/カツ丼",
-    "time_category": [
-      "昼",
-      "夜"
-    ],
-    "hours": "11:00〜22:00",
-    "tags": [
-      "一人OK"
-    ],
-    "address": "宮城県仙台市青葉区中央1-9-5",
-    "lat": 38.26,
-    "lng": 140.881,
-    "default_ai_summary": "仙台駅前のとんかつ和幸。勝った日のご褒美とんかつにも。"
-  },
-  {
-    "id": "tendon-tenya-sendai-nakakecho",
-    "legacy_id": 585,
-    "name": "天丼てんや 名掛丁店",
-    "area_id": "sendai",
-    "genre": "丼もの",
-    "time_category": [
-      "昼",
-      "夜"
-    ],
-    "hours": "11:00〜22:00",
-    "tags": [
-      "一人OK"
-    ],
-    "address": "宮城県仙台市青葉区中央1-6-18",
-    "lat": 38.2596,
-    "lng": 140.8815,
-    "default_ai_summary": "名掛丁のてんや。サクッと天丼で戻れる。"
-  },
-  {
-    "id": "nakau-sendai",
-    "legacy_id": 586,
-    "name": "なか卯 仙台駅前店",
-    "area_id": "sendai",
-    "genre": "丼もの",
-    "time_category": [
-      "昼",
-      "夜"
-    ],
-    "hours": "11:00〜22:00",
-    "tags": [
-      "一人OK"
-    ],
-    "address": "宮城県仙台市青葉区中央1-8-10",
-    "lat": 38.2598,
-    "lng": 140.8806,
-    "default_ai_summary": "仙台駅前のなか卯。親子丼など軽めの昼食向き。"
-  },
-  {
-    "id": "kineya-sendai-nakakecho",
-    "legacy_id": 587,
-    "name": "杵屋 名掛丁店",
-    "area_id": "sendai",
-    "genre": "そば/うどん",
-    "time_category": [
-      "昼",
-      "夜"
-    ],
-    "hours": "11:00〜22:00",
-    "tags": [
-      "一人OK"
-    ],
-    "address": "宮城県仙台市青葉区中央1-5-8",
-    "lat": 38.2594,
-    "lng": 140.8812,
-    "default_ai_summary": "名掛丁の杵屋。あっさりうどんで軽い休憩向き。"
-  },
-  {
-    "id": "fujisoba-sendai-nakakecho",
-    "legacy_id": 588,
-    "name": "なだい富士そば 名掛丁店",
-    "area_id": "sendai",
-    "genre": "そば/うどん",
-    "time_category": [
-      "朝",
-      "昼",
-      "夜"
-    ],
-    "hours": "11:00〜22:00",
-    "tags": [
-      "一人OK"
-    ],
-    "address": "宮城県仙台市青葉区中央1-10-5",
-    "lat": 38.2601,
-    "lng": 140.8802,
-    "default_ai_summary": "24時間立ち食いそば。朝一前・閉店後にも。"
-  },
-  {
-    "id": "yakiniku-like-sendai",
-    "legacy_id": 589,
-    "name": "焼肉ライク 仙台駅前店",
-    "area_id": "sendai",
-    "genre": "焼肉",
-    "time_category": [
-      "昼",
-      "夜"
-    ],
-    "hours": "11:00〜22:00",
-    "tags": [
-      "一人OK"
-    ],
-    "address": "宮城県仙台市青葉区中央1-9-12",
-    "lat": 38.2599,
-    "lng": 140.8818,
-    "default_ai_summary": "仙台駅前の焼肉ライク。短時間で焼肉を楽しめる。"
-  },
-  {
-    "id": "kura-sushi-sendai-nakakecho",
-    "legacy_id": 590,
-    "name": "くら寿司 名掛丁店",
-    "area_id": "sendai",
-    "genre": "回転寿司",
-    "time_category": [
-      "昼",
-      "夜"
-    ],
-    "hours": "11:00〜22:00",
-    "tags": [
-      "一人OK"
-    ],
-    "address": "宮城県仙台市青葉区中央1-4-22",
-    "lat": 38.2592,
-    "lng": 140.8805,
-    "default_ai_summary": "名掛丁のくら寿司。サクッと寿司で戻れる。"
-  },
-  {
-    "id": "sushiro-sendai-nakakecho",
-    "legacy_id": 591,
-    "name": "スシロー 名掛丁店",
-    "area_id": "sendai",
-    "genre": "回転寿司",
-    "time_category": [
-      "昼",
-      "夜"
-    ],
-    "hours": "11:00〜22:00",
-    "tags": [
-      "一人OK"
-    ],
-    "address": "宮城県仙台市青葉区中央1-7-15",
-    "lat": 38.2597,
-    "lng": 140.8812,
-    "default_ai_summary": "名掛丁のスシロー。回転の速い寿司で休憩向き。"
-  },
-  {
-    "id": "mosburger-sendai-nakakecho",
-    "legacy_id": 592,
-    "name": "モスバーガー 名掛丁店",
-    "area_id": "sendai",
-    "genre": "ハンバーガー",
-    "time_category": [
-      "昼",
-      "夜"
-    ],
-    "hours": "11:00〜22:00",
-    "tags": [
-      "一人OK"
-    ],
-    "address": "宮城県仙台市青葉区中央1-6-5",
-    "lat": 38.2595,
-    "lng": 140.8802,
-    "default_ai_summary": "名掛丁のモスバーガー。軽めの昼休憩向き。"
-  },
-  {
-    "id": "mcd-sendai-nakakecho",
-    "legacy_id": 593,
-    "name": "マクドナルド 名掛丁店",
-    "area_id": "sendai",
-    "genre": "ハンバーガー",
-    "time_category": [
-      "朝",
-      "昼",
-      "夜"
-    ],
-    "hours": "11:00〜22:00",
-    "tags": [
-      "一人OK"
-    ],
-    "address": "宮城県仙台市青葉区中央1-10-2",
-    "lat": 38.2602,
-    "lng": 140.8808,
-    "default_ai_summary": "名掛丁のマクドナルド。朝一前にも使える。"
-  },
-  {
-    "id": "ippudo-sendai",
-    "legacy_id": 594,
-    "name": "一風堂 仙台駅前店",
-    "area_id": "sendai",
-    "genre": "ラーメン",
-    "time_category": [
-      "昼",
-      "夜"
-    ],
-    "hours": "11:00〜22:00",
-    "tags": [
-      "一人OK"
-    ],
-    "address": "宮城県仙台市青葉区中央1-11-8",
-    "lat": 38.2603,
-    "lng": 140.8815,
-    "default_ai_summary": "仙台駅前の一風堂。博多系ラーメンでガッツリ飯向き。"
-  },
-  {
-    "id": "soupcurry-sendai",
-    "legacy_id": 595,
-    "name": "スープカレー ジャングル 仙台店",
-    "area_id": "sendai",
-    "genre": "カレー",
-    "time_category": [
-      "昼",
-      "夜"
-    ],
-    "hours": "11:00〜22:00",
-    "tags": [
-      "一人OK"
-    ],
-    "address": "宮城県仙台市青葉区中央1-4-15",
-    "lat": 38.2591,
-    "lng": 140.881,
-    "default_ai_summary": "仙台のスープカレー。具材たっぷりで満足感が高い。"
-  },
-  {
-    "id": "horumon-sendai",
-    "legacy_id": 596,
-    "name": "ホルモン焼 名掛丁店",
-    "area_id": "sendai",
-    "genre": "焼肉",
-    "time_category": [
-      "昼",
-      "夜"
-    ],
-    "hours": "11:00〜22:00",
-    "tags": [
-      "一人OK"
-    ],
-    "address": "宮城県仙台市青葉区中央1-5-25",
-    "lat": 38.2593,
-    "lng": 140.8818,
-    "default_ai_summary": "名掛丁のホルモン焼き。閉店後の締めにも。"
+    "address": "宮城県仙台市青葉区一番町2-7-5",
+    "lat": 38.262222,
+    "lng": 140.879444,
+    "default_ai_summary": "サンモール一番町のCoCo壱。駅近でカレーを手軽に。"
   }
 ]

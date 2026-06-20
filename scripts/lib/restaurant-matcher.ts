@@ -8,7 +8,7 @@
 //     実態と乖離するケースの救済)
 //   - 安定した出力順序を保証するため walkMinutes 昇順 + id 辞書順でソート
 
-import { estimateWalkMinutes } from "./distance"
+import { estimateWalkMinutes, haversineMeters } from "./distance"
 import type {
   ExclusionOverride,
   HallInput,
@@ -16,6 +16,7 @@ import type {
   WalkMinutesOverride,
 } from "./schema"
 
+const MAX_STRAIGHT_M = 800
 const MAX_WALK_MINUTES = 10
 
 /** bounding box 粗フィルタの上限 (km)。10分=直線約615mより十分広く取る。 */
@@ -60,6 +61,9 @@ export class RestaurantMatcher {
 
       // STEP 1: bounding box 粗フィルタ (Haversine 計算を回避)
       if (!withinBoundingBox(hall, r, BBOX_PREFILTER_KM)) continue
+
+      // STEP 1b: 直線距離 800m 超は掲載対象外（徒歩10分圏の厳守）
+      if (haversineMeters(hall, r) > MAX_STRAIGHT_M) continue
 
       // STEP 2: walk-minutes override 適用判定
       const override = this.overrideIndex.get(`${hall.id}|${r.id}`)

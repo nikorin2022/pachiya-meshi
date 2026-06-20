@@ -1,0 +1,385 @@
+{
+  "summary": {
+    "fabricated": 4,
+    "unverified": 39,
+    "seeded": 0,
+    "distance": 0,
+    "totalDeleted": 43,
+    "hallCounts": {
+      "king-thousand-sakae-wakamiya": 3,
+      "king-thousand-sakae-sumiyoshi": 3,
+      "king-thousand-sakae-higashishinmachi": 0,
+      "king-thousand-nagoya-ekimae-yanagibashi": 2,
+      "p-station-slot-sendai": 2,
+      "maruhan-sendai-ekihigashi": 2,
+      "ams-garden-sendai-ekimae": 2,
+      "vegas-vegas-nakakecho": 2,
+      "himawari-sapporo-ekimae-tower": 2,
+      "vegas-vegas-sapporo": 2,
+      "vegas-vegas-tanukikoji": 2,
+      "maruhan-nanba-honten": 16,
+      "maruhan-nanba-shinkan": 20,
+      "rakuen-nanba": 20,
+      "123-nanba": 20,
+      "maruhan-umeda": 5,
+      "123n-osaka-honten": 3,
+      "shikairi-umeda": 5,
+      "dai-toyo-honten": 5,
+      "shikairi-hep-five": 5,
+      "slot123-umeda": 5,
+      "arrow-namba-hips": 20,
+      "shikairi-air-nanba": 16,
+      "club-d-nanba": 16,
+      "plaza-hakata": 6,
+      "123-hakata": 6,
+      "zion-hakata-ekimae": 2,
+      "gogo-arena-tenjin": 1,
+      "plaza-tenjin": 1,
+      "boom-tenjin-honten": 1
+    },
+    "hallsUnder5": [
+      [
+        "king-thousand-sakae-wakamiya",
+        3
+      ],
+      [
+        "king-thousand-sakae-sumiyoshi",
+        3
+      ],
+      [
+        "king-thousand-sakae-higashishinmachi",
+        0
+      ],
+      [
+        "king-thousand-nagoya-ekimae-yanagibashi",
+        2
+      ],
+      [
+        "p-station-slot-sendai",
+        2
+      ],
+      [
+        "maruhan-sendai-ekihigashi",
+        2
+      ],
+      [
+        "ams-garden-sendai-ekimae",
+        2
+      ],
+      [
+        "vegas-vegas-nakakecho",
+        2
+      ],
+      [
+        "himawari-sapporo-ekimae-tower",
+        2
+      ],
+      [
+        "vegas-vegas-sapporo",
+        2
+      ],
+      [
+        "vegas-vegas-tanukikoji",
+        2
+      ],
+      [
+        "123n-osaka-honten",
+        3
+      ],
+      [
+        "zion-hakata-ekimae",
+        2
+      ],
+      [
+        "gogo-arena-tenjin",
+        1
+      ],
+      [
+        "plaza-tenjin",
+        1
+      ],
+      [
+        "boom-tenjin-honten",
+        1
+      ]
+    ],
+    "keptPerPref": [
+      {
+        "pref": "aichi",
+        "count": 5
+      },
+      {
+        "pref": "miyagi",
+        "count": 2
+      },
+      {
+        "pref": "hokkaido",
+        "count": 4
+      },
+      {
+        "pref": "osaka",
+        "count": 25
+      },
+      {
+        "pref": "fukuoka",
+        "count": 7
+      }
+    ]
+  },
+  "report": {
+    "deleted": [],
+    "distanceDeleted": [],
+    "fabricatedDeleted": [
+      {
+        "pref": "aichi",
+        "id": "ganso-sushi-sakae",
+        "name": "元祖寿司 栄店"
+      },
+      {
+        "pref": "aichi",
+        "id": "horumon-sakae",
+        "name": "ホルモン焼 栄店"
+      },
+      {
+        "pref": "aichi",
+        "id": "kishimen-sakae",
+        "name": "きしめん 名古屋名鉄栄店"
+      },
+      {
+        "pref": "aichi",
+        "id": "curry-king-sakae",
+        "name": "カレーキング 栄店"
+      }
+    ],
+    "unverifiedDeleted": [
+      {
+        "pref": "aichi",
+        "id": "matsuya-sakae",
+        "name": "松屋 栄店"
+      },
+      {
+        "pref": "aichi",
+        "id": "yoshinoya-sakae",
+        "name": "吉野家 栄店"
+      },
+      {
+        "pref": "aichi",
+        "id": "sukiya-sakae",
+        "name": "すき家 栄店"
+      },
+      {
+        "pref": "aichi",
+        "id": "ichiran-sakae",
+        "name": "一蘭 栄店"
+      },
+      {
+        "pref": "aichi",
+        "id": "ippudo-sakae",
+        "name": "一風堂 栄店"
+      },
+      {
+        "pref": "aichi",
+        "id": "coco-sakae",
+        "name": "カレーハウスCoCo壱番屋 栄店"
+      },
+      {
+        "pref": "aichi",
+        "id": "katsuya-sakae",
+        "name": "かつや 栄店"
+      },
+      {
+        "pref": "aichi",
+        "id": "tonkatsu-wako-sakae",
+        "name": "とんかつ和幸 栄店"
+      },
+      {
+        "pref": "aichi",
+        "id": "tendon-tenya-sakae",
+        "name": "天丼てんや 栄店"
+      },
+      {
+        "pref": "aichi",
+        "id": "nakau-sakae",
+        "name": "なか卯 栄店"
+      },
+      {
+        "pref": "aichi",
+        "id": "kineya-sakae",
+        "name": "杵屋 栄店"
+      },
+      {
+        "pref": "aichi",
+        "id": "fujisoba-sakae",
+        "name": "なだい富士そば 栄店"
+      },
+      {
+        "pref": "aichi",
+        "id": "gyuan-sakae",
+        "name": "焼肉 牛庵 栄店"
+      },
+      {
+        "pref": "aichi",
+        "id": "yakiniku-like-sakae",
+        "name": "焼肉ライク 栄店"
+      },
+      {
+        "pref": "aichi",
+        "id": "kura-sushi-sakae",
+        "name": "くら寿司 栄店"
+      },
+      {
+        "pref": "aichi",
+        "id": "sushiro-sakae",
+        "name": "スシロー 栄店"
+      },
+      {
+        "pref": "aichi",
+        "id": "mosburger-sakae",
+        "name": "モスバーガー 栄店"
+      },
+      {
+        "pref": "aichi",
+        "id": "mcd-sakae",
+        "name": "マクドナルド 栄店"
+      },
+      {
+        "pref": "aichi",
+        "id": "soupcurry-sakae",
+        "name": "スープカレー ジャングル 栄店"
+      },
+      {
+        "pref": "aichi",
+        "id": "ramen-waizu-sakae",
+        "name": "らーめん わいず 栄店"
+      },
+      {
+        "pref": "aichi",
+        "id": "tenya-sakae-north",
+        "name": "天丼てんや 栄北店"
+      },
+      {
+        "pref": "aichi",
+        "id": "sagami-meieki",
+        "name": "サガミ 名古屋駅店"
+      },
+      {
+        "pref": "aichi",
+        "id": "matsuya-meieki",
+        "name": "松屋 名古屋駅店"
+      },
+      {
+        "pref": "aichi",
+        "id": "yoshinoya-meieki",
+        "name": "吉野家 名古屋駅店"
+      },
+      {
+        "pref": "aichi",
+        "id": "sukiya-meieki",
+        "name": "すき家 名駅店"
+      },
+      {
+        "pref": "aichi",
+        "id": "ichiran-meieki",
+        "name": "一蘭 名古屋駅店"
+      },
+      {
+        "pref": "aichi",
+        "id": "coco-meieki",
+        "name": "カレーハウスCoCo壱番屋 名駅店"
+      },
+      {
+        "pref": "aichi",
+        "id": "katsuya-meieki",
+        "name": "かつや 名駅店"
+      },
+      {
+        "pref": "aichi",
+        "id": "tonkatsu-wako-meieki",
+        "name": "とんかつ和幸 名駅店"
+      },
+      {
+        "pref": "aichi",
+        "id": "tendon-tenya-meieki",
+        "name": "天丼てんや 名駅店"
+      },
+      {
+        "pref": "aichi",
+        "id": "kineya-meieki",
+        "name": "杵屋 名駅店"
+      },
+      {
+        "pref": "aichi",
+        "id": "fujisoba-meieki",
+        "name": "なだい富士そば 名駅店"
+      },
+      {
+        "pref": "aichi",
+        "id": "yakiniku-like-meieki",
+        "name": "焼肉ライク 名駅店"
+      },
+      {
+        "pref": "aichi",
+        "id": "kura-sushi-meieki",
+        "name": "くら寿司 名駅店"
+      },
+      {
+        "pref": "aichi",
+        "id": "sushiro-meieki",
+        "name": "スシロー 名駅店"
+      },
+      {
+        "pref": "aichi",
+        "id": "mosburger-meieki",
+        "name": "モスバーガー 名駅店"
+      },
+      {
+        "pref": "aichi",
+        "id": "mcd-meieki",
+        "name": "マクドナルド 名駅店"
+      },
+      {
+        "pref": "aichi",
+        "id": "ippudo-meieki",
+        "name": "一風堂 名駅店"
+      },
+      {
+        "pref": "aichi",
+        "id": "ramen-waizu-meieki",
+        "name": "らーめん わいず 名駅店"
+      }
+    ],
+    "seededDeleted": [],
+    "hallCounts": {
+      "king-thousand-sakae-wakamiya": 3,
+      "king-thousand-sakae-sumiyoshi": 3,
+      "king-thousand-sakae-higashishinmachi": 0,
+      "king-thousand-nagoya-ekimae-yanagibashi": 2,
+      "p-station-slot-sendai": 2,
+      "maruhan-sendai-ekihigashi": 2,
+      "ams-garden-sendai-ekimae": 2,
+      "vegas-vegas-nakakecho": 2,
+      "himawari-sapporo-ekimae-tower": 2,
+      "vegas-vegas-sapporo": 2,
+      "vegas-vegas-tanukikoji": 2,
+      "maruhan-nanba-honten": 16,
+      "maruhan-nanba-shinkan": 20,
+      "rakuen-nanba": 20,
+      "123-nanba": 20,
+      "maruhan-umeda": 5,
+      "123n-osaka-honten": 3,
+      "shikairi-umeda": 5,
+      "dai-toyo-honten": 5,
+      "shikairi-hep-five": 5,
+      "slot123-umeda": 5,
+      "arrow-namba-hips": 20,
+      "shikairi-air-nanba": 16,
+      "club-d-nanba": 16,
+      "plaza-hakata": 6,
+      "123-hakata": 6,
+      "zion-hakata-ekimae": 2,
+      "gogo-arena-tenjin": 1,
+      "plaza-tenjin": 1,
+      "boom-tenjin-honten": 1
+    }
+  }
+}

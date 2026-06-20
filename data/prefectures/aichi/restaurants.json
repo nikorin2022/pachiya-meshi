@@ -57,524 +57,6 @@
     "default_ai_summary": "名古屋名物みそ煮込みうどんの老舗。地場名店として遠征の締め飯にも。"
   },
   {
-    "id": "matsuya-sakae",
-    "legacy_id": 517,
-    "name": "松屋 栄店",
-    "area_id": "sakae",
-    "genre": "丼もの",
-    "time_category": [
-      "朝",
-      "昼",
-      "夜"
-    ],
-    "hours": "11:00〜22:00",
-    "tags": [
-      "一人OK"
-    ],
-    "address": "愛知県名古屋市中区栄3-4-5",
-    "lat": 35.1695,
-    "lng": 136.9058,
-    "default_ai_summary": "栄の牛丼チェーン。朝一前から閉店後までサクッと飯。"
-  },
-  {
-    "id": "yoshinoya-sakae",
-    "legacy_id": 518,
-    "name": "吉野家 栄店",
-    "area_id": "sakae",
-    "genre": "丼もの",
-    "time_category": [
-      "朝",
-      "昼",
-      "夜"
-    ],
-    "hours": "11:00〜22:00",
-    "tags": [
-      "一人OK"
-    ],
-    "address": "愛知県名古屋市中区栄3-5-12",
-    "lat": 35.1698,
-    "lng": 136.9062,
-    "default_ai_summary": "24時間営業の牛丼。提供が速く短い休憩向き。"
-  },
-  {
-    "id": "sukiya-sakae",
-    "legacy_id": 519,
-    "name": "すき家 栄店",
-    "area_id": "sakae",
-    "genre": "丼もの",
-    "time_category": [
-      "朝",
-      "昼",
-      "夜"
-    ],
-    "hours": "11:00〜22:00",
-    "tags": [
-      "一人OK"
-    ],
-    "address": "愛知県名古屋市中区栄3-6-8",
-    "lat": 35.1701,
-    "lng": 136.9055,
-    "default_ai_summary": "栄駅前のすき家。朝一前の軽食にも使える。"
-  },
-  {
-    "id": "ichiran-sakae",
-    "legacy_id": 520,
-    "name": "一蘭 栄店",
-    "area_id": "sakae",
-    "genre": "ラーメン",
-    "time_category": [
-      "昼",
-      "夜"
-    ],
-    "hours": "11:00〜22:00",
-    "tags": [
-      "一人OK"
-    ],
-    "address": "愛知県名古屋市中区栄3-3-15",
-    "lat": 35.1692,
-    "lng": 136.9068,
-    "default_ai_summary": "栄の一蘭。個室ブースで味に集中できるラーメン。"
-  },
-  {
-    "id": "ippudo-sakae",
-    "legacy_id": 521,
-    "name": "一風堂 栄店",
-    "area_id": "sakae",
-    "genre": "ラーメン",
-    "time_category": [
-      "昼",
-      "夜"
-    ],
-    "hours": "11:00〜22:00",
-    "tags": [
-      "一人OK"
-    ],
-    "address": "愛知県名古屋市中区栄3-8-22",
-    "lat": 35.1705,
-    "lng": 136.9072,
-    "default_ai_summary": "栄の一風堂。博多系ラーメンでガッツリ飯向き。"
-  },
-  {
-    "id": "coco-sakae",
-    "legacy_id": 522,
-    "name": "カレーハウスCoCo壱番屋 栄店",
-    "area_id": "sakae",
-    "genre": "カレー",
-    "time_category": [
-      "昼",
-      "夜"
-    ],
-    "hours": "11:00〜22:00",
-    "tags": [
-      "一人OK"
-    ],
-    "address": "愛知県名古屋市中区栄3-2-10",
-    "lat": 35.169,
-    "lng": 136.905,
-    "default_ai_summary": "栄のCoCo壱。サクッとカレーで戻れる定番。"
-  },
-  {
-    "id": "katsuya-sakae",
-    "legacy_id": 523,
-    "name": "かつや 栄店",
-    "area_id": "sakae",
-    "genre": "とんかつ/カツ丼",
-    "time_category": [
-      "昼",
-      "夜"
-    ],
-    "hours": "11:00〜22:00",
-    "tags": [
-      "一人OK"
-    ],
-    "address": "愛知県名古屋市中区栄3-5-5",
-    "lat": 35.1696,
-    "lng": 136.9065,
-    "default_ai_summary": "栄のかつや。カツ丼で手早くエネルギー補給。"
-  },
-  {
-    "id": "tonkatsu-wako-sakae",
-    "legacy_id": 524,
-    "name": "とんかつ和幸 栄店",
-    "area_id": "sakae",
-    "genre": "とんかつ/カツ丼",
-    "time_category": [
-      "昼",
-      "夜"
-    ],
-    "hours": "11:00〜22:00",
-    "tags": [
-      "一人OK"
-    ],
-    "address": "愛知県名古屋市中区栄3-7-1",
-    "lat": 35.17,
-    "lng": 136.907,
-    "default_ai_summary": "栄のとんかつ和幸。勝った日のご褒美とんかつにも。"
-  },
-  {
-    "id": "tendon-tenya-sakae",
-    "legacy_id": 525,
-    "name": "天丼てんや 栄店",
-    "area_id": "sakae",
-    "genre": "丼もの",
-    "time_category": [
-      "昼",
-      "夜"
-    ],
-    "hours": "11:00〜22:00",
-    "tags": [
-      "一人OK"
-    ],
-    "address": "愛知県名古屋市中区栄3-4-18",
-    "lat": 35.1693,
-    "lng": 136.906,
-    "default_ai_summary": "栄の天丼てんや。サクッと天丼で戻れる。"
-  },
-  {
-    "id": "nakau-sakae",
-    "legacy_id": 526,
-    "name": "なか卯 栄店",
-    "area_id": "sakae",
-    "genre": "丼もの",
-    "time_category": [
-      "昼",
-      "夜"
-    ],
-    "hours": "11:00〜22:00",
-    "tags": [
-      "一人OK"
-    ],
-    "address": "愛知県名古屋市中区栄3-3-8",
-    "lat": 35.1688,
-    "lng": 136.9055,
-    "default_ai_summary": "栄のなか卯。親子丼など軽めの昼食向き。"
-  },
-  {
-    "id": "kineya-sakae",
-    "legacy_id": 527,
-    "name": "杵屋 栄店",
-    "area_id": "sakae",
-    "genre": "そば/うどん",
-    "time_category": [
-      "昼",
-      "夜"
-    ],
-    "hours": "11:00〜22:00",
-    "tags": [
-      "一人OK"
-    ],
-    "address": "愛知県名古屋市中区栄3-5-20",
-    "lat": 35.1686,
-    "lng": 136.9072,
-    "default_ai_summary": "栄の杵屋。あっさりうどんで軽い休憩向き。"
-  },
-  {
-    "id": "fujisoba-sakae",
-    "legacy_id": 528,
-    "name": "なだい富士そば 栄店",
-    "area_id": "sakae",
-    "genre": "そば/うどん",
-    "time_category": [
-      "朝",
-      "昼",
-      "夜"
-    ],
-    "hours": "11:00〜22:00",
-    "tags": [
-      "一人OK"
-    ],
-    "address": "愛知県名古屋市中区栄3-1-12",
-    "lat": 35.1699,
-    "lng": 136.9048,
-    "default_ai_summary": "24時間立ち食いそば。朝一前・閉店後にも使える。"
-  },
-  {
-    "id": "gyuan-sakae",
-    "legacy_id": 529,
-    "name": "焼肉 牛庵 栄店",
-    "area_id": "sakae",
-    "genre": "焼肉",
-    "time_category": [
-      "昼",
-      "夜"
-    ],
-    "hours": "11:00〜22:00",
-    "tags": [
-      "一人OK"
-    ],
-    "address": "愛知県名古屋市中区栄3-9-5",
-    "lat": 35.1708,
-    "lng": 136.9075,
-    "default_ai_summary": "栄の焼肉牛庵。一人でも入りやすい焼肉。"
-  },
-  {
-    "id": "yakiniku-like-sakae",
-    "legacy_id": 530,
-    "name": "焼肉ライク 栄店",
-    "area_id": "sakae",
-    "genre": "焼肉",
-    "time_category": [
-      "昼",
-      "夜"
-    ],
-    "hours": "11:00〜22:00",
-    "tags": [
-      "一人OK"
-    ],
-    "address": "愛知県名古屋市中区栄3-6-15",
-    "lat": 35.1697,
-    "lng": 136.9068,
-    "default_ai_summary": "栄の焼肉ライク。短時間で焼肉を楽しめる。"
-  },
-  {
-    "id": "kura-sushi-sakae",
-    "legacy_id": 531,
-    "name": "くら寿司 栄店",
-    "area_id": "sakae",
-    "genre": "回転寿司",
-    "time_category": [
-      "昼",
-      "夜"
-    ],
-    "hours": "11:00〜22:00",
-    "tags": [
-      "一人OK"
-    ],
-    "address": "愛知県名古屋市中区栄3-8-10",
-    "lat": 35.1702,
-    "lng": 136.908,
-    "default_ai_summary": "栄のくら寿司。サクッと寿司で戻れる。"
-  },
-  {
-    "id": "sushiro-sakae",
-    "legacy_id": 532,
-    "name": "スシロー 栄店",
-    "area_id": "sakae",
-    "genre": "回転寿司",
-    "time_category": [
-      "昼",
-      "夜"
-    ],
-    "hours": "11:00〜22:00",
-    "tags": [
-      "一人OK"
-    ],
-    "address": "愛知県名古屋市中区栄3-3-5",
-    "lat": 35.1691,
-    "lng": 136.9052,
-    "default_ai_summary": "栄のスシロー。回転の速い寿司で休憩向き。"
-  },
-  {
-    "id": "ganso-sushi-sakae",
-    "legacy_id": 533,
-    "name": "元祖寿司 栄店",
-    "area_id": "sakae",
-    "genre": "回転寿司",
-    "time_category": [
-      "昼",
-      "夜"
-    ],
-    "hours": "11:00〜22:00",
-    "tags": [
-      "一人OK"
-    ],
-    "address": "愛知県名古屋市中区栄3-10-2",
-    "lat": 35.1706,
-    "lng": 136.9078,
-    "default_ai_summary": "栄の回転寿司。サクッと食べて戻れる。"
-  },
-  {
-    "id": "mosburger-sakae",
-    "legacy_id": 534,
-    "name": "モスバーガー 栄店",
-    "area_id": "sakae",
-    "genre": "ハンバーガー",
-    "time_category": [
-      "昼",
-      "夜"
-    ],
-    "hours": "11:00〜22:00",
-    "tags": [
-      "一人OK"
-    ],
-    "address": "愛知県名古屋市中区栄3-4-22",
-    "lat": 35.1694,
-    "lng": 136.9056,
-    "default_ai_summary": "栄のモスバーガー。軽めの昼休憩向き。"
-  },
-  {
-    "id": "mcd-sakae",
-    "legacy_id": 535,
-    "name": "マクドナルド 栄店",
-    "area_id": "sakae",
-    "genre": "ハンバーガー",
-    "time_category": [
-      "朝",
-      "昼",
-      "夜"
-    ],
-    "hours": "11:00〜22:00",
-    "tags": [
-      "一人OK"
-    ],
-    "address": "愛知県名古屋市中区栄3-7-18",
-    "lat": 35.1703,
-    "lng": 136.9065,
-    "default_ai_summary": "栄のマクドナルド。朝一前にも使える。"
-  },
-  {
-    "id": "soupcurry-sakae",
-    "legacy_id": 536,
-    "name": "スープカレー ジャングル 栄店",
-    "area_id": "sakae",
-    "genre": "カレー",
-    "time_category": [
-      "昼",
-      "夜"
-    ],
-    "hours": "11:00〜22:00",
-    "tags": [
-      "一人OK"
-    ],
-    "address": "愛知県名古屋市中区栄3-4-8",
-    "lat": 35.1689,
-    "lng": 136.9062,
-    "default_ai_summary": "栄のスープカレー。具材たっぷりで満足感が高い。"
-  },
-  {
-    "id": "ramen-waizu-sakae",
-    "legacy_id": 537,
-    "name": "らーめん わいず 栄店",
-    "area_id": "sakae",
-    "genre": "ラーメン",
-    "time_category": [
-      "昼",
-      "夜"
-    ],
-    "hours": "11:00〜22:00",
-    "tags": [
-      "一人OK"
-    ],
-    "address": "愛知県名古屋市中区大須3-8-12",
-    "lat": 35.1675,
-    "lng": 136.9075,
-    "default_ai_summary": "家系ラーメンでガッツリ食べたい日のご褒美麺。"
-  },
-  {
-    "id": "horumon-sakae",
-    "legacy_id": 538,
-    "name": "ホルモン焼 栄店",
-    "area_id": "sakae",
-    "genre": "焼肉",
-    "time_category": [
-      "昼",
-      "夜"
-    ],
-    "hours": "11:00〜22:00",
-    "tags": [
-      "一人OK"
-    ],
-    "address": "愛知県名古屋市中区大須3-5-20",
-    "lat": 35.168,
-    "lng": 136.908,
-    "default_ai_summary": "栄のホルモン焼き。閉店後の締めにも。"
-  },
-  {
-    "id": "kishimen-sakae",
-    "legacy_id": 539,
-    "name": "きしめん 名古屋名鉄栄店",
-    "area_id": "sakae",
-    "genre": "そば/うどん",
-    "time_category": [
-      "昼",
-      "夜"
-    ],
-    "hours": "11:00〜22:00",
-    "tags": [
-      "一人OK"
-    ],
-    "address": "愛知県名古屋市中区栄3-11-5",
-    "lat": 35.1709,
-    "lng": 136.9058,
-    "default_ai_summary": "名古屋名物きしめん。地場飯として遠征の締めにも。"
-  },
-  {
-    "id": "tenya-sakae-north",
-    "legacy_id": 540,
-    "name": "天丼てんや 栄北店",
-    "area_id": "sakae",
-    "genre": "丼もの",
-    "time_category": [
-      "昼",
-      "夜"
-    ],
-    "hours": "11:00〜22:00",
-    "tags": [
-      "一人OK"
-    ],
-    "address": "愛知県名古屋市中区栄3-12-8",
-    "lat": 35.1712,
-    "lng": 136.9068,
-    "default_ai_summary": "栄北口近くのてんや。サクッと天丼で戻れる。"
-  },
-  {
-    "id": "curry-king-sakae",
-    "legacy_id": 541,
-    "name": "カレーキング 栄店",
-    "area_id": "sakae",
-    "genre": "カレー",
-    "time_category": [
-      "昼",
-      "夜"
-    ],
-    "hours": "11:00〜22:00",
-    "tags": [
-      "一人OK"
-    ],
-    "address": "愛知県名古屋市中区栄3-2-25",
-    "lat": 35.1684,
-    "lng": 136.9058,
-    "default_ai_summary": "栄のカレー専門店。提供が早く昼休憩向き。"
-  },
-  {
-    "id": "kishimen-meieki",
-    "legacy_id": 542,
-    "name": "きしめん名古屋 名駅店",
-    "area_id": "nagoya-ekimae",
-    "genre": "そば/うどん",
-    "time_category": [
-      "昼",
-      "夜"
-    ],
-    "hours": "11:00〜22:00",
-    "tags": [
-      "一人OK"
-    ],
-    "address": "愛知県名古屋市中村区名駅1-1-4",
-    "lat": 35.1705,
-    "lng": 136.8845,
-    "default_ai_summary": "名古屋駅のきしめん。地場名物で遠征の締め飯にも。"
-  },
-  {
-    "id": "sagami-meieki",
-    "legacy_id": 543,
-    "name": "サガミ 名古屋駅店",
-    "area_id": "nagoya-ekimae",
-    "genre": "そば/うどん",
-    "time_category": [
-      "昼",
-      "夜"
-    ],
-    "hours": "11:00〜22:00",
-    "tags": [
-      "一人OK"
-    ],
-    "address": "愛知県名古屋市中村区名駅1-2-5",
-    "lat": 35.171,
-    "lng": 136.885,
-    "default_ai_summary": "名古屋駅のサガミ。きしめん・うどんで軽い休憩向き。"
-  },
-  {
     "id": "yabaton-meieki",
     "legacy_id": 544,
     "name": "矢場とん 名駅店",
@@ -594,331 +76,117 @@
     "default_ai_summary": "名古屋駅の矢場とん。味噌カツでご褒美飯。"
   },
   {
-    "id": "matsuya-meieki",
-    "legacy_id": 545,
-    "name": "松屋 名古屋駅店",
-    "area_id": "nagoya-ekimae",
+    "id": "nakau-higashishinmachi",
+    "legacy_id": 613,
+    "name": "なか卯 東新町店",
+    "area_id": "sakae",
     "genre": "丼もの",
     "time_category": [
-      "朝",
       "昼",
       "夜"
     ],
-    "hours": "11:00〜22:00",
+    "hours": "4:00〜翌3:00",
     "tags": [
       "一人OK"
     ],
-    "address": "愛知県名古屋市中村区名駅1-1-3",
-    "lat": 35.1712,
-    "lng": 136.8842,
-    "default_ai_summary": "名古屋駅の松屋。朝一前からサクッと飯。"
+    "address": "愛知県名古屋市中区新栄1-1-2 名北東新町ビル",
+    "lat": 35.1691068,
+    "lng": 136.9149562,
+    "default_ai_summary": "東新町交差点すぐのなか卯。親子丼やうどんを手軽に。"
   },
   {
-    "id": "yoshinoya-meieki",
-    "legacy_id": 546,
-    "name": "吉野家 名古屋駅店",
-    "area_id": "nagoya-ekimae",
+    "id": "yoshinoya-tridor-sakae",
+    "legacy_id": 614,
+    "name": "吉野家 栄トリッドスクエア店",
+    "area_id": "sakae",
     "genre": "丼もの",
     "time_category": [
-      "朝",
       "昼",
       "夜"
     ],
-    "hours": "11:00〜22:00",
+    "hours": "7:00〜23:00",
     "tags": [
       "一人OK"
     ],
-    "address": "愛知県名古屋市中村区名駅1-2-8",
-    "lat": 35.1706,
-    "lng": 136.8848,
-    "default_ai_summary": "名古屋駅の吉野家。提供爆速で短い休憩向き。"
+    "address": "愛知県名古屋市中区新栄町2-13 栄トリッドスクエア 1F",
+    "lat": 35.170972,
+    "lng": 136.911389,
+    "default_ai_summary": "新栄の吉野家。牛丼を素早く食べられる定番チェーン。"
   },
   {
-    "id": "sukiya-meieki",
-    "legacy_id": 547,
-    "name": "すき家 名駅店",
-    "area_id": "nagoya-ekimae",
+    "id": "yoshinoya-hisaya-nishiki",
+    "legacy_id": 615,
+    "name": "吉野家 久屋大通錦店",
+    "area_id": "sakae",
     "genre": "丼もの",
     "time_category": [
-      "朝",
       "昼",
       "夜"
     ],
-    "hours": "11:00〜22:00",
+    "hours": "8:00〜23:00",
     "tags": [
       "一人OK"
     ],
-    "address": "愛知県名古屋市中村区名駅4-7-20",
-    "lat": 35.1709,
-    "lng": 136.8835,
-    "default_ai_summary": "名駅のすき家。朝一前の軽食にも。"
+    "address": "愛知県名古屋市中区錦3-6-15",
+    "lat": 35.171667,
+    "lng": 136.908056,
+    "default_ai_summary": "久屋大通錦の吉野家。牛丼で素早く腹を満たす。"
   },
   {
-    "id": "ichiran-meieki",
-    "legacy_id": 548,
-    "name": "一蘭 名古屋駅店",
+    "id": "ekikan-kishimen-chuo",
+    "legacy_id": 616,
+    "name": "驛釜きしめん 中央通り",
     "area_id": "nagoya-ekimae",
-    "genre": "ラーメン",
+    "genre": "そば/うどん",
     "time_category": [
       "昼",
       "夜"
     ],
-    "hours": "11:00〜22:00",
+    "hours": "7:00〜22:00",
     "tags": [
       "一人OK"
     ],
-    "address": "愛知県名古屋市中村区名駅1-3-1",
-    "lat": 35.1715,
-    "lng": 136.8855,
-    "default_ai_summary": "名古屋駅の一蘭。個室ブースで味に集中できる。"
+    "address": "愛知県名古屋市中村区名駅1-1-4 JR名古屋駅 1Fコンコース",
+    "lat": 35.170583,
+    "lng": 136.881611,
+    "default_ai_summary": "名古屋駅コンコースのきしめん。名古屋めしの定番。"
   },
   {
-    "id": "coco-meieki",
-    "legacy_id": 549,
-    "name": "カレーハウスCoCo壱番屋 名駅店",
+    "id": "kishimentei-eska",
+    "legacy_id": 617,
+    "name": "きしめん亭 エスカ店",
+    "area_id": "nagoya-ekimae",
+    "genre": "そば/うどん",
+    "time_category": [
+      "昼",
+      "夜"
+    ],
+    "hours": "10:30〜21:25",
+    "tags": [
+      "一人OK"
+    ],
+    "address": "愛知県名古屋市中村区椿町6-9 エスカ地下街",
+    "lat": 35.170556,
+    "lng": 136.882222,
+    "default_ai_summary": "エスカ地下街の老舗きしめん亭。名古屋駅直結で食べられる。"
+  },
+  {
+    "id": "coco-ichibanya-meieki-sunroad",
+    "legacy_id": 618,
+    "name": "カレーハウスCoCo壱番屋 名駅サンロード店",
     "area_id": "nagoya-ekimae",
     "genre": "カレー",
     "time_category": [
       "昼",
       "夜"
     ],
-    "hours": "11:00〜22:00",
+    "hours": "8:00〜21:30",
     "tags": [
       "一人OK"
     ],
-    "address": "愛知県名古屋市中村区名駅4-6-12",
-    "lat": 35.1704,
-    "lng": 136.884,
-    "default_ai_summary": "名駅のCoCo壱。サクッとカレーで戻れる。"
-  },
-  {
-    "id": "katsuya-meieki",
-    "legacy_id": 550,
-    "name": "かつや 名駅店",
-    "area_id": "nagoya-ekimae",
-    "genre": "とんかつ/カツ丼",
-    "time_category": [
-      "昼",
-      "夜"
-    ],
-    "hours": "11:00〜22:00",
-    "tags": [
-      "一人OK"
-    ],
-    "address": "愛知県名古屋市中村区名駅4-9-5",
-    "lat": 35.1711,
-    "lng": 136.8832,
-    "default_ai_summary": "名駅のかつや。カツ丼で手早くエネルギー補給。"
-  },
-  {
-    "id": "tonkatsu-wako-meieki",
-    "legacy_id": 551,
-    "name": "とんかつ和幸 名駅店",
-    "area_id": "nagoya-ekimae",
-    "genre": "とんかつ/カツ丼",
-    "time_category": [
-      "昼",
-      "夜"
-    ],
-    "hours": "11:00〜22:00",
-    "tags": [
-      "一人OK"
-    ],
-    "address": "愛知県名古屋市中村区名駅1-2-15",
-    "lat": 35.1707,
-    "lng": 136.8852,
-    "default_ai_summary": "名駅のとんかつ和幸。勝った日のご褒美とんかつにも。"
-  },
-  {
-    "id": "tendon-tenya-meieki",
-    "legacy_id": 552,
-    "name": "天丼てんや 名駅店",
-    "area_id": "nagoya-ekimae",
-    "genre": "丼もの",
-    "time_category": [
-      "昼",
-      "夜"
-    ],
-    "hours": "11:00〜22:00",
-    "tags": [
-      "一人OK"
-    ],
-    "address": "愛知県名古屋市中村区名駅1-3-8",
-    "lat": 35.1713,
-    "lng": 136.8846,
-    "default_ai_summary": "名駅の天丼てんや。サクッと天丼で戻れる。"
-  },
-  {
-    "id": "kineya-meieki",
-    "legacy_id": 553,
-    "name": "杵屋 名駅店",
-    "area_id": "nagoya-ekimae",
-    "genre": "そば/うどん",
-    "time_category": [
-      "昼",
-      "夜"
-    ],
-    "hours": "11:00〜22:00",
-    "tags": [
-      "一人OK"
-    ],
-    "address": "愛知県名古屋市中村区名駅4-5-18",
-    "lat": 35.1702,
-    "lng": 136.883,
-    "default_ai_summary": "名駅の杵屋。あっさりうどんで軽い休憩向き。"
-  },
-  {
-    "id": "fujisoba-meieki",
-    "legacy_id": 554,
-    "name": "なだい富士そば 名駅店",
-    "area_id": "nagoya-ekimae",
-    "genre": "そば/うどん",
-    "time_category": [
-      "朝",
-      "昼",
-      "夜"
-    ],
-    "hours": "11:00〜22:00",
-    "tags": [
-      "一人OK"
-    ],
-    "address": "愛知県名古屋市中村区名駅1-4-2",
-    "lat": 35.1716,
-    "lng": 136.8838,
-    "default_ai_summary": "24時間立ち食いそば。朝一前・閉店後にも。"
-  },
-  {
-    "id": "yakiniku-like-meieki",
-    "legacy_id": 555,
-    "name": "焼肉ライク 名駅店",
-    "area_id": "nagoya-ekimae",
-    "genre": "焼肉",
-    "time_category": [
-      "昼",
-      "夜"
-    ],
-    "hours": "11:00〜22:00",
-    "tags": [
-      "一人OK"
-    ],
-    "address": "愛知県名古屋市中村区名駅4-10-8",
-    "lat": 35.17,
-    "lng": 136.8845,
-    "default_ai_summary": "名駅の焼肉ライク。短時間で焼肉を楽しめる。"
-  },
-  {
-    "id": "kura-sushi-meieki",
-    "legacy_id": 556,
-    "name": "くら寿司 名駅店",
-    "area_id": "nagoya-ekimae",
-    "genre": "回転寿司",
-    "time_category": [
-      "昼",
-      "夜"
-    ],
-    "hours": "11:00〜22:00",
-    "tags": [
-      "一人OK"
-    ],
-    "address": "愛知県名古屋市中村区名駅4-11-2",
-    "lat": 35.1714,
-    "lng": 136.8835,
-    "default_ai_summary": "名駅のくら寿司。サクッと寿司で戻れる。"
-  },
-  {
-    "id": "sushiro-meieki",
-    "legacy_id": 557,
-    "name": "スシロー 名駅店",
-    "area_id": "nagoya-ekimae",
-    "genre": "回転寿司",
-    "time_category": [
-      "昼",
-      "夜"
-    ],
-    "hours": "11:00〜22:00",
-    "tags": [
-      "一人OK"
-    ],
-    "address": "愛知県名古屋市中村区名駅1-1-18",
-    "lat": 35.1703,
-    "lng": 136.8858,
-    "default_ai_summary": "名駅のスシロー。回転の速い寿司で休憩向き。"
-  },
-  {
-    "id": "mosburger-meieki",
-    "legacy_id": 558,
-    "name": "モスバーガー 名駅店",
-    "area_id": "nagoya-ekimae",
-    "genre": "ハンバーガー",
-    "time_category": [
-      "昼",
-      "夜"
-    ],
-    "hours": "11:00〜22:00",
-    "tags": [
-      "一人OK"
-    ],
-    "address": "愛知県名古屋市中村区名駅1-2-22",
-    "lat": 35.1708,
-    "lng": 136.886,
-    "default_ai_summary": "名駅のモスバーガー。軽めの昼休憩向き。"
-  },
-  {
-    "id": "mcd-meieki",
-    "legacy_id": 559,
-    "name": "マクドナルド 名駅店",
-    "area_id": "nagoya-ekimae",
-    "genre": "ハンバーガー",
-    "time_category": [
-      "朝",
-      "昼",
-      "夜"
-    ],
-    "hours": "11:00〜22:00",
-    "tags": [
-      "一人OK"
-    ],
-    "address": "愛知県名古屋市中村区名駅4-8-1",
-    "lat": 35.171,
-    "lng": 136.883,
-    "default_ai_summary": "名駅のマクドナルド。朝一前にも使える。"
-  },
-  {
-    "id": "ippudo-meieki",
-    "legacy_id": 560,
-    "name": "一風堂 名駅店",
-    "area_id": "nagoya-ekimae",
-    "genre": "ラーメン",
-    "time_category": [
-      "昼",
-      "夜"
-    ],
-    "hours": "11:00〜22:00",
-    "tags": [
-      "一人OK"
-    ],
-    "address": "愛知県名古屋市中村区名駅1-3-12",
-    "lat": 35.1706,
-    "lng": 136.8862,
-    "default_ai_summary": "名駅の一風堂。博多系ラーメンでガッツリ飯向き。"
-  },
-  {
-    "id": "ramen-waizu-meieki",
-    "legacy_id": 561,
-    "name": "らーめん わいず 名駅店",
-    "area_id": "nagoya-ekimae",
-    "genre": "ラーメン",
-    "time_category": [
-      "昼",
-      "夜"
-    ],
-    "hours": "11:00〜22:00",
-    "tags": [
-      "一人OK"
-    ],
-    "address": "愛知県名古屋市中村区名駅4-12-5",
-    "lat": 35.1698,
-    "lng": 136.8842,
-    "default_ai_summary": "家系ラーメンでガッツリ食べたい日のご褒美麺。"
+    "address": "愛知県名古屋市中村区名駅4-7-25先 名古屋地下街サンロード",
+    "lat": 35.170611,
+    "lng": 136.884056,
+    "default_ai_summary": "名駅サンロードのCoCo壱。トッピング自在のカレー定番。"
   }
 ]

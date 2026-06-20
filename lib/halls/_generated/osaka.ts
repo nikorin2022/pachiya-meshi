@@ -60,39 +60,6 @@ export const osakaHalls: readonly PachinkoHall[] = [
         "is_kitaichimeshi": true
       },
       {
-        "id": 411,
-        "name": "とんかつ丸福 なんば店",
-        "genre": "とんかつ/カツ丼",
-        "walkMinutes": 1,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "11:00〜21:00",
-        "ai_summary": "千日前のとんかつ老舗丸福。サクサクの衣とジューシーな肉で、昼休憩のガッツリ飯に最適。",
-        "tags": [
-          "ガッツリ",
-          "一人OK"
-        ],
-        "address": "大阪府大阪市中央区千日前2-3-13"
-      },
-      {
-        "id": 461,
-        "name": "とん平 難波店",
-        "genre": "とんかつ/カツ丼",
-        "walkMinutes": 1,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "11:00〜22:00",
-        "ai_summary": "千日前のとんかつ店。サクッとカツ丼で戻れる。",
-        "tags": [
-          "一人OK"
-        ],
-        "address": "大阪府大阪市中央区千日前2-4-5"
-      },
-      {
         "id": 419,
         "name": "鶴亀 難波千日前店",
         "genre": "そば/うどん",
@@ -108,22 +75,6 @@ export const osakaHalls: readonly PachinkoHall[] = [
           "一人OK"
         ],
         "address": "大阪府大阪市中央区千日前2-7-20"
-      },
-      {
-        "id": 463,
-        "name": "焼鳥 難波店",
-        "genre": "焼肉",
-        "walkMinutes": 1,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "11:00〜22:00",
-        "ai_summary": "千日前の焼鳥店。閉店後の締めの一杯向き。",
-        "tags": [
-          "一人OK"
-        ],
-        "address": "大阪府大阪市中央区千日前2-5-10"
       },
       {
         "id": 403,
@@ -162,23 +113,6 @@ export const osakaHalls: readonly PachinkoHall[] = [
         "address": "大阪府大阪市中央区千日前2-8-12"
       },
       {
-        "id": 409,
-        "name": "ボルケーノ なんば店",
-        "genre": "カレー",
-        "walkMinutes": 2,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "11:00〜22:00",
-        "ai_summary": "千日前の欧風カレー専門店。濃厚なルーで満足感が高く、勝った日のご褒美カレーにも向く。",
-        "tags": [
-          "ガッツリ",
-          "一人OK"
-        ],
-        "address": "大阪府大阪市中央区千日前2-10-9"
-      },
-      {
         "id": 406,
         "name": "神座 なんば道頓堀店",
         "genre": "ラーメン",
@@ -197,72 +131,6 @@ export const osakaHalls: readonly PachinkoHall[] = [
         "address": "大阪府大阪市中央区難波1-8-17"
       },
       {
-        "id": 412,
-        "name": "かつ喜 なんば店",
-        "genre": "とんかつ/カツ丼",
-        "walkMinutes": 3,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "11:00〜22:00",
-        "ai_summary": "千日前のかつ喜。とんかつもカツ丼も選べ、短時間の食事休憩に使いやすい。",
-        "tags": [
-          "サク飯",
-          "一人OK"
-        ],
-        "address": "大阪府大阪市中央区難波千日前15-17"
-      },
-      {
-        "id": 459,
-        "name": "ラーメン人生 難波店",
-        "genre": "ラーメン",
-        "walkMinutes": 3,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "11:00〜22:00",
-        "ai_summary": "難波の家系ラーメン。ガッツリ食べたい日に。",
-        "tags": [
-          "一人OK"
-        ],
-        "address": "大阪府大阪市中央区難波2-3-10"
-      },
-      {
-        "id": 462,
-        "name": "うどん匠 心邸 難波店",
-        "genre": "そば/うどん",
-        "walkMinutes": 3,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "11:00〜22:00",
-        "ai_summary": "難波の手打ちうどん。あっさり系で軽い休憩向き。",
-        "tags": [
-          "一人OK"
-        ],
-        "address": "大阪府大阪市中央区難波3-6-8",
-        "is_kitaichimeshi": true
-      },
-      {
-        "id": 460,
-        "name": "カレー本舗 難波店",
-        "genre": "カレー",
-        "walkMinutes": 4,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "11:00〜22:00",
-        "ai_summary": "難波の欧風カレー。昼休憩の定番。",
-        "tags": [
-          "一人OK"
-        ],
-        "address": "大阪府大阪市中央区難波2-2-8"
-      },
-      {
         "id": 423,
         "name": "焼肉 牛庵 難波店",
         "genre": "焼肉",
@@ -278,22 +146,6 @@ export const osakaHalls: readonly PachinkoHall[] = [
           "一人OK"
         ],
         "address": "大阪府大阪市中央区難波2-2-15"
-      },
-      {
-        "id": 465,
-        "name": "かつ丼の名店 難波店",
-        "genre": "とんかつ/カツ丼",
-        "walkMinutes": 4,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "11:00〜22:00",
-        "ai_summary": "難波のカツ丼専門店。提供が早く昼休憩向き。",
-        "tags": [
-          "一人OK"
-        ],
-        "address": "大阪府大阪市中央区難波3-2-15"
       },
       {
         "id": 417,
@@ -386,41 +238,6 @@ export const osakaHalls: readonly PachinkoHall[] = [
         "address": "大阪府大阪市中央区難波3-5-15"
       },
       {
-        "id": 425,
-        "name": "廻る寿司 なんば店",
-        "genre": "回転寿司",
-        "walkMinutes": 6,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "11:00〜22:30",
-        "ai_summary": "難波の回転寿司。一人でも入りやすく、閉店後の締め寿司にも使いやすい。",
-        "tags": [
-          "サク飯",
-          "一人OK"
-        ],
-        "address": "大阪府大阪市中央区難波3-7-13"
-      },
-      {
-        "id": 413,
-        "name": "なだいかつ丼 なんば店",
-        "genre": "とんかつ/カツ丼",
-        "walkMinutes": 6,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "11:00〜21:30",
-        "ai_summary": "道頓堀のカツ丼専門店。提供が早く、サクッとエネルギー補給してホールに戻りたい時に便利。",
-        "tags": [
-          "サク飯",
-          "ガッツリ",
-          "一人OK"
-        ],
-        "address": "大阪府大阪市中央区道頓堀1-7-21"
-      },
-      {
         "id": 416,
         "name": "天丼てんや なんば店",
         "genre": "丼もの",
@@ -436,23 +253,6 @@ export const osakaHalls: readonly PachinkoHall[] = [
           "一人OK"
         ],
         "address": "大阪府大阪市中央区難波3-4-15"
-      },
-      {
-        "id": 424,
-        "name": "元祖寿司 なんば本店",
-        "genre": "回転寿司",
-        "walkMinutes": 7,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "11:00〜23:00",
-        "ai_summary": "道頓堀の回転寿司。提供が早く、サクッと寿司を食べてホールに戻りたい時に便利。",
-        "tags": [
-          "サク飯",
-          "一人OK"
-        ],
-        "address": "大阪府大阪市中央区道頓堀1-6-10"
       },
       {
         "id": 404,
@@ -490,23 +290,6 @@ export const osakaHalls: readonly PachinkoHall[] = [
           "深夜OK"
         ],
         "address": "大阪府大阪市中央区難波4-1-2"
-      },
-      {
-        "id": 410,
-        "name": "スパイス食堂 なんば店",
-        "genre": "カレー",
-        "walkMinutes": 7,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "11:30〜21:30",
-        "ai_summary": "難波四丁目のスパイスカレー店。提供が早く、短い昼休憩でもサクッと食べて戻れる。",
-        "tags": [
-          "サク飯",
-          "一人OK"
-        ],
-        "address": "大阪府大阪市中央区難波4-10-5"
       },
       {
         "id": 408,
@@ -578,39 +361,6 @@ export const osakaHalls: readonly PachinkoHall[] = [
         "address": "大阪府大阪市中央区難波2-2-15"
       },
       {
-        "id": 465,
-        "name": "かつ丼の名店 難波店",
-        "genre": "とんかつ/カツ丼",
-        "walkMinutes": 2,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "11:00〜22:00",
-        "ai_summary": "難波のカツ丼専門店。提供が早く昼休憩向き。",
-        "tags": [
-          "一人OK"
-        ],
-        "address": "大阪府大阪市中央区難波3-2-15"
-      },
-      {
-        "id": 425,
-        "name": "廻る寿司 なんば店",
-        "genre": "回転寿司",
-        "walkMinutes": 2,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "11:00〜22:30",
-        "ai_summary": "難波の回転寿司。一人でも入りやすく、閉店後の締め寿司にも使いやすい。",
-        "tags": [
-          "サク飯",
-          "一人OK"
-        ],
-        "address": "大阪府大阪市中央区難波3-7-13"
-      },
-      {
         "id": 420,
         "name": "なだい富士そば 難波店",
         "genre": "そば/うどん",
@@ -666,89 +416,6 @@ export const osakaHalls: readonly PachinkoHall[] = [
         "address": "大阪府大阪市中央区難波3-4-15"
       },
       {
-        "id": 460,
-        "name": "カレー本舗 難波店",
-        "genre": "カレー",
-        "walkMinutes": 3,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "11:00〜22:00",
-        "ai_summary": "難波の欧風カレー。昼休憩の定番。",
-        "tags": [
-          "一人OK"
-        ],
-        "address": "大阪府大阪市中央区難波2-2-8"
-      },
-      {
-        "id": 412,
-        "name": "かつ喜 なんば店",
-        "genre": "とんかつ/カツ丼",
-        "walkMinutes": 3,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "11:00〜22:00",
-        "ai_summary": "千日前のかつ喜。とんかつもカツ丼も選べ、短時間の食事休憩に使いやすい。",
-        "tags": [
-          "サク飯",
-          "一人OK"
-        ],
-        "address": "大阪府大阪市中央区難波千日前15-17"
-      },
-      {
-        "id": 459,
-        "name": "ラーメン人生 難波店",
-        "genre": "ラーメン",
-        "walkMinutes": 3,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "11:00〜22:00",
-        "ai_summary": "難波の家系ラーメン。ガッツリ食べたい日に。",
-        "tags": [
-          "一人OK"
-        ],
-        "address": "大阪府大阪市中央区難波2-3-10"
-      },
-      {
-        "id": 410,
-        "name": "スパイス食堂 なんば店",
-        "genre": "カレー",
-        "walkMinutes": 3,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "11:30〜21:30",
-        "ai_summary": "難波四丁目のスパイスカレー店。提供が早く、短い昼休憩でもサクッと食べて戻れる。",
-        "tags": [
-          "サク飯",
-          "一人OK"
-        ],
-        "address": "大阪府大阪市中央区難波4-10-5"
-      },
-      {
-        "id": 462,
-        "name": "うどん匠 心邸 難波店",
-        "genre": "そば/うどん",
-        "walkMinutes": 3,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "11:00〜22:00",
-        "ai_summary": "難波の手打ちうどん。あっさり系で軽い休憩向き。",
-        "tags": [
-          "一人OK"
-        ],
-        "address": "大阪府大阪市中央区難波3-6-8",
-        "is_kitaichimeshi": true
-      },
-      {
         "id": 415,
         "name": "吉野家 難波店",
         "genre": "丼もの",
@@ -786,39 +453,6 @@ export const osakaHalls: readonly PachinkoHall[] = [
         "address": "大阪府大阪市中央区難波1-8-17"
       },
       {
-        "id": 411,
-        "name": "とんかつ丸福 なんば店",
-        "genre": "とんかつ/カツ丼",
-        "walkMinutes": 5,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "11:00〜21:00",
-        "ai_summary": "千日前のとんかつ老舗丸福。サクサクの衣とジューシーな肉で、昼休憩のガッツリ飯に最適。",
-        "tags": [
-          "ガッツリ",
-          "一人OK"
-        ],
-        "address": "大阪府大阪市中央区千日前2-3-13"
-      },
-      {
-        "id": 461,
-        "name": "とん平 難波店",
-        "genre": "とんかつ/カツ丼",
-        "walkMinutes": 5,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "11:00〜22:00",
-        "ai_summary": "千日前のとんかつ店。サクッとカツ丼で戻れる。",
-        "tags": [
-          "一人OK"
-        ],
-        "address": "大阪府大阪市中央区千日前2-4-5"
-      },
-      {
         "id": 419,
         "name": "鶴亀 難波千日前店",
         "genre": "そば/うどん",
@@ -836,22 +470,6 @@ export const osakaHalls: readonly PachinkoHall[] = [
         "address": "大阪府大阪市中央区千日前2-7-20"
       },
       {
-        "id": 463,
-        "name": "焼鳥 難波店",
-        "genre": "焼肉",
-        "walkMinutes": 5,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "11:00〜22:00",
-        "ai_summary": "千日前の焼鳥店。閉店後の締めの一杯向き。",
-        "tags": [
-          "一人OK"
-        ],
-        "address": "大阪府大阪市中央区千日前2-5-10"
-      },
-      {
         "id": 458,
         "name": "たこ焼き道頓堀 くくる 本店",
         "genre": "ハンバーガー",
@@ -867,23 +485,6 @@ export const osakaHalls: readonly PachinkoHall[] = [
         ],
         "address": "大阪府大阪市中央区道頓堀1-7-24",
         "is_kitaichimeshi": true
-      },
-      {
-        "id": 424,
-        "name": "元祖寿司 なんば本店",
-        "genre": "回転寿司",
-        "walkMinutes": 6,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "11:00〜23:00",
-        "ai_summary": "道頓堀の回転寿司。提供が早く、サクッと寿司を食べてホールに戻りたい時に便利。",
-        "tags": [
-          "サク飯",
-          "一人OK"
-        ],
-        "address": "大阪府大阪市中央区道頓堀1-6-10"
       },
       {
         "id": 421,
@@ -1048,24 +649,6 @@ export const osakaHalls: readonly PachinkoHall[] = [
         "is_kitaichimeshi": true
       },
       {
-        "id": 413,
-        "name": "なだいかつ丼 なんば店",
-        "genre": "とんかつ/カツ丼",
-        "walkMinutes": 7,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "11:00〜21:30",
-        "ai_summary": "道頓堀のカツ丼専門店。提供が早く、サクッとエネルギー補給してホールに戻りたい時に便利。",
-        "tags": [
-          "サク飯",
-          "ガッツリ",
-          "一人OK"
-        ],
-        "address": "大阪府大阪市中央区道頓堀1-7-21"
-      },
-      {
         "id": 427,
         "name": "Shake Shack なんばパークス",
         "genre": "ハンバーガー",
@@ -1081,23 +664,6 @@ export const osakaHalls: readonly PachinkoHall[] = [
           "一人OK"
         ],
         "address": "大阪府大阪市中央区難波5-1-60 なんばパークス"
-      },
-      {
-        "id": 409,
-        "name": "ボルケーノ なんば店",
-        "genre": "カレー",
-        "walkMinutes": 7,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "11:00〜22:00",
-        "ai_summary": "千日前の欧風カレー専門店。濃厚なルーで満足感が高く、勝った日のご褒美カレーにも向く。",
-        "tags": [
-          "ガッツリ",
-          "一人OK"
-        ],
-        "address": "大阪府大阪市中央区千日前2-10-9"
       },
       {
         "id": 408,
@@ -1135,23 +701,6 @@ export const osakaHalls: readonly PachinkoHall[] = [
     "meal_guide": "楽園なんば店周辺は、なんば駅E5出口すぐ・千日前商店街沿いに位置し、パチンコ・パチスロユーザーが食事と稼働を往復しやすい動線の起点として使いやすい立地です。難波・千日前は関西屈指のパチンコ・パチスロ密集地で、遠征ユーザーが多く、なんば駅・日本橋駅周辺の飲食店を徒歩圏内でまとめて選べます。朝一前はラーメンやそば・うどんで軽く、昼はカレーや丼もので手早く、閉店後は焼肉や寿司で締めまで組み立てやすいです。スロット台数が厚く、遠征してくるパチンコ・パチスロユーザーが休憩動線を柔軟に組み立てやすいホールです。掲載店が豊富で、同じホールでも日替わりで店を変えやすい点が強みです。",
     "restaurants": [
       {
-        "id": 412,
-        "name": "かつ喜 なんば店",
-        "genre": "とんかつ/カツ丼",
-        "walkMinutes": 1,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "11:00〜22:00",
-        "ai_summary": "千日前のかつ喜。とんかつもカツ丼も選べ、短時間の食事休憩に使いやすい。",
-        "tags": [
-          "サク飯",
-          "一人OK"
-        ],
-        "address": "大阪府大阪市中央区難波千日前15-17"
-      },
-      {
         "id": 423,
         "name": "焼肉 牛庵 難波店",
         "genre": "焼肉",
@@ -1187,38 +736,6 @@ export const osakaHalls: readonly PachinkoHall[] = [
         "address": "大阪府大阪市中央区難波1-8-17"
       },
       {
-        "id": 465,
-        "name": "かつ丼の名店 難波店",
-        "genre": "とんかつ/カツ丼",
-        "walkMinutes": 2,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "11:00〜22:00",
-        "ai_summary": "難波のカツ丼専門店。提供が早く昼休憩向き。",
-        "tags": [
-          "一人OK"
-        ],
-        "address": "大阪府大阪市中央区難波3-2-15"
-      },
-      {
-        "id": 459,
-        "name": "ラーメン人生 難波店",
-        "genre": "ラーメン",
-        "walkMinutes": 2,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "11:00〜22:00",
-        "ai_summary": "難波の家系ラーメン。ガッツリ食べたい日に。",
-        "tags": [
-          "一人OK"
-        ],
-        "address": "大阪府大阪市中央区難波2-3-10"
-      },
-      {
         "id": 417,
         "name": "すき家 難波店",
         "genre": "丼もの",
@@ -1238,22 +755,6 @@ export const osakaHalls: readonly PachinkoHall[] = [
         "address": "大阪府大阪市中央区難波2-1-5"
       },
       {
-        "id": 461,
-        "name": "とん平 難波店",
-        "genre": "とんかつ/カツ丼",
-        "walkMinutes": 2,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "11:00〜22:00",
-        "ai_summary": "千日前のとんかつ店。サクッとカツ丼で戻れる。",
-        "tags": [
-          "一人OK"
-        ],
-        "address": "大阪府大阪市中央区千日前2-4-5"
-      },
-      {
         "id": 419,
         "name": "鶴亀 難波千日前店",
         "genre": "そば/うどん",
@@ -1269,23 +770,6 @@ export const osakaHalls: readonly PachinkoHall[] = [
           "一人OK"
         ],
         "address": "大阪府大阪市中央区千日前2-7-20"
-      },
-      {
-        "id": 462,
-        "name": "うどん匠 心邸 難波店",
-        "genre": "そば/うどん",
-        "walkMinutes": 2,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "11:00〜22:00",
-        "ai_summary": "難波の手打ちうどん。あっさり系で軽い休憩向き。",
-        "tags": [
-          "一人OK"
-        ],
-        "address": "大阪府大阪市中央区難波3-6-8",
-        "is_kitaichimeshi": true
       },
       {
         "id": 415,
@@ -1305,22 +789,6 @@ export const osakaHalls: readonly PachinkoHall[] = [
           "深夜OK"
         ],
         "address": "大阪府大阪市中央区難波1-17-17"
-      },
-      {
-        "id": 460,
-        "name": "カレー本舗 難波店",
-        "genre": "カレー",
-        "walkMinutes": 3,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "11:00〜22:00",
-        "ai_summary": "難波の欧風カレー。昼休憩の定番。",
-        "tags": [
-          "一人OK"
-        ],
-        "address": "大阪府大阪市中央区難波2-2-8"
       },
       {
         "id": 422,
@@ -1376,39 +844,6 @@ export const osakaHalls: readonly PachinkoHall[] = [
         "address": "大阪府大阪市中央区難波3-4-15"
       },
       {
-        "id": 411,
-        "name": "とんかつ丸福 なんば店",
-        "genre": "とんかつ/カツ丼",
-        "walkMinutes": 3,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "11:00〜21:00",
-        "ai_summary": "千日前のとんかつ老舗丸福。サクサクの衣とジューシーな肉で、昼休憩のガッツリ飯に最適。",
-        "tags": [
-          "ガッツリ",
-          "一人OK"
-        ],
-        "address": "大阪府大阪市中央区千日前2-3-13"
-      },
-      {
-        "id": 463,
-        "name": "焼鳥 難波店",
-        "genre": "焼肉",
-        "walkMinutes": 3,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "11:00〜22:00",
-        "ai_summary": "千日前の焼鳥店。閉店後の締めの一杯向き。",
-        "tags": [
-          "一人OK"
-        ],
-        "address": "大阪府大阪市中央区千日前2-5-10"
-      },
-      {
         "id": 418,
         "name": "杵屋本店",
         "genre": "そば/うどん",
@@ -1446,23 +881,6 @@ export const osakaHalls: readonly PachinkoHall[] = [
         "is_kitaichimeshi": true
       },
       {
-        "id": 425,
-        "name": "廻る寿司 なんば店",
-        "genre": "回転寿司",
-        "walkMinutes": 4,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "11:00〜22:30",
-        "ai_summary": "難波の回転寿司。一人でも入りやすく、閉店後の締め寿司にも使いやすい。",
-        "tags": [
-          "サク飯",
-          "一人OK"
-        ],
-        "address": "大阪府大阪市中央区難波3-7-13"
-      },
-      {
         "id": 420,
         "name": "なだい富士そば 難波店",
         "genre": "そば/うどん",
@@ -1498,40 +916,6 @@ export const osakaHalls: readonly PachinkoHall[] = [
         "address": "大阪府大阪市中央区千日前2-8-12"
       },
       {
-        "id": 409,
-        "name": "ボルケーノ なんば店",
-        "genre": "カレー",
-        "walkMinutes": 4,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "11:00〜22:00",
-        "ai_summary": "千日前の欧風カレー専門店。濃厚なルーで満足感が高く、勝った日のご褒美カレーにも向く。",
-        "tags": [
-          "ガッツリ",
-          "一人OK"
-        ],
-        "address": "大阪府大阪市中央区千日前2-10-9"
-      },
-      {
-        "id": 410,
-        "name": "スパイス食堂 なんば店",
-        "genre": "カレー",
-        "walkMinutes": 5,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "11:30〜21:30",
-        "ai_summary": "難波四丁目のスパイスカレー店。提供が早く、短い昼休憩でもサクッと食べて戻れる。",
-        "tags": [
-          "サク飯",
-          "一人OK"
-        ],
-        "address": "大阪府大阪市中央区難波4-10-5"
-      },
-      {
         "id": 458,
         "name": "たこ焼き道頓堀 くくる 本店",
         "genre": "ハンバーガー",
@@ -1547,23 +931,6 @@ export const osakaHalls: readonly PachinkoHall[] = [
         ],
         "address": "大阪府大阪市中央区道頓堀1-7-24",
         "is_kitaichimeshi": true
-      },
-      {
-        "id": 424,
-        "name": "元祖寿司 なんば本店",
-        "genre": "回転寿司",
-        "walkMinutes": 7,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "11:00〜23:00",
-        "ai_summary": "道頓堀の回転寿司。提供が早く、サクッと寿司を食べてホールに戻りたい時に便利。",
-        "tags": [
-          "サク飯",
-          "一人OK"
-        ],
-        "address": "大阪府大阪市中央区道頓堀1-6-10"
       },
       {
         "id": 421,
@@ -1600,24 +967,6 @@ export const osakaHalls: readonly PachinkoHall[] = [
           "深夜OK"
         ],
         "address": "大阪府大阪市中央区宗右衛門町7-13"
-      },
-      {
-        "id": 413,
-        "name": "なだいかつ丼 なんば店",
-        "genre": "とんかつ/カツ丼",
-        "walkMinutes": 7,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "11:00〜21:30",
-        "ai_summary": "道頓堀のカツ丼専門店。提供が早く、サクッとエネルギー補給してホールに戻りたい時に便利。",
-        "tags": [
-          "サク飯",
-          "ガッツリ",
-          "一人OK"
-        ],
-        "address": "大阪府大阪市中央区道頓堀1-7-21"
       },
       {
         "id": 408,
@@ -1763,23 +1112,6 @@ export const osakaHalls: readonly PachinkoHall[] = [
         "address": "大阪府大阪市中央区難波1-17-17"
       },
       {
-        "id": 412,
-        "name": "かつ喜 なんば店",
-        "genre": "とんかつ/カツ丼",
-        "walkMinutes": 2,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "11:00〜22:00",
-        "ai_summary": "千日前のかつ喜。とんかつもカツ丼も選べ、短時間の食事休憩に使いやすい。",
-        "tags": [
-          "サク飯",
-          "一人OK"
-        ],
-        "address": "大阪府大阪市中央区難波千日前15-17"
-      },
-      {
         "id": 423,
         "name": "焼肉 牛庵 難波店",
         "genre": "焼肉",
@@ -1815,38 +1147,6 @@ export const osakaHalls: readonly PachinkoHall[] = [
         "address": "大阪府大阪市中央区千日前2-2-7"
       },
       {
-        "id": 465,
-        "name": "かつ丼の名店 難波店",
-        "genre": "とんかつ/カツ丼",
-        "walkMinutes": 3,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "11:00〜22:00",
-        "ai_summary": "難波のカツ丼専門店。提供が早く昼休憩向き。",
-        "tags": [
-          "一人OK"
-        ],
-        "address": "大阪府大阪市中央区難波3-2-15"
-      },
-      {
-        "id": 459,
-        "name": "ラーメン人生 難波店",
-        "genre": "ラーメン",
-        "walkMinutes": 3,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "11:00〜22:00",
-        "ai_summary": "難波の家系ラーメン。ガッツリ食べたい日に。",
-        "tags": [
-          "一人OK"
-        ],
-        "address": "大阪府大阪市中央区難波2-3-10"
-      },
-      {
         "id": 417,
         "name": "すき家 難波店",
         "genre": "丼もの",
@@ -1866,22 +1166,6 @@ export const osakaHalls: readonly PachinkoHall[] = [
         "address": "大阪府大阪市中央区難波2-1-5"
       },
       {
-        "id": 461,
-        "name": "とん平 難波店",
-        "genre": "とんかつ/カツ丼",
-        "walkMinutes": 3,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "11:00〜22:00",
-        "ai_summary": "千日前のとんかつ店。サクッとカツ丼で戻れる。",
-        "tags": [
-          "一人OK"
-        ],
-        "address": "大阪府大阪市中央区千日前2-4-5"
-      },
-      {
         "id": 419,
         "name": "鶴亀 難波千日前店",
         "genre": "そば/うどん",
@@ -1899,39 +1183,6 @@ export const osakaHalls: readonly PachinkoHall[] = [
         "address": "大阪府大阪市中央区千日前2-7-20"
       },
       {
-        "id": 462,
-        "name": "うどん匠 心邸 難波店",
-        "genre": "そば/うどん",
-        "walkMinutes": 3,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "11:00〜22:00",
-        "ai_summary": "難波の手打ちうどん。あっさり系で軽い休憩向き。",
-        "tags": [
-          "一人OK"
-        ],
-        "address": "大阪府大阪市中央区難波3-6-8",
-        "is_kitaichimeshi": true
-      },
-      {
-        "id": 460,
-        "name": "カレー本舗 難波店",
-        "genre": "カレー",
-        "walkMinutes": 4,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "11:00〜22:00",
-        "ai_summary": "難波の欧風カレー。昼休憩の定番。",
-        "tags": [
-          "一人OK"
-        ],
-        "address": "大阪府大阪市中央区難波2-2-8"
-      },
-      {
         "id": 418,
         "name": "杵屋本店",
         "genre": "そば/うどん",
@@ -1947,23 +1198,6 @@ export const osakaHalls: readonly PachinkoHall[] = [
           "一人OK"
         ],
         "address": "大阪府大阪市中央区難波3-5-15"
-      },
-      {
-        "id": 425,
-        "name": "廻る寿司 なんば店",
-        "genre": "回転寿司",
-        "walkMinutes": 4,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "11:00〜22:30",
-        "ai_summary": "難波の回転寿司。一人でも入りやすく、閉店後の締め寿司にも使いやすい。",
-        "tags": [
-          "サク飯",
-          "一人OK"
-        ],
-        "address": "大阪府大阪市中央区難波3-7-13"
       },
       {
         "id": 405,
@@ -2017,56 +1251,6 @@ export const osakaHalls: readonly PachinkoHall[] = [
         "address": "大阪府大阪市中央区難波3-4-15"
       },
       {
-        "id": 411,
-        "name": "とんかつ丸福 なんば店",
-        "genre": "とんかつ/カツ丼",
-        "walkMinutes": 4,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "11:00〜21:00",
-        "ai_summary": "千日前のとんかつ老舗丸福。サクサクの衣とジューシーな肉で、昼休憩のガッツリ飯に最適。",
-        "tags": [
-          "ガッツリ",
-          "一人OK"
-        ],
-        "address": "大阪府大阪市中央区千日前2-3-13"
-      },
-      {
-        "id": 409,
-        "name": "ボルケーノ なんば店",
-        "genre": "カレー",
-        "walkMinutes": 4,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "11:00〜22:00",
-        "ai_summary": "千日前の欧風カレー専門店。濃厚なルーで満足感が高く、勝った日のご褒美カレーにも向く。",
-        "tags": [
-          "ガッツリ",
-          "一人OK"
-        ],
-        "address": "大阪府大阪市中央区千日前2-10-9"
-      },
-      {
-        "id": 463,
-        "name": "焼鳥 難波店",
-        "genre": "焼肉",
-        "walkMinutes": 4,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "11:00〜22:00",
-        "ai_summary": "千日前の焼鳥店。閉店後の締めの一杯向き。",
-        "tags": [
-          "一人OK"
-        ],
-        "address": "大阪府大阪市中央区千日前2-5-10"
-      },
-      {
         "id": 403,
         "name": "金龍ラーメン 難波千日前店",
         "genre": "ラーメン",
@@ -2106,23 +1290,6 @@ export const osakaHalls: readonly PachinkoHall[] = [
         "address": "大阪府大阪市中央区難波4-1-2"
       },
       {
-        "id": 410,
-        "name": "スパイス食堂 なんば店",
-        "genre": "カレー",
-        "walkMinutes": 6,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "11:30〜21:30",
-        "ai_summary": "難波四丁目のスパイスカレー店。提供が早く、短い昼休憩でもサクッと食べて戻れる。",
-        "tags": [
-          "サク飯",
-          "一人OK"
-        ],
-        "address": "大阪府大阪市中央区難波4-10-5"
-      },
-      {
         "id": 458,
         "name": "たこ焼き道頓堀 くくる 本店",
         "genre": "ハンバーガー",
@@ -2138,23 +1305,6 @@ export const osakaHalls: readonly PachinkoHall[] = [
         ],
         "address": "大阪府大阪市中央区道頓堀1-7-24",
         "is_kitaichimeshi": true
-      },
-      {
-        "id": 424,
-        "name": "元祖寿司 なんば本店",
-        "genre": "回転寿司",
-        "walkMinutes": 8,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "11:00〜23:00",
-        "ai_summary": "道頓堀の回転寿司。提供が早く、サクッと寿司を食べてホールに戻りたい時に便利。",
-        "tags": [
-          "サク飯",
-          "一人OK"
-        ],
-        "address": "大阪府大阪市中央区道頓堀1-6-10"
       },
       {
         "id": 421,
@@ -2191,24 +1341,6 @@ export const osakaHalls: readonly PachinkoHall[] = [
           "深夜OK"
         ],
         "address": "大阪府大阪市中央区宗右衛門町7-13"
-      },
-      {
-        "id": 413,
-        "name": "なだいかつ丼 なんば店",
-        "genre": "とんかつ/カツ丼",
-        "walkMinutes": 8,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "11:00〜21:30",
-        "ai_summary": "道頓堀のカツ丼専門店。提供が早く、サクッとエネルギー補給してホールに戻りたい時に便利。",
-        "tags": [
-          "サク飯",
-          "ガッツリ",
-          "一人OK"
-        ],
-        "address": "大阪府大阪市中央区道頓堀1-7-21"
       },
       {
         "id": 414,
@@ -2317,134 +1449,6 @@ export const osakaHalls: readonly PachinkoHall[] = [
     "meal_guide": "パチンコ・パチスロユーザー向けに見ると、マルハン梅田店は梅田ナナイロ地下、各線梅田駅・JR大阪駅から徒歩圏の立地です。ナナイロ地下を通れば天候を気にせず駅前圏の飲食店へ向かえるため、朝一前の軽食や昼休憩のサクッと飯に向いています。閉店後は阪急東通やお初天神方面の焼肉やラーメンで締めまで組み立てやすいです。関西遠征ユーザーにとって、123＋Nや大東洋本店とは改札動線が分かれるため、訪れるホールに合わせて飲食店を選ぶ梅田遠征の代表例として使いやすいホールです。パチンコ・パチスロ双方の台数が厚く、長時間稼働の合間に周辺店を使い分けやすい立地です。",
     "restaurants": [
       {
-        "id": 447,
-        "name": "くら寿司 梅田店",
-        "genre": "回転寿司",
-        "walkMinutes": 1,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "11:00〜22:00",
-        "ai_summary": "梅田ナナイロ近くのくら寿司。",
-        "tags": [
-          "一人OK"
-        ],
-        "address": "大阪府大阪市北区小松原町2-5"
-      },
-      {
-        "id": 457,
-        "name": "天丼てんや 梅田北店",
-        "genre": "丼もの",
-        "walkMinutes": 2,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "11:00〜22:00",
-        "ai_summary": "梅田北口近くのてんや。サクッと天丼で戻れる。",
-        "tags": [
-          "一人OK"
-        ],
-        "address": "大阪府大阪市北区小松原町3-1"
-      },
-      {
-        "id": 449,
-        "name": "マクドナルド 梅田店",
-        "genre": "ハンバーガー",
-        "walkMinutes": 3,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "11:00〜22:00",
-        "ai_summary": "お初天神近くのマクドナルド。朝一前にも使える。",
-        "tags": [
-          "一人OK"
-        ],
-        "address": "大阪府大阪市北区曽根崎2-15-1"
-      },
-      {
-        "id": 434,
-        "name": "神代カレー 梅田店",
-        "genre": "カレー",
-        "walkMinutes": 4,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "11:00〜22:00",
-        "ai_summary": "お初天神近くのスパイスカレー。エネルギー補給向き。",
-        "tags": [
-          "一人OK"
-        ],
-        "address": "大阪府大阪市北区曽根崎2-14-5"
-      },
-      {
-        "id": 430,
-        "name": "神座 梅田店",
-        "genre": "ラーメン",
-        "walkMinutes": 4,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "11:00〜22:00",
-        "ai_summary": "提供が早い神座。昼休憩にサクッと戻りたい時に便利。",
-        "tags": [
-          "一人OK"
-        ],
-        "address": "大阪府大阪市北区梅田2-5-6"
-      },
-      {
-        "id": 446,
-        "name": "元祖寿司 梅田店",
-        "genre": "回転寿司",
-        "walkMinutes": 5,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "11:00〜22:00",
-        "ai_summary": "梅田の回転寿司。サクッと寿司で戻れる。",
-        "tags": [
-          "一人OK"
-        ],
-        "address": "大阪府大阪市北区梅田3-1-1"
-      },
-      {
-        "id": 444,
-        "name": "焼肉 牛庵 梅田店",
-        "genre": "焼肉",
-        "walkMinutes": 5,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "11:00〜22:00",
-        "ai_summary": "梅田の焼肉店。一人でも入りやすい。",
-        "tags": [
-          "一人OK"
-        ],
-        "address": "大阪府大阪市北区梅田2-6-8"
-      },
-      {
-        "id": 456,
-        "name": "なか卯 梅田店",
-        "genre": "丼もの",
-        "walkMinutes": 5,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "11:00〜22:00",
-        "ai_summary": "梅田のなか卯。親子丼など軽めの昼食向き。",
-        "tags": [
-          "一人OK"
-        ],
-        "address": "大阪府大阪市北区梅田2-6-12"
-      },
-      {
         "id": 452,
         "name": "ずんどう屋 梅田店",
         "genre": "ラーメン",
@@ -2459,102 +1463,6 @@ export const osakaHalls: readonly PachinkoHall[] = [
           "一人OK"
         ],
         "address": "大阪府大阪市北区梅田2-5-15"
-      },
-      {
-        "id": 440,
-        "name": "天丼てんや 梅田店",
-        "genre": "丼もの",
-        "walkMinutes": 5,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "11:00〜22:00",
-        "ai_summary": "梅田の天丼チェーン。サクッと食べて戻れる。",
-        "tags": [
-          "一人OK"
-        ],
-        "address": "大阪府大阪市北区梅田2-4-10"
-      },
-      {
-        "id": 442,
-        "name": "鶴亀 梅田店",
-        "genre": "そば/うどん",
-        "walkMinutes": 5,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "11:00〜22:00",
-        "ai_summary": "梅田の立ち食いうどん。提供が早く短時間向き。",
-        "tags": [
-          "一人OK"
-        ],
-        "address": "大阪府大阪市北区曽根崎2-13-12"
-      },
-      {
-        "id": 454,
-        "name": "ホルモン焼 梅田店",
-        "genre": "焼肉",
-        "walkMinutes": 6,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "11:00〜22:00",
-        "ai_summary": "お初天神近くのホルモン焼き。閉店後の締めにも。",
-        "tags": [
-          "一人OK"
-        ],
-        "address": "大阪府大阪市北区曽根崎2-11-5"
-      },
-      {
-        "id": 429,
-        "name": "一蘭 梅田店",
-        "genre": "ラーメン",
-        "walkMinutes": 6,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "11:00〜22:00",
-        "ai_summary": "梅田の一蘭。個室ブースで味に集中できるラーメン店。",
-        "tags": [
-          "一人OK"
-        ],
-        "address": "大阪府大阪市北区梅田3-1-1"
-      },
-      {
-        "id": 436,
-        "name": "かつや 梅田店",
-        "genre": "とんかつ/カツ丼",
-        "walkMinutes": 6,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "11:00〜22:00",
-        "ai_summary": "梅田のかつや。カツ丼で手早くエネルギー補給。",
-        "tags": [
-          "一人OK"
-        ],
-        "address": "大阪府大阪市北区梅田2-2-2"
-      },
-      {
-        "id": 441,
-        "name": "杵屋 梅田店",
-        "genre": "そば/うどん",
-        "walkMinutes": 6,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "11:00〜22:00",
-        "ai_summary": "お初天神近くの杵屋。あっさりうどんで軽い休憩向き。",
-        "tags": [
-          "一人OK"
-        ],
-        "address": "大阪府大阪市北区曽根崎2-11-8"
       },
       {
         "id": 431,
@@ -2590,22 +1498,6 @@ export const osakaHalls: readonly PachinkoHall[] = [
         "address": "大阪府大阪市北区曽根崎2-12-6"
       },
       {
-        "id": 453,
-        "name": "スープカレー ジャングル 梅田店",
-        "genre": "カレー",
-        "walkMinutes": 6,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "11:00〜22:00",
-        "ai_summary": "梅田のスープカレー。具材たっぷりで満足感が高い。",
-        "tags": [
-          "一人OK"
-        ],
-        "address": "大阪府大阪市北区梅田2-2-22"
-      },
-      {
         "id": 450,
         "name": "スタウト 梅田本店",
         "genre": "とんかつ/カツ丼",
@@ -2621,167 +1513,6 @@ export const osakaHalls: readonly PachinkoHall[] = [
         ],
         "address": "大阪府大阪市北区曽根崎2-9-1",
         "is_kitaichimeshi": true
-      },
-      {
-        "id": 437,
-        "name": "とんかつ和幸 梅田店",
-        "genre": "とんかつ/カツ丼",
-        "walkMinutes": 6,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "11:00〜22:00",
-        "ai_summary": "梅田のとんかつ和幸。勝った日のご褒美とんかつにも。",
-        "tags": [
-          "一人OK"
-        ],
-        "address": "大阪府大阪市北区梅田3-2-2"
-      },
-      {
-        "id": 445,
-        "name": "焼肉ライク 梅田店",
-        "genre": "焼肉",
-        "walkMinutes": 6,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "11:00〜22:00",
-        "ai_summary": "梅田の焼肉ライク。短時間で焼肉を楽しめる。",
-        "tags": [
-          "一人OK"
-        ],
-        "address": "大阪府大阪市北区梅田2-3-1"
-      },
-      {
-        "id": 433,
-        "name": "カレーキング 梅田店",
-        "genre": "カレー",
-        "walkMinutes": 7,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "11:00〜22:00",
-        "ai_summary": "梅田のカレー専門店。提供が早く昼休憩向き。",
-        "tags": [
-          "一人OK"
-        ],
-        "address": "大阪府大阪市北区梅田1-3-1"
-      },
-      {
-        "id": 428,
-        "name": "松屋 梅田店",
-        "genre": "丼もの",
-        "walkMinutes": 7,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "11:00〜22:00",
-        "ai_summary": "梅田駅前の24時間牛丼。朝一前から閉店後までサクッと飯ができる定番。",
-        "tags": [
-          "一人OK"
-        ],
-        "address": "大阪府大阪市北区梅田1-1-3",
-        "is_kitaichimeshi": true
-      },
-      {
-        "id": 448,
-        "name": "モスバーガー 梅田店",
-        "genre": "ハンバーガー",
-        "walkMinutes": 7,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "11:00〜22:00",
-        "ai_summary": "梅田のモスバーガー。軽めの昼休憩向き。",
-        "tags": [
-          "一人OK"
-        ],
-        "address": "大阪府大阪市北区梅田1-1-3"
-      },
-      {
-        "id": 455,
-        "name": "スシロー 梅田店",
-        "genre": "回転寿司",
-        "walkMinutes": 7,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "11:00〜22:00",
-        "ai_summary": "梅田のスシロー。回転の速い寿司で休憩向き。",
-        "tags": [
-          "一人OK"
-        ],
-        "address": "大阪府大阪市北区梅田1-2-18"
-      },
-      {
-        "id": 438,
-        "name": "吉野家 梅田店",
-        "genre": "丼もの",
-        "walkMinutes": 7,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "11:00〜22:00",
-        "ai_summary": "梅田の24時間牛丼。提供爆速で短い休憩向き。",
-        "tags": [
-          "一人OK"
-        ],
-        "address": "大阪府大阪市北区梅田1-1-17"
-      },
-      {
-        "id": 435,
-        "name": "カレーハウスCoCo壱番屋 梅田店",
-        "genre": "カレー",
-        "walkMinutes": 8,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "11:00〜22:00",
-        "ai_summary": "駅前のCoCo壱。サクッとカレーで戻れる定番。",
-        "tags": [
-          "一人OK"
-        ],
-        "address": "大阪府大阪市北区梅田1-2-2"
-      },
-      {
-        "id": 439,
-        "name": "すき家 梅田店",
-        "genre": "丼もの",
-        "walkMinutes": 8,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "11:00〜22:00",
-        "ai_summary": "梅田駅前のすき家。朝一前の軽食にも使える。",
-        "tags": [
-          "一人OK"
-        ],
-        "address": "大阪府大阪市北区梅田1-2-15"
-      },
-      {
-        "id": 443,
-        "name": "なだい富士そば 梅田店",
-        "genre": "そば/うどん",
-        "walkMinutes": 9,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "11:00〜22:00",
-        "ai_summary": "梅田の24時間立ち食いそば。閉店後の締めにも。",
-        "tags": [
-          "一人OK"
-        ],
-        "address": "大阪府大阪市北区梅田1-3-5"
       },
       {
         "id": 451,
@@ -2836,327 +1567,6 @@ export const osakaHalls: readonly PachinkoHall[] = [
         "is_kitaichimeshi": true
       },
       {
-        "id": 443,
-        "name": "なだい富士そば 梅田店",
-        "genre": "そば/うどん",
-        "walkMinutes": 7,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "11:00〜22:00",
-        "ai_summary": "梅田の24時間立ち食いそば。閉店後の締めにも。",
-        "tags": [
-          "一人OK"
-        ],
-        "address": "大阪府大阪市北区梅田1-3-5"
-      },
-      {
-        "id": 446,
-        "name": "元祖寿司 梅田店",
-        "genre": "回転寿司",
-        "walkMinutes": 7,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "11:00〜22:00",
-        "ai_summary": "梅田の回転寿司。サクッと寿司で戻れる。",
-        "tags": [
-          "一人OK"
-        ],
-        "address": "大阪府大阪市北区梅田3-1-1"
-      },
-      {
-        "id": 444,
-        "name": "焼肉 牛庵 梅田店",
-        "genre": "焼肉",
-        "walkMinutes": 7,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "11:00〜22:00",
-        "ai_summary": "梅田の焼肉店。一人でも入りやすい。",
-        "tags": [
-          "一人OK"
-        ],
-        "address": "大阪府大阪市北区梅田2-6-8"
-      },
-      {
-        "id": 455,
-        "name": "スシロー 梅田店",
-        "genre": "回転寿司",
-        "walkMinutes": 7,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "11:00〜22:00",
-        "ai_summary": "梅田のスシロー。回転の速い寿司で休憩向き。",
-        "tags": [
-          "一人OK"
-        ],
-        "address": "大阪府大阪市北区梅田1-2-18"
-      },
-      {
-        "id": 437,
-        "name": "とんかつ和幸 梅田店",
-        "genre": "とんかつ/カツ丼",
-        "walkMinutes": 7,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "11:00〜22:00",
-        "ai_summary": "梅田のとんかつ和幸。勝った日のご褒美とんかつにも。",
-        "tags": [
-          "一人OK"
-        ],
-        "address": "大阪府大阪市北区梅田3-2-2"
-      },
-      {
-        "id": 438,
-        "name": "吉野家 梅田店",
-        "genre": "丼もの",
-        "walkMinutes": 7,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "11:00〜22:00",
-        "ai_summary": "梅田の24時間牛丼。提供爆速で短い休憩向き。",
-        "tags": [
-          "一人OK"
-        ],
-        "address": "大阪府大阪市北区梅田1-1-17"
-      },
-      {
-        "id": 429,
-        "name": "一蘭 梅田店",
-        "genre": "ラーメン",
-        "walkMinutes": 8,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "11:00〜22:00",
-        "ai_summary": "梅田の一蘭。個室ブースで味に集中できるラーメン店。",
-        "tags": [
-          "一人OK"
-        ],
-        "address": "大阪府大阪市北区梅田3-1-1"
-      },
-      {
-        "id": 428,
-        "name": "松屋 梅田店",
-        "genre": "丼もの",
-        "walkMinutes": 8,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "11:00〜22:00",
-        "ai_summary": "梅田駅前の24時間牛丼。朝一前から閉店後までサクッと飯ができる定番。",
-        "tags": [
-          "一人OK"
-        ],
-        "address": "大阪府大阪市北区梅田1-1-3",
-        "is_kitaichimeshi": true
-      },
-      {
-        "id": 456,
-        "name": "なか卯 梅田店",
-        "genre": "丼もの",
-        "walkMinutes": 8,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "11:00〜22:00",
-        "ai_summary": "梅田のなか卯。親子丼など軽めの昼食向き。",
-        "tags": [
-          "一人OK"
-        ],
-        "address": "大阪府大阪市北区梅田2-6-12"
-      },
-      {
-        "id": 453,
-        "name": "スープカレー ジャングル 梅田店",
-        "genre": "カレー",
-        "walkMinutes": 8,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "11:00〜22:00",
-        "ai_summary": "梅田のスープカレー。具材たっぷりで満足感が高い。",
-        "tags": [
-          "一人OK"
-        ],
-        "address": "大阪府大阪市北区梅田2-2-22"
-      },
-      {
-        "id": 439,
-        "name": "すき家 梅田店",
-        "genre": "丼もの",
-        "walkMinutes": 8,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "11:00〜22:00",
-        "ai_summary": "梅田駅前のすき家。朝一前の軽食にも使える。",
-        "tags": [
-          "一人OK"
-        ],
-        "address": "大阪府大阪市北区梅田1-2-15"
-      },
-      {
-        "id": 440,
-        "name": "天丼てんや 梅田店",
-        "genre": "丼もの",
-        "walkMinutes": 8,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "11:00〜22:00",
-        "ai_summary": "梅田の天丼チェーン。サクッと食べて戻れる。",
-        "tags": [
-          "一人OK"
-        ],
-        "address": "大阪府大阪市北区梅田2-4-10"
-      },
-      {
-        "id": 445,
-        "name": "焼肉ライク 梅田店",
-        "genre": "焼肉",
-        "walkMinutes": 8,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "11:00〜22:00",
-        "ai_summary": "梅田の焼肉ライク。短時間で焼肉を楽しめる。",
-        "tags": [
-          "一人OK"
-        ],
-        "address": "大阪府大阪市北区梅田2-3-1"
-      },
-      {
-        "id": 435,
-        "name": "カレーハウスCoCo壱番屋 梅田店",
-        "genre": "カレー",
-        "walkMinutes": 9,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "11:00〜22:00",
-        "ai_summary": "駅前のCoCo壱。サクッとカレーで戻れる定番。",
-        "tags": [
-          "一人OK"
-        ],
-        "address": "大阪府大阪市北区梅田1-2-2"
-      },
-      {
-        "id": 433,
-        "name": "カレーキング 梅田店",
-        "genre": "カレー",
-        "walkMinutes": 9,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "11:00〜22:00",
-        "ai_summary": "梅田のカレー専門店。提供が早く昼休憩向き。",
-        "tags": [
-          "一人OK"
-        ],
-        "address": "大阪府大阪市北区梅田1-3-1"
-      },
-      {
-        "id": 434,
-        "name": "神代カレー 梅田店",
-        "genre": "カレー",
-        "walkMinutes": 9,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "11:00〜22:00",
-        "ai_summary": "お初天神近くのスパイスカレー。エネルギー補給向き。",
-        "tags": [
-          "一人OK"
-        ],
-        "address": "大阪府大阪市北区曽根崎2-14-5"
-      },
-      {
-        "id": 430,
-        "name": "神座 梅田店",
-        "genre": "ラーメン",
-        "walkMinutes": 9,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "11:00〜22:00",
-        "ai_summary": "提供が早い神座。昼休憩にサクッと戻りたい時に便利。",
-        "tags": [
-          "一人OK"
-        ],
-        "address": "大阪府大阪市北区梅田2-5-6"
-      },
-      {
-        "id": 436,
-        "name": "かつや 梅田店",
-        "genre": "とんかつ/カツ丼",
-        "walkMinutes": 9,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "11:00〜22:00",
-        "ai_summary": "梅田のかつや。カツ丼で手早くエネルギー補給。",
-        "tags": [
-          "一人OK"
-        ],
-        "address": "大阪府大阪市北区梅田2-2-2"
-      },
-      {
-        "id": 449,
-        "name": "マクドナルド 梅田店",
-        "genre": "ハンバーガー",
-        "walkMinutes": 9,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "11:00〜22:00",
-        "ai_summary": "お初天神近くのマクドナルド。朝一前にも使える。",
-        "tags": [
-          "一人OK"
-        ],
-        "address": "大阪府大阪市北区曽根崎2-15-1"
-      },
-      {
-        "id": 448,
-        "name": "モスバーガー 梅田店",
-        "genre": "ハンバーガー",
-        "walkMinutes": 9,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "11:00〜22:00",
-        "ai_summary": "梅田のモスバーガー。軽めの昼休憩向き。",
-        "tags": [
-          "一人OK"
-        ],
-        "address": "大阪府大阪市北区梅田1-1-3"
-      },
-      {
         "id": 452,
         "name": "ずんどう屋 梅田店",
         "genre": "ラーメン",
@@ -3171,54 +1581,6 @@ export const osakaHalls: readonly PachinkoHall[] = [
           "一人OK"
         ],
         "address": "大阪府大阪市北区梅田2-5-15"
-      },
-      {
-        "id": 457,
-        "name": "天丼てんや 梅田北店",
-        "genre": "丼もの",
-        "walkMinutes": 9,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "11:00〜22:00",
-        "ai_summary": "梅田北口近くのてんや。サクッと天丼で戻れる。",
-        "tags": [
-          "一人OK"
-        ],
-        "address": "大阪府大阪市北区小松原町3-1"
-      },
-      {
-        "id": 454,
-        "name": "ホルモン焼 梅田店",
-        "genre": "焼肉",
-        "walkMinutes": 10,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "11:00〜22:00",
-        "ai_summary": "お初天神近くのホルモン焼き。閉店後の締めにも。",
-        "tags": [
-          "一人OK"
-        ],
-        "address": "大阪府大阪市北区曽根崎2-11-5"
-      },
-      {
-        "id": 447,
-        "name": "くら寿司 梅田店",
-        "genre": "回転寿司",
-        "walkMinutes": 10,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "11:00〜22:00",
-        "ai_summary": "梅田ナナイロ近くのくら寿司。",
-        "tags": [
-          "一人OK"
-        ],
-        "address": "大阪府大阪市北区小松原町2-5"
       },
       {
         "id": 432,
@@ -3255,22 +1617,6 @@ export const osakaHalls: readonly PachinkoHall[] = [
     "meal_guide": "パチンコ・パチスロユーザー向けに見ると、四海樓梅田店は曽根崎お初天神商店街沿い、地下鉄梅田駅から徒歩圏の立地です。お初天神周辺の地場食堂と駅前チェーンを徒歩圏で使い分けやすく、昼休憩はサクッと飯、閉店後は商店街沿いの焼肉やラーメンで締めまで組み立てやすい動線です。朝一前はお初天神入口付近の軽食店で済ませ、四海樓 HEP FIVE店とは地下街直結と商店街沿いで動線が分かれます。関西遠征ユーザーにとって、梅田エリア内の四海樓店舗を日替わりで回りながら食事先を変えやすいホールです。パチンコ・パチスロ双方の台数バランスがあり、休憩の長さに合わせて周辺店を選びやすい立地です。",
     "restaurants": [
       {
-        "id": 441,
-        "name": "杵屋 梅田店",
-        "genre": "そば/うどん",
-        "walkMinutes": 1,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "11:00〜22:00",
-        "ai_summary": "お初天神近くの杵屋。あっさりうどんで軽い休憩向き。",
-        "tags": [
-          "一人OK"
-        ],
-        "address": "大阪府大阪市北区曽根崎2-11-8"
-      },
-      {
         "id": 431,
         "name": "無鉄砲 梅田店",
         "genre": "ラーメン",
@@ -3304,70 +1650,6 @@ export const osakaHalls: readonly PachinkoHall[] = [
         "address": "大阪府大阪市北区曽根崎2-12-6"
       },
       {
-        "id": 442,
-        "name": "鶴亀 梅田店",
-        "genre": "そば/うどん",
-        "walkMinutes": 1,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "11:00〜22:00",
-        "ai_summary": "梅田の立ち食いうどん。提供が早く短時間向き。",
-        "tags": [
-          "一人OK"
-        ],
-        "address": "大阪府大阪市北区曽根崎2-13-12"
-      },
-      {
-        "id": 454,
-        "name": "ホルモン焼 梅田店",
-        "genre": "焼肉",
-        "walkMinutes": 2,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "11:00〜22:00",
-        "ai_summary": "お初天神近くのホルモン焼き。閉店後の締めにも。",
-        "tags": [
-          "一人OK"
-        ],
-        "address": "大阪府大阪市北区曽根崎2-11-5"
-      },
-      {
-        "id": 430,
-        "name": "神座 梅田店",
-        "genre": "ラーメン",
-        "walkMinutes": 2,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "11:00〜22:00",
-        "ai_summary": "提供が早い神座。昼休憩にサクッと戻りたい時に便利。",
-        "tags": [
-          "一人OK"
-        ],
-        "address": "大阪府大阪市北区梅田2-5-6"
-      },
-      {
-        "id": 436,
-        "name": "かつや 梅田店",
-        "genre": "とんかつ/カツ丼",
-        "walkMinutes": 2,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "11:00〜22:00",
-        "ai_summary": "梅田のかつや。カツ丼で手早くエネルギー補給。",
-        "tags": [
-          "一人OK"
-        ],
-        "address": "大阪府大阪市北区梅田2-2-2"
-      },
-      {
         "id": 452,
         "name": "ずんどう屋 梅田店",
         "genre": "ラーメン",
@@ -3399,327 +1681,6 @@ export const osakaHalls: readonly PachinkoHall[] = [
         ],
         "address": "大阪府大阪市北区曽根崎2-9-1",
         "is_kitaichimeshi": true
-      },
-      {
-        "id": 433,
-        "name": "カレーキング 梅田店",
-        "genre": "カレー",
-        "walkMinutes": 3,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "11:00〜22:00",
-        "ai_summary": "梅田のカレー専門店。提供が早く昼休憩向き。",
-        "tags": [
-          "一人OK"
-        ],
-        "address": "大阪府大阪市北区梅田1-3-1"
-      },
-      {
-        "id": 429,
-        "name": "一蘭 梅田店",
-        "genre": "ラーメン",
-        "walkMinutes": 3,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "11:00〜22:00",
-        "ai_summary": "梅田の一蘭。個室ブースで味に集中できるラーメン店。",
-        "tags": [
-          "一人OK"
-        ],
-        "address": "大阪府大阪市北区梅田3-1-1"
-      },
-      {
-        "id": 428,
-        "name": "松屋 梅田店",
-        "genre": "丼もの",
-        "walkMinutes": 3,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "11:00〜22:00",
-        "ai_summary": "梅田駅前の24時間牛丼。朝一前から閉店後までサクッと飯ができる定番。",
-        "tags": [
-          "一人OK"
-        ],
-        "address": "大阪府大阪市北区梅田1-1-3",
-        "is_kitaichimeshi": true
-      },
-      {
-        "id": 440,
-        "name": "天丼てんや 梅田店",
-        "genre": "丼もの",
-        "walkMinutes": 3,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "11:00〜22:00",
-        "ai_summary": "梅田の天丼チェーン。サクッと食べて戻れる。",
-        "tags": [
-          "一人OK"
-        ],
-        "address": "大阪府大阪市北区梅田2-4-10"
-      },
-      {
-        "id": 445,
-        "name": "焼肉ライク 梅田店",
-        "genre": "焼肉",
-        "walkMinutes": 3,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "11:00〜22:00",
-        "ai_summary": "梅田の焼肉ライク。短時間で焼肉を楽しめる。",
-        "tags": [
-          "一人OK"
-        ],
-        "address": "大阪府大阪市北区梅田2-3-1"
-      },
-      {
-        "id": 435,
-        "name": "カレーハウスCoCo壱番屋 梅田店",
-        "genre": "カレー",
-        "walkMinutes": 4,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "11:00〜22:00",
-        "ai_summary": "駅前のCoCo壱。サクッとカレーで戻れる定番。",
-        "tags": [
-          "一人OK"
-        ],
-        "address": "大阪府大阪市北区梅田1-2-2"
-      },
-      {
-        "id": 446,
-        "name": "元祖寿司 梅田店",
-        "genre": "回転寿司",
-        "walkMinutes": 4,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "11:00〜22:00",
-        "ai_summary": "梅田の回転寿司。サクッと寿司で戻れる。",
-        "tags": [
-          "一人OK"
-        ],
-        "address": "大阪府大阪市北区梅田3-1-1"
-      },
-      {
-        "id": 444,
-        "name": "焼肉 牛庵 梅田店",
-        "genre": "焼肉",
-        "walkMinutes": 4,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "11:00〜22:00",
-        "ai_summary": "梅田の焼肉店。一人でも入りやすい。",
-        "tags": [
-          "一人OK"
-        ],
-        "address": "大阪府大阪市北区梅田2-6-8"
-      },
-      {
-        "id": 434,
-        "name": "神代カレー 梅田店",
-        "genre": "カレー",
-        "walkMinutes": 4,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "11:00〜22:00",
-        "ai_summary": "お初天神近くのスパイスカレー。エネルギー補給向き。",
-        "tags": [
-          "一人OK"
-        ],
-        "address": "大阪府大阪市北区曽根崎2-14-5"
-      },
-      {
-        "id": 449,
-        "name": "マクドナルド 梅田店",
-        "genre": "ハンバーガー",
-        "walkMinutes": 4,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "11:00〜22:00",
-        "ai_summary": "お初天神近くのマクドナルド。朝一前にも使える。",
-        "tags": [
-          "一人OK"
-        ],
-        "address": "大阪府大阪市北区曽根崎2-15-1"
-      },
-      {
-        "id": 448,
-        "name": "モスバーガー 梅田店",
-        "genre": "ハンバーガー",
-        "walkMinutes": 4,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "11:00〜22:00",
-        "ai_summary": "梅田のモスバーガー。軽めの昼休憩向き。",
-        "tags": [
-          "一人OK"
-        ],
-        "address": "大阪府大阪市北区梅田1-1-3"
-      },
-      {
-        "id": 456,
-        "name": "なか卯 梅田店",
-        "genre": "丼もの",
-        "walkMinutes": 4,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "11:00〜22:00",
-        "ai_summary": "梅田のなか卯。親子丼など軽めの昼食向き。",
-        "tags": [
-          "一人OK"
-        ],
-        "address": "大阪府大阪市北区梅田2-6-12"
-      },
-      {
-        "id": 453,
-        "name": "スープカレー ジャングル 梅田店",
-        "genre": "カレー",
-        "walkMinutes": 4,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "11:00〜22:00",
-        "ai_summary": "梅田のスープカレー。具材たっぷりで満足感が高い。",
-        "tags": [
-          "一人OK"
-        ],
-        "address": "大阪府大阪市北区梅田2-2-22"
-      },
-      {
-        "id": 455,
-        "name": "スシロー 梅田店",
-        "genre": "回転寿司",
-        "walkMinutes": 4,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "11:00〜22:00",
-        "ai_summary": "梅田のスシロー。回転の速い寿司で休憩向き。",
-        "tags": [
-          "一人OK"
-        ],
-        "address": "大阪府大阪市北区梅田1-2-18"
-      },
-      {
-        "id": 437,
-        "name": "とんかつ和幸 梅田店",
-        "genre": "とんかつ/カツ丼",
-        "walkMinutes": 4,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "11:00〜22:00",
-        "ai_summary": "梅田のとんかつ和幸。勝った日のご褒美とんかつにも。",
-        "tags": [
-          "一人OK"
-        ],
-        "address": "大阪府大阪市北区梅田3-2-2"
-      },
-      {
-        "id": 438,
-        "name": "吉野家 梅田店",
-        "genre": "丼もの",
-        "walkMinutes": 4,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "11:00〜22:00",
-        "ai_summary": "梅田の24時間牛丼。提供爆速で短い休憩向き。",
-        "tags": [
-          "一人OK"
-        ],
-        "address": "大阪府大阪市北区梅田1-1-17"
-      },
-      {
-        "id": 443,
-        "name": "なだい富士そば 梅田店",
-        "genre": "そば/うどん",
-        "walkMinutes": 5,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "11:00〜22:00",
-        "ai_summary": "梅田の24時間立ち食いそば。閉店後の締めにも。",
-        "tags": [
-          "一人OK"
-        ],
-        "address": "大阪府大阪市北区梅田1-3-5"
-      },
-      {
-        "id": 447,
-        "name": "くら寿司 梅田店",
-        "genre": "回転寿司",
-        "walkMinutes": 5,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "11:00〜22:00",
-        "ai_summary": "梅田ナナイロ近くのくら寿司。",
-        "tags": [
-          "一人OK"
-        ],
-        "address": "大阪府大阪市北区小松原町2-5"
-      },
-      {
-        "id": 439,
-        "name": "すき家 梅田店",
-        "genre": "丼もの",
-        "walkMinutes": 5,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "11:00〜22:00",
-        "ai_summary": "梅田駅前のすき家。朝一前の軽食にも使える。",
-        "tags": [
-          "一人OK"
-        ],
-        "address": "大阪府大阪市北区梅田1-2-15"
-      },
-      {
-        "id": 457,
-        "name": "天丼てんや 梅田北店",
-        "genre": "丼もの",
-        "walkMinutes": 5,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "11:00〜22:00",
-        "ai_summary": "梅田北口近くのてんや。サクッと天丼で戻れる。",
-        "tags": [
-          "一人OK"
-        ],
-        "address": "大阪府大阪市北区小松原町3-1"
       },
       {
         "id": 451,
@@ -3757,166 +1718,6 @@ export const osakaHalls: readonly PachinkoHall[] = [
     "meal_guide": "パチンコ・パチスロユーザー向けに見ると、大東洋本店は阪急東通商店街入口すぐ、各線梅田駅から徒歩5分の立地です。46枚スロット専門店として、短い休憩で東通沿いの牛丼・カレー・ハンバーガーチェーンに行き、すぐ戻る使い方がしやすい動線です。朝一前は近隣の立ち食いそばや牛丼で軽食、昼休憩は提供が速い丼もので手早く、閉店後は阪急口方面の焼肉やラーメンで締めまで組み立てやすいです。関西遠征ユーザーにとって、梅田のスロット遠征で定番の名前として知られ、スロット123梅田店とは大阪駅前と阪急口で動線が分かれるため食事先を変えやすいホールです。パチスロユーザーが短時間の食事休憩と稼働を往復しやすい立地です。",
     "restaurants": [
       {
-        "id": 447,
-        "name": "くら寿司 梅田店",
-        "genre": "回転寿司",
-        "walkMinutes": 1,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "11:00〜22:00",
-        "ai_summary": "梅田ナナイロ近くのくら寿司。",
-        "tags": [
-          "一人OK"
-        ],
-        "address": "大阪府大阪市北区小松原町2-5"
-      },
-      {
-        "id": 457,
-        "name": "天丼てんや 梅田北店",
-        "genre": "丼もの",
-        "walkMinutes": 1,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "11:00〜22:00",
-        "ai_summary": "梅田北口近くのてんや。サクッと天丼で戻れる。",
-        "tags": [
-          "一人OK"
-        ],
-        "address": "大阪府大阪市北区小松原町3-1"
-      },
-      {
-        "id": 449,
-        "name": "マクドナルド 梅田店",
-        "genre": "ハンバーガー",
-        "walkMinutes": 2,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "11:00〜22:00",
-        "ai_summary": "お初天神近くのマクドナルド。朝一前にも使える。",
-        "tags": [
-          "一人OK"
-        ],
-        "address": "大阪府大阪市北区曽根崎2-15-1"
-      },
-      {
-        "id": 434,
-        "name": "神代カレー 梅田店",
-        "genre": "カレー",
-        "walkMinutes": 3,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "11:00〜22:00",
-        "ai_summary": "お初天神近くのスパイスカレー。エネルギー補給向き。",
-        "tags": [
-          "一人OK"
-        ],
-        "address": "大阪府大阪市北区曽根崎2-14-5"
-      },
-      {
-        "id": 446,
-        "name": "元祖寿司 梅田店",
-        "genre": "回転寿司",
-        "walkMinutes": 4,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "11:00〜22:00",
-        "ai_summary": "梅田の回転寿司。サクッと寿司で戻れる。",
-        "tags": [
-          "一人OK"
-        ],
-        "address": "大阪府大阪市北区梅田3-1-1"
-      },
-      {
-        "id": 430,
-        "name": "神座 梅田店",
-        "genre": "ラーメン",
-        "walkMinutes": 4,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "11:00〜22:00",
-        "ai_summary": "提供が早い神座。昼休憩にサクッと戻りたい時に便利。",
-        "tags": [
-          "一人OK"
-        ],
-        "address": "大阪府大阪市北区梅田2-5-6"
-      },
-      {
-        "id": 440,
-        "name": "天丼てんや 梅田店",
-        "genre": "丼もの",
-        "walkMinutes": 4,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "11:00〜22:00",
-        "ai_summary": "梅田の天丼チェーン。サクッと食べて戻れる。",
-        "tags": [
-          "一人OK"
-        ],
-        "address": "大阪府大阪市北区梅田2-4-10"
-      },
-      {
-        "id": 444,
-        "name": "焼肉 牛庵 梅田店",
-        "genre": "焼肉",
-        "walkMinutes": 5,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "11:00〜22:00",
-        "ai_summary": "梅田の焼肉店。一人でも入りやすい。",
-        "tags": [
-          "一人OK"
-        ],
-        "address": "大阪府大阪市北区梅田2-6-8"
-      },
-      {
-        "id": 429,
-        "name": "一蘭 梅田店",
-        "genre": "ラーメン",
-        "walkMinutes": 5,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "11:00〜22:00",
-        "ai_summary": "梅田の一蘭。個室ブースで味に集中できるラーメン店。",
-        "tags": [
-          "一人OK"
-        ],
-        "address": "大阪府大阪市北区梅田3-1-1"
-      },
-      {
-        "id": 436,
-        "name": "かつや 梅田店",
-        "genre": "とんかつ/カツ丼",
-        "walkMinutes": 5,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "11:00〜22:00",
-        "ai_summary": "梅田のかつや。カツ丼で手早くエネルギー補給。",
-        "tags": [
-          "一人OK"
-        ],
-        "address": "大阪府大阪市北区梅田2-2-2"
-      },
-      {
         "id": 431,
         "name": "無鉄砲 梅田店",
         "genre": "ラーメン",
@@ -3932,22 +1733,6 @@ export const osakaHalls: readonly PachinkoHall[] = [
         ],
         "address": "大阪府大阪市北区曽根崎2-10-9",
         "is_kitaichimeshi": true
-      },
-      {
-        "id": 456,
-        "name": "なか卯 梅田店",
-        "genre": "丼もの",
-        "walkMinutes": 5,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "11:00〜22:00",
-        "ai_summary": "梅田のなか卯。親子丼など軽めの昼食向き。",
-        "tags": [
-          "一人OK"
-        ],
-        "address": "大阪府大阪市北区梅田2-6-12"
       },
       {
         "id": 432,
@@ -3997,231 +1782,6 @@ export const osakaHalls: readonly PachinkoHall[] = [
         ],
         "address": "大阪府大阪市北区曽根崎2-9-1",
         "is_kitaichimeshi": true
-      },
-      {
-        "id": 442,
-        "name": "鶴亀 梅田店",
-        "genre": "そば/うどん",
-        "walkMinutes": 5,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "11:00〜22:00",
-        "ai_summary": "梅田の立ち食いうどん。提供が早く短時間向き。",
-        "tags": [
-          "一人OK"
-        ],
-        "address": "大阪府大阪市北区曽根崎2-13-12"
-      },
-      {
-        "id": 445,
-        "name": "焼肉ライク 梅田店",
-        "genre": "焼肉",
-        "walkMinutes": 5,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "11:00〜22:00",
-        "ai_summary": "梅田の焼肉ライク。短時間で焼肉を楽しめる。",
-        "tags": [
-          "一人OK"
-        ],
-        "address": "大阪府大阪市北区梅田2-3-1"
-      },
-      {
-        "id": 433,
-        "name": "カレーキング 梅田店",
-        "genre": "カレー",
-        "walkMinutes": 6,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "11:00〜22:00",
-        "ai_summary": "梅田のカレー専門店。提供が早く昼休憩向き。",
-        "tags": [
-          "一人OK"
-        ],
-        "address": "大阪府大阪市北区梅田1-3-1"
-      },
-      {
-        "id": 454,
-        "name": "ホルモン焼 梅田店",
-        "genre": "焼肉",
-        "walkMinutes": 6,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "11:00〜22:00",
-        "ai_summary": "お初天神近くのホルモン焼き。閉店後の締めにも。",
-        "tags": [
-          "一人OK"
-        ],
-        "address": "大阪府大阪市北区曽根崎2-11-5"
-      },
-      {
-        "id": 441,
-        "name": "杵屋 梅田店",
-        "genre": "そば/うどん",
-        "walkMinutes": 6,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "11:00〜22:00",
-        "ai_summary": "お初天神近くの杵屋。あっさりうどんで軽い休憩向き。",
-        "tags": [
-          "一人OK"
-        ],
-        "address": "大阪府大阪市北区曽根崎2-11-8"
-      },
-      {
-        "id": 428,
-        "name": "松屋 梅田店",
-        "genre": "丼もの",
-        "walkMinutes": 6,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "11:00〜22:00",
-        "ai_summary": "梅田駅前の24時間牛丼。朝一前から閉店後までサクッと飯ができる定番。",
-        "tags": [
-          "一人OK"
-        ],
-        "address": "大阪府大阪市北区梅田1-1-3",
-        "is_kitaichimeshi": true
-      },
-      {
-        "id": 453,
-        "name": "スープカレー ジャングル 梅田店",
-        "genre": "カレー",
-        "walkMinutes": 6,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "11:00〜22:00",
-        "ai_summary": "梅田のスープカレー。具材たっぷりで満足感が高い。",
-        "tags": [
-          "一人OK"
-        ],
-        "address": "大阪府大阪市北区梅田2-2-22"
-      },
-      {
-        "id": 437,
-        "name": "とんかつ和幸 梅田店",
-        "genre": "とんかつ/カツ丼",
-        "walkMinutes": 6,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "11:00〜22:00",
-        "ai_summary": "梅田のとんかつ和幸。勝った日のご褒美とんかつにも。",
-        "tags": [
-          "一人OK"
-        ],
-        "address": "大阪府大阪市北区梅田3-2-2"
-      },
-      {
-        "id": 435,
-        "name": "カレーハウスCoCo壱番屋 梅田店",
-        "genre": "カレー",
-        "walkMinutes": 7,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "11:00〜22:00",
-        "ai_summary": "駅前のCoCo壱。サクッとカレーで戻れる定番。",
-        "tags": [
-          "一人OK"
-        ],
-        "address": "大阪府大阪市北区梅田1-2-2"
-      },
-      {
-        "id": 448,
-        "name": "モスバーガー 梅田店",
-        "genre": "ハンバーガー",
-        "walkMinutes": 7,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "11:00〜22:00",
-        "ai_summary": "梅田のモスバーガー。軽めの昼休憩向き。",
-        "tags": [
-          "一人OK"
-        ],
-        "address": "大阪府大阪市北区梅田1-1-3"
-      },
-      {
-        "id": 455,
-        "name": "スシロー 梅田店",
-        "genre": "回転寿司",
-        "walkMinutes": 7,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "11:00〜22:00",
-        "ai_summary": "梅田のスシロー。回転の速い寿司で休憩向き。",
-        "tags": [
-          "一人OK"
-        ],
-        "address": "大阪府大阪市北区梅田1-2-18"
-      },
-      {
-        "id": 438,
-        "name": "吉野家 梅田店",
-        "genre": "丼もの",
-        "walkMinutes": 7,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "11:00〜22:00",
-        "ai_summary": "梅田の24時間牛丼。提供爆速で短い休憩向き。",
-        "tags": [
-          "一人OK"
-        ],
-        "address": "大阪府大阪市北区梅田1-1-17"
-      },
-      {
-        "id": 443,
-        "name": "なだい富士そば 梅田店",
-        "genre": "そば/うどん",
-        "walkMinutes": 8,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "11:00〜22:00",
-        "ai_summary": "梅田の24時間立ち食いそば。閉店後の締めにも。",
-        "tags": [
-          "一人OK"
-        ],
-        "address": "大阪府大阪市北区梅田1-3-5"
-      },
-      {
-        "id": 439,
-        "name": "すき家 梅田店",
-        "genre": "丼もの",
-        "walkMinutes": 8,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "11:00〜22:00",
-        "ai_summary": "梅田駅前のすき家。朝一前の軽食にも使える。",
-        "tags": [
-          "一人OK"
-        ],
-        "address": "大阪府大阪市北区梅田1-2-15"
       },
       {
         "id": 451,
@@ -4259,199 +1819,6 @@ export const osakaHalls: readonly PachinkoHall[] = [
     "meal_guide": "パチンコ・パチスロユーザー向けに見ると、四海樓 HEP FIVE店は梅田地下街から直結するHEP FIVE B2Fの立地です。観光・買い物動線と組み合わせやすく、HEP FIVE内や地下街のチェーン店へ天候を気にせず向かえるため、昼休憩のサクッと飯に向いています。朝一前は地下街の軽食店で済ませ、閉店後は梅田地下街沿いの回転寿司やラーメンで締めまで組み立てやすいです。関西遠征ユーザーにとって、四海樓梅田店とはお初天神とHEP FIVEで動線が分かれるため、同じ遠征でも日替わりで食事先を変えやすいホールです。パチンコ寄りの台構成で、長めの休憩を取りながら商業施設内の店を使い分けやすい立地です。",
     "restaurants": [
       {
-        "id": 446,
-        "name": "元祖寿司 梅田店",
-        "genre": "回転寿司",
-        "walkMinutes": 1,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "11:00〜22:00",
-        "ai_summary": "梅田の回転寿司。サクッと寿司で戻れる。",
-        "tags": [
-          "一人OK"
-        ],
-        "address": "大阪府大阪市北区梅田3-1-1"
-      },
-      {
-        "id": 444,
-        "name": "焼肉 牛庵 梅田店",
-        "genre": "焼肉",
-        "walkMinutes": 1,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "11:00〜22:00",
-        "ai_summary": "梅田の焼肉店。一人でも入りやすい。",
-        "tags": [
-          "一人OK"
-        ],
-        "address": "大阪府大阪市北区梅田2-6-8"
-      },
-      {
-        "id": 429,
-        "name": "一蘭 梅田店",
-        "genre": "ラーメン",
-        "walkMinutes": 2,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "11:00〜22:00",
-        "ai_summary": "梅田の一蘭。個室ブースで味に集中できるラーメン店。",
-        "tags": [
-          "一人OK"
-        ],
-        "address": "大阪府大阪市北区梅田3-1-1"
-      },
-      {
-        "id": 434,
-        "name": "神代カレー 梅田店",
-        "genre": "カレー",
-        "walkMinutes": 2,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "11:00〜22:00",
-        "ai_summary": "お初天神近くのスパイスカレー。エネルギー補給向き。",
-        "tags": [
-          "一人OK"
-        ],
-        "address": "大阪府大阪市北区曽根崎2-14-5"
-      },
-      {
-        "id": 430,
-        "name": "神座 梅田店",
-        "genre": "ラーメン",
-        "walkMinutes": 2,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "11:00〜22:00",
-        "ai_summary": "提供が早い神座。昼休憩にサクッと戻りたい時に便利。",
-        "tags": [
-          "一人OK"
-        ],
-        "address": "大阪府大阪市北区梅田2-5-6"
-      },
-      {
-        "id": 456,
-        "name": "なか卯 梅田店",
-        "genre": "丼もの",
-        "walkMinutes": 2,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "11:00〜22:00",
-        "ai_summary": "梅田のなか卯。親子丼など軽めの昼食向き。",
-        "tags": [
-          "一人OK"
-        ],
-        "address": "大阪府大阪市北区梅田2-6-12"
-      },
-      {
-        "id": 440,
-        "name": "天丼てんや 梅田店",
-        "genre": "丼もの",
-        "walkMinutes": 2,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "11:00〜22:00",
-        "ai_summary": "梅田の天丼チェーン。サクッと食べて戻れる。",
-        "tags": [
-          "一人OK"
-        ],
-        "address": "大阪府大阪市北区梅田2-4-10"
-      },
-      {
-        "id": 437,
-        "name": "とんかつ和幸 梅田店",
-        "genre": "とんかつ/カツ丼",
-        "walkMinutes": 2,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "11:00〜22:00",
-        "ai_summary": "梅田のとんかつ和幸。勝った日のご褒美とんかつにも。",
-        "tags": [
-          "一人OK"
-        ],
-        "address": "大阪府大阪市北区梅田3-2-2"
-      },
-      {
-        "id": 436,
-        "name": "かつや 梅田店",
-        "genre": "とんかつ/カツ丼",
-        "walkMinutes": 3,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "11:00〜22:00",
-        "ai_summary": "梅田のかつや。カツ丼で手早くエネルギー補給。",
-        "tags": [
-          "一人OK"
-        ],
-        "address": "大阪府大阪市北区梅田2-2-2"
-      },
-      {
-        "id": 447,
-        "name": "くら寿司 梅田店",
-        "genre": "回転寿司",
-        "walkMinutes": 3,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "11:00〜22:00",
-        "ai_summary": "梅田ナナイロ近くのくら寿司。",
-        "tags": [
-          "一人OK"
-        ],
-        "address": "大阪府大阪市北区小松原町2-5"
-      },
-      {
-        "id": 428,
-        "name": "松屋 梅田店",
-        "genre": "丼もの",
-        "walkMinutes": 3,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "11:00〜22:00",
-        "ai_summary": "梅田駅前の24時間牛丼。朝一前から閉店後までサクッと飯ができる定番。",
-        "tags": [
-          "一人OK"
-        ],
-        "address": "大阪府大阪市北区梅田1-1-3",
-        "is_kitaichimeshi": true
-      },
-      {
-        "id": 449,
-        "name": "マクドナルド 梅田店",
-        "genre": "ハンバーガー",
-        "walkMinutes": 3,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "11:00〜22:00",
-        "ai_summary": "お初天神近くのマクドナルド。朝一前にも使える。",
-        "tags": [
-          "一人OK"
-        ],
-        "address": "大阪府大阪市北区曽根崎2-15-1"
-      },
-      {
         "id": 452,
         "name": "ずんどう屋 梅田店",
         "genre": "ラーメン",
@@ -4468,118 +1835,6 @@ export const osakaHalls: readonly PachinkoHall[] = [
         "address": "大阪府大阪市北区梅田2-5-15"
       },
       {
-        "id": 453,
-        "name": "スープカレー ジャングル 梅田店",
-        "genre": "カレー",
-        "walkMinutes": 3,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "11:00〜22:00",
-        "ai_summary": "梅田のスープカレー。具材たっぷりで満足感が高い。",
-        "tags": [
-          "一人OK"
-        ],
-        "address": "大阪府大阪市北区梅田2-2-22"
-      },
-      {
-        "id": 457,
-        "name": "天丼てんや 梅田北店",
-        "genre": "丼もの",
-        "walkMinutes": 3,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "11:00〜22:00",
-        "ai_summary": "梅田北口近くのてんや。サクッと天丼で戻れる。",
-        "tags": [
-          "一人OK"
-        ],
-        "address": "大阪府大阪市北区小松原町3-1"
-      },
-      {
-        "id": 445,
-        "name": "焼肉ライク 梅田店",
-        "genre": "焼肉",
-        "walkMinutes": 3,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "11:00〜22:00",
-        "ai_summary": "梅田の焼肉ライク。短時間で焼肉を楽しめる。",
-        "tags": [
-          "一人OK"
-        ],
-        "address": "大阪府大阪市北区梅田2-3-1"
-      },
-      {
-        "id": 438,
-        "name": "吉野家 梅田店",
-        "genre": "丼もの",
-        "walkMinutes": 3,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "11:00〜22:00",
-        "ai_summary": "梅田の24時間牛丼。提供爆速で短い休憩向き。",
-        "tags": [
-          "一人OK"
-        ],
-        "address": "大阪府大阪市北区梅田1-1-17"
-      },
-      {
-        "id": 433,
-        "name": "カレーキング 梅田店",
-        "genre": "カレー",
-        "walkMinutes": 4,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "11:00〜22:00",
-        "ai_summary": "梅田のカレー専門店。提供が早く昼休憩向き。",
-        "tags": [
-          "一人OK"
-        ],
-        "address": "大阪府大阪市北区梅田1-3-1"
-      },
-      {
-        "id": 454,
-        "name": "ホルモン焼 梅田店",
-        "genre": "焼肉",
-        "walkMinutes": 4,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "11:00〜22:00",
-        "ai_summary": "お初天神近くのホルモン焼き。閉店後の締めにも。",
-        "tags": [
-          "一人OK"
-        ],
-        "address": "大阪府大阪市北区曽根崎2-11-5"
-      },
-      {
-        "id": 448,
-        "name": "モスバーガー 梅田店",
-        "genre": "ハンバーガー",
-        "walkMinutes": 4,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "11:00〜22:00",
-        "ai_summary": "梅田のモスバーガー。軽めの昼休憩向き。",
-        "tags": [
-          "一人OK"
-        ],
-        "address": "大阪府大阪市北区梅田1-1-3"
-      },
-      {
         "id": 432,
         "name": "らーめん わいず 梅田店",
         "genre": "ラーメン",
@@ -4594,86 +1849,6 @@ export const osakaHalls: readonly PachinkoHall[] = [
           "一人OK"
         ],
         "address": "大阪府大阪市北区曽根崎2-12-6"
-      },
-      {
-        "id": 455,
-        "name": "スシロー 梅田店",
-        "genre": "回転寿司",
-        "walkMinutes": 4,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "11:00〜22:00",
-        "ai_summary": "梅田のスシロー。回転の速い寿司で休憩向き。",
-        "tags": [
-          "一人OK"
-        ],
-        "address": "大阪府大阪市北区梅田1-2-18"
-      },
-      {
-        "id": 442,
-        "name": "鶴亀 梅田店",
-        "genre": "そば/うどん",
-        "walkMinutes": 4,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "11:00〜22:00",
-        "ai_summary": "梅田の立ち食いうどん。提供が早く短時間向き。",
-        "tags": [
-          "一人OK"
-        ],
-        "address": "大阪府大阪市北区曽根崎2-13-12"
-      },
-      {
-        "id": 435,
-        "name": "カレーハウスCoCo壱番屋 梅田店",
-        "genre": "カレー",
-        "walkMinutes": 5,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "11:00〜22:00",
-        "ai_summary": "駅前のCoCo壱。サクッとカレーで戻れる定番。",
-        "tags": [
-          "一人OK"
-        ],
-        "address": "大阪府大阪市北区梅田1-2-2"
-      },
-      {
-        "id": 443,
-        "name": "なだい富士そば 梅田店",
-        "genre": "そば/うどん",
-        "walkMinutes": 5,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "11:00〜22:00",
-        "ai_summary": "梅田の24時間立ち食いそば。閉店後の締めにも。",
-        "tags": [
-          "一人OK"
-        ],
-        "address": "大阪府大阪市北区梅田1-3-5"
-      },
-      {
-        "id": 441,
-        "name": "杵屋 梅田店",
-        "genre": "そば/うどん",
-        "walkMinutes": 5,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "11:00〜22:00",
-        "ai_summary": "お初天神近くの杵屋。あっさりうどんで軽い休憩向き。",
-        "tags": [
-          "一人OK"
-        ],
-        "address": "大阪府大阪市北区曽根崎2-11-8"
       },
       {
         "id": 431,
@@ -4708,22 +1883,6 @@ export const osakaHalls: readonly PachinkoHall[] = [
         ],
         "address": "大阪府大阪市北区曽根崎2-9-1",
         "is_kitaichimeshi": true
-      },
-      {
-        "id": 439,
-        "name": "すき家 梅田店",
-        "genre": "丼もの",
-        "walkMinutes": 5,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "11:00〜22:00",
-        "ai_summary": "梅田駅前のすき家。朝一前の軽食にも使える。",
-        "tags": [
-          "一人OK"
-        ],
-        "address": "大阪府大阪市北区梅田1-2-15"
       },
       {
         "id": 451,
@@ -4761,295 +1920,6 @@ export const osakaHalls: readonly PachinkoHall[] = [
     "meal_guide": "パチンコ・パチスロユーザー向けに見ると、スロット123梅田店は大阪駅前第2ビル1階、JR大阪駅から徒歩2分の駅前立地です。改札からホールへ戻る距離が短く、駅前ロードサイドの牛丼・カレー・そばうどんチェーンへ最短で向かえる動線が強みです。朝一前は駅前の軽食店で済ませ、昼休憩は提供が速い丼もので手早く、閉店後は大阪駅ビル周辺のラーメンや回転寿司で締めまで組み立てやすいです。関西遠征ユーザーにとって、大東洋本店とは阪急口と大阪駅前で動線が分かれるため、梅田スロット遠征の日替わり食事拠点として使いやすいホールです。スロット専門店として、パチンコ・パチスロユーザーが駅前の回転の速い店でサクッと食事ができます。",
     "restaurants": [
       {
-        "id": 435,
-        "name": "カレーハウスCoCo壱番屋 梅田店",
-        "genre": "カレー",
-        "walkMinutes": 1,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "11:00〜22:00",
-        "ai_summary": "駅前のCoCo壱。サクッとカレーで戻れる定番。",
-        "tags": [
-          "一人OK"
-        ],
-        "address": "大阪府大阪市北区梅田1-2-2"
-      },
-      {
-        "id": 439,
-        "name": "すき家 梅田店",
-        "genre": "丼もの",
-        "walkMinutes": 1,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "11:00〜22:00",
-        "ai_summary": "梅田駅前のすき家。朝一前の軽食にも使える。",
-        "tags": [
-          "一人OK"
-        ],
-        "address": "大阪府大阪市北区梅田1-2-15"
-      },
-      {
-        "id": 433,
-        "name": "カレーキング 梅田店",
-        "genre": "カレー",
-        "walkMinutes": 2,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "11:00〜22:00",
-        "ai_summary": "梅田のカレー専門店。提供が早く昼休憩向き。",
-        "tags": [
-          "一人OK"
-        ],
-        "address": "大阪府大阪市北区梅田1-3-1"
-      },
-      {
-        "id": 443,
-        "name": "なだい富士そば 梅田店",
-        "genre": "そば/うどん",
-        "walkMinutes": 2,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "11:00〜22:00",
-        "ai_summary": "梅田の24時間立ち食いそば。閉店後の締めにも。",
-        "tags": [
-          "一人OK"
-        ],
-        "address": "大阪府大阪市北区梅田1-3-5"
-      },
-      {
-        "id": 428,
-        "name": "松屋 梅田店",
-        "genre": "丼もの",
-        "walkMinutes": 2,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "11:00〜22:00",
-        "ai_summary": "梅田駅前の24時間牛丼。朝一前から閉店後までサクッと飯ができる定番。",
-        "tags": [
-          "一人OK"
-        ],
-        "address": "大阪府大阪市北区梅田1-1-3",
-        "is_kitaichimeshi": true
-      },
-      {
-        "id": 448,
-        "name": "モスバーガー 梅田店",
-        "genre": "ハンバーガー",
-        "walkMinutes": 2,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "11:00〜22:00",
-        "ai_summary": "梅田のモスバーガー。軽めの昼休憩向き。",
-        "tags": [
-          "一人OK"
-        ],
-        "address": "大阪府大阪市北区梅田1-1-3"
-      },
-      {
-        "id": 455,
-        "name": "スシロー 梅田店",
-        "genre": "回転寿司",
-        "walkMinutes": 2,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "11:00〜22:00",
-        "ai_summary": "梅田のスシロー。回転の速い寿司で休憩向き。",
-        "tags": [
-          "一人OK"
-        ],
-        "address": "大阪府大阪市北区梅田1-2-18"
-      },
-      {
-        "id": 438,
-        "name": "吉野家 梅田店",
-        "genre": "丼もの",
-        "walkMinutes": 2,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "11:00〜22:00",
-        "ai_summary": "梅田の24時間牛丼。提供爆速で短い休憩向き。",
-        "tags": [
-          "一人OK"
-        ],
-        "address": "大阪府大阪市北区梅田1-1-17"
-      },
-      {
-        "id": 454,
-        "name": "ホルモン焼 梅田店",
-        "genre": "焼肉",
-        "walkMinutes": 3,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "11:00〜22:00",
-        "ai_summary": "お初天神近くのホルモン焼き。閉店後の締めにも。",
-        "tags": [
-          "一人OK"
-        ],
-        "address": "大阪府大阪市北区曽根崎2-11-5"
-      },
-      {
-        "id": 429,
-        "name": "一蘭 梅田店",
-        "genre": "ラーメン",
-        "walkMinutes": 3,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "11:00〜22:00",
-        "ai_summary": "梅田の一蘭。個室ブースで味に集中できるラーメン店。",
-        "tags": [
-          "一人OK"
-        ],
-        "address": "大阪府大阪市北区梅田3-1-1"
-      },
-      {
-        "id": 436,
-        "name": "かつや 梅田店",
-        "genre": "とんかつ/カツ丼",
-        "walkMinutes": 3,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "11:00〜22:00",
-        "ai_summary": "梅田のかつや。カツ丼で手早くエネルギー補給。",
-        "tags": [
-          "一人OK"
-        ],
-        "address": "大阪府大阪市北区梅田2-2-2"
-      },
-      {
-        "id": 453,
-        "name": "スープカレー ジャングル 梅田店",
-        "genre": "カレー",
-        "walkMinutes": 3,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "11:00〜22:00",
-        "ai_summary": "梅田のスープカレー。具材たっぷりで満足感が高い。",
-        "tags": [
-          "一人OK"
-        ],
-        "address": "大阪府大阪市北区梅田2-2-22"
-      },
-      {
-        "id": 437,
-        "name": "とんかつ和幸 梅田店",
-        "genre": "とんかつ/カツ丼",
-        "walkMinutes": 3,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "11:00〜22:00",
-        "ai_summary": "梅田のとんかつ和幸。勝った日のご褒美とんかつにも。",
-        "tags": [
-          "一人OK"
-        ],
-        "address": "大阪府大阪市北区梅田3-2-2"
-      },
-      {
-        "id": 445,
-        "name": "焼肉ライク 梅田店",
-        "genre": "焼肉",
-        "walkMinutes": 3,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "11:00〜22:00",
-        "ai_summary": "梅田の焼肉ライク。短時間で焼肉を楽しめる。",
-        "tags": [
-          "一人OK"
-        ],
-        "address": "大阪府大阪市北区梅田2-3-1"
-      },
-      {
-        "id": 444,
-        "name": "焼肉 牛庵 梅田店",
-        "genre": "焼肉",
-        "walkMinutes": 4,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "11:00〜22:00",
-        "ai_summary": "梅田の焼肉店。一人でも入りやすい。",
-        "tags": [
-          "一人OK"
-        ],
-        "address": "大阪府大阪市北区梅田2-6-8"
-      },
-      {
-        "id": 430,
-        "name": "神座 梅田店",
-        "genre": "ラーメン",
-        "walkMinutes": 4,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "11:00〜22:00",
-        "ai_summary": "提供が早い神座。昼休憩にサクッと戻りたい時に便利。",
-        "tags": [
-          "一人OK"
-        ],
-        "address": "大阪府大阪市北区梅田2-5-6"
-      },
-      {
-        "id": 441,
-        "name": "杵屋 梅田店",
-        "genre": "そば/うどん",
-        "walkMinutes": 4,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "11:00〜22:00",
-        "ai_summary": "お初天神近くの杵屋。あっさりうどんで軽い休憩向き。",
-        "tags": [
-          "一人OK"
-        ],
-        "address": "大阪府大阪市北区曽根崎2-11-8"
-      },
-      {
-        "id": 456,
-        "name": "なか卯 梅田店",
-        "genre": "丼もの",
-        "walkMinutes": 4,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "11:00〜22:00",
-        "ai_summary": "梅田のなか卯。親子丼など軽めの昼食向き。",
-        "tags": [
-          "一人OK"
-        ],
-        "address": "大阪府大阪市北区梅田2-6-12"
-      },
-      {
         "id": 432,
         "name": "らーめん わいず 梅田店",
         "genre": "ラーメン",
@@ -5082,54 +1952,6 @@ export const osakaHalls: readonly PachinkoHall[] = [
         "address": "大阪府大阪市北区梅田2-5-15"
       },
       {
-        "id": 440,
-        "name": "天丼てんや 梅田店",
-        "genre": "丼もの",
-        "walkMinutes": 4,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "11:00〜22:00",
-        "ai_summary": "梅田の天丼チェーン。サクッと食べて戻れる。",
-        "tags": [
-          "一人OK"
-        ],
-        "address": "大阪府大阪市北区梅田2-4-10"
-      },
-      {
-        "id": 446,
-        "name": "元祖寿司 梅田店",
-        "genre": "回転寿司",
-        "walkMinutes": 5,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "11:00〜22:00",
-        "ai_summary": "梅田の回転寿司。サクッと寿司で戻れる。",
-        "tags": [
-          "一人OK"
-        ],
-        "address": "大阪府大阪市北区梅田3-1-1"
-      },
-      {
-        "id": 434,
-        "name": "神代カレー 梅田店",
-        "genre": "カレー",
-        "walkMinutes": 5,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "11:00〜22:00",
-        "ai_summary": "お初天神近くのスパイスカレー。エネルギー補給向き。",
-        "tags": [
-          "一人OK"
-        ],
-        "address": "大阪府大阪市北区曽根崎2-14-5"
-      },
-      {
         "id": 431,
         "name": "無鉄砲 梅田店",
         "genre": "ラーメン",
@@ -5145,22 +1967,6 @@ export const osakaHalls: readonly PachinkoHall[] = [
         ],
         "address": "大阪府大阪市北区曽根崎2-10-9",
         "is_kitaichimeshi": true
-      },
-      {
-        "id": 442,
-        "name": "鶴亀 梅田店",
-        "genre": "そば/うどん",
-        "walkMinutes": 5,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "11:00〜22:00",
-        "ai_summary": "梅田の立ち食いうどん。提供が早く短時間向き。",
-        "tags": [
-          "一人OK"
-        ],
-        "address": "大阪府大阪市北区曽根崎2-13-12"
       },
       {
         "id": 451,
@@ -5180,22 +1986,6 @@ export const osakaHalls: readonly PachinkoHall[] = [
         "is_kitaichimeshi": true
       },
       {
-        "id": 449,
-        "name": "マクドナルド 梅田店",
-        "genre": "ハンバーガー",
-        "walkMinutes": 6,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "11:00〜22:00",
-        "ai_summary": "お初天神近くのマクドナルド。朝一前にも使える。",
-        "tags": [
-          "一人OK"
-        ],
-        "address": "大阪府大阪市北区曽根崎2-15-1"
-      },
-      {
         "id": 450,
         "name": "スタウト 梅田本店",
         "genre": "とんかつ/カツ丼",
@@ -5211,38 +2001,6 @@ export const osakaHalls: readonly PachinkoHall[] = [
         ],
         "address": "大阪府大阪市北区曽根崎2-9-1",
         "is_kitaichimeshi": true
-      },
-      {
-        "id": 447,
-        "name": "くら寿司 梅田店",
-        "genre": "回転寿司",
-        "walkMinutes": 7,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "11:00〜22:00",
-        "ai_summary": "梅田ナナイロ近くのくら寿司。",
-        "tags": [
-          "一人OK"
-        ],
-        "address": "大阪府大阪市北区小松原町2-5"
-      },
-      {
-        "id": 457,
-        "name": "天丼てんや 梅田北店",
-        "genre": "丼もの",
-        "walkMinutes": 7,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "11:00〜22:00",
-        "ai_summary": "梅田北口近くのてんや。サクッと天丼で戻れる。",
-        "tags": [
-          "一人OK"
-        ],
-        "address": "大阪府大阪市北区小松原町3-1"
       }
     ]
   },
@@ -5262,23 +2020,6 @@ export const osakaHalls: readonly PachinkoHall[] = [
     "pachiya_comment": "なんば駅15-B出口直結の大型4フロア店舗です。難波エリアのホール移動と食事休憩を組み立てやすく、千日前・道頓堀方面の飲食店へアクセスしやすい立地です。遠征ユーザーにも名前が挙がりやすいARROWの難波店です。",
     "meal_guide": "パチンコ・パチスロユーザー向けに見ると、ARROW namBa HIPSはなんば駅15-B出口直結・地下連絡通路すぐの立地です。改札からホールへ戻る距離が短く、なんば駅ビル内やセンター通り沿いのチェーン店へ天候を気にせず向かえる動線が強みです。朝一前は駅前の軽食店で済ませ、昼休憩はハンバーガーや丼もので手早く、閉店後は千日前・道頓堀方面の焼肉や寿司で締めまで組み立てやすいです。関西遠征ユーザーにとって、123難波店やマルハン新館と近接し、難波の大型ホールをまとめて回りながら食事先を変えやすい立地です。パチンコ・パチスロ双方の台数が厚く、4フロア構成のため休憩の長さに合わせて周辺店を選びやすいホールです。",
     "restaurants": [
-      {
-        "id": 424,
-        "name": "元祖寿司 なんば本店",
-        "genre": "回転寿司",
-        "walkMinutes": 3,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "11:00〜23:00",
-        "ai_summary": "道頓堀の回転寿司。提供が早く、サクッと寿司を食べてホールに戻りたい時に便利。",
-        "tags": [
-          "サク飯",
-          "一人OK"
-        ],
-        "address": "大阪府大阪市中央区道頓堀1-6-10"
-      },
       {
         "id": 458,
         "name": "たこ焼き道頓堀 くくる 本店",
@@ -5333,24 +2074,6 @@ export const osakaHalls: readonly PachinkoHall[] = [
         "address": "大阪府大阪市中央区宗右衛門町7-13"
       },
       {
-        "id": 413,
-        "name": "なだいかつ丼 なんば店",
-        "genre": "とんかつ/カツ丼",
-        "walkMinutes": 4,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "11:00〜21:30",
-        "ai_summary": "道頓堀のカツ丼専門店。提供が早く、サクッとエネルギー補給してホールに戻りたい時に便利。",
-        "tags": [
-          "サク飯",
-          "ガッツリ",
-          "一人OK"
-        ],
-        "address": "大阪府大阪市中央区道頓堀1-7-21"
-      },
-      {
         "id": 408,
         "name": "スープカレーカムイ なんば店",
         "genre": "カレー",
@@ -5368,22 +2091,6 @@ export const osakaHalls: readonly PachinkoHall[] = [
         "address": "大阪府大阪市中央区道頓堀1-5-7"
       },
       {
-        "id": 460,
-        "name": "カレー本舗 難波店",
-        "genre": "カレー",
-        "walkMinutes": 6,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "11:00〜22:00",
-        "ai_summary": "難波の欧風カレー。昼休憩の定番。",
-        "tags": [
-          "一人OK"
-        ],
-        "address": "大阪府大阪市中央区難波2-2-8"
-      },
-      {
         "id": 423,
         "name": "焼肉 牛庵 難波店",
         "genre": "焼肉",
@@ -5399,22 +2106,6 @@ export const osakaHalls: readonly PachinkoHall[] = [
           "一人OK"
         ],
         "address": "大阪府大阪市中央区難波2-2-15"
-      },
-      {
-        "id": 465,
-        "name": "かつ丼の名店 難波店",
-        "genre": "とんかつ/カツ丼",
-        "walkMinutes": 7,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "11:00〜22:00",
-        "ai_summary": "難波のカツ丼専門店。提供が早く昼休憩向き。",
-        "tags": [
-          "一人OK"
-        ],
-        "address": "大阪府大阪市中央区難波3-2-15"
       },
       {
         "id": 418,
@@ -5489,73 +2180,6 @@ export const osakaHalls: readonly PachinkoHall[] = [
         "address": "大阪府大阪市中央区難波4-1-2"
       },
       {
-        "id": 459,
-        "name": "ラーメン人生 難波店",
-        "genre": "ラーメン",
-        "walkMinutes": 7,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "11:00〜22:00",
-        "ai_summary": "難波の家系ラーメン。ガッツリ食べたい日に。",
-        "tags": [
-          "一人OK"
-        ],
-        "address": "大阪府大阪市中央区難波2-3-10"
-      },
-      {
-        "id": 462,
-        "name": "うどん匠 心邸 難波店",
-        "genre": "そば/うどん",
-        "walkMinutes": 7,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "11:00〜22:00",
-        "ai_summary": "難波の手打ちうどん。あっさり系で軽い休憩向き。",
-        "tags": [
-          "一人OK"
-        ],
-        "address": "大阪府大阪市中央区難波3-6-8",
-        "is_kitaichimeshi": true
-      },
-      {
-        "id": 412,
-        "name": "かつ喜 なんば店",
-        "genre": "とんかつ/カツ丼",
-        "walkMinutes": 8,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "11:00〜22:00",
-        "ai_summary": "千日前のかつ喜。とんかつもカツ丼も選べ、短時間の食事休憩に使いやすい。",
-        "tags": [
-          "サク飯",
-          "一人OK"
-        ],
-        "address": "大阪府大阪市中央区難波千日前15-17"
-      },
-      {
-        "id": 425,
-        "name": "廻る寿司 なんば店",
-        "genre": "回転寿司",
-        "walkMinutes": 8,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "11:00〜22:30",
-        "ai_summary": "難波の回転寿司。一人でも入りやすく、閉店後の締め寿司にも使いやすい。",
-        "tags": [
-          "サク飯",
-          "一人OK"
-        ],
-        "address": "大阪府大阪市中央区難波3-7-13"
-      },
-      {
         "id": 407,
         "name": "らーめん道場 大阪なんば店",
         "genre": "ラーメン",
@@ -5572,23 +2196,6 @@ export const osakaHalls: readonly PachinkoHall[] = [
           "深夜OK"
         ],
         "address": "大阪府大阪市中央区難波5-1-60"
-      },
-      {
-        "id": 410,
-        "name": "スパイス食堂 なんば店",
-        "genre": "カレー",
-        "walkMinutes": 8,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "11:30〜21:30",
-        "ai_summary": "難波四丁目のスパイスカレー店。提供が早く、短い昼休憩でもサクッと食べて戻れる。",
-        "tags": [
-          "サク飯",
-          "一人OK"
-        ],
-        "address": "大阪府大阪市中央区難波4-10-5"
       },
       {
         "id": 417,
@@ -5627,39 +2234,6 @@ export const osakaHalls: readonly PachinkoHall[] = [
         "address": "大阪府大阪市中央区難波3-4-15"
       },
       {
-        "id": 411,
-        "name": "とんかつ丸福 なんば店",
-        "genre": "とんかつ/カツ丼",
-        "walkMinutes": 8,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "11:00〜21:00",
-        "ai_summary": "千日前のとんかつ老舗丸福。サクサクの衣とジューシーな肉で、昼休憩のガッツリ飯に最適。",
-        "tags": [
-          "ガッツリ",
-          "一人OK"
-        ],
-        "address": "大阪府大阪市中央区千日前2-3-13"
-      },
-      {
-        "id": 461,
-        "name": "とん平 難波店",
-        "genre": "とんかつ/カツ丼",
-        "walkMinutes": 8,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "11:00〜22:00",
-        "ai_summary": "千日前のとんかつ店。サクッとカツ丼で戻れる。",
-        "tags": [
-          "一人OK"
-        ],
-        "address": "大阪府大阪市中央区千日前2-4-5"
-      },
-      {
         "id": 427,
         "name": "Shake Shack なんばパークス",
         "genre": "ハンバーガー",
@@ -5692,22 +2266,6 @@ export const osakaHalls: readonly PachinkoHall[] = [
           "一人OK"
         ],
         "address": "大阪府大阪市中央区千日前2-7-20"
-      },
-      {
-        "id": 463,
-        "name": "焼鳥 難波店",
-        "genre": "焼肉",
-        "walkMinutes": 9,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "11:00〜22:00",
-        "ai_summary": "千日前の焼鳥店。閉店後の締めの一杯向き。",
-        "tags": [
-          "一人OK"
-        ],
-        "address": "大阪府大阪市中央区千日前2-5-10"
       },
       {
         "id": 415,
@@ -5909,56 +2467,6 @@ export const osakaHalls: readonly PachinkoHall[] = [
         "address": "大阪府大阪市中央区千日前2-8-12"
       },
       {
-        "id": 409,
-        "name": "ボルケーノ なんば店",
-        "genre": "カレー",
-        "walkMinutes": 1,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "11:00〜22:00",
-        "ai_summary": "千日前の欧風カレー専門店。濃厚なルーで満足感が高く、勝った日のご褒美カレーにも向く。",
-        "tags": [
-          "ガッツリ",
-          "一人OK"
-        ],
-        "address": "大阪府大阪市中央区千日前2-10-9"
-      },
-      {
-        "id": 411,
-        "name": "とんかつ丸福 なんば店",
-        "genre": "とんかつ/カツ丼",
-        "walkMinutes": 2,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "11:00〜21:00",
-        "ai_summary": "千日前のとんかつ老舗丸福。サクサクの衣とジューシーな肉で、昼休憩のガッツリ飯に最適。",
-        "tags": [
-          "ガッツリ",
-          "一人OK"
-        ],
-        "address": "大阪府大阪市中央区千日前2-3-13"
-      },
-      {
-        "id": 461,
-        "name": "とん平 難波店",
-        "genre": "とんかつ/カツ丼",
-        "walkMinutes": 2,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "11:00〜22:00",
-        "ai_summary": "千日前のとんかつ店。サクッとカツ丼で戻れる。",
-        "tags": [
-          "一人OK"
-        ],
-        "address": "大阪府大阪市中央区千日前2-4-5"
-      },
-      {
         "id": 419,
         "name": "鶴亀 難波千日前店",
         "genre": "そば/うどん",
@@ -5974,38 +2482,6 @@ export const osakaHalls: readonly PachinkoHall[] = [
           "一人OK"
         ],
         "address": "大阪府大阪市中央区千日前2-7-20"
-      },
-      {
-        "id": 463,
-        "name": "焼鳥 難波店",
-        "genre": "焼肉",
-        "walkMinutes": 2,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "11:00〜22:00",
-        "ai_summary": "千日前の焼鳥店。閉店後の締めの一杯向き。",
-        "tags": [
-          "一人OK"
-        ],
-        "address": "大阪府大阪市中央区千日前2-5-10"
-      },
-      {
-        "id": 460,
-        "name": "カレー本舗 難波店",
-        "genre": "カレー",
-        "walkMinutes": 4,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "11:00〜22:00",
-        "ai_summary": "難波の欧風カレー。昼休憩の定番。",
-        "tags": [
-          "一人OK"
-        ],
-        "address": "大阪府大阪市中央区難波2-2-8"
       },
       {
         "id": 406,
@@ -6026,56 +2502,6 @@ export const osakaHalls: readonly PachinkoHall[] = [
         "address": "大阪府大阪市中央区難波1-8-17"
       },
       {
-        "id": 412,
-        "name": "かつ喜 なんば店",
-        "genre": "とんかつ/カツ丼",
-        "walkMinutes": 4,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "11:00〜22:00",
-        "ai_summary": "千日前のかつ喜。とんかつもカツ丼も選べ、短時間の食事休憩に使いやすい。",
-        "tags": [
-          "サク飯",
-          "一人OK"
-        ],
-        "address": "大阪府大阪市中央区難波千日前15-17"
-      },
-      {
-        "id": 459,
-        "name": "ラーメン人生 難波店",
-        "genre": "ラーメン",
-        "walkMinutes": 4,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "11:00〜22:00",
-        "ai_summary": "難波の家系ラーメン。ガッツリ食べたい日に。",
-        "tags": [
-          "一人OK"
-        ],
-        "address": "大阪府大阪市中央区難波2-3-10"
-      },
-      {
-        "id": 462,
-        "name": "うどん匠 心邸 難波店",
-        "genre": "そば/うどん",
-        "walkMinutes": 4,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "11:00〜22:00",
-        "ai_summary": "難波の手打ちうどん。あっさり系で軽い休憩向き。",
-        "tags": [
-          "一人OK"
-        ],
-        "address": "大阪府大阪市中央区難波3-6-8",
-        "is_kitaichimeshi": true
-      },
-      {
         "id": 423,
         "name": "焼肉 牛庵 難波店",
         "genre": "焼肉",
@@ -6091,22 +2517,6 @@ export const osakaHalls: readonly PachinkoHall[] = [
           "一人OK"
         ],
         "address": "大阪府大阪市中央区難波2-2-15"
-      },
-      {
-        "id": 465,
-        "name": "かつ丼の名店 難波店",
-        "genre": "とんかつ/カツ丼",
-        "walkMinutes": 5,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "11:00〜22:00",
-        "ai_summary": "難波のカツ丼専門店。提供が早く昼休憩向き。",
-        "tags": [
-          "一人OK"
-        ],
-        "address": "大阪府大阪市中央区難波3-2-15"
       },
       {
         "id": 417,
@@ -6164,23 +2574,6 @@ export const osakaHalls: readonly PachinkoHall[] = [
         "is_kitaichimeshi": true
       },
       {
-        "id": 424,
-        "name": "元祖寿司 なんば本店",
-        "genre": "回転寿司",
-        "walkMinutes": 7,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "11:00〜23:00",
-        "ai_summary": "道頓堀の回転寿司。提供が早く、サクッと寿司を食べてホールに戻りたい時に便利。",
-        "tags": [
-          "サク飯",
-          "一人OK"
-        ],
-        "address": "大阪府大阪市中央区道頓堀1-6-10"
-      },
-      {
         "id": 421,
         "name": "焼肉 牛太 本店",
         "genre": "焼肉",
@@ -6234,41 +2627,6 @@ export const osakaHalls: readonly PachinkoHall[] = [
         "address": "大阪府大阪市中央区難波3-5-15"
       },
       {
-        "id": 425,
-        "name": "廻る寿司 なんば店",
-        "genre": "回転寿司",
-        "walkMinutes": 7,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "11:00〜22:30",
-        "ai_summary": "難波の回転寿司。一人でも入りやすく、閉店後の締め寿司にも使いやすい。",
-        "tags": [
-          "サク飯",
-          "一人OK"
-        ],
-        "address": "大阪府大阪市中央区難波3-7-13"
-      },
-      {
-        "id": 413,
-        "name": "なだいかつ丼 なんば店",
-        "genre": "とんかつ/カツ丼",
-        "walkMinutes": 7,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "11:00〜21:30",
-        "ai_summary": "道頓堀のカツ丼専門店。提供が早く、サクッとエネルギー補給してホールに戻りたい時に便利。",
-        "tags": [
-          "サク飯",
-          "ガッツリ",
-          "一人OK"
-        ],
-        "address": "大阪府大阪市中央区道頓堀1-7-21"
-      },
-      {
         "id": 416,
         "name": "天丼てんや なんば店",
         "genre": "丼もの",
@@ -6320,23 +2678,6 @@ export const osakaHalls: readonly PachinkoHall[] = [
           "一人OK"
         ],
         "address": "大阪府大阪市中央区道頓堀1-5-7"
-      },
-      {
-        "id": 410,
-        "name": "スパイス食堂 なんば店",
-        "genre": "カレー",
-        "walkMinutes": 8,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "11:30〜21:30",
-        "ai_summary": "難波四丁目のスパイスカレー店。提供が早く、短い昼休憩でもサクッと食べて戻れる。",
-        "tags": [
-          "サク飯",
-          "一人OK"
-        ],
-        "address": "大阪府大阪市中央区難波4-10-5"
       }
     ]
   },
@@ -6409,39 +2750,6 @@ export const osakaHalls: readonly PachinkoHall[] = [
         "address": "大阪府大阪市中央区千日前2-8-12"
       },
       {
-        "id": 411,
-        "name": "とんかつ丸福 なんば店",
-        "genre": "とんかつ/カツ丼",
-        "walkMinutes": 1,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "11:00〜21:00",
-        "ai_summary": "千日前のとんかつ老舗丸福。サクサクの衣とジューシーな肉で、昼休憩のガッツリ飯に最適。",
-        "tags": [
-          "ガッツリ",
-          "一人OK"
-        ],
-        "address": "大阪府大阪市中央区千日前2-3-13"
-      },
-      {
-        "id": 461,
-        "name": "とん平 難波店",
-        "genre": "とんかつ/カツ丼",
-        "walkMinutes": 1,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "11:00〜22:00",
-        "ai_summary": "千日前のとんかつ店。サクッとカツ丼で戻れる。",
-        "tags": [
-          "一人OK"
-        ],
-        "address": "大阪府大阪市中央区千日前2-4-5"
-      },
-      {
         "id": 419,
         "name": "鶴亀 難波千日前店",
         "genre": "そば/うどん",
@@ -6457,22 +2765,6 @@ export const osakaHalls: readonly PachinkoHall[] = [
           "一人OK"
         ],
         "address": "大阪府大阪市中央区千日前2-7-20"
-      },
-      {
-        "id": 463,
-        "name": "焼鳥 難波店",
-        "genre": "焼肉",
-        "walkMinutes": 1,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "11:00〜22:00",
-        "ai_summary": "千日前の焼鳥店。閉店後の締めの一杯向き。",
-        "tags": [
-          "一人OK"
-        ],
-        "address": "大阪府大阪市中央区千日前2-5-10"
       },
       {
         "id": 403,
@@ -6495,23 +2787,6 @@ export const osakaHalls: readonly PachinkoHall[] = [
         "is_kitaichimeshi": true
       },
       {
-        "id": 409,
-        "name": "ボルケーノ なんば店",
-        "genre": "カレー",
-        "walkMinutes": 2,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "11:00〜22:00",
-        "ai_summary": "千日前の欧風カレー専門店。濃厚なルーで満足感が高く、勝った日のご褒美カレーにも向く。",
-        "tags": [
-          "ガッツリ",
-          "一人OK"
-        ],
-        "address": "大阪府大阪市中央区千日前2-10-9"
-      },
-      {
         "id": 406,
         "name": "神座 なんば道頓堀店",
         "genre": "ラーメン",
@@ -6530,72 +2805,6 @@ export const osakaHalls: readonly PachinkoHall[] = [
         "address": "大阪府大阪市中央区難波1-8-17"
       },
       {
-        "id": 412,
-        "name": "かつ喜 なんば店",
-        "genre": "とんかつ/カツ丼",
-        "walkMinutes": 3,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "11:00〜22:00",
-        "ai_summary": "千日前のかつ喜。とんかつもカツ丼も選べ、短時間の食事休憩に使いやすい。",
-        "tags": [
-          "サク飯",
-          "一人OK"
-        ],
-        "address": "大阪府大阪市中央区難波千日前15-17"
-      },
-      {
-        "id": 459,
-        "name": "ラーメン人生 難波店",
-        "genre": "ラーメン",
-        "walkMinutes": 3,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "11:00〜22:00",
-        "ai_summary": "難波の家系ラーメン。ガッツリ食べたい日に。",
-        "tags": [
-          "一人OK"
-        ],
-        "address": "大阪府大阪市中央区難波2-3-10"
-      },
-      {
-        "id": 462,
-        "name": "うどん匠 心邸 難波店",
-        "genre": "そば/うどん",
-        "walkMinutes": 3,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "11:00〜22:00",
-        "ai_summary": "難波の手打ちうどん。あっさり系で軽い休憩向き。",
-        "tags": [
-          "一人OK"
-        ],
-        "address": "大阪府大阪市中央区難波3-6-8",
-        "is_kitaichimeshi": true
-      },
-      {
-        "id": 460,
-        "name": "カレー本舗 難波店",
-        "genre": "カレー",
-        "walkMinutes": 4,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "11:00〜22:00",
-        "ai_summary": "難波の欧風カレー。昼休憩の定番。",
-        "tags": [
-          "一人OK"
-        ],
-        "address": "大阪府大阪市中央区難波2-2-8"
-      },
-      {
         "id": 423,
         "name": "焼肉 牛庵 難波店",
         "genre": "焼肉",
@@ -6611,22 +2820,6 @@ export const osakaHalls: readonly PachinkoHall[] = [
           "一人OK"
         ],
         "address": "大阪府大阪市中央区難波2-2-15"
-      },
-      {
-        "id": 465,
-        "name": "かつ丼の名店 難波店",
-        "genre": "とんかつ/カツ丼",
-        "walkMinutes": 4,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "11:00〜22:00",
-        "ai_summary": "難波のカツ丼専門店。提供が早く昼休憩向き。",
-        "tags": [
-          "一人OK"
-        ],
-        "address": "大阪府大阪市中央区難波3-2-15"
       },
       {
         "id": 417,
@@ -6719,41 +2912,6 @@ export const osakaHalls: readonly PachinkoHall[] = [
         "address": "大阪府大阪市中央区難波3-5-15"
       },
       {
-        "id": 425,
-        "name": "廻る寿司 なんば店",
-        "genre": "回転寿司",
-        "walkMinutes": 6,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "11:00〜22:30",
-        "ai_summary": "難波の回転寿司。一人でも入りやすく、閉店後の締め寿司にも使いやすい。",
-        "tags": [
-          "サク飯",
-          "一人OK"
-        ],
-        "address": "大阪府大阪市中央区難波3-7-13"
-      },
-      {
-        "id": 413,
-        "name": "なだいかつ丼 なんば店",
-        "genre": "とんかつ/カツ丼",
-        "walkMinutes": 6,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "11:00〜21:30",
-        "ai_summary": "道頓堀のカツ丼専門店。提供が早く、サクッとエネルギー補給してホールに戻りたい時に便利。",
-        "tags": [
-          "サク飯",
-          "ガッツリ",
-          "一人OK"
-        ],
-        "address": "大阪府大阪市中央区道頓堀1-7-21"
-      },
-      {
         "id": 416,
         "name": "天丼てんや なんば店",
         "genre": "丼もの",
@@ -6769,23 +2927,6 @@ export const osakaHalls: readonly PachinkoHall[] = [
           "一人OK"
         ],
         "address": "大阪府大阪市中央区難波3-4-15"
-      },
-      {
-        "id": 424,
-        "name": "元祖寿司 なんば本店",
-        "genre": "回転寿司",
-        "walkMinutes": 7,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "11:00〜23:00",
-        "ai_summary": "道頓堀の回転寿司。提供が早く、サクッと寿司を食べてホールに戻りたい時に便利。",
-        "tags": [
-          "サク飯",
-          "一人OK"
-        ],
-        "address": "大阪府大阪市中央区道頓堀1-6-10"
       },
       {
         "id": 404,
@@ -6840,23 +2981,6 @@ export const osakaHalls: readonly PachinkoHall[] = [
           "一人OK"
         ],
         "address": "大阪府大阪市中央区道頓堀1-5-7"
-      },
-      {
-        "id": 410,
-        "name": "スパイス食堂 なんば店",
-        "genre": "カレー",
-        "walkMinutes": 8,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "11:30〜21:30",
-        "ai_summary": "難波四丁目のスパイスカレー店。提供が早く、短い昼休憩でもサクッと食べて戻れる。",
-        "tags": [
-          "サク飯",
-          "一人OK"
-        ],
-        "address": "大阪府大阪市中央区難波4-10-5"
       }
     ]
   }
