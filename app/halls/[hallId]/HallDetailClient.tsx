@@ -77,13 +77,13 @@ function StoreMapEmbed({
   genre: string
   /** ルート起点となるパチンコホール名（ホール詳細ページでは固定） */
   originName: string
-  /** ルート起点の座標（マップ URL では名称より優先） */
+  /** ルート起点の座標（住所がない場合のフォールバック） */
   originLatLng?: { lat: number; lng: number }
-  /** ルート起点の住所（座標がない場合のフォールバック用） */
+  /** ルート起点の住所（マップ URL の第一候補） */
   originAddress?: string
-  /** ルート終点の住所（座標がない場合のフォールバック用） */
+  /** ルート終点の住所（マップ URL の第一候補） */
   destinationAddress?: string
-  /** ルート終点の座標（マップ URL では名称より優先） */
+  /** ルート終点の座標（住所がない場合のフォールバック） */
   destinationLatLng?: { lat: number; lng: number }
   /** 明示的に上書きしたい場合のみ指定。未指定なら origin→destination のルートURLを自動生成 */
   mapUrl?: string
@@ -139,7 +139,7 @@ function StoreMapEmbed({
 
 /**
  * パチンコホール地図埋め込み。
- * 座標を優先し、ない場合は名称+住所で検索表示する。
+ * name + address を優先し、ない場合は座標または名称で検索表示する。
  */
 function PachinkoHallMapEmbed({
   name,
@@ -149,11 +149,11 @@ function PachinkoHallMapEmbed({
   className = "",
 }: {
   name: string
-  /** ホール住所（座標がない場合のフォールバック用） */
+  /** ホール住所（マップ URL の第一候補） */
   address?: string
-  /** ホール座標（マップ URL では名称より優先） */
+  /** ホール座標（住所がない場合のフォールバック） */
   latLng?: { lat: number; lng: number }
-  /** 明示的に上書きしたい場合のみ指定。未指定なら座標または名称+住所から自動生成 */
+  /** 明示的に上書きしたい場合のみ指定。未指定なら name+address から自動生成 */
   mapUrl?: string
   className?: string
 }) {

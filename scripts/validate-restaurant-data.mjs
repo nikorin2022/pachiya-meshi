@@ -68,46 +68,64 @@ function buildMapQuery(name, options = {}) {
   return encodeURIComponent(name)
 }
 
-function buildMapEndpoint(name, options = {}) {
-  if (options.preferLatLng && isValidMapLatLng(options.latLng)) {
+/** Place / 経路とも name+address → lat,lng → name */
+function buildPlaceMapEndpoint(name, options = {}) {
+  const custom = options.mapQuery?.trim()
+  if (custom) return encodeURIComponent(custom)
+
+  const address = options.address?.trim()
+  if (address) return encodeURIComponent(`${name} ${address}`)
+
+  if (isValidMapLatLng(options.latLng)) {
     return encodeURIComponent(`${options.latLng.lat},${options.latLng.lng}`)
   }
-  return buildMapQuery(name, {
-    mapQuery: options.mapQuery,
-    address: options.address,
-  })
+
+  return encodeURIComponent(name)
+}
+
+function isCoordOnlyEncoded(encoded) {
+  const decoded = decodeURIComponent(encoded)
+  return /^-?\d+(\.\d+)?,-?\d+(\.\d+)?$/.test(decoded)
 }
 
 function hallEmbedUrl(hall) {
-  const q = buildMapEndpoint(hall.name, {
+  const q = buildPlaceMapEndpoint(hall.name, {
     latLng: { lat: hall.lat, lng: hall.lng },
     address: hall.address,
-    preferLatLng: isValidMapLatLng(hall),
   })
   return `https://maps.google.com/maps?q=${q}&output=embed&z=17`
 }
 
 function hallPlaceUrl(hall) {
-  const query = buildMapEndpoint(hall.name, {
+  const query = buildPlaceMapEndpoint(hall.name, {
     latLng: { lat: hall.lat, lng: hall.lng },
     address: hall.address,
-    preferLatLng: isValidMapLatLng(hall),
   })
   return `https://www.google.com/maps/search/?api=1&query=${query}`
 }
 
 function routeEmbedUrl(hall, restaurant) {
-  const origin = buildMapEndpoint(hall.name, {
+  const origin = buildPlaceMapEndpoint(hall.name, {
     latLng: { lat: hall.lat, lng: hall.lng },
     address: hall.address,
-    preferLatLng: isValidMapLatLng(hall),
   })
-  const destination = buildMapEndpoint(restaurant.name, {
+  const destination = buildPlaceMapEndpoint(restaurant.name, {
     latLng: { lat: restaurant.lat, lng: restaurant.lng },
     address: restaurant.address,
-    preferLatLng: isValidMapLatLng(restaurant),
   })
   return `https://maps.google.com/maps?saddr=${origin}&daddr=${destination}&dirflg=w&output=embed`
+}
+
+function directionUrl(hall, restaurant) {
+  const origin = buildPlaceMapEndpoint(hall.name, {
+    latLng: { lat: hall.lat, lng: hall.lng },
+    address: hall.address,
+  })
+  const destination = buildPlaceMapEndpoint(restaurant.name, {
+    latLng: { lat: restaurant.lat, lng: restaurant.lng },
+    address: restaurant.address,
+  })
+  return `https://www.google.com/maps/dir/?api=1&origin=${origin}&destination=${destination}&travelmode=walking`
 }
 
 function getHallMapQueryField(hall) {
@@ -159,13 +177,6 @@ function matchForHall(hall, restaurants) {
   return matches
 }
 
-const prefs = fs
-  .readdirSync(path.join(root, "data/prefectures"))
-  .filter((p) => {
-    const halls = path.join(root, "data/prefectures", p, "halls.json")
-    return fs.existsSync(halls)
-  })
-
 let errors = 0
 let warnings = 0
 const hallCounts = {}
@@ -175,9 +186,19 @@ const hallMapWarnings = {
   nameOnlyMapQuery: [],
   lowPrecisionCoords: [],
   nameOnlyFallback: [],
+  coordOnlyPlaceUrl: [],
+  coordOnlyEmbedUrl: [],
+  coordOnlyDirectionUrl: [],
+  emptyAddress: [],
+  restaurantLowPrecisionCoords: [],
 }
 
-for (const pref of prefs) {
+for (const pref of fs
+  .readdirSync(path.join(root, "data/prefectures"))
+  .filter((p) => {
+    const halls = path.join(root, "data/prefectures", p, "halls.json")
+    return fs.existsSync(halls)
+  })) {
   const halls = loadJson(path.join(root, "data/prefectures", pref, "halls.json"))
   const restaurants = loadJson(
     path.join(root, "data/prefectures", pref, "restaurants.json"),
@@ -211,9 +232,15 @@ for (const pref of prefs) {
     }
 
     const hasCoords = isValidMapLatLng(hall)
+    if (!hall.address?.trim()) {
+      console.warn(`[warn] ${hall.id}: address is empty`)
+      hallMapWarnings.emptyAddress.push(`hall:${hall.id}`)
+      warnings++
+    }
+
     if (!hasCoords) {
       console.warn(
-        `[warn] ${hall.id}: missing or invalid lat/lng — map URLs fall back to name+address`,
+        `[warn] ${hall.id}: missing or invalid lat/lng — map URLs fall back to name or coords unavailable`,
       )
       hallMapWarnings.nameOnlyFallback.push(hall.id)
       warnings++
@@ -227,25 +254,41 @@ for (const pref of prefs) {
 
     const embedUrl = hallEmbedUrl(hall)
     const placeUrl = hallPlaceUrl(hall)
-    if (hasCoords) {
-      const expectedCoord = encodeURIComponent(`${hall.lat},${hall.lng}`)
-      if (!embedUrl.includes(`q=${expectedCoord}`)) {
-        console.error(
-          `[ERROR] ${hall.id}: hall embed URL does not use coordinates (${embedUrl})`,
-        )
-        errors++
-      }
-      if (!placeUrl.includes(`query=${expectedCoord}`)) {
-        console.error(
-          `[ERROR] ${hall.id}: hall place URL does not use coordinates (${placeUrl})`,
-        )
-        errors++
-      }
-    } else {
-      const expectedNameAddress = buildMapQuery(hall.name, { address: hall.address })
+    const expectedNameAddress = buildMapQuery(hall.name, {
+      address: hall.address,
+    })
+
+    if (hall.address?.trim()) {
       if (!embedUrl.includes(`q=${expectedNameAddress}`)) {
         console.error(
-          `[ERROR] ${hall.id}: hall embed URL does not use name+address fallback`,
+          `[ERROR] ${hall.id}: hall embed URL does not use name+address (${embedUrl})`,
+        )
+        errors++
+      }
+      if (!placeUrl.includes(`query=${expectedNameAddress}`)) {
+        console.error(
+          `[ERROR] ${hall.id}: hall place URL does not use name+address (${placeUrl})`,
+        )
+        errors++
+      }
+      if (embedUrl.includes(`q=${encodeURIComponent(`${hall.lat},${hall.lng}`)}`)) {
+        console.warn(
+          `[warn] ${hall.id}: hall embed URL uses coordinates only despite address`,
+        )
+        hallMapWarnings.coordOnlyEmbedUrl.push(hall.id)
+        warnings++
+      }
+      if (placeUrl.includes(`query=${encodeURIComponent(`${hall.lat},${hall.lng}`)}`)) {
+        console.warn(
+          `[warn] ${hall.id}: hall place URL uses coordinates only despite address`,
+        )
+        hallMapWarnings.coordOnlyPlaceUrl.push(hall.id)
+        warnings++
+      }
+    } else {
+      if (!embedUrl.includes(`q=${expectedNameAddress}`)) {
+        console.error(
+          `[ERROR] ${hall.id}: hall embed URL does not use name fallback`,
         )
         errors++
       }
@@ -267,31 +310,67 @@ for (const pref of prefs) {
         continue
       }
 
-      const legacyRestaurant = {
-        lat: r.lat,
-        lng: r.lng,
+      if (!r.address?.trim()) {
+        console.warn(`[warn] ${hall.id} ↔ ${r.id}: restaurant address is empty`)
+        hallMapWarnings.emptyAddress.push(`${hall.id}|${r.id}`)
+        warnings++
       }
-      if (!legacyRestaurant.lat || !legacyRestaurant.lng) {
-        console.error(
-          `[ERROR] ${hall.id} ↔ ${r.id}: generated Restaurant would miss lat/lng`,
+
+      if (isLowPrecision(r.lat, r.lng)) {
+        console.warn(
+          `[warn] ${hall.id} ↔ ${r.id}: low-precision coordinates (${r.lat}, ${r.lng})`,
         )
-        errors++
+        hallMapWarnings.restaurantLowPrecisionCoords.push(`${hall.id}|${r.id}`)
+        warnings++
       }
 
       const url = routeEmbedUrl(hall, r)
-      const expectedOrigin = encodeURIComponent(`${hall.lat},${hall.lng}`)
-      const expectedDest = encodeURIComponent(`${r.lat},${r.lng}`)
-      if (!url.includes(`saddr=${expectedOrigin}`)) {
-        console.error(
-          `[ERROR] ${hall.id} ↔ ${r.id}: route URL saddr does not use hall coordinates (${url})`,
-        )
-        errors++
-      }
-      if (!url.includes(`daddr=${expectedDest}`)) {
-        console.error(
-          `[ERROR] ${hall.id} ↔ ${r.id}: route URL daddr does not use restaurant coordinates (${url})`,
-        )
-        errors++
+      const dirUrl = directionUrl(hall, r)
+      const expectedOrigin = buildMapQuery(hall.name, { address: hall.address })
+      const expectedDest = buildMapQuery(r.name, { address: r.address })
+
+      if (hall.address?.trim() && r.address?.trim()) {
+        if (!url.includes(`saddr=${expectedOrigin}`)) {
+          console.error(
+            `[ERROR] ${hall.id} ↔ ${r.id}: route URL saddr does not use hall name+address (${url})`,
+          )
+          errors++
+        }
+        if (!url.includes(`daddr=${expectedDest}`)) {
+          console.error(
+            `[ERROR] ${hall.id} ↔ ${r.id}: route URL daddr does not use restaurant name+address (${url})`,
+          )
+          errors++
+        }
+        if (!dirUrl.includes(`origin=${expectedOrigin}`)) {
+          console.error(
+            `[ERROR] ${hall.id} ↔ ${r.id}: direction URL origin does not use hall name+address`,
+          )
+          errors++
+        }
+        if (!dirUrl.includes(`destination=${expectedDest}`)) {
+          console.error(
+            `[ERROR] ${hall.id} ↔ ${r.id}: direction URL destination does not use restaurant name+address`,
+          )
+          errors++
+        }
+
+        const originPart = url.match(/saddr=([^&]+)/)?.[1]
+        const destPart = url.match(/daddr=([^&]+)/)?.[1]
+        if (originPart && isCoordOnlyEncoded(originPart)) {
+          console.warn(
+            `[warn] ${hall.id} ↔ ${r.id}: route embed saddr is coordinate-only`,
+          )
+          hallMapWarnings.coordOnlyDirectionUrl.push(`${hall.id}|${r.id}:saddr`)
+          warnings++
+        }
+        if (destPart && isCoordOnlyEncoded(destPart)) {
+          console.warn(
+            `[warn] ${hall.id} ↔ ${r.id}: route embed daddr is coordinate-only`,
+          )
+          hallMapWarnings.coordOnlyDirectionUrl.push(`${hall.id}|${r.id}:daddr`)
+          warnings++
+        }
       }
     }
   }

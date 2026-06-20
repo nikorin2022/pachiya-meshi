@@ -2,7 +2,7 @@
   {
     "id": "hakata-ippudo-honten",
     "legacy_id": 466,
-    "name": "一風堂 博多本店",
+    "name": "一風堂 博多駅店",
     "area_id": "hakata",
     "genre": "ラーメン",
     "time_category": [
@@ -13,10 +13,10 @@
     "tags": [
       "一人OK"
     ],
-    "address": "福岡県福岡市博多区博多駅中央街1-1",
-    "lat": 33.5905,
-    "lng": 130.4185,
-    "default_ai_summary": "博多とんこつラーメンの名店。遠征ユーザーがわざわざ寄る定番。",
+    "address": "福岡県福岡市博多区博多駅中央街1-1 JR博多シティ10F",
+    "lat": 33.590524,
+    "lng": 130.42003,
+    "default_ai_summary": "JR博多シティ10階の一風堂。博多駅直結でとんこつラーメンを短時間で楽しめる。",
     "is_kitaichimeshi": true,
     "selection_tags": [
       "local_famous"

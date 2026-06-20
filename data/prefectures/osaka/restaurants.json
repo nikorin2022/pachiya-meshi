@@ -16,9 +16,9 @@
       "一人OK",
       "深夜OK"
     ],
-    "address": "大阪府大阪市中央区千日前1-9-20",
-    "lat": 34.668,
-    "lng": 135.5072,
+    "address": "大阪府大阪市中央区難波千日前11-20",
+    "lat": 34.6678675,
+    "lng": 135.4982341,
     "default_ai_summary": "難波千日前の象徴的な24時間ラーメン店。朝一前の軽食から閉店後の締めまで、いつでも立ち寄れる難波らしさの定番。",
     "is_kitaichimeshi": true,
     "selection_tags": [
@@ -26,27 +26,6 @@
       "notable_restaurant"
     ],
     "selection_note": "難波千日前の象徴店として遠征ユーザーにも知名度が高い"
-  },
-  {
-    "id": "ichiran-nanba-sakaba",
-    "legacy_id": 404,
-    "name": "一蘭 なんば酒場通り店",
-    "area_id": "nanba",
-    "genre": "ラーメン",
-    "time_category": [
-      "昼",
-      "夜"
-    ],
-    "hours": "11:00〜翌5:00",
-    "tags": [
-      "ガッツリ",
-      "一人OK",
-      "深夜OK"
-    ],
-    "address": "大阪府大阪市中央区宗右衛門町7-13",
-    "lat": 34.6685,
-    "lng": 135.5025,
-    "default_ai_summary": "宗右衛門町の一蘭。味に集中できる個室ブースで、勝った日のご褒美麺にも使いやすい。"
   },
   {
     "id": "kamukura-nanba",
@@ -136,7 +115,7 @@
   {
     "id": "sukiya-nanba",
     "legacy_id": 417,
-    "name": "すき家 難波店",
+    "name": "すき家 なんば楽座店",
     "area_id": "nanba",
     "genre": "丼もの",
     "time_category": [
@@ -150,30 +129,10 @@
       "一人OK",
       "深夜OK"
     ],
-    "address": "大阪府大阪市中央区難波2-1-5",
-    "lat": 34.6658,
-    "lng": 135.505,
-    "default_ai_summary": "難波の24時間牛丼・カレー。朝一前の軽食から深夜の締めまで、幅広い時間帯で使える。"
-  },
-  {
-    "id": "kineya-honten-nanba",
-    "legacy_id": 418,
-    "name": "杵屋本店",
-    "area_id": "nanba",
-    "genre": "そば/うどん",
-    "time_category": [
-      "昼",
-      "夜"
-    ],
-    "hours": "11:00〜21:00",
-    "tags": [
-      "サク飯",
-      "一人OK"
-    ],
-    "address": "大阪府大阪市中央区難波3-5-15",
-    "lat": 34.6652,
-    "lng": 135.504,
-    "default_ai_summary": "難波の老舗そば・うどん店。あっさり系で朝一前の軽食や短い休憩にも使いやすい地場の味。"
+    "address": "大阪府大阪市中央区難波4-3-19",
+    "lat": 34.6660374,
+    "lng": 135.4992292,
+    "default_ai_summary": "難波楽座の24時間牛丼・カレー。朝一前の軽食から深夜の締めまで、幅広い時間帯で使える。"
   },
   {
     "id": "tsurukame-udon-nanba",
@@ -194,28 +153,6 @@
     "lat": 34.667,
     "lng": 135.5065,
     "default_ai_summary": "千日前のうどん・そば店。提供が早く、サクッと食べてホールに戻りたい時に便利。"
-  },
-  {
-    "id": "nadai-fujisoba-nanba",
-    "legacy_id": 420,
-    "name": "なだい富士そば 難波店",
-    "area_id": "nanba",
-    "genre": "そば/うどん",
-    "time_category": [
-      "朝",
-      "昼",
-      "夜"
-    ],
-    "hours": "24時間営業",
-    "tags": [
-      "サク飯",
-      "一人OK",
-      "深夜OK"
-    ],
-    "address": "大阪府大阪市中央区難波4-1-2",
-    "lat": 34.6648,
-    "lng": 135.5038,
-    "default_ai_summary": "難波の24時間立ち食いそば。朝一前から閉店後まで、いつでも短時間で済ませられる。"
   },
   {
     "id": "mosburger-nanba",
