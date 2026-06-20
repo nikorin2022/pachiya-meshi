@@ -2,48 +2,81 @@
 //
 // 設計方針:
 // - 経路検索の起点・終点は座標を優先（名称解決の誤吸着を避ける）
-// - 座標がない場合のみ店舗名・ホール名、または map_query にフォールバック
-// - 住所 (address) はマップ検索には使わない（UI 表示専用）
+// - 座標がない場合は map_query → 名称+住所 → 名称 の順でフォールバック
+// - 住所 (address) は UI 表示と名称フォールバック時の検索クエリに使用
 
 export type MapLatLng = {
   lat: number
   lng: number
 }
 
-type MapEndpointOptions = {
+type MapQueryOptions = {
   mapQuery?: string
+  address?: string
+}
+
+type MapEndpointOptions = MapQueryOptions & {
   latLng?: MapLatLng
   /** true のとき座標をクエリに使う（名称はフォールバック用） */
   preferLatLng?: boolean
 }
 
-/** 名称を Google マップ検索クエリ用にエンコードする。mapQuery 指定時はそちらを優先 */
-export const buildMapQuery = (name: string, mapQuery?: string): string => {
-  const query = mapQuery?.trim() ? mapQuery : name
-  return encodeURIComponent(query)
-}
-
-/** 名称または座標をマップ URL の地点クエリに変換する */
-export const buildMapEndpoint = (
-  name: string,
-  options?: MapEndpointOptions,
-): string => {
-  if (options?.preferLatLng && options.latLng) {
-    return encodeURIComponent(`${options.latLng.lat},${options.latLng.lng}`)
-  }
-  return buildMapQuery(name, options?.mapQuery)
-}
-
-type MapEmbedOptions = {
-  mapQuery?: string
+type MapEmbedOptions = MapQueryOptions & {
   latLng?: MapLatLng
 }
 
 type RouteMapOptions = {
   originMapQuery?: string
+  originAddress?: string
   originLatLng?: MapLatLng
   destinationMapQuery?: string
+  destinationAddress?: string
   destinationLatLng?: MapLatLng
+}
+
+/** 日本国内として妥当な座標か（マップ URL 生成用） */
+export const isValidMapLatLng = (latLng?: MapLatLng): boolean => {
+  if (!latLng) return false
+  const { lat, lng } = latLng
+  return (
+    Number.isFinite(lat) &&
+    Number.isFinite(lng) &&
+    lat >= 24 &&
+    lat <= 46 &&
+    lng >= 122 &&
+    lng <= 154
+  )
+}
+
+/**
+ * 名称・住所・map_query を Google マップ検索クエリ用にエンコードする。
+ * 優先順: map_query → name + address → name
+ */
+export const buildMapQuery = (
+  name: string,
+  options?: MapQueryOptions,
+): string => {
+  const custom = options?.mapQuery?.trim()
+  if (custom) return encodeURIComponent(custom)
+
+  const address = options?.address?.trim()
+  if (address) return encodeURIComponent(`${name} ${address}`)
+
+  return encodeURIComponent(name)
+}
+
+/** 名称・住所・座標をマップ URL の地点クエリに変換する */
+export const buildMapEndpoint = (
+  name: string,
+  options?: MapEndpointOptions,
+): string => {
+  if (options?.preferLatLng && isValidMapLatLng(options.latLng)) {
+    return encodeURIComponent(`${options.latLng!.lat},${options.latLng!.lng}`)
+  }
+  return buildMapQuery(name, {
+    mapQuery: options?.mapQuery,
+    address: options?.address,
+  })
 }
 
 /**
@@ -57,8 +90,9 @@ export const generateMapEmbedUrl = (
 ): string => {
   const q = buildMapEndpoint(name, {
     mapQuery: mapQuery ?? options?.mapQuery,
+    address: options?.address,
     latLng: options?.latLng,
-    preferLatLng: Boolean(options?.latLng),
+    preferLatLng: isValidMapLatLng(options?.latLng),
   })
   return `https://maps.google.com/maps?q=${q}&output=embed&z=17`
 }
@@ -75,15 +109,34 @@ export const generateRouteEmbedUrl = (
 ): string => {
   const origin = buildMapEndpoint(originName, {
     mapQuery: options?.originMapQuery,
+    address: options?.originAddress,
     latLng: options?.originLatLng,
-    preferLatLng: Boolean(options?.originLatLng),
+    preferLatLng: isValidMapLatLng(options?.originLatLng),
   })
   const destination = buildMapEndpoint(destinationName, {
     mapQuery: options?.destinationMapQuery,
+    address: options?.destinationAddress,
     latLng: options?.destinationLatLng,
-    preferLatLng: Boolean(options?.destinationLatLng),
+    preferLatLng: isValidMapLatLng(options?.destinationLatLng),
   })
   return `https://maps.google.com/maps?saddr=${origin}&daddr=${destination}&dirflg=w&output=embed`
+}
+
+/**
+ * Google マップ 地点検索（外部リンク）URL
+ * 「Google Mapsで開く」リンク用。座標優先、次に名称+住所。
+ */
+export const getGoogleMapsPlaceUrl = (
+  name: string,
+  options?: MapEmbedOptions,
+): string => {
+  const query = buildMapEndpoint(name, {
+    mapQuery: options?.mapQuery,
+    address: options?.address,
+    latLng: options?.latLng,
+    preferLatLng: isValidMapLatLng(options?.latLng),
+  })
+  return `https://www.google.com/maps/search/?api=1&query=${query}`
 }
 
 /**
@@ -98,13 +151,15 @@ export const getGoogleMapsDirectionUrl = (
 ): string => {
   const origin = buildMapEndpoint(originName, {
     mapQuery: options?.originMapQuery,
+    address: options?.originAddress,
     latLng: options?.originLatLng,
-    preferLatLng: Boolean(options?.originLatLng),
+    preferLatLng: isValidMapLatLng(options?.originLatLng),
   })
   const destination = buildMapEndpoint(destinationName, {
     mapQuery: options?.destinationMapQuery,
+    address: options?.destinationAddress,
     latLng: options?.destinationLatLng,
-    preferLatLng: Boolean(options?.destinationLatLng),
+    preferLatLng: isValidMapLatLng(options?.destinationLatLng),
   })
   return `https://www.google.com/maps/dir/?api=1&origin=${origin}&destination=${destination}&travelmode=walking`
 }

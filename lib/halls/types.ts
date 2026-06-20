@@ -24,8 +24,8 @@ export type TimeCategory = "朝" | "昼" | "夜"
 /**
  * 飲食店データ。所属するパチンコホールから徒歩10分以内であることを前提とする。
  *
- * NOTE: `address` は UI 表示・データ識別用テキスト専用。Google マップ URL の生成には
- *        店舗名・ホール名のみを使う（{@link "@/lib/maps".buildMapQuery} 参照）。
+ * NOTE: `address` は UI 表示用。マップ URL は座標を優先し、座標がない場合のみ
+ *        店舗名+住所を検索クエリに使う（{@link "@/lib/maps".buildMapQuery} 参照）。
  */
 export type Restaurant = {
   id: number

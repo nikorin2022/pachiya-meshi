@@ -49,32 +49,6 @@
     "default_ai_summary": "宗右衛門町の一蘭。味に集中できる個室ブースで、勝った日のご褒美麺にも使いやすい。"
   },
   {
-    "id": "misen-nanba",
-    "legacy_id": 405,
-    "name": "天下の中華そば 味仙 なんば店",
-    "area_id": "nanba",
-    "genre": "ラーメン",
-    "time_category": [
-      "昼",
-      "夜"
-    ],
-    "hours": "11:00〜23:00",
-    "tags": [
-      "ガッツリ",
-      "一人OK"
-    ],
-    "address": "大阪府大阪市中央区千日前1-1-7",
-    "lat": 34.6675,
-    "lng": 135.5068,
-    "default_ai_summary": "名古屋発の台湾ラーメン名店。ガツンとした味で軍資金を使い切った後のリセット飯にも向く。",
-    "is_kitaichimeshi": true,
-    "selection_tags": [
-      "notable_restaurant",
-      "local_famous"
-    ],
-    "selection_note": "難波エリアで遠征ユーザーにも名前が挙がる名店"
-  },
-  {
     "id": "kamukura-nanba",
     "legacy_id": 406,
     "name": "神座 なんば道頓堀店",
@@ -94,47 +68,6 @@
     "lat": 34.666,
     "lng": 135.507,
     "default_ai_summary": "道頓堀方面の神座。提供が早く、昼休憩にサクッと戻りたい時に便利なラーメン店。"
-  },
-  {
-    "id": "ramendokoro-nanba",
-    "legacy_id": 407,
-    "name": "らーめん道場 大阪なんば店",
-    "area_id": "nanba",
-    "genre": "ラーメン",
-    "time_category": [
-      "昼",
-      "夜"
-    ],
-    "hours": "11:00〜翌3:00",
-    "tags": [
-      "サク飯",
-      "一人OK",
-      "深夜OK"
-    ],
-    "address": "大阪府大阪市中央区難波5-1-60",
-    "lat": 34.6635,
-    "lng": 135.5015,
-    "default_ai_summary": "なんばパークス近くのらーめん道場。深夜帯も営業し、閉店後の締め飯にも使いやすい。"
-  },
-  {
-    "id": "soupcurry-kamui-nanba",
-    "legacy_id": 408,
-    "name": "スープカレーカムイ なんば店",
-    "area_id": "nanba",
-    "genre": "カレー",
-    "time_category": [
-      "昼",
-      "夜"
-    ],
-    "hours": "11:30〜22:00",
-    "tags": [
-      "ガッツリ",
-      "一人OK"
-    ],
-    "address": "大阪府大阪市中央区道頓堀1-5-7",
-    "lat": 34.669,
-    "lng": 135.502,
-    "default_ai_summary": "道頓堀のスープカレー専門店。具材たっぷりでエネルギー補給向き、昼休憩のガッツリ飯に最適。"
   },
   {
     "id": "matuya-nanba",
@@ -283,73 +216,6 @@
     "lat": 34.6648,
     "lng": 135.5038,
     "default_ai_summary": "難波の24時間立ち食いそば。朝一前から閉店後まで、いつでも短時間で済ませられる。"
-  },
-  {
-    "id": "gyuta-nanba-honten",
-    "legacy_id": 421,
-    "name": "焼肉 牛太 本店",
-    "area_id": "nanba",
-    "genre": "焼肉",
-    "time_category": [
-      "昼",
-      "夜"
-    ],
-    "hours": "11:30〜23:00",
-    "tags": [
-      "ガッツリ",
-      "一人OK"
-    ],
-    "address": "大阪府大阪市中央区道頓堀1-6-15",
-    "lat": 34.6685,
-    "lng": 135.5028,
-    "default_ai_summary": "道頓堀の焼肉名店。勝った日のご褒美焼肉として遠征ユーザーにも人気の地場店。",
-    "is_kitaichimeshi": true,
-    "selection_tags": [
-      "local_famous",
-      "notable_restaurant"
-    ],
-    "selection_note": "難波・道頓堀で遠征ユーザーがわざわざ寄る焼肉名店"
-  },
-  {
-    "id": "horumon-sennichimae",
-    "legacy_id": 422,
-    "name": "法善寺横丁 ホルモン",
-    "area_id": "nanba",
-    "genre": "焼肉",
-    "time_category": [
-      "昼",
-      "夜"
-    ],
-    "hours": "17:00〜翌2:00",
-    "tags": [
-      "ガッツリ",
-      "一人OK",
-      "深夜OK"
-    ],
-    "address": "大阪府大阪市中央区千日前2-2-7",
-    "lat": 34.6674,
-    "lng": 135.5068,
-    "default_ai_summary": "法善寺横丁のホルモン焼き専門店。閉店後の締めの一杯＋焼肉で難波らしさを味わえる。"
-  },
-  {
-    "id": "gyuan-nanba",
-    "legacy_id": 423,
-    "name": "焼肉 牛庵 難波店",
-    "area_id": "nanba",
-    "genre": "焼肉",
-    "time_category": [
-      "昼",
-      "夜"
-    ],
-    "hours": "11:30〜23:00",
-    "tags": [
-      "ガッツリ",
-      "一人OK"
-    ],
-    "address": "大阪府大阪市中央区難波2-2-15",
-    "lat": 34.666,
-    "lng": 135.5048,
-    "default_ai_summary": "難波の焼肉店。一人でも入りやすく、昼からガッツリ焼肉で軍資金を補充できる。"
   },
   {
     "id": "mosburger-nanba",

@@ -67,63 +67,6 @@
     "default_ai_summary": "博多駅の一蘭。短時間でとんこつラーメンを楽しめる。"
   },
   {
-    "id": "hakata-soupcurry",
-    "legacy_id": 472,
-    "name": "スープカレー ボンベイ 博多店",
-    "area_id": "hakata",
-    "genre": "カレー",
-    "time_category": [
-      "昼",
-      "夜"
-    ],
-    "hours": "11:00〜22:00",
-    "tags": [
-      "一人OK"
-    ],
-    "address": "福岡県福岡市博多区住吉2-5-18",
-    "lat": 33.5878,
-    "lng": 130.4165,
-    "default_ai_summary": "住吉のスープカレー。ガッツリ昼食向き。"
-  },
-  {
-    "id": "hakata-udon",
-    "legacy_id": 480,
-    "name": "うどんの福 博多店",
-    "area_id": "hakata",
-    "genre": "そば/うどん",
-    "time_category": [
-      "昼",
-      "夜"
-    ],
-    "hours": "11:00〜22:00",
-    "tags": [
-      "一人OK"
-    ],
-    "address": "福岡県福岡市博多区博多駅中央街1-1",
-    "lat": 33.5898,
-    "lng": 130.4212,
-    "default_ai_summary": "博多デイトス内のうどん。軽い休憩向き。"
-  },
-  {
-    "id": "hakata-udon-tsubame",
-    "legacy_id": 482,
-    "name": "つるまる 博多店",
-    "area_id": "hakata",
-    "genre": "そば/うどん",
-    "time_category": [
-      "昼",
-      "夜"
-    ],
-    "hours": "11:00〜22:00",
-    "tags": [
-      "一人OK"
-    ],
-    "address": "福岡県福岡市博多区住吉2-6-22",
-    "lat": 33.5875,
-    "lng": 130.4158,
-    "default_ai_summary": "住吉のうどんチェーン。提供が早い。"
-  },
-  {
     "id": "tenjin-ippudo",
     "legacy_id": 491,
     "name": "一風堂 天神店",

@@ -26,18 +26,20 @@ function estimateWalkMinutes(directM) {
   return Math.max(1, Math.ceil((directM * 1.3) / 80))
 }
 
-function buildMapQuery(name) {
+function buildMapQuery(name, address) {
+  if (address?.trim()) return encodeURIComponent(`${name} ${address.trim()}`)
   return encodeURIComponent(name)
 }
 
-function routeEmbedUrl(originLatLng, destName) {
+function routeEmbedUrl(originLatLng, destName, destAddress) {
   const origin = encodeURIComponent(`${originLatLng.lat},${originLatLng.lng}`)
-  const dest = buildMapQuery(destName)
+  const dest = buildMapQuery(destName, destAddress)
   return `https://maps.google.com/maps?saddr=${origin}&daddr=${dest}&dirflg=w&output=embed`
 }
 
-function hallEmbedUrl(hallName) {
-  return `https://maps.google.com/maps?q=${buildMapQuery(hallName)}&output=embed&z=17`
+function hallEmbedUrl(hall) {
+  const q = encodeURIComponent(`${hall.lat},${hall.lng}`)
+  return `https://maps.google.com/maps?q=${q}&output=embed&z=17`
 }
 
 function loadJson(p) {
@@ -203,12 +205,16 @@ for (const hall of halls) {
   matcherIssues.hallEmbedVsRouteOriginMismatch.push({
     hallId: hall.id,
     hallName: hall.name,
-    hallEmbedUses: "name_only",
+    hallEmbedUses: "lat_lng",
     routeOriginUses: "lat_lng",
-    hallEmbedUrl: hallEmbedUrl(hall.name),
+    hallEmbedUrl: hallEmbedUrl(hall),
     routeSampleUrl:
       areaRestaurants[0]
-        ? routeEmbedUrl({ lat: hall.lat, lng: hall.lng }, areaRestaurants[0].name)
+        ? routeEmbedUrl(
+            { lat: hall.lat, lng: hall.lng },
+            areaRestaurants[0].name,
+            areaRestaurants[0].address,
+          )
         : null,
   })
 
@@ -221,7 +227,7 @@ for (const hall of halls) {
         restaurantId: r.id,
         restaurantName: r.name,
         hasRestaurantLatLng: true,
-        routeUsesDestination: "name_only",
+        routeUsesDestination: "lat_lng",
         dataStraightM: Math.round(d),
         dataWalkMin: wm,
       })
@@ -257,7 +263,11 @@ for (const hall of halls) {
           address: r.address,
           straightM: Math.round(d),
           dataWalkMin: wm,
-          routeUrl: routeEmbedUrl({ lat: hall.lat, lng: hall.lng }, r.name),
+          routeUrl: routeEmbedUrl(
+            { lat: hall.lat, lng: hall.lng },
+            r.name,
+            r.address,
+          ),
           hallCoords: { lat: hall.lat, lng: hall.lng },
           restaurantCoords: { lat: r.lat, lng: r.lng },
         })

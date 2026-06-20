@@ -2,59 +2,21 @@
   {
     "id": "soupcurry-garaku-sapporo",
     "legacy_id": 597,
-    "name": "スープカレー ガラク 札幌駅前店",
+    "name": "Soup Curry GARAKU sitatte sapporo店",
     "area_id": "sapporo-ekimae",
     "genre": "カレー",
     "time_category": [
       "昼",
       "夜"
     ],
-    "hours": "11:00〜22:00",
+    "hours": "11:30〜15:30（LO15:00）/ 17:00〜21:00（LO20:30）",
     "tags": [
       "一人OK"
     ],
-    "address": "北海道札幌市中央区北4条西2-6-1",
-    "lat": 43.0665,
-    "lng": 141.3515,
-    "default_ai_summary": "札幌名物スープカレー。北海道遠征のご褒美飯として遠征ユーザーにも知られる。"
-  },
-  {
-    "id": "ramen-shingen-sapporo",
-    "legacy_id": 598,
-    "name": "らーめん 信玄 札幌駅前店",
-    "area_id": "sapporo-ekimae",
-    "genre": "ラーメン",
-    "time_category": [
-      "昼",
-      "夜"
-    ],
-    "hours": "11:00〜22:00",
-    "tags": [
-      "一人OK"
-    ],
-    "address": "北海道札幌市中央区北4条西2-4-8",
-    "lat": 43.0655,
-    "lng": 141.3505,
-    "default_ai_summary": "札幌味噌ラーメンの定番。地場飯として遠征の締めにも。"
-  },
-  {
-    "id": "ramen-sumire-tanukikoji",
-    "legacy_id": 612,
-    "name": "すみれ 狸小路店",
-    "area_id": "tanukikoji",
-    "genre": "ラーメン",
-    "time_category": [
-      "昼",
-      "夜"
-    ],
-    "hours": "11:00〜22:00",
-    "tags": [
-      "一人OK"
-    ],
-    "address": "北海道札幌市中央区南2条西3-8-10",
-    "lat": 43.0588,
-    "lng": 141.3525,
-    "default_ai_summary": "札幌味噌ラーメンの名店。地場飯として遠征ユーザーにも知られる。"
+    "address": "北海道札幌市中央区北2条西3-1-20 札幌フコク生命越山ビル B1F",
+    "lat": 43.062783,
+    "lng": 141.350278,
+    "default_ai_summary": "sitatte sapporoの人気スープカレーGARAKU。チカホ直結で札幌駅エリアからアクセスしやすい。"
   },
   {
     "id": "sukiya-sapporo-kita1",

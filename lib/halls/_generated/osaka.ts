@@ -43,25 +43,6 @@ export const osakaHalls: readonly PachinkoHall[] = [
         "lng": 135.504
       },
       {
-        "id": 423,
-        "name": "焼肉 牛庵 難波店",
-        "genre": "焼肉",
-        "walkMinutes": 3,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "11:30〜23:00",
-        "ai_summary": "難波の焼肉店。一人でも入りやすく、昼からガッツリ焼肉で軍資金を補充できる。",
-        "tags": [
-          "ガッツリ",
-          "一人OK"
-        ],
-        "address": "大阪府大阪市中央区難波2-2-15",
-        "lat": 34.666,
-        "lng": 135.5048
-      },
-      {
         "id": 420,
         "name": "なだい富士そば 難波店",
         "genre": "そば/うどん",
@@ -142,26 +123,6 @@ export const osakaHalls: readonly PachinkoHall[] = [
         "is_kitaichimeshi": true
       },
       {
-        "id": 421,
-        "name": "焼肉 牛太 本店",
-        "genre": "焼肉",
-        "walkMinutes": 5,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "11:30〜23:00",
-        "ai_summary": "道頓堀の焼肉名店。勝った日のご褒美焼肉として遠征ユーザーにも人気の地場店。",
-        "tags": [
-          "ガッツリ",
-          "一人OK"
-        ],
-        "address": "大阪府大阪市中央区道頓堀1-6-15",
-        "lat": 34.6685,
-        "lng": 135.5028,
-        "is_kitaichimeshi": true
-      },
-      {
         "id": 404,
         "name": "一蘭 なんば酒場通り店",
         "genre": "ラーメン",
@@ -220,26 +181,6 @@ export const osakaHalls: readonly PachinkoHall[] = [
         "address": "大阪府大阪市中央区難波5-1-15",
         "lat": 34.6638,
         "lng": 135.5012
-      },
-      {
-        "id": 407,
-        "name": "らーめん道場 大阪なんば店",
-        "genre": "ラーメン",
-        "walkMinutes": 5,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "11:00〜翌3:00",
-        "ai_summary": "なんばパークス近くのらーめん道場。深夜帯も営業し、閉店後の締め飯にも使いやすい。",
-        "tags": [
-          "サク飯",
-          "一人OK",
-          "深夜OK"
-        ],
-        "address": "大阪府大阪市中央区難波5-1-60",
-        "lat": 34.6635,
-        "lng": 135.5015
       },
       {
         "id": 415,
@@ -302,25 +243,6 @@ export const osakaHalls: readonly PachinkoHall[] = [
         "lng": 135.501
       },
       {
-        "id": 408,
-        "name": "スープカレーカムイ なんば店",
-        "genre": "カレー",
-        "walkMinutes": 6,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "11:30〜22:00",
-        "ai_summary": "道頓堀のスープカレー専門店。具材たっぷりでエネルギー補給向き、昼休憩のガッツリ飯に最適。",
-        "tags": [
-          "ガッツリ",
-          "一人OK"
-        ],
-        "address": "大阪府大阪市中央区道頓堀1-5-7",
-        "lat": 34.669,
-        "lng": 135.502
-      },
-      {
         "id": 419,
         "name": "鶴亀 難波千日前店",
         "genre": "そば/うどん",
@@ -338,46 +260,6 @@ export const osakaHalls: readonly PachinkoHall[] = [
         "address": "大阪府大阪市中央区千日前2-7-20",
         "lat": 34.667,
         "lng": 135.5065
-      },
-      {
-        "id": 422,
-        "name": "法善寺横丁 ホルモン",
-        "genre": "焼肉",
-        "walkMinutes": 7,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "17:00〜翌2:00",
-        "ai_summary": "法善寺横丁のホルモン焼き専門店。閉店後の締めの一杯＋焼肉で難波らしさを味わえる。",
-        "tags": [
-          "ガッツリ",
-          "一人OK",
-          "深夜OK"
-        ],
-        "address": "大阪府大阪市中央区千日前2-2-7",
-        "lat": 34.6674,
-        "lng": 135.5068
-      },
-      {
-        "id": 405,
-        "name": "天下の中華そば 味仙 なんば店",
-        "genre": "ラーメン",
-        "walkMinutes": 7,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "11:00〜23:00",
-        "ai_summary": "名古屋発の台湾ラーメン名店。ガツンとした味で軍資金を使い切った後のリセット飯にも向く。",
-        "tags": [
-          "ガッツリ",
-          "一人OK"
-        ],
-        "address": "大阪府大阪市中央区千日前1-1-7",
-        "lat": 34.6675,
-        "lng": 135.5068,
-        "is_kitaichimeshi": true
       },
       {
         "id": 464,
@@ -497,25 +379,6 @@ export const osakaHalls: readonly PachinkoHall[] = [
         "is_kitaichimeshi": true
       },
       {
-        "id": 423,
-        "name": "焼肉 牛庵 難波店",
-        "genre": "焼肉",
-        "walkMinutes": 4,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "11:30〜23:00",
-        "ai_summary": "難波の焼肉店。一人でも入りやすく、昼からガッツリ焼肉で軍資金を補充できる。",
-        "tags": [
-          "ガッツリ",
-          "一人OK"
-        ],
-        "address": "大阪府大阪市中央区難波2-2-15",
-        "lat": 34.666,
-        "lng": 135.5048
-      },
-      {
         "id": 417,
         "name": "すき家 難波店",
         "genre": "丼もの",
@@ -554,26 +417,6 @@ export const osakaHalls: readonly PachinkoHall[] = [
         "address": "大阪府大阪市中央区難波3-4-15",
         "lat": 34.665,
         "lng": 135.5045
-      },
-      {
-        "id": 421,
-        "name": "焼肉 牛太 本店",
-        "genre": "焼肉",
-        "walkMinutes": 5,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "11:30〜23:00",
-        "ai_summary": "道頓堀の焼肉名店。勝った日のご褒美焼肉として遠征ユーザーにも人気の地場店。",
-        "tags": [
-          "ガッツリ",
-          "一人OK"
-        ],
-        "address": "大阪府大阪市中央区道頓堀1-6-15",
-        "lat": 34.6685,
-        "lng": 135.5028,
-        "is_kitaichimeshi": true
       },
       {
         "id": 404,
@@ -636,26 +479,6 @@ export const osakaHalls: readonly PachinkoHall[] = [
         "lng": 135.5012
       },
       {
-        "id": 407,
-        "name": "らーめん道場 大阪なんば店",
-        "genre": "ラーメン",
-        "walkMinutes": 5,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "11:00〜翌3:00",
-        "ai_summary": "なんばパークス近くのらーめん道場。深夜帯も営業し、閉店後の締め飯にも使いやすい。",
-        "tags": [
-          "サク飯",
-          "一人OK",
-          "深夜OK"
-        ],
-        "address": "大阪府大阪市中央区難波5-1-60",
-        "lat": 34.6635,
-        "lng": 135.5015
-      },
-      {
         "id": 427,
         "name": "Shake Shack なんばパークス",
         "genre": "ハンバーガー",
@@ -673,25 +496,6 @@ export const osakaHalls: readonly PachinkoHall[] = [
         "address": "大阪府大阪市中央区難波5-1-60 なんばパークス",
         "lat": 34.663,
         "lng": 135.501
-      },
-      {
-        "id": 408,
-        "name": "スープカレーカムイ なんば店",
-        "genre": "カレー",
-        "walkMinutes": 6,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "11:30〜22:00",
-        "ai_summary": "道頓堀のスープカレー専門店。具材たっぷりでエネルギー補給向き、昼休憩のガッツリ飯に最適。",
-        "tags": [
-          "ガッツリ",
-          "一人OK"
-        ],
-        "address": "大阪府大阪市中央区道頓堀1-5-7",
-        "lat": 34.669,
-        "lng": 135.502
       },
       {
         "id": 415,
@@ -715,26 +519,6 @@ export const osakaHalls: readonly PachinkoHall[] = [
         "lng": 135.5062
       },
       {
-        "id": 422,
-        "name": "法善寺横丁 ホルモン",
-        "genre": "焼肉",
-        "walkMinutes": 7,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "17:00〜翌2:00",
-        "ai_summary": "法善寺横丁のホルモン焼き専門店。閉店後の締めの一杯＋焼肉で難波らしさを味わえる。",
-        "tags": [
-          "ガッツリ",
-          "一人OK",
-          "深夜OK"
-        ],
-        "address": "大阪府大阪市中央区千日前2-2-7",
-        "lat": 34.6674,
-        "lng": 135.5068
-      },
-      {
         "id": 406,
         "name": "神座 なんば道頓堀店",
         "genre": "ラーメン",
@@ -753,26 +537,6 @@ export const osakaHalls: readonly PachinkoHall[] = [
         "address": "大阪府大阪市中央区難波1-8-17",
         "lat": 34.666,
         "lng": 135.507
-      },
-      {
-        "id": 405,
-        "name": "天下の中華そば 味仙 なんば店",
-        "genre": "ラーメン",
-        "walkMinutes": 7,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "11:00〜23:00",
-        "ai_summary": "名古屋発の台湾ラーメン名店。ガツンとした味で軍資金を使い切った後のリセット飯にも向く。",
-        "tags": [
-          "ガッツリ",
-          "一人OK"
-        ],
-        "address": "大阪府大阪市中央区千日前1-1-7",
-        "lat": 34.6675,
-        "lng": 135.5068,
-        "is_kitaichimeshi": true
       },
       {
         "id": 419,
@@ -911,25 +675,6 @@ export const osakaHalls: readonly PachinkoHall[] = [
         "lng": 135.5045
       },
       {
-        "id": 423,
-        "name": "焼肉 牛庵 難波店",
-        "genre": "焼肉",
-        "walkMinutes": 4,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "11:30〜23:00",
-        "ai_summary": "難波の焼肉店。一人でも入りやすく、昼からガッツリ焼肉で軍資金を補充できる。",
-        "tags": [
-          "ガッツリ",
-          "一人OK"
-        ],
-        "address": "大阪府大阪市中央区難波2-2-15",
-        "lat": 34.666,
-        "lng": 135.5048
-      },
-      {
         "id": 414,
         "name": "松屋 難波駅前店",
         "genre": "丼もの",
@@ -968,26 +713,6 @@ export const osakaHalls: readonly PachinkoHall[] = [
         "address": "大阪府大阪市中央区難波5-1-15",
         "lat": 34.6638,
         "lng": 135.5012
-      },
-      {
-        "id": 407,
-        "name": "らーめん道場 大阪なんば店",
-        "genre": "ラーメン",
-        "walkMinutes": 4,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "11:00〜翌3:00",
-        "ai_summary": "なんばパークス近くのらーめん道場。深夜帯も営業し、閉店後の締め飯にも使いやすい。",
-        "tags": [
-          "サク飯",
-          "一人OK",
-          "深夜OK"
-        ],
-        "address": "大阪府大阪市中央区難波5-1-60",
-        "lat": 34.6635,
-        "lng": 135.5015
       },
       {
         "id": 417,
@@ -1070,26 +795,6 @@ export const osakaHalls: readonly PachinkoHall[] = [
         "lng": 135.5062
       },
       {
-        "id": 421,
-        "name": "焼肉 牛太 本店",
-        "genre": "焼肉",
-        "walkMinutes": 7,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "11:30〜23:00",
-        "ai_summary": "道頓堀の焼肉名店。勝った日のご褒美焼肉として遠征ユーザーにも人気の地場店。",
-        "tags": [
-          "ガッツリ",
-          "一人OK"
-        ],
-        "address": "大阪府大阪市中央区道頓堀1-6-15",
-        "lat": 34.6685,
-        "lng": 135.5028,
-        "is_kitaichimeshi": true
-      },
-      {
         "id": 404,
         "name": "一蘭 なんば酒場通り店",
         "genre": "ラーメン",
@@ -1149,65 +854,6 @@ export const osakaHalls: readonly PachinkoHall[] = [
         "lng": 135.5065
       },
       {
-        "id": 422,
-        "name": "法善寺横丁 ホルモン",
-        "genre": "焼肉",
-        "walkMinutes": 8,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "17:00〜翌2:00",
-        "ai_summary": "法善寺横丁のホルモン焼き専門店。閉店後の締めの一杯＋焼肉で難波らしさを味わえる。",
-        "tags": [
-          "ガッツリ",
-          "一人OK",
-          "深夜OK"
-        ],
-        "address": "大阪府大阪市中央区千日前2-2-7",
-        "lat": 34.6674,
-        "lng": 135.5068
-      },
-      {
-        "id": 405,
-        "name": "天下の中華そば 味仙 なんば店",
-        "genre": "ラーメン",
-        "walkMinutes": 8,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "11:00〜23:00",
-        "ai_summary": "名古屋発の台湾ラーメン名店。ガツンとした味で軍資金を使い切った後のリセット飯にも向く。",
-        "tags": [
-          "ガッツリ",
-          "一人OK"
-        ],
-        "address": "大阪府大阪市中央区千日前1-1-7",
-        "lat": 34.6675,
-        "lng": 135.5068,
-        "is_kitaichimeshi": true
-      },
-      {
-        "id": 408,
-        "name": "スープカレーカムイ なんば店",
-        "genre": "カレー",
-        "walkMinutes": 8,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "11:30〜22:00",
-        "ai_summary": "道頓堀のスープカレー専門店。具材たっぷりでエネルギー補給向き、昼休憩のガッツリ飯に最適。",
-        "tags": [
-          "ガッツリ",
-          "一人OK"
-        ],
-        "address": "大阪府大阪市中央区道頓堀1-5-7",
-        "lat": 34.669,
-        "lng": 135.502
-      },
-      {
         "id": 403,
         "name": "金龍ラーメン 難波千日前店",
         "genre": "ラーメン",
@@ -1265,25 +911,6 @@ export const osakaHalls: readonly PachinkoHall[] = [
     "pachiya_comment": "難波駅直結ビル内にあり、なんば駅から徒歩2分の改札近接立地です。123チェーンの難波店として遠征ユーザーにも名前が挙がりやすく、マルハン・楽園と近接する難波の中心エリアに位置しています。周辺には牛丼、カレー、ハンバーガーなど駅前チェーンが揃っています。",
     "meal_guide": "123難波店は難波駅直結ビル内に位置し、パチンコ・パチスロユーザーがなんば駅周辺の飲食店へ最短で足を延ばせる立地です。難波エリアはラーメン、カレー、丼もの、焼肉、回転寿司、ハンバーガーなど食事候補が豊富で、朝一・昼休憩・閉店後の使い分けがしやすい関西屈指の繁華街です。遠征ユーザーにとって123は関西遠征の定番チェーンとして名前が挙がりやすく、千日前・道頓堀方面の地場名店と駅前チェーンを組み合わせた食事計画が立てやすいです。パチンコ・パチスロ双方の台数バランスがあり、休憩の長さに合わせて近隣店を距離とジャンルで絞り込みやすいホールです。ホールへ戻る距離も短く、短い休憩でも無理なく稼働に戻れます。",
     "restaurants": [
-      {
-        "id": 423,
-        "name": "焼肉 牛庵 難波店",
-        "genre": "焼肉",
-        "walkMinutes": 3,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "11:30〜23:00",
-        "ai_summary": "難波の焼肉店。一人でも入りやすく、昼からガッツリ焼肉で軍資金を補充できる。",
-        "tags": [
-          "ガッツリ",
-          "一人OK"
-        ],
-        "address": "大阪府大阪市中央区難波2-2-15",
-        "lat": 34.666,
-        "lng": 135.5048
-      },
       {
         "id": 418,
         "name": "杵屋本店",
@@ -1384,26 +1011,6 @@ export const osakaHalls: readonly PachinkoHall[] = [
         "is_kitaichimeshi": true
       },
       {
-        "id": 421,
-        "name": "焼肉 牛太 本店",
-        "genre": "焼肉",
-        "walkMinutes": 5,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "11:30〜23:00",
-        "ai_summary": "道頓堀の焼肉名店。勝った日のご褒美焼肉として遠征ユーザーにも人気の地場店。",
-        "tags": [
-          "ガッツリ",
-          "一人OK"
-        ],
-        "address": "大阪府大阪市中央区道頓堀1-6-15",
-        "lat": 34.6685,
-        "lng": 135.5028,
-        "is_kitaichimeshi": true
-      },
-      {
         "id": 404,
         "name": "一蘭 なんば酒場通り店",
         "genre": "ラーメン",
@@ -1464,26 +1071,6 @@ export const osakaHalls: readonly PachinkoHall[] = [
         "lng": 135.5062
       },
       {
-        "id": 422,
-        "name": "法善寺横丁 ホルモン",
-        "genre": "焼肉",
-        "walkMinutes": 6,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "17:00〜翌2:00",
-        "ai_summary": "法善寺横丁のホルモン焼き専門店。閉店後の締めの一杯＋焼肉で難波らしさを味わえる。",
-        "tags": [
-          "ガッツリ",
-          "一人OK",
-          "深夜OK"
-        ],
-        "address": "大阪府大阪市中央区千日前2-2-7",
-        "lat": 34.6674,
-        "lng": 135.5068
-      },
-      {
         "id": 406,
         "name": "神座 なんば道頓堀店",
         "genre": "ラーメン",
@@ -1525,26 +1112,6 @@ export const osakaHalls: readonly PachinkoHall[] = [
         "lng": 135.501
       },
       {
-        "id": 405,
-        "name": "天下の中華そば 味仙 なんば店",
-        "genre": "ラーメン",
-        "walkMinutes": 6,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "11:00〜23:00",
-        "ai_summary": "名古屋発の台湾ラーメン名店。ガツンとした味で軍資金を使い切った後のリセット飯にも向く。",
-        "tags": [
-          "ガッツリ",
-          "一人OK"
-        ],
-        "address": "大阪府大阪市中央区千日前1-1-7",
-        "lat": 34.6675,
-        "lng": 135.5068,
-        "is_kitaichimeshi": true
-      },
-      {
         "id": 426,
         "name": "モスバーガー 難波店",
         "genre": "ハンバーガー",
@@ -1562,45 +1129,6 @@ export const osakaHalls: readonly PachinkoHall[] = [
         "address": "大阪府大阪市中央区難波5-1-15",
         "lat": 34.6638,
         "lng": 135.5012
-      },
-      {
-        "id": 407,
-        "name": "らーめん道場 大阪なんば店",
-        "genre": "ラーメン",
-        "walkMinutes": 6,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "11:00〜翌3:00",
-        "ai_summary": "なんばパークス近くのらーめん道場。深夜帯も営業し、閉店後の締め飯にも使いやすい。",
-        "tags": [
-          "サク飯",
-          "一人OK",
-          "深夜OK"
-        ],
-        "address": "大阪府大阪市中央区難波5-1-60",
-        "lat": 34.6635,
-        "lng": 135.5015
-      },
-      {
-        "id": 408,
-        "name": "スープカレーカムイ なんば店",
-        "genre": "カレー",
-        "walkMinutes": 6,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "11:30〜22:00",
-        "ai_summary": "道頓堀のスープカレー専門店。具材たっぷりでエネルギー補給向き、昼休憩のガッツリ飯に最適。",
-        "tags": [
-          "ガッツリ",
-          "一人OK"
-        ],
-        "address": "大阪府大阪市中央区道頓堀1-5-7",
-        "lat": 34.669,
-        "lng": 135.502
       },
       {
         "id": 464,
@@ -3552,26 +3080,6 @@ export const osakaHalls: readonly PachinkoHall[] = [
         "is_kitaichimeshi": true
       },
       {
-        "id": 421,
-        "name": "焼肉 牛太 本店",
-        "genre": "焼肉",
-        "walkMinutes": 4,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "11:30〜23:00",
-        "ai_summary": "道頓堀の焼肉名店。勝った日のご褒美焼肉として遠征ユーザーにも人気の地場店。",
-        "tags": [
-          "ガッツリ",
-          "一人OK"
-        ],
-        "address": "大阪府大阪市中央区道頓堀1-6-15",
-        "lat": 34.6685,
-        "lng": 135.5028,
-        "is_kitaichimeshi": true
-      },
-      {
         "id": 404,
         "name": "一蘭 なんば酒場通り店",
         "genre": "ラーメン",
@@ -3590,44 +3098,6 @@ export const osakaHalls: readonly PachinkoHall[] = [
         "address": "大阪府大阪市中央区宗右衛門町7-13",
         "lat": 34.6685,
         "lng": 135.5025
-      },
-      {
-        "id": 408,
-        "name": "スープカレーカムイ なんば店",
-        "genre": "カレー",
-        "walkMinutes": 4,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "11:30〜22:00",
-        "ai_summary": "道頓堀のスープカレー専門店。具材たっぷりでエネルギー補給向き、昼休憩のガッツリ飯に最適。",
-        "tags": [
-          "ガッツリ",
-          "一人OK"
-        ],
-        "address": "大阪府大阪市中央区道頓堀1-5-7",
-        "lat": 34.669,
-        "lng": 135.502
-      },
-      {
-        "id": 423,
-        "name": "焼肉 牛庵 難波店",
-        "genre": "焼肉",
-        "walkMinutes": 7,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "11:30〜23:00",
-        "ai_summary": "難波の焼肉店。一人でも入りやすく、昼からガッツリ焼肉で軍資金を補充できる。",
-        "tags": [
-          "ガッツリ",
-          "一人OK"
-        ],
-        "address": "大阪府大阪市中央区難波2-2-15",
-        "lat": 34.666,
-        "lng": 135.5048
       },
       {
         "id": 418,
@@ -3708,26 +3178,6 @@ export const osakaHalls: readonly PachinkoHall[] = [
         "address": "大阪府大阪市中央区難波4-1-2",
         "lat": 34.6648,
         "lng": 135.5038
-      },
-      {
-        "id": 407,
-        "name": "らーめん道場 大阪なんば店",
-        "genre": "ラーメン",
-        "walkMinutes": 8,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "11:00〜翌3:00",
-        "ai_summary": "なんばパークス近くのらーめん道場。深夜帯も営業し、閉店後の締め飯にも使いやすい。",
-        "tags": [
-          "サク飯",
-          "一人OK",
-          "深夜OK"
-        ],
-        "address": "大阪府大阪市中央区難波5-1-60",
-        "lat": 34.6635,
-        "lng": 135.5015
       },
       {
         "id": 417,
@@ -3829,26 +3279,6 @@ export const osakaHalls: readonly PachinkoHall[] = [
         "lng": 135.5062
       },
       {
-        "id": 422,
-        "name": "法善寺横丁 ホルモン",
-        "genre": "焼肉",
-        "walkMinutes": 10,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "17:00〜翌2:00",
-        "ai_summary": "法善寺横丁のホルモン焼き専門店。閉店後の締めの一杯＋焼肉で難波らしさを味わえる。",
-        "tags": [
-          "ガッツリ",
-          "一人OK",
-          "深夜OK"
-        ],
-        "address": "大阪府大阪市中央区千日前2-2-7",
-        "lat": 34.6674,
-        "lng": 135.5068
-      },
-      {
         "id": 406,
         "name": "神座 なんば道頓堀店",
         "genre": "ラーメン",
@@ -3891,26 +3321,6 @@ export const osakaHalls: readonly PachinkoHall[] = [
         "is_kitaichimeshi": true
       },
       {
-        "id": 405,
-        "name": "天下の中華そば 味仙 なんば店",
-        "genre": "ラーメン",
-        "walkMinutes": 10,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "11:00〜23:00",
-        "ai_summary": "名古屋発の台湾ラーメン名店。ガツンとした味で軍資金を使い切った後のリセット飯にも向く。",
-        "tags": [
-          "ガッツリ",
-          "一人OK"
-        ],
-        "address": "大阪府大阪市中央区千日前1-1-7",
-        "lat": 34.6675,
-        "lng": 135.5068,
-        "is_kitaichimeshi": true
-      },
-      {
         "id": 464,
         "name": "すき家 難波千日前店",
         "genre": "丼もの",
@@ -3947,26 +3357,6 @@ export const osakaHalls: readonly PachinkoHall[] = [
     "meal_guide": "パチンコ・パチスロユーザー向けに見ると、四海樓air店は千日前・アムザ1000近く、御堂筋線なんば駅から東へ徒歩圏の立地です。5円スロット専門店のため、短い休憩で千日前沿いのうどんや牛丼チェーンに行き、すぐ戻る使い方がしやすい動線です。朝一前は商店街沿いのラーメンで軽食、昼休憩はカレーや丼ものでサクッと、閉店後はCLUB-Dやマルハン本館と近いエリアの焼肉やとんかつで締めまで組み立てやすいです。関西遠征ユーザーにとって、四海樓梅田店とは難波独自の千日前動線になるため、大阪遠征の2日目以降の食事拠点として使いやすいホールです。パチスロユーザーが休憩時間を細かく調整しやすい立地です。",
     "restaurants": [
       {
-        "id": 422,
-        "name": "法善寺横丁 ホルモン",
-        "genre": "焼肉",
-        "walkMinutes": 1,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "17:00〜翌2:00",
-        "ai_summary": "法善寺横丁のホルモン焼き専門店。閉店後の締めの一杯＋焼肉で難波らしさを味わえる。",
-        "tags": [
-          "ガッツリ",
-          "一人OK",
-          "深夜OK"
-        ],
-        "address": "大阪府大阪市中央区千日前2-2-7",
-        "lat": 34.6674,
-        "lng": 135.5068
-      },
-      {
         "id": 403,
         "name": "金龍ラーメン 難波千日前店",
         "genre": "ラーメン",
@@ -3986,26 +3376,6 @@ export const osakaHalls: readonly PachinkoHall[] = [
         "address": "大阪府大阪市中央区千日前1-9-20",
         "lat": 34.668,
         "lng": 135.5072,
-        "is_kitaichimeshi": true
-      },
-      {
-        "id": 405,
-        "name": "天下の中華そば 味仙 なんば店",
-        "genre": "ラーメン",
-        "walkMinutes": 1,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "11:00〜23:00",
-        "ai_summary": "名古屋発の台湾ラーメン名店。ガツンとした味で軍資金を使い切った後のリセット飯にも向く。",
-        "tags": [
-          "ガッツリ",
-          "一人OK"
-        ],
-        "address": "大阪府大阪市中央区千日前1-1-7",
-        "lat": 34.6675,
-        "lng": 135.5068,
         "is_kitaichimeshi": true
       },
       {
@@ -4066,25 +3436,6 @@ export const osakaHalls: readonly PachinkoHall[] = [
         "lng": 135.507
       },
       {
-        "id": 423,
-        "name": "焼肉 牛庵 難波店",
-        "genre": "焼肉",
-        "walkMinutes": 5,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "11:30〜23:00",
-        "ai_summary": "難波の焼肉店。一人でも入りやすく、昼からガッツリ焼肉で軍資金を補充できる。",
-        "tags": [
-          "ガッツリ",
-          "一人OK"
-        ],
-        "address": "大阪府大阪市中央区難波2-2-15",
-        "lat": 34.666,
-        "lng": 135.5048
-      },
-      {
         "id": 417,
         "name": "すき家 難波店",
         "genre": "丼もの",
@@ -4143,26 +3494,6 @@ export const osakaHalls: readonly PachinkoHall[] = [
         "address": "大阪府大阪市中央区道頓堀1-7-24",
         "lat": 34.6682,
         "lng": 135.503,
-        "is_kitaichimeshi": true
-      },
-      {
-        "id": 421,
-        "name": "焼肉 牛太 本店",
-        "genre": "焼肉",
-        "walkMinutes": 7,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "11:30〜23:00",
-        "ai_summary": "道頓堀の焼肉名店。勝った日のご褒美焼肉として遠征ユーザーにも人気の地場店。",
-        "tags": [
-          "ガッツリ",
-          "一人OK"
-        ],
-        "address": "大阪府大阪市中央区道頓堀1-6-15",
-        "lat": 34.6685,
-        "lng": 135.5028,
         "is_kitaichimeshi": true
       },
       {
@@ -4243,25 +3574,6 @@ export const osakaHalls: readonly PachinkoHall[] = [
         "address": "大阪府大阪市中央区難波4-1-2",
         "lat": 34.6648,
         "lng": 135.5038
-      },
-      {
-        "id": 408,
-        "name": "スープカレーカムイ なんば店",
-        "genre": "カレー",
-        "walkMinutes": 8,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "11:30〜22:00",
-        "ai_summary": "道頓堀のスープカレー専門店。具材たっぷりでエネルギー補給向き、昼休憩のガッツリ飯に最適。",
-        "tags": [
-          "ガッツリ",
-          "一人OK"
-        ],
-        "address": "大阪府大阪市中央区道頓堀1-5-7",
-        "lat": 34.669,
-        "lng": 135.502
       }
     ]
   },
@@ -4281,46 +3593,6 @@ export const osakaHalls: readonly PachinkoHall[] = [
     "pachiya_comment": "千日前アムザ1000地下のスロット専門店です。難波エリアの大型ホールと近接し、千日前商店街沿いの飲食店を徒歩圏内でまとめて選べる立地にあります。遠征ユーザーが難波の食事動線を組み立てやすいホールです。",
     "meal_guide": "パチンコ・パチスロユーザー向けに見ると、CLUB-Dは千日前アムザ1000地下、なんば・日本橋駅から徒歩圏の立地です。アムザ1000内のスロット専門店として、千日前商店街沿いのラーメンや丼ものへ最短で向かえ、短い休憩で食事を済ませて戻りやすい動線が強みです。朝一前は商店街入口付近の軽食店で済ませ、昼休憩は提供が速いカレーや丼もので手早く、閉店後は四海樓air店周辺の地場店で締めの一杯まで組み立てやすいです。関西遠征ユーザーにとって、マルハン本館・ARROWと近接し、難波のスロット店をまとめて回りながら食事先を日替わりで変えやすい立地です。パチスロユーザーが閉店後まで周辺店を柔軟に使い分けやすいホールです。",
     "restaurants": [
-      {
-        "id": 422,
-        "name": "法善寺横丁 ホルモン",
-        "genre": "焼肉",
-        "walkMinutes": 1,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "17:00〜翌2:00",
-        "ai_summary": "法善寺横丁のホルモン焼き専門店。閉店後の締めの一杯＋焼肉で難波らしさを味わえる。",
-        "tags": [
-          "ガッツリ",
-          "一人OK",
-          "深夜OK"
-        ],
-        "address": "大阪府大阪市中央区千日前2-2-7",
-        "lat": 34.6674,
-        "lng": 135.5068
-      },
-      {
-        "id": 405,
-        "name": "天下の中華そば 味仙 なんば店",
-        "genre": "ラーメン",
-        "walkMinutes": 1,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "11:00〜23:00",
-        "ai_summary": "名古屋発の台湾ラーメン名店。ガツンとした味で軍資金を使い切った後のリセット飯にも向く。",
-        "tags": [
-          "ガッツリ",
-          "一人OK"
-        ],
-        "address": "大阪府大阪市中央区千日前1-1-7",
-        "lat": 34.6675,
-        "lng": 135.5068,
-        "is_kitaichimeshi": true
-      },
       {
         "id": 464,
         "name": "すき家 難波千日前店",
@@ -4401,25 +3673,6 @@ export const osakaHalls: readonly PachinkoHall[] = [
         "lng": 135.507
       },
       {
-        "id": 423,
-        "name": "焼肉 牛庵 難波店",
-        "genre": "焼肉",
-        "walkMinutes": 4,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "11:30〜23:00",
-        "ai_summary": "難波の焼肉店。一人でも入りやすく、昼からガッツリ焼肉で軍資金を補充できる。",
-        "tags": [
-          "ガッツリ",
-          "一人OK"
-        ],
-        "address": "大阪府大阪市中央区難波2-2-15",
-        "lat": 34.666,
-        "lng": 135.5048
-      },
-      {
         "id": 417,
         "name": "すき家 難波店",
         "genre": "丼もの",
@@ -4478,26 +3731,6 @@ export const osakaHalls: readonly PachinkoHall[] = [
         "address": "大阪府大阪市中央区道頓堀1-7-24",
         "lat": 34.6682,
         "lng": 135.503,
-        "is_kitaichimeshi": true
-      },
-      {
-        "id": 421,
-        "name": "焼肉 牛太 本店",
-        "genre": "焼肉",
-        "walkMinutes": 6,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "11:30〜23:00",
-        "ai_summary": "道頓堀の焼肉名店。勝った日のご褒美焼肉として遠征ユーザーにも人気の地場店。",
-        "tags": [
-          "ガッツリ",
-          "一人OK"
-        ],
-        "address": "大阪府大阪市中央区道頓堀1-6-15",
-        "lat": 34.6685,
-        "lng": 135.5028,
         "is_kitaichimeshi": true
       },
       {
@@ -4578,25 +3811,6 @@ export const osakaHalls: readonly PachinkoHall[] = [
         "address": "大阪府大阪市中央区難波4-1-2",
         "lat": 34.6648,
         "lng": 135.5038
-      },
-      {
-        "id": 408,
-        "name": "スープカレーカムイ なんば店",
-        "genre": "カレー",
-        "walkMinutes": 8,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "11:30〜22:00",
-        "ai_summary": "道頓堀のスープカレー専門店。具材たっぷりでエネルギー補給向き、昼休憩のガッツリ飯に最適。",
-        "tags": [
-          "ガッツリ",
-          "一人OK"
-        ],
-        "address": "大阪府大阪市中央区道頓堀1-5-7",
-        "lat": 34.669,
-        "lng": 135.502
       }
     ]
   }

@@ -24,24 +24,6 @@ export const miyagiHalls: readonly PachinkoHall[] = [
     "meal_guide": "パチンコ・パチスロユーザー向けに見ると、P-STATION＆IIスロット館はJR仙台駅正面デッキ直結、名掛丁商店街入口すぐの立地です。改札からホールへ戻る距離が短く、スロット台数が厚いため、短い休憩で名掛丁沿いの牛丼やカレーに行きやすい動線が強みです。朝一前は24時間店で軽食、昼休憩は提供が速い丼もので手早く、閉店後は牛タンやあっさり系ラーメンなど仙台名物で締めまで組み立てやすいです。東北遠征ユーザーにとって、新幹線到着後すぐに食事と稼働を往復できる起点として使いやすく、アムズガーデン・ベガスベガス名掛丁店と組み合わせた仙台駅前の食事計画が立てやすいホールです。",
     "restaurants": [
       {
-        "id": 577,
-        "name": "利久 牛タン通り店",
-        "genre": "焼肉",
-        "walkMinutes": 1,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "11:00〜22:00",
-        "ai_summary": "牛タン通りの利久。仙台名物で遠征のご褒美飯として定番。",
-        "tags": [
-          "一人OK"
-        ],
-        "address": "宮城県仙台市青葉区中央1-6-8",
-        "lat": 38.2598,
-        "lng": 140.8812
-      },
-      {
         "id": 619,
         "name": "吉野家 仙台駅西口店",
         "genre": "丼もの",
@@ -58,6 +40,24 @@ export const miyagiHalls: readonly PachinkoHall[] = [
         "address": "宮城県仙台市青葉区中央1-7-1",
         "lat": 38.259722,
         "lng": 140.881111
+      },
+      {
+        "id": 577,
+        "name": "牛たん炭焼 利久 仙台駅店",
+        "genre": "焼肉",
+        "walkMinutes": 3,
+        "time_category": [
+          "昼",
+          "夜"
+        ],
+        "hours": "10:00〜21:30（LO21:00）",
+        "ai_summary": "仙台駅3F牛たん通りの利久。駅構内で本場の牛タン定食を手軽に味わえる定番。",
+        "tags": [
+          "一人OK"
+        ],
+        "address": "宮城県仙台市青葉区中央1-1-1 仙台駅3F牛たん通り",
+        "lat": 38.260139,
+        "lng": 140.8825
       },
       {
         "id": 621,
@@ -112,24 +112,6 @@ export const miyagiHalls: readonly PachinkoHall[] = [
         "address": "宮城県仙台市宮城野区榴岡2-1-25 BiVi仙台駅東口 1階",
         "lat": 38.260556,
         "lng": 140.885556
-      },
-      {
-        "id": 562,
-        "name": "牛たん弘 仙台駅東店",
-        "genre": "焼肉",
-        "walkMinutes": 8,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "11:00〜22:00",
-        "ai_summary": "仙台名物牛タンの定番。遠征のご褒美飯として東北遠征ユーザーにも知られる。",
-        "tags": [
-          "一人OK"
-        ],
-        "address": "宮城県仙台市宮城野区榴岡1-6-8",
-        "lat": 38.2612,
-        "lng": 140.886
       }
     ]
   },
@@ -168,22 +150,22 @@ export const miyagiHalls: readonly PachinkoHall[] = [
         "lng": 140.885556
       },
       {
-        "id": 562,
-        "name": "牛たん弘 仙台駅東店",
+        "id": 577,
+        "name": "牛たん炭焼 利久 仙台駅店",
         "genre": "焼肉",
-        "walkMinutes": 2,
+        "walkMinutes": 5,
         "time_category": [
           "昼",
           "夜"
         ],
-        "hours": "11:00〜22:00",
-        "ai_summary": "仙台名物牛タンの定番。遠征のご褒美飯として東北遠征ユーザーにも知られる。",
+        "hours": "10:00〜21:30（LO21:00）",
+        "ai_summary": "仙台駅3F牛たん通りの利久。駅構内で本場の牛タン定食を手軽に味わえる定番。",
         "tags": [
           "一人OK"
         ],
-        "address": "宮城県仙台市宮城野区榴岡1-6-8",
-        "lat": 38.2612,
-        "lng": 140.886
+        "address": "宮城県仙台市青葉区中央1-1-1 仙台駅3F牛たん通り",
+        "lat": 38.260139,
+        "lng": 140.8825
       },
       {
         "id": 621,
@@ -202,24 +184,6 @@ export const miyagiHalls: readonly PachinkoHall[] = [
         "address": "宮城県仙台市青葉区中央2-6-36 中央レントビル1F",
         "lat": 38.260417,
         "lng": 140.882222
-      },
-      {
-        "id": 577,
-        "name": "利久 牛タン通り店",
-        "genre": "焼肉",
-        "walkMinutes": 7,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "11:00〜22:00",
-        "ai_summary": "牛タン通りの利久。仙台名物で遠征のご褒美飯として定番。",
-        "tags": [
-          "一人OK"
-        ],
-        "address": "宮城県仙台市青葉区中央1-6-8",
-        "lat": 38.2598,
-        "lng": 140.8812
       },
       {
         "id": 619,
@@ -294,24 +258,6 @@ export const miyagiHalls: readonly PachinkoHall[] = [
         "lng": 140.879444
       },
       {
-        "id": 577,
-        "name": "利久 牛タン通り店",
-        "genre": "焼肉",
-        "walkMinutes": 5,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "11:00〜22:00",
-        "ai_summary": "牛タン通りの利久。仙台名物で遠征のご褒美飯として定番。",
-        "tags": [
-          "一人OK"
-        ],
-        "address": "宮城県仙台市青葉区中央1-6-8",
-        "lat": 38.2598,
-        "lng": 140.8812
-      },
-      {
         "id": 621,
         "name": "伝説のすた丼屋 仙台名掛丁店",
         "genre": "丼もの",
@@ -348,22 +294,22 @@ export const miyagiHalls: readonly PachinkoHall[] = [
         "lng": 140.881111
       },
       {
-        "id": 562,
-        "name": "牛たん弘 仙台駅東店",
+        "id": 577,
+        "name": "牛たん炭焼 利久 仙台駅店",
         "genre": "焼肉",
-        "walkMinutes": 10,
+        "walkMinutes": 6,
         "time_category": [
           "昼",
           "夜"
         ],
-        "hours": "11:00〜22:00",
-        "ai_summary": "仙台名物牛タンの定番。遠征のご褒美飯として東北遠征ユーザーにも知られる。",
+        "hours": "10:00〜21:30（LO21:00）",
+        "ai_summary": "仙台駅3F牛たん通りの利久。駅構内で本場の牛タン定食を手軽に味わえる定番。",
         "tags": [
           "一人OK"
         ],
-        "address": "宮城県仙台市宮城野区榴岡1-6-8",
-        "lat": 38.2612,
-        "lng": 140.886
+        "address": "宮城県仙台市青葉区中央1-1-1 仙台駅3F牛たん通り",
+        "lat": 38.260139,
+        "lng": 140.8825
       },
       {
         "id": 620,
@@ -420,24 +366,6 @@ export const miyagiHalls: readonly PachinkoHall[] = [
         "lng": 140.879444
       },
       {
-        "id": 577,
-        "name": "利久 牛タン通り店",
-        "genre": "焼肉",
-        "walkMinutes": 5,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "11:00〜22:00",
-        "ai_summary": "牛タン通りの利久。仙台名物で遠征のご褒美飯として定番。",
-        "tags": [
-          "一人OK"
-        ],
-        "address": "宮城県仙台市青葉区中央1-6-8",
-        "lat": 38.2598,
-        "lng": 140.8812
-      },
-      {
         "id": 621,
         "name": "伝説のすた丼屋 仙台名掛丁店",
         "genre": "丼もの",
@@ -474,6 +402,24 @@ export const miyagiHalls: readonly PachinkoHall[] = [
         "lng": 140.881111
       },
       {
+        "id": 577,
+        "name": "牛たん炭焼 利久 仙台駅店",
+        "genre": "焼肉",
+        "walkMinutes": 6,
+        "time_category": [
+          "昼",
+          "夜"
+        ],
+        "hours": "10:00〜21:30（LO21:00）",
+        "ai_summary": "仙台駅3F牛たん通りの利久。駅構内で本場の牛タン定食を手軽に味わえる定番。",
+        "tags": [
+          "一人OK"
+        ],
+        "address": "宮城県仙台市青葉区中央1-1-1 仙台駅3F牛たん通り",
+        "lat": 38.260139,
+        "lng": 140.8825
+      },
+      {
         "id": 620,
         "name": "松屋 仙台東口店",
         "genre": "丼もの",
@@ -490,24 +436,6 @@ export const miyagiHalls: readonly PachinkoHall[] = [
         "address": "宮城県仙台市宮城野区榴岡2-1-25 BiVi仙台駅東口 1階",
         "lat": 38.260556,
         "lng": 140.885556
-      },
-      {
-        "id": 562,
-        "name": "牛たん弘 仙台駅東店",
-        "genre": "焼肉",
-        "walkMinutes": 10,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "11:00〜22:00",
-        "ai_summary": "仙台名物牛タンの定番。遠征のご褒美飯として東北遠征ユーザーにも知られる。",
-        "tags": [
-          "一人OK"
-        ],
-        "address": "宮城県仙台市宮城野区榴岡1-6-8",
-        "lat": 38.2612,
-        "lng": 140.886
       }
     ]
   }

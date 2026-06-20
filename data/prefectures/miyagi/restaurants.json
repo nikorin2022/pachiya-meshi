@@ -1,41 +1,22 @@
 [
   {
-    "id": "gyutan-kaku-sendai-higashi",
-    "legacy_id": 562,
-    "name": "牛たん弘 仙台駅東店",
-    "area_id": "sendai",
-    "genre": "焼肉",
-    "time_category": [
-      "昼",
-      "夜"
-    ],
-    "hours": "11:00〜22:00",
-    "tags": [
-      "一人OK"
-    ],
-    "address": "宮城県仙台市宮城野区榴岡1-6-8",
-    "lat": 38.2612,
-    "lng": 140.886,
-    "default_ai_summary": "仙台名物牛タンの定番。遠征のご褒美飯として東北遠征ユーザーにも知られる。"
-  },
-  {
     "id": "gyutan-rikyu-sendai",
     "legacy_id": 577,
-    "name": "利久 牛タン通り店",
+    "name": "牛たん炭焼 利久 仙台駅店",
     "area_id": "sendai",
     "genre": "焼肉",
     "time_category": [
       "昼",
       "夜"
     ],
-    "hours": "11:00〜22:00",
+    "hours": "10:00〜21:30（LO21:00）",
     "tags": [
       "一人OK"
     ],
-    "address": "宮城県仙台市青葉区中央1-6-8",
-    "lat": 38.2598,
-    "lng": 140.8812,
-    "default_ai_summary": "牛タン通りの利久。仙台名物で遠征のご褒美飯として定番。"
+    "address": "宮城県仙台市青葉区中央1-1-1 仙台駅3F牛たん通り",
+    "lat": 38.260139,
+    "lng": 140.8825,
+    "default_ai_summary": "仙台駅3F牛たん通りの利久。駅構内で本場の牛タン定食を手軽に味わえる定番。"
   },
   {
     "id": "yoshinoya-sendai-nishiguchi",

@@ -33,6 +33,7 @@ import {
   generateMapEmbedUrl,
   generateRouteEmbedUrl,
   getGoogleMapsDirectionUrl,
+  getGoogleMapsPlaceUrl,
 } from "@/lib/maps"
 import { selectRecommendedRestaurantsTop3 } from "@/lib/restaurant-recommendations"
 import { getChainForHall, getChainPagePath } from "@/lib/chains"
@@ -64,6 +65,8 @@ function StoreMapEmbed({
   genre,
   originName,
   originLatLng,
+  originAddress,
+  destinationAddress,
   destinationLatLng,
   mapUrl,
   className = "",
@@ -76,6 +79,10 @@ function StoreMapEmbed({
   originName: string
   /** ルート起点の座標（マップ URL では名称より優先） */
   originLatLng?: { lat: number; lng: number }
+  /** ルート起点の住所（座標がない場合のフォールバック用） */
+  originAddress?: string
+  /** ルート終点の住所（座標がない場合のフォールバック用） */
+  destinationAddress?: string
   /** ルート終点の座標（マップ URL では名称より優先） */
   destinationLatLng?: { lat: number; lng: number }
   /** 明示的に上書きしたい場合のみ指定。未指定なら origin→destination のルートURLを自動生成 */
@@ -90,7 +97,9 @@ function StoreMapEmbed({
     mapUrl ||
     generateRouteEmbedUrl(originName, name, {
       originLatLng,
+      originAddress,
       destinationLatLng,
+      destinationAddress,
     })
   const fallbackStyle =
     genreFallbackStyles[genre as keyof typeof genreFallbackStyles] ||
@@ -130,18 +139,21 @@ function StoreMapEmbed({
 
 /**
  * パチンコホール地図埋め込み。
- * 単一地点をホール名で検索表示する。
+ * 座標を優先し、ない場合は名称+住所で検索表示する。
  */
 function PachinkoHallMapEmbed({
   name,
+  address,
   latLng,
   mapUrl,
   className = "",
 }: {
   name: string
+  /** ホール住所（座標がない場合のフォールバック用） */
+  address?: string
   /** ホール座標（マップ URL では名称より優先） */
   latLng?: { lat: number; lng: number }
-  /** 明示的に上書きしたい場合のみ指定。未指定なら座標または名称から自動生成 */
+  /** 明示的に上書きしたい場合のみ指定。未指定なら座標または名称+住所から自動生成 */
   mapUrl?: string
   className?: string
 }) {
@@ -149,7 +161,7 @@ function PachinkoHallMapEmbed({
   const fallbackStyle = genreFallbackStyles["パチンコ"]
 
   const embedUrl =
-    mapUrl || generateMapEmbedUrl(name, undefined, { latLng })
+    mapUrl || generateMapEmbedUrl(name, undefined, { latLng, address })
   const canShowIframe = Boolean(embedUrl) && !hasError
 
   return (
@@ -213,6 +225,14 @@ export default function HallDetailClient({
   const chain = getChainForHall(hall)
   const kitaichimeshiLabel = useMemo(
     () => getHallKitaichimeshiLabel(countKitaichimeshiForHall(hall)),
+    [hall],
+  )
+  const hallGoogleMapsUrl = useMemo(
+    () =>
+      getGoogleMapsPlaceUrl(hall.name, {
+        latLng: { lat: hall.lat, lng: hall.lng },
+        address: hall.address,
+      }),
     [hall],
   )
 
@@ -333,6 +353,7 @@ export default function HallDetailClient({
             <div className="flex gap-3 sm:hidden">
               <PachinkoHallMapEmbed
                 name={hall.name}
+                address={hall.address}
                 latLng={{ lat: hall.lat, lng: hall.lng }}
                 className="w-24 h-20 rounded-lg shrink-0"
               />
@@ -369,6 +390,15 @@ export default function HallDetailClient({
                     <MapPin className="w-3 h-3 text-gray-400 shrink-0" />
                     <span className="truncate">{hall.address}</span>
                   </div>
+                  <a
+                    href={hallGoogleMapsUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center gap-1 text-[10px] text-blue-600 hover:text-blue-700"
+                  >
+                    <ExternalLink className="w-3 h-3 shrink-0" />
+                    <span>Google Mapsで開く</span>
+                  </a>
                   <div className="flex items-center gap-1">
                     <Clock className="w-3 h-3 text-gray-400 shrink-0" />
                     <span>{hall.hours}</span>
@@ -380,6 +410,7 @@ export default function HallDetailClient({
             {/* 店舗地図（デスクトップ） */}
             <PachinkoHallMapEmbed
               name={hall.name}
+              address={hall.address}
               latLng={{ lat: hall.lat, lng: hall.lng }}
               className="hidden sm:block w-48 h-32 rounded-lg shrink-0"
             />
@@ -413,6 +444,15 @@ export default function HallDetailClient({
                   <MapPin className="w-4 h-4 text-gray-400" />
                   <span>{hall.address}</span>
                 </div>
+                <a
+                  href={hallGoogleMapsUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-1.5 text-xs text-blue-600 hover:text-blue-700"
+                >
+                  <ExternalLink className="w-3.5 h-3.5 shrink-0" />
+                  <span>Google Mapsで開く</span>
+                </a>
                 <div className="flex items-center gap-2">
                   <span className="w-4 h-4 text-center text-gray-400 text-xs">🚃</span>
                   <span>{hall.access}</span>
@@ -445,6 +485,7 @@ export default function HallDetailClient({
             <div className="hidden lg:block relative shrink-0">
               <PachinkoHallMapEmbed
                 name={hall.name}
+                address={hall.address}
                 latLng={{ lat: hall.lat, lng: hall.lng }}
                 className="w-64 h-40 bg-gray-100 rounded-lg"
               />
@@ -617,6 +658,8 @@ export default function HallDetailClient({
                       genre={restaurant.genre}
                       originName={hall.name}
                       originLatLng={{ lat: hall.lat, lng: hall.lng }}
+                      originAddress={hall.address}
+                      destinationAddress={restaurant.address}
                       destinationLatLng={{
                         lat: restaurant.lat,
                         lng: restaurant.lng,
@@ -676,6 +719,8 @@ export default function HallDetailClient({
                       <a
                         href={getGoogleMapsDirectionUrl(hall.name, restaurant.name, {
                           originLatLng: { lat: hall.lat, lng: hall.lng },
+                          originAddress: hall.address,
+                          destinationAddress: restaurant.address,
                           destinationLatLng: {
                             lat: restaurant.lat,
                             lng: restaurant.lng,

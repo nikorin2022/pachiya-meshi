@@ -35,24 +35,89 @@ function withinBoundingBox(a, b, limitKm) {
   return true
 }
 
+function isValidMapLatLng(latLng) {
+  if (!latLng) return false
+  const { lat, lng } = latLng
+  return (
+    Number.isFinite(lat) &&
+    Number.isFinite(lng) &&
+    lat >= 24 &&
+    lat <= 46 &&
+    lng >= 122 &&
+    lng <= 154
+  )
+}
+
+function decimalPlaces(n) {
+  const s = String(n)
+  if (!s.includes(".")) return 0
+  return s.split(".")[1].length
+}
+
+function isLowPrecision(lat, lng) {
+  return decimalPlaces(lat) <= 4 && decimalPlaces(lng) <= 4
+}
+
+function buildMapQuery(name, options = {}) {
+  const custom = options.mapQuery?.trim()
+  if (custom) return encodeURIComponent(custom)
+
+  const address = options.address?.trim()
+  if (address) return encodeURIComponent(`${name} ${address}`)
+
+  return encodeURIComponent(name)
+}
+
 function buildMapEndpoint(name, options = {}) {
-  if (options.preferLatLng && options.latLng) {
+  if (options.preferLatLng && isValidMapLatLng(options.latLng)) {
     return encodeURIComponent(`${options.latLng.lat},${options.latLng.lng}`)
   }
-  const query = options.mapQuery?.trim() ? options.mapQuery : name
-  return encodeURIComponent(query)
+  return buildMapQuery(name, {
+    mapQuery: options.mapQuery,
+    address: options.address,
+  })
+}
+
+function hallEmbedUrl(hall) {
+  const q = buildMapEndpoint(hall.name, {
+    latLng: { lat: hall.lat, lng: hall.lng },
+    address: hall.address,
+    preferLatLng: isValidMapLatLng(hall),
+  })
+  return `https://maps.google.com/maps?q=${q}&output=embed&z=17`
+}
+
+function hallPlaceUrl(hall) {
+  const query = buildMapEndpoint(hall.name, {
+    latLng: { lat: hall.lat, lng: hall.lng },
+    address: hall.address,
+    preferLatLng: isValidMapLatLng(hall),
+  })
+  return `https://www.google.com/maps/search/?api=1&query=${query}`
 }
 
 function routeEmbedUrl(hall, restaurant) {
   const origin = buildMapEndpoint(hall.name, {
     latLng: { lat: hall.lat, lng: hall.lng },
-    preferLatLng: true,
+    address: hall.address,
+    preferLatLng: isValidMapLatLng(hall),
   })
   const destination = buildMapEndpoint(restaurant.name, {
     latLng: { lat: restaurant.lat, lng: restaurant.lng },
-    preferLatLng: Boolean(restaurant.lat && restaurant.lng),
+    address: restaurant.address,
+    preferLatLng: isValidMapLatLng(restaurant),
   })
   return `https://maps.google.com/maps?saddr=${origin}&daddr=${destination}&dirflg=w&output=embed`
+}
+
+function getHallMapQueryField(hall) {
+  return hall.map_query ?? hall.googleMapsQuery ?? hall.mapQuery
+}
+
+function isNameOnlyMapQuery(mapQuery, name) {
+  const trimmed = mapQuery?.trim()
+  if (!trimmed) return false
+  return trimmed === name.trim()
 }
 
 function loadJson(p) {
@@ -102,8 +167,15 @@ const prefs = fs
   })
 
 let errors = 0
+let warnings = 0
 const hallCounts = {}
 const zeroRestaurantHalls = []
+const hallMapWarnings = {
+  mapQueryMismatch: [],
+  nameOnlyMapQuery: [],
+  lowPrecisionCoords: [],
+  nameOnlyFallback: [],
+}
 
 for (const pref of prefs) {
   const halls = loadJson(path.join(root, "data/prefectures", pref, "halls.json"))
@@ -117,6 +189,66 @@ for (const pref of prefs) {
 
     if (matches.length === 0) {
       zeroRestaurantHalls.push(hall.id)
+    }
+
+    const mapQueryField = getHallMapQueryField(hall)
+    if (mapQueryField) {
+      const expectedQuery = `${hall.name} ${hall.address}`.trim()
+      if (mapQueryField.trim() !== expectedQuery) {
+        console.warn(
+          `[warn] ${hall.id}: map_query differs from name+address (map_query="${mapQueryField}")`,
+        )
+        hallMapWarnings.mapQueryMismatch.push(hall.id)
+        warnings++
+      }
+      if (isNameOnlyMapQuery(mapQueryField, hall.name)) {
+        console.warn(
+          `[warn] ${hall.id}: map_query is name-only ("${mapQueryField}")`,
+        )
+        hallMapWarnings.nameOnlyMapQuery.push(hall.id)
+        warnings++
+      }
+    }
+
+    const hasCoords = isValidMapLatLng(hall)
+    if (!hasCoords) {
+      console.warn(
+        `[warn] ${hall.id}: missing or invalid lat/lng — map URLs fall back to name+address`,
+      )
+      hallMapWarnings.nameOnlyFallback.push(hall.id)
+      warnings++
+    } else if (isLowPrecision(hall.lat, hall.lng)) {
+      console.warn(
+        `[warn] ${hall.id}: low-precision coordinates (${hall.lat}, ${hall.lng})`,
+      )
+      hallMapWarnings.lowPrecisionCoords.push(hall.id)
+      warnings++
+    }
+
+    const embedUrl = hallEmbedUrl(hall)
+    const placeUrl = hallPlaceUrl(hall)
+    if (hasCoords) {
+      const expectedCoord = encodeURIComponent(`${hall.lat},${hall.lng}`)
+      if (!embedUrl.includes(`q=${expectedCoord}`)) {
+        console.error(
+          `[ERROR] ${hall.id}: hall embed URL does not use coordinates (${embedUrl})`,
+        )
+        errors++
+      }
+      if (!placeUrl.includes(`query=${expectedCoord}`)) {
+        console.error(
+          `[ERROR] ${hall.id}: hall place URL does not use coordinates (${placeUrl})`,
+        )
+        errors++
+      }
+    } else {
+      const expectedNameAddress = buildMapQuery(hall.name, { address: hall.address })
+      if (!embedUrl.includes(`q=${expectedNameAddress}`)) {
+        console.error(
+          `[ERROR] ${hall.id}: hall embed URL does not use name+address fallback`,
+        )
+        errors++
+      }
     }
 
     for (const { restaurant: r, dist } of matches) {
@@ -147,7 +279,14 @@ for (const pref of prefs) {
       }
 
       const url = routeEmbedUrl(hall, r)
+      const expectedOrigin = encodeURIComponent(`${hall.lat},${hall.lng}`)
       const expectedDest = encodeURIComponent(`${r.lat},${r.lng}`)
+      if (!url.includes(`saddr=${expectedOrigin}`)) {
+        console.error(
+          `[ERROR] ${hall.id} ↔ ${r.id}: route URL saddr does not use hall coordinates (${url})`,
+        )
+        errors++
+      }
       if (!url.includes(`daddr=${expectedDest}`)) {
         console.error(
           `[ERROR] ${hall.id} ↔ ${r.id}: route URL daddr does not use restaurant coordinates (${url})`,
@@ -179,6 +318,8 @@ console.log(
       hallCounts,
       under5Count: under5.length,
       zeroRestaurantCount: zeroRestaurantHalls.length,
+      hallMapWarnings,
+      warningCount: warnings,
     },
     null,
     2,
