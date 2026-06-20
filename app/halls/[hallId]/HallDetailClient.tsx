@@ -478,6 +478,17 @@ export default function HallDetailClient({
           </div>
         ) : null}
 
+        {hall.meal_guide ? (
+          <div className="bg-white rounded-lg shadow-sm border border-gray-200 p-3 sm:p-4 mb-4 sm:mb-6">
+            <h3 className="text-xs sm:text-sm font-bold text-gray-900 mb-2 sm:mb-3">
+              パチンコ・パチスロユーザー向け食事ガイド
+            </h3>
+            <p className="text-xs sm:text-sm text-gray-600 leading-relaxed">
+              {hall.meal_guide}
+            </p>
+          </div>
+        ) : null}
+
         {/* フィルターセクション */}
         <div className="bg-white rounded-lg shadow-sm border border-gray-200 p-3 sm:p-4 mb-4 sm:mb-6">
           <div className="flex flex-col sm:flex-row gap-4 sm:gap-8 mb-4">

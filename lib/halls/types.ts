@@ -74,6 +74,8 @@ export type PachinkoHall = {
   slot: number
   /** パチ屋飯独自のホールコメント */
   pachiya_comment: string
+  /** パチンコ・パチスロユーザー向け食事ガイド */
+  meal_guide: string
   /** このホールから徒歩10分以内の飲食店一覧 */
   restaurants: Restaurant[]
 }

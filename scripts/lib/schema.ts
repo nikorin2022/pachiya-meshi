@@ -67,6 +67,8 @@ export const HallSchema = z.object({
   lng: LngSchema,
   /** パチ屋飯独自のホールコメント（100〜250文字目安） */
   pachiya_comment: z.string().min(80),
+  /** パチンコ・パチスロユーザー向け食事ガイド（200〜400文字目安） */
+  meal_guide: z.string().min(180).max(500),
 })
 
 export const RestaurantSchema = z.object({

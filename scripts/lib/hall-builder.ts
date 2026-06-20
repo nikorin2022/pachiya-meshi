@@ -42,6 +42,8 @@ export type LegacyHall = {
   pachinko: number
   slot: number
   pachiya_comment: string
+  /** パチンコ・パチスロユーザー向けの食事ガイド（編集記事） */
+  meal_guide: string
   restaurants: LegacyRestaurant[]
 }
 
@@ -113,6 +115,7 @@ export class HallBuilder {
       pachinko: hall.pachinko,
       slot: hall.slot,
       pachiya_comment: hall.pachiya_comment,
+      meal_guide: hall.meal_guide,
       restaurants,
     }
   }

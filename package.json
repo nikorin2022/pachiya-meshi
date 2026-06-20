@@ -10,6 +10,7 @@
     "start": "next start",
     "lint": "eslint .",
     "generate:halls": "tsx scripts/generate-prefecture-data.ts",
+    "populate:meal-guides": "tsx scripts/populate-meal-guides.ts",
     "dump:halls": "tsx scripts/dump-halls.ts",
     "diff:halls": "tsx scripts/diff-halls.ts"
   },
