@@ -1,5 +1,6 @@
 import aichiHallsMeta from "@/data/prefectures/aichi/halls.json"
 import fukuokaHallsMeta from "@/data/prefectures/fukuoka/halls.json"
+import miyagiHallsMeta from "@/data/prefectures/miyagi/halls.json"
 import osakaHallsMeta from "@/data/prefectures/osaka/halls.json"
 import tokyoHallsMeta from "@/data/prefectures/tokyo/halls.json"
 
@@ -15,6 +16,7 @@ export const allHallsMeta: HallMetaRecord[] = [
   ...(osakaHallsMeta as HallMetaRecord[]),
   ...(fukuokaHallsMeta as HallMetaRecord[]),
   ...(aichiHallsMeta as HallMetaRecord[]),
+  ...(miyagiHallsMeta as HallMetaRecord[]),
 ]
 
 export const hallMetaById = new Map(
