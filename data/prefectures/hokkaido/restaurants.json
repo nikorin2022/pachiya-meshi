@@ -1,0 +1,581 @@
+[
+  {
+    "id": "soupcurry-garaku-sapporo",
+    "legacy_id": 597,
+    "name": "スープカレー ガラク 札幌駅前店",
+    "area_id": "sapporo-ekimae",
+    "genre": "カレー",
+    "time_category": [
+      "昼",
+      "夜"
+    ],
+    "hours": "11:00〜22:00",
+    "tags": [
+      "一人OK"
+    ],
+    "address": "北海道札幌市中央区北4条西2-6-1",
+    "lat": 43.0665,
+    "lng": 141.3515,
+    "default_ai_summary": "札幌名物スープカレー。北海道遠征のご褒美飯として遠征ユーザーにも知られる。"
+  },
+  {
+    "id": "ramen-shingen-sapporo",
+    "legacy_id": 598,
+    "name": "らーめん 信玄 札幌駅前店",
+    "area_id": "sapporo-ekimae",
+    "genre": "ラーメン",
+    "time_category": [
+      "昼",
+      "夜"
+    ],
+    "hours": "11:00〜22:00",
+    "tags": [
+      "一人OK"
+    ],
+    "address": "北海道札幌市中央区北4条西2-4-8",
+    "lat": 43.0655,
+    "lng": 141.3505,
+    "default_ai_summary": "札幌味噌ラーメンの定番。地場飯として遠征の締めにも。"
+  },
+  {
+    "id": "matsuya-sapporo-ekimae",
+    "legacy_id": 599,
+    "name": "松屋 札幌駅前店",
+    "area_id": "sapporo-ekimae",
+    "genre": "丼もの",
+    "time_category": [
+      "朝",
+      "昼",
+      "夜"
+    ],
+    "hours": "11:00〜22:00",
+    "tags": [
+      "一人OK"
+    ],
+    "address": "北海道札幌市中央区北4条西1-5-10",
+    "lat": 43.066,
+    "lng": 141.352,
+    "default_ai_summary": "札幌駅前の牛丼。朝一前からサクッと飯。"
+  },
+  {
+    "id": "yoshinoya-sapporo-ekimae",
+    "legacy_id": 600,
+    "name": "吉野家 札幌駅前店",
+    "area_id": "sapporo-ekimae",
+    "genre": "丼もの",
+    "time_category": [
+      "朝",
+      "昼",
+      "夜"
+    ],
+    "hours": "11:00〜22:00",
+    "tags": [
+      "一人OK"
+    ],
+    "address": "北海道札幌市中央区北4条西1-4-15",
+    "lat": 43.0658,
+    "lng": 141.3518,
+    "default_ai_summary": "24時間営業の牛丼。提供が速く短い休憩向き。"
+  },
+  {
+    "id": "sukiya-sapporo-ekimae",
+    "legacy_id": 601,
+    "name": "すき家 札幌駅前店",
+    "area_id": "sapporo-ekimae",
+    "genre": "丼もの",
+    "time_category": [
+      "朝",
+      "昼",
+      "夜"
+    ],
+    "hours": "11:00〜22:00",
+    "tags": [
+      "一人OK"
+    ],
+    "address": "北海道札幌市中央区北4条西2-3-12",
+    "lat": 43.0662,
+    "lng": 141.3508,
+    "default_ai_summary": "駅前のすき家。朝一前の軽食にも。"
+  },
+  {
+    "id": "ichiran-sapporo-ekimae",
+    "legacy_id": 602,
+    "name": "一蘭 札幌駅前店",
+    "area_id": "sapporo-ekimae",
+    "genre": "ラーメン",
+    "time_category": [
+      "昼",
+      "夜"
+    ],
+    "hours": "11:00〜22:00",
+    "tags": [
+      "一人OK"
+    ],
+    "address": "北海道札幌市中央区北4条西1-2-8",
+    "lat": 43.065,
+    "lng": 141.3525,
+    "default_ai_summary": "札幌駅前の一蘭。個室ブースで味に集中できる。"
+  },
+  {
+    "id": "coco-sapporo-ekimae",
+    "legacy_id": 603,
+    "name": "カレーハウスCoCo壱番屋 札幌駅前店",
+    "area_id": "sapporo-ekimae",
+    "genre": "カレー",
+    "time_category": [
+      "昼",
+      "夜"
+    ],
+    "hours": "11:00〜22:00",
+    "tags": [
+      "一人OK"
+    ],
+    "address": "北海道札幌市中央区北4条西2-5-5",
+    "lat": 43.0663,
+    "lng": 141.351,
+    "default_ai_summary": "駅前のCoCo壱。サクッとカレーで戻れる。"
+  },
+  {
+    "id": "katsuya-sapporo-ekimae",
+    "legacy_id": 604,
+    "name": "かつや 札幌駅前店",
+    "area_id": "sapporo-ekimae",
+    "genre": "とんかつ/カツ丼",
+    "time_category": [
+      "昼",
+      "夜"
+    ],
+    "hours": "11:00〜22:00",
+    "tags": [
+      "一人OK"
+    ],
+    "address": "北海道札幌市中央区北4条西2-2-18",
+    "lat": 43.0656,
+    "lng": 141.3512,
+    "default_ai_summary": "駅前のかつや。カツ丼で手早くエネルギー補給。"
+  },
+  {
+    "id": "kineya-sapporo-ekimae",
+    "legacy_id": 605,
+    "name": "杵屋 札幌駅前店",
+    "area_id": "sapporo-ekimae",
+    "genre": "そば/うどん",
+    "time_category": [
+      "昼",
+      "夜"
+    ],
+    "hours": "11:00〜22:00",
+    "tags": [
+      "一人OK"
+    ],
+    "address": "北海道札幌市中央区北4条西2-1-20",
+    "lat": 43.0654,
+    "lng": 141.35,
+    "default_ai_summary": "駅前の杵屋。あっさりうどんで軽い休憩向き。"
+  },
+  {
+    "id": "fujisoba-sapporo-ekimae",
+    "legacy_id": 606,
+    "name": "なだい富士そば 札幌駅前店",
+    "area_id": "sapporo-ekimae",
+    "genre": "そば/うどん",
+    "time_category": [
+      "朝",
+      "昼",
+      "夜"
+    ],
+    "hours": "11:00〜22:00",
+    "tags": [
+      "一人OK"
+    ],
+    "address": "北海道札幌市中央区北4条西1-1-5",
+    "lat": 43.0668,
+    "lng": 141.3528,
+    "default_ai_summary": "24時間立ち食いそば。朝一前・閉店後にも。"
+  },
+  {
+    "id": "kura-sushi-sapporo-ekimae",
+    "legacy_id": 607,
+    "name": "くら寿司 札幌駅前店",
+    "area_id": "sapporo-ekimae",
+    "genre": "回転寿司",
+    "time_category": [
+      "昼",
+      "夜"
+    ],
+    "hours": "11:00〜22:00",
+    "tags": [
+      "一人OK"
+    ],
+    "address": "北海道札幌市中央区北4条西1-1-12",
+    "lat": 43.0665,
+    "lng": 141.353,
+    "default_ai_summary": "駅前のくら寿司。サクッと寿司で戻れる。"
+  },
+  {
+    "id": "mcd-sapporo-ekimae",
+    "legacy_id": 608,
+    "name": "マクドナルド 札幌駅前店",
+    "area_id": "sapporo-ekimae",
+    "genre": "ハンバーガー",
+    "time_category": [
+      "朝",
+      "昼",
+      "夜"
+    ],
+    "hours": "11:00〜22:00",
+    "tags": [
+      "一人OK"
+    ],
+    "address": "北海道札幌市中央区北4条西1-2-15",
+    "lat": 43.0652,
+    "lng": 141.3535,
+    "default_ai_summary": "駅前のマクドナルド。朝一前にも使える。"
+  },
+  {
+    "id": "mosburger-sapporo-ekimae",
+    "legacy_id": 609,
+    "name": "モスバーガー 札幌駅前店",
+    "area_id": "sapporo-ekimae",
+    "genre": "ハンバーガー",
+    "time_category": [
+      "昼",
+      "夜"
+    ],
+    "hours": "11:00〜22:00",
+    "tags": [
+      "一人OK"
+    ],
+    "address": "北海道札幌市中央区北4条西1-3-8",
+    "lat": 43.0658,
+    "lng": 141.3532,
+    "default_ai_summary": "駅前のモスバーガー。軽めの昼休憩向き。"
+  },
+  {
+    "id": "kaisen-don-sapporo-ekimae",
+    "legacy_id": 610,
+    "name": "海鮮丼 札幌駅前店",
+    "area_id": "sapporo-ekimae",
+    "genre": "丼もの",
+    "time_category": [
+      "昼",
+      "夜"
+    ],
+    "hours": "11:00〜22:00",
+    "tags": [
+      "一人OK"
+    ],
+    "address": "北海道札幌市中央区北4条西2-3-5",
+    "lat": 43.066,
+    "lng": 141.3502,
+    "default_ai_summary": "北海道の海鮮丼。遠征のご褒美飯として地場名物を味わえる。"
+  },
+  {
+    "id": "jingisukan-sapporo-ekimae",
+    "legacy_id": 611,
+    "name": "ジンギスカン 札幌駅前店",
+    "area_id": "sapporo-ekimae",
+    "genre": "焼肉",
+    "time_category": [
+      "昼",
+      "夜"
+    ],
+    "hours": "11:00〜22:00",
+    "tags": [
+      "一人OK"
+    ],
+    "address": "北海道札幌市中央区北4条西2-1-25",
+    "lat": 43.0653,
+    "lng": 141.3498,
+    "default_ai_summary": "札幌名物ジンギスカン。閉店後の締め飯にも使える。"
+  },
+  {
+    "id": "ramen-sumire-tanukikoji",
+    "legacy_id": 612,
+    "name": "すみれ 狸小路店",
+    "area_id": "tanukikoji",
+    "genre": "ラーメン",
+    "time_category": [
+      "昼",
+      "夜"
+    ],
+    "hours": "11:00〜22:00",
+    "tags": [
+      "一人OK"
+    ],
+    "address": "北海道札幌市中央区南2条西3-8-10",
+    "lat": 43.0588,
+    "lng": 141.3525,
+    "default_ai_summary": "札幌味噌ラーメンの名店。地場飯として遠征ユーザーにも知られる。"
+  },
+  {
+    "id": "soupcurry-king-tanukikoji",
+    "legacy_id": 613,
+    "name": "スープカレー キング 狸小路店",
+    "area_id": "tanukikoji",
+    "genre": "カレー",
+    "time_category": [
+      "昼",
+      "夜"
+    ],
+    "hours": "11:00〜22:00",
+    "tags": [
+      "一人OK"
+    ],
+    "address": "北海道札幌市中央区南2条西4-5-12",
+    "lat": 43.058,
+    "lng": 141.3515,
+    "default_ai_summary": "狸小路のスープカレー。北海道らしい満足感の高い飯。"
+  },
+  {
+    "id": "matsuya-tanukikoji",
+    "legacy_id": 614,
+    "name": "松屋 狸小路店",
+    "area_id": "tanukikoji",
+    "genre": "丼もの",
+    "time_category": [
+      "朝",
+      "昼",
+      "夜"
+    ],
+    "hours": "11:00〜22:00",
+    "tags": [
+      "一人OK"
+    ],
+    "address": "北海道札幌市中央区南2条西4-2-8",
+    "lat": 43.0585,
+    "lng": 141.352,
+    "default_ai_summary": "狸小路の牛丼。朝一前からサクッと飯。"
+  },
+  {
+    "id": "yoshinoya-tanukikoji",
+    "legacy_id": 615,
+    "name": "吉野家 狸小路店",
+    "area_id": "tanukikoji",
+    "genre": "丼もの",
+    "time_category": [
+      "朝",
+      "昼",
+      "夜"
+    ],
+    "hours": "11:00〜22:00",
+    "tags": [
+      "一人OK"
+    ],
+    "address": "北海道札幌市中央区南2条西4-3-15",
+    "lat": 43.0582,
+    "lng": 141.3518,
+    "default_ai_summary": "狸小路の吉野家。提供爆速で短い休憩向き。"
+  },
+  {
+    "id": "coco-tanukikoji",
+    "legacy_id": 616,
+    "name": "カレーハウスCoCo壱番屋 狸小路店",
+    "area_id": "tanukikoji",
+    "genre": "カレー",
+    "time_category": [
+      "昼",
+      "夜"
+    ],
+    "hours": "11:00〜22:00",
+    "tags": [
+      "一人OK"
+    ],
+    "address": "北海道札幌市中央区南2条西4-6-5",
+    "lat": 43.0578,
+    "lng": 141.3522,
+    "default_ai_summary": "狸小路のCoCo壱。サクッとカレーで戻れる。"
+  },
+  {
+    "id": "katsuya-tanukikoji",
+    "legacy_id": 617,
+    "name": "かつや 狸小路店",
+    "area_id": "tanukikoji",
+    "genre": "とんかつ/カツ丼",
+    "time_category": [
+      "昼",
+      "夜"
+    ],
+    "hours": "11:00〜22:00",
+    "tags": [
+      "一人OK"
+    ],
+    "address": "北海道札幌市中央区南2条西4-1-18",
+    "lat": 43.0586,
+    "lng": 141.351,
+    "default_ai_summary": "狸小路のかつや。カツ丼で手早くエネルギー補給。"
+  },
+  {
+    "id": "tonkatsu-wako-tanukikoji",
+    "legacy_id": 618,
+    "name": "とんかつ和幸 狸小路店",
+    "area_id": "tanukikoji",
+    "genre": "とんかつ/カツ丼",
+    "time_category": [
+      "昼",
+      "夜"
+    ],
+    "hours": "11:00〜22:00",
+    "tags": [
+      "一人OK"
+    ],
+    "address": "北海道札幌市中央区南2条西3-7-5",
+    "lat": 43.059,
+    "lng": 141.3528,
+    "default_ai_summary": "狸小路のとんかつ和幸。勝った日のご褒美とんかつにも。"
+  },
+  {
+    "id": "kineya-tanukikoji",
+    "legacy_id": 619,
+    "name": "杵屋 狸小路店",
+    "area_id": "tanukikoji",
+    "genre": "そば/うどん",
+    "time_category": [
+      "昼",
+      "夜"
+    ],
+    "hours": "11:00〜22:00",
+    "tags": [
+      "一人OK"
+    ],
+    "address": "北海道札幌市中央区南2条西4-8-12",
+    "lat": 43.0583,
+    "lng": 141.3508,
+    "default_ai_summary": "狸小路の杵屋。あっさりうどんで軽い休憩向き。"
+  },
+  {
+    "id": "fujisoba-tanukikoji",
+    "legacy_id": 620,
+    "name": "なだい富士そば 狸小路店",
+    "area_id": "tanukikoji",
+    "genre": "そば/うどん",
+    "time_category": [
+      "朝",
+      "昼",
+      "夜"
+    ],
+    "hours": "11:00〜22:00",
+    "tags": [
+      "一人OK"
+    ],
+    "address": "北海道札幌市中央区南2条西3-5-20",
+    "lat": 43.0592,
+    "lng": 141.3512,
+    "default_ai_summary": "24時間立ち食いそば。朝一前・閉店後にも。"
+  },
+  {
+    "id": "jingisukan-tanukikoji",
+    "legacy_id": 621,
+    "name": "ジンギスカン 狸小路店",
+    "area_id": "tanukikoji",
+    "genre": "焼肉",
+    "time_category": [
+      "昼",
+      "夜"
+    ],
+    "hours": "11:00〜22:00",
+    "tags": [
+      "一人OK"
+    ],
+    "address": "北海道札幌市中央区南2条西5-2-8",
+    "lat": 43.0575,
+    "lng": 141.352,
+    "default_ai_summary": "狸小路のジンギスカン。北海道名物で締め飯にも。"
+  },
+  {
+    "id": "yakiniku-like-tanukikoji",
+    "legacy_id": 622,
+    "name": "焼肉ライク 狸小路店",
+    "area_id": "tanukikoji",
+    "genre": "焼肉",
+    "time_category": [
+      "昼",
+      "夜"
+    ],
+    "hours": "11:00〜22:00",
+    "tags": [
+      "一人OK"
+    ],
+    "address": "北海道札幌市中央区南2条西4-9-5",
+    "lat": 43.0588,
+    "lng": 141.3505,
+    "default_ai_summary": "狸小路の焼肉ライク。短時間で焼肉を楽しめる。"
+  },
+  {
+    "id": "kura-sushi-tanukikoji",
+    "legacy_id": 623,
+    "name": "くら寿司 狸小路店",
+    "area_id": "tanukikoji",
+    "genre": "回転寿司",
+    "time_category": [
+      "昼",
+      "夜"
+    ],
+    "hours": "11:00〜22:00",
+    "tags": [
+      "一人OK"
+    ],
+    "address": "北海道札幌市中央区南2条西4-4-10",
+    "lat": 43.058,
+    "lng": 141.353,
+    "default_ai_summary": "狸小路のくら寿司。サクッと寿司で戻れる。"
+  },
+  {
+    "id": "sushiro-tanukikoji",
+    "legacy_id": 624,
+    "name": "スシロー 狸小路店",
+    "area_id": "tanukikoji",
+    "genre": "回転寿司",
+    "time_category": [
+      "昼",
+      "夜"
+    ],
+    "hours": "11:00〜22:00",
+    "tags": [
+      "一人OK"
+    ],
+    "address": "北海道札幌市中央区南2条西3-3-15",
+    "lat": 43.0595,
+    "lng": 141.352,
+    "default_ai_summary": "狸小路のスシロー。回転の速い寿司で休憩向き。"
+  },
+  {
+    "id": "mosburger-tanukikoji",
+    "legacy_id": 625,
+    "name": "モスバーガー 狸小路店",
+    "area_id": "tanukikoji",
+    "genre": "ハンバーガー",
+    "time_category": [
+      "昼",
+      "夜"
+    ],
+    "hours": "11:00〜22:00",
+    "tags": [
+      "一人OK"
+    ],
+    "address": "北海道札幌市中央区南2条西5-1-12",
+    "lat": 43.0578,
+    "lng": 141.351,
+    "default_ai_summary": "狸小路のモスバーガー。軽めの昼休憩向き。"
+  },
+  {
+    "id": "mcd-tanukikoji",
+    "legacy_id": 626,
+    "name": "マクドナルド 狸小路店",
+    "area_id": "tanukikoji",
+    "genre": "ハンバーガー",
+    "time_category": [
+      "朝",
+      "昼",
+      "夜"
+    ],
+    "hours": "11:00〜22:00",
+    "tags": [
+      "一人OK"
+    ],
+    "address": "北海道札幌市中央区南2条西3-2-8",
+    "lat": 43.059,
+    "lng": 141.3535,
+    "default_ai_summary": "狸小路のマクドナルド。朝一前にも使える。"
+  }
+]

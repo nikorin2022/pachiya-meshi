@@ -7,6 +7,7 @@
 import type { PachinkoHall } from "../types"
 import { aichiHalls } from "./aichi"
 import { fukuokaHalls } from "./fukuoka"
+import { hokkaidoHalls } from "./hokkaido"
 import { miyagiHalls } from "./miyagi"
 import { osakaHalls } from "./osaka"
 import { tokyoHalls } from "./tokyo"
@@ -14,6 +15,7 @@ import { tokyoHalls } from "./tokyo"
 const halls: readonly PachinkoHall[] = [
   ...aichiHalls,
   ...fukuokaHalls,
+  ...hokkaidoHalls,
   ...miyagiHalls,
   ...osakaHalls,
   ...tokyoHalls,
