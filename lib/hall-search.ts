@@ -1,6 +1,6 @@
 import { getAllHalls } from "@/lib/halls"
 import type { PachinkoHall } from "@/lib/halls/types"
-import hallsMeta from "@/data/prefectures/tokyo/halls.json"
+import { hallMetaById } from "@/lib/halls-meta"
 import chains from "@/data/chains.json"
 import areas from "@/data/areas.json"
 
@@ -33,10 +33,6 @@ const chainNameById = new Map(
 const areaIdByName = new Map(
   (areas as AreaMeta[]).map((a) => [a.name, a.id] as const),
 )
-const hallMetaById = new Map(
-  (hallsMeta as HallMeta[]).map((h) => [h.id, h] as const),
-)
-
 /** ホールのチェーン名を取得する。独立店舗は null。 */
 export function getChainNameForHallId(hallId: string): string | null {
   const meta = hallMetaById.get(hallId)
@@ -79,7 +75,8 @@ function getHallSearchIndex(): HallSearchResult[] {
     const meta = hallMetaById.get(hall.id)
     const chainId = meta?.chain_id ?? null
     const chainName = chainId ? (chainNameById.get(chainId) ?? null) : null
-    const areaId = areaIdByName.get(hall.area) ?? null
+    const areaId =
+      meta?.area_id ?? areaIdByName.get(hall.area) ?? null
 
     return { hall, chainName, chainId, areaId }
   })

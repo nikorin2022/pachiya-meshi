@@ -13,7 +13,10 @@ import { z } from "zod"
 
 const SlugSchema = z
   .string()
-  .regex(/^[a-z][a-z0-9-]*[a-z0-9]$|^[a-z]$/, "slug は kebab-case 英数のみ")
+  .regex(
+    /^[a-z0-9]([a-z0-9-]*[a-z0-9])?$/,
+    "slug は kebab-case 英数字のみ（先頭は英数字）",
+  )
 
 const LatSchema = z.number().min(24).max(46) // 日本本土の緯度範囲
 const LngSchema = z.number().min(122).max(154) // 日本本土の経度範囲

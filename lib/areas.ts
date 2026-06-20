@@ -1,5 +1,5 @@
 import areas from "@/data/areas.json"
-import hallsMeta from "@/data/prefectures/tokyo/halls.json"
+import { hallMetaById } from "@/lib/halls-meta"
 import { getAllHalls } from "@/lib/halls"
 import type { PachinkoHall } from "@/lib/halls/types"
 
@@ -9,11 +9,6 @@ type AreaRecord = {
   prefecture: string
   description_short: string
   area_description: string
-}
-
-type HallMetaRecord = {
-  id: string
-  area_id?: string
 }
 
 /** エリアマスタ */
@@ -30,11 +25,9 @@ export type AreaWithHallCount = Area & {
 }
 
 const areaRecords = areas as AreaRecord[]
-const hallMetaRecords = hallsMeta as HallMetaRecord[]
 
 const areaById = new Map(areaRecords.map((a) => [a.id, a] as const))
 const areaByName = new Map(areaRecords.map((a) => [a.name, a] as const))
-const hallMetaById = new Map(hallMetaRecords.map((h) => [h.id, h] as const))
 
 function toArea(record: AreaRecord): Area {
   return {

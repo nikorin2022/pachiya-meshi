@@ -9,7 +9,8 @@
  *
  * 使い方:
  *   npm run populate:meal-guides
- *   （現状は data/prefectures/tokyo/halls.json 固定）
+ *   npm run populate:meal-guides -- osaka
+ *   （data/prefectures/<pref>/halls.json を対象にする。引数省略時は tokyo）
  */
 
 import fs from "node:fs/promises"
@@ -95,6 +96,8 @@ const AREA_SCENE: Record<string, string> = {
     "国分寺は調布・府中とは別動線の駅前飲食があり、国領圏のチェーン店を起点に店を選びやすいエリアです。",
   "nakano-sakaue":
     "中野坂上はオフィス街と中野・新宿方面の中間に位置し、ランチ向けのカレー・丼ものが多いエリアです。",
+  nanba:
+    "難波・千日前は関西屈指のパチンコ・パチスロ密集地で、なんば駅・日本橋駅周辺の飲食店が徒歩圏にまとまっています。ラーメン、カレー、丼もの、焼肉、回転寿司などジャンルが豊富で、遠征ユーザーが多いエリアです。",
 }
 
 const ACCESS_HOOKS: Record<string, string> = {
@@ -244,7 +247,8 @@ async function main() {
   const scriptsDir = path.dirname(fileURLToPath(import.meta.url))
   const projectRoot = path.resolve(scriptsDir, "..")
   const dataRoot = path.join(projectRoot, "data")
-  const hallsPath = path.join(dataRoot, "prefectures/tokyo/halls.json")
+  const prefecture = process.argv[2] ?? "tokyo"
+  const hallsPath = path.join(dataRoot, `prefectures/${prefecture}/halls.json`)
 
   const source = new FileDataSource(dataRoot)
   const [areas, chains, walkOverrides, exclusions, restaurants] =
@@ -253,7 +257,7 @@ async function main() {
       source.loadChains(),
       source.loadWalkMinutesOverrides(),
       source.loadExclusions(),
-      source.loadRestaurants("tokyo"),
+      source.loadRestaurants(prefecture),
     ])
 
   const hallsRaw = await fs.readFile(hallsPath, "utf8")
@@ -274,7 +278,9 @@ async function main() {
   })
 
   await fs.writeFile(hallsPath, JSON.stringify(updated, null, 2) + "\n", "utf8")
-  console.log(`[populate-meal-guides] updated ${updated.length} halls`)
+  console.log(
+    `[populate-meal-guides] updated ${updated.length} halls in ${prefecture}`,
+  )
   const lengths = updated.map((h) => h.meal_guide.length)
   console.log(
     `  length min=${Math.min(...lengths)} max=${Math.max(...lengths)} avg=${Math.round(lengths.reduce((a, b) => a + b, 0) / lengths.length)}`,
