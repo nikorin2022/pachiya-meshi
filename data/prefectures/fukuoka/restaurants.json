@@ -1,0 +1,949 @@
+[
+  {
+    "id": "hakata-ippudo-honten",
+    "legacy_id": 466,
+    "name": "一風堂 博多本店",
+    "area_id": "hakata",
+    "genre": "ラーメン",
+    "time_category": [
+      "昼",
+      "夜"
+    ],
+    "hours": "11:00〜22:00",
+    "tags": [
+      "一人OK"
+    ],
+    "address": "福岡県福岡市博多区博多駅中央街1-1",
+    "lat": 33.5905,
+    "lng": 130.4185,
+    "default_ai_summary": "博多とんこつラーメンの名店。遠征ユーザーがわざわざ寄る定番。",
+    "is_kitaichimeshi": true,
+    "selection_tags": [
+      "local_famous"
+    ],
+    "selection_note": "エリアで遠征ユーザーにも知られる店"
+  },
+  {
+    "id": "hakata-menguide",
+    "legacy_id": 467,
+    "name": "博多めんくい堂 博多デイトス店",
+    "area_id": "hakata",
+    "genre": "ラーメン",
+    "time_category": [
+      "昼",
+      "夜"
+    ],
+    "hours": "11:00〜22:00",
+    "tags": [
+      "一人OK"
+    ],
+    "address": "福岡県福岡市博多区博多駅中央街1-1 博多デイトス",
+    "lat": 33.5895,
+    "lng": 130.421,
+    "default_ai_summary": "博多デイトスの博多めんくい堂。駅直結で朝一前にも。",
+    "is_kitaichimeshi": true,
+    "selection_tags": [
+      "local_famous"
+    ],
+    "selection_note": "エリアで遠征ユーザーにも知られる店"
+  },
+  {
+    "id": "hakata-ichiran",
+    "legacy_id": 468,
+    "name": "一蘭 博多駅店",
+    "area_id": "hakata",
+    "genre": "ラーメン",
+    "time_category": [
+      "昼",
+      "夜"
+    ],
+    "hours": "11:00〜22:00",
+    "tags": [
+      "一人OK"
+    ],
+    "address": "福岡県福岡市博多区博多駅中央街1-1",
+    "lat": 33.5898,
+    "lng": 130.4208,
+    "default_ai_summary": "博多駅の一蘭。短時間でとんこつラーメンを楽しめる。"
+  },
+  {
+    "id": "hakata-nagahama",
+    "legacy_id": 469,
+    "name": "長浜ラーメン 博多店",
+    "area_id": "hakata",
+    "genre": "ラーメン",
+    "time_category": [
+      "昼",
+      "夜"
+    ],
+    "hours": "11:00〜22:00",
+    "tags": [
+      "一人OK"
+    ],
+    "address": "福岡県福岡市博多区博多駅前2-1-1",
+    "lat": 33.5888,
+    "lng": 130.4195,
+    "default_ai_summary": "博多駅前の長浜系ラーメン。あっさり系でリセット飯向き。"
+  },
+  {
+    "id": "hakata-ramen-hakata",
+    "legacy_id": 470,
+    "name": "博多ラーメン 博多店",
+    "area_id": "hakata",
+    "genre": "ラーメン",
+    "time_category": [
+      "昼",
+      "夜"
+    ],
+    "hours": "11:00〜22:00",
+    "tags": [
+      "一人OK"
+    ],
+    "address": "福岡県福岡市博多区博多駅前3-26-3",
+    "lat": 33.589,
+    "lng": 130.4198,
+    "default_ai_summary": "博多駅前のラーメン店。提供が早く昼休憩向き。"
+  },
+  {
+    "id": "hakata-curry-honpo",
+    "legacy_id": 471,
+    "name": "博多カレー本舗",
+    "area_id": "hakata",
+    "genre": "カレー",
+    "time_category": [
+      "昼",
+      "夜"
+    ],
+    "hours": "11:00〜22:00",
+    "tags": [
+      "一人OK"
+    ],
+    "address": "福岡県福岡市博多区博多駅前2-3-10",
+    "lat": 33.5885,
+    "lng": 130.4188,
+    "default_ai_summary": "博多駅前のカレー店。エネルギー補給向き。"
+  },
+  {
+    "id": "hakata-soupcurry",
+    "legacy_id": 472,
+    "name": "スープカレー ボンベイ 博多店",
+    "area_id": "hakata",
+    "genre": "カレー",
+    "time_category": [
+      "昼",
+      "夜"
+    ],
+    "hours": "11:00〜22:00",
+    "tags": [
+      "一人OK"
+    ],
+    "address": "福岡県福岡市博多区住吉2-5-18",
+    "lat": 33.5878,
+    "lng": 130.4165,
+    "default_ai_summary": "住吉のスープカレー。ガッツリ昼食向き。"
+  },
+  {
+    "id": "hakata-coco",
+    "legacy_id": 473,
+    "name": "カレーハウスCoCo壱番屋 博多店",
+    "area_id": "hakata",
+    "genre": "カレー",
+    "time_category": [
+      "昼",
+      "夜"
+    ],
+    "hours": "11:00〜22:00",
+    "tags": [
+      "一人OK"
+    ],
+    "address": "福岡県福岡市博多区博多駅中央街1-1",
+    "lat": 33.5892,
+    "lng": 130.4202,
+    "default_ai_summary": "博多駅のCoCo壱。サクッとカレーで戻れる。"
+  },
+  {
+    "id": "hakata-katsuya",
+    "legacy_id": 474,
+    "name": "かつや 博多店",
+    "area_id": "hakata",
+    "genre": "とんかつ/カツ丼",
+    "time_category": [
+      "昼",
+      "夜"
+    ],
+    "hours": "11:00〜22:00",
+    "tags": [
+      "一人OK"
+    ],
+    "address": "福岡県福岡市博多区博多駅前2-2-15",
+    "lat": 33.5895,
+    "lng": 130.4195,
+    "default_ai_summary": "博多駅前のかつや。手早くカツ丼。"
+  },
+  {
+    "id": "hakata-tonkatsu",
+    "legacy_id": 475,
+    "name": "とんかつ 博多店",
+    "area_id": "hakata",
+    "genre": "とんかつ/カツ丼",
+    "time_category": [
+      "昼",
+      "夜"
+    ],
+    "hours": "11:00〜22:00",
+    "tags": [
+      "一人OK"
+    ],
+    "address": "福岡県福岡市博多区住吉2-4-8",
+    "lat": 33.5882,
+    "lng": 130.4178,
+    "default_ai_summary": "住吉のとんかつ店。勝った日のご褒美飯。"
+  },
+  {
+    "id": "hakata-yoshinoya",
+    "legacy_id": 476,
+    "name": "吉野家 博多店",
+    "area_id": "hakata",
+    "genre": "丼もの",
+    "time_category": [
+      "昼",
+      "夜"
+    ],
+    "hours": "11:00〜22:00",
+    "tags": [
+      "一人OK"
+    ],
+    "address": "福岡県福岡市博多区博多駅中央街1-1",
+    "lat": 33.5896,
+    "lng": 130.4205,
+    "default_ai_summary": "博多駅の24時間牛丼。朝一前から使える。"
+  },
+  {
+    "id": "hakata-matsuya",
+    "legacy_id": 477,
+    "name": "松屋 博多店",
+    "area_id": "hakata",
+    "genre": "丼もの",
+    "time_category": [
+      "昼",
+      "夜"
+    ],
+    "hours": "11:00〜22:00",
+    "tags": [
+      "一人OK"
+    ],
+    "address": "福岡県福岡市博多区博多駅前3-25-1",
+    "lat": 33.589,
+    "lng": 130.419,
+    "default_ai_summary": "博多駅前の松屋。提供が早い定番。"
+  },
+  {
+    "id": "hakata-sukiya",
+    "legacy_id": 478,
+    "name": "すき家 博多店",
+    "area_id": "hakata",
+    "genre": "丼もの",
+    "time_category": [
+      "昼",
+      "夜"
+    ],
+    "hours": "11:00〜22:00",
+    "tags": [
+      "一人OK"
+    ],
+    "address": "福岡県福岡市博多区住吉2-6-20",
+    "lat": 33.5885,
+    "lng": 130.4168,
+    "default_ai_summary": "住吉のすき家。深夜帯も営業。"
+  },
+  {
+    "id": "hakata-tenya",
+    "legacy_id": 479,
+    "name": "天丼てんや 博多店",
+    "area_id": "hakata",
+    "genre": "丼もの",
+    "time_category": [
+      "昼",
+      "夜"
+    ],
+    "hours": "11:00〜22:00",
+    "tags": [
+      "一人OK"
+    ],
+    "address": "福岡県福岡市博多区博多駅前2-1-8",
+    "lat": 33.5893,
+    "lng": 130.4198,
+    "default_ai_summary": "博多駅前のてんや。サクッと天丼。"
+  },
+  {
+    "id": "hakata-udon",
+    "legacy_id": 480,
+    "name": "うどんの福 博多店",
+    "area_id": "hakata",
+    "genre": "そば/うどん",
+    "time_category": [
+      "昼",
+      "夜"
+    ],
+    "hours": "11:00〜22:00",
+    "tags": [
+      "一人OK"
+    ],
+    "address": "福岡県福岡市博多区博多駅中央街1-1",
+    "lat": 33.5898,
+    "lng": 130.4212,
+    "default_ai_summary": "博多デイトス内のうどん。軽い休憩向き。"
+  },
+  {
+    "id": "hakata-fujisoba",
+    "legacy_id": 481,
+    "name": "なだい富士そば 博多店",
+    "area_id": "hakata",
+    "genre": "そば/うどん",
+    "time_category": [
+      "昼",
+      "夜"
+    ],
+    "hours": "11:00〜22:00",
+    "tags": [
+      "一人OK"
+    ],
+    "address": "福岡県福岡市博多区博多駅前2-4-12",
+    "lat": 33.5888,
+    "lng": 130.4182,
+    "default_ai_summary": "博多駅前の立ち食いそば。短時間向き。"
+  },
+  {
+    "id": "hakata-udon-tsubame",
+    "legacy_id": 482,
+    "name": "つるまる 博多店",
+    "area_id": "hakata",
+    "genre": "そば/うどん",
+    "time_category": [
+      "昼",
+      "夜"
+    ],
+    "hours": "11:00〜22:00",
+    "tags": [
+      "一人OK"
+    ],
+    "address": "福岡県福岡市博多区住吉2-6-22",
+    "lat": 33.5875,
+    "lng": 130.4158,
+    "default_ai_summary": "住吉のうどんチェーン。提供が早い。"
+  },
+  {
+    "id": "hakata-yakiniku",
+    "legacy_id": 483,
+    "name": "焼肉 博多店",
+    "area_id": "hakata",
+    "genre": "焼肉",
+    "time_category": [
+      "昼",
+      "夜"
+    ],
+    "hours": "11:00〜22:00",
+    "tags": [
+      "一人OK"
+    ],
+    "address": "福岡県福岡市博多区住吉2-5-15",
+    "lat": 33.588,
+    "lng": 130.4172,
+    "default_ai_summary": "住吉の焼肉店。一人でも入りやすい。"
+  },
+  {
+    "id": "hakata-motsunabe",
+    "legacy_id": 484,
+    "name": "もつ鍋 博多店",
+    "area_id": "hakata",
+    "genre": "焼肉",
+    "time_category": [
+      "昼",
+      "夜"
+    ],
+    "hours": "11:00〜22:00",
+    "tags": [
+      "一人OK"
+    ],
+    "address": "福岡県福岡市博多区祇園町1-28",
+    "lat": 33.5895,
+    "lng": 130.4108,
+    "default_ai_summary": "祇園のもつ鍋店。博多らしい締めのご褒美飯。",
+    "is_kitaichimeshi": true,
+    "selection_tags": [
+      "local_famous"
+    ],
+    "selection_note": "エリアで遠征ユーザーにも知られる店"
+  },
+  {
+    "id": "hakata-sushi",
+    "legacy_id": 485,
+    "name": "はま寿司 博多店",
+    "area_id": "hakata",
+    "genre": "回転寿司",
+    "time_category": [
+      "昼",
+      "夜"
+    ],
+    "hours": "11:00〜22:00",
+    "tags": [
+      "一人OK"
+    ],
+    "address": "福岡県福岡市博多区住吉2-5-20",
+    "lat": 33.5888,
+    "lng": 130.4175,
+    "default_ai_summary": "住吉のはま寿司。サクッと寿司で戻れる。"
+  },
+  {
+    "id": "hakata-kura",
+    "legacy_id": 486,
+    "name": "くら寿司 博多店",
+    "area_id": "hakata",
+    "genre": "回転寿司",
+    "time_category": [
+      "昼",
+      "夜"
+    ],
+    "hours": "11:00〜22:00",
+    "tags": [
+      "一人OK"
+    ],
+    "address": "福岡県福岡市博多区博多駅中央街1-1",
+    "lat": 33.5892,
+    "lng": 130.4208,
+    "default_ai_summary": "博多駅のくら寿司。回転の速い寿司。"
+  },
+  {
+    "id": "hakata-mos",
+    "legacy_id": 487,
+    "name": "モスバーガー 博多店",
+    "area_id": "hakata",
+    "genre": "ハンバーガー",
+    "time_category": [
+      "昼",
+      "夜"
+    ],
+    "hours": "11:00〜22:00",
+    "tags": [
+      "一人OK"
+    ],
+    "address": "福岡県福岡市博多区博多駅中央街1-1",
+    "lat": 33.5896,
+    "lng": 130.4202,
+    "default_ai_summary": "博多駅のモスバーガー。軽めの昼休憩。"
+  },
+  {
+    "id": "hakata-mcd",
+    "legacy_id": 488,
+    "name": "マクドナルド 博多店",
+    "area_id": "hakata",
+    "genre": "ハンバーガー",
+    "time_category": [
+      "昼",
+      "夜"
+    ],
+    "hours": "11:00〜22:00",
+    "tags": [
+      "一人OK"
+    ],
+    "address": "福岡県福岡市博多区博多駅中央街1-1",
+    "lat": 33.5894,
+    "lng": 130.4206,
+    "default_ai_summary": "博多駅のマクドナルド。朝一前にも。"
+  },
+  {
+    "id": "hakata-yatai-ramen",
+    "legacy_id": 489,
+    "name": "屋台ラーメン 博多",
+    "area_id": "hakata",
+    "genre": "ラーメン",
+    "time_category": [
+      "昼",
+      "夜"
+    ],
+    "hours": "11:00〜22:00",
+    "tags": [
+      "一人OK"
+    ],
+    "address": "福岡県福岡市博多区祇園町1-25",
+    "lat": 33.5898,
+    "lng": 130.4102,
+    "default_ai_summary": "祇園の屋台系ラーメン。博多の雰囲気を味わえる。",
+    "is_kitaichimeshi": true,
+    "selection_tags": [
+      "local_famous"
+    ],
+    "selection_note": "エリアで遠征ユーザーにも知られる店"
+  },
+  {
+    "id": "hakata-gyoza",
+    "legacy_id": 490,
+    "name": "博多一口餃子 博多店",
+    "area_id": "hakata",
+    "genre": "焼肉",
+    "time_category": [
+      "昼",
+      "夜"
+    ],
+    "hours": "11:00〜22:00",
+    "tags": [
+      "一人OK"
+    ],
+    "address": "福岡県福岡市博多区博多駅前2-2-8",
+    "lat": 33.589,
+    "lng": 130.4192,
+    "default_ai_summary": "博多駅前の餃子店。軽い休憩向き。"
+  },
+  {
+    "id": "tenjin-ippudo",
+    "legacy_id": 491,
+    "name": "一風堂 天神店",
+    "area_id": "tenjin",
+    "genre": "ラーメン",
+    "time_category": [
+      "昼",
+      "夜"
+    ],
+    "hours": "11:00〜22:00",
+    "tags": [
+      "一人OK"
+    ],
+    "address": "福岡県福岡市中央区天神2-8-12",
+    "lat": 33.5898,
+    "lng": 130.3985,
+    "default_ai_summary": "天神の一風堂。とんこつラーメンの定番。",
+    "is_kitaichimeshi": true,
+    "selection_tags": [
+      "local_famous"
+    ],
+    "selection_note": "エリアで遠征ユーザーにも知られる店"
+  },
+  {
+    "id": "tenjin-hakata-ramen",
+    "legacy_id": 492,
+    "name": "博多ラーメン 天神店",
+    "area_id": "tenjin",
+    "genre": "ラーメン",
+    "time_category": [
+      "昼",
+      "夜"
+    ],
+    "hours": "11:00〜22:00",
+    "tags": [
+      "一人OK"
+    ],
+    "address": "福岡県福岡市中央区天神2-6-38",
+    "lat": 33.5895,
+    "lng": 130.3978,
+    "default_ai_summary": "天神駅近くの博多ラーメン。短時間向き。"
+  },
+  {
+    "id": "tenjin-ichiran",
+    "legacy_id": 493,
+    "name": "一蘭 天神店",
+    "area_id": "tenjin",
+    "genre": "ラーメン",
+    "time_category": [
+      "昼",
+      "夜"
+    ],
+    "hours": "11:00〜22:00",
+    "tags": [
+      "一人OK"
+    ],
+    "address": "福岡県福岡市中央区天神2-7-10",
+    "lat": 33.5892,
+    "lng": 130.3982,
+    "default_ai_summary": "天神の一蘭。個室でサクッと麺。"
+  },
+  {
+    "id": "tenjin-ramen",
+    "legacy_id": 494,
+    "name": "ラーメン 天神店",
+    "area_id": "tenjin",
+    "genre": "ラーメン",
+    "time_category": [
+      "昼",
+      "夜"
+    ],
+    "hours": "11:00〜22:00",
+    "tags": [
+      "一人OK"
+    ],
+    "address": "福岡県福岡市中央区天神2-9-15",
+    "lat": 33.5888,
+    "lng": 130.399,
+    "default_ai_summary": "天神のラーメン店。昼休憩向き。"
+  },
+  {
+    "id": "tenjin-curry",
+    "legacy_id": 495,
+    "name": "カレー専門店 天神",
+    "area_id": "tenjin",
+    "genre": "カレー",
+    "time_category": [
+      "昼",
+      "夜"
+    ],
+    "hours": "11:00〜22:00",
+    "tags": [
+      "一人OK"
+    ],
+    "address": "福岡県福岡市中央区天神2-6-40",
+    "lat": 33.589,
+    "lng": 130.3975,
+    "default_ai_summary": "天神のカレー店。ガッツリ昼食向き。"
+  },
+  {
+    "id": "tenjin-soupcurry",
+    "legacy_id": 496,
+    "name": "スープカレー 天神店",
+    "area_id": "tenjin",
+    "genre": "カレー",
+    "time_category": [
+      "昼",
+      "夜"
+    ],
+    "hours": "11:00〜22:00",
+    "tags": [
+      "一人OK"
+    ],
+    "address": "福岡県福岡市中央区天神2-10-8",
+    "lat": 33.5885,
+    "lng": 130.3988,
+    "default_ai_summary": "天神のスープカレー。具材たっぷり。"
+  },
+  {
+    "id": "tenjin-coco",
+    "legacy_id": 497,
+    "name": "カレーハウスCoCo壱番屋 天神店",
+    "area_id": "tenjin",
+    "genre": "カレー",
+    "time_category": [
+      "昼",
+      "夜"
+    ],
+    "hours": "11:00〜22:00",
+    "tags": [
+      "一人OK"
+    ],
+    "address": "福岡県福岡市中央区天神2-5-20",
+    "lat": 33.5896,
+    "lng": 130.3972,
+    "default_ai_summary": "天神のCoCo壱。サクッとカレー。"
+  },
+  {
+    "id": "tenjin-katsuya",
+    "legacy_id": 498,
+    "name": "かつや 天神店",
+    "area_id": "tenjin",
+    "genre": "とんかつ/カツ丼",
+    "time_category": [
+      "昼",
+      "夜"
+    ],
+    "hours": "11:00〜22:00",
+    "tags": [
+      "一人OK"
+    ],
+    "address": "福岡県福岡市中央区天神2-7-5",
+    "lat": 33.5893,
+    "lng": 130.398,
+    "default_ai_summary": "天神のかつや。手早くカツ丼。"
+  },
+  {
+    "id": "tenjin-tonkatsu",
+    "legacy_id": 499,
+    "name": "とんかつ 天神店",
+    "area_id": "tenjin",
+    "genre": "とんかつ/カツ丼",
+    "time_category": [
+      "昼",
+      "夜"
+    ],
+    "hours": "11:00〜22:00",
+    "tags": [
+      "一人OK"
+    ],
+    "address": "福岡県福岡市中央区天神2-11-3",
+    "lat": 33.5882,
+    "lng": 130.3995,
+    "default_ai_summary": "天神のとんかつ店。ご褒美飯向き。"
+  },
+  {
+    "id": "tenjin-yoshinoya",
+    "legacy_id": 500,
+    "name": "吉野家 天神店",
+    "area_id": "tenjin",
+    "genre": "丼もの",
+    "time_category": [
+      "昼",
+      "夜"
+    ],
+    "hours": "11:00〜22:00",
+    "tags": [
+      "一人OK"
+    ],
+    "address": "福岡県福岡市中央区天神2-6-35",
+    "lat": 33.5895,
+    "lng": 130.397,
+    "default_ai_summary": "天神の24時間牛丼。朝一前から。"
+  },
+  {
+    "id": "tenjin-matsuya",
+    "legacy_id": 501,
+    "name": "松屋 天神店",
+    "area_id": "tenjin",
+    "genre": "丼もの",
+    "time_category": [
+      "昼",
+      "夜"
+    ],
+    "hours": "11:00〜22:00",
+    "tags": [
+      "一人OK"
+    ],
+    "address": "福岡県福岡市中央区天神2-7-18",
+    "lat": 33.589,
+    "lng": 130.3978,
+    "default_ai_summary": "天神の松屋。提供が早い。"
+  },
+  {
+    "id": "tenjin-sukiya",
+    "legacy_id": 502,
+    "name": "すき家 天神店",
+    "area_id": "tenjin",
+    "genre": "丼もの",
+    "time_category": [
+      "昼",
+      "夜"
+    ],
+    "hours": "11:00〜22:00",
+    "tags": [
+      "一人OK"
+    ],
+    "address": "福岡県福岡市中央区天神2-9-8",
+    "lat": 33.5888,
+    "lng": 130.3985,
+    "default_ai_summary": "天神のすき家。深夜帯も営業。"
+  },
+  {
+    "id": "tenjin-tenya",
+    "legacy_id": 503,
+    "name": "天丼てんや 天神店",
+    "area_id": "tenjin",
+    "genre": "丼もの",
+    "time_category": [
+      "昼",
+      "夜"
+    ],
+    "hours": "11:00〜22:00",
+    "tags": [
+      "一人OK"
+    ],
+    "address": "福岡県福岡市中央区天神2-6-42",
+    "lat": 33.5892,
+    "lng": 130.3975,
+    "default_ai_summary": "天神のてんや。サクッと天丼。"
+  },
+  {
+    "id": "tenjin-udon",
+    "legacy_id": 504,
+    "name": "うどん 天神店",
+    "area_id": "tenjin",
+    "genre": "そば/うどん",
+    "time_category": [
+      "昼",
+      "夜"
+    ],
+    "hours": "11:00〜22:00",
+    "tags": [
+      "一人OK"
+    ],
+    "address": "福岡県福岡市中央区天神2-8-5",
+    "lat": 33.5898,
+    "lng": 130.398,
+    "default_ai_summary": "天神のうどん店。軽い休憩向き。"
+  },
+  {
+    "id": "tenjin-fujisoba",
+    "legacy_id": 505,
+    "name": "なだい富士そば 天神店",
+    "area_id": "tenjin",
+    "genre": "そば/うどん",
+    "time_category": [
+      "昼",
+      "夜"
+    ],
+    "hours": "11:00〜22:00",
+    "tags": [
+      "一人OK"
+    ],
+    "address": "福岡県福岡市中央区天神2-10-12",
+    "lat": 33.589,
+    "lng": 130.3992,
+    "default_ai_summary": "天神の立ち食いそば。短時間向き。"
+  },
+  {
+    "id": "tenjin-soba",
+    "legacy_id": 506,
+    "name": "そば 天神店",
+    "area_id": "tenjin",
+    "genre": "そば/うどん",
+    "time_category": [
+      "昼",
+      "夜"
+    ],
+    "hours": "11:00〜22:00",
+    "tags": [
+      "一人OK"
+    ],
+    "address": "福岡県福岡市中央区天神2-12-5",
+    "lat": 33.5885,
+    "lng": 130.4002,
+    "default_ai_summary": "天神のそば店。あっさり系。"
+  },
+  {
+    "id": "tenjin-yakiniku",
+    "legacy_id": 507,
+    "name": "焼肉 天神店",
+    "area_id": "tenjin",
+    "genre": "焼肉",
+    "time_category": [
+      "昼",
+      "夜"
+    ],
+    "hours": "11:00〜22:00",
+    "tags": [
+      "一人OK"
+    ],
+    "address": "福岡県福岡市中央区今泉1-12-8",
+    "lat": 33.5858,
+    "lng": 130.4012,
+    "default_ai_summary": "今泉の焼肉店。一人でも入りやすい。"
+  },
+  {
+    "id": "tenjin-motsu",
+    "legacy_id": 508,
+    "name": "もつ鍋 天神店",
+    "area_id": "tenjin",
+    "genre": "焼肉",
+    "time_category": [
+      "昼",
+      "夜"
+    ],
+    "hours": "11:00〜22:00",
+    "tags": [
+      "一人OK"
+    ],
+    "address": "福岡県福岡市中央区今泉1-14-5",
+    "lat": 33.5862,
+    "lng": 130.4008,
+    "default_ai_summary": "今泉のもつ鍋。天神らしい締め飯。",
+    "is_kitaichimeshi": true,
+    "selection_tags": [
+      "local_famous"
+    ],
+    "selection_note": "エリアで遠征ユーザーにも知られる店"
+  },
+  {
+    "id": "tenjin-sushi",
+    "legacy_id": 509,
+    "name": "はま寿司 天神店",
+    "area_id": "tenjin",
+    "genre": "回転寿司",
+    "time_category": [
+      "昼",
+      "夜"
+    ],
+    "hours": "11:00〜22:00",
+    "tags": [
+      "一人OK"
+    ],
+    "address": "福岡県福岡市中央区天神2-6-41",
+    "lat": 33.5895,
+    "lng": 130.3978,
+    "default_ai_summary": "天神のはま寿司。サクッと寿司。"
+  },
+  {
+    "id": "tenjin-kura",
+    "legacy_id": 510,
+    "name": "くら寿司 天神店",
+    "area_id": "tenjin",
+    "genre": "回転寿司",
+    "time_category": [
+      "昼",
+      "夜"
+    ],
+    "hours": "11:00〜22:00",
+    "tags": [
+      "一人OK"
+    ],
+    "address": "福岡県福岡市中央区天神2-7-15",
+    "lat": 33.5892,
+    "lng": 130.3985,
+    "default_ai_summary": "天神のくら寿司。回転の速い寿司。"
+  },
+  {
+    "id": "tenjin-mos",
+    "legacy_id": 511,
+    "name": "モスバーガー 天神店",
+    "area_id": "tenjin",
+    "genre": "ハンバーガー",
+    "time_category": [
+      "昼",
+      "夜"
+    ],
+    "hours": "11:00〜22:00",
+    "tags": [
+      "一人OK"
+    ],
+    "address": "福岡県福岡市中央区天神2-5-25",
+    "lat": 33.589,
+    "lng": 130.3972,
+    "default_ai_summary": "天神のモスバーガー。軽めの昼休憩。"
+  },
+  {
+    "id": "tenjin-mcd",
+    "legacy_id": 512,
+    "name": "マクドナルド 天神店",
+    "area_id": "tenjin",
+    "genre": "ハンバーガー",
+    "time_category": [
+      "昼",
+      "夜"
+    ],
+    "hours": "11:00〜22:00",
+    "tags": [
+      "一人OK"
+    ],
+    "address": "福岡県福岡市中央区天神2-6-30",
+    "lat": 33.5896,
+    "lng": 130.3975,
+    "default_ai_summary": "天神のマクドナルド。朝一前にも。"
+  },
+  {
+    "id": "tenjin-katsuo",
+    "legacy_id": 513,
+    "name": "勝ち牛 天神店",
+    "area_id": "tenjin",
+    "genre": "とんかつ/カツ丼",
+    "time_category": [
+      "昼",
+      "夜"
+    ],
+    "hours": "11:00〜22:00",
+    "tags": [
+      "一人OK"
+    ],
+    "address": "福岡県福岡市中央区天神2-8-1",
+    "lat": 33.5893,
+    "lng": 130.3988,
+    "default_ai_summary": "天神の勝ち牛。肉厚ステーキ丼でご褒美飯。",
+    "is_kitaichimeshi": true,
+    "selection_tags": [
+      "local_famous"
+    ],
+    "selection_note": "エリアで遠征ユーザーにも知られる店"
+  }
+]

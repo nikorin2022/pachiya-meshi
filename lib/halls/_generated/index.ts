@@ -5,10 +5,12 @@
 // ================================================================
 
 import type { PachinkoHall } from "../types"
+import { fukuokaHalls } from "./fukuoka"
 import { osakaHalls } from "./osaka"
 import { tokyoHalls } from "./tokyo"
 
 const halls: readonly PachinkoHall[] = [
+  ...fukuokaHalls,
   ...osakaHalls,
   ...tokyoHalls,
 ] as const
