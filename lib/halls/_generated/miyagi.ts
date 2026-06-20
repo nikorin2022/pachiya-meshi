@@ -266,8 +266,8 @@ export const miyagiHalls: readonly PachinkoHall[] = [
     "prefecture": "宮城県",
     "city": "仙台市青葉区",
     "address": "宮城県仙台市青葉区中央1-7-10",
-    "lat": 38.25948,
-    "lng": 140.88105,
+    "lat": 38.262033,
+    "lng": 140.87945,
     "access": "JR仙台駅名掛丁商店街内 / 西口方面徒歩2分",
     "hours": "8:00〜23:40",
     "pachinko": 354,
@@ -276,64 +276,10 @@ export const miyagiHalls: readonly PachinkoHall[] = [
     "meal_guide": "パチンコ・パチスロユーザー向けに見ると、アムズガーデン仙台駅前店は名掛丁商店街内、JR仙台駅西口方面から徒歩圏の立地です。低貸玉・スロット寄りの店舗構成のため、短い休憩で商店街沿いのうどんや牛丼チェーンに行き、すぐ戻る使い方がしやすい動線です。朝一前は名掛丁入口付近の軽食店で済ませ、昼休憩はカレーや丼ものでサクッと、閉店後は商店街内の地場店で締めの一杯まで組み立てやすいです。東北遠征ユーザーにとって、P-STATIONやベガスベガス名掛丁店と近接し、西口側のホールをまとめて回りながら食事先を日替わりで変えやすい立地です。パチスロユーザーが休憩の長さを調整しやすいホールです。",
     "restaurants": [
       {
-        "id": 577,
-        "name": "利久 牛タン通り店",
-        "genre": "焼肉",
-        "walkMinutes": 1,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "11:00〜22:00",
-        "ai_summary": "牛タン通りの利久。仙台名物で遠征のご褒美飯として定番。",
-        "tags": [
-          "一人OK"
-        ],
-        "address": "宮城県仙台市青葉区中央1-6-8",
-        "lat": 38.2598,
-        "lng": 140.8812
-      },
-      {
-        "id": 619,
-        "name": "吉野家 仙台駅西口店",
-        "genre": "丼もの",
-        "walkMinutes": 1,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "6:00〜翌3:00",
-        "ai_summary": "仙台駅西口の吉野家。牛丼を素早く食べられる。",
-        "tags": [
-          "一人OK"
-        ],
-        "address": "宮城県仙台市青葉区中央1-7-1",
-        "lat": 38.259722,
-        "lng": 140.881111
-      },
-      {
-        "id": 621,
-        "name": "伝説のすた丼屋 仙台名掛丁店",
-        "genre": "丼もの",
-        "walkMinutes": 3,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "11:00〜23:00",
-        "ai_summary": "名掛丁のすた丼。ガッツリ丼で腹を満たす定番。",
-        "tags": [
-          "一人OK"
-        ],
-        "address": "宮城県仙台市青葉区中央2-6-36 中央レントビル1F",
-        "lat": 38.260417,
-        "lng": 140.882222
-      },
-      {
         "id": 622,
         "name": "カレーハウスCoCo壱番屋 仙台サンモール一番町店",
         "genre": "カレー",
-        "walkMinutes": 6,
+        "walkMinutes": 1,
         "time_category": [
           "昼",
           "夜"
@@ -348,28 +294,64 @@ export const miyagiHalls: readonly PachinkoHall[] = [
         "lng": 140.879444
       },
       {
-        "id": 620,
-        "name": "松屋 仙台東口店",
-        "genre": "丼もの",
-        "walkMinutes": 7,
+        "id": 577,
+        "name": "利久 牛タン通り店",
+        "genre": "焼肉",
+        "walkMinutes": 5,
         "time_category": [
           "昼",
           "夜"
         ],
-        "hours": "24時間営業",
-        "ai_summary": "BiVi仙台東口の松屋。牛めしを手軽に。",
+        "hours": "11:00〜22:00",
+        "ai_summary": "牛タン通りの利久。仙台名物で遠征のご褒美飯として定番。",
         "tags": [
           "一人OK"
         ],
-        "address": "宮城県仙台市宮城野区榴岡2-1-25 BiVi仙台駅東口 1階",
-        "lat": 38.260556,
-        "lng": 140.885556
+        "address": "宮城県仙台市青葉区中央1-6-8",
+        "lat": 38.2598,
+        "lng": 140.8812
+      },
+      {
+        "id": 621,
+        "name": "伝説のすた丼屋 仙台名掛丁店",
+        "genre": "丼もの",
+        "walkMinutes": 5,
+        "time_category": [
+          "昼",
+          "夜"
+        ],
+        "hours": "11:00〜23:00",
+        "ai_summary": "名掛丁のすた丼。ガッツリ丼で腹を満たす定番。",
+        "tags": [
+          "一人OK"
+        ],
+        "address": "宮城県仙台市青葉区中央2-6-36 中央レントビル1F",
+        "lat": 38.260417,
+        "lng": 140.882222
+      },
+      {
+        "id": 619,
+        "name": "吉野家 仙台駅西口店",
+        "genre": "丼もの",
+        "walkMinutes": 5,
+        "time_category": [
+          "昼",
+          "夜"
+        ],
+        "hours": "6:00〜翌3:00",
+        "ai_summary": "仙台駅西口の吉野家。牛丼を素早く食べられる。",
+        "tags": [
+          "一人OK"
+        ],
+        "address": "宮城県仙台市青葉区中央1-7-1",
+        "lat": 38.259722,
+        "lng": 140.881111
       },
       {
         "id": 562,
         "name": "牛たん弘 仙台駅東店",
         "genre": "焼肉",
-        "walkMinutes": 8,
+        "walkMinutes": 10,
         "time_category": [
           "昼",
           "夜"
@@ -382,6 +364,24 @@ export const miyagiHalls: readonly PachinkoHall[] = [
         "address": "宮城県仙台市宮城野区榴岡1-6-8",
         "lat": 38.2612,
         "lng": 140.886
+      },
+      {
+        "id": 620,
+        "name": "松屋 仙台東口店",
+        "genre": "丼もの",
+        "walkMinutes": 10,
+        "time_category": [
+          "昼",
+          "夜"
+        ],
+        "hours": "24時間営業",
+        "ai_summary": "BiVi仙台東口の松屋。牛めしを手軽に。",
+        "tags": [
+          "一人OK"
+        ],
+        "address": "宮城県仙台市宮城野区榴岡2-1-25 BiVi仙台駅東口 1階",
+        "lat": 38.260556,
+        "lng": 140.885556
       }
     ]
   },
@@ -392,8 +392,8 @@ export const miyagiHalls: readonly PachinkoHall[] = [
     "prefecture": "宮城県",
     "city": "仙台市青葉区",
     "address": "宮城県仙台市青葉区中央1-7-8",
-    "lat": 38.25955,
-    "lng": 140.88095,
+    "lat": 38.262163,
+    "lng": 140.879664,
     "access": "JR仙台駅名掛丁商店街内 / 西口方面徒歩2分",
     "hours": "8:00〜23:30",
     "pachinko": 336,
@@ -402,64 +402,10 @@ export const miyagiHalls: readonly PachinkoHall[] = [
     "meal_guide": "パチンコ・パチスロユーザー向けに見ると、ベガスベガス名掛丁店は名掛丁商店街内、JR仙台駅西口方面から徒歩圏の立地です。パチンコ寄りの台構成で、長めの休憩を取りながら商店街の牛タンやラーメン、回転寿司を使い分けやすい動線です。朝一前は商店街沿いのチェーンで軽食、昼休憩は混雑を避けてサクッと飯、閉店後は地場の焼肉やラーメンで締めまで組み立てやすいです。遠征ユーザーにとって、マルハン仙台駅東店とは東口・西口で動線が分かれるため、訪れるホールに合わせて飲食店を選ぶ仙台遠征の代表例として使いやすいホールです。名掛丁の飲食激戦区と近接し、食事の選択肢が豊富な立地です。",
     "restaurants": [
       {
-        "id": 577,
-        "name": "利久 牛タン通り店",
-        "genre": "焼肉",
-        "walkMinutes": 1,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "11:00〜22:00",
-        "ai_summary": "牛タン通りの利久。仙台名物で遠征のご褒美飯として定番。",
-        "tags": [
-          "一人OK"
-        ],
-        "address": "宮城県仙台市青葉区中央1-6-8",
-        "lat": 38.2598,
-        "lng": 140.8812
-      },
-      {
-        "id": 619,
-        "name": "吉野家 仙台駅西口店",
-        "genre": "丼もの",
-        "walkMinutes": 1,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "6:00〜翌3:00",
-        "ai_summary": "仙台駅西口の吉野家。牛丼を素早く食べられる。",
-        "tags": [
-          "一人OK"
-        ],
-        "address": "宮城県仙台市青葉区中央1-7-1",
-        "lat": 38.259722,
-        "lng": 140.881111
-      },
-      {
-        "id": 621,
-        "name": "伝説のすた丼屋 仙台名掛丁店",
-        "genre": "丼もの",
-        "walkMinutes": 3,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "11:00〜23:00",
-        "ai_summary": "名掛丁のすた丼。ガッツリ丼で腹を満たす定番。",
-        "tags": [
-          "一人OK"
-        ],
-        "address": "宮城県仙台市青葉区中央2-6-36 中央レントビル1F",
-        "lat": 38.260417,
-        "lng": 140.882222
-      },
-      {
         "id": 622,
         "name": "カレーハウスCoCo壱番屋 仙台サンモール一番町店",
         "genre": "カレー",
-        "walkMinutes": 6,
+        "walkMinutes": 1,
         "time_category": [
           "昼",
           "夜"
@@ -474,10 +420,64 @@ export const miyagiHalls: readonly PachinkoHall[] = [
         "lng": 140.879444
       },
       {
+        "id": 577,
+        "name": "利久 牛タン通り店",
+        "genre": "焼肉",
+        "walkMinutes": 5,
+        "time_category": [
+          "昼",
+          "夜"
+        ],
+        "hours": "11:00〜22:00",
+        "ai_summary": "牛タン通りの利久。仙台名物で遠征のご褒美飯として定番。",
+        "tags": [
+          "一人OK"
+        ],
+        "address": "宮城県仙台市青葉区中央1-6-8",
+        "lat": 38.2598,
+        "lng": 140.8812
+      },
+      {
+        "id": 621,
+        "name": "伝説のすた丼屋 仙台名掛丁店",
+        "genre": "丼もの",
+        "walkMinutes": 5,
+        "time_category": [
+          "昼",
+          "夜"
+        ],
+        "hours": "11:00〜23:00",
+        "ai_summary": "名掛丁のすた丼。ガッツリ丼で腹を満たす定番。",
+        "tags": [
+          "一人OK"
+        ],
+        "address": "宮城県仙台市青葉区中央2-6-36 中央レントビル1F",
+        "lat": 38.260417,
+        "lng": 140.882222
+      },
+      {
+        "id": 619,
+        "name": "吉野家 仙台駅西口店",
+        "genre": "丼もの",
+        "walkMinutes": 5,
+        "time_category": [
+          "昼",
+          "夜"
+        ],
+        "hours": "6:00〜翌3:00",
+        "ai_summary": "仙台駅西口の吉野家。牛丼を素早く食べられる。",
+        "tags": [
+          "一人OK"
+        ],
+        "address": "宮城県仙台市青葉区中央1-7-1",
+        "lat": 38.259722,
+        "lng": 140.881111
+      },
+      {
         "id": 620,
         "name": "松屋 仙台東口店",
         "genre": "丼もの",
-        "walkMinutes": 7,
+        "walkMinutes": 9,
         "time_category": [
           "昼",
           "夜"
@@ -495,7 +495,7 @@ export const miyagiHalls: readonly PachinkoHall[] = [
         "id": 562,
         "name": "牛たん弘 仙台駅東店",
         "genre": "焼肉",
-        "walkMinutes": 8,
+        "walkMinutes": 10,
         "time_category": [
           "昼",
           "夜"

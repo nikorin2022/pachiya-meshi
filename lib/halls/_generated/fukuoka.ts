@@ -14,8 +14,8 @@ export const fukuokaHalls: readonly PachinkoHall[] = [
     "prefecture": "福岡県",
     "city": "福岡市博多区",
     "address": "福岡県福岡市博多区博多駅中央街5-3",
-    "lat": 33.5893,
-    "lng": 130.4206,
+    "lat": 33.589651,
+    "lng": 130.421955,
     "access": "JR博多駅筑紫口から徒歩30秒",
     "hours": "10:00〜22:45",
     "pachinko": 515,
@@ -27,7 +27,7 @@ export const fukuokaHalls: readonly PachinkoHall[] = [
         "id": 468,
         "name": "一蘭 博多駅店",
         "genre": "ラーメン",
-        "walkMinutes": 1,
+        "walkMinutes": 2,
         "time_category": [
           "昼",
           "夜"
@@ -45,7 +45,7 @@ export const fukuokaHalls: readonly PachinkoHall[] = [
         "id": 467,
         "name": "博多めんくい堂 博多デイトス店",
         "genre": "ラーメン",
-        "walkMinutes": 1,
+        "walkMinutes": 2,
         "time_category": [
           "昼",
           "夜"
@@ -82,7 +82,7 @@ export const fukuokaHalls: readonly PachinkoHall[] = [
         "id": 466,
         "name": "一風堂 博多本店",
         "genre": "ラーメン",
-        "walkMinutes": 4,
+        "walkMinutes": 6,
         "time_category": [
           "昼",
           "夜"
@@ -101,7 +101,7 @@ export const fukuokaHalls: readonly PachinkoHall[] = [
         "id": 472,
         "name": "スープカレー ボンベイ 博多店",
         "genre": "カレー",
-        "walkMinutes": 7,
+        "walkMinutes": 9,
         "time_category": [
           "昼",
           "夜"
@@ -114,24 +114,6 @@ export const fukuokaHalls: readonly PachinkoHall[] = [
         "address": "福岡県福岡市博多区住吉2-5-18",
         "lat": 33.5878,
         "lng": 130.4165
-      },
-      {
-        "id": 482,
-        "name": "つるまる 博多店",
-        "genre": "そば/うどん",
-        "walkMinutes": 8,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "11:00〜22:00",
-        "ai_summary": "住吉のうどんチェーン。提供が早い。",
-        "tags": [
-          "一人OK"
-        ],
-        "address": "福岡県福岡市博多区住吉2-6-22",
-        "lat": 33.5875,
-        "lng": 130.4158
       }
     ]
   },
@@ -142,8 +124,8 @@ export const fukuokaHalls: readonly PachinkoHall[] = [
     "prefecture": "福岡県",
     "city": "福岡市博多区",
     "address": "福岡県福岡市博多区住吉2-6-24",
-    "lat": 33.5875,
-    "lng": 130.4155,
+    "lat": 33.5869721,
+    "lng": 130.4127017,
     "access": "博多駅から徒歩10分 / 住吉通り沿い",
     "hours": "10:00〜22:40",
     "pachinko": 480,
@@ -155,7 +137,7 @@ export const fukuokaHalls: readonly PachinkoHall[] = [
         "id": 482,
         "name": "つるまる 博多店",
         "genre": "そば/うどん",
-        "walkMinutes": 1,
+        "walkMinutes": 5,
         "time_category": [
           "昼",
           "夜"
@@ -170,28 +152,10 @@ export const fukuokaHalls: readonly PachinkoHall[] = [
         "lng": 130.4158
       },
       {
-        "id": 472,
-        "name": "スープカレー ボンベイ 博多店",
-        "genre": "カレー",
-        "walkMinutes": 2,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "11:00〜22:00",
-        "ai_summary": "住吉のスープカレー。ガッツリ昼食向き。",
-        "tags": [
-          "一人OK"
-        ],
-        "address": "福岡県福岡市博多区住吉2-5-18",
-        "lat": 33.5878,
-        "lng": 130.4165
-      },
-      {
         "id": 631,
         "name": "一蘭 キャナルシティ博多店",
         "genre": "ラーメン",
-        "walkMinutes": 7,
+        "walkMinutes": 5,
         "time_category": [
           "昼",
           "夜"
@@ -206,10 +170,64 @@ export const fukuokaHalls: readonly PachinkoHall[] = [
         "lng": 130.411389
       },
       {
+        "id": 472,
+        "name": "スープカレー ボンベイ 博多店",
+        "genre": "カレー",
+        "walkMinutes": 6,
+        "time_category": [
+          "昼",
+          "夜"
+        ],
+        "hours": "11:00〜22:00",
+        "ai_summary": "住吉のスープカレー。ガッツリ昼食向き。",
+        "tags": [
+          "一人OK"
+        ],
+        "address": "福岡県福岡市博多区住吉2-5-18",
+        "lat": 33.5878,
+        "lng": 130.4165
+      },
+      {
+        "id": 630,
+        "name": "長浜ナンバーワン 祇園店",
+        "genre": "ラーメン",
+        "walkMinutes": 6,
+        "time_category": [
+          "昼",
+          "夜"
+        ],
+        "hours": "11:30〜23:00",
+        "ai_summary": "祇園の長浜ラーメン。とんこつラーメンの老舗。",
+        "tags": [
+          "一人OK"
+        ],
+        "address": "福岡県福岡市博多区祇園町4-64 ニューウイングビル祇園 1F",
+        "lat": 33.589444,
+        "lng": 130.410278
+      }
+    ]
+  },
+  {
+    "id": "zion-hakata-ekimae",
+    "name": "ジオン博多駅前店",
+    "area": "博多",
+    "prefecture": "福岡県",
+    "city": "福岡市博多区",
+    "address": "福岡県福岡市博多区祇園町1-30",
+    "lat": 33.593674,
+    "lng": 130.414274,
+    "access": "地下鉄祇園駅目の前 / キャナルシティーから徒歩5分",
+    "hours": "10:00〜22:45",
+    "pachinko": 728,
+    "slot": 441,
+    "pachiya_comment": "地下鉄祇園駅目の前に位置する博多エリア最大級の老舗大型店です。博多駅・キャナルシティー方面からもアクセスしやすく、博多・祇園周辺の飲食店と組み合わせやすいホールです。",
+    "meal_guide": "パチンコ・パチスロユーザー向けに見ると、ジオン博多駅前店は地下鉄祇園駅目の前、キャナルシティーから徒歩5分の立地です。博多エリア最大級の台数を誇るため、長めの休憩を取りながら祇園・キャナルシティー方面の博多とんこつラーメンや焼肉、回転寿司を使い分けやすい動線です。朝一前は祇園駅周辺の軽食店で済ませ、昼休憩はカレーや丼ものでサクッと、閉店後はキャナルシティー内やもつ鍋系の地場店で締めまで組み立てやすいです。九州遠征ユーザーにとって、プラザ博多とは筑紫口と祇園で動線が分かれるため、同じ博多遠征でも日替わりで食事先を変えやすいホールです。パチンコ・パチスロ双方の台数が地域最大級で、長時間稼働の合間に周辺店を使い分けやすい立地です。",
+    "restaurants": [
+      {
         "id": 466,
         "name": "一風堂 博多本店",
         "genre": "ラーメン",
-        "walkMinutes": 8,
+        "walkMinutes": 9,
         "time_category": [
           "昼",
           "夜"
@@ -225,119 +243,10 @@ export const fukuokaHalls: readonly PachinkoHall[] = [
         "is_kitaichimeshi": true
       },
       {
-        "id": 468,
-        "name": "一蘭 博多駅店",
-        "genre": "ラーメン",
-        "walkMinutes": 9,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "11:00〜22:00",
-        "ai_summary": "博多駅の一蘭。短時間でとんこつラーメンを楽しめる。",
-        "tags": [
-          "一人OK"
-        ],
-        "address": "福岡県福岡市博多区博多駅中央街1-1",
-        "lat": 33.5898,
-        "lng": 130.4208
-      },
-      {
-        "id": 630,
-        "name": "長浜ナンバーワン 祇園店",
-        "genre": "ラーメン",
-        "walkMinutes": 9,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "11:30〜23:00",
-        "ai_summary": "祇園の長浜ラーメン。とんこつラーメンの老舗。",
-        "tags": [
-          "一人OK"
-        ],
-        "address": "福岡県福岡市博多区祇園町4-64 ニューウイングビル祇園 1F",
-        "lat": 33.589444,
-        "lng": 130.410278
-      },
-      {
-        "id": 467,
-        "name": "博多めんくい堂 博多デイトス店",
-        "genre": "ラーメン",
-        "walkMinutes": 10,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "11:00〜22:00",
-        "ai_summary": "博多デイトスの博多めんくい堂。駅直結で朝一前にも。",
-        "tags": [
-          "一人OK"
-        ],
-        "address": "福岡県福岡市博多区博多駅中央街1-1 博多デイトス",
-        "lat": 33.5895,
-        "lng": 130.421,
-        "is_kitaichimeshi": true
-      },
-      {
-        "id": 480,
-        "name": "うどんの福 博多店",
-        "genre": "そば/うどん",
-        "walkMinutes": 10,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "11:00〜22:00",
-        "ai_summary": "博多デイトス内のうどん。軽い休憩向き。",
-        "tags": [
-          "一人OK"
-        ],
-        "address": "福岡県福岡市博多区博多駅中央街1-1",
-        "lat": 33.5898,
-        "lng": 130.4212
-      }
-    ]
-  },
-  {
-    "id": "zion-hakata-ekimae",
-    "name": "ジオン博多駅前店",
-    "area": "博多",
-    "prefecture": "福岡県",
-    "city": "福岡市博多区",
-    "address": "福岡県福岡市博多区祇園町1-30",
-    "lat": 33.5897,
-    "lng": 130.4105,
-    "access": "地下鉄祇園駅目の前 / キャナルシティーから徒歩5分",
-    "hours": "10:00〜22:45",
-    "pachinko": 728,
-    "slot": 441,
-    "pachiya_comment": "地下鉄祇園駅目の前に位置する博多エリア最大級の老舗大型店です。博多駅・キャナルシティー方面からもアクセスしやすく、博多・祇園周辺の飲食店と組み合わせやすいホールです。",
-    "meal_guide": "パチンコ・パチスロユーザー向けに見ると、ジオン博多駅前店は地下鉄祇園駅目の前、キャナルシティーから徒歩5分の立地です。博多エリア最大級の台数を誇るため、長めの休憩を取りながら祇園・キャナルシティー方面の博多とんこつラーメンや焼肉、回転寿司を使い分けやすい動線です。朝一前は祇園駅周辺の軽食店で済ませ、昼休憩はカレーや丼ものでサクッと、閉店後はキャナルシティー内やもつ鍋系の地場店で締めまで組み立てやすいです。九州遠征ユーザーにとって、プラザ博多とは筑紫口と祇園で動線が分かれるため、同じ博多遠征でも日替わりで食事先を変えやすいホールです。パチンコ・パチスロ双方の台数が地域最大級で、長時間稼働の合間に周辺店を使い分けやすい立地です。",
-    "restaurants": [
-      {
-        "id": 630,
-        "name": "長浜ナンバーワン 祇園店",
-        "genre": "ラーメン",
-        "walkMinutes": 1,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "11:30〜23:00",
-        "ai_summary": "祇園の長浜ラーメン。とんこつラーメンの老舗。",
-        "tags": [
-          "一人OK"
-        ],
-        "address": "福岡県福岡市博多区祇園町4-64 ニューウイングビル祇園 1F",
-        "lat": 33.589444,
-        "lng": 130.410278
-      },
-      {
         "id": 631,
         "name": "一蘭 キャナルシティ博多店",
         "genre": "ラーメン",
-        "walkMinutes": 2,
+        "walkMinutes": 10,
         "time_category": [
           "昼",
           "夜"
@@ -352,40 +261,22 @@ export const fukuokaHalls: readonly PachinkoHall[] = [
         "lng": 130.411389
       },
       {
-        "id": 482,
-        "name": "つるまる 博多店",
-        "genre": "そば/うどん",
-        "walkMinutes": 9,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "11:00〜22:00",
-        "ai_summary": "住吉のうどんチェーン。提供が早い。",
-        "tags": [
-          "一人OK"
-        ],
-        "address": "福岡県福岡市博多区住吉2-6-22",
-        "lat": 33.5875,
-        "lng": 130.4158
-      },
-      {
-        "id": 472,
-        "name": "スープカレー ボンベイ 博多店",
-        "genre": "カレー",
+        "id": 630,
+        "name": "長浜ナンバーワン 祇園店",
+        "genre": "ラーメン",
         "walkMinutes": 10,
         "time_category": [
           "昼",
           "夜"
         ],
-        "hours": "11:00〜22:00",
-        "ai_summary": "住吉のスープカレー。ガッツリ昼食向き。",
+        "hours": "11:30〜23:00",
+        "ai_summary": "祇園の長浜ラーメン。とんこつラーメンの老舗。",
         "tags": [
           "一人OK"
         ],
-        "address": "福岡県福岡市博多区住吉2-5-18",
-        "lat": 33.5878,
-        "lng": 130.4165
+        "address": "福岡県福岡市博多区祇園町4-64 ニューウイングビル祇園 1F",
+        "lat": 33.589444,
+        "lng": 130.410278
       }
     ]
   },
@@ -396,8 +287,8 @@ export const fukuokaHalls: readonly PachinkoHall[] = [
     "prefecture": "福岡県",
     "city": "福岡市中央区",
     "address": "福岡県福岡市中央区天神2-6-37",
-    "lat": 33.5897,
-    "lng": 130.3975,
+    "lat": 33.589705,
+    "lng": 130.39754,
     "access": "地下鉄・西鉄天神駅から徒歩3分",
     "hours": "10:00〜22:45",
     "pachinko": 207,
@@ -446,7 +337,7 @@ export const fukuokaHalls: readonly PachinkoHall[] = [
         "id": 629,
         "name": "カレーハウスCoCo壱番屋 中央区今泉店",
         "genre": "カレー",
-        "walkMinutes": 9,
+        "walkMinutes": 8,
         "time_category": [
           "昼",
           "夜"
@@ -487,8 +378,8 @@ export const fukuokaHalls: readonly PachinkoHall[] = [
     "prefecture": "福岡県",
     "city": "福岡市中央区",
     "address": "福岡県福岡市中央区天神2-6-41",
-    "lat": 33.5895,
-    "lng": 130.3978,
+    "lat": 33.58984,
+    "lng": 130.397704,
     "access": "西鉄福岡（天神）駅から徒歩1分",
     "hours": "10:00〜22:45",
     "pachinko": 220,
@@ -496,6 +387,24 @@ export const fukuokaHalls: readonly PachinkoHall[] = [
     "pachiya_comment": "西鉄天神駅から徒歩1分の駅近立地です。天神繁華街の飲食激戦区に位置し、昼休憩から閉店後まで周辺店を使い分けやすいプラザの天神店です。博多駅前のプラザ博多と合わせて九州遠征の動線を組み立てやすい立地です。",
     "meal_guide": "パチンコ・パチスロユーザー向けに見ると、プラザ天神は西鉄福岡（天神）駅から徒歩1分の駅前立地です。改札からホールへ戻る距離が最短で、天神地下街や駅前チェーンへ天候を気にせず向かえるため、朝一前の軽食や昼休憩のサクッと飯に向いています。閉店後は天神南口方面の焼肉やラーメン、回転寿司で締めまで組み立てやすいです。九州遠征ユーザーにとって、博多駅前のプラザ博多と組み合わせて2日目以降の天神稼働と食事計画を立てやすく、GOGOアリーナ天神とは徒歩圏で近接するため日替わりで食事先を変えやすいホールです。パチンコ・パチスロ双方の台数バランスがあり、遠征ユーザーが天神の食事動線を組み立てやすい立地です。",
     "restaurants": [
+      {
+        "id": 627,
+        "name": "松屋 天神店",
+        "genre": "丼もの",
+        "walkMinutes": 2,
+        "time_category": [
+          "昼",
+          "夜"
+        ],
+        "hours": "24時間営業",
+        "ai_summary": "天神の松屋。牛めしを手軽に食べられる。",
+        "tags": [
+          "一人OK"
+        ],
+        "address": "福岡県福岡市中央区天神3-3-1 木下ビル",
+        "lat": 33.590333,
+        "lng": 130.398722
+      },
       {
         "id": 491,
         "name": "一風堂 天神店",
@@ -514,24 +423,6 @@ export const fukuokaHalls: readonly PachinkoHall[] = [
         "lat": 33.5898,
         "lng": 130.3985,
         "is_kitaichimeshi": true
-      },
-      {
-        "id": 627,
-        "name": "松屋 天神店",
-        "genre": "丼もの",
-        "walkMinutes": 3,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "24時間営業",
-        "ai_summary": "天神の松屋。牛めしを手軽に食べられる。",
-        "tags": [
-          "一人OK"
-        ],
-        "address": "福岡県福岡市中央区天神3-3-1 木下ビル",
-        "lat": 33.590333,
-        "lng": 130.398722
       },
       {
         "id": 629,
@@ -555,7 +446,7 @@ export const fukuokaHalls: readonly PachinkoHall[] = [
         "id": 628,
         "name": "すき家 天神南駅東店",
         "genre": "丼もの",
-        "walkMinutes": 8,
+        "walkMinutes": 9,
         "time_category": [
           "昼",
           "夜"
@@ -578,8 +469,8 @@ export const fukuokaHalls: readonly PachinkoHall[] = [
     "prefecture": "福岡県",
     "city": "福岡市中央区",
     "address": "福岡県福岡市中央区今泉1-13-1",
-    "lat": 33.5855,
-    "lng": 130.401,
+    "lat": 33.5863166,
+    "lng": 130.4004244,
     "access": "天神駅から徒歩5分 / 今泉・警固周辺",
     "hours": "10:00〜22:45",
     "pachinko": 441,
@@ -627,7 +518,7 @@ export const fukuokaHalls: readonly PachinkoHall[] = [
         "id": 491,
         "name": "一風堂 天神店",
         "genre": "ラーメン",
-        "walkMinutes": 9,
+        "walkMinutes": 7,
         "time_category": [
           "昼",
           "夜"
@@ -646,7 +537,7 @@ export const fukuokaHalls: readonly PachinkoHall[] = [
         "id": 627,
         "name": "松屋 天神店",
         "genre": "丼もの",
-        "walkMinutes": 10,
+        "walkMinutes": 8,
         "time_category": [
           "昼",
           "夜"
