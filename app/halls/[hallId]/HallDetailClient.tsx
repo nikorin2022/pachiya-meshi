@@ -62,6 +62,7 @@ function StoreMapEmbed({
   name,
   genre,
   originName,
+  originLatLng,
   mapUrl,
   className = "",
   showWalkTime,
@@ -71,7 +72,9 @@ function StoreMapEmbed({
   genre: string
   /** ルート起点となるパチンコホール名（ホール詳細ページでは固定） */
   originName: string
-  /** 明示的に上書きしたい場合のみ指定。未指定なら originName→name のルートURLを自動生成 */
+  /** ルート起点の座標（マップ URL では名称より優先） */
+  originLatLng?: { lat: number; lng: number }
+  /** 明示的に上書きしたい場合のみ指定。未指定なら origin→name のルートURLを自動生成 */
   mapUrl?: string
   className?: string
   showWalkTime?: boolean
@@ -79,7 +82,9 @@ function StoreMapEmbed({
 }) {
   const [hasError, setHasError] = useState(false)
 
-  const embedUrl = mapUrl || generateRouteEmbedUrl(originName, name)
+  const embedUrl =
+    mapUrl ||
+    generateRouteEmbedUrl(originName, name, { originLatLng })
   const fallbackStyle =
     genreFallbackStyles[genre as keyof typeof genreFallbackStyles] ||
     genreFallbackStyles["ラーメン"]
@@ -597,6 +602,7 @@ export default function HallDetailClient({
                       name={restaurant.name}
                       genre={restaurant.genre}
                       originName={hall.name}
+                      originLatLng={{ lat: hall.lat, lng: hall.lng }}
                       className="w-full h-32 sm:h-40"
                       showWalkTime
                       walkMinutes={restaurant.walkMinutes}
@@ -650,7 +656,9 @@ export default function HallDetailClient({
 
                       {/* Googleマップルート案内ボタン（ホール → 飲食店 / 徒歩） */}
                       <a
-                        href={getGoogleMapsDirectionUrl(hall.name, restaurant.name)}
+                        href={getGoogleMapsDirectionUrl(hall.name, restaurant.name, {
+                          originLatLng: { lat: hall.lat, lng: hall.lng },
+                        })}
                         target="_blank"
                         rel="noopener noreferrer"
                         className="inline-flex items-center justify-center gap-1.5 px-3 py-2 min-h-[44px] bg-blue-600 hover:bg-blue-700 text-white text-xs sm:text-sm font-medium rounded-lg transition-colors w-full break-words"

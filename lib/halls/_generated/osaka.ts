@@ -14,6 +14,8 @@ export const osakaHalls: readonly PachinkoHall[] = [
     "prefecture": "大阪府",
     "city": "大阪市中央区",
     "address": "大阪府大阪市中央区千日前2丁目11-5",
+    "lat": 34.6673,
+    "lng": 135.5065,
     "access": "なんば駅・日本橋駅より徒歩3分 / 千日前商店街・なんばオリエンタルホテル向かい",
     "hours": "10:00〜22:45",
     "pachinko": 622,
@@ -238,7 +240,7 @@ export const osakaHalls: readonly PachinkoHall[] = [
       },
       {
         "id": 418,
-        "name": "杵屋本店 難波",
+        "name": "杵屋本店",
         "genre": "そば/うどん",
         "walkMinutes": 6,
         "time_category": [
@@ -402,6 +404,8 @@ export const osakaHalls: readonly PachinkoHall[] = [
     "prefecture": "大阪府",
     "city": "大阪市中央区",
     "address": "大阪府大阪市中央区難波3-1-34",
+    "lat": 34.6655,
+    "lng": 135.5042,
     "access": "なんば駅より徒歩3分 / センター通り・ビックカメラ南側",
     "hours": "10:00〜22:45",
     "pachinko": 650,
@@ -411,7 +415,7 @@ export const osakaHalls: readonly PachinkoHall[] = [
     "restaurants": [
       {
         "id": 418,
-        "name": "杵屋本店 難波",
+        "name": "杵屋本店",
         "genre": "そば/うどん",
         "walkMinutes": 1,
         "time_category": [
@@ -861,6 +865,8 @@ export const osakaHalls: readonly PachinkoHall[] = [
     "prefecture": "大阪府",
     "city": "大阪市中央区",
     "address": "大阪府大阪市中央区難波千日前12番35号 SWINGヨシモト",
+    "lat": 34.6662,
+    "lng": 135.5058,
     "access": "なんば駅E5出口すぐ / 千日前商店街沿い",
     "hours": "10:00〜22:45",
     "pachinko": 704,
@@ -1047,7 +1053,7 @@ export const osakaHalls: readonly PachinkoHall[] = [
       },
       {
         "id": 418,
-        "name": "杵屋本店 難波",
+        "name": "杵屋本店",
         "genre": "そば/うどん",
         "walkMinutes": 4,
         "time_category": [
@@ -1320,6 +1326,8 @@ export const osakaHalls: readonly PachinkoHall[] = [
     "prefecture": "大阪府",
     "city": "大阪市中央区",
     "address": "大阪府大阪市中央区難波1-8-16",
+    "lat": 34.6658,
+    "lng": 135.5065,
     "access": "なんば駅より徒歩2分 / 難波駅直結ビル内",
     "hours": "10:00〜22:45",
     "pachinko": 512,
@@ -1454,7 +1462,7 @@ export const osakaHalls: readonly PachinkoHall[] = [
       },
       {
         "id": 418,
-        "name": "杵屋本店 難波",
+        "name": "杵屋本店",
         "genre": "そば/うどん",
         "walkMinutes": 4,
         "time_category": [

@@ -49,15 +49,14 @@ export type Restaurant = {
  * パチンコホール。1ホール = 1詳細ページ = 1データファイル の運用。
  *
  * - `id` は URL slug としても利用される（例: "island-akihabara"）
- * - `area` は Google マップ検索クエリの後半に付与される地域語（例: "秋葉原"）
- *   ホール周辺の飲食店の検索クエリも同じ area で組み立てる
+ * - `area` は表示・マップ検索の地域語ではなくエリア表示名（例: "秋葉原"）
  */
 export type PachinkoHall = {
   /** URL slug（半角英数 + ハイフンのみ） */
   id: string
   /** 正式名称（マップ検索クエリにも使用） */
   name: string
-  /** マップ検索の地域語（例: "秋葉原"、"新宿"、"梅田"） */
+  /** エリア表示名（例: "秋葉原"、"新宿"、"難波"） */
   area: string
   /** 例: "東京都" */
   prefecture: string
@@ -65,6 +64,10 @@ export type PachinkoHall = {
   city: string
   /** 表示用テキスト専用 */
   address: string
+  /** 経路検索の起点座標（マップ URL 生成用） */
+  lat: number
+  /** 経路検索の起点座標（マップ URL 生成用） */
+  lng: number
   /** 例: "JR秋葉原駅から徒歩2分 / 東京メトロ末広町駅から徒歩5分" */
   access: string
   hours: string

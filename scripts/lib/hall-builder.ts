@@ -37,6 +37,8 @@ export type LegacyHall = {
   prefecture: string
   city: string
   address: string
+  lat: number
+  lng: number
   access: string
   hours: string
   pachinko: number
@@ -110,6 +112,8 @@ export class HallBuilder {
       prefecture: hall.prefecture,
       city: hall.city,
       address: hall.address,
+      lat: hall.lat,
+      lng: hall.lng,
       access: hall.access,
       hours: hall.hours,
       pachinko: hall.pachinko,
