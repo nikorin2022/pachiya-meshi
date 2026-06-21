@@ -6394,7 +6394,7 @@
   {
     "id": "menya-kaijin-kanda",
     "legacy_id": 292,
-    "name": "麺屋 海人 神田店",
+    "name": "和風らーめん海人",
     "genre": "ラーメン",
     "time_category": [
       "昼",
@@ -6405,10 +6405,10 @@
       "ガッツリ",
       "一人OK"
     ],
-    "address": "東京都千代田区鍛冶町2-8-3",
-    "lat": 35.6921,
-    "lng": 139.7705,
-    "default_ai_summary": "神田西口徒歩2分の魚介ラーメン専門店。あっさり系ながら旨味がしっかりで、短時間でも満足感のある一杯が欲しい時に向く。",
+    "address": "東京都千代田区内神田2-13-4 丸木ビル1F",
+    "lat": 35.691235,
+    "lng": 139.768402,
+    "default_ai_summary": "神田西口徒歩3分の老舗和風ラーメン店。西口商店街の定番として、神田ジャンボ・コーシン圏からの休憩飯候補。",
     "is_kitaichimeshi": true,
     "selection_tags": [
       "local_famous",
@@ -6524,29 +6524,9 @@
     "area_id": "kanda"
   },
   {
-    "id": "kurasushi-kanda",
-    "legacy_id": 298,
-    "name": "くら寿司 神田店",
-    "genre": "回転寿司",
-    "time_category": [
-      "昼",
-      "夜"
-    ],
-    "hours": "11:00〜23:00",
-    "tags": [
-      "サク飯",
-      "一人OK"
-    ],
-    "address": "東京都千代田区神田須田町1-20",
-    "lat": 35.6928,
-    "lng": 139.7692,
-    "default_ai_summary": "神田須田町の回転寿司チェーン。一人でも入りやすく、提供ペースを自分で調整しやすい。",
-    "area_id": "kanda"
-  },
-  {
     "id": "yakiniku-like-kanda",
     "legacy_id": 299,
-    "name": "焼肉ライク 神田店",
+    "name": "焼肉ライク 神田西口店",
     "genre": "焼肉",
     "time_category": [
       "昼",
@@ -6557,16 +6537,16 @@
       "ガッツリ",
       "一人OK"
     ],
-    "address": "東京都千代田区鍛冶町2-12-3",
-    "lat": 35.6914,
-    "lng": 139.7696,
-    "default_ai_summary": "神田西口徒歩3分の一人焼肉チェーン。短時間でも肉を食べたい時に、提供速度とコスパのバランスが良い。",
+    "address": "東京都千代田区内神田3-12-10 神田西口NSビル1F",
+    "lat": 35.691242,
+    "lng": 139.770279,
+    "default_ai_summary": "神田西口徒歩1分の一人焼肉チェーン。短時間でも肉を食べたい時に、提供速度とコスパのバランスが良い。",
     "area_id": "kanda"
   },
   {
     "id": "ramen-kagetsu-kanda",
     "legacy_id": 300,
-    "name": "花月嵐 神田店",
+    "name": "らあめん花月嵐 神田店",
     "genre": "ラーメン",
     "time_category": [
       "昼",
@@ -6578,36 +6558,10 @@
       "一人OK",
       "深夜OK"
     ],
-    "address": "東京都千代田区神田須田町2-8-5",
-    "lat": 35.6926,
-    "lng": 139.7695,
-    "default_ai_summary": "神田須田町の家系ラーメンチェーン。深夜まで営業しており、長時間稼働の合間のガッツリ飯にも向く。",
-    "area_id": "kanda"
-  },
-  {
-    "id": "curry-korokoro-kanda",
-    "legacy_id": 301,
-    "name": "カレー屋コロコロ 神田店",
-    "genre": "カレー",
-    "time_category": [
-      "昼",
-      "夜"
-    ],
-    "hours": "11:00〜15:00、17:00〜21:00",
-    "tags": [
-      "サク飯",
-      "一人OK"
-    ],
-    "address": "東京都千代田区神田須田町2-3-12",
-    "lat": 35.6927,
-    "lng": 139.7693,
-    "default_ai_summary": "神田須田町の独立系カレー店。スパイス香る一皿で、オフィス街の昼休憩にも短時間で済ませやすい。",
-    "is_kitaichimeshi": true,
-    "selection_tags": [
-      "local_famous",
-      "notable_restaurant"
-    ],
-    "selection_note": "神田の独立系カレー店として選定",
+    "address": "東京都千代田区内神田2-13-3",
+    "lat": 35.691219,
+    "lng": 139.768555,
+    "default_ai_summary": "神田西口徒歩3分の醤油ラーメンチェーン。定番の家系一杯で、神田・みとや西口圏の手軽な定番。",
     "area_id": "kanda"
   },
   {
@@ -7054,118 +7008,6 @@
     "lat": 35.77,
     "lng": 139.8462,
     "default_ai_summary": "亀有駅北口目の前のファストフード。最速で済ませたい時や、軽めの休憩飯に向く。",
-    "area_id": "kameari"
-  },
-  {
-    "id": "kurasushi-kameari",
-    "legacy_id": 327,
-    "name": "くら寿司 亀有店",
-    "genre": "回転寿司",
-    "time_category": [
-      "昼",
-      "夜"
-    ],
-    "hours": "11:00〜23:00",
-    "tags": [
-      "サク飯",
-      "一人OK"
-    ],
-    "address": "東京都葛飾区亀有3-38-2",
-    "lat": 35.7685,
-    "lng": 139.8458,
-    "default_ai_summary": "亀有北口徒歩5分の回転寿司チェーン。アムディ亀有圏からアクセスしやすい。",
-    "area_id": "kameari"
-  },
-  {
-    "id": "yakiniku-like-kameari",
-    "legacy_id": 328,
-    "name": "焼肉ライク 亀有店",
-    "genre": "焼肉",
-    "time_category": [
-      "昼",
-      "夜"
-    ],
-    "hours": "11:00〜23:00",
-    "tags": [
-      "ガッツリ",
-      "一人OK"
-    ],
-    "address": "東京都葛飾区亀有2-44-1",
-    "lat": 35.7672,
-    "lng": 139.8488,
-    "default_ai_summary": "亀有南口徒歩4分の一人焼肉チェーン。短時間でも肉を食べたい時に向く。",
-    "area_id": "kameari"
-  },
-  {
-    "id": "ramen-kagetsu-kameari",
-    "legacy_id": 329,
-    "name": "花月嵐 亀有店",
-    "genre": "ラーメン",
-    "time_category": [
-      "昼",
-      "夜"
-    ],
-    "hours": "11:00〜翌4:00",
-    "tags": [
-      "ガッツリ",
-      "一人OK",
-      "深夜OK"
-    ],
-    "address": "東京都葛飾区亀有5-38-5",
-    "lat": 35.769,
-    "lng": 139.8475,
-    "default_ai_summary": "亀有北口徒歩3分の家系ラーメンチェーン。深夜まで営業しており、長時間稼働の合間にも使いやすい。",
-    "area_id": "kameari"
-  },
-  {
-    "id": "kameari-taishoken",
-    "legacy_id": 330,
-    "name": "亀有大勝軒",
-    "genre": "ラーメン",
-    "time_category": [
-      "昼",
-      "夜"
-    ],
-    "hours": "11:00〜15:00、17:00〜21:00",
-    "tags": [
-      "ガッツリ",
-      "一人OK"
-    ],
-    "address": "東京都葛飾区亀有3-37-8",
-    "lat": 35.7682,
-    "lng": 139.8452,
-    "default_ai_summary": "亀有の老舗中華そば店。つけ麺が名物で、地元で長年愛されている独立系の味。",
-    "is_kitaichimeshi": true,
-    "selection_tags": [
-      "local_famous",
-      "notable_restaurant"
-    ],
-    "selection_note": "亀有の老舗ラーメン店として選定",
-    "area_id": "kameari"
-  },
-  {
-    "id": "kameari-udon-takean",
-    "legacy_id": 331,
-    "name": "手打ちうどん 竹庵",
-    "genre": "そば/うどん",
-    "time_category": [
-      "昼",
-      "夜"
-    ],
-    "hours": "11:00〜15:00、17:00〜20:00",
-    "tags": [
-      "サク飯",
-      "一人OK"
-    ],
-    "address": "東京都葛飾区亀有3-36-5",
-    "lat": 35.768,
-    "lng": 139.8448,
-    "default_ai_summary": "亀有の独立系うどん店。コシのある手打ち麺が評判で、地元客に長年支持されている下町の味。",
-    "is_kitaichimeshi": true,
-    "selection_tags": [
-      "local_famous"
-    ],
-    "selection_note": "亀有の独立系うどん店として選定",
     "area_id": "kameari"
   },
   {
@@ -7708,62 +7550,21 @@
   {
     "id": "kurasushi-fuchu",
     "legacy_id": 357,
-    "name": "くら寿司 府中店",
+    "name": "くら寿司 ミッテン府中店",
     "genre": "回転寿司",
     "time_category": [
       "昼",
       "夜"
     ],
-    "hours": "11:00〜23:00",
+    "hours": "10:20〜22:00（L.O. 閉店30分前）",
     "tags": [
       "サク飯",
       "一人OK"
     ],
-    "address": "東京都府中市宮西町4-9-2",
-    "lat": 35.6732,
-    "lng": 139.4768,
-    "default_ai_summary": "府中北口徒歩4分の回転寿司チェーン。スパークル府中圏からアクセスしやすい。",
-    "area_id": "fuchu"
-  },
-  {
-    "id": "yakiniku-like-fuchu",
-    "legacy_id": 358,
-    "name": "焼肉ライク 府中店",
-    "genre": "焼肉",
-    "time_category": [
-      "昼",
-      "夜"
-    ],
-    "hours": "11:00〜23:00",
-    "tags": [
-      "ガッツリ",
-      "一人OK"
-    ],
-    "address": "東京都府中市本町1-11-5",
-    "lat": 35.6712,
-    "lng": 139.4802,
-    "default_ai_summary": "府中南口徒歩4分の一人焼肉チェーン。短時間でも肉を食べたい時に向く。",
-    "area_id": "fuchu"
-  },
-  {
-    "id": "ramen-kagetsu-fuchu",
-    "legacy_id": 359,
-    "name": "花月嵐 府中店",
-    "genre": "ラーメン",
-    "time_category": [
-      "昼",
-      "夜"
-    ],
-    "hours": "11:00〜翌4:00",
-    "tags": [
-      "ガッツリ",
-      "一人OK",
-      "深夜OK"
-    ],
-    "address": "東京都府中市本町1-12-3",
-    "lat": 35.671,
-    "lng": 139.4805,
-    "default_ai_summary": "府中南口徒歩4分の家系ラーメンチェーン。深夜まで営業しており、長時間稼働の合間にも使いやすい。",
+    "address": "東京都府中市宮町1-41-2 フォレストサイドビル8F",
+    "lat": 35.670776,
+    "lng": 139.479736,
+    "default_ai_summary": "府中駅南口徒歩3分の回転寿司。ミッテン府内8階で、スパークル府中圏からアクセスしやすい。",
     "area_id": "fuchu"
   },
   {
@@ -7784,32 +7585,6 @@
     "lat": 35.6717,
     "lng": 139.479,
     "default_ai_summary": "府中南口徒歩2分の定食・丼チェーン。和食系でさっと済ませたい昼休憩に使いやすい。",
-    "area_id": "fuchu"
-  },
-  {
-    "id": "fuchu-ramen-suzuran",
-    "legacy_id": 361,
-    "name": "ラーメンすずらん 府中店",
-    "genre": "ラーメン",
-    "time_category": [
-      "昼",
-      "夜"
-    ],
-    "hours": "11:00〜15:00、17:00〜21:00",
-    "tags": [
-      "ガッツリ",
-      "一人OK"
-    ],
-    "address": "東京都府中市本町2-5-8",
-    "lat": 35.6705,
-    "lng": 139.481,
-    "default_ai_summary": "府中の独立系ラーメン店。地元客に支持される味で、府中エリアのチェーンとは違う一杯が欲しい時に向く。",
-    "is_kitaichimeshi": true,
-    "selection_tags": [
-      "local_famous",
-      "notable_restaurant"
-    ],
-    "selection_note": "府中の独立系ラーメン店として選定",
     "area_id": "fuchu"
   },
   {
@@ -8472,8 +8247,8 @@
       "一人OK"
     ],
     "address": "東京都千代田区神田三崎町2-20-10 勝又ビル1F",
-    "lat": 35.7022,
-    "lng": 139.7538,
+    "lat": 35.701962,
+    "lng": 139.752945,
     "default_ai_summary": "水道橋駅東口徒歩1分の家系ラーメン。濃厚スープとライス無料で、みとや水道橋店からの戻りが短い休憩にも向く。"
   },
   {
@@ -8491,9 +8266,9 @@
       "ガッツリ",
       "一人OK"
     ],
-    "address": "東京都千代田区神田三崎町2-21-11 ゑびすビル1F",
-    "lat": 35.7024,
-    "lng": 139.7535,
+    "address": "東京都千代田区神田三崎町2-21-11 えびすビル1F",
+    "lat": 35.701603,
+    "lng": 139.753571,
     "default_ai_summary": "水道橋駅東口徒歩2分の二郎系ラーメン。ガード下を抜けた立地で、ホールから最短ルートで行ける一杯系の店。"
   },
   {
@@ -8577,9 +8352,9 @@
       "ガッツリ",
       "一人OK"
     ],
-    "address": "東京都千代田区神田三崎町3-5-2",
-    "lat": 35.7025,
-    "lng": 139.7515,
+    "address": "東京都千代田区神田三崎町3-4-9 横山ビル1F",
+    "lat": 35.701054,
+    "lng": 139.752289,
     "default_ai_summary": "水道橋西口徒歩2分の金沢カレー。キャベツ食べ放題で、提供が速くホール復帰までの時間を短くしやすい。"
   },
   {
