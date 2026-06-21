@@ -184,26 +184,6 @@
     "selection_note": "地域で知名度の高い人気店として選定"
   },
   {
-    "id": "tonkatsu-aoki-akihabara",
-    "legacy_id": 9,
-    "name": "とんかつ 檍 秋葉原店",
-    "area_id": "akihabara",
-    "genre": "とんかつ/カツ丼",
-    "time_category": [
-      "昼",
-      "夜"
-    ],
-    "hours": "11:00〜15:00、17:00〜21:00",
-    "tags": [
-      "ガッツリ",
-      "一人OK"
-    ],
-    "address": "東京都千代田区外神田3-6-4",
-    "lat": 35.701,
-    "lng": 139.7706,
-    "default_ai_summary": "レア気味に揚げられた極厚のSPF豚が絶品。軍資金に余裕がある時の贅沢飯としておすすめ。"
-  },
-  {
     "id": "nadai-fujisoba-akihabara-denkigai",
     "legacy_id": 10,
     "name": "名代 富士そば 秋葉原電気街店",

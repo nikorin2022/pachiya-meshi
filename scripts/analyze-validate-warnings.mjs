@@ -174,6 +174,10 @@ function isTimeShortChain(name) {
 }
 
 function isFabricatedName(name) {
+  // 公式サイト等で実在確認済みの固有名店（汎用パターン誤検知を除外）
+  const verifiedBrandPatterns = [/^とんかつ\s+にいむら/]
+  if (verifiedBrandPatterns.some((re) => re.test(name))) return false
+
   const patterns = [
     /^とんかつ\s+(?!和幸)/,
     /^焼肉\s+(?!ライク|牛庵|牛太)/,

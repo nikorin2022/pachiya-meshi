@@ -1,6 +1,6 @@
 # validate 警告分析レポート
 
-生成日時: 2026-06-21T04:46:20.664Z
+生成日時: 2026-06-21T04:54:03.938Z
 
 > 本レポートは `scripts/analyze-validate-warnings.mjs` により自動生成。データ修正は行っていません。
 
@@ -8,9 +8,9 @@
 
 | 項目 | 件数 |
 | ---- | ---: |
-| 総警告数 | 1668 |
-| P0（即対応） | 11 |
-| P1（優先確認） | 904 |
+| 総警告数 | 1652 |
+| P0（即対応） | 0 |
+| P1（優先確認） | 899 |
 | P2（順次改善） | 628 |
 | P3（コンテンツ品質） | 125 |
 | P4（後回し） | 0 |
@@ -19,14 +19,13 @@
 
 | 優先度 | カテゴリ | 件数 |
 | ---- | ---- | ---: |
-| P1 | restaurant_low_precision_coords | 831 |
+| P1 | restaurant_low_precision_coords | 826 |
 | P2 | restaurant_low_precision_coords | 522 |
 | P2 | hall_low_precision_coords | 106 |
 | P3 | donburi_chain_skew | 57 |
 | P3 | no_local_food | 48 |
 | P1 | near_walk_limit | 37 |
 | P1 | facility_address_incomplete | 36 |
-| P0 | fabricated_name_suspicion | 11 |
 | P3 | under5_restaurants | 8 |
 | P3 | low_main_genre_diversity | 7 |
 | P3 | no_expectation_meal | 5 |
@@ -48,7 +47,7 @@
 | 愛知県 | 0 | 8 | 0 | 13 | 0 | 21 |
 | 宮城県 | 0 | 5 | 0 | 8 | 0 | 13 |
 | 大阪府 | 0 | 49 | 23 | 14 | 0 | 86 |
-| 東京都 | 11 | 827 | 605 | 74 | 0 | 1517 |
+| 東京都 | 0 | 822 | 605 | 74 | 0 | 1501 |
 | 福岡県 | 0 | 12 | 0 | 8 | 0 | 20 |
 | 北海道 | 0 | 3 | 0 | 8 | 0 | 11 |
 
@@ -72,12 +71,12 @@
 | 東京都 | 高田馬場 | 0 | 15 | 16 | 4 | 0 | 35 |
 | 東京都 | 国分寺 | 0 | 19 | 14 | 0 | 0 | 33 |
 | 東京都 | 三鷹 | 0 | 18 | 4 | 0 | 0 | 22 |
-| 東京都 | 秋葉原 | 5 | 75 | 35 | 0 | 0 | 115 |
+| 東京都 | 秋葉原 | 0 | 70 | 35 | 0 | 0 | 105 |
 | 東京都 | 渋谷 | 0 | 26 | 23 | 0 | 0 | 49 |
 | 東京都 | 小岩 | 0 | 17 | 24 | 9 | 0 | 50 |
 | 東京都 | 上野 | 0 | 42 | 53 | 0 | 0 | 95 |
 | 東京都 | 新橋 | 0 | 30 | 15 | 0 | 0 | 45 |
-| 東京都 | 新宿 | 6 | 68 | 43 | 0 | 0 | 117 |
+| 東京都 | 新宿 | 0 | 68 | 43 | 0 | 0 | 111 |
 | 東京都 | 神田 | 0 | 32 | 14 | 1 | 0 | 47 |
 | 東京都 | 西日暮里 | 0 | 16 | 8 | 1 | 0 | 25 |
 | 東京都 | 赤羽 | 0 | 24 | 32 | 8 | 0 | 64 |
@@ -101,17 +100,11 @@
 
 | ホールID | ホール名 | エリア | P0 | P1 | P2 | P3 | P4 | 合計 | 備考 |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| island-akihabara | アイランド秋葉原店 | 秋葉原 | 1 | 17 | 10 | 0 | 0 | 28 | P0あり |
-| big-apple-akihabara | ビッグアップル．秋葉原店 | 秋葉原 | 1 | 15 | 6 | 0 | 0 | 22 | P0あり |
-| uno-akihabara | 秋葉原UNO | 秋葉原 | 1 | 15 | 6 | 0 | 0 | 22 | P0あり |
-| espace-akihabara-ekimae | エスパス日拓秋葉原駅前店 | 秋葉原 | 1 | 14 | 7 | 0 | 0 | 22 | P0あり |
-| cyber-pachinko-akihabara-showadori | サイバーパチンコ秋葉原昭和通り口店 | 秋葉原 | 1 | 14 | 6 | 0 | 0 | 21 | P0あり |
-| espace-shinjuku-seibu-ekimae | エスパス日拓西武新宿駅前店 | 新宿 | 1 | 10 | 7 | 0 | 0 | 18 | P0あり |
-| maruhan-shinjuku-toho | マルハン新宿東宝ビル店 | 新宿 | 1 | 10 | 6 | 0 | 0 | 17 | P0あり |
-| kaleido-shinjuku | カレイド新宿店 | 新宿 | 1 | 10 | 6 | 0 | 0 | 17 | P0あり |
-| kicona-shinjuku-sanchome | キコーナ新宿三丁目店 | 新宿 | 1 | 10 | 6 | 0 | 0 | 17 | P0あり |
-| vegas-vegas-shinjuku-minamiguchi | ベガスベガス新宿東南口店 | 新宿 | 1 | 10 | 5 | 0 | 0 | 16 | P0あり |
-| espace-shinjuku-kabukicho | エスパス日拓新宿歌舞伎町店 | 新宿 | 1 | 9 | 7 | 0 | 0 | 17 | P0あり |
+| island-akihabara | アイランド秋葉原店 | 秋葉原 | 0 | 16 | 10 | 0 | 0 | 26 | - |
+| big-apple-akihabara | ビッグアップル．秋葉原店 | 秋葉原 | 0 | 14 | 6 | 0 | 0 | 20 | - |
+| uno-akihabara | 秋葉原UNO | 秋葉原 | 0 | 14 | 6 | 0 | 0 | 20 | - |
+| espace-akihabara-ekimae | エスパス日拓秋葉原駅前店 | 秋葉原 | 0 | 13 | 7 | 0 | 0 | 20 | - |
+| cyber-pachinko-akihabara-showadori | サイバーパチンコ秋葉原昭和通り口店 | 秋葉原 | 0 | 13 | 6 | 0 | 0 | 19 | - |
 | kokusai-nakano | 国際センター中野店 | 中野 | 0 | 11 | 12 | 2 | 0 | 25 | 丼チェーン偏重, 地場飯不足 |
 | okura-shin-nakano | オークラ新中野店 | 中野坂上 | 0 | 11 | 12 | 2 | 0 | 25 | 丼チェーン偏重, 地場飯不足 |
 | espace-ueno-honkan | エスパス日拓上野本館 | 上野 | 0 | 11 | 13 | 0 | 0 | 24 | - |
@@ -122,8 +115,13 @@
 | uno-yurakucho | 有楽町UNO | 有楽町 | 0 | 11 | 3 | 0 | 0 | 14 | - |
 | granpa-nakano | グランパ中野 | 中野 | 0 | 10 | 12 | 2 | 0 | 24 | 丼チェーン偏重, 地場飯不足 |
 | kicona-kamata | キコーナ蒲田店 | 蒲田 | 0 | 10 | 8 | 2 | 0 | 20 | 丼チェーン偏重, 地場飯不足 |
+| espace-shinjuku-seibu-ekimae | エスパス日拓西武新宿駅前店 | 新宿 | 0 | 10 | 7 | 0 | 0 | 17 | - |
+| maruhan-shinjuku-toho | マルハン新宿東宝ビル店 | 新宿 | 0 | 10 | 6 | 0 | 0 | 16 | - |
+| kaleido-shinjuku | カレイド新宿店 | 新宿 | 0 | 10 | 6 | 0 | 0 | 16 | - |
+| kicona-shinjuku-sanchome | キコーナ新宿三丁目店 | 新宿 | 0 | 10 | 6 | 0 | 0 | 16 | - |
 | maruhan-ikebukuro | マルハン池袋店 | 池袋 | 0 | 10 | 6 | 0 | 0 | 16 | - |
 | big-dipper-shinbashi-1 | BIGディッパー新橋1号店 | 新橋 | 0 | 10 | 6 | 0 | 0 | 16 | - |
+| vegas-vegas-shinjuku-minamiguchi | ベガスベガス新宿東南口店 | 新宿 | 0 | 10 | 5 | 0 | 0 | 15 | - |
 | mitoya-kinshicho-minamiguchi | みとや錦糸町南口店 | 錦糸町 | 0 | 10 | 4 | 1 | 0 | 15 | 丼チェーン偏重 |
 | concert-hall-kitasenju | コンサートホール北千住 | 北千住 | 0 | 10 | 4 | 0 | 0 | 14 | - |
 | yasuda-nishi-ikebukuro-6 | やすだ西池袋6号店 | 池袋 | 0 | 10 | 2 | 0 | 0 | 12 | - |
@@ -132,6 +130,7 @@
 | parlor-super-seven-shin-nakano | パーラースーパーセブン新中野店 | 中野坂上 | 0 | 9 | 13 | 2 | 0 | 24 | 丼チェーン偏重, 地場飯不足 |
 | rakuen-ameyoko | 楽園アメ横店 | 上野 | 0 | 9 | 14 | 0 | 0 | 23 | - |
 | espace-shibuya-shinkan | エスパス日拓渋谷駅前新館 | 渋谷 | 0 | 9 | 8 | 0 | 0 | 17 | - |
+| espace-shinjuku-kabukicho | エスパス日拓新宿歌舞伎町店 | 新宿 | 0 | 9 | 7 | 0 | 0 | 16 | - |
 | rakuen-ikebukuro | 楽園池袋店 | 池袋 | 0 | 9 | 7 | 0 | 0 | 16 | - |
 | prego-ikebukuro-minamiguchi | プレゴ池袋南口店 | 池袋 | 0 | 9 | 7 | 0 | 0 | 16 | - |
 | rakuen-shibuya-ekimae | 楽園渋谷駅前店 | 渋谷 | 0 | 9 | 7 | 0 | 0 | 16 | - |
@@ -242,8 +241,8 @@
 
 | 都道府県 | エリア | P0 | P1 | P2 | P3 | 合計 |
 | --- | --- | --- | --- | --- | --- | --- |
-| 東京都 | 新宿 | 6 | 68 | 43 | 0 | 117 |
-| 東京都 | 秋葉原 | 5 | 75 | 35 | 0 | 115 |
+| 東京都 | 秋葉原 | 0 | 70 | 35 | 0 | 105 |
+| 東京都 | 新宿 | 0 | 68 | 43 | 0 | 111 |
 | 大阪府 | 難波 | 0 | 45 | 23 | 2 | 70 |
 | 東京都 | 上野 | 0 | 42 | 53 | 0 | 95 |
 | 東京都 | 池袋 | 0 | 38 | 22 | 0 | 60 |
@@ -267,17 +266,11 @@
 
 | ホールID | ホール名 | エリア | P0 | P1 | P2 | P3 | 合計 | 備考 |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| island-akihabara | アイランド秋葉原店 | 秋葉原 | 1 | 17 | 10 | 0 | 28 | P0あり |
-| big-apple-akihabara | ビッグアップル．秋葉原店 | 秋葉原 | 1 | 15 | 6 | 0 | 22 | P0あり |
-| uno-akihabara | 秋葉原UNO | 秋葉原 | 1 | 15 | 6 | 0 | 22 | P0あり |
-| espace-akihabara-ekimae | エスパス日拓秋葉原駅前店 | 秋葉原 | 1 | 14 | 7 | 0 | 22 | P0あり |
-| cyber-pachinko-akihabara-showadori | サイバーパチンコ秋葉原昭和通り口店 | 秋葉原 | 1 | 14 | 6 | 0 | 21 | P0あり |
-| espace-shinjuku-seibu-ekimae | エスパス日拓西武新宿駅前店 | 新宿 | 1 | 10 | 7 | 0 | 18 | P0あり |
-| maruhan-shinjuku-toho | マルハン新宿東宝ビル店 | 新宿 | 1 | 10 | 6 | 0 | 17 | P0あり |
-| kaleido-shinjuku | カレイド新宿店 | 新宿 | 1 | 10 | 6 | 0 | 17 | P0あり |
-| kicona-shinjuku-sanchome | キコーナ新宿三丁目店 | 新宿 | 1 | 10 | 6 | 0 | 17 | P0あり |
-| vegas-vegas-shinjuku-minamiguchi | ベガスベガス新宿東南口店 | 新宿 | 1 | 10 | 5 | 0 | 16 | P0あり |
-| espace-shinjuku-kabukicho | エスパス日拓新宿歌舞伎町店 | 新宿 | 1 | 9 | 7 | 0 | 17 | P0あり |
+| island-akihabara | アイランド秋葉原店 | 秋葉原 | 0 | 16 | 10 | 0 | 26 | - |
+| big-apple-akihabara | ビッグアップル．秋葉原店 | 秋葉原 | 0 | 14 | 6 | 0 | 20 | - |
+| uno-akihabara | 秋葉原UNO | 秋葉原 | 0 | 14 | 6 | 0 | 20 | - |
+| espace-akihabara-ekimae | エスパス日拓秋葉原駅前店 | 秋葉原 | 0 | 13 | 7 | 0 | 20 | - |
+| cyber-pachinko-akihabara-showadori | サイバーパチンコ秋葉原昭和通り口店 | 秋葉原 | 0 | 13 | 6 | 0 | 19 | - |
 | kokusai-nakano | 国際センター中野店 | 中野 | 0 | 11 | 12 | 2 | 25 | 丼チェーン偏重, 地場飯不足 |
 | okura-shin-nakano | オークラ新中野店 | 中野坂上 | 0 | 11 | 12 | 2 | 25 | 丼チェーン偏重, 地場飯不足 |
 | espace-ueno-honkan | エスパス日拓上野本館 | 上野 | 0 | 11 | 13 | 0 | 24 | - |
@@ -288,8 +281,13 @@
 | uno-yurakucho | 有楽町UNO | 有楽町 | 0 | 11 | 3 | 0 | 14 | - |
 | granpa-nakano | グランパ中野 | 中野 | 0 | 10 | 12 | 2 | 24 | 丼チェーン偏重, 地場飯不足 |
 | kicona-kamata | キコーナ蒲田店 | 蒲田 | 0 | 10 | 8 | 2 | 20 | 丼チェーン偏重, 地場飯不足 |
+| espace-shinjuku-seibu-ekimae | エスパス日拓西武新宿駅前店 | 新宿 | 0 | 10 | 7 | 0 | 17 | - |
+| maruhan-shinjuku-toho | マルハン新宿東宝ビル店 | 新宿 | 0 | 10 | 6 | 0 | 16 | - |
+| kaleido-shinjuku | カレイド新宿店 | 新宿 | 0 | 10 | 6 | 0 | 16 | - |
+| kicona-shinjuku-sanchome | キコーナ新宿三丁目店 | 新宿 | 0 | 10 | 6 | 0 | 16 | - |
 | maruhan-ikebukuro | マルハン池袋店 | 池袋 | 0 | 10 | 6 | 0 | 16 | - |
 | big-dipper-shinbashi-1 | BIGディッパー新橋1号店 | 新橋 | 0 | 10 | 6 | 0 | 16 | - |
+| vegas-vegas-shinjuku-minamiguchi | ベガスベガス新宿東南口店 | 新宿 | 0 | 10 | 5 | 0 | 15 | - |
 | mitoya-kinshicho-minamiguchi | みとや錦糸町南口店 | 錦糸町 | 0 | 10 | 4 | 1 | 15 | 丼チェーン偏重 |
 | concert-hall-kitasenju | コンサートホール北千住 | 北千住 | 0 | 10 | 4 | 0 | 14 | - |
 | yasuda-nishi-ikebukuro-6 | やすだ西池袋6号店 | 池袋 | 0 | 10 | 2 | 0 | 12 | - |
@@ -297,6 +295,7 @@
 | messe-mitaka | メッセ三鷹店 | 三鷹 | 0 | 10 | 1 | 0 | 11 | - |
 | parlor-super-seven-shin-nakano | パーラースーパーセブン新中野店 | 中野坂上 | 0 | 9 | 13 | 2 | 24 | 丼チェーン偏重, 地場飯不足 |
 | rakuen-ameyoko | 楽園アメ横店 | 上野 | 0 | 9 | 14 | 0 | 23 | - |
+| espace-shibuya-shinkan | エスパス日拓渋谷駅前新館 | 渋谷 | 0 | 9 | 8 | 0 | 17 | - |
 
 ## 7. 掲載品質リスト
 

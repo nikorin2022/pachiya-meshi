@@ -106,25 +106,6 @@ export const tokyoHalls: readonly PachinkoHall[] = [
         "is_kitaichimeshi": true
       },
       {
-        "id": 9,
-        "name": "とんかつ 檍 秋葉原店",
-        "genre": "とんかつ/カツ丼",
-        "walkMinutes": 3,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "11:00〜15:00、17:00〜21:00",
-        "ai_summary": "レア気味に揚げられた極厚のSPF豚が絶品。軍資金に余裕がある時の贅沢飯としておすすめ。",
-        "tags": [
-          "ガッツリ",
-          "一人OK"
-        ],
-        "address": "東京都千代田区外神田3-6-4",
-        "lat": 35.701,
-        "lng": 139.7706
-      },
-      {
         "id": 7,
         "name": "カリガリ 秋葉原",
         "genre": "カレー",
@@ -842,25 +823,6 @@ export const tokyoHalls: readonly PachinkoHall[] = [
         "lng": 139.7702
       },
       {
-        "id": 9,
-        "name": "とんかつ 檍 秋葉原店",
-        "genre": "とんかつ/カツ丼",
-        "walkMinutes": 6,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "11:00〜15:00、17:00〜21:00",
-        "ai_summary": "レア気味に揚げられた極厚のSPF豚が絶品。軍資金に余裕がある時の贅沢飯としておすすめ。",
-        "tags": [
-          "ガッツリ",
-          "一人OK"
-        ],
-        "address": "東京都千代田区外神田3-6-4",
-        "lat": 35.701,
-        "lng": 139.7706
-      },
-      {
         "id": 1,
         "name": "麺処 ほん田 秋葉原本店",
         "genre": "ラーメン",
@@ -1237,25 +1199,6 @@ export const tokyoHalls: readonly PachinkoHall[] = [
         "lat": 35.7016,
         "lng": 139.772,
         "is_kitaichimeshi": true
-      },
-      {
-        "id": 9,
-        "name": "とんかつ 檍 秋葉原店",
-        "genre": "とんかつ/カツ丼",
-        "walkMinutes": 7,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "11:00〜15:00、17:00〜21:00",
-        "ai_summary": "レア気味に揚げられた極厚のSPF豚が絶品。軍資金に余裕がある時の贅沢飯としておすすめ。",
-        "tags": [
-          "ガッツリ",
-          "一人OK"
-        ],
-        "address": "東京都千代田区外神田3-6-4",
-        "lat": 35.701,
-        "lng": 139.7706
       },
       {
         "id": 1,
@@ -1636,25 +1579,6 @@ export const tokyoHalls: readonly PachinkoHall[] = [
         "address": "東京都千代田区神田須田町2-21",
         "lat": 35.6961,
         "lng": 139.7715
-      },
-      {
-        "id": 9,
-        "name": "とんかつ 檍 秋葉原店",
-        "genre": "とんかつ/カツ丼",
-        "walkMinutes": 7,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "11:00〜15:00、17:00〜21:00",
-        "ai_summary": "レア気味に揚げられた極厚のSPF豚が絶品。軍資金に余裕がある時の贅沢飯としておすすめ。",
-        "tags": [
-          "ガッツリ",
-          "一人OK"
-        ],
-        "address": "東京都千代田区外神田3-6-4",
-        "lat": 35.701,
-        "lng": 139.7706
       },
       {
         "id": 2,
@@ -2115,25 +2039,6 @@ export const tokyoHalls: readonly PachinkoHall[] = [
         "address": "東京都千代田区外神田4-4-3",
         "lat": 35.7026,
         "lng": 139.772
-      },
-      {
-        "id": 9,
-        "name": "とんかつ 檍 秋葉原店",
-        "genre": "とんかつ/カツ丼",
-        "walkMinutes": 8,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "11:00〜15:00、17:00〜21:00",
-        "ai_summary": "レア気味に揚げられた極厚のSPF豚が絶品。軍資金に余裕がある時の贅沢飯としておすすめ。",
-        "tags": [
-          "ガッツリ",
-          "一人OK"
-        ],
-        "address": "東京都千代田区外神田3-6-4",
-        "lat": 35.701,
-        "lng": 139.7706
       }
     ]
   },
