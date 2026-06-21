@@ -4305,7 +4305,7 @@ export const tokyoHalls: readonly PachinkoHall[] = [
         "id": 35,
         "name": "ゴーゴーカレー 池袋東口スタジアム",
         "genre": "カレー",
-        "walkMinutes": 1,
+        "walkMinutes": 2,
         "time_category": [
           "昼",
           "夜"
@@ -4318,14 +4318,14 @@ export const tokyoHalls: readonly PachinkoHall[] = [
           "一人OK"
         ],
         "address": "東京都豊島区南池袋1-23-2 ティワイズビルB1F",
-        "lat": 35.7286,
-        "lng": 139.7132
+        "lat": 35.728798,
+        "lng": 139.712372
       },
       {
         "id": 33,
         "name": "むかん 池袋",
         "genre": "ラーメン",
-        "walkMinutes": 1,
+        "walkMinutes": 2,
         "time_category": [
           "昼",
           "夜"
@@ -4336,30 +4336,9 @@ export const tokyoHalls: readonly PachinkoHall[] = [
           "サク飯",
           "一人OK"
         ],
-        "address": "東京都豊島区南池袋1-24-5",
-        "lat": 35.7283,
-        "lng": 139.7128,
-        "is_kitaichimeshi": true
-      },
-      {
-        "id": 34,
-        "name": "麺創房 無敵家",
-        "genre": "ラーメン",
-        "walkMinutes": 2,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "10:30〜翌4:00",
-        "ai_summary": "1994年創業の家系風とんこつ。深夜まで営業し、池袋の〆ラーメンとして定番。",
-        "tags": [
-          "ガッツリ",
-          "一人OK",
-          "深夜OK"
-        ],
-        "address": "東京都豊島区南池袋1-17-1",
-        "lat": 35.7288,
-        "lng": 139.7118,
+        "address": "東京都豊島区南池袋1-24-5 楽園タウン池袋1F",
+        "lat": 35.728897,
+        "lng": 139.712921,
         "is_kitaichimeshi": true
       },
       {
@@ -4383,6 +4362,27 @@ export const tokyoHalls: readonly PachinkoHall[] = [
         "address": "東京都豊島区南池袋1-27-8",
         "lat": 35.7295,
         "lng": 139.7129
+      },
+      {
+        "id": 34,
+        "name": "麺創房 無敵家",
+        "genre": "ラーメン",
+        "walkMinutes": 4,
+        "time_category": [
+          "昼",
+          "夜"
+        ],
+        "hours": "10:30〜翌4:00",
+        "ai_summary": "1994年創業の家系風とんこつ。深夜まで営業し、池袋の〆ラーメンとして定番。",
+        "tags": [
+          "ガッツリ",
+          "一人OK",
+          "深夜OK"
+        ],
+        "address": "東京都豊島区南池袋1-17-1 崎本ビル1F",
+        "lat": 35.726894,
+        "lng": 139.711578,
+        "is_kitaichimeshi": true
       },
       {
         "id": 40,
@@ -4450,26 +4450,6 @@ export const tokyoHalls: readonly PachinkoHall[] = [
         "lng": 139.714
       },
       {
-        "id": 39,
-        "name": "くら寿司 池袋駅西口店",
-        "genre": "回転寿司",
-        "walkMinutes": 6,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "11:00〜24:00",
-        "ai_summary": "西口徒歩1分の回転寿司チェーン。深夜まで営業し、西口ホール圏からの軽食に使いやすい。",
-        "tags": [
-          "サク飯",
-          "一人OK",
-          "深夜OK"
-        ],
-        "address": "東京都豊島区西池袋1-10-10 東武アネックスビルB1F",
-        "lat": 35.7298,
-        "lng": 139.7095
-      },
-      {
         "id": 41,
         "name": "弥三郎",
         "genre": "そば/うどん",
@@ -4489,26 +4469,6 @@ export const tokyoHalls: readonly PachinkoHall[] = [
         "lng": 139.7088
       },
       {
-        "id": 140,
-        "name": "らぁ麺 はやし田 池袋店",
-        "genre": "ラーメン",
-        "walkMinutes": 7,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "11:00〜23:00",
-        "ai_summary": "池袋駅東口徒歩4分の醤油ラーメン。鶏出汁の定番一杯で、東口大型ホール圏の人気店。",
-        "tags": [
-          "サク飯",
-          "ガッツリ",
-          "一人OK"
-        ],
-        "address": "東京都豊島区東池袋1-40-10 川又ビル 1F",
-        "lat": 35.7315,
-        "lng": 139.7148
-      },
-      {
         "id": 32,
         "name": "一蘭 池袋駅前店",
         "genre": "ラーメン",
@@ -4525,8 +4485,28 @@ export const tokyoHalls: readonly PachinkoHall[] = [
           "深夜OK"
         ],
         "address": "東京都豊島区東池袋1-42-8",
-        "lat": 35.7315,
-        "lng": 139.7145
+        "lat": 35.731949,
+        "lng": 139.712708
+      },
+      {
+        "id": 39,
+        "name": "くら寿司 池袋駅西口店",
+        "genre": "回転寿司",
+        "walkMinutes": 7,
+        "time_category": [
+          "昼",
+          "夜"
+        ],
+        "hours": "11:00〜24:00",
+        "ai_summary": "西口徒歩1分の回転寿司チェーン。深夜まで営業し、西口ホール圏からの軽食に使いやすい。",
+        "tags": [
+          "サク飯",
+          "一人OK",
+          "深夜OK"
+        ],
+        "address": "東京都豊島区西池袋1-10-10 東武アネックスビルB1F",
+        "lat": 35.729763,
+        "lng": 139.709015
       },
       {
         "id": 141,
@@ -4567,8 +4547,8 @@ export const tokyoHalls: readonly PachinkoHall[] = [
           "一人OK"
         ],
         "address": "東京都豊島区東池袋1-40-3 池袋籏ビル1F",
-        "lat": 35.7312,
-        "lng": 139.7148
+        "lat": 35.731937,
+        "lng": 139.71373
       },
       {
         "id": 138,
@@ -4589,6 +4569,26 @@ export const tokyoHalls: readonly PachinkoHall[] = [
         "address": "東京都豊島区西池袋5-8-7 深野ビル 1F",
         "lat": 35.731,
         "lng": 139.7085
+      },
+      {
+        "id": 140,
+        "name": "らぁ麺 はやし田 池袋店",
+        "genre": "ラーメン",
+        "walkMinutes": 8,
+        "time_category": [
+          "昼",
+          "夜"
+        ],
+        "hours": "11:00〜23:00",
+        "ai_summary": "池袋駅東口徒歩4分の醤油ラーメン。鶏出汁の定番一杯で、東口大型ホール圏の人気店。",
+        "tags": [
+          "サク飯",
+          "ガッツリ",
+          "一人OK"
+        ],
+        "address": "東京都豊島区東池袋1-40-10 川又ビル1F",
+        "lat": 35.732231,
+        "lng": 139.713882
       },
       {
         "id": 137,
@@ -4633,7 +4633,7 @@ export const tokyoHalls: readonly PachinkoHall[] = [
         "id": 140,
         "name": "らぁ麺 はやし田 池袋店",
         "genre": "ラーメン",
-        "walkMinutes": 1,
+        "walkMinutes": 3,
         "time_category": [
           "昼",
           "夜"
@@ -4645,49 +4645,9 @@ export const tokyoHalls: readonly PachinkoHall[] = [
           "ガッツリ",
           "一人OK"
         ],
-        "address": "東京都豊島区東池袋1-40-10 川又ビル 1F",
-        "lat": 35.7315,
-        "lng": 139.7148
-      },
-      {
-        "id": 38,
-        "name": "焼肉ライク 池袋東口店",
-        "genre": "焼肉",
-        "walkMinutes": 1,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "11:00〜23:00",
-        "ai_summary": "東口徒歩1分の一人焼肉専門。無煙ロースターで気軽にスタミナチャージできる。",
-        "tags": [
-          "サク飯",
-          "ガッツリ",
-          "一人OK"
-        ],
-        "address": "東京都豊島区東池袋1-40-3 池袋籏ビル1F",
-        "lat": 35.7312,
-        "lng": 139.7148
-      },
-      {
-        "id": 32,
-        "name": "一蘭 池袋駅前店",
-        "genre": "ラーメン",
-        "walkMinutes": 2,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "24時間営業",
-        "ai_summary": "東口徒歩2分・24時間の個室風カウンター。いつでもサクッと入れる池袋の定番ラーメン。",
-        "tags": [
-          "サク飯",
-          "一人OK",
-          "深夜OK"
-        ],
-        "address": "東京都豊島区東池袋1-42-8",
-        "lat": 35.7315,
-        "lng": 139.7145
+        "address": "東京都豊島区東池袋1-40-10 川又ビル1F",
+        "lat": 35.732231,
+        "lng": 139.713882
       },
       {
         "id": 141,
@@ -4734,6 +4694,26 @@ export const tokyoHalls: readonly PachinkoHall[] = [
         "lng": 139.7138
       },
       {
+        "id": 38,
+        "name": "焼肉ライク 池袋東口店",
+        "genre": "焼肉",
+        "walkMinutes": 3,
+        "time_category": [
+          "昼",
+          "夜"
+        ],
+        "hours": "11:00〜23:00",
+        "ai_summary": "東口徒歩1分の一人焼肉専門。無煙ロースターで気軽にスタミナチャージできる。",
+        "tags": [
+          "サク飯",
+          "ガッツリ",
+          "一人OK"
+        ],
+        "address": "東京都豊島区東池袋1-40-3 池袋籏ビル1F",
+        "lat": 35.731937,
+        "lng": 139.71373
+      },
+      {
         "id": 37,
         "name": "吉野家 池袋東口店",
         "genre": "丼もの",
@@ -4754,6 +4734,26 @@ export const tokyoHalls: readonly PachinkoHall[] = [
         "address": "東京都豊島区東池袋1-7-8",
         "lat": 35.7305,
         "lng": 139.714
+      },
+      {
+        "id": 32,
+        "name": "一蘭 池袋駅前店",
+        "genre": "ラーメン",
+        "walkMinutes": 5,
+        "time_category": [
+          "昼",
+          "夜"
+        ],
+        "hours": "24時間営業",
+        "ai_summary": "東口徒歩2分・24時間の個室風カウンター。いつでもサクッと入れる池袋の定番ラーメン。",
+        "tags": [
+          "サク飯",
+          "一人OK",
+          "深夜OK"
+        ],
+        "address": "東京都豊島区東池袋1-42-8",
+        "lat": 35.731949,
+        "lng": 139.712708
       },
       {
         "id": 139,
@@ -4778,10 +4778,30 @@ export const tokyoHalls: readonly PachinkoHall[] = [
         "lng": 139.7129
       },
       {
+        "id": 33,
+        "name": "むかん 池袋",
+        "genre": "ラーメン",
+        "walkMinutes": 6,
+        "time_category": [
+          "昼",
+          "夜"
+        ],
+        "hours": "11:00〜22:00（L.O. 21:30）",
+        "ai_summary": "楽園池袋店ビル内の牡蠣塩ラーメン専門店。850円・提供2〜3分で東口大型店からの休憩飯に最適。",
+        "tags": [
+          "サク飯",
+          "一人OK"
+        ],
+        "address": "東京都豊島区南池袋1-24-5 楽園タウン池袋1F",
+        "lat": 35.728897,
+        "lng": 139.712921,
+        "is_kitaichimeshi": true
+      },
+      {
         "id": 35,
         "name": "ゴーゴーカレー 池袋東口スタジアム",
         "genre": "カレー",
-        "walkMinutes": 6,
+        "walkMinutes": 7,
         "time_category": [
           "昼",
           "夜"
@@ -4794,49 +4814,8 @@ export const tokyoHalls: readonly PachinkoHall[] = [
           "一人OK"
         ],
         "address": "東京都豊島区南池袋1-23-2 ティワイズビルB1F",
-        "lat": 35.7286,
-        "lng": 139.7132
-      },
-      {
-        "id": 33,
-        "name": "むかん 池袋",
-        "genre": "ラーメン",
-        "walkMinutes": 7,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "11:00〜22:00（L.O. 21:30）",
-        "ai_summary": "楽園池袋店ビル内の牡蠣塩ラーメン専門店。850円・提供2〜3分で東口大型店からの休憩飯に最適。",
-        "tags": [
-          "サク飯",
-          "一人OK"
-        ],
-        "address": "東京都豊島区南池袋1-24-5",
-        "lat": 35.7283,
-        "lng": 139.7128,
-        "is_kitaichimeshi": true
-      },
-      {
-        "id": 34,
-        "name": "麺創房 無敵家",
-        "genre": "ラーメン",
-        "walkMinutes": 7,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "10:30〜翌4:00",
-        "ai_summary": "1994年創業の家系風とんこつ。深夜まで営業し、池袋の〆ラーメンとして定番。",
-        "tags": [
-          "ガッツリ",
-          "一人OK",
-          "深夜OK"
-        ],
-        "address": "東京都豊島区南池袋1-17-1",
-        "lat": 35.7288,
-        "lng": 139.7118,
-        "is_kitaichimeshi": true
+        "lat": 35.728798,
+        "lng": 139.712372
       },
       {
         "id": 40,
@@ -4881,26 +4860,6 @@ export const tokyoHalls: readonly PachinkoHall[] = [
         "lng": 139.7094
       },
       {
-        "id": 39,
-        "name": "くら寿司 池袋駅西口店",
-        "genre": "回転寿司",
-        "walkMinutes": 9,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "11:00〜24:00",
-        "ai_summary": "西口徒歩1分の回転寿司チェーン。深夜まで営業し、西口ホール圏からの軽食に使いやすい。",
-        "tags": [
-          "サク飯",
-          "一人OK",
-          "深夜OK"
-        ],
-        "address": "東京都豊島区西池袋1-10-10 東武アネックスビルB1F",
-        "lat": 35.7298,
-        "lng": 139.7095
-      },
-      {
         "id": 138,
         "name": "カレーハウスCoCo壱番屋 豊島区西池袋店",
         "genre": "カレー",
@@ -4919,6 +4878,47 @@ export const tokyoHalls: readonly PachinkoHall[] = [
         "address": "東京都豊島区西池袋5-8-7 深野ビル 1F",
         "lat": 35.731,
         "lng": 139.7085
+      },
+      {
+        "id": 39,
+        "name": "くら寿司 池袋駅西口店",
+        "genre": "回転寿司",
+        "walkMinutes": 10,
+        "time_category": [
+          "昼",
+          "夜"
+        ],
+        "hours": "11:00〜24:00",
+        "ai_summary": "西口徒歩1分の回転寿司チェーン。深夜まで営業し、西口ホール圏からの軽食に使いやすい。",
+        "tags": [
+          "サク飯",
+          "一人OK",
+          "深夜OK"
+        ],
+        "address": "東京都豊島区西池袋1-10-10 東武アネックスビルB1F",
+        "lat": 35.729763,
+        "lng": 139.709015
+      },
+      {
+        "id": 34,
+        "name": "麺創房 無敵家",
+        "genre": "ラーメン",
+        "walkMinutes": 10,
+        "time_category": [
+          "昼",
+          "夜"
+        ],
+        "hours": "10:30〜翌4:00",
+        "ai_summary": "1994年創業の家系風とんこつ。深夜まで営業し、池袋の〆ラーメンとして定番。",
+        "tags": [
+          "ガッツリ",
+          "一人OK",
+          "深夜OK"
+        ],
+        "address": "東京都豊島区南池袋1-17-1 崎本ビル1F",
+        "lat": 35.726894,
+        "lng": 139.711578,
+        "is_kitaichimeshi": true
       }
     ]
   },
@@ -4938,6 +4938,26 @@ export const tokyoHalls: readonly PachinkoHall[] = [
     "pachiya_comment": "池袋東口から徒歩約2分、西武池袋向かいの駅近立地です。東口の牛丼、ラーメン、立ち食いそばなど、短い休憩向けの飲食店へすぐ行けるホールです。 東口の繁華街に近く、休憩後の戻り動線も組み立てやすい立地です。",
     "meal_guide": "池袋で食事を考える際、池袋駅東口明治通り沿い西武池袋向かい（徒歩約2分）に位置し、パチンコ・パチスロユーザーが食事と稼働を往復しやすいホールです。池袋は東口と西口で繁華街の顔が異なり、大型店と中規模店がそれぞれの改札側にまとまっています。徒歩10分圏内にはラーメン、そば・うどん、カレー、丼ものなどが揃い、ジャンルを変えながら店を選べます。パチンコ・パチスロユーザーは朝一前の軽い食事、昼休憩のサクッと飯、閉店後の夜飯や締めの一杯など、休憩の長さに合わせて食事を組み立てやすいです。徒歩圏内の店舗を距離とジャンルで絞り込みやすく、遠征時の食事計画にも向きます。",
     "restaurants": [
+      {
+        "id": 35,
+        "name": "ゴーゴーカレー 池袋東口スタジアム",
+        "genre": "カレー",
+        "walkMinutes": 2,
+        "time_category": [
+          "昼",
+          "夜"
+        ],
+        "hours": "10:55〜21:55",
+        "ai_summary": "東口地下の金沢カレー。キャベツ食べ放題・回転速く、手頃にガッツリ補給できる。",
+        "tags": [
+          "サク飯",
+          "ガッツリ",
+          "一人OK"
+        ],
+        "address": "東京都豊島区南池袋1-23-2 ティワイズビルB1F",
+        "lat": 35.728798,
+        "lng": 139.712372
+      },
       {
         "id": 139,
         "name": "マクドナルド 池袋東口店",
@@ -4961,47 +4981,6 @@ export const tokyoHalls: readonly PachinkoHall[] = [
         "lng": 139.7129
       },
       {
-        "id": 34,
-        "name": "麺創房 無敵家",
-        "genre": "ラーメン",
-        "walkMinutes": 2,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "10:30〜翌4:00",
-        "ai_summary": "1994年創業の家系風とんこつ。深夜まで営業し、池袋の〆ラーメンとして定番。",
-        "tags": [
-          "ガッツリ",
-          "一人OK",
-          "深夜OK"
-        ],
-        "address": "東京都豊島区南池袋1-17-1",
-        "lat": 35.7288,
-        "lng": 139.7118,
-        "is_kitaichimeshi": true
-      },
-      {
-        "id": 35,
-        "name": "ゴーゴーカレー 池袋東口スタジアム",
-        "genre": "カレー",
-        "walkMinutes": 3,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "10:55〜21:55",
-        "ai_summary": "東口地下の金沢カレー。キャベツ食べ放題・回転速く、手頃にガッツリ補給できる。",
-        "tags": [
-          "サク飯",
-          "ガッツリ",
-          "一人OK"
-        ],
-        "address": "東京都豊島区南池袋1-23-2 ティワイズビルB1F",
-        "lat": 35.7286,
-        "lng": 139.7132
-      },
-      {
         "id": 33,
         "name": "むかん 池袋",
         "genre": "ラーメン",
@@ -5016,9 +4995,9 @@ export const tokyoHalls: readonly PachinkoHall[] = [
           "サク飯",
           "一人OK"
         ],
-        "address": "東京都豊島区南池袋1-24-5",
-        "lat": 35.7283,
-        "lng": 139.7128,
+        "address": "東京都豊島区南池袋1-24-5 楽園タウン池袋1F",
+        "lat": 35.728897,
+        "lng": 139.712921,
         "is_kitaichimeshi": true
       },
       {
@@ -5041,26 +5020,6 @@ export const tokyoHalls: readonly PachinkoHall[] = [
         "address": "東京都豊島区南池袋1丁目 JR池袋駅構内",
         "lat": 35.7295,
         "lng": 139.7105
-      },
-      {
-        "id": 39,
-        "name": "くら寿司 池袋駅西口店",
-        "genre": "回転寿司",
-        "walkMinutes": 4,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "11:00〜24:00",
-        "ai_summary": "西口徒歩1分の回転寿司チェーン。深夜まで営業し、西口ホール圏からの軽食に使いやすい。",
-        "tags": [
-          "サク飯",
-          "一人OK",
-          "深夜OK"
-        ],
-        "address": "東京都豊島区西池袋1-10-10 東武アネックスビルB1F",
-        "lat": 35.7298,
-        "lng": 139.7095
       },
       {
         "id": 36,
@@ -5123,8 +5082,8 @@ export const tokyoHalls: readonly PachinkoHall[] = [
           "深夜OK"
         ],
         "address": "東京都豊島区東池袋1-42-8",
-        "lat": 35.7315,
-        "lng": 139.7145
+        "lat": 35.731949,
+        "lng": 139.712708
       },
       {
         "id": 137,
@@ -5146,6 +5105,26 @@ export const tokyoHalls: readonly PachinkoHall[] = [
         "address": "東京都豊島区西池袋1-19-1 39ビル 1F",
         "lat": 35.7312,
         "lng": 139.7094
+      },
+      {
+        "id": 39,
+        "name": "くら寿司 池袋駅西口店",
+        "genre": "回転寿司",
+        "walkMinutes": 5,
+        "time_category": [
+          "昼",
+          "夜"
+        ],
+        "hours": "11:00〜24:00",
+        "ai_summary": "西口徒歩1分の回転寿司チェーン。深夜まで営業し、西口ホール圏からの軽食に使いやすい。",
+        "tags": [
+          "サク飯",
+          "一人OK",
+          "深夜OK"
+        ],
+        "address": "東京都豊島区西池袋1-10-10 東武アネックスビルB1F",
+        "lat": 35.729763,
+        "lng": 139.709015
       },
       {
         "id": 141,
@@ -5186,8 +5165,8 @@ export const tokyoHalls: readonly PachinkoHall[] = [
           "一人OK"
         ],
         "address": "東京都豊島区東池袋1-40-3 池袋籏ビル1F",
-        "lat": 35.7312,
-        "lng": 139.7148
+        "lat": 35.731937,
+        "lng": 139.71373
       },
       {
         "id": 138,
@@ -5225,9 +5204,30 @@ export const tokyoHalls: readonly PachinkoHall[] = [
           "ガッツリ",
           "一人OK"
         ],
-        "address": "東京都豊島区東池袋1-40-10 川又ビル 1F",
-        "lat": 35.7315,
-        "lng": 139.7148
+        "address": "東京都豊島区東池袋1-40-10 川又ビル1F",
+        "lat": 35.732231,
+        "lng": 139.713882
+      },
+      {
+        "id": 34,
+        "name": "麺創房 無敵家",
+        "genre": "ラーメン",
+        "walkMinutes": 6,
+        "time_category": [
+          "昼",
+          "夜"
+        ],
+        "hours": "10:30〜翌4:00",
+        "ai_summary": "1994年創業の家系風とんこつ。深夜まで営業し、池袋の〆ラーメンとして定番。",
+        "tags": [
+          "ガッツリ",
+          "一人OK",
+          "深夜OK"
+        ],
+        "address": "東京都豊島区南池袋1-17-1 崎本ビル1F",
+        "lat": 35.726894,
+        "lng": 139.711578,
+        "is_kitaichimeshi": true
       },
       {
         "id": 41,
@@ -5267,6 +5267,26 @@ export const tokyoHalls: readonly PachinkoHall[] = [
     "meal_guide": "パチンコ・パチスロユーザー向けに見ると、池袋駅西口 ロマンス通りロサ会館向かいというアクセスで、近隣飲食へのアクセスが大きな強みです。池袋は東口と西口で繁華街の顔が異なり、大型店と中規模店がそれぞれの改札側にまとまっています。徒歩10分圏内にはそば・うどん、カレー、ラーメン、回転寿司などが揃い、ジャンルを変えながら店を選べます。朝一前の軽い食事、昼休憩のサクッと飯、閉店後の夜飯や締めの一杯といったシーンごとに候補店を変えやすく、稼働ペースを崩さず食事ができます。ホールへ戻る距離も短く、休憩の長さに合わせて店を選びやすいです。パチンコ寄りの台構成で、長時間稼働の合間に近隣店へ足を延ばす使い方がしやすい立地です。",
     "restaurants": [
       {
+        "id": 39,
+        "name": "くら寿司 池袋駅西口店",
+        "genre": "回転寿司",
+        "walkMinutes": 4,
+        "time_category": [
+          "昼",
+          "夜"
+        ],
+        "hours": "11:00〜24:00",
+        "ai_summary": "西口徒歩1分の回転寿司チェーン。深夜まで営業し、西口ホール圏からの軽食に使いやすい。",
+        "tags": [
+          "サク飯",
+          "一人OK",
+          "深夜OK"
+        ],
+        "address": "東京都豊島区西池袋1-10-10 東武アネックスビルB1F",
+        "lat": 35.729763,
+        "lng": 139.709015
+      },
+      {
         "id": 41,
         "name": "弥三郎",
         "genre": "そば/うどん",
@@ -5304,26 +5324,6 @@ export const tokyoHalls: readonly PachinkoHall[] = [
         "address": "東京都豊島区西池袋5-8-7 深野ビル 1F",
         "lat": 35.731,
         "lng": 139.7085
-      },
-      {
-        "id": 39,
-        "name": "くら寿司 池袋駅西口店",
-        "genre": "回転寿司",
-        "walkMinutes": 5,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "11:00〜24:00",
-        "ai_summary": "西口徒歩1分の回転寿司チェーン。深夜まで営業し、西口ホール圏からの軽食に使いやすい。",
-        "tags": [
-          "サク飯",
-          "一人OK",
-          "深夜OK"
-        ],
-        "address": "東京都豊島区西池袋1-10-10 東武アネックスビルB1F",
-        "lat": 35.7298,
-        "lng": 139.7095
       },
       {
         "id": 137,
@@ -5383,10 +5383,30 @@ export const tokyoHalls: readonly PachinkoHall[] = [
           "一人OK",
           "深夜OK"
         ],
-        "address": "東京都豊島区南池袋1-17-1",
-        "lat": 35.7288,
-        "lng": 139.7118,
+        "address": "東京都豊島区南池袋1-17-1 崎本ビル1F",
+        "lat": 35.726894,
+        "lng": 139.711578,
         "is_kitaichimeshi": true
+      },
+      {
+        "id": 35,
+        "name": "ゴーゴーカレー 池袋東口スタジアム",
+        "genre": "カレー",
+        "walkMinutes": 9,
+        "time_category": [
+          "昼",
+          "夜"
+        ],
+        "hours": "10:55〜21:55",
+        "ai_summary": "東口地下の金沢カレー。キャベツ食べ放題・回転速く、手頃にガッツリ補給できる。",
+        "tags": [
+          "サク飯",
+          "ガッツリ",
+          "一人OK"
+        ],
+        "address": "東京都豊島区南池袋1-23-2 ティワイズビルB1F",
+        "lat": 35.728798,
+        "lng": 139.712372
       },
       {
         "id": 33,
@@ -5403,30 +5423,10 @@ export const tokyoHalls: readonly PachinkoHall[] = [
           "サク飯",
           "一人OK"
         ],
-        "address": "東京都豊島区南池袋1-24-5",
-        "lat": 35.7283,
-        "lng": 139.7128,
+        "address": "東京都豊島区南池袋1-24-5 楽園タウン池袋1F",
+        "lat": 35.728897,
+        "lng": 139.712921,
         "is_kitaichimeshi": true
-      },
-      {
-        "id": 35,
-        "name": "ゴーゴーカレー 池袋東口スタジアム",
-        "genre": "カレー",
-        "walkMinutes": 10,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "10:55〜21:55",
-        "ai_summary": "東口地下の金沢カレー。キャベツ食べ放題・回転速く、手頃にガッツリ補給できる。",
-        "tags": [
-          "サク飯",
-          "ガッツリ",
-          "一人OK"
-        ],
-        "address": "東京都豊島区南池袋1-23-2 ティワイズビルB1F",
-        "lat": 35.7286,
-        "lng": 139.7132
       },
       {
         "id": 139,
@@ -9484,31 +9484,10 @@ export const tokyoHalls: readonly PachinkoHall[] = [
         "lng": 139.8133
       },
       {
-        "id": 84,
-        "name": "カレーの市民 アルバ 錦糸町店",
-        "genre": "カレー",
-        "walkMinutes": 1,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "11:00〜22:00",
-        "ai_summary": "錦糸町駅南口徒歩4分の金沢カレー。満塁ホームランカレーなどボリュームメニューが充実。",
-        "tags": [
-          "サク飯",
-          "ガッツリ",
-          "一人OK"
-        ],
-        "address": "東京都墨田区江東橋3-7-10",
-        "lat": 35.696,
-        "lng": 139.8135,
-        "is_kitaichimeshi": true
-      },
-      {
         "id": 83,
         "name": "らぁ麺 はやし田 錦糸町店",
         "genre": "ラーメン",
-        "walkMinutes": 2,
+        "walkMinutes": 1,
         "time_category": [
           "昼",
           "夜"
@@ -9520,9 +9499,9 @@ export const tokyoHalls: readonly PachinkoHall[] = [
           "ガッツリ",
           "一人OK"
         ],
-        "address": "東京都墨田区江東橋3-13-1 KS15ビル 1F",
-        "lat": 35.6965,
-        "lng": 139.814
+        "address": "東京都墨田区江東橋3-13-1 KS15ビル1F",
+        "lat": 35.695766,
+        "lng": 139.813538
       },
       {
         "id": 86,
@@ -9611,27 +9590,6 @@ export const tokyoHalls: readonly PachinkoHall[] = [
         "lng": 139.8132
       },
       {
-        "id": 82,
-        "name": "中華そば 満鶏軒",
-        "genre": "ラーメン",
-        "walkMinutes": 3,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "11:00〜21:00",
-        "ai_summary": "錦糸町駅南口徒歩6分の鴨出汁ラーメン。行列覚悟の人気店で、南口大型ホール圏のご褒美一杯。",
-        "tags": [
-          "サク飯",
-          "ガッツリ",
-          "一人OK"
-        ],
-        "address": "東京都墨田区江東橋2-5-3",
-        "lat": 35.6968,
-        "lng": 139.8125,
-        "is_kitaichimeshi": true
-      },
-      {
         "id": 93,
         "name": "すき家 錦糸公園前店",
         "genre": "丼もの",
@@ -9654,44 +9612,46 @@ export const tokyoHalls: readonly PachinkoHall[] = [
         "lng": 139.8118
       },
       {
-        "id": 92,
-        "name": "回転寿司みさき アルカキット錦糸町",
-        "genre": "回転寿司",
+        "id": 84,
+        "name": "カレーの市民 アルバ 錦糸町店",
+        "genre": "カレー",
         "walkMinutes": 4,
         "time_category": [
           "昼",
           "夜"
         ],
-        "hours": "11:00〜22:30（L.O. 閉店30分前）",
-        "ai_summary": "錦糸町駅北口徒歩2分の回転寿司。コスパ良好で、北口ホール圏からの軽食に使いやすい。",
-        "tags": [
-          "サク飯",
-          "一人OK"
-        ],
-        "address": "東京都墨田区錦糸2-2-1 アルカキット錦糸町 10F",
-        "lat": 35.6969,
-        "lng": 139.8152,
-        "is_kitaichimeshi": true
-      },
-      {
-        "id": 91,
-        "name": "焼肉ライク 錦糸町北口店",
-        "genre": "焼肉",
-        "walkMinutes": 4,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "10:00〜23:00（L.O. 22:30）",
-        "ai_summary": "錦糸町駅北口徒歩2分の一人焼肉専門。無煙ロースターで気軽にスタミナチャージできる。",
+        "hours": "11:00〜22:00",
+        "ai_summary": "錦糸町駅南口徒歩4分の金沢カレー。満塁ホームランカレーなどボリュームメニューが充実。",
         "tags": [
           "サク飯",
           "ガッツリ",
           "一人OK"
         ],
-        "address": "東京都墨田区錦糸3-4-9 ジョッコビル 2F",
-        "lat": 35.6971,
-        "lng": 139.8146
+        "address": "東京都墨田区江東橋3-7-10",
+        "lat": 35.693981,
+        "lng": 139.815002,
+        "is_kitaichimeshi": true
+      },
+      {
+        "id": 82,
+        "name": "中華そば 満鶏軒",
+        "genre": "ラーメン",
+        "walkMinutes": 4,
+        "time_category": [
+          "昼",
+          "夜"
+        ],
+        "hours": "11:00〜21:00",
+        "ai_summary": "錦糸町駅南口徒歩6分の鴨出汁ラーメン。行列覚悟の人気店で、南口大型ホール圏のご褒美一杯。",
+        "tags": [
+          "サク飯",
+          "ガッツリ",
+          "一人OK"
+        ],
+        "address": "東京都墨田区江東橋2-5-3 井上ビル1F",
+        "lat": 35.694065,
+        "lng": 139.812088,
+        "is_kitaichimeshi": true
       },
       {
         "id": 87,
@@ -9714,6 +9674,46 @@ export const tokyoHalls: readonly PachinkoHall[] = [
         "address": "東京都墨田区錦糸2-4-10 ライオンズマンション錦糸町第3",
         "lat": 35.6972,
         "lng": 139.8145
+      },
+      {
+        "id": 92,
+        "name": "回転寿司みさき アルカキット錦糸町",
+        "genre": "回転寿司",
+        "walkMinutes": 5,
+        "time_category": [
+          "昼",
+          "夜"
+        ],
+        "hours": "11:00〜22:30（L.O. 閉店30分前）",
+        "ai_summary": "錦糸町駅北口徒歩2分の回転寿司。コスパ良好で、北口ホール圏からの軽食に使いやすい。",
+        "tags": [
+          "サク飯",
+          "一人OK"
+        ],
+        "address": "東京都墨田区錦糸2-2-1 アルカキット錦糸町10F",
+        "lat": 35.697659,
+        "lng": 139.811859,
+        "is_kitaichimeshi": true
+      },
+      {
+        "id": 91,
+        "name": "焼肉ライク 錦糸町北口店",
+        "genre": "焼肉",
+        "walkMinutes": 5,
+        "time_category": [
+          "昼",
+          "夜"
+        ],
+        "hours": "10:00〜23:00（L.O. 22:30）",
+        "ai_summary": "錦糸町駅北口徒歩2分の一人焼肉専門。無煙ロースターで気軽にスタミナチャージできる。",
+        "tags": [
+          "サク飯",
+          "ガッツリ",
+          "一人OK"
+        ],
+        "address": "東京都墨田区錦糸3-4-9 ジョッコビル2F",
+        "lat": 35.697952,
+        "lng": 139.814774
       }
     ]
   },
@@ -9734,46 +9734,6 @@ export const tokyoHalls: readonly PachinkoHall[] = [
     "meal_guide": "パチンコ・パチスロユーザー向けに見ると、JR錦糸町駅北口 目の前というアクセスで、近隣飲食へのアクセスが大きな強みです。錦糸町は北口・南口で飲食激戦区が分かれ、ラーメンや牛丼、回転寿司など回転の速い店が多いエリアです。徒歩10分圏内には丼もの、ラーメン、カレー、回転寿司などが揃い、ジャンルを変えながら店を選べます。朝一前の軽い食事、昼休憩のサクッと飯、閉店後の夜飯や締めの一杯といったシーンごとに候補店を変えやすく、稼働ペースを崩さず食事ができます。ホールへ戻る距離も短く、休憩の長さに合わせて店を選びやすいです。パチンコ・パチスロ双方の稼働者が、近隣飲食へ無理なく移動できる立地です。",
     "restaurants": [
       {
-        "id": 92,
-        "name": "回転寿司みさき アルカキット錦糸町",
-        "genre": "回転寿司",
-        "walkMinutes": 1,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "11:00〜22:30（L.O. 閉店30分前）",
-        "ai_summary": "錦糸町駅北口徒歩2分の回転寿司。コスパ良好で、北口ホール圏からの軽食に使いやすい。",
-        "tags": [
-          "サク飯",
-          "一人OK"
-        ],
-        "address": "東京都墨田区錦糸2-2-1 アルカキット錦糸町 10F",
-        "lat": 35.6969,
-        "lng": 139.8152,
-        "is_kitaichimeshi": true
-      },
-      {
-        "id": 91,
-        "name": "焼肉ライク 錦糸町北口店",
-        "genre": "焼肉",
-        "walkMinutes": 1,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "10:00〜23:00（L.O. 22:30）",
-        "ai_summary": "錦糸町駅北口徒歩2分の一人焼肉専門。無煙ロースターで気軽にスタミナチャージできる。",
-        "tags": [
-          "サク飯",
-          "ガッツリ",
-          "一人OK"
-        ],
-        "address": "東京都墨田区錦糸3-4-9 ジョッコビル 2F",
-        "lat": 35.6971,
-        "lng": 139.8146
-      },
-      {
         "id": 87,
         "name": "吉野家 錦糸町北口店",
         "genre": "丼もの",
@@ -9794,26 +9754,6 @@ export const tokyoHalls: readonly PachinkoHall[] = [
         "address": "東京都墨田区錦糸2-4-10 ライオンズマンション錦糸町第3",
         "lat": 35.6972,
         "lng": 139.8145
-      },
-      {
-        "id": 83,
-        "name": "らぁ麺 はやし田 錦糸町店",
-        "genre": "ラーメン",
-        "walkMinutes": 2,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "10:00〜23:00",
-        "ai_summary": "錦糸町駅徒歩1分の醤油ラーメンチェーン。駅直結動線で、みとや北口・はやし田圏の手軽な定番。",
-        "tags": [
-          "サク飯",
-          "ガッツリ",
-          "一人OK"
-        ],
-        "address": "東京都墨田区江東橋3-13-1 KS15ビル 1F",
-        "lat": 35.6965,
-        "lng": 139.814
       },
       {
         "id": 89,
@@ -9836,6 +9776,26 @@ export const tokyoHalls: readonly PachinkoHall[] = [
         "address": "東京都墨田区江東橋3-13-1 KS15ビル 1F",
         "lat": 35.6964,
         "lng": 139.8141
+      },
+      {
+        "id": 91,
+        "name": "焼肉ライク 錦糸町北口店",
+        "genre": "焼肉",
+        "walkMinutes": 2,
+        "time_category": [
+          "昼",
+          "夜"
+        ],
+        "hours": "10:00〜23:00（L.O. 22:30）",
+        "ai_summary": "錦糸町駅北口徒歩2分の一人焼肉専門。無煙ロースターで気軽にスタミナチャージできる。",
+        "tags": [
+          "サク飯",
+          "ガッツリ",
+          "一人OK"
+        ],
+        "address": "東京都墨田区錦糸3-4-9 ジョッコビル2F",
+        "lat": 35.697952,
+        "lng": 139.814774
       },
       {
         "id": 85,
@@ -9858,25 +9818,24 @@ export const tokyoHalls: readonly PachinkoHall[] = [
         "lng": 139.8133
       },
       {
-        "id": 84,
-        "name": "カレーの市民 アルバ 錦糸町店",
-        "genre": "カレー",
+        "id": 83,
+        "name": "らぁ麺 はやし田 錦糸町店",
+        "genre": "ラーメン",
         "walkMinutes": 3,
         "time_category": [
           "昼",
           "夜"
         ],
-        "hours": "11:00〜22:00",
-        "ai_summary": "錦糸町駅南口徒歩4分の金沢カレー。満塁ホームランカレーなどボリュームメニューが充実。",
+        "hours": "10:00〜23:00",
+        "ai_summary": "錦糸町駅徒歩1分の醤油ラーメンチェーン。駅直結動線で、みとや北口・はやし田圏の手軽な定番。",
         "tags": [
           "サク飯",
           "ガッツリ",
           "一人OK"
         ],
-        "address": "東京都墨田区江東橋3-7-10",
-        "lat": 35.696,
-        "lng": 139.8135,
-        "is_kitaichimeshi": true
+        "address": "東京都墨田区江東橋3-13-1 KS15ビル1F",
+        "lat": 35.695766,
+        "lng": 139.813538
       },
       {
         "id": 90,
@@ -9921,27 +9880,6 @@ export const tokyoHalls: readonly PachinkoHall[] = [
         "lng": 139.8132
       },
       {
-        "id": 82,
-        "name": "中華そば 満鶏軒",
-        "genre": "ラーメン",
-        "walkMinutes": 4,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "11:00〜21:00",
-        "ai_summary": "錦糸町駅南口徒歩6分の鴨出汁ラーメン。行列覚悟の人気店で、南口大型ホール圏のご褒美一杯。",
-        "tags": [
-          "サク飯",
-          "ガッツリ",
-          "一人OK"
-        ],
-        "address": "東京都墨田区江東橋2-5-3",
-        "lat": 35.6968,
-        "lng": 139.8125,
-        "is_kitaichimeshi": true
-      },
-      {
         "id": 86,
         "name": "松のや 錦糸町店",
         "genre": "とんかつ/カツ丼",
@@ -9964,6 +9902,47 @@ export const tokyoHalls: readonly PachinkoHall[] = [
         "lng": 139.813
       },
       {
+        "id": 92,
+        "name": "回転寿司みさき アルカキット錦糸町",
+        "genre": "回転寿司",
+        "walkMinutes": 5,
+        "time_category": [
+          "昼",
+          "夜"
+        ],
+        "hours": "11:00〜22:30（L.O. 閉店30分前）",
+        "ai_summary": "錦糸町駅北口徒歩2分の回転寿司。コスパ良好で、北口ホール圏からの軽食に使いやすい。",
+        "tags": [
+          "サク飯",
+          "一人OK"
+        ],
+        "address": "東京都墨田区錦糸2-2-1 アルカキット錦糸町10F",
+        "lat": 35.697659,
+        "lng": 139.811859,
+        "is_kitaichimeshi": true
+      },
+      {
+        "id": 84,
+        "name": "カレーの市民 アルバ 錦糸町店",
+        "genre": "カレー",
+        "walkMinutes": 6,
+        "time_category": [
+          "昼",
+          "夜"
+        ],
+        "hours": "11:00〜22:00",
+        "ai_summary": "錦糸町駅南口徒歩4分の金沢カレー。満塁ホームランカレーなどボリュームメニューが充実。",
+        "tags": [
+          "サク飯",
+          "ガッツリ",
+          "一人OK"
+        ],
+        "address": "東京都墨田区江東橋3-7-10",
+        "lat": 35.693981,
+        "lng": 139.815002,
+        "is_kitaichimeshi": true
+      },
+      {
         "id": 93,
         "name": "すき家 錦糸公園前店",
         "genre": "丼もの",
@@ -9984,6 +9963,27 @@ export const tokyoHalls: readonly PachinkoHall[] = [
         "address": "東京都墨田区太平3-4-8 グレイスMM 1F",
         "lat": 35.6952,
         "lng": 139.8118
+      },
+      {
+        "id": 82,
+        "name": "中華そば 満鶏軒",
+        "genre": "ラーメン",
+        "walkMinutes": 7,
+        "time_category": [
+          "昼",
+          "夜"
+        ],
+        "hours": "11:00〜21:00",
+        "ai_summary": "錦糸町駅南口徒歩6分の鴨出汁ラーメン。行列覚悟の人気店で、南口大型ホール圏のご褒美一杯。",
+        "tags": [
+          "サク飯",
+          "ガッツリ",
+          "一人OK"
+        ],
+        "address": "東京都墨田区江東橋2-5-3 井上ビル1F",
+        "lat": 35.694065,
+        "lng": 139.812088,
+        "is_kitaichimeshi": true
       }
     ]
   },
@@ -10088,27 +10088,6 @@ export const tokyoHalls: readonly PachinkoHall[] = [
         "lng": 139.8132
       },
       {
-        "id": 84,
-        "name": "カレーの市民 アルバ 錦糸町店",
-        "genre": "カレー",
-        "walkMinutes": 2,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "11:00〜22:00",
-        "ai_summary": "錦糸町駅南口徒歩4分の金沢カレー。満塁ホームランカレーなどボリュームメニューが充実。",
-        "tags": [
-          "サク飯",
-          "ガッツリ",
-          "一人OK"
-        ],
-        "address": "東京都墨田区江東橋3-7-10",
-        "lat": 35.696,
-        "lng": 139.8135,
-        "is_kitaichimeshi": true
-      },
-      {
         "id": 83,
         "name": "らぁ麺 はやし田 錦糸町店",
         "genre": "ラーメン",
@@ -10124,30 +10103,9 @@ export const tokyoHalls: readonly PachinkoHall[] = [
           "ガッツリ",
           "一人OK"
         ],
-        "address": "東京都墨田区江東橋3-13-1 KS15ビル 1F",
-        "lat": 35.6965,
-        "lng": 139.814
-      },
-      {
-        "id": 82,
-        "name": "中華そば 満鶏軒",
-        "genre": "ラーメン",
-        "walkMinutes": 2,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "11:00〜21:00",
-        "ai_summary": "錦糸町駅南口徒歩6分の鴨出汁ラーメン。行列覚悟の人気店で、南口大型ホール圏のご褒美一杯。",
-        "tags": [
-          "サク飯",
-          "ガッツリ",
-          "一人OK"
-        ],
-        "address": "東京都墨田区江東橋2-5-3",
-        "lat": 35.6968,
-        "lng": 139.8125,
-        "is_kitaichimeshi": true
+        "address": "東京都墨田区江東橋3-13-1 KS15ビル1F",
+        "lat": 35.695766,
+        "lng": 139.813538
       },
       {
         "id": 89,
@@ -10172,6 +10130,26 @@ export const tokyoHalls: readonly PachinkoHall[] = [
         "lng": 139.8141
       },
       {
+        "id": 92,
+        "name": "回転寿司みさき アルカキット錦糸町",
+        "genre": "回転寿司",
+        "walkMinutes": 3,
+        "time_category": [
+          "昼",
+          "夜"
+        ],
+        "hours": "11:00〜22:30（L.O. 閉店30分前）",
+        "ai_summary": "錦糸町駅北口徒歩2分の回転寿司。コスパ良好で、北口ホール圏からの軽食に使いやすい。",
+        "tags": [
+          "サク飯",
+          "一人OK"
+        ],
+        "address": "東京都墨田区錦糸2-2-1 アルカキット錦糸町10F",
+        "lat": 35.697659,
+        "lng": 139.811859,
+        "is_kitaichimeshi": true
+      },
+      {
         "id": 93,
         "name": "すき家 錦糸公園前店",
         "genre": "丼もの",
@@ -10194,44 +10172,25 @@ export const tokyoHalls: readonly PachinkoHall[] = [
         "lng": 139.8118
       },
       {
-        "id": 92,
-        "name": "回転寿司みさき アルカキット錦糸町",
-        "genre": "回転寿司",
+        "id": 82,
+        "name": "中華そば 満鶏軒",
+        "genre": "ラーメン",
         "walkMinutes": 4,
         "time_category": [
           "昼",
           "夜"
         ],
-        "hours": "11:00〜22:30（L.O. 閉店30分前）",
-        "ai_summary": "錦糸町駅北口徒歩2分の回転寿司。コスパ良好で、北口ホール圏からの軽食に使いやすい。",
-        "tags": [
-          "サク飯",
-          "一人OK"
-        ],
-        "address": "東京都墨田区錦糸2-2-1 アルカキット錦糸町 10F",
-        "lat": 35.6969,
-        "lng": 139.8152,
-        "is_kitaichimeshi": true
-      },
-      {
-        "id": 91,
-        "name": "焼肉ライク 錦糸町北口店",
-        "genre": "焼肉",
-        "walkMinutes": 4,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "10:00〜23:00（L.O. 22:30）",
-        "ai_summary": "錦糸町駅北口徒歩2分の一人焼肉専門。無煙ロースターで気軽にスタミナチャージできる。",
+        "hours": "11:00〜21:00",
+        "ai_summary": "錦糸町駅南口徒歩6分の鴨出汁ラーメン。行列覚悟の人気店で、南口大型ホール圏のご褒美一杯。",
         "tags": [
           "サク飯",
           "ガッツリ",
           "一人OK"
         ],
-        "address": "東京都墨田区錦糸3-4-9 ジョッコビル 2F",
-        "lat": 35.6971,
-        "lng": 139.8146
+        "address": "東京都墨田区江東橋2-5-3 井上ビル1F",
+        "lat": 35.694065,
+        "lng": 139.812088,
+        "is_kitaichimeshi": true
       },
       {
         "id": 87,
@@ -10254,6 +10213,47 @@ export const tokyoHalls: readonly PachinkoHall[] = [
         "address": "東京都墨田区錦糸2-4-10 ライオンズマンション錦糸町第3",
         "lat": 35.6972,
         "lng": 139.8145
+      },
+      {
+        "id": 91,
+        "name": "焼肉ライク 錦糸町北口店",
+        "genre": "焼肉",
+        "walkMinutes": 5,
+        "time_category": [
+          "昼",
+          "夜"
+        ],
+        "hours": "10:00〜23:00（L.O. 22:30）",
+        "ai_summary": "錦糸町駅北口徒歩2分の一人焼肉専門。無煙ロースターで気軽にスタミナチャージできる。",
+        "tags": [
+          "サク飯",
+          "ガッツリ",
+          "一人OK"
+        ],
+        "address": "東京都墨田区錦糸3-4-9 ジョッコビル2F",
+        "lat": 35.697952,
+        "lng": 139.814774
+      },
+      {
+        "id": 84,
+        "name": "カレーの市民 アルバ 錦糸町店",
+        "genre": "カレー",
+        "walkMinutes": 6,
+        "time_category": [
+          "昼",
+          "夜"
+        ],
+        "hours": "11:00〜22:00",
+        "ai_summary": "錦糸町駅南口徒歩4分の金沢カレー。満塁ホームランカレーなどボリュームメニューが充実。",
+        "tags": [
+          "サク飯",
+          "ガッツリ",
+          "一人OK"
+        ],
+        "address": "東京都墨田区江東橋3-7-10",
+        "lat": 35.693981,
+        "lng": 139.815002,
+        "is_kitaichimeshi": true
       }
     ]
   },
@@ -10294,25 +10294,24 @@ export const tokyoHalls: readonly PachinkoHall[] = [
         "lng": 139.8133
       },
       {
-        "id": 84,
-        "name": "カレーの市民 アルバ 錦糸町店",
-        "genre": "カレー",
+        "id": 83,
+        "name": "らぁ麺 はやし田 錦糸町店",
+        "genre": "ラーメン",
         "walkMinutes": 1,
         "time_category": [
           "昼",
           "夜"
         ],
-        "hours": "11:00〜22:00",
-        "ai_summary": "錦糸町駅南口徒歩4分の金沢カレー。満塁ホームランカレーなどボリュームメニューが充実。",
+        "hours": "10:00〜23:00",
+        "ai_summary": "錦糸町駅徒歩1分の醤油ラーメンチェーン。駅直結動線で、みとや北口・はやし田圏の手軽な定番。",
         "tags": [
           "サク飯",
           "ガッツリ",
           "一人OK"
         ],
-        "address": "東京都墨田区江東橋3-7-10",
-        "lat": 35.696,
-        "lng": 139.8135,
-        "is_kitaichimeshi": true
+        "address": "東京都墨田区江東橋3-13-1 KS15ビル1F",
+        "lat": 35.695766,
+        "lng": 139.813538
       },
       {
         "id": 86,
@@ -10379,47 +10378,6 @@ export const tokyoHalls: readonly PachinkoHall[] = [
         "lng": 139.8132
       },
       {
-        "id": 83,
-        "name": "らぁ麺 はやし田 錦糸町店",
-        "genre": "ラーメン",
-        "walkMinutes": 2,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "10:00〜23:00",
-        "ai_summary": "錦糸町駅徒歩1分の醤油ラーメンチェーン。駅直結動線で、みとや北口・はやし田圏の手軽な定番。",
-        "tags": [
-          "サク飯",
-          "ガッツリ",
-          "一人OK"
-        ],
-        "address": "東京都墨田区江東橋3-13-1 KS15ビル 1F",
-        "lat": 35.6965,
-        "lng": 139.814
-      },
-      {
-        "id": 82,
-        "name": "中華そば 満鶏軒",
-        "genre": "ラーメン",
-        "walkMinutes": 2,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "11:00〜21:00",
-        "ai_summary": "錦糸町駅南口徒歩6分の鴨出汁ラーメン。行列覚悟の人気店で、南口大型ホール圏のご褒美一杯。",
-        "tags": [
-          "サク飯",
-          "ガッツリ",
-          "一人OK"
-        ],
-        "address": "東京都墨田区江東橋2-5-3",
-        "lat": 35.6968,
-        "lng": 139.8125,
-        "is_kitaichimeshi": true
-      },
-      {
         "id": 89,
         "name": "名代 富士そば 錦糸町店",
         "genre": "そば/うどん",
@@ -10464,26 +10422,6 @@ export const tokyoHalls: readonly PachinkoHall[] = [
         "lng": 139.8118
       },
       {
-        "id": 91,
-        "name": "焼肉ライク 錦糸町北口店",
-        "genre": "焼肉",
-        "walkMinutes": 3,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "10:00〜23:00（L.O. 22:30）",
-        "ai_summary": "錦糸町駅北口徒歩2分の一人焼肉専門。無煙ロースターで気軽にスタミナチャージできる。",
-        "tags": [
-          "サク飯",
-          "ガッツリ",
-          "一人OK"
-        ],
-        "address": "東京都墨田区錦糸3-4-9 ジョッコビル 2F",
-        "lat": 35.6971,
-        "lng": 139.8146
-      },
-      {
         "id": 87,
         "name": "吉野家 錦糸町北口店",
         "genre": "丼もの",
@@ -10506,6 +10444,27 @@ export const tokyoHalls: readonly PachinkoHall[] = [
         "lng": 139.8145
       },
       {
+        "id": 82,
+        "name": "中華そば 満鶏軒",
+        "genre": "ラーメン",
+        "walkMinutes": 4,
+        "time_category": [
+          "昼",
+          "夜"
+        ],
+        "hours": "11:00〜21:00",
+        "ai_summary": "錦糸町駅南口徒歩6分の鴨出汁ラーメン。行列覚悟の人気店で、南口大型ホール圏のご褒美一杯。",
+        "tags": [
+          "サク飯",
+          "ガッツリ",
+          "一人OK"
+        ],
+        "address": "東京都墨田区江東橋2-5-3 井上ビル1F",
+        "lat": 35.694065,
+        "lng": 139.812088,
+        "is_kitaichimeshi": true
+      },
+      {
         "id": 92,
         "name": "回転寿司みさき アルカキット錦糸町",
         "genre": "回転寿司",
@@ -10520,10 +10479,51 @@ export const tokyoHalls: readonly PachinkoHall[] = [
           "サク飯",
           "一人OK"
         ],
-        "address": "東京都墨田区錦糸2-2-1 アルカキット錦糸町 10F",
-        "lat": 35.6969,
-        "lng": 139.8152,
+        "address": "東京都墨田区錦糸2-2-1 アルカキット錦糸町10F",
+        "lat": 35.697659,
+        "lng": 139.811859,
         "is_kitaichimeshi": true
+      },
+      {
+        "id": 84,
+        "name": "カレーの市民 アルバ 錦糸町店",
+        "genre": "カレー",
+        "walkMinutes": 5,
+        "time_category": [
+          "昼",
+          "夜"
+        ],
+        "hours": "11:00〜22:00",
+        "ai_summary": "錦糸町駅南口徒歩4分の金沢カレー。満塁ホームランカレーなどボリュームメニューが充実。",
+        "tags": [
+          "サク飯",
+          "ガッツリ",
+          "一人OK"
+        ],
+        "address": "東京都墨田区江東橋3-7-10",
+        "lat": 35.693981,
+        "lng": 139.815002,
+        "is_kitaichimeshi": true
+      },
+      {
+        "id": 91,
+        "name": "焼肉ライク 錦糸町北口店",
+        "genre": "焼肉",
+        "walkMinutes": 5,
+        "time_category": [
+          "昼",
+          "夜"
+        ],
+        "hours": "10:00〜23:00（L.O. 22:30）",
+        "ai_summary": "錦糸町駅北口徒歩2分の一人焼肉専門。無煙ロースターで気軽にスタミナチャージできる。",
+        "tags": [
+          "サク飯",
+          "ガッツリ",
+          "一人OK"
+        ],
+        "address": "東京都墨田区錦糸3-4-9 ジョッコビル2F",
+        "lat": 35.697952,
+        "lng": 139.814774
       }
     ]
   },
@@ -13163,25 +13163,6 @@ export const tokyoHalls: readonly PachinkoHall[] = [
     "meal_guide": "蒲田で食事を考える際、JR蒲田駅西口より正面の道路を徒歩30秒（モスバーガー向かい）に位置し、パチンコ・パチスロユーザーが食事と稼働を往復しやすいホールです。蒲田は東口・西口で商店街の雰囲気が変わり、駅前の牛丼・カレー・ラーメンが厚い郊外ターミナルです。徒歩10分圏内には丼もの、そば・うどん、カレー、回転寿司などが揃い、ジャンルを変えながら店を選べます。パチンコ・パチスロユーザーは朝一前の軽い食事、昼休憩のサクッと飯、閉店後の夜飯や締めの一杯など、休憩の長さに合わせて食事を組み立てやすいです。徒歩圏内の店舗を距離とジャンルで絞り込みやすく、遠征時の食事計画にも向きます。",
     "restaurants": [
       {
-        "id": 171,
-        "name": "スシロー 蒲田店",
-        "genre": "回転寿司",
-        "walkMinutes": 2,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "平日11:00〜23:00、土日祝10:30〜23:00（L.O. 閉店30分前）",
-        "ai_summary": "蒲田駅西口徒歩2分の回転寿司。コスパ良好で、楽園・キコーナ圏からの手軽な軽食。",
-        "tags": [
-          "サク飯",
-          "一人OK"
-        ],
-        "address": "東京都大田区西蒲田7-1-1",
-        "lat": 35.5625,
-        "lng": 139.714
-      },
-      {
         "id": 167,
         "name": "はなまるうどん 蒲田店",
         "genre": "そば/うどん",
@@ -13201,26 +13182,6 @@ export const tokyoHalls: readonly PachinkoHall[] = [
         "address": "東京都大田区西蒲田7-3-3",
         "lat": 35.5628,
         "lng": 139.7155
-      },
-      {
-        "id": 173,
-        "name": "一風堂 蒲田店",
-        "genre": "ラーメン",
-        "walkMinutes": 3,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "11:00〜23:00（L.O. 22:30）",
-        "ai_summary": "蒲田駅西口徒歩3分のとんこつラーメン。博多系の定番一杯で、西口ホール圏の人気店。",
-        "tags": [
-          "サク飯",
-          "ガッツリ",
-          "一人OK"
-        ],
-        "address": "東京都大田区西蒲田7-4-1",
-        "lat": 35.5622,
-        "lng": 139.7158
       },
       {
         "id": 169,
@@ -13306,6 +13267,26 @@ export const tokyoHalls: readonly PachinkoHall[] = [
         "address": "東京都大田区西蒲田7-51-2 ベルコーサ1F",
         "lat": 35.564,
         "lng": 139.7148
+      },
+      {
+        "id": 172,
+        "name": "焼肉ライク 蒲田西口店",
+        "genre": "焼肉",
+        "walkMinutes": 5,
+        "time_category": [
+          "昼",
+          "夜"
+        ],
+        "hours": "10:00〜23:00（L.O. 22:30）",
+        "ai_summary": "蒲田駅西口徒歩1分の一人焼肉専門。工学院通り商店街入口近くで、無煙ロースターによる手軽なスタミナ飯。",
+        "tags": [
+          "サク飯",
+          "ガッツリ",
+          "一人OK"
+        ],
+        "address": "東京都大田区西蒲田7-4-8 加納ビル1F",
+        "lat": 35.563702,
+        "lng": 139.716019
       },
       {
         "id": 166,
@@ -13432,26 +13413,6 @@ export const tokyoHalls: readonly PachinkoHall[] = [
         "address": "東京都大田区蒲田5-25-2 コーポ橋本1F",
         "lat": 35.5624,
         "lng": 139.719
-      },
-      {
-        "id": 172,
-        "name": "焼肉ライク 蒲田店",
-        "genre": "焼肉",
-        "walkMinutes": 8,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "10:00〜23:00（L.O. 22:30）",
-        "ai_summary": "蒲田駅東口徒歩3分の一人焼肉専門。無煙ロースターで気軽にスタミナチャージできる。",
-        "tags": [
-          "サク飯",
-          "ガッツリ",
-          "一人OK"
-        ],
-        "address": "東京都大田区蒲田5-20-5",
-        "lat": 35.5618,
-        "lng": 139.7192
       }
     ]
   },
@@ -13598,46 +13559,6 @@ export const tokyoHalls: readonly PachinkoHall[] = [
         "lng": 139.719
       },
       {
-        "id": 172,
-        "name": "焼肉ライク 蒲田店",
-        "genre": "焼肉",
-        "walkMinutes": 3,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "10:00〜23:00（L.O. 22:30）",
-        "ai_summary": "蒲田駅東口徒歩3分の一人焼肉専門。無煙ロースターで気軽にスタミナチャージできる。",
-        "tags": [
-          "サク飯",
-          "ガッツリ",
-          "一人OK"
-        ],
-        "address": "東京都大田区蒲田5-20-5",
-        "lat": 35.5618,
-        "lng": 139.7192
-      },
-      {
-        "id": 173,
-        "name": "一風堂 蒲田店",
-        "genre": "ラーメン",
-        "walkMinutes": 4,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "11:00〜23:00（L.O. 22:30）",
-        "ai_summary": "蒲田駅西口徒歩3分のとんこつラーメン。博多系の定番一杯で、西口ホール圏の人気店。",
-        "tags": [
-          "サク飯",
-          "ガッツリ",
-          "一人OK"
-        ],
-        "address": "東京都大田区西蒲田7-4-1",
-        "lat": 35.5622,
-        "lng": 139.7158
-      },
-      {
         "id": 163,
         "name": "すき家 京急蒲田駅前店",
         "genre": "丼もの",
@@ -13703,6 +13624,26 @@ export const tokyoHalls: readonly PachinkoHall[] = [
         "lng": 139.7152
       },
       {
+        "id": 172,
+        "name": "焼肉ライク 蒲田西口店",
+        "genre": "焼肉",
+        "walkMinutes": 6,
+        "time_category": [
+          "昼",
+          "夜"
+        ],
+        "hours": "10:00〜23:00（L.O. 22:30）",
+        "ai_summary": "蒲田駅西口徒歩1分の一人焼肉専門。工学院通り商店街入口近くで、無煙ロースターによる手軽なスタミナ飯。",
+        "tags": [
+          "サク飯",
+          "ガッツリ",
+          "一人OK"
+        ],
+        "address": "東京都大田区西蒲田7-4-8 加納ビル1F",
+        "lat": 35.563702,
+        "lng": 139.716019
+      },
+      {
         "id": 169,
         "name": "かつや 蒲田店",
         "genre": "とんかつ/カツ丼",
@@ -13742,25 +13683,6 @@ export const tokyoHalls: readonly PachinkoHall[] = [
         "address": "東京都大田区西蒲田7-51-2 ベルコーサ1F",
         "lat": 35.564,
         "lng": 139.7148
-      },
-      {
-        "id": 171,
-        "name": "スシロー 蒲田店",
-        "genre": "回転寿司",
-        "walkMinutes": 7,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "平日11:00〜23:00、土日祝10:30〜23:00（L.O. 閉店30分前）",
-        "ai_summary": "蒲田駅西口徒歩2分の回転寿司。コスパ良好で、楽園・キコーナ圏からの手軽な軽食。",
-        "tags": [
-          "サク飯",
-          "一人OK"
-        ],
-        "address": "東京都大田区西蒲田7-1-1",
-        "lat": 35.5625,
-        "lng": 139.714
       }
     ]
   },
@@ -13841,26 +13763,6 @@ export const tokyoHalls: readonly PachinkoHall[] = [
         "lng": 139.7188
       },
       {
-        "id": 172,
-        "name": "焼肉ライク 蒲田店",
-        "genre": "焼肉",
-        "walkMinutes": 2,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "10:00〜23:00（L.O. 22:30）",
-        "ai_summary": "蒲田駅東口徒歩3分の一人焼肉専門。無煙ロースターで気軽にスタミナチャージできる。",
-        "tags": [
-          "サク飯",
-          "ガッツリ",
-          "一人OK"
-        ],
-        "address": "東京都大田区蒲田5-20-5",
-        "lat": 35.5618,
-        "lng": 139.7192
-      },
-      {
         "id": 165,
         "name": "松屋 蒲田東口店",
         "genre": "カレー",
@@ -13949,26 +13851,6 @@ export const tokyoHalls: readonly PachinkoHall[] = [
         "lng": 139.7168
       },
       {
-        "id": 173,
-        "name": "一風堂 蒲田店",
-        "genre": "ラーメン",
-        "walkMinutes": 6,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "11:00〜23:00（L.O. 22:30）",
-        "ai_summary": "蒲田駅西口徒歩3分のとんこつラーメン。博多系の定番一杯で、西口ホール圏の人気店。",
-        "tags": [
-          "サク飯",
-          "ガッツリ",
-          "一人OK"
-        ],
-        "address": "東京都大田区西蒲田7-4-1",
-        "lat": 35.5622,
-        "lng": 139.7158
-      },
-      {
         "id": 167,
         "name": "はなまるうどん 蒲田店",
         "genre": "そば/うどん",
@@ -14012,23 +13894,24 @@ export const tokyoHalls: readonly PachinkoHall[] = [
         "lng": 139.7152
       },
       {
-        "id": 171,
-        "name": "スシロー 蒲田店",
-        "genre": "回転寿司",
-        "walkMinutes": 8,
+        "id": 172,
+        "name": "焼肉ライク 蒲田西口店",
+        "genre": "焼肉",
+        "walkMinutes": 7,
         "time_category": [
           "昼",
           "夜"
         ],
-        "hours": "平日11:00〜23:00、土日祝10:30〜23:00（L.O. 閉店30分前）",
-        "ai_summary": "蒲田駅西口徒歩2分の回転寿司。コスパ良好で、楽園・キコーナ圏からの手軽な軽食。",
+        "hours": "10:00〜23:00（L.O. 22:30）",
+        "ai_summary": "蒲田駅西口徒歩1分の一人焼肉専門。工学院通り商店街入口近くで、無煙ロースターによる手軽なスタミナ飯。",
         "tags": [
           "サク飯",
+          "ガッツリ",
           "一人OK"
         ],
-        "address": "東京都大田区西蒲田7-1-1",
-        "lat": 35.5625,
-        "lng": 139.714
+        "address": "東京都大田区西蒲田7-4-8 加納ビル1F",
+        "lat": 35.563702,
+        "lng": 139.716019
       },
       {
         "id": 169,
@@ -14109,25 +13992,6 @@ export const tokyoHalls: readonly PachinkoHall[] = [
         "lng": 139.7138
       },
       {
-        "id": 171,
-        "name": "スシロー 蒲田店",
-        "genre": "回転寿司",
-        "walkMinutes": 3,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "平日11:00〜23:00、土日祝10:30〜23:00（L.O. 閉店30分前）",
-        "ai_summary": "蒲田駅西口徒歩2分の回転寿司。コスパ良好で、楽園・キコーナ圏からの手軽な軽食。",
-        "tags": [
-          "サク飯",
-          "一人OK"
-        ],
-        "address": "東京都大田区西蒲田7-1-1",
-        "lat": 35.5625,
-        "lng": 139.714
-      },
-      {
         "id": 175,
         "name": "なか卯 蒲田店",
         "genre": "丼もの",
@@ -14193,24 +14057,24 @@ export const tokyoHalls: readonly PachinkoHall[] = [
         "lng": 139.7155
       },
       {
-        "id": 173,
-        "name": "一風堂 蒲田店",
-        "genre": "ラーメン",
+        "id": 172,
+        "name": "焼肉ライク 蒲田西口店",
+        "genre": "焼肉",
         "walkMinutes": 5,
         "time_category": [
           "昼",
           "夜"
         ],
-        "hours": "11:00〜23:00（L.O. 22:30）",
-        "ai_summary": "蒲田駅西口徒歩3分のとんこつラーメン。博多系の定番一杯で、西口ホール圏の人気店。",
+        "hours": "10:00〜23:00（L.O. 22:30）",
+        "ai_summary": "蒲田駅西口徒歩1分の一人焼肉専門。工学院通り商店街入口近くで、無煙ロースターによる手軽なスタミナ飯。",
         "tags": [
           "サク飯",
           "ガッツリ",
           "一人OK"
         ],
-        "address": "東京都大田区西蒲田7-4-1",
-        "lat": 35.5622,
-        "lng": 139.7158
+        "address": "東京都大田区西蒲田7-4-8 加納ビル1F",
+        "lat": 35.563702,
+        "lng": 139.716019
       },
       {
         "id": 168,
@@ -14359,26 +14223,6 @@ export const tokyoHalls: readonly PachinkoHall[] = [
         "address": "東京都大田区蒲田5-18-3",
         "lat": 35.5616,
         "lng": 139.7188
-      },
-      {
-        "id": 172,
-        "name": "焼肉ライク 蒲田店",
-        "genre": "焼肉",
-        "walkMinutes": 10,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "10:00〜23:00（L.O. 22:30）",
-        "ai_summary": "蒲田駅東口徒歩3分の一人焼肉専門。無煙ロースターで気軽にスタミナチャージできる。",
-        "tags": [
-          "サク飯",
-          "ガッツリ",
-          "一人OK"
-        ],
-        "address": "東京都大田区蒲田5-20-5",
-        "lat": 35.5618,
-        "lng": 139.7192
       }
     ]
   },
