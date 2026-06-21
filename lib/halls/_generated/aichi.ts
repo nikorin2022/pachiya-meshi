@@ -14,8 +14,8 @@ export const aichiHalls: readonly PachinkoHall[] = [
     "prefecture": "愛知県",
     "city": "名古屋市中区",
     "address": "愛知県名古屋市中区栄5丁目26番12号",
-    "lat": 35.166972,
-    "lng": 136.907833,
+    "lat": 35.162781,
+    "lng": 136.91246,
     "access": "地下鉄矢場町駅3番出口から徒歩3分 / 若宮大通り沿い",
     "hours": "9:00〜23:00",
     "pachinko": 752,
@@ -24,28 +24,10 @@ export const aichiHalls: readonly PachinkoHall[] = [
     "meal_guide": "パチンコ・パチスロユーザー向けに見ると、キング観光サウザンド栄若宮大通店は若宮大通り沿い、地下鉄矢場町駅3番出口から徒歩3分の立地です。矢場町口を起点にすれば、お初天神方面の味噌系ラーメンや、若宮大通沿いの回転の速いチェーンへ短時間で往復できます。朝一前は北4条通側の24時間店で軽食、昼休憩は牛丼やカレーでサクッと、閉店後は焼肉やとんかつで締めまで組み立てやすいです。中部遠征ユーザーにとって、住吉店・東新町店と組み合わせて栄エリア内の食事計画を日替わりで組み立てやすいホールです。パチンコ・パチスロ双方の台数が地域最大級で、長時間稼働の合間に周辺店を使い分けやすい立地です。",
     "restaurants": [
       {
-        "id": 515,
-        "name": "天下の中華そば 味仙 矢場店",
-        "genre": "ラーメン",
-        "walkMinutes": 2,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "11:00〜22:00",
-        "ai_summary": "辛味中華の味仙。ガッツリ飯や締めの一杯にも使える定番。",
-        "tags": [
-          "一人OK"
-        ],
-        "address": "愛知県名古屋市中区大須3-34-10",
-        "lat": 35.1678,
-        "lng": 136.9082
-      },
-      {
         "id": 514,
-        "name": "矢場とん 栄本店",
+        "name": "矢場とん 矢場町本店",
         "genre": "とんかつ/カツ丼",
-        "walkMinutes": 3,
+        "walkMinutes": 10,
         "time_category": [
           "昼",
           "夜"
@@ -56,80 +38,8 @@ export const aichiHalls: readonly PachinkoHall[] = [
           "一人OK"
         ],
         "address": "愛知県名古屋市中区大須3-6-18",
-        "lat": 35.1682,
-        "lng": 136.9085
-      },
-      {
-        "id": 516,
-        "name": "山本屋本店",
-        "genre": "そば/うどん",
-        "walkMinutes": 3,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "11:00〜22:00",
-        "ai_summary": "名古屋名物みそ煮込みうどんの老舗。地場名店として遠征の締め飯にも。",
-        "tags": [
-          "一人OK"
-        ],
-        "address": "愛知県名古屋市中区栄3-12-19",
-        "lat": 35.1685,
-        "lng": 136.9078
-      },
-      {
-        "id": 619,
-        "name": "すき家 栄三丁目店",
-        "genre": "丼もの",
-        "walkMinutes": 5,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "4:00〜翌3:00",
-        "ai_summary": "栄駅8出口付近のすき家。キング観光サウザンド栄各店から徒歩圏の牛丼。",
-        "tags": [
-          "一人OK"
-        ],
-        "address": "愛知県名古屋市中区栄3-8-32 山田ビル",
-        "lat": 35.167322,
-        "lng": 136.904858
-      },
-      {
-        "id": 615,
-        "name": "吉野家 久屋大通錦店",
-        "genre": "丼もの",
-        "walkMinutes": 9,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "8:00〜23:00",
-        "ai_summary": "久屋大通錦の吉野家。牛丼で素早く腹を満たす。",
-        "tags": [
-          "一人OK"
-        ],
-        "address": "愛知県名古屋市中区錦3-6-15",
-        "lat": 35.171667,
-        "lng": 136.908056
-      },
-      {
-        "id": 614,
-        "name": "吉野家 栄トリッドスクエア店",
-        "genre": "丼もの",
-        "walkMinutes": 9,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "7:00〜23:00",
-        "ai_summary": "新栄の吉野家。牛丼を素早く食べられる定番チェーン。",
-        "tags": [
-          "一人OK"
-        ],
-        "address": "愛知県名古屋市中区新栄町2-13 栄トリッドスクエア 1F",
-        "lat": 35.170972,
-        "lng": 136.911389
+        "lat": 35.161633,
+        "lng": 136.90625
       }
     ]
   },
@@ -140,8 +50,8 @@ export const aichiHalls: readonly PachinkoHall[] = [
     "prefecture": "愛知県",
     "city": "名古屋市中区",
     "address": "愛知県名古屋市中区栄3丁目2番17号",
-    "lat": 35.169722,
-    "lng": 136.905278,
+    "lat": 35.1679,
+    "lng": 136.904526,
     "access": "地下鉄栄駅16番出口から徒歩圏 / プリンセス大通り沿い",
     "hours": "9:00〜23:00",
     "pachinko": 757,
@@ -153,7 +63,7 @@ export const aichiHalls: readonly PachinkoHall[] = [
         "id": 619,
         "name": "すき家 栄三丁目店",
         "genre": "丼もの",
-        "walkMinutes": 5,
+        "walkMinutes": 2,
         "time_category": [
           "昼",
           "夜"
@@ -169,7 +79,7 @@ export const aichiHalls: readonly PachinkoHall[] = [
       },
       {
         "id": 516,
-        "name": "山本屋本店",
+        "name": "山本屋本店 栄本町通店",
         "genre": "そば/うどん",
         "walkMinutes": 5,
         "time_category": [
@@ -181,51 +91,15 @@ export const aichiHalls: readonly PachinkoHall[] = [
         "tags": [
           "一人OK"
         ],
-        "address": "愛知県名古屋市中区栄3-12-19",
-        "lat": 35.1685,
-        "lng": 136.9078
-      },
-      {
-        "id": 515,
-        "name": "天下の中華そば 味仙 矢場店",
-        "genre": "ラーメン",
-        "walkMinutes": 6,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "11:00〜22:00",
-        "ai_summary": "辛味中華の味仙。ガッツリ飯や締めの一杯にも使える定番。",
-        "tags": [
-          "一人OK"
-        ],
-        "address": "愛知県名古屋市中区大須3-34-10",
-        "lat": 35.1678,
-        "lng": 136.9082
-      },
-      {
-        "id": 514,
-        "name": "矢場とん 栄本店",
-        "genre": "とんかつ/カツ丼",
-        "walkMinutes": 6,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "11:00〜22:00",
-        "ai_summary": "味噌カツの名店。栄遠征のご褒美とんかつとして遠征ユーザーにも知られる。",
-        "tags": [
-          "一人OK"
-        ],
-        "address": "愛知県名古屋市中区大須3-6-18",
-        "lat": 35.1682,
-        "lng": 136.9085
+        "address": "愛知県名古屋市中区栄2-14-5 山本屋本店栄ビル1階",
+        "lat": 35.166401,
+        "lng": 136.902298
       },
       {
         "id": 615,
         "name": "吉野家 久屋大通錦店",
         "genre": "丼もの",
-        "walkMinutes": 6,
+        "walkMinutes": 9,
         "time_category": [
           "昼",
           "夜"
@@ -238,24 +112,6 @@ export const aichiHalls: readonly PachinkoHall[] = [
         "address": "愛知県名古屋市中区錦3-6-15",
         "lat": 35.171667,
         "lng": 136.908056
-      },
-      {
-        "id": 614,
-        "name": "吉野家 栄トリッドスクエア店",
-        "genre": "丼もの",
-        "walkMinutes": 10,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "7:00〜23:00",
-        "ai_summary": "新栄の吉野家。牛丼を素早く食べられる定番チェーン。",
-        "tags": [
-          "一人OK"
-        ],
-        "address": "愛知県名古屋市中区新栄町2-13 栄トリッドスクエア 1F",
-        "lat": 35.170972,
-        "lng": 136.911389
       }
     ]
   },
@@ -266,8 +122,8 @@ export const aichiHalls: readonly PachinkoHall[] = [
     "prefecture": "愛知県",
     "city": "名古屋市中区",
     "address": "愛知県名古屋市中区新栄1丁目1番31号",
-    "lat": 35.1725,
-    "lng": 136.912778,
+    "lat": 35.168934,
+    "lng": 136.914902,
     "access": "地下鉄新栄町駅から徒歩8分 / 名古屋高速東新町入口すぐ",
     "hours": "9:00〜23:00",
     "pachinko": 550,
@@ -276,28 +132,10 @@ export const aichiHalls: readonly PachinkoHall[] = [
     "meal_guide": "パチンコ・パチスロユーザー向けに見ると、キング観光サウザンド栄東新町店は名古屋高速東新町入口すぐ、地下鉄新栄町駅から徒歩圏の立地です。車遠征で駐車場を使うユーザーにも入口が分かりやすく、新栄エリアのロードサイド店と栄中心部の地場店を組み合わせやすい動線です。朝一前は近隣の立ち食いそばや牛丼で軽食、昼休憩はカレーや丼ものでサクッと、閉店後は焼肉やラーメンで締めまで組み立てやすいです。遠征ユーザーにとって、若宮大通店・住吉店とはエリア内の別動線になるため、同じ遠征でも日替わりで食事先を変えやすいホールです。パチンコ・パチスロ双方の台数バランスがあり、休憩の長さに合わせて周辺店を選びやすいです。",
     "restaurants": [
       {
-        "id": 614,
-        "name": "吉野家 栄トリッドスクエア店",
-        "genre": "丼もの",
-        "walkMinutes": 4,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "7:00〜23:00",
-        "ai_summary": "新栄の吉野家。牛丼を素早く食べられる定番チェーン。",
-        "tags": [
-          "一人OK"
-        ],
-        "address": "愛知県名古屋市中区新栄町2-13 栄トリッドスクエア 1F",
-        "lat": 35.170972,
-        "lng": 136.911389
-      },
-      {
         "id": 613,
         "name": "なか卯 東新町店",
         "genre": "丼もの",
-        "walkMinutes": 7,
+        "walkMinutes": 1,
         "time_category": [
           "昼",
           "夜"
@@ -315,7 +153,7 @@ export const aichiHalls: readonly PachinkoHall[] = [
         "id": 621,
         "name": "カレーハウスCoCo壱番屋 中区新栄店",
         "genre": "カレー",
-        "walkMinutes": 8,
+        "walkMinutes": 2,
         "time_category": [
           "昼",
           "夜"
@@ -330,22 +168,22 @@ export const aichiHalls: readonly PachinkoHall[] = [
         "lng": 136.916056
       },
       {
-        "id": 615,
-        "name": "吉野家 久屋大通錦店",
+        "id": 614,
+        "name": "吉野家 栄トリッドスクエア店",
         "genre": "丼もの",
-        "walkMinutes": 8,
+        "walkMinutes": 7,
         "time_category": [
           "昼",
           "夜"
         ],
-        "hours": "8:00〜23:00",
-        "ai_summary": "久屋大通錦の吉野家。牛丼で素早く腹を満たす。",
+        "hours": "7:00〜23:00",
+        "ai_summary": "新栄の吉野家。牛丼を素早く食べられる定番チェーン。",
         "tags": [
           "一人OK"
         ],
-        "address": "愛知県名古屋市中区錦3-6-15",
-        "lat": 35.171667,
-        "lng": 136.908056
+        "address": "愛知県名古屋市中区新栄町2-13 栄トリッドスクエア 1F",
+        "lat": 35.170972,
+        "lng": 136.911389
       }
     ]
   },

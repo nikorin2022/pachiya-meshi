@@ -6414,93 +6414,10 @@
     "area_id": "kanda"
   },
   {
-    "id": "sukiya-okachimachi-minamiguchi",
-    "legacy_id": 303,
-    "name": "すき家 御徒町南口店",
-    "genre": "丼もの",
-    "time_category": [
-      "朝",
-      "昼",
-      "夜"
-    ],
-    "hours": "24時間営業",
-    "tags": [
-      "サク飯",
-      "一人OK",
-      "深夜OK"
-    ],
-    "address": "東京都台東区上野5-23-8",
-    "lat": 35.7078,
-    "lng": 139.7742,
-    "default_ai_summary": "御徒町南口徒歩1分の牛丼チェーン。24時間営業で、アメ横圏のホールから戻りやすい定番候補。",
-    "area_id": "okachimachi"
-  },
-  {
-    "id": "cocoichi-okachimachi",
-    "legacy_id": 304,
-    "name": "CoCo壱番屋 御徒町店",
-    "genre": "カレー",
-    "time_category": [
-      "昼",
-      "夜"
-    ],
-    "hours": "10:30〜22:00",
-    "tags": [
-      "サク飯",
-      "ガッツリ",
-      "一人OK"
-    ],
-    "address": "東京都台東区上野5-25-12",
-    "lat": 35.708,
-    "lng": 139.7748,
-    "default_ai_summary": "御徒町駅近くの定番カレーチェーン。提供が早く、短い休憩でもホールに戻りやすい。",
-    "area_id": "okachimachi"
-  },
-  {
-    "id": "mosburger-okachimachi",
-    "legacy_id": 307,
-    "name": "モスバーガー 御徒町店",
-    "genre": "ハンバーガー",
-    "time_category": [
-      "昼",
-      "夜"
-    ],
-    "hours": "10:00〜22:00",
-    "tags": [
-      "サク飯",
-      "一人OK"
-    ],
-    "address": "東京都台東区上野5-27-1",
-    "lat": 35.7072,
-    "lng": 139.7752,
-    "default_ai_summary": "御徒町南口のハンバーガーチェーン。こだわりバーガーが手軽で、軽めの休憩飯に向く。",
-    "area_id": "okachimachi"
-  },
-  {
-    "id": "yakiniku-like-ugisu",
-    "legacy_id": 309,
-    "name": "焼肉ライク 鶯谷店",
-    "genre": "焼肉",
-    "time_category": [
-      "昼",
-      "夜"
-    ],
-    "hours": "11:00〜23:00",
-    "tags": [
-      "ガッツリ",
-      "一人OK"
-    ],
-    "address": "東京都台東区上野5-40-2",
-    "lat": 35.721,
-    "lng": 139.7785,
-    "default_ai_summary": "鶯谷口徒歩5分の一人焼肉チェーン。みとや鶯谷M-1圏からアクセスしやすい。",
-    "area_id": "okachimachi"
-  },
-  {
-    "id": "asakusa-okina-soba",
+    "id": "daikokuya-tendon-asakusa",
     "legacy_id": 310,
-    "name": "浅草大黒天 本店",
-    "genre": "そば/うどん",
+    "name": "大黒家天麩羅 本店",
+    "genre": "丼もの",
     "time_category": [
       "昼",
       "夜"
@@ -6511,34 +6428,14 @@
       "一人OK"
     ],
     "address": "東京都台東区浅草1-38-10",
-    "lat": 35.7128,
-    "lng": 139.7958,
-    "default_ai_summary": "浅草の老舗そば店。観光地ながら地元客も多く、浅草圏のホール休憩に使いやすい。",
+    "lat": 35.712776,
+    "lng": 139.795532,
+    "default_ai_summary": "浅草の老舗天ぷら・天丼店。雷門方面の名店で、浅草圏ホールからの休憩飯にも使いやすい。",
     "is_kitaichimeshi": true,
     "selection_tags": [
       "local_famous"
     ],
-    "selection_note": "浅草圏の老舗そば店として選定",
-    "area_id": "okachimachi"
-  },
-  {
-    "id": "ramen-nagi-asakusa",
-    "legacy_id": 311,
-    "name": "ラーメン凪 浅草店",
-    "genre": "ラーメン",
-    "time_category": [
-      "昼",
-      "夜"
-    ],
-    "hours": "11:00〜22:00",
-    "tags": [
-      "ガッツリ",
-      "一人OK"
-    ],
-    "address": "東京都台東区浅草2-26-5",
-    "lat": 35.7145,
-    "lng": 139.7935,
-    "default_ai_summary": "浅草の濃厚系ラーメン店。並ぶこともあるが、ガッツリ系が欲しい時の候補になる。",
+    "selection_note": "浅草圏の老舗天丼店として選定",
     "area_id": "okachimachi"
   },
   {
@@ -8071,8 +7968,8 @@
       "一人OK"
     ],
     "address": "東京都台東区三ノ輪2-14-6",
-    "lat": 35.7302,
-    "lng": 139.7918,
+    "lat": 35.729881,
+    "lng": 139.792282,
     "default_ai_summary": "三ノ輪駅徒歩1分の鶏白湯ラーメン。濃厚スープで満足感があり、三ノ輪UNOからの戻りが短い一杯系の店。"
   },
   {
@@ -8091,8 +7988,8 @@
       "一人OK"
     ],
     "address": "東京都台東区三ノ輪1-8-5",
-    "lat": 35.7295,
-    "lng": 139.7908,
+    "lat": 35.727127,
+    "lng": 139.791,
     "default_ai_summary": "三ノ輪駅徒歩2分の喜多方系ラーメン。あっさり系で食後の動きやすさがあり、短い休憩向き。"
   },
   {
@@ -8111,8 +8008,8 @@
       "一人OK"
     ],
     "address": "東京都台東区三ノ輪1-12-8",
-    "lat": 35.7298,
-    "lng": 139.7912,
+    "lat": 35.727581,
+    "lng": 139.792847,
     "default_ai_summary": "三ノ輪駅徒歩1分の立ち食いそば。早朝から営業しており、三ノ輪UNO圏の神コスパサク飯。"
   },
   {
@@ -8133,8 +8030,8 @@
       "深夜OK"
     ],
     "address": "東京都台東区三ノ輪1-15-3",
-    "lat": 35.7305,
-    "lng": 139.792,
+    "lat": 35.727371,
+    "lng": 139.793121,
     "default_ai_summary": "三ノ輪駅徒歩2分の牛丼。24時間営業で、三ノ輪UNOからの最速丼候補。"
   },
   {

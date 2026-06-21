@@ -2,7 +2,7 @@
   {
     "id": "yabaton-sakae-honten",
     "legacy_id": 514,
-    "name": "矢場とん 栄本店",
+    "name": "矢場とん 矢場町本店",
     "area_id": "sakae",
     "genre": "とんかつ/カツ丼",
     "time_category": [
@@ -14,33 +14,14 @@
       "一人OK"
     ],
     "address": "愛知県名古屋市中区大須3-6-18",
-    "lat": 35.1682,
-    "lng": 136.9085,
+    "lat": 35.161633,
+    "lng": 136.90625,
     "default_ai_summary": "味噌カツの名店。栄遠征のご褒美とんかつとして遠征ユーザーにも知られる。"
-  },
-  {
-    "id": "misen-yabacho-sakae",
-    "legacy_id": 515,
-    "name": "天下の中華そば 味仙 矢場店",
-    "area_id": "sakae",
-    "genre": "ラーメン",
-    "time_category": [
-      "昼",
-      "夜"
-    ],
-    "hours": "11:00〜22:00",
-    "tags": [
-      "一人OK"
-    ],
-    "address": "愛知県名古屋市中区大須3-34-10",
-    "lat": 35.1678,
-    "lng": 136.9082,
-    "default_ai_summary": "辛味中華の味仙。ガッツリ飯や締めの一杯にも使える定番。"
   },
   {
     "id": "yamamotoya-sakae",
     "legacy_id": 516,
-    "name": "山本屋本店",
+    "name": "山本屋本店 栄本町通店",
     "area_id": "sakae",
     "genre": "そば/うどん",
     "time_category": [
@@ -51,9 +32,9 @@
     "tags": [
       "一人OK"
     ],
-    "address": "愛知県名古屋市中区栄3-12-19",
-    "lat": 35.1685,
-    "lng": 136.9078,
+    "address": "愛知県名古屋市中区栄2-14-5 山本屋本店栄ビル1階",
+    "lat": 35.166401,
+    "lng": 136.902298,
     "default_ai_summary": "名古屋名物みそ煮込みうどんの老舗。地場名店として遠征の締め飯にも。"
   },
   {
