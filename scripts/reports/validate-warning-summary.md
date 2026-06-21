@@ -1,6 +1,6 @@
 # validate 警告分析レポート
 
-生成日時: 2026-06-21T15:40:33.148Z
+生成日時: 2026-06-21T16:01:21.283Z
 
 > 本レポートは `scripts/analyze-validate-warnings.mjs` により自動生成。データ修正は行っていません。
 
@@ -8,11 +8,11 @@
 
 | 項目 | 件数 |
 | ---- | ---: |
-| 総警告数 | 1044 |
+| 総警告数 | 1040 |
 | P0（即対応） | 0 |
-| P1（優先確認） | 406 |
+| P1（優先確認） | 403 |
 | P2（順次改善） | 460 |
-| P3（コンテンツ品質） | 178 |
+| P3（コンテンツ品質） | 177 |
 | P4（後回し） | 0 |
 
 ## 2. 警告分類ルール（カテゴリ別件数）
@@ -20,15 +20,15 @@
 | 優先度 | カテゴリ | 件数 |
 | ---- | ---- | ---: |
 | P2 | restaurant_low_precision_coords | 365 |
-| P1 | restaurant_low_precision_coords | 329 |
+| P1 | restaurant_low_precision_coords | 328 |
 | P2 | hall_low_precision_coords | 95 |
-| P3 | donburi_chain_skew | 72 |
 | P3 | no_local_food | 71 |
-| P1 | near_walk_limit | 45 |
-| P1 | facility_address_incomplete | 32 |
-| P3 | under5_restaurants | 12 |
+| P3 | donburi_chain_skew | 70 |
+| P1 | near_walk_limit | 44 |
+| P1 | facility_address_incomplete | 31 |
+| P3 | under5_restaurants | 14 |
 | P3 | no_expectation_meal | 11 |
-| P3 | low_main_genre_diversity | 9 |
+| P3 | low_main_genre_diversity | 8 |
 | P3 | zero_restaurants | 3 |
 
 ### 優先度定義
@@ -45,19 +45,19 @@
 
 | 都道府県 | P0 | P1 | P2 | P3 | P4 | 合計 |
 | --- | --- | --- | --- | --- | --- | --- |
-| 愛知県 | 0 | 2 | 0 | 11 | 0 | 13 |
+| 愛知県 | 0 | 1 | 0 | 10 | 0 | 11 |
 | 宮城県 | 0 | 0 | 0 | 8 | 0 | 8 |
 | 大阪府 | 0 | 18 | 17 | 23 | 0 | 58 |
 | 東京都 | 0 | 375 | 443 | 118 | 0 | 936 |
 | 福岡県 | 0 | 8 | 0 | 10 | 0 | 18 |
-| 北海道 | 0 | 3 | 0 | 8 | 0 | 11 |
+| 北海道 | 0 | 1 | 0 | 8 | 0 | 9 |
 
 ## 4. エリア別集計
 
 | 都道府県 | エリア | P0 | P1 | P2 | P3 | P4 | 合計 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 愛知県 | 栄 | 0 | 1 | 0 | 7 | 0 | 8 |
-| 愛知県 | 名古屋駅 | 0 | 1 | 0 | 4 | 0 | 5 |
+| 愛知県 | 名古屋駅 | 0 | 0 | 0 | 3 | 0 | 3 |
 | 宮城県 | 仙台 | 0 | 0 | 0 | 8 | 0 | 8 |
 | 大阪府 | 難波 | 0 | 15 | 17 | 11 | 0 | 43 |
 | 大阪府 | 梅田 | 0 | 3 | 0 | 12 | 0 | 15 |
@@ -94,8 +94,8 @@
 | 東京都 | 立川 | 0 | 6 | 10 | 0 | 0 | 16 |
 | 福岡県 | 天神 | 0 | 1 | 0 | 5 | 0 | 6 |
 | 福岡県 | 博多 | 0 | 7 | 0 | 5 | 0 | 12 |
-| 北海道 | 札幌駅前 | 0 | 2 | 0 | 6 | 0 | 8 |
-| 北海道 | 狸小路 | 0 | 1 | 0 | 2 | 0 | 3 |
+| 北海道 | 札幌駅前 | 0 | 1 | 0 | 6 | 0 | 7 |
+| 北海道 | 狸小路 | 0 | 0 | 0 | 2 | 0 | 2 |
 
 ## 5. ホール別集計（P0+P1+合計の降順）
 
@@ -202,15 +202,12 @@
 | big-dipper-shinbashi-2 | BIGディッパー新橋2号店 | 新橋 | 0 | 1 | 7 | 0 | 0 | 8 | - |
 | western-kasai | ウエスタン葛西店 | 葛西 | 0 | 1 | 6 | 1 | 0 | 8 | 丼チェーン偏重 |
 | dynam-ayase-higashiguchi | ダイナム綾瀬東口店 | 綾瀬 | 0 | 1 | 4 | 1 | 0 | 6 | 地場飯不足 |
-| king-thousand-nagoya-ekimae-yanagibashi | キング観光サウザンド名古屋駅柳橋店 | 名古屋駅 | 0 | 1 | 0 | 4 | 0 | 5 | 丼チェーン偏重, 期待値飯不足, 地場飯不足 |
 | shikairi-air-nanba | 四海樓air店 | 難波 | 0 | 1 | 1 | 3 | 0 | 5 | 丼チェーン偏重, 地場飯不足 |
 | club-d-nanba | CLUB-D | 難波 | 0 | 1 | 1 | 3 | 0 | 5 | 丼チェーン偏重, 地場飯不足 |
-| himawari-sapporo-ekimae-tower | 札幌駅前ひまわりタワー店 | 札幌駅前 | 0 | 1 | 0 | 3 | 0 | 4 | 丼チェーン偏重, 地場飯不足 |
 | vegas-vegas-sapporo | ベガスベガス札幌店 | 札幌駅前 | 0 | 1 | 0 | 3 | 0 | 4 | 丼チェーン偏重, 地場飯不足 |
 | rakuen-tachikawa | 楽園立川店 | 立川 | 0 | 1 | 3 | 0 | 0 | 4 | - |
 | prego-tachikawa | プレゴ立川店 | 立川 | 0 | 1 | 3 | 0 | 0 | 4 | - |
 | hyper-geas-tachikawa | ハイパージアス立川 | 立川 | 0 | 1 | 3 | 0 | 0 | 4 | - |
-| vegas-vegas-tanukikoji | ベガスベガス狸小路店 | 狸小路 | 0 | 1 | 0 | 2 | 0 | 3 | 丼チェーン偏重, 地場飯不足 |
 | 123n-osaka-honten | 123＋N大阪本店 | 梅田 | 0 | 1 | 0 | 2 | 0 | 3 | 丼チェーン偏重, 地場飯不足 |
 | shikairi-hep-five | 四海樓 HEP FIVE店 | 梅田 | 0 | 1 | 0 | 2 | 0 | 3 | 丼チェーン偏重, 地場飯不足 |
 | slot123-umeda | スロット123梅田店 | 梅田 | 0 | 1 | 0 | 2 | 0 | 3 | 丼チェーン偏重, 地場飯不足 |
@@ -219,8 +216,11 @@
 | plaza-tenjin | プラザ天神 | 天神 | 0 | 1 | 0 | 1 | 0 | 2 | 丼チェーン偏重 |
 | king-thousand-sakae-sumiyoshi | キング観光サウザンド栄住吉店 | 栄 | 0 | 0 | 0 | 3 | 0 | 3 | 掲載不足, 期待値飯不足, 地場飯不足 |
 | king-thousand-sakae-higashishinmachi | キング観光サウザンド栄東新町店 | 栄 | 0 | 0 | 0 | 3 | 0 | 3 | 掲載不足, 期待値飯不足, 地場飯不足 |
+| king-thousand-nagoya-ekimae-yanagibashi | キング観光サウザンド名古屋駅柳橋店 | 名古屋駅 | 0 | 0 | 0 | 3 | 0 | 3 | 掲載不足, 期待値飯不足, 地場飯不足 |
 | boom-tenjin-honten | BOOM天神本店 | 天神 | 0 | 0 | 0 | 3 | 0 | 3 | 掲載不足, 期待値飯不足, 地場飯不足 |
+| himawari-sapporo-ekimae-tower | 札幌駅前ひまわりタワー店 | 札幌駅前 | 0 | 0 | 0 | 3 | 0 | 3 | 丼チェーン偏重, 地場飯不足 |
 | janjan-malagueta-chofu-kokuryo | ジャンジャンマールゴット調布国領駅前店 | 調布 | 0 | 0 | 1 | 2 | 0 | 3 | 掲載不足, 地場飯不足 |
+| vegas-vegas-tanukikoji | ベガスベガス狸小路店 | 狸小路 | 0 | 0 | 0 | 2 | 0 | 2 | 掲載不足, 地場飯不足 |
 | p-station-slot-sendai | P-STATION＆IIスロット館 | 仙台 | 0 | 0 | 0 | 2 | 0 | 2 | 掲載不足, 地場飯不足 |
 | maruhan-sendai-ekihigashi | マルハン仙台駅東店 | 仙台 | 0 | 0 | 0 | 2 | 0 | 2 | 掲載不足, 地場飯不足 |
 | ams-garden-sendai-ekimae | アムズガーデン仙台駅前店 | 仙台 | 0 | 0 | 0 | 2 | 0 | 2 | 掲載不足, 地場飯不足 |
@@ -307,8 +307,10 @@
 | king-thousand-sakae-wakamiya | キング観光サウザンド栄若宮大通店 | 栄 | 1 | 掲載不足 |
 | king-thousand-sakae-sumiyoshi | キング観光サウザンド栄住吉店 | 栄 | 3 | 掲載不足, 期待値飯不足, 地場飯不足 |
 | king-thousand-sakae-higashishinmachi | キング観光サウザンド栄東新町店 | 栄 | 3 | 掲載不足, 期待値飯不足, 地場飯不足 |
+| king-thousand-nagoya-ekimae-yanagibashi | キング観光サウザンド名古屋駅柳橋店 | 名古屋駅 | 4 | 掲載不足, 期待値飯不足, 地場飯不足 |
 | boom-tenjin-honten | BOOM天神本店 | 天神 | 4 | 掲載不足, 期待値飯不足, 地場飯不足 |
 | janjan-malagueta-chofu-kokuryo | ジャンジャンマールゴット調布国領駅前店 | 調布 | 3 | 掲載不足, 地場飯不足 |
+| vegas-vegas-tanukikoji | ベガスベガス狸小路店 | 狸小路 | 4 | 掲載不足, 地場飯不足 |
 | p-station-slot-sendai | P-STATION＆IIスロット館 | 仙台 | 4 | 掲載不足, 地場飯不足 |
 | maruhan-sendai-ekihigashi | マルハン仙台駅東店 | 仙台 | 4 | 掲載不足, 地場飯不足 |
 | ams-garden-sendai-ekimae | アムズガーデン仙台駅前店 | 仙台 | 4 | 掲載不足, 地場飯不足 |
@@ -381,17 +383,15 @@
 | 123-hakata | 123博多店 | 博多 | 4 | 丼チェーン偏重, 地場飯不足 |
 | plaza-hakata | プラザ博多 | 博多 | 3 | 丼チェーン偏重 |
 | western-kasai | ウエスタン葛西店 | 葛西 | 8 | 丼チェーン偏重 |
-| king-thousand-nagoya-ekimae-yanagibashi | キング観光サウザンド名古屋駅柳橋店 | 名古屋駅 | 5 | 丼チェーン偏重, 期待値飯不足, 地場飯不足 |
 | shikairi-air-nanba | 四海樓air店 | 難波 | 5 | 丼チェーン偏重, 地場飯不足 |
 | club-d-nanba | CLUB-D | 難波 | 5 | 丼チェーン偏重, 地場飯不足 |
-| himawari-sapporo-ekimae-tower | 札幌駅前ひまわりタワー店 | 札幌駅前 | 4 | 丼チェーン偏重, 地場飯不足 |
 | vegas-vegas-sapporo | ベガスベガス札幌店 | 札幌駅前 | 4 | 丼チェーン偏重, 地場飯不足 |
-| vegas-vegas-tanukikoji | ベガスベガス狸小路店 | 狸小路 | 3 | 丼チェーン偏重, 地場飯不足 |
 | 123n-osaka-honten | 123＋N大阪本店 | 梅田 | 3 | 丼チェーン偏重, 地場飯不足 |
 | shikairi-hep-five | 四海樓 HEP FIVE店 | 梅田 | 3 | 丼チェーン偏重, 地場飯不足 |
 | slot123-umeda | スロット123梅田店 | 梅田 | 3 | 丼チェーン偏重, 地場飯不足 |
 | sannow-uno | 三ノ輪UNO | 御徒町 | 3 | 丼チェーン偏重, 地場飯不足 |
 | plaza-tenjin | プラザ天神 | 天神 | 2 | 丼チェーン偏重 |
+| himawari-sapporo-ekimae-tower | 札幌駅前ひまわりタワー店 | 札幌駅前 | 3 | 丼チェーン偏重, 地場飯不足 |
 | maruhan-umeda | マルハン梅田店 | 梅田 | 2 | 丼チェーン偏重, 地場飯不足 |
 | shikairi-umeda | 四海樓梅田店 | 梅田 | 2 | 丼チェーン偏重, 地場飯不足 |
 | dai-toyo-honten | 大東洋本店 | 梅田 | 2 | 丼チェーン偏重, 地場飯不足 |
@@ -408,9 +408,9 @@
 | amudi-kameari | アムディ亀有 | 亀有 | 10 | 丼チェーン偏重, 期待値飯不足, 地場飯不足 |
 | pachinko-accel-kameari | パチンコアクセル亀有支店 | 亀有 | 10 | 丼チェーン偏重, 期待値飯不足, 地場飯不足 |
 | chronos-koiwa | クロノス | 小岩 | 11 | 丼チェーン偏重, 期待値飯不足, 地場飯不足 |
-| king-thousand-nagoya-ekimae-yanagibashi | キング観光サウザンド名古屋駅柳橋店 | 名古屋駅 | 5 | 丼チェーン偏重, 期待値飯不足, 地場飯不足 |
 | king-thousand-sakae-sumiyoshi | キング観光サウザンド栄住吉店 | 栄 | 3 | 掲載不足, 期待値飯不足, 地場飯不足 |
 | king-thousand-sakae-higashishinmachi | キング観光サウザンド栄東新町店 | 栄 | 3 | 掲載不足, 期待値飯不足, 地場飯不足 |
+| king-thousand-nagoya-ekimae-yanagibashi | キング観光サウザンド名古屋駅柳橋店 | 名古屋駅 | 3 | 掲載不足, 期待値飯不足, 地場飯不足 |
 | boom-tenjin-honten | BOOM天神本店 | 天神 | 3 | 掲載不足, 期待値飯不足, 地場飯不足 |
 
 ## 8. 次に修正すべき優先順位（提案）

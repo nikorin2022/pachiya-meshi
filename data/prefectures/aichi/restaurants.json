@@ -40,7 +40,7 @@
   {
     "id": "yabaton-meieki",
     "legacy_id": 544,
-    "name": "矢場とん 名駅店",
+    "name": "矢場とん 名古屋駅三井ビル北館店",
     "area_id": "nagoya-ekimae",
     "genre": "とんかつ/カツ丼",
     "time_category": [
@@ -51,10 +51,10 @@
     "tags": [
       "一人OK"
     ],
-    "address": "愛知県名古屋市中村区名駅4-8-15",
-    "lat": 35.1708,
-    "lng": 136.8838,
-    "default_ai_summary": "名古屋駅の矢場とん。味噌カツでご褒美飯。"
+    "address": "愛知県名古屋市中村区名駅4-8-18 名古屋三井ビルディング北館B1F",
+    "lat": 35.168781,
+    "lng": 136.885178,
+    "default_ai_summary": "名古屋駅三井ビル北館の矢場とん。味噌カツでご褒美飯。"
   },
   {
     "id": "nakau-higashishinmachi",

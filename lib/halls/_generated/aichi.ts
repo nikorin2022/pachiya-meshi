@@ -194,8 +194,8 @@ export const aichiHalls: readonly PachinkoHall[] = [
     "prefecture": "愛知県",
     "city": "名古屋市中村区",
     "address": "愛知県名古屋市中村区名駅4丁目11番4号",
-    "lat": 35.170278,
-    "lng": 136.883611,
+    "lat": 35.170101,
+    "lng": 136.887375,
     "access": "JR名古屋駅から徒歩5分 / 柳橋中央市場西・ユニモール9番出口方面",
     "hours": "9:00〜23:00",
     "pachinko": 662,
@@ -207,7 +207,7 @@ export const aichiHalls: readonly PachinkoHall[] = [
         "id": 618,
         "name": "カレーハウスCoCo壱番屋 名駅サンロード店",
         "genre": "カレー",
-        "walkMinutes": 1,
+        "walkMinutes": 5,
         "time_category": [
           "昼",
           "夜"
@@ -223,27 +223,27 @@ export const aichiHalls: readonly PachinkoHall[] = [
       },
       {
         "id": 544,
-        "name": "矢場とん 名駅店",
+        "name": "矢場とん 名古屋駅三井ビル北館店",
         "genre": "とんかつ/カツ丼",
-        "walkMinutes": 1,
+        "walkMinutes": 5,
         "time_category": [
           "昼",
           "夜"
         ],
         "hours": "11:00〜22:00",
-        "ai_summary": "名古屋駅の矢場とん。味噌カツでご褒美飯。",
+        "ai_summary": "名古屋駅三井ビル北館の矢場とん。味噌カツでご褒美飯。",
         "tags": [
           "一人OK"
         ],
-        "address": "愛知県名古屋市中村区名駅4-8-15",
-        "lat": 35.1708,
-        "lng": 136.8838
+        "address": "愛知県名古屋市中村区名駅4-8-18 名古屋三井ビルディング北館B1F",
+        "lat": 35.168781,
+        "lng": 136.885178
       },
       {
         "id": 617,
         "name": "きしめん亭 エスカ店",
         "genre": "そば/うどん",
-        "walkMinutes": 3,
+        "walkMinutes": 8,
         "time_category": [
           "昼",
           "夜"
@@ -261,7 +261,7 @@ export const aichiHalls: readonly PachinkoHall[] = [
         "id": 616,
         "name": "驛釜きしめん 中央通り",
         "genre": "そば/うどん",
-        "walkMinutes": 4,
+        "walkMinutes": 9,
         "time_category": [
           "昼",
           "夜"
@@ -274,24 +274,6 @@ export const aichiHalls: readonly PachinkoHall[] = [
         "address": "愛知県名古屋市中村区名駅1-1-4 JR名古屋駅 1Fコンコース",
         "lat": 35.170583,
         "lng": 136.881611
-      },
-      {
-        "id": 620,
-        "name": "すき家 名駅西店",
-        "genre": "丼もの",
-        "walkMinutes": 6,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "4:00〜翌3:00",
-        "ai_summary": "名駅西口のすき家。柳橋店から西口方面の牛丼に便利。",
-        "tags": [
-          "一人OK"
-        ],
-        "address": "愛知県名古屋市中村区椿町14-12 セントラルWEST名駅ビル",
-        "lat": 35.168573,
-        "lng": 136.880376
       }
     ]
   }

@@ -13,9 +13,9 @@ export const hokkaidoHalls: readonly PachinkoHall[] = [
     "area": "札幌駅前",
     "prefecture": "北海道",
     "city": "札幌市中央区",
-    "address": "北海道札幌市中央区北4条西2丁目1-3",
-    "lat": 43.065833,
-    "lng": 141.350278,
+    "address": "北海道札幌市中央区北4条西2丁目1-3 札幌駅前ひまわりタワー1F",
+    "lat": 43.066486,
+    "lng": 141.353043,
     "access": "JR札幌駅・地下鉄さっぽろ駅から徒歩3分 / 北4条通沿い",
     "hours": "9:00〜23:00",
     "pachinko": 649,
@@ -27,7 +27,7 @@ export const hokkaidoHalls: readonly PachinkoHall[] = [
         "id": 628,
         "name": "なか卯 札幌駅アピア店",
         "genre": "丼もの",
-        "walkMinutes": 3,
+        "walkMinutes": 5,
         "time_category": [
           "昼",
           "夜"
@@ -45,7 +45,7 @@ export const hokkaidoHalls: readonly PachinkoHall[] = [
         "id": 627,
         "name": "吉野家 札幌駅APIA店",
         "genre": "丼もの",
-        "walkMinutes": 3,
+        "walkMinutes": 5,
         "time_category": [
           "昼",
           "夜"
@@ -74,14 +74,14 @@ export const hokkaidoHalls: readonly PachinkoHall[] = [
           "一人OK"
         ],
         "address": "北海道札幌市中央区北2条西3-1-20 札幌フコク生命越山ビル B1F",
-        "lat": 43.062783,
-        "lng": 141.350278
+        "lat": 43.063839,
+        "lng": 141.351685
       },
       {
         "id": 624,
         "name": "松屋 札幌駅前通店",
         "genre": "丼もの",
-        "walkMinutes": 7,
+        "walkMinutes": 8,
         "time_category": [
           "昼",
           "夜"
@@ -99,7 +99,7 @@ export const hokkaidoHalls: readonly PachinkoHall[] = [
         "id": 623,
         "name": "すき家 札幌駅前通北一条店",
         "genre": "丼もの",
-        "walkMinutes": 8,
+        "walkMinutes": 9,
         "time_category": [
           "昼",
           "夜"
@@ -110,8 +110,8 @@ export const hokkaidoHalls: readonly PachinkoHall[] = [
           "一人OK"
         ],
         "address": "北海道札幌市中央区北1条西3-2-5 藤栄ビルヂング1F",
-        "lat": 43.062056,
-        "lng": 141.347222
+        "lat": 43.06192,
+        "lng": 141.352249
       }
     ]
   },
@@ -122,8 +122,8 @@ export const hokkaidoHalls: readonly PachinkoHall[] = [
     "prefecture": "北海道",
     "city": "札幌市中央区",
     "address": "北海道札幌市中央区北4条西1丁目4-1",
-    "lat": 43.066111,
-    "lng": 141.352222,
+    "lat": 43.0667,
+    "lng": 141.354614,
     "access": "地下鉄さっぽろ駅18・19・20番出口から徒歩2分",
     "hours": "9:00〜23:00",
     "pachinko": 576,
@@ -135,7 +135,7 @@ export const hokkaidoHalls: readonly PachinkoHall[] = [
         "id": 628,
         "name": "なか卯 札幌駅アピア店",
         "genre": "丼もの",
-        "walkMinutes": 4,
+        "walkMinutes": 7,
         "time_category": [
           "昼",
           "夜"
@@ -150,10 +150,28 @@ export const hokkaidoHalls: readonly PachinkoHall[] = [
         "lng": 141.3496303
       },
       {
+        "id": 597,
+        "name": "Soup Curry GARAKU sitatte sapporo店",
+        "genre": "カレー",
+        "walkMinutes": 7,
+        "time_category": [
+          "昼",
+          "夜"
+        ],
+        "hours": "11:30〜15:30（LO15:00）/ 17:00〜21:00（LO20:30）",
+        "ai_summary": "sitatte sapporoの人気スープカレーGARAKU。チカホ直結で札幌駅エリアからアクセスしやすい。",
+        "tags": [
+          "一人OK"
+        ],
+        "address": "北海道札幌市中央区北2条西3-1-20 札幌フコク生命越山ビル B1F",
+        "lat": 43.063839,
+        "lng": 141.351685
+      },
+      {
         "id": 627,
         "name": "吉野家 札幌駅APIA店",
         "genre": "丼もの",
-        "walkMinutes": 4,
+        "walkMinutes": 7,
         "time_category": [
           "昼",
           "夜"
@@ -171,7 +189,7 @@ export const hokkaidoHalls: readonly PachinkoHall[] = [
         "id": 624,
         "name": "松屋 札幌駅前通店",
         "genre": "丼もの",
-        "walkMinutes": 7,
+        "walkMinutes": 9,
         "time_category": [
           "昼",
           "夜"
@@ -184,24 +202,6 @@ export const hokkaidoHalls: readonly PachinkoHall[] = [
         "address": "北海道札幌市中央区北1条西3-3 敷島北一条ビル",
         "lat": 43.062375,
         "lng": 141.351999
-      },
-      {
-        "id": 597,
-        "name": "Soup Curry GARAKU sitatte sapporo店",
-        "genre": "カレー",
-        "walkMinutes": 7,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "11:30〜15:30（LO15:00）/ 17:00〜21:00（LO20:30）",
-        "ai_summary": "sitatte sapporoの人気スープカレーGARAKU。チカホ直結で札幌駅エリアからアクセスしやすい。",
-        "tags": [
-          "一人OK"
-        ],
-        "address": "北海道札幌市中央区北2条西3-1-20 札幌フコク生命越山ビル B1F",
-        "lat": 43.062783,
-        "lng": 141.350278
       },
       {
         "id": 623,
@@ -218,8 +218,8 @@ export const hokkaidoHalls: readonly PachinkoHall[] = [
           "一人OK"
         ],
         "address": "北海道札幌市中央区北1条西3-2-5 藤栄ビルヂング1F",
-        "lat": 43.062056,
-        "lng": 141.347222
+        "lat": 43.06192,
+        "lng": 141.352249
       }
     ]
   },
@@ -230,8 +230,8 @@ export const hokkaidoHalls: readonly PachinkoHall[] = [
     "prefecture": "北海道",
     "city": "札幌市中央区",
     "address": "北海道札幌市中央区南2条西4丁目1-3 札幌ナナイロ",
-    "lat": 43.058333,
-    "lng": 141.351944,
+    "lat": 43.057453,
+    "lng": 141.352081,
     "access": "市電狸小路駅すぐ / 地下鉄大通駅・すすきの駅から徒歩3分",
     "hours": "9:00〜23:00",
     "pachinko": 524,
@@ -239,23 +239,6 @@ export const hokkaidoHalls: readonly PachinkoHall[] = [
     "pachiya_comment": "札幌ナナイロ内に位置し、市電狸小路駅すぐの繁華街立地です。狸小路商店街・すすきの方面の飲食店と組み合わせやすく、北海道遠征ユーザーにとって札幌中心繁華街の大型店として名前が挙がりやすいホールです。",
     "meal_guide": "パチンコ・パチスロユーザー向けに見ると、ベガスベガス狸小路店は札幌ナナイロ内、市電狸小路駅すぐの立地です。商店街アーケードを通れば天候を気にせず食事に行けるため、雪の日の遠征でも動線を組み立てやすいのが狸小路の強みです。朝一前は大通方面の軽食店で済ませ、昼休憩は狸小路沿いの回転の速い店でサクッと、閉店後はすすきの方面のジンギスカンやラーメンで締めまで組み立てやすいです。北海道遠征ユーザーにとって、札幌駅前ホールとは繁華街中心の別動線になるため、宿泊先が大通近辺の場合の食事拠点として使いやすいホールです。パチンコ・パチスロ双方の台数が厚く、夜の稼働後も周辺店の選択肢が豊富な立地です。",
     "restaurants": [
-      {
-        "id": 626,
-        "name": "だるま軒",
-        "genre": "ラーメン",
-        "walkMinutes": 4,
-        "time_category": [
-          "昼"
-        ],
-        "hours": "11:00〜17:00",
-        "ai_summary": "札幌最古のラーメン店。シンプルな醤油ラーメンの名店。",
-        "tags": [
-          "一人OK"
-        ],
-        "address": "北海道札幌市中央区南3条東1 新二条市場内",
-        "lat": 43.057278,
-        "lng": 141.354167
-      },
       {
         "id": 625,
         "name": "一風堂 札幌狸小路店",
@@ -271,14 +254,31 @@ export const hokkaidoHalls: readonly PachinkoHall[] = [
           "一人OK"
         ],
         "address": "北海道札幌市中央区南3条西6-8",
-        "lat": 43.056528,
-        "lng": 141.349599
+        "lat": 43.05645,
+        "lng": 141.349091
+      },
+      {
+        "id": 626,
+        "name": "だるま軒",
+        "genre": "ラーメン",
+        "walkMinutes": 9,
+        "time_category": [
+          "昼"
+        ],
+        "hours": "11:00〜17:00",
+        "ai_summary": "札幌最古のラーメン店。シンプルな醤油ラーメンの名店。",
+        "tags": [
+          "一人OK"
+        ],
+        "address": "北海道札幌市中央区南3条東1 新二条市場内",
+        "lat": 43.058006,
+        "lng": 141.358307
       },
       {
         "id": 624,
         "name": "松屋 札幌駅前通店",
         "genre": "丼もの",
-        "walkMinutes": 8,
+        "walkMinutes": 9,
         "time_category": [
           "昼",
           "夜"
@@ -293,28 +293,10 @@ export const hokkaidoHalls: readonly PachinkoHall[] = [
         "lng": 141.351999
       },
       {
-        "id": 597,
-        "name": "Soup Curry GARAKU sitatte sapporo店",
-        "genre": "カレー",
-        "walkMinutes": 9,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "11:30〜15:30（LO15:00）/ 17:00〜21:00（LO20:30）",
-        "ai_summary": "sitatte sapporoの人気スープカレーGARAKU。チカホ直結で札幌駅エリアからアクセスしやすい。",
-        "tags": [
-          "一人OK"
-        ],
-        "address": "北海道札幌市中央区北2条西3-1-20 札幌フコク生命越山ビル B1F",
-        "lat": 43.062783,
-        "lng": 141.350278
-      },
-      {
         "id": 623,
         "name": "すき家 札幌駅前通北一条店",
         "genre": "丼もの",
-        "walkMinutes": 10,
+        "walkMinutes": 9,
         "time_category": [
           "昼",
           "夜"
@@ -325,8 +307,8 @@ export const hokkaidoHalls: readonly PachinkoHall[] = [
           "一人OK"
         ],
         "address": "北海道札幌市中央区北1条西3-2-5 藤栄ビルヂング1F",
-        "lat": 43.062056,
-        "lng": 141.347222
+        "lat": 43.06192,
+        "lng": 141.352249
       }
     ]
   }
