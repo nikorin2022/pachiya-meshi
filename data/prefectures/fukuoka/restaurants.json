@@ -69,7 +69,7 @@
   {
     "id": "tenjin-ippudo",
     "legacy_id": 491,
-    "name": "一風堂 天神店",
+    "name": "一風堂 TAO FUKUOKA",
     "area_id": "tenjin",
     "genre": "ラーメン",
     "time_category": [
@@ -80,10 +80,10 @@
     "tags": [
       "一人OK"
     ],
-    "address": "福岡県福岡市中央区天神2-8-12",
-    "lat": 33.5898,
-    "lng": 130.3985,
-    "default_ai_summary": "天神の一風堂。とんこつラーメンの定番。",
+    "address": "福岡県福岡市中央区天神1-13-13",
+    "lat": 33.592113,
+    "lng": 130.399887,
+    "default_ai_summary": "天神の一風堂 TAO FUKUOKA。博多とんこつラーメンの定番ブランド店。",
     "is_kitaichimeshi": true,
     "selection_tags": [
       "local_famous"

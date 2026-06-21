@@ -404,25 +404,6 @@ export const fukuokaHalls: readonly PachinkoHall[] = [
         "lng": 130.396945
       },
       {
-        "id": 491,
-        "name": "一風堂 天神店",
-        "genre": "ラーメン",
-        "walkMinutes": 2,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "11:00〜22:00",
-        "ai_summary": "天神の一風堂。とんこつラーメンの定番。",
-        "tags": [
-          "一人OK"
-        ],
-        "address": "福岡県福岡市中央区天神2-8-12",
-        "lat": 33.5898,
-        "lng": 130.3985,
-        "is_kitaichimeshi": true
-      },
-      {
         "id": 627,
         "name": "松屋 天神店",
         "genre": "丼もの",
@@ -457,6 +438,25 @@ export const fukuokaHalls: readonly PachinkoHall[] = [
         "address": "福岡県福岡市中央区天神3-4-10",
         "lat": 33.59156,
         "lng": 130.395763
+      },
+      {
+        "id": 491,
+        "name": "一風堂 TAO FUKUOKA",
+        "genre": "ラーメン",
+        "walkMinutes": 6,
+        "time_category": [
+          "昼",
+          "夜"
+        ],
+        "hours": "11:00〜22:00",
+        "ai_summary": "天神の一風堂 TAO FUKUOKA。博多とんこつラーメンの定番ブランド店。",
+        "tags": [
+          "一人OK"
+        ],
+        "address": "福岡県福岡市中央区天神1-13-13",
+        "lat": 33.592113,
+        "lng": 130.399887,
+        "is_kitaichimeshi": true
       },
       {
         "id": 629,
@@ -531,25 +531,6 @@ export const fukuokaHalls: readonly PachinkoHall[] = [
         "lng": 130.398722
       },
       {
-        "id": 491,
-        "name": "一風堂 天神店",
-        "genre": "ラーメン",
-        "walkMinutes": 2,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "11:00〜22:00",
-        "ai_summary": "天神の一風堂。とんこつラーメンの定番。",
-        "tags": [
-          "一人OK"
-        ],
-        "address": "福岡県福岡市中央区天神2-8-12",
-        "lat": 33.5898,
-        "lng": 130.3985,
-        "is_kitaichimeshi": true
-      },
-      {
         "id": 638,
         "name": "吉野家 天神サザン通り店",
         "genre": "丼もの",
@@ -584,6 +565,25 @@ export const fukuokaHalls: readonly PachinkoHall[] = [
         "address": "福岡県福岡市中央区天神3-4-10",
         "lat": 33.59156,
         "lng": 130.395763
+      },
+      {
+        "id": 491,
+        "name": "一風堂 TAO FUKUOKA",
+        "genre": "ラーメン",
+        "walkMinutes": 6,
+        "time_category": [
+          "昼",
+          "夜"
+        ],
+        "hours": "11:00〜22:00",
+        "ai_summary": "天神の一風堂 TAO FUKUOKA。博多とんこつラーメンの定番ブランド店。",
+        "tags": [
+          "一人OK"
+        ],
+        "address": "福岡県福岡市中央区天神1-13-13",
+        "lat": 33.592113,
+        "lng": 130.399887,
+        "is_kitaichimeshi": true
       },
       {
         "id": 629,
@@ -674,25 +674,6 @@ export const fukuokaHalls: readonly PachinkoHall[] = [
         "address": "福岡県福岡市中央区今泉1-20-22 中嶋ビル1階",
         "lat": 33.586944,
         "lng": 130.401667
-      },
-      {
-        "id": 491,
-        "name": "一風堂 天神店",
-        "genre": "ラーメン",
-        "walkMinutes": 7,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "11:00〜22:00",
-        "ai_summary": "天神の一風堂。とんこつラーメンの定番。",
-        "tags": [
-          "一人OK"
-        ],
-        "address": "福岡県福岡市中央区天神2-8-12",
-        "lat": 33.5898,
-        "lng": 130.3985,
-        "is_kitaichimeshi": true
       },
       {
         "id": 627,

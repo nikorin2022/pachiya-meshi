@@ -1069,6 +1069,25 @@ export const osakaHalls: readonly PachinkoHall[] = [
         "lng": 135.502415
       },
       {
+        "id": 467,
+        "name": "どうとんぼり神座 阪急三番街店",
+        "genre": "ラーメン",
+        "walkMinutes": 4,
+        "time_category": [
+          "昼",
+          "夜"
+        ],
+        "hours": "10:00〜23:30",
+        "ai_summary": "阪急三番街の神座。提供が速く、梅田各駅からのアクセスも良いあっさり系ラーメン。",
+        "tags": [
+          "サク飯",
+          "一人OK"
+        ],
+        "address": "大阪府大阪市北区芝田1-1-3 阪急三番街南館1F",
+        "lat": 34.70414,
+        "lng": 135.499008
+      },
+      {
         "id": 476,
         "name": "かつ丼吉兵衛 東梅田店",
         "genre": "とんかつ/カツ丼",
@@ -1170,25 +1189,6 @@ export const osakaHalls: readonly PachinkoHall[] = [
         "lng": 135.501094
       },
       {
-        "id": 467,
-        "name": "どうとんぼり神座 阪急三番街店",
-        "genre": "ラーメン",
-        "walkMinutes": 6,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "10:00〜23:30",
-        "ai_summary": "阪急三番街の神座。提供が速く、梅田各駅からのアクセスも良いあっさり系ラーメン。",
-        "tags": [
-          "サク飯",
-          "一人OK"
-        ],
-        "address": "大阪府大阪市北区芝田1-1-3 阪急三番街南館1F",
-        "lat": 34.705203,
-        "lng": 135.498369
-      },
-      {
         "id": 468,
         "name": "天下一品 東梅田店",
         "genre": "ラーメン",
@@ -1238,8 +1238,8 @@ export const osakaHalls: readonly PachinkoHall[] = [
     "prefecture": "大阪府",
     "city": "大阪市北区",
     "address": "大阪府大阪市北区兎我野町16-11",
-    "lat": 34.705361,
-    "lng": 135.495194,
+    "lat": 34.700993,
+    "lng": 135.502167,
     "access": "東梅田駅・泉の広場M14出口から徒歩2分 / 新御堂筋沿い",
     "hours": "10:00〜23:00",
     "pachinko": 800,
@@ -1248,69 +1248,110 @@ export const osakaHalls: readonly PachinkoHall[] = [
     "meal_guide": "パチンコ・パチスロユーザー向けに見ると、123＋N大阪本店は東梅田駅・泉の広場M14出口から徒歩2分、新御堂筋沿いの立地です。関西最大級の台数を誇るため、スロット厚めの長時間稼働でも、新御堂筋沿いの牛丼・カレー・とんかつチェーンへ短時間で往復しやすい動線です。朝一前は東梅田口の軽食店で済ませ、昼休憩は提供が速い丼もので手早く、閉店後は曽根崎方面の焼肉や回転寿司で締めまで組み立てやすいです。関西遠征ユーザーにとって123チェーンの関西拠点として名前が挙がりやすく、マルハン梅田店とは東口・西口で最短ルートが変わるため日替わりで食事先を変えやすいホールです。パチンコ・パチスロユーザーが休憩動線を柔軟に組み立てやすい立地です。",
     "restaurants": [
       {
-        "id": 467,
-        "name": "どうとんぼり神座 阪急三番街店",
-        "genre": "ラーメン",
-        "walkMinutes": 5,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "10:00〜23:30",
-        "ai_summary": "阪急三番街の神座。提供が速く、梅田各駅からのアクセスも良いあっさり系ラーメン。",
-        "tags": [
-          "サク飯",
-          "一人OK"
-        ],
-        "address": "大阪府大阪市北区芝田1-1-3 阪急三番街南館1F",
-        "lat": 34.705203,
-        "lng": 135.498369
-      },
-      {
-        "id": 480,
-        "name": "マクドナルド 新梅田店",
-        "genre": "ハンバーガー",
-        "walkMinutes": 6,
+        "id": 472,
+        "name": "すき家 梅田太融寺店",
+        "genre": "丼もの",
+        "walkMinutes": 3,
         "time_category": [
           "朝",
           "昼",
           "夜"
         ],
-        "hours": "5:45〜23:30",
-        "ai_summary": "新梅田食道街のマクドナルド。朝マックから夜まで使える駅前定番。",
+        "hours": "4:00〜翌3:00",
+        "ai_summary": "太融寺町のすき家。お初天神・東梅田方面のホールからサクッと牛丼。",
         "tags": [
           "サク飯",
-          "一人OK"
+          "一人OK",
+          "深夜OK"
         ],
-        "address": "大阪府大阪市北区角田町9-29 新梅田食道街",
-        "lat": 34.703857,
-        "lng": 135.498197
+        "address": "大阪府大阪市北区太融寺町5-8 ダイヤモンドレジャービル本館1F",
+        "lat": 34.702007,
+        "lng": 135.502938
       },
       {
-        "id": 466,
-        "name": "一風堂 梅田店",
-        "genre": "ラーメン",
-        "walkMinutes": 9,
+        "id": 477,
+        "name": "スシロー お初天神通り店",
+        "genre": "回転寿司",
+        "walkMinutes": 3,
         "time_category": [
           "昼",
           "夜"
         ],
-        "hours": "11:00〜翌3:00",
-        "ai_summary": "角田町の一風堂。博多とんこつで勝った日のご褒美麺にも使いやすい定番。",
+        "hours": "11:00〜23:00",
+        "ai_summary": "お初天神通りのスシロー。回転寿司でサクッと飯。曽根崎ホール圏に便利。",
+        "tags": [
+          "サク飯",
+          "一人OK"
+        ],
+        "address": "大阪府大阪市北区曽根崎2-15-20 SWINGうめだ5階",
+        "lat": 34.701771,
+        "lng": 135.500839
+      },
+      {
+        "id": 481,
+        "name": "牛角 梅田阪急東通り店",
+        "genre": "焼肉",
+        "walkMinutes": 4,
+        "time_category": [
+          "昼",
+          "夜"
+        ],
+        "hours": "12:00〜24:00",
+        "ai_summary": "阪急東通の牛角。焼肉でガッツリ飯。勝った日のご褒美飯にも使える。",
+        "tags": [
+          "ガッツリ",
+          "一人OK"
+        ],
+        "address": "大阪府大阪市北区小松原町1-16 梅田モコビル1F",
+        "lat": 34.70243,
+        "lng": 135.500759
+      },
+      {
+        "id": 465,
+        "name": "ラー麺ずんどう屋 梅田東通り店",
+        "genre": "ラーメン",
+        "walkMinutes": 4,
+        "time_category": [
+          "昼",
+          "夜"
+        ],
+        "hours": "24時間営業（メンテナンス休止あり）",
+        "ai_summary": "阪急東通りのずんどう屋。濃厚とんこつラーメンでガッツリ飯。深夜帯も稼働しやすい。",
         "tags": [
           "ガッツリ",
           "一人OK",
           "深夜OK"
         ],
-        "address": "大阪府大阪市北区角田町6-7 角田町ビル1F",
-        "lat": 34.703454,
-        "lng": 135.5006
+        "address": "大阪府大阪市北区堂山町2-10 K1ビル1F",
+        "lat": 34.702783,
+        "lng": 135.503488
+      },
+      {
+        "id": 469,
+        "name": "吉野家 お初天神店",
+        "genre": "丼もの",
+        "walkMinutes": 4,
+        "time_category": [
+          "朝",
+          "昼",
+          "夜"
+        ],
+        "hours": "24時間営業",
+        "ai_summary": "お初天神の24時間吉野家。曽根崎エリアのホールから戻りやすい牛丼定番。",
+        "tags": [
+          "サク飯",
+          "一人OK",
+          "深夜OK"
+        ],
+        "address": "大阪府大阪市北区曾根崎2-5-20",
+        "lat": 34.699301,
+        "lng": 135.500812
       },
       {
         "id": 478,
         "name": "くら寿司 梅田OSビル店",
         "genre": "回転寿司",
-        "walkMinutes": 9,
+        "walkMinutes": 5,
         "time_category": [
           "昼",
           "夜"
@@ -1327,10 +1368,30 @@ export const osakaHalls: readonly PachinkoHall[] = [
         "lng": 135.500364
       },
       {
+        "id": 466,
+        "name": "一風堂 梅田店",
+        "genre": "ラーメン",
+        "walkMinutes": 6,
+        "time_category": [
+          "昼",
+          "夜"
+        ],
+        "hours": "11:00〜翌3:00",
+        "ai_summary": "角田町の一風堂。博多とんこつで勝った日のご褒美麺にも使いやすい定番。",
+        "tags": [
+          "ガッツリ",
+          "一人OK",
+          "深夜OK"
+        ],
+        "address": "大阪府大阪市北区角田町6-7 角田町ビル1F",
+        "lat": 34.703454,
+        "lng": 135.5006
+      },
+      {
         "id": 479,
         "name": "丸亀製麺梅田",
         "genre": "そば/うどん",
-        "walkMinutes": 9,
+        "walkMinutes": 6,
         "time_category": [
           "昼",
           "夜"
@@ -1349,7 +1410,7 @@ export const osakaHalls: readonly PachinkoHall[] = [
         "id": 475,
         "name": "松のや 梅田店",
         "genre": "とんかつ/カツ丼",
-        "walkMinutes": 9,
+        "walkMinutes": 6,
         "time_category": [
           "昼",
           "夜"
@@ -1368,7 +1429,7 @@ export const osakaHalls: readonly PachinkoHall[] = [
         "id": 470,
         "name": "松屋 梅田角田町店",
         "genre": "丼もの",
-        "walkMinutes": 9,
+        "walkMinutes": 6,
         "time_category": [
           "朝",
           "昼",
@@ -1386,31 +1447,10 @@ export const osakaHalls: readonly PachinkoHall[] = [
         "lng": 135.50065
       },
       {
-        "id": 471,
-        "name": "なか卯 梅田東店",
-        "genre": "丼もの",
-        "walkMinutes": 9,
-        "time_category": [
-          "朝",
-          "昼",
-          "夜"
-        ],
-        "hours": "4:00〜翌3:00",
-        "ai_summary": "梅田東のなか卯。親子丼やうどんを手軽に。早朝から深夜まで使える。",
-        "tags": [
-          "サク飯",
-          "一人OK",
-          "深夜OK"
-        ],
-        "address": "大阪府大阪市北区鶴野町1-1 梅田セントラルビル",
-        "lat": 34.70601,
-        "lng": 135.501094
-      },
-      {
         "id": 473,
         "name": "カレーハウスCoCo壱番屋 北区角田町店",
         "genre": "カレー",
-        "walkMinutes": 10,
+        "walkMinutes": 7,
         "time_category": [
           "昼",
           "夜"
@@ -1426,23 +1466,124 @@ export const osakaHalls: readonly PachinkoHall[] = [
         "lng": 135.501368
       },
       {
-        "id": 481,
-        "name": "牛角 梅田阪急東通り店",
-        "genre": "焼肉",
-        "walkMinutes": 10,
+        "id": 476,
+        "name": "かつ丼吉兵衛 東梅田店",
+        "genre": "とんかつ/カツ丼",
+        "walkMinutes": 7,
         "time_category": [
           "昼",
           "夜"
         ],
-        "hours": "12:00〜24:00",
-        "ai_summary": "阪急東通の牛角。焼肉でガッツリ飯。勝った日のご褒美飯にも使える。",
+        "hours": "11:00〜22:00",
+        "ai_summary": "堂山町の吉兵衛。玉子とじかつ丼が名物。地場チェーンのかつ丼専門店。",
         "tags": [
           "ガッツリ",
           "一人OK"
         ],
-        "address": "大阪府大阪市北区小松原町1-16 梅田モコビル1F",
-        "lat": 34.70243,
-        "lng": 135.500759
+        "address": "大阪府大阪市北区堂山町18-2",
+        "lat": 34.704759,
+        "lng": 135.502329
+      },
+      {
+        "id": 468,
+        "name": "天下一品 東梅田店",
+        "genre": "ラーメン",
+        "walkMinutes": 7,
+        "time_category": [
+          "昼",
+          "夜"
+        ],
+        "hours": "11:00〜翌3:30",
+        "ai_summary": "東梅田の天下一品。こってり系で軍資金を使い切った後のリセット飯にも向く。",
+        "tags": [
+          "ガッツリ",
+          "一人OK",
+          "深夜OK"
+        ],
+        "address": "大阪府大阪市北区野崎町9-12",
+        "lat": 34.702203,
+        "lng": 135.505982
+      },
+      {
+        "id": 474,
+        "name": "やよい軒 梅田東店",
+        "genre": "丼もの",
+        "walkMinutes": 7,
+        "time_category": [
+          "朝",
+          "昼",
+          "夜"
+        ],
+        "hours": "4:00〜翌3:00",
+        "ai_summary": "堂山町のやよい軒。定食でバランスよく食べられる梅田東の定番。",
+        "tags": [
+          "サク飯",
+          "一人OK",
+          "深夜OK"
+        ],
+        "address": "大阪府大阪市北区堂山町17-15 Axis Umeda.II.Bld.1F",
+        "lat": 34.704448,
+        "lng": 135.502415
+      },
+      {
+        "id": 467,
+        "name": "どうとんぼり神座 阪急三番街店",
+        "genre": "ラーメン",
+        "walkMinutes": 8,
+        "time_category": [
+          "昼",
+          "夜"
+        ],
+        "hours": "10:00〜23:30",
+        "ai_summary": "阪急三番街の神座。提供が速く、梅田各駅からのアクセスも良いあっさり系ラーメン。",
+        "tags": [
+          "サク飯",
+          "一人OK"
+        ],
+        "address": "大阪府大阪市北区芝田1-1-3 阪急三番街南館1F",
+        "lat": 34.70414,
+        "lng": 135.499008
+      },
+      {
+        "id": 480,
+        "name": "マクドナルド 新梅田店",
+        "genre": "ハンバーガー",
+        "walkMinutes": 8,
+        "time_category": [
+          "朝",
+          "昼",
+          "夜"
+        ],
+        "hours": "5:45〜23:30",
+        "ai_summary": "新梅田食道街のマクドナルド。朝マックから夜まで使える駅前定番。",
+        "tags": [
+          "サク飯",
+          "一人OK"
+        ],
+        "address": "大阪府大阪市北区角田町9-29 新梅田食道街",
+        "lat": 34.703857,
+        "lng": 135.498197
+      },
+      {
+        "id": 471,
+        "name": "なか卯 梅田東店",
+        "genre": "丼もの",
+        "walkMinutes": 10,
+        "time_category": [
+          "朝",
+          "昼",
+          "夜"
+        ],
+        "hours": "4:00〜翌3:00",
+        "ai_summary": "梅田東のなか卯。親子丼やうどんを手軽に。早朝から深夜まで使える。",
+        "tags": [
+          "サク飯",
+          "一人OK",
+          "深夜OK"
+        ],
+        "address": "大阪府大阪市北区鶴野町1-1 梅田セントラルビル",
+        "lat": 34.70601,
+        "lng": 135.501094
       }
     ]
   },
@@ -1661,6 +1802,25 @@ export const osakaHalls: readonly PachinkoHall[] = [
         "lng": 135.501368
       },
       {
+        "id": 467,
+        "name": "どうとんぼり神座 阪急三番街店",
+        "genre": "ラーメン",
+        "walkMinutes": 6,
+        "time_category": [
+          "昼",
+          "夜"
+        ],
+        "hours": "10:00〜23:30",
+        "ai_summary": "阪急三番街の神座。提供が速く、梅田各駅からのアクセスも良いあっさり系ラーメン。",
+        "tags": [
+          "サク飯",
+          "一人OK"
+        ],
+        "address": "大阪府大阪市北区芝田1-1-3 阪急三番街南館1F",
+        "lat": 34.70414,
+        "lng": 135.499008
+      },
+      {
         "id": 480,
         "name": "マクドナルド 新梅田店",
         "genre": "ハンバーガー",
@@ -1739,25 +1899,6 @@ export const osakaHalls: readonly PachinkoHall[] = [
         "address": "大阪府大阪市北区堂山町17-15 Axis Umeda.II.Bld.1F",
         "lat": 34.704448,
         "lng": 135.502415
-      },
-      {
-        "id": 467,
-        "name": "どうとんぼり神座 阪急三番街店",
-        "genre": "ラーメン",
-        "walkMinutes": 8,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "10:00〜23:30",
-        "ai_summary": "阪急三番街の神座。提供が速く、梅田各駅からのアクセスも良いあっさり系ラーメン。",
-        "tags": [
-          "サク飯",
-          "一人OK"
-        ],
-        "address": "大阪府大阪市北区芝田1-1-3 阪急三番街南館1F",
-        "lat": 34.705203,
-        "lng": 135.498369
       },
       {
         "id": 471,
@@ -1975,6 +2116,25 @@ export const osakaHalls: readonly PachinkoHall[] = [
         "lng": 135.501368
       },
       {
+        "id": 467,
+        "name": "どうとんぼり神座 阪急三番街店",
+        "genre": "ラーメン",
+        "walkMinutes": 4,
+        "time_category": [
+          "昼",
+          "夜"
+        ],
+        "hours": "10:00〜23:30",
+        "ai_summary": "阪急三番街の神座。提供が速く、梅田各駅からのアクセスも良いあっさり系ラーメン。",
+        "tags": [
+          "サク飯",
+          "一人OK"
+        ],
+        "address": "大阪府大阪市北区芝田1-1-3 阪急三番街南館1F",
+        "lat": 34.70414,
+        "lng": 135.499008
+      },
+      {
         "id": 472,
         "name": "すき家 梅田太融寺店",
         "genre": "丼もの",
@@ -2074,25 +2234,6 @@ export const osakaHalls: readonly PachinkoHall[] = [
         "address": "大阪府大阪市北区堂山町17-15 Axis Umeda.II.Bld.1F",
         "lat": 34.704448,
         "lng": 135.502415
-      },
-      {
-        "id": 467,
-        "name": "どうとんぼり神座 阪急三番街店",
-        "genre": "ラーメン",
-        "walkMinutes": 6,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "10:00〜23:30",
-        "ai_summary": "阪急三番街の神座。提供が速く、梅田各駅からのアクセスも良いあっさり系ラーメン。",
-        "tags": [
-          "サク飯",
-          "一人OK"
-        ],
-        "address": "大阪府大阪市北区芝田1-1-3 阪急三番街南館1F",
-        "lat": 34.705203,
-        "lng": 135.498369
       },
       {
         "id": 469,
@@ -2165,8 +2306,8 @@ export const osakaHalls: readonly PachinkoHall[] = [
     "prefecture": "大阪府",
     "city": "大阪市北区",
     "address": "大阪府大阪市北区角田町5-15 HEP FIVE B2F",
-    "lat": 34.704194,
-    "lng": 135.498833,
+    "lat": 34.703846,
+    "lng": 135.499634,
     "access": "梅田地下街からHEP FIVE直結 / 各線梅田駅から徒歩圏",
     "hours": "10:00〜22:50",
     "pachinko": 258,
@@ -2175,49 +2316,10 @@ export const osakaHalls: readonly PachinkoHall[] = [
     "meal_guide": "パチンコ・パチスロユーザー向けに見ると、四海樓 HEP FIVE店は梅田地下街から直結するHEP FIVE B2Fの立地です。観光・買い物動線と組み合わせやすく、HEP FIVE内や地下街のチェーン店へ天候を気にせず向かえるため、昼休憩のサクッと飯に向いています。朝一前は地下街の軽食店で済ませ、閉店後は梅田地下街沿いの回転寿司やラーメンで締めまで組み立てやすいです。関西遠征ユーザーにとって、四海樓梅田店とはお初天神とHEP FIVEで動線が分かれるため、同じ遠征でも日替わりで食事先を変えやすいホールです。パチンコ寄りの台構成で、長めの休憩を取りながら商業施設内の店を使い分けやすい立地です。",
     "restaurants": [
       {
-        "id": 467,
-        "name": "どうとんぼり神座 阪急三番街店",
-        "genre": "ラーメン",
-        "walkMinutes": 2,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "10:00〜23:30",
-        "ai_summary": "阪急三番街の神座。提供が速く、梅田各駅からのアクセスも良いあっさり系ラーメン。",
-        "tags": [
-          "サク飯",
-          "一人OK"
-        ],
-        "address": "大阪府大阪市北区芝田1-1-3 阪急三番街南館1F",
-        "lat": 34.705203,
-        "lng": 135.498369
-      },
-      {
-        "id": 480,
-        "name": "マクドナルド 新梅田店",
-        "genre": "ハンバーガー",
-        "walkMinutes": 2,
-        "time_category": [
-          "朝",
-          "昼",
-          "夜"
-        ],
-        "hours": "5:45〜23:30",
-        "ai_summary": "新梅田食道街のマクドナルド。朝マックから夜まで使える駅前定番。",
-        "tags": [
-          "サク飯",
-          "一人OK"
-        ],
-        "address": "大阪府大阪市北区角田町9-29 新梅田食道街",
-        "lat": 34.703857,
-        "lng": 135.498197
-      },
-      {
         "id": 466,
         "name": "一風堂 梅田店",
         "genre": "ラーメン",
-        "walkMinutes": 3,
+        "walkMinutes": 2,
         "time_category": [
           "昼",
           "夜"
@@ -2234,10 +2336,48 @@ export const osakaHalls: readonly PachinkoHall[] = [
         "lng": 135.5006
       },
       {
+        "id": 467,
+        "name": "どうとんぼり神座 阪急三番街店",
+        "genre": "ラーメン",
+        "walkMinutes": 2,
+        "time_category": [
+          "昼",
+          "夜"
+        ],
+        "hours": "10:00〜23:30",
+        "ai_summary": "阪急三番街の神座。提供が速く、梅田各駅からのアクセスも良いあっさり系ラーメン。",
+        "tags": [
+          "サク飯",
+          "一人OK"
+        ],
+        "address": "大阪府大阪市北区芝田1-1-3 阪急三番街南館1F",
+        "lat": 34.70414,
+        "lng": 135.499008
+      },
+      {
+        "id": 479,
+        "name": "丸亀製麺梅田",
+        "genre": "そば/うどん",
+        "walkMinutes": 2,
+        "time_category": [
+          "昼",
+          "夜"
+        ],
+        "hours": "10:00〜23:00",
+        "ai_summary": "角田町の丸亀製麺。讃岐うどんを素早く。梅田駅前の定番サク飯。",
+        "tags": [
+          "サク飯",
+          "一人OK"
+        ],
+        "address": "大阪府大阪市北区角田町6-3 北大阪角田町ビル1F",
+        "lat": 34.703544,
+        "lng": 135.500709
+      },
+      {
         "id": 475,
         "name": "松のや 梅田店",
         "genre": "とんかつ/カツ丼",
-        "walkMinutes": 3,
+        "walkMinutes": 2,
         "time_category": [
           "昼",
           "夜"
@@ -2256,7 +2396,7 @@ export const osakaHalls: readonly PachinkoHall[] = [
         "id": 470,
         "name": "松屋 梅田角田町店",
         "genre": "丼もの",
-        "walkMinutes": 3,
+        "walkMinutes": 2,
         "time_category": [
           "朝",
           "昼",
@@ -2277,7 +2417,7 @@ export const osakaHalls: readonly PachinkoHall[] = [
         "id": 473,
         "name": "カレーハウスCoCo壱番屋 北区角田町店",
         "genre": "カレー",
-        "walkMinutes": 4,
+        "walkMinutes": 3,
         "time_category": [
           "昼",
           "夜"
@@ -2296,7 +2436,7 @@ export const osakaHalls: readonly PachinkoHall[] = [
         "id": 478,
         "name": "くら寿司 梅田OSビル店",
         "genre": "回転寿司",
-        "walkMinutes": 4,
+        "walkMinutes": 3,
         "time_category": [
           "昼",
           "夜"
@@ -2313,29 +2453,30 @@ export const osakaHalls: readonly PachinkoHall[] = [
         "lng": 135.500364
       },
       {
-        "id": 479,
-        "name": "丸亀製麺梅田",
-        "genre": "そば/うどん",
-        "walkMinutes": 4,
+        "id": 480,
+        "name": "マクドナルド 新梅田店",
+        "genre": "ハンバーガー",
+        "walkMinutes": 3,
         "time_category": [
+          "朝",
           "昼",
           "夜"
         ],
-        "hours": "10:00〜23:00",
-        "ai_summary": "角田町の丸亀製麺。讃岐うどんを素早く。梅田駅前の定番サク飯。",
+        "hours": "5:45〜23:30",
+        "ai_summary": "新梅田食道街のマクドナルド。朝マックから夜まで使える駅前定番。",
         "tags": [
           "サク飯",
           "一人OK"
         ],
-        "address": "大阪府大阪市北区角田町6-3 北大阪角田町ビル1F",
-        "lat": 34.703544,
-        "lng": 135.500709
+        "address": "大阪府大阪市北区角田町9-29 新梅田食道街",
+        "lat": 34.703857,
+        "lng": 135.498197
       },
       {
         "id": 481,
         "name": "牛角 梅田阪急東通り店",
         "genre": "焼肉",
-        "walkMinutes": 5,
+        "walkMinutes": 4,
         "time_category": [
           "昼",
           "夜"
@@ -2349,6 +2490,25 @@ export const osakaHalls: readonly PachinkoHall[] = [
         "address": "大阪府大阪市北区小松原町1-16 梅田モコビル1F",
         "lat": 34.70243,
         "lng": 135.500759
+      },
+      {
+        "id": 476,
+        "name": "かつ丼吉兵衛 東梅田店",
+        "genre": "とんかつ/カツ丼",
+        "walkMinutes": 5,
+        "time_category": [
+          "昼",
+          "夜"
+        ],
+        "hours": "11:00〜22:00",
+        "ai_summary": "堂山町の吉兵衛。玉子とじかつ丼が名物。地場チェーンのかつ丼専門店。",
+        "tags": [
+          "ガッツリ",
+          "一人OK"
+        ],
+        "address": "大阪府大阪市北区堂山町18-2",
+        "lat": 34.704759,
+        "lng": 135.502329
       },
       {
         "id": 471,
@@ -2372,29 +2532,10 @@ export const osakaHalls: readonly PachinkoHall[] = [
         "lng": 135.501094
       },
       {
-        "id": 476,
-        "name": "かつ丼吉兵衛 東梅田店",
-        "genre": "とんかつ/カツ丼",
-        "walkMinutes": 6,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "11:00〜22:00",
-        "ai_summary": "堂山町の吉兵衛。玉子とじかつ丼が名物。地場チェーンのかつ丼専門店。",
-        "tags": [
-          "ガッツリ",
-          "一人OK"
-        ],
-        "address": "大阪府大阪市北区堂山町18-2",
-        "lat": 34.704759,
-        "lng": 135.502329
-      },
-      {
         "id": 477,
         "name": "スシロー お初天神通り店",
         "genre": "回転寿司",
-        "walkMinutes": 6,
+        "walkMinutes": 5,
         "time_category": [
           "昼",
           "夜"
@@ -2413,7 +2554,7 @@ export const osakaHalls: readonly PachinkoHall[] = [
         "id": 474,
         "name": "やよい軒 梅田東店",
         "genre": "丼もの",
-        "walkMinutes": 6,
+        "walkMinutes": 5,
         "time_category": [
           "朝",
           "昼",
@@ -2431,30 +2572,10 @@ export const osakaHalls: readonly PachinkoHall[] = [
         "lng": 135.502415
       },
       {
-        "id": 465,
-        "name": "ラー麺ずんどう屋 梅田東通り店",
-        "genre": "ラーメン",
-        "walkMinutes": 8,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "24時間営業（メンテナンス休止あり）",
-        "ai_summary": "阪急東通りのずんどう屋。濃厚とんこつラーメンでガッツリ飯。深夜帯も稼働しやすい。",
-        "tags": [
-          "ガッツリ",
-          "一人OK",
-          "深夜OK"
-        ],
-        "address": "大阪府大阪市北区堂山町2-10 K1ビル1F",
-        "lat": 34.702783,
-        "lng": 135.503488
-      },
-      {
         "id": 472,
         "name": "すき家 梅田太融寺店",
         "genre": "丼もの",
-        "walkMinutes": 8,
+        "walkMinutes": 6,
         "time_category": [
           "朝",
           "昼",
@@ -2472,10 +2593,30 @@ export const osakaHalls: readonly PachinkoHall[] = [
         "lng": 135.502938
       },
       {
+        "id": 465,
+        "name": "ラー麺ずんどう屋 梅田東通り店",
+        "genre": "ラーメン",
+        "walkMinutes": 7,
+        "time_category": [
+          "昼",
+          "夜"
+        ],
+        "hours": "24時間営業（メンテナンス休止あり）",
+        "ai_summary": "阪急東通りのずんどう屋。濃厚とんこつラーメンでガッツリ飯。深夜帯も稼働しやすい。",
+        "tags": [
+          "ガッツリ",
+          "一人OK",
+          "深夜OK"
+        ],
+        "address": "大阪府大阪市北区堂山町2-10 K1ビル1F",
+        "lat": 34.702783,
+        "lng": 135.503488
+      },
+      {
         "id": 469,
         "name": "吉野家 お初天神店",
         "genre": "丼もの",
-        "walkMinutes": 10,
+        "walkMinutes": 9,
         "time_category": [
           "朝",
           "昼",
@@ -2491,6 +2632,26 @@ export const osakaHalls: readonly PachinkoHall[] = [
         "address": "大阪府大阪市北区曾根崎2-5-20",
         "lat": 34.699301,
         "lng": 135.500812
+      },
+      {
+        "id": 468,
+        "name": "天下一品 東梅田店",
+        "genre": "ラーメン",
+        "walkMinutes": 10,
+        "time_category": [
+          "昼",
+          "夜"
+        ],
+        "hours": "11:00〜翌3:30",
+        "ai_summary": "東梅田の天下一品。こってり系で軍資金を使い切った後のリセット飯にも向く。",
+        "tags": [
+          "ガッツリ",
+          "一人OK",
+          "深夜OK"
+        ],
+        "address": "大阪府大阪市北区野崎町9-12",
+        "lat": 34.702203,
+        "lng": 135.505982
       }
     ]
   },
@@ -2570,6 +2731,25 @@ export const osakaHalls: readonly PachinkoHall[] = [
         "lng": 135.5006
       },
       {
+        "id": 467,
+        "name": "どうとんぼり神座 阪急三番街店",
+        "genre": "ラーメン",
+        "walkMinutes": 8,
+        "time_category": [
+          "昼",
+          "夜"
+        ],
+        "hours": "10:00〜23:30",
+        "ai_summary": "阪急三番街の神座。提供が速く、梅田各駅からのアクセスも良いあっさり系ラーメン。",
+        "tags": [
+          "サク飯",
+          "一人OK"
+        ],
+        "address": "大阪府大阪市北区芝田1-1-3 阪急三番街南館1F",
+        "lat": 34.70414,
+        "lng": 135.499008
+      },
+      {
         "id": 478,
         "name": "くら寿司 梅田OSビル店",
         "genre": "回転寿司",
@@ -2628,25 +2808,6 @@ export const osakaHalls: readonly PachinkoHall[] = [
         "address": "大阪府大阪市北区曾根崎2-5-20",
         "lat": 34.699301,
         "lng": 135.500812
-      },
-      {
-        "id": 467,
-        "name": "どうとんぼり神座 阪急三番街店",
-        "genre": "ラーメン",
-        "walkMinutes": 9,
-        "time_category": [
-          "昼",
-          "夜"
-        ],
-        "hours": "10:00〜23:30",
-        "ai_summary": "阪急三番街の神座。提供が速く、梅田各駅からのアクセスも良いあっさり系ラーメン。",
-        "tags": [
-          "サク飯",
-          "一人OK"
-        ],
-        "address": "大阪府大阪市北区芝田1-1-3 阪急三番街南館1F",
-        "lat": 34.705203,
-        "lng": 135.498369
       },
       {
         "id": 479,
