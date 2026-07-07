@@ -9,8 +9,8 @@ type Props = {
 }
 
 /**
- * 運営者情報・お問い合わせ等の固定ページ用レイアウト。
- * 既存エリアページと同じヘッダー・カード意匠を踏襲する。
+ * 運営者情報・お問い合わせ・ガイド（/guides/*）等の固定コンテンツページ用レイアウト。
+ * 既存エリアページと同じヘッダー・カード意匠を踏襲し、ページ下部に SiteFooter を表示する。
  */
 export function StaticPageShell({ title, breadcrumbLabel, children }: Props) {
   return (
