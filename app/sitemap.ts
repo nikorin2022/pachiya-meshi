@@ -65,12 +65,14 @@ export default function sitemap(): MetadataRoute.Sitemap {
     }),
   )
 
-  const hallPages: MetadataRoute.Sitemap = getAllHalls().map((hall) => ({
-    url: `${SITE_URL}/halls/${hall.id}`,
-    lastModified: now,
-    changeFrequency: "weekly",
-    priority: 0.8,
-  }))
+  const hallPages: MetadataRoute.Sitemap = getAllHalls()
+    .filter((hall) => hall.restaurants.length > 0)
+    .map((hall) => ({
+      url: `${SITE_URL}/halls/${hall.id}`,
+      lastModified: now,
+      changeFrequency: "weekly",
+      priority: 0.8,
+    }))
 
   return [
     topPage,

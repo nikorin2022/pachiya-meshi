@@ -36,6 +36,7 @@ import {
   getGoogleMapsPlaceUrl,
 } from "@/lib/maps"
 import { selectRecommendedRestaurantsTop3 } from "@/lib/restaurant-recommendations"
+import { getAreaForHall, getSiblingHallsInArea } from "@/lib/areas"
 import { getChainForHall, getChainPagePath } from "@/lib/chains"
 import { formatWalkEstimateLabel } from "@/lib/walk-display"
 import {
@@ -50,6 +51,13 @@ import {
   isKitaichimeshi,
   KITAICHIMESHI_DESCRIPTION,
 } from "@/lib/kitaichimeshi"
+import { HallAreaSiblingLinks } from "@/components/HallAreaSiblingLinks"
+
+const ZERO_RESTAURANT_GUIDE =
+  "このホール周辺の飲食店情報は現在確認中です。パチ屋飯では、実在確認・徒歩圏内・通常利用できる店舗を優先して掲載しています。確認が取れた店舗から順次掲載します。"
+
+const ZERO_RESTAURANT_NOTICE =
+  "現在、このホール周辺の徒歩10分以内で掲載できる飲食店を確認中です。同じエリアの他ホールや、近隣エリアの情報もあわせてご確認ください。"
 
 // ============================================================
 // 子コンポーネント（このページ専用）
@@ -266,6 +274,11 @@ export default function HallDetailClient({
     [hall.restaurants],
   )
 
+  const hasNoRestaurants = hall.restaurants.length === 0
+  const hasSingleRestaurant = hall.restaurants.length === 1
+  const area = useMemo(() => getAreaForHall(hall), [hall])
+  const siblingHalls = useMemo(() => getSiblingHallsInArea(hall, 3), [hall])
+
   return (
     <div className="min-h-screen bg-gray-50">
       {/* ヘッダー */}
@@ -297,10 +310,13 @@ export default function HallDetailClient({
 
             {/* デスクトップ: ナビゲーション */}
             <div className="hidden md:flex items-center gap-4 text-sm text-gray-600 shrink-0">
-              <button className="flex items-center gap-1 hover:text-gray-900">
+              <Link
+                href="/areas"
+                className="flex items-center gap-1 hover:text-gray-900"
+              >
                 <MapPin className="w-4 h-4" />
                 <span>都道府県から探す</span>
-              </button>
+              </Link>
               <button
                 type="button"
                 onClick={() => toggleFavorite(hall.id)}
@@ -317,9 +333,13 @@ export default function HallDetailClient({
 
             {/* モバイル: アイコンのみ */}
             <div className="flex md:hidden items-center gap-2">
-              <button className="p-2 text-gray-600 hover:text-gray-900">
+              <Link
+                href="/search"
+                className="p-2 text-gray-600 hover:text-gray-900"
+                aria-label="ホールを検索"
+              >
                 <Search className="w-5 h-5" />
-              </button>
+              </Link>
               <button
                 type="button"
                 onClick={() => toggleFavorite(hall.id)}
@@ -477,7 +497,11 @@ export default function HallDetailClient({
 
               <div className="flex items-center gap-2 text-xs sm:text-sm text-gray-600 bg-gray-50 rounded-lg px-3 py-2">
                 <span className="text-red-500">📍</span>
-                <span>このページは店舗から徒歩5〜10分圏内の飲食店を掲載しています</span>
+                <span>
+                  {hasNoRestaurants
+                    ? "飲食店情報は確認中です（徒歩10分圏内のみ掲載）"
+                    : "このページは店舗から徒歩5〜10分圏内の飲食店を掲載しています"}
+                </span>
               </div>
             </div>
 
@@ -513,33 +537,59 @@ export default function HallDetailClient({
             </div>
             <div className="flex items-center gap-1.5 text-[10px] text-gray-600 bg-gray-50 rounded-lg px-2 py-1.5 mt-2">
               <span className="text-red-500">📍</span>
-              <span>徒歩5〜10分圏内の飲食店を掲載</span>
+              <span>
+                {hasNoRestaurants
+                  ? "飲食店情報は確認中です"
+                  : "徒歩5〜10分圏内の飲食店を掲載"}
+              </span>
             </div>
           </div>
         </div>
 
-        {hall.pachiya_comment ? (
-          <div className="bg-white rounded-lg shadow-sm border border-gray-200 p-3 sm:p-4 mb-4 sm:mb-6">
+        {hasNoRestaurants ? (
+          <div className="bg-white rounded-lg shadow-sm border border-gray-200 p-4 sm:p-6 mb-4 sm:mb-6">
             <h3 className="text-xs sm:text-sm font-bold text-gray-900 mb-2 sm:mb-3">
-              パチ屋飯コメント
+              飲食店掲載について
             </h3>
+            <p className="text-xs sm:text-sm text-gray-600 leading-relaxed mb-3">
+              {ZERO_RESTAURANT_NOTICE}
+            </p>
             <p className="text-xs sm:text-sm text-gray-600 leading-relaxed">
-              {hall.pachiya_comment}
+              {ZERO_RESTAURANT_GUIDE}
             </p>
           </div>
-        ) : null}
+        ) : (
+          <>
+            {hall.pachiya_comment ? (
+              <div className="bg-white rounded-lg shadow-sm border border-gray-200 p-3 sm:p-4 mb-4 sm:mb-6">
+                <h3 className="text-xs sm:text-sm font-bold text-gray-900 mb-2 sm:mb-3">
+                  パチ屋飯コメント
+                </h3>
+                <p className="text-xs sm:text-sm text-gray-600 leading-relaxed">
+                  {hall.pachiya_comment}
+                </p>
+              </div>
+            ) : null}
 
-        {hall.meal_guide ? (
-          <div className="bg-white rounded-lg shadow-sm border border-gray-200 p-3 sm:p-4 mb-4 sm:mb-6">
-            <h3 className="text-xs sm:text-sm font-bold text-gray-900 mb-2 sm:mb-3">
-              パチンコ・パチスロユーザー向け食事ガイド
-            </h3>
-            <p className="text-xs sm:text-sm text-gray-600 leading-relaxed">
-              {hall.meal_guide}
-            </p>
+            {hall.meal_guide ? (
+              <div className="bg-white rounded-lg shadow-sm border border-gray-200 p-3 sm:p-4 mb-4 sm:mb-6">
+                <h3 className="text-xs sm:text-sm font-bold text-gray-900 mb-2 sm:mb-3">
+                  パチンコ・パチスロユーザー向け食事ガイド
+                </h3>
+                <p className="text-xs sm:text-sm text-gray-600 leading-relaxed">
+                  {hall.meal_guide}
+                </p>
+              </div>
+            ) : null}
+          </>
+        )}
+
+        {hasNoRestaurants ? (
+          <div className="mb-4 sm:mb-6">
+            <HallAreaSiblingLinks area={area} siblingHalls={siblingHalls} />
           </div>
-        ) : null}
-
+        ) : (
+          <>
         {/* フィルターセクション */}
         <div className="bg-white rounded-lg shadow-sm border border-gray-200 p-3 sm:p-4 mb-4 sm:mb-6">
           <div className="flex flex-col sm:flex-row gap-4 sm:gap-8 mb-4">
@@ -857,6 +907,18 @@ export default function HallDetailClient({
             </div>
           </div>
         </div>
+
+        {hasSingleRestaurant ? (
+          <div className="mt-4 sm:mt-6">
+            <HallAreaSiblingLinks
+              area={area}
+              siblingHalls={siblingHalls}
+              title="同じエリアの他ホールも見る"
+            />
+          </div>
+        ) : null}
+          </>
+        )}
 
         <p className="text-[10px] sm:text-xs text-gray-500 mt-6 sm:mt-8">
           ※営業時間やメニュー内容は変更されている場合があります。ご来店前に各店舗へご確認ください。

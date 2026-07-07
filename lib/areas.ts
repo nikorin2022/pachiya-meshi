@@ -70,6 +70,30 @@ export function getHallsByAreaId(areaId: string): PachinkoHall[] {
   return getAllHalls().filter((hall) => getAreaForHall(hall)?.id === areaId)
 }
 
+/**
+ * 同エリアの他ホールを取得（飲食店掲載数の多い順、掲載1件以上を優先）。
+ * ホール詳細の0件・少数掲載ページからの逃げ導線用。
+ */
+export function getSiblingHallsInArea(
+  hall: PachinkoHall,
+  limit = 3,
+): PachinkoHall[] {
+  const area = getAreaForHall(hall)
+  if (!area) return []
+
+  const siblings = getHallsByAreaId(area.id).filter((h) => h.id !== hall.id)
+  const withRestaurants = siblings
+    .filter((h) => h.restaurants.length > 0)
+    .sort((a, b) => b.restaurants.length - a.restaurants.length)
+
+  if (hall.restaurants.length === 0) {
+    const withoutRestaurants = siblings.filter((h) => h.restaurants.length === 0)
+    return [...withRestaurants, ...withoutRestaurants].slice(0, limit)
+  }
+
+  return withRestaurants.slice(0, limit)
+}
+
 /** ホールが1件以上紐づくエリア ID 一覧（SSG 用） */
 export function getAreaIdsWithHalls(): string[] {
   return getAreasWithHalls().map((area) => area.id)

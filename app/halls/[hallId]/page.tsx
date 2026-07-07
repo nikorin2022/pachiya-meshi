@@ -37,11 +37,17 @@ export async function generateMetadata({
   }
 
   const title = `${hall.name} 周辺の飲食店ガイド | パチ屋飯`
-  const description = `${hall.prefecture}${hall.city}のパチンコホール「${hall.name}」から徒歩10分以内で行ける飲食店を、朝飯/昼飯/夜飯やジャンル別にまとめたガイド。`
+  const description =
+    hall.restaurants.length === 0
+      ? `${hall.prefecture}${hall.city}のパチンコホール「${hall.name}」の基本情報。周辺の飲食店情報は現在確認中です。`
+      : `${hall.prefecture}${hall.city}のパチンコホール「${hall.name}」から徒歩10分以内で行ける飲食店を、朝飯/昼飯/夜飯やジャンル別にまとめたガイド。`
 
   return {
     title,
     description,
+    ...(hall.restaurants.length === 0
+      ? { robots: { index: false, follow: true } }
+      : {}),
     openGraph: {
       title,
       description,
