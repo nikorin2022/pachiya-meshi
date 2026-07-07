@@ -28,14 +28,19 @@ export default function PrivacyPage() {
           個人情報の取り扱い
         </h3>
         <p>
-          当サイトでは、お問い合わせメール等を通じて利用者から個人情報を取得する場合があります。取得した情報は、お問い合わせへの対応および掲載情報の修正等に必要な範囲でのみ利用し、適切に管理します。第三者への無断提供は行いません。
+          当サイトでは、お問い合わせメール等を通じて利用者から氏名・メールアドレス等の個人情報を取得する場合があります。取得した情報は、お問い合わせへの対応、掲載情報の修正・確認、およびそれに付随する連絡に必要な範囲でのみ利用し、適切に管理します。法令に基づく場合を除き、本人の同意なく第三者へ提供することはありません。
         </p>
       </div>
 
       <div>
-        <h3 className="font-bold text-gray-900 text-sm sm:text-base mb-2">Cookieについて</h3>
+        <h3 className="font-bold text-gray-900 text-sm sm:text-base mb-2">
+          Cookieおよび類似技術について
+        </h3>
+        <p className="mb-2">
+          当サイトでは、利便性の向上、アクセス状況の把握、広告配信のため、Cookie（クッキー）およびこれに類する技術（ブラウザの localStorage 等）を利用します。
+        </p>
         <p>
-          当サイトでは、利便性の向上やアクセス状況の把握のため、Cookie（クッキー）を利用する場合があります。Cookieはブラウザの設定により無効化できますが、一部機能に影響する場合があります。
+          お気に入りホール機能では、利用者の端末内にホールIDを保存します。Cookieや類似技術は、ブラウザの設定から無効化・削除できますが、一部機能（お気に入りの保存、アクセス解析、広告表示等）に影響する場合があります。
         </p>
       </div>
 
@@ -43,9 +48,14 @@ export default function PrivacyPage() {
         <h3 className="font-bold text-gray-900 text-sm sm:text-base mb-2">
           アクセス解析について
         </h3>
+        <p className="mb-2">
+          当サイトでは、本番環境において Google Analytics（Google Analytics 4）を利用しています。Google Analytics は Cookie 等を用いてアクセス情報を収集し、匿名化された統計情報としてサイトの改善に利用します。
+        </p>
+        <p className="mb-2">
+          また、本番環境において Vercel Analytics を利用しています。Vercel Analytics は、ページの閲覧数やパフォーマンス等の集計情報を取得し、サイト運営・改善の参考にします。
+        </p>
         <p>
-          当サイトでは、Google Analytics（アクセス解析ツール）を利用しています。Google
-          Analytics はCookie等を用いてアクセス情報を収集し、匿名化された統計情報としてサイトの改善に利用します。
+          当サイトでは、サイトの検索パフォーマンス把握のため、Google Search Console も利用しています。Search Console ではサイトのインデックス状況等を確認しますが、利用者個人を特定する情報の収集を目的とするものではありません。
         </p>
       </div>
 
@@ -54,13 +64,13 @@ export default function PrivacyPage() {
           広告配信について
         </h3>
         <p className="mb-2">
-          当サイトでは、Google AdSense 等の第三者配信の広告サービスを利用する場合があります。広告配信事業者は、利用者の興味や関心に応じた広告を表示するため、Cookie等を使用してアクセス情報を収集することがあります。
+          当サイトでは、Google AdSense（Google による広告配信サービス）を利用しています。本番環境では広告配信に必要なスクリプトを読み込んでいます。広告枠の設置状況はページにより異なり、すべてのページで広告が表示されるとは限りません。
         </p>
         <p className="mb-2">
-          これらのCookieにより、当サイトや他サイトへの過去のアクセス情報に基づき、パーソナライズ広告（利用者の興味に応じた広告）が配信される場合があります。パーソナライズ広告の無効化や、Cookieの利用設定は、ブラウザの設定から変更できます。
+          広告配信事業者（Google 等）は、利用者の興味や関心に応じた広告を表示するため、Cookie 等を使用して当サイトや他サイトへの過去のアクセス情報を収集することがあります。これにより、パーソナライズ広告（利用者の興味に応じた広告）が配信される場合があります。
         </p>
         <p>
-          Googleによる広告の配信に関する詳細は、
+          パーソナライズ広告の無効化や Cookie の利用設定は、ブラウザの設定から変更できます。Google による広告の配信に関する詳細は、
           <a
             href="https://policies.google.com/technologies/ads"
             className="text-red-600 hover:text-red-700 font-medium"
@@ -83,18 +93,9 @@ export default function PrivacyPage() {
       </div>
 
       <div>
-        <h3 className="font-bold text-gray-900 text-sm sm:text-base mb-2">
-          Google Search Console について
-        </h3>
-        <p>
-          当サイトでは、サイトの検索パフォーマンス把握のため、Google Search Console を利用する場合があります。Search Console ではサイトのインデックス状況等を確認しますが、利用者個人を特定する情報の収集を目的とするものではありません。
-        </p>
-      </div>
-
-      <div>
         <h3 className="font-bold text-gray-900 text-sm sm:text-base mb-2">免責事項</h3>
         <p>
-          当サイトの情報は正確性の確保に努めていますが、内容の完全性・正確性・有用性を保証するものではありません。当サイトの利用により生じた損害について、当サイトは一切の責任を負いません。
+          当サイトの情報は正確性の確保に努めていますが、内容の完全性・正確性・有用性を保証するものではありません。当サイトからリンクされている外部サイト（Google Maps 等を含む）の内容について、当サイトは一切の責任を負いません。当サイトの利用により生じた損害について、当サイトは一切の責任を負いません。
         </p>
       </div>
 

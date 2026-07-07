@@ -19,8 +19,20 @@ export default function ContactPage() {
   return (
     <StaticPageShell title="お問い合わせ" breadcrumbLabel="お問い合わせ">
       <p>
-        パチ屋飯へのお問い合わせ、掲載情報の修正依頼、店舗情報の掲載依頼、掲載削除依頼は以下までご連絡ください。
+        パチ屋飯へのお問い合わせは、以下のメールアドレスよりご連絡ください。
       </p>
+
+      <div>
+        <h3 className="font-bold text-gray-900 text-sm sm:text-base mb-2">
+          お問い合わせの例
+        </h3>
+        <ul className="list-disc pl-5 space-y-1">
+          <li>掲載情報の修正依頼（店名・住所・徒歩時間など）</li>
+          <li>閉店・移転・営業時間変更の連絡</li>
+          <li>掲載依頼・掲載削除依頼</li>
+          <li>その他のお問い合わせ</li>
+        </ul>
+      </div>
 
       <div>
         <h3 className="font-bold text-gray-900 text-sm sm:text-base mb-2">
@@ -38,7 +50,7 @@ export default function ContactPage() {
 
       <p>
         ご連絡内容によっては返信まで数日いただく場合があります。
-        また、内容によっては回答できない場合がありますのでご了承ください。
+        内容によっては回答できない場合もありますので、あらかじめご了承ください。
       </p>
     </StaticPageShell>
   )
