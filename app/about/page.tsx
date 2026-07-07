@@ -113,6 +113,13 @@ export default function AboutPage() {
           <li>飲食店追加</li>
           <li>編集コンテンツ追加</li>
         </ul>
+        <p className="mt-2">
+          パチ屋飯の使い方や食事選びの考え方は、
+          <Link href="/guides" className="text-red-600 hover:text-red-700 font-medium">
+            ガイドページ
+          </Link>
+          でも紹介しています。
+        </p>
       </div>
 
       <div>

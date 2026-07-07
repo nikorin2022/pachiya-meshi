@@ -2,6 +2,7 @@ import Link from "next/link"
 
 const FOOTER_LINKS = [
   { href: "/about", label: "運営者情報" },
+  { href: "/guides", label: "ガイド" },
   { href: "/contact", label: "お問い合わせ" },
   { href: "/privacy", label: "プライバシーポリシー" },
   { href: "/terms", label: "利用規約" },
