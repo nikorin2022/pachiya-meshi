@@ -61,7 +61,7 @@ export default function AreasPage() {
             パチンコホール周辺のごはんエリア一覧
           </h2>
           <p className="text-xs sm:text-sm text-gray-600 leading-relaxed">
-            掲載中のエリアから、パチンコホール・パチスロホール周辺の飲食店ガイドへ進めます。
+            エリアからホールを選び、周辺の飲食店を探せます。
             気になるエリアを選んで、ホール単位のごはんスポットを確認してください。
           </p>
         </section>

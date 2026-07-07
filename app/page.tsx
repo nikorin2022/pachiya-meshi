@@ -154,7 +154,7 @@ export default function TopPage() {
             <p className="text-[11px] sm:text-xs text-gray-600 mb-3 sm:mb-4">
               周辺の飯が充実しているホールから、まず見てみたい店舗を選べます。
             </p>
-            <HallCardList halls={topHalls} showMealLink />
+            <HallCardList halls={topHalls} />
           </section>
         ) : null}
 
