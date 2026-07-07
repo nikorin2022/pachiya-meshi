@@ -104,7 +104,7 @@ export default async function SearchPage({
               ホールを検索
             </h2>
             <p className="text-xs sm:text-sm text-gray-600">
-              ホール名・エリア名・チェーン名で検索できます。
+              ホール名・エリア名・駅名・チェーン名で検索できます。
             </p>
           </section>
         ) : results.length > 0 ? (

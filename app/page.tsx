@@ -20,13 +20,18 @@ const TOP_PAGE_DESCRIPTION =
 const POPULAR_AREA_IDS = [
   "akihabara",
   "shinjuku",
-  "ikebukuro",
-  "shibuya",
-  "ueno",
-  "yurakucho",
+  "umeda",
+  "nanba",
+  "sapporo-ekimae",
+  "hakata",
+  "tenjin",
+  "nagoya-ekimae",
 ] as const
 
 const KITAICHIMESHI_HALL_LIMIT = 6
+const TOP_HALL_LIMIT = 6
+const HERO_ASPECT_WIDTH = 1920
+const HERO_ASPECT_HEIGHT = 819
 
 const linkButtonClassName =
   "inline-flex items-center gap-1 text-xs sm:text-sm text-red-600 hover:text-red-700 font-bold bg-red-50 border border-red-200 rounded-lg px-3 py-2 transition-colors"
@@ -56,6 +61,20 @@ function getHallsWithKitaichimeshi(
     .slice(0, limit)
 }
 
+/** 飲食店掲載数が多いホール（0件除外、3件以上を優先） */
+function getTopHallsByRestaurants(
+  halls: readonly PachinkoHall[],
+  limit: number,
+): PachinkoHall[] {
+  const withRestaurants = halls.filter((hall) => hall.restaurants.length > 0)
+  const preferred = withRestaurants.filter((hall) => hall.restaurants.length >= 3)
+  const pool = preferred.length >= limit ? preferred : withRestaurants
+
+  return [...pool]
+    .sort((a, b) => b.restaurants.length - a.restaurants.length)
+    .slice(0, limit)
+}
+
 /**
  * トップページ: ヒーロー・編集コンテンツ導線・各一覧ページへの誘導。
  * 各ホールカードから周辺飲食店ガイドへ遷移する。
@@ -70,6 +89,7 @@ export default function TopPage() {
     areas.find((area) => area.id === id),
   ).filter((area): area is NonNullable<typeof area> => area != null)
   const kitaichimeshiHalls = getHallsWithKitaichimeshi(halls, KITAICHIMESHI_HALL_LIMIT)
+  const topHalls = getTopHallsByRestaurants(halls, TOP_HALL_LIMIT)
 
   return (
     <div className="min-h-screen bg-gray-50">
@@ -98,19 +118,7 @@ export default function TopPage() {
       </header>
 
       <main className="max-w-7xl mx-auto px-3 sm:px-4 py-4 sm:py-6">
-        <div className="mb-4 sm:mb-6">
-          <Image
-            src="/hero-image.png"
-            alt="パチ屋飯"
-            width={1920}
-            height={819}
-            priority
-            sizes="(max-width: 1280px) 100vw, 1280px"
-            className="w-full h-auto rounded-xl shadow-sm"
-          />
-        </div>
-
-        {/* ① ヒーローセクション */}
+        {/* ① ヒーローセクション（検索導線をファーストビューに） */}
         <section className="bg-white rounded-lg shadow-sm border border-gray-200 p-4 sm:p-6 mb-4 sm:mb-6">
           <h2 className="text-lg sm:text-2xl font-bold text-gray-900 mb-2">
             パチンコ帰りの一杯を探そう。
@@ -136,6 +144,40 @@ export default function TopPage() {
         </section>
 
         <HallListClient halls={halls} />
+
+        {/* 飲食店が多いホール（未検索時の導線） */}
+        {topHalls.length > 0 ? (
+          <section className="mb-4 sm:mb-6">
+            <h2 className="text-xs sm:text-sm font-bold text-gray-900 mb-1">
+              飲食店が多いホール
+            </h2>
+            <p className="text-[11px] sm:text-xs text-gray-600 mb-3 sm:mb-4">
+              周辺の飯が充実しているホールから、まず見てみたい店舗を選べます。
+            </p>
+            <HallCardList halls={topHalls} showMealLink />
+          </section>
+        ) : null}
+
+        {/* ヒーロー画像（検索導線の下に配置・WebP最適化） */}
+        <div className="mb-4 sm:mb-6">
+          <picture className="block w-full">
+            <source
+              media="(max-width: 768px)"
+              srcSet="/hero-image-mobile.webp"
+              type="image/webp"
+            />
+            <source srcSet="/hero-image.webp" type="image/webp" />
+            <img
+              src="/hero-image.webp"
+              alt="パチ屋飯 — パチンコホール周辺の飲食店ガイド"
+              width={1280}
+              height={Math.round((1280 * HERO_ASPECT_HEIGHT) / HERO_ASPECT_WIDTH)}
+              decoding="async"
+              fetchPriority="high"
+              className="w-full h-auto max-h-40 sm:max-h-none object-cover sm:object-contain rounded-xl shadow-sm"
+            />
+          </picture>
+        </div>
 
         {/* 人気エリア */}
         <section className="mb-4 sm:mb-6">
@@ -208,29 +250,18 @@ export default function TopPage() {
           </Link>
         </section>
 
-        {/* パチ屋飯とは */}
+        {/* パチ屋飯とは（重複セクションを統合） */}
         <section className="bg-white rounded-lg shadow-sm border border-gray-200 p-4 sm:p-6 mb-4 sm:mb-6">
           <h2 className="text-base sm:text-lg font-bold text-gray-900 mb-2">
             パチ屋飯とは
           </h2>
-          <p className="text-xs sm:text-sm text-gray-600 leading-relaxed">
-            私たちは「美味しい食事も人生単位で見ると期待値が高い」と考えています。
-            パチンコやパチスロの稼働だけでなく、その街ならではの食事も楽しんでほしい。
-            パチ屋飯は、ホール周辺の飲食店との出会いを応援する編集メディアです。
+          <p className="text-xs sm:text-sm text-gray-600 leading-relaxed mb-2">
+            パチンコ・パチスロユーザー向けに、ホール周辺の飲食店情報を整理する地域特化メディアです。
+            徒歩10分以内の店舗を、朝飯・昼飯・夜飯などの利用シーンから探せます。
           </p>
-          <Link href="/about" className={`${linkButtonClassName} mt-3 sm:mt-4`}>
-            詳しく見る
-            <ChevronRight className="w-3.5 h-3.5 shrink-0" />
-          </Link>
-        </section>
-
-        {/* Aboutページ導線 */}
-        <section className="bg-white rounded-lg shadow-sm border border-gray-200 p-4 sm:p-6 mt-4 sm:mt-6">
-          <h2 className="text-base sm:text-lg font-bold text-gray-900 mb-2">
-            パチ屋飯について
-          </h2>
           <p className="text-xs sm:text-sm text-gray-600 leading-relaxed">
-            サイトの考え方や期待値飯の選定基準を掲載しています。
+            実在確認と正確性を重視し、架空の店舗情報は掲載しません。
+            サイトの考え方や期待値飯の選定基準は運営方針ページでご確認いただけます。
           </p>
           <Link href="/about" className={`${linkButtonClassName} mt-3 sm:mt-4`}>
             運営方針を見る

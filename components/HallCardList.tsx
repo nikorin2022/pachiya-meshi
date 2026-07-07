@@ -11,13 +11,15 @@ import {
 
 type Props = {
   halls: readonly PachinkoHall[]
+  /** カード下部に「周辺の飯を見る」CTAを表示 */
+  showMealLink?: boolean
 }
 
 /**
  * ホールカード一覧（Server Component）。
  * トップページ・エリア詳細ページで共通利用。
  */
-export function HallCardList({ halls }: Props) {
+export function HallCardList({ halls, showMealLink = false }: Props) {
   return (
     <ul className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3 sm:gap-4">
       {halls.map((hall) => {
@@ -82,6 +84,11 @@ export function HallCardList({ halls }: Props) {
                   飲食店 {hall.restaurants.length}件
                 </span>
               </div>
+              {showMealLink ? (
+                <p className="text-[10px] sm:text-xs text-red-600 font-medium mt-2 group-hover:text-red-700">
+                  周辺の飯を見る →
+                </p>
+              ) : null}
             </Link>
           </li>
         )

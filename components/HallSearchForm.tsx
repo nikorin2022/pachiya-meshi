@@ -21,7 +21,7 @@ type Props = {
  */
 export function HallSearchForm({
   defaultQuery = "",
-  placeholder = "パチンコ店名を入力",
+  placeholder = "ホール名・エリア名・駅名で検索（例：秋葉原、梅田、マルハン）",
   className = "",
   inputClassName = "",
   buttonClassName = "",

@@ -63,7 +63,7 @@ export default function HallListClient({ halls }: Props) {
             inputMode="search"
             value={query}
             onChange={(e) => setQuery(e.target.value)}
-            placeholder="ホール名・エリア・住所で検索（例：アイランド / 秋葉原）"
+            placeholder="ホール名・エリア名・駅名で検索（例：秋葉原、梅田、マルハン）"
             className="h-12 pl-10 pr-10 text-base bg-white border-gray-300 focus-visible:border-red-400 focus-visible:ring-red-200/60"
             autoComplete="off"
           />
@@ -79,8 +79,12 @@ export default function HallListClient({ halls }: Props) {
           )}
         </div>
         {!hasQuery ? (
-          <p className="text-[11px] sm:text-xs text-gray-600 mt-3">
-            掲載中のホールは{halls.length}件です。ホール名・エリア・住所で検索してください。
+          <p className="text-[11px] sm:text-xs text-gray-600 mt-2 leading-relaxed">
+            ホール名・エリア名・駅名・チェーン名で探す
+            <span className="text-gray-500">
+              {" "}
+              （例：秋葉原 / 新宿 / 梅田 / 札幌 / マルハン / エスパス）
+            </span>
           </p>
         ) : null}
       </section>
