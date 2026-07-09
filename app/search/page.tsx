@@ -54,7 +54,7 @@ export default async function SearchPage({
           <div className="flex items-center justify-between gap-2 sm:gap-4">
             <Link href="/" className="flex items-center gap-1 sm:gap-2 shrink-0">
               <Image
-                src="/favicon.png"
+                src="/pachiya-meshi-icon.png"
                 alt="パチ屋飯"
                 width={1254}
                 height={1254}

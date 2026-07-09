@@ -19,12 +19,12 @@ export const metadata: Metadata = {
   title: 'パチ屋飯 - パチンコユーザー・パチスロユーザーのためのごはんスポット検索',
   description: SITE_DESCRIPTION,
   icons: {
-    // favicon は public/favicon.png に統一（パチ屋飯ロゴ・1254x1254 正方形）
-    icon: '/favicon.png',
-    apple: '/favicon.png',
+    icon: '/pachiya-meshi-icon.png',
+    shortcut: '/pachiya-meshi-icon.png',
+    apple: '/pachiya-meshi-icon.png',
   },
   // OG のサイト共通デフォルト。子ページで title/description/type 等を上書きする。
-  // images はサイト全体で hero-image.png を SNS シェア用カードに使用する。
+  // images はサイト全体で pachiya-meshi-hero.webp を SNS シェア用カードに使用する。
   openGraph: {
     type: 'website',
     locale: 'ja_JP',
@@ -32,17 +32,17 @@ export const metadata: Metadata = {
     url: SITE_URL,
     images: [
       {
-        url: '/hero-image.png',
-        width: 1920,
-        height: 819,
+        url: '/pachiya-meshi-hero.webp',
+        width: 2172,
+        height: 724,
         alt: 'パチ屋飯',
       },
     ],
   },
-  // Twitter Card: hero-image.png を採用したため summary_large_image を使用。
+  // Twitter Card: pachiya-meshi-hero.webp を採用したため summary_large_image を使用。
   twitter: {
     card: 'summary_large_image',
-    images: ['/hero-image.png'],
+    images: ['/pachiya-meshi-hero.webp'],
   },
   // Google Search Console のサイト所有権確認（HTML タグ方式）。
   // Next.js が <head> に <meta name="google-site-verification" content="..." /> を自動出力する。

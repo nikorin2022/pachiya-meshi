@@ -30,8 +30,8 @@ const POPULAR_AREA_IDS = [
 
 const KITAICHIMESHI_HALL_LIMIT = 6
 const TOP_HALL_LIMIT = 6
-const HERO_ASPECT_WIDTH = 1920
-const HERO_ASPECT_HEIGHT = 819
+const HERO_ASPECT_WIDTH = 2172
+const HERO_ASPECT_HEIGHT = 724
 
 const linkButtonClassName =
   "inline-flex items-center gap-1 text-xs sm:text-sm text-red-600 hover:text-red-700 font-bold bg-red-50 border border-red-200 rounded-lg px-3 py-2 transition-colors"
@@ -99,7 +99,7 @@ export default function TopPage() {
         <div className="max-w-7xl mx-auto px-3 sm:px-4 py-2 sm:py-3">
           <Link href="/" className="flex items-center gap-1 sm:gap-2 shrink-0 w-fit">
             <Image
-              src="/favicon.png"
+              src="/pachiya-meshi-icon.png"
               alt="パチ屋飯"
               width={1254}
               height={1254}
@@ -160,23 +160,15 @@ export default function TopPage() {
 
         {/* ヒーロー画像（検索導線の下に配置・WebP最適化） */}
         <div className="mb-4 sm:mb-6">
-          <picture className="block w-full">
-            <source
-              media="(max-width: 768px)"
-              srcSet="/hero-image-mobile.webp"
-              type="image/webp"
-            />
-            <source srcSet="/hero-image.webp" type="image/webp" />
-            <img
-              src="/hero-image.webp"
-              alt="パチ屋飯 — パチンコホール周辺の飲食店ガイド"
-              width={1280}
-              height={Math.round((1280 * HERO_ASPECT_HEIGHT) / HERO_ASPECT_WIDTH)}
-              decoding="async"
-              fetchPriority="high"
-              className="w-full h-auto max-h-40 sm:max-h-none object-cover sm:object-contain rounded-xl shadow-sm"
-            />
-          </picture>
+          <img
+            src="/pachiya-meshi-hero.webp"
+            alt="パチ屋飯 - ホール周辺の飲食店検索"
+            width={HERO_ASPECT_WIDTH}
+            height={HERO_ASPECT_HEIGHT}
+            decoding="async"
+            fetchPriority="high"
+            className="w-full h-auto max-h-40 sm:max-h-none object-cover sm:object-contain rounded-xl shadow-sm"
+          />
         </div>
 
         {/* 人気エリア */}
