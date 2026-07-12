@@ -9,8 +9,8 @@
  * AuditReport JSON 契約を破壊的に変更する場合だけ AUDIT_SCHEMA_VERSION を更新する。
  */
 export const AUDIT_SCHEMA_VERSION = "1.0.0"
-export const AUDIT_RULE_VERSION = "1.2.0"
-export const AUDIT_CONFIG_VERSION = "1.1.0"
+export const AUDIT_RULE_VERSION = "1.3.0"
+export const AUDIT_CONFIG_VERSION = "1.2.0"
 
 export const AUDIT_SEVERITY_ORDER = {
   critical: 0,

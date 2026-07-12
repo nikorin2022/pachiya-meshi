@@ -12,7 +12,7 @@ export const HALL_DESCRIPTION_SIMILARITY_MIN_LENGTH = 80
  */
 export const HALL_DESCRIPTION_SIMILARITY_THRESHOLD = 0.9
 
-export function normalizeHallName(value: string): string {
+export function normalizeComparableName(value: string): string {
   return value
     .normalize("NFKC")
     .trim()
@@ -20,11 +20,19 @@ export function normalizeHallName(value: string): string {
     .toLocaleLowerCase("en-US")
 }
 
-export function normalizeHallText(value: string): string {
+export function normalizeHallName(value: string): string {
+  return normalizeComparableName(value)
+}
+
+export function normalizeComparableText(value: string): string {
   return value
     .normalize("NFKC")
     .trim()
     .replace(/\s+/gu, " ")
+}
+
+export function normalizeHallText(value: string): string {
+  return normalizeComparableText(value)
 }
 
 export function bigramJaccardSimilarity(left: string, right: string): number {
@@ -40,7 +48,7 @@ export function bigramJaccardSimilarity(left: string, right: string): number {
 }
 
 function toBigrams(value: string): ReadonlySet<string> {
-  const normalized = normalizeHallText(value)
+  const normalized = normalizeComparableText(value)
   const bigrams = new Set<string>()
   for (let index = 0; index < normalized.length - 1; index += 1) {
     bigrams.add(normalized.slice(index, index + 2))
