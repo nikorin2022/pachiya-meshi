@@ -1,0 +1,11 @@
+{
+  "schemaVersion": "1.0.0",
+  "recordedAt": "2026-07-14",
+  "total": 209,
+  "fixed": 8,
+  "areas": 40,
+  "chains": 25,
+  "halls": 131,
+  "guides": 5,
+  "excluded": ["/search"]
+}
