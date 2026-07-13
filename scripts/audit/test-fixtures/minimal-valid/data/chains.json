@@ -1,0 +1,9 @@
+[
+  {
+    "id": "test-chain",
+    "name": "テストチェーン",
+    "official_url": "https://example.test/chain",
+    "description_short": "監査用チェーンです",
+    "description": "監査fixture専用のチェーン説明です。固定fixtureの参照整合性と最低限の必須項目を確認するため、実在の店舗や正本データとは無関係な値だけを使います。通常監査でissueが発生しない十分な長さを保っています。ここに記載する名称、URL、紹介文はすべてテスト専用であり、公開ページや生成データへ流用しません。"
+  }
+]

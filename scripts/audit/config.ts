@@ -10,7 +10,7 @@
  */
 export const AUDIT_SCHEMA_VERSION = "1.0.0"
 export const AUDIT_RULE_VERSION = "1.4.2"
-export const AUDIT_CONFIG_VERSION = "1.3.0"
+export const AUDIT_CONFIG_VERSION = "1.3.1"
 
 export const AUDIT_SEVERITY_ORDER = {
   critical: 0,

@@ -1,0 +1,17 @@
+[
+  {
+    "id": "test-restaurant",
+    "legacy_id": 1,
+    "name": "テスト食堂",
+    "area_id": "test-area",
+    "genre": "ラーメン",
+    "time_category": ["昼"],
+    "hours": "11:00〜21:00",
+    "tags": ["一人OK"],
+    "address": "東京都千代田区テスト町1-2-4",
+    "lat": 35.681412,
+    "lng": 139.767338,
+    "default_ai_summary": "監査fixture専用の食堂です。テストホールから短時間で利用できる最小の正規データとして使用します。",
+    "is_kitaichimeshi": true
+  }
+]

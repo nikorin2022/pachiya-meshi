@@ -1,5 +1,6 @@
 import path from "node:path"
-import { runAudit } from "./audit-runner"
+import { pathToFileURL } from "node:url"
+import { runAudit, type RunAuditOptions, type RunAuditResult } from "./audit-runner"
 import { DEFAULT_AUDIT_REPORT_PATH, resolveAuditReportPath, writeAuditReport } from "./write-report"
 
 type CliOptions = {
@@ -10,40 +11,59 @@ type CliOptions = {
   readonly help: boolean
 }
 
-async function main(argv: readonly string[]): Promise<void> {
+export type AuditCliDependencies = {
+  readonly runAudit?: (options: RunAuditOptions) => Promise<RunAuditResult>
+  readonly writeAuditReport?: typeof writeAuditReport
+  readonly stdout?: { write(value: string): void }
+  readonly stderr?: { write(value: string): void }
+  readonly setExitCode?: (value: 0 | 1 | 2) => void
+  readonly cwd?: () => string
+}
+
+/** CLIの公開引数を増やさず、直接実行とテストを同じ本体へ通す。 */
+export async function runAuditCli(
+  argv: readonly string[],
+  dependencies: AuditCliDependencies = {},
+): Promise<void> {
+  const stdout = dependencies.stdout ?? process.stdout
+  const stderr = dependencies.stderr ?? process.stderr
+  const setExitCode = dependencies.setExitCode ?? ((value: 0 | 1 | 2) => { process.exitCode = value })
+  const run = dependencies.runAudit ?? runAudit
+  const write = dependencies.writeAuditReport ?? writeAuditReport
+  const cwd = dependencies.cwd ?? process.cwd
   let options: CliOptions
   try {
     options = parseArguments(argv)
   } catch (error) {
-    writeStderr(error instanceof Error ? error.message : "CLI引数を解釈できません")
-    process.exitCode = 2
+    writeStderr(stderr, error instanceof Error ? error.message : "CLI引数を解釈できません")
+    setExitCode(2)
     return
   }
   if (options.help) {
-    process.stdout.write(`${usage()}\n`)
-    process.exitCode = 0
+    stdout.write(`${usage()}\n`)
+    setExitCode(0)
     return
   }
 
-  const root = path.resolve(options.repositoryRoot ?? process.cwd())
+  const root = path.resolve(options.repositoryRoot ?? cwd())
   try {
     // --no-writeでも危険な出力先指定を受け入れず、CLI入力としてfail closedにする。
     resolveAuditReportPath(root, options.output)
   } catch (error) {
-    writeStderr(error instanceof Error ? error.message : "出力先を解決できません")
-    process.exitCode = 2
+    writeStderr(stderr, error instanceof Error ? error.message : "出力先を解決できません")
+    setExitCode(2)
     return
   }
 
-  const result = await runAudit({ repositoryRoot: root })
+  const result = await run({ repositoryRoot: root })
   let reportPath: string | null = null
   if (!options.noWrite) {
     try {
       resolveAuditReportPath(root, options.output)
-      reportPath = await writeAuditReport(root, result.report, options.output)
+      reportPath = await write(root, result.report, options.output)
     } catch (error) {
-      writeStderr(error instanceof Error ? error.message : "監査レポートを書き込めません")
-      process.exitCode = 2
+      writeStderr(stderr, error instanceof Error ? error.message : "監査レポートを書き込めません")
+      setExitCode(2)
       return
     }
   }
@@ -62,9 +82,9 @@ async function main(argv: readonly string[]): Promise<void> {
     reportPath: reportPath ? toRepositoryRelativePath(root, reportPath) : null,
   }
   if (options.json) {
-    process.stdout.write(`${JSON.stringify(summary)}\n`)
+    stdout.write(`${JSON.stringify(summary)}\n`)
   } else {
-    process.stdout.write([
+    stdout.write([
       `status: ${summary.status}`,
       `exitCode: ${summary.exitCode}`,
       `publishable: ${summary.publishable}`,
@@ -78,7 +98,7 @@ async function main(argv: readonly string[]): Promise<void> {
       `reportPath: ${summary.reportPath ?? "(no-write)"}`,
     ].join("\n") + "\n")
   }
-  process.exitCode = result.exitCode
+  setExitCode(result.exitCode)
 }
 
 function parseArguments(argv: readonly string[]): CliOptions {
@@ -133,11 +153,13 @@ function usage(): string {
   ].join("\n")
 }
 
-function writeStderr(message: string): void {
-  process.stderr.write(`audit: ${message}\n`)
+function writeStderr(stderr: { write(value: string): void }, message: string): void {
+  stderr.write(`audit: ${message}\n`)
 }
 
-void main(process.argv.slice(2)).catch(() => {
-  writeStderr("予期しないCLIエラーが発生しました")
-  process.exitCode = 2
-})
+if (process.argv[1] && import.meta.url === pathToFileURL(process.argv[1]).href) {
+  void runAuditCli(process.argv.slice(2)).catch(() => {
+    writeStderr(process.stderr, "予期しないCLIエラーが発生しました")
+    process.exitCode = 2
+  })
+}
