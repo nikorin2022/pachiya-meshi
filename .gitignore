@@ -20,6 +20,9 @@ node_modules
 # dump-halls / diff-halls の検証用スナップショット (Phase C 中の作業ファイル)
 halls-legacy.json
 
+# Data-audit JSON reports
+artifacts/automation/
+
 # Lockfiles other than npm (this project uses npm)
 pnpm-lock.yaml
 yarn.lock
