@@ -49,7 +49,7 @@ export default function PrivacyPage() {
           アクセス解析について
         </h3>
         <p className="mb-2">
-          当サイトでは、本番環境において Google Analytics（Google Analytics 4）を利用しています。Google Analytics は Cookie 等を用いてアクセス情報を収集し、匿名化された統計情報としてサイトの改善に利用します。
+          当サイトでは、本番環境において Google Analytics（Google Analytics 4）を利用しています。Google Analytics は Cookie 等を用いてアクセス情報を収集し、個人を直接特定しない形でアクセス状況を分析し、サイトの改善に利用します。
         </p>
         <p className="mb-2">
           また、本番環境において Vercel Analytics を利用しています。Vercel Analytics は、ページの閲覧数やパフォーマンス等の集計情報を取得し、サイト運営・改善の参考にします。
@@ -68,6 +68,18 @@ export default function PrivacyPage() {
         </p>
         <p className="mb-2">
           広告配信事業者（Google 等）は、利用者の興味や関心に応じた広告を表示するため、Cookie 等を使用して当サイトや他サイトへの過去のアクセス情報を収集することがあります。これにより、パーソナライズ広告（利用者の興味に応じた広告）が配信される場合があります。
+        </p>
+        <p className="mb-2">
+          第三者配信事業者（Googleを含む）は、広告配信の結果として、利用者のブラウザにCookieを保存または参照したり、ウェブビーコン、IPアドレスその他の識別子を使用して情報を収集する場合があります。Googleによる広告Cookieの利用により、当サイトまたは他のウェブサイトへのアクセス情報に基づいた広告が配信される場合があります。詳しくは、
+          <a
+            href="https://policies.google.com/technologies/partner-sites?hl=ja"
+            className="text-red-600 hover:text-red-700 font-medium"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Googleがパートナーのサイトやアプリを使用する際の情報利用について
+          </a>
+          をご確認ください。
         </p>
         <p>
           パーソナライズ広告の無効化や Cookie の利用設定は、ブラウザの設定から変更できます。Google による広告の配信に関する詳細は、
