@@ -41,6 +41,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "/contact",
     "/privacy",
     "/terms",
+    "/games/shin-omoshiroi-yatsu",
     GUIDE_INDEX_PATH,
     ...GUIDE_PAGE_PATHS,
   ].map((path) => ({

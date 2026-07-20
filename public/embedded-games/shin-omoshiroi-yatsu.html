@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="robots" content="noindex, nofollow" />
+  <title>真のおもしろいやつ風のなにか</title>
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      min-height: 100vh;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background: radial-gradient(circle at top, #42115f 0%, #15051f 52%, #050209 100%);
+      color: #fff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 16px;
+    }
+    .game {
+      width: min(760px, 100%);
+      background: linear-gradient(180deg, rgba(255,255,255,.13), rgba(255,255,255,.04));
+      border: 2px solid rgba(255,220,120,.8);
+      border-radius: 24px;
+      box-shadow: 0 0 42px rgba(255,183,0,.28), inset 0 0 30px rgba(255,255,255,.06);
+      padding: 22px;
+    }
+    h1 {
+      margin: 0 0 16px;
+      text-align: center;
+      font-size: clamp(24px, 5vw, 42px);
+      letter-spacing: .04em;
+      color: #ffe66d;
+      text-shadow: 0 3px 0 #8b3500, 0 0 18px rgba(255,230,109,.85);
+    }
+    .status {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 12px;
+      margin-bottom: 18px;
+    }
+    .panel {
+      background: rgba(0,0,0,.32);
+      border: 1px solid rgba(255,255,255,.18);
+      border-radius: 16px;
+      padding: 12px;
+      text-align: center;
+    }
+    .label { font-size: 13px; color: #d9c9ff; }
+    .value { display:block; margin-top:4px; font-size: clamp(24px, 6vw, 40px); font-weight: 900; color:#fff7a1; }
+
+    .drum-wrap {
+      position: relative;
+      width: min(420px, 92vw);
+      height: 122px;
+      margin: 0 auto 16px;
+      overflow: hidden;
+      border-radius: 22px;
+      border: 6px solid #ffd76d;
+      background: #13051e;
+      box-shadow: 0 0 28px rgba(255,215,109,.5), inset 0 0 26px rgba(0,0,0,.75);
+    }
+    .drum-wrap::before, .drum-wrap::after {
+      content: "";
+      position: absolute;
+      left: 0;
+      width: 100%;
+      height: 34px;
+      z-index: 3;
+      pointer-events: none;
+    }
+    .drum-wrap::before { top: 0; background: linear-gradient(180deg, #13051e 0%, transparent 100%); }
+    .drum-wrap::after { bottom: 0; background: linear-gradient(0deg, #13051e 0%, transparent 100%); }
+    .stop-line {
+      display: none;
+    }
+    .reel {
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 100%;
+      transform: translateY(26px);
+    }
+    .drum-wrap.spinning .reel { animation: roll .18s linear infinite; }
+    @keyframes roll {
+      from { transform: translateY(26px); }
+      to { transform: translateY(-394px); }
+    }
+    .symbol {
+      height: 70px;
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      font-size: clamp(24px, 6vw, 44px);
+      font-weight: 1000;
+      letter-spacing: .06em;
+      text-shadow: 0 3px 0 #000, 0 0 16px rgba(255,255,255,.35);
+    }
+    .miss { color:#d7d7d7; }
+    .weak-cherry { color:#ff6b7a; }
+    .strong-cherry { color:#ff2448; }
+    .weak-watermelon { color:#68ff8d; }
+    .strong-watermelon { color:#19e659; }
+    .jackpot { color:#42dfff; text-shadow: 0 3px 0 #003b68, 0 0 22px rgba(66,223,255,.95); }
+
+    .effect {
+      min-height: 96px;
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      text-align:center;
+      margin: 8px 0 14px;
+      font-size: clamp(22px, 7vw, 56px);
+      line-height: 1.15;
+      font-weight: 1000;
+      color:#ffef7a;
+      text-shadow: 0 4px 0 #7a2100, 0 0 22px rgba(255,239,122,.9);
+    }
+    .effect.flash { animation: flash .42s steps(2, end) infinite; }
+    @keyframes flash {
+      0%, 100% { opacity: 1; transform: scale(1); }
+      50% { opacity: .2; transform: scale(1.07); }
+    }
+    .result {
+      min-height: 74px;
+      background: rgba(0,0,0,.34);
+      border-radius: 16px;
+      padding: 14px;
+      text-align: center;
+      font-size: 18px;
+      line-height: 1.6;
+      margin-bottom: 16px;
+    }
+    .buttons { display:grid; grid-template-columns: 1fr 1fr; gap:12px; margin-bottom:16px; }
+    button {
+      border: none;
+      border-radius: 14px;
+      padding: 16px 12px;
+      font-size: 18px;
+      font-weight: 900;
+      cursor: pointer;
+      color: #24020d;
+      background: linear-gradient(180deg, #fff176, #ffb300);
+      box-shadow: 0 5px 0 #8b4f00;
+    }
+    button:active:not(:disabled) { transform: translateY(4px); box-shadow: 0 1px 0 #8b4f00; }
+    button:disabled { opacity:.48; cursor:not-allowed; }
+    .log {
+      max-height: 180px;
+      overflow:auto;
+      background: rgba(0,0,0,.24);
+      border-radius: 14px;
+      padding: 12px;
+      font-size: 14px;
+      line-height: 1.7;
+    }
+    .total-area {
+      margin-top: 16px;
+      background: rgba(0,0,0,.28);
+      border: 1px solid rgba(255,215,109,.35);
+      border-radius: 16px;
+      padding: 14px;
+    }
+    .total-title {
+      margin: 0 0 10px;
+      text-align: center;
+      font-size: 16px;
+      font-weight: 900;
+      color: #ffe66d;
+      letter-spacing: .04em;
+    }
+    .total-status {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 10px;
+      margin-bottom: 12px;
+    }
+    .total-reset-button {
+      width: 100%;
+      padding: 12px;
+      font-size: 15px;
+      background: linear-gradient(180deg, #d7c8ff, #8d6cff);
+      box-shadow: 0 5px 0 #3b247d;
+      color: #13051e;
+    }
+    .total-reset-button:active:not(:disabled) { box-shadow: 0 1px 0 #3b247d; }
+    .note { color:#d7c8ff; font-size: 13px; text-align:center; margin-top:10px; }
+  </style>
+</head>
+<body>
+  <main class="game">
+    <h1>真のおもしろいやつ風のなにか</h1>
+
+    <section class="status">
+      <div class="panel"><span class="label">残り回転数</span><span id="spins" class="value">10</span></div>
+      <div class="panel"><span class="label">所持ポイント</span><span id="points" class="value">50</span></div>
+    </section>
+
+    <div id="drum" class="drum-wrap">
+      <div class="stop-line"></div>
+      <div id="reel" class="reel"></div>
+    </div>
+
+    <div id="effect" class="effect">スタート！</div>
+    <div id="result" class="result">回転開始ボタンを押してください。</div>
+
+    <div class="buttons">
+      <button id="spinButton">回転開始</button>
+      <button id="resetButton">リセット</button>
+    </div>
+
+    <div id="log" class="log">ログがここに表示されます。</div>
+
+    <section class="total-area">
+      <p class="total-title">累計カウンター</p>
+      <div class="total-status">
+        <div class="panel"><span class="label">総回転数</span><span id="totalSpins" class="value">0</span></div>
+        <div class="panel"><span class="label">超ボーナス回数</span><span id="totalJackpots" class="value">0</span></div>
+      </div>
+      <button id="counterResetButton" class="total-reset-button">累計カウンターをリセット</button>
+    </section>
+  </main>
+
+  <script>
+    const INITIAL_SPINS = 10;
+    const INITIAL_POINTS = 50;
+    const SYMBOL_HEIGHT = 70;
+
+    const outcomes = [
+      { key: 'weakCherry', label: '弱チェリー', probability: 1 / 20.5 },
+      { key: 'strongCherry', label: '強チェリー', probability: 1 / 168 },
+      { key: 'weakWatermelon', label: '弱スイカ', probability: 1 / 20.5 },
+      { key: 'strongWatermelon', label: '強スイカ', probability: 1 / 168 },
+      { key: 'jackpot', label: '超大当たり', probability: 1 / 168 },
+      { key: 'miss', label: 'ハズレ', probability: null }
+    ];
+
+    const displaySymbols = [
+      { key: 'miss', label: 'ハズレ', className: 'miss' },
+      { key: 'weakCherry', label: '弱チェリー', className: 'weak-cherry' },
+      { key: 'strongCherry', label: '強チェリー', className: 'strong-cherry' },
+      { key: 'weakWatermelon', label: '弱スイカ', className: 'weak-watermelon' },
+      { key: 'strongWatermelon', label: '強スイカ', className: 'strong-watermelon' },
+      { key: 'jackpot', label: '超大当たり', className: 'jackpot' }
+    ];
+
+    let spins = INITIAL_SPINS;
+    let points = INITIAL_POINTS;
+    let isSpinning = false;
+    let isGameOver = false;
+    let playCount = 0;
+    let totalSpins = Number(localStorage.getItem('trueFunnyTotalSpins') || 0);
+    let totalJackpots = Number(localStorage.getItem('trueFunnyTotalJackpots') || 0);
+
+    const spinsEl = document.getElementById('spins');
+    const pointsEl = document.getElementById('points');
+    const effectEl = document.getElementById('effect');
+    const resultEl = document.getElementById('result');
+    const spinButton = document.getElementById('spinButton');
+    const resetButton = document.getElementById('resetButton');
+    const logEl = document.getElementById('log');
+    const drumEl = document.getElementById('drum');
+    const reelEl = document.getElementById('reel');
+    const totalSpinsEl = document.getElementById('totalSpins');
+    const totalJackpotsEl = document.getElementById('totalJackpots');
+    const counterResetButton = document.getElementById('counterResetButton');
+
+    function buildReel() {
+      reelEl.innerHTML = '';
+      const repeated = [];
+      for (let i = 0; i < 14; i++) repeated.push(...displaySymbols);
+      repeated.forEach(symbol => {
+        const div = document.createElement('div');
+        div.className = `symbol ${symbol.className}`;
+        div.textContent = symbol.label;
+        div.dataset.key = symbol.key;
+        reelEl.appendChild(div);
+      });
+      stopReelAt('miss');
+    }
+
+    function saveCounterStats() {
+      localStorage.setItem('trueFunnyTotalSpins', String(totalSpins));
+      localStorage.setItem('trueFunnyTotalJackpots', String(totalJackpots));
+    }
+
+    function updateCounterUI() {
+      totalSpinsEl.textContent = totalSpins;
+      totalJackpotsEl.textContent = totalJackpots;
+    }
+
+    function updateUI() {
+      spinsEl.textContent = spins;
+      pointsEl.textContent = points;
+      spinButton.disabled = isSpinning || isGameOver || spins <= 0;
+      updateCounterUI();
+    }
+
+    function weightedPick(items) {
+      const total = items.reduce((sum, item) => sum + item.weight, 0);
+      let r = Math.random() * total;
+      for (const item of items) {
+        r -= item.weight;
+        if (r <= 0) return item.value;
+      }
+      return items[items.length - 1].value;
+    }
+
+    function drawOutcome() {
+      const r = Math.random();
+      let cursor = 0;
+      for (const outcome of outcomes) {
+        if (outcome.key === 'miss') continue;
+        cursor += outcome.probability;
+        if (r < cursor) return outcome;
+      }
+      return outcomes.find(o => o.key === 'miss');
+    }
+
+    function drawReward(outcomeKey) {
+      if (outcomeKey === 'weakCherry' || outcomeKey === 'weakWatermelon') {
+        // 平均100pt：46,38,11,4,1
+        return weightedPick([
+          { value: 50, weight: 46 },
+          { value: 100, weight: 38 },
+          { value: 200, weight: 11 },
+          { value: 300, weight: 4 },
+          { value: 500, weight: 1 }
+        ]);
+      }
+      if (outcomeKey === 'strongCherry' || outcomeKey === 'strongWatermelon') {
+        // 平均200pt：45,30,15,10
+        return weightedPick([
+          { value: 100, weight: 45 },
+          { value: 200, weight: 30 },
+          { value: 300, weight: 15 },
+          { value: 500, weight: 10 }
+        ]);
+      }
+      if (outcomeKey === 'jackpot') return 2000;
+      return 0;
+    }
+
+    function drawAddedSpins(outcomeKey) {
+      if (outcomeKey === 'weakCherry' || outcomeKey === 'weakWatermelon') {
+        return weightedPick([
+          { value: 3, weight: 25 },
+          { value: 4, weight: 50 },
+          { value: 5, weight: 25 }
+        ]);
+      }
+      if (outcomeKey === 'strongCherry' || outcomeKey === 'strongWatermelon') {
+        return weightedPick([
+          { value: 5, weight: 35 },
+          { value: 6, weight: 45 },
+          { value: 7, weight: 10 },
+          { value: 8, weight: 5 },
+          { value: 9, weight: 5 }
+        ]);
+      }
+      return 0;
+    }
+
+    function drawEffect(outcomeKey) {
+      const r = Math.random() * 100;
+      if (outcomeKey === 'miss') return r < 20 ? 'チャンス！' : '';
+      if (outcomeKey === 'weakCherry' || outcomeKey === 'weakWatermelon') {
+        return r < 20 ? 'チャンス！' : 'チャンス！襖があいたぞ！';
+      }
+      if (outcomeKey === 'strongCherry' || outcomeKey === 'strongWatermelon') {
+        return r < 80 ? 'チャンス！襖があいたぞ！' : '超チャンス！７かもしれない！';
+      }
+      if (outcomeKey === 'jackpot') {
+        if (r < 1) return 'チャンス！';
+        if (r < 10) return 'チャンス！襖があいたぞ！';
+        return '超チャンス！７かもしれない！';
+      }
+      return '';
+    }
+
+    function getStopDuration(effectText) {
+      if (!effectText) return 2000;
+      if (effectText === 'チャンス！') return 3000;
+      if (effectText === 'チャンス！襖があいたぞ！') return 5000;
+      if (effectText === '超チャンス！７かもしれない！') return 7000;
+      return 3000;
+    }
+
+    function stopReelAt(key) {
+      const symbols = Array.from(reelEl.children);
+      const targetIndex = symbols.findIndex(el => el.dataset.key === key);
+      const safeIndex = targetIndex >= 0 ? targetIndex : 0;
+      reelEl.style.animation = 'none';
+      reelEl.style.transform = `translateY(${26 - safeIndex * SYMBOL_HEIGHT}px)`;
+    }
+
+    function addLog(text) {
+      if (logEl.textContent === 'ログがここに表示されます。') logEl.textContent = '';
+      const div = document.createElement('div');
+      div.textContent = text;
+      logEl.prepend(div);
+    }
+
+    function setEffect(text) {
+      effectEl.textContent = text || '……';
+      effectEl.classList.toggle('flash', Boolean(text));
+    }
+
+    function spin() {
+      if (isSpinning || isGameOver || spins <= 0) return;
+
+      isSpinning = true;
+      playCount += 1;
+      totalSpins += 1;
+      spins -= 1;
+
+      const outcome = drawOutcome();
+      const reward = drawReward(outcome.key);
+      const addedSpins = drawAddedSpins(outcome.key);
+      const effectText = drawEffect(outcome.key);
+      const stopDuration = getStopDuration(effectText);
+
+      updateUI();
+      resultEl.textContent = 'ドラム回転中……';
+      setEffect(effectText);
+
+      drumEl.classList.add('spinning');
+      reelEl.style.animation = '';
+      reelEl.style.transform = '';
+
+      setTimeout(() => {
+        drumEl.classList.remove('spinning');
+        stopReelAt(outcome.key);
+
+        points += reward;
+        spins += addedSpins;
+
+        let resultText = `<strong>${outcome.label}</strong><br>`;
+        if (reward > 0) resultText += `+${reward}pt獲得！<br>`;
+        if (addedSpins > 0) resultText += `回転数 +${addedSpins}回！<br>`;
+        if (outcome.key === 'miss') resultText += '残念、ハズレ。<br>';
+
+        if (outcome.key === 'jackpot') {
+          totalJackpots += 1;
+          saveCounterStats();
+          isGameOver = true;
+          spins = 0;
+          resultText += '超大当たり！ここで終了！';
+        } else if (spins <= 0) {
+          isGameOver = true;
+          resultText += '回転数がなくなりました。ゲーム終了！';
+        }
+
+        resultEl.innerHTML = resultText;
+        addLog(`${playCount}回目：${outcome.label} / 演出:${effectText || 'なし'} / +${reward}pt / +${addedSpins}回 / 合計${points}pt`);
+
+        saveCounterStats();
+        isSpinning = false;
+        effectEl.classList.remove('flash');
+        if (!effectText) effectEl.textContent = '停止！';
+        updateUI();
+      }, stopDuration);
+    }
+
+    function resetCounterStats() {
+      totalSpins = 0;
+      totalJackpots = 0;
+      saveCounterStats();
+      updateCounterUI();
+    }
+
+    function resetGame() {
+      spins = INITIAL_SPINS;
+      points = INITIAL_POINTS;
+      isSpinning = false;
+      isGameOver = false;
+      playCount = 0;
+      drumEl.classList.remove('spinning');
+      stopReelAt('miss');
+      effectEl.textContent = 'スタート！';
+      effectEl.classList.remove('flash');
+      resultEl.textContent = '回転開始ボタンを押してください。';
+      logEl.textContent = 'ログがここに表示されます。';
+      updateUI();
+    }
+
+    spinButton.addEventListener('click', spin);
+    resetButton.addEventListener('click', resetGame);
+    counterResetButton.addEventListener('click', resetCounterStats);
+    buildReel();
+    updateUI();
+  </script>
+</body>
+</html>
