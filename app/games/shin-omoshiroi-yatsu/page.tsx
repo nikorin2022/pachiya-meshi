@@ -29,11 +29,11 @@ export default function ShinOmoshiroiYatsuPage() {
         「真のおもしろいやつ風のなにか」は、ドラムを回して結果を楽しむオリジナルのミニゲームです。
       </p>
 
-      <div className="w-full overflow-hidden rounded-lg border border-gray-200 bg-gray-950">
+      <div className="-mx-3 overflow-hidden rounded-lg border border-gray-200 bg-gray-950 sm:mx-0">
         <iframe
           src="/embedded-games/shin-omoshiroi-yatsu.html"
           title="真のおもしろいやつ風のなにか ゲーム本体"
-          className="block h-[1040px] w-full border-0"
+          className="block h-[860px] w-full border-0 sm:h-[980px] lg:h-[1040px]"
         />
       </div>
 
