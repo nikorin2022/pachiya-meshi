@@ -261,6 +261,22 @@ export default function TopPage() {
           </Link>
         </section>
 
+        <section className="bg-white rounded-lg shadow-sm border border-gray-200 p-4 sm:p-6 mb-4 sm:mb-6">
+          <h2 className="text-base sm:text-lg font-bold text-gray-900 mb-2">
+            ミニゲーム
+          </h2>
+          <p className="text-xs sm:text-sm text-gray-600 leading-relaxed mb-3 sm:mb-4">
+            ドラムを回して結果を楽しむ、オリジナルのミニゲームです。
+          </p>
+          <Link
+            href="/games/shin-omoshiroi-yatsu"
+            className={linkButtonClassName}
+          >
+            真のおもしろいやつ風のなにか
+            <ChevronRight className="w-3.5 h-3.5 shrink-0" />
+          </Link>
+        </section>
+
         <p className="text-[10px] sm:text-xs text-gray-500 mt-6 sm:mt-8">
           ※営業時間やメニュー内容は変更されている場合があります。ご来店前に各店舗へご確認ください。
         </p>
